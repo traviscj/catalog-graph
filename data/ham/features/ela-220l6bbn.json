@@ -1,0 +1,55 @@
+{
+ "id": "ela-220l6bbn",
+ "kind": "antenna",
+ "name": "220L6BBN",
+ "title": "Elk Antennas 220L6BBN",
+ "brand": "Elk",
+ "price": 153.95,
+ "line": "V/U log-periodic",
+ "legacy": false,
+ "summary": "6-element 220 MHz LPDA on 24 in. boom, 9.5 dBi, 150 W",
+ "jobs": [
+  {
+   "job": "ant_vu_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "log-periodic",
+  "mount": "portable",
+  "ant_bands": [
+   "1.25m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 150,
+  "max_w_digital": null,
+  "gain_dbi": 9.5,
+  "elements": 6,
+  "boom_ft": 2.0,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": "N female",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "fb_db": 28,
+   "dxe_part_type": "vhf-uhf-beam-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

@@ -1,0 +1,147 @@
+{
+ "id": "ysu-ftdx-10",
+ "name": "FTDX10",
+ "title": "Yaesu FTDX10",
+ "brand": "Yaesu",
+ "price": 1499.95,
+ "line": "HF base (hybrid SDR)",
+ "legacy": false,
+ "summary": "Compact 100W HF/6m hybrid-SDR base rig with FTDX101-class narrowband receiver, roofing filters, 3DSS touch scope.",
+ "jobs": [
+  {
+   "job": "hf_base",
+   "role": "primary"
+  },
+  {
+   "job": "hf_contest_dx",
+   "role": "secondary"
+  },
+  {
+   "job": "ft8_digital",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "base",
+  "bands_tx": [
+   "160m",
+   "80m",
+   "60m",
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m",
+   "6m"
+  ],
+  "hf": true,
+  "vhf_uhf": false,
+  "rx_range": "0.030–75 MHz",
+  "power_w": {
+   "hf": 100,
+   "6m": 100,
+   "2m": null,
+   "70cm": null,
+   "23cm": null
+  },
+  "modes": [
+   "SSB",
+   "CW",
+   "AM",
+   "FM",
+   "RTTY",
+   "PSK",
+   "DATA"
+  ],
+  "digital_voice": [],
+  "receiver_arch": "hybrid SDR",
+  "band_scope": "real-time 3DSS scope + waterfall",
+  "display": "5in color touch",
+  "dual_receive": false,
+  "dual_watch": false,
+  "atu": true,
+  "usb_single_cable": true,
+  "lan_remote": false,
+  "wifi_bt": [],
+  "gps": false,
+  "aprs": false,
+  "full_duplex_sat": false,
+  "crossband_repeat": false,
+  "detachable_head": false,
+  "power_source": "13.8 VDC external",
+  "tx_current_a": 23.0,
+  "battery": null,
+  "ip_rating": null,
+  "antenna_ports": 1,
+  "rx_antenna_in": false,
+  "roofing_filters": "12k/3k/500/300(opt)",
+  "memories": 99,
+  "weight_kg": 5.9,
+  "size_mm": "266×91×263",
+  "special": [
+   "DVI external monitor out",
+   "9 MHz IF down-conversion narrowband SDR",
+   "RMDR 116 dB / BDR 141 dB @2 kHz",
+   "250 MHz HRDDS LO",
+   "AM 25W max"
+  ],
+  "requires": [
+   "13.8V 23A power supply"
+  ],
+  "extra": {
+   "remote_option": "SCU-LAN10 (optional) for internet remote",
+   "min_power_w": 5,
+   "list_price": 1699.95,
+   "avail": "InStock"
+  }
+ },
+ "gotchas": [
+  "single receiver, no dual watch — FTDX101D has two independent receivers for split DX",
+  "LAN remote needs optional SCU-LAN10 box — IC-7300MK2 has LAN built in",
+  "no 2m/70cm — FT-991A or FTX-1 Optima cover HF through 70cm",
+  "one antenna port and no RX-antenna input — FTDX101D/IC-7300MK2 offer RX-ant in",
+  "needs a 23A 13.8V supply (not included); 13 lb, not a field rig"
+ ],
+ "best_for": [
+  "serious HF operator wanting near-flagship RX at mid price",
+  "CW/SSB DXing in crowded bands",
+  "external-monitor shack setups"
+ ],
+ "not_for": [
+  "VHF/UHF or satellite work",
+  "portable/POTA",
+  "built-in remote operation"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "13.8 V 25 A power supply",
+   "why": "no internal PSU; 23 A max draw",
+   "req": true
+  },
+  {
+   "id": "ysu-ftdx-101d",
+   "why": "step up to dual receivers",
+   "req": false
+  },
+  {
+   "id": "ysu-ft-991a",
+   "why": "adds 2m/70cm coverage as second rig",
+   "req": false
+  },
+  {
+   "id": "external DVI/HDMI monitor",
+   "why": "big 3DSS scope display",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 4.3,
+  "n": 136,
+  "pid": "14869",
+  "last": "2026-08-15",
+  "name": "Yaesu FTdx-10"
+ }
+}

@@ -1,0 +1,143 @@
+{
+ "id": "ysu-ftm-310dr",
+ "name": "FTM-310DR",
+ "title": "Yaesu FTM-310DR",
+ "brand": "Yaesu",
+ "price": 399.95,
+ "line": "C4FM mobile",
+ "legacy": false,
+ "summary": "2m/70cm C4FM/FM mobile, 55/50W, dual RX, GPS/APRS, detachable head; ASP optional.",
+ "jobs": [
+  {
+   "job": "vhf_uhf_mobile",
+   "role": "primary"
+  },
+  {
+   "job": "digital_voice",
+   "role": "primary"
+  },
+  {
+   "job": "aprs",
+   "role": "secondary"
+  },
+  {
+   "job": "emcomm",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "mobile",
+  "bands_tx": [
+   "2m",
+   "70cm"
+  ],
+  "hf": false,
+  "vhf_uhf": true,
+  "rx_range": "108–550 MHz (main + sub)",
+  "power_w": {
+   "hf": null,
+   "6m": null,
+   "2m": 55,
+   "70cm": 50,
+   "23cm": null
+  },
+  "modes": [
+   "FM",
+   "AM(RX air)",
+   "C4FM"
+  ],
+  "digital_voice": [
+   "C4FM"
+  ],
+  "receiver_arch": "FM (HT/mobile)",
+  "band_scope": "47-channel band scope",
+  "display": "full dot-matrix, amber/white backlight",
+  "dual_receive": false,
+  "dual_watch": true,
+  "atu": false,
+  "usb_single_cable": false,
+  "lan_remote": false,
+  "wifi_bt": [],
+  "gps": true,
+  "aprs": true,
+  "full_duplex_sat": false,
+  "crossband_repeat": true,
+  "detachable_head": true,
+  "power_source": "13.8 VDC external",
+  "tx_current_a": 11.0,
+  "battery": null,
+  "ip_rating": null,
+  "antenna_ports": 1,
+  "rx_antenna_in": false,
+  "roofing_filters": null,
+  "memories": null,
+  "weight_kg": 1.2,
+  "size_mm": "148×56×133",
+  "special": [
+   "AESS dual speakers 6W total",
+   "Super-DX RX boost",
+   "WiRES-X",
+   "C4FM/C4FM dual receive",
+   "SPU-1 ASP optional"
+  ],
+  "requires": [],
+  "extra": {
+   "variant": "non-ASP; SPU-1 sold separately",
+   "bt_option": "BU-5",
+   "power_steps_w": [
+    55,
+    25,
+    5
+   ],
+   "aprs_baud": "1200/9600",
+   "gps": "66-ch",
+   "warranty": "3-year",
+   "mic": "DTMF mic incl.",
+   "list_price": "499.95",
+   "avail": "InStock"
+  }
+ },
+ "gotchas": [
+  "Same DXE current price ($399.95) as the FTM-310DRASP, which adds the SPU-1 ASP module — buy the ASP",
+  "Bluetooth needs optional BU-5 module; FTM-510DRASP has it built in",
+  "Head-angle mount needs optional SJMK-500; separation cable/bracket checks before install",
+  "No 1.25m and C4FM only — no D-STAR (ID-5100A-D) or DMR",
+  "Base use needs a 13.8V 11A+ supply (not included)"
+ ],
+ "best_for": [
+  "car C4FM + APRS",
+  "base FM station w/ WiRES-X"
+ ],
+ "not_for": [
+  "HF",
+  "D-STAR"
+ ],
+ "pairs": [
+  {
+   "id": "13.8 V 15 A power supply",
+   "why": "base use; 11A draw on TX",
+   "req": false
+  },
+  {
+   "id": "dual-band NMO mobile antenna",
+   "why": "single port, built-in duplexer",
+   "req": false
+  },
+  {
+   "id": "BU-5 Bluetooth unit",
+   "why": "enables hands-free Bluetooth",
+   "req": false
+  },
+  {
+   "id": "ysu-ft-5dr",
+   "why": "C4FM HT with matching features",
+   "req": false
+  },
+  {
+   "id": "ysu-ftm-310drasp",
+   "why": "same radio; with SPU-1 ASP",
+   "req": false
+  }
+ ],
+ "confidence": "medium"
+}

@@ -1,0 +1,57 @@
+{
+ "id": "cma-gi990",
+ "kind": "antenna",
+ "name": "GI990",
+ "title": "Comet GI990 Series  VHF/UHF Ground Independent Mobile Vertical Antennas",
+ "brand": "Comet",
+ "price": 101.95,
+ "line": "V/U mobile whip",
+ "legacy": false,
+ "summary": "Comet GI990 ground-independent dual-band mobile antenna, 5.1/7.7 dBi",
+ "jobs": [
+  {
+   "job": "ant_vu_mobile",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "whip",
+  "mount": "mobile",
+  "ant_bands": [
+   "2m",
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 150,
+  "max_w_digital": null,
+  "gain_dbi": 5.1,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": false,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "UHF mount",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "vhf-uhf-mobile-vertical-antennas"
+  }
+ },
+ "gotchas": [
+  "Bands inferred (2m/70cm)"
+ ],
+ "confidence": "medium",
+ "pairs": [
+  {
+   "id": "mobile antenna mount (mag / trunk-lip / NMO)",
+   "why": "vehicle mount not included",
+   "req": false
+  }
+ ]
+}

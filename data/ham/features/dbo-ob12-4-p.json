@@ -1,0 +1,66 @@
+{
+ "id": "dbo-ob12-4-p",
+ "kind": "antenna",
+ "name": "OB12-4",
+ "title": "OptiBeam OB12-4",
+ "brand": "OptiBeam",
+ "price": 4049.98,
+ "line": "HF multiband yagi",
+ "legacy": false,
+ "summary": "12-element 40/20/15/10m OptiBeam yagi, 5 kW, 24.9 ft boom",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "40m",
+   "20m",
+   "15m",
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 5000,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 12,
+  "boom_ft": 24.93,
+  "turn_radius_ft": 27.43,
+  "wind_sqft": 16.8,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": 154.3,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "hf-directional-antennas"
+  }
+ },
+ "gotchas": [
+  "154 lb, 16.8 sq ft: serious tower and rotator"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ],
+ "rating": {
+  "avg": 5.0,
+  "n": 12,
+  "pid": "4007",
+  "last": "2024-10-22",
+  "name": "OptiBeam OB12-4 high performance midsize fourbander 40-20-15-10"
+ }
+}

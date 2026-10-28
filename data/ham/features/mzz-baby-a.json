@@ -1,0 +1,57 @@
+{
+ "id": "mzz-baby-a",
+ "kind": "antenna",
+ "name": "BABY LOOP A",
+ "title": "Ciro Mazzoni BABY LOOP A",
+ "brand": "Ciro Mazzoni",
+ "price": 2335.99,
+ "line": "HF mag loop",
+ "legacy": false,
+ "summary": "Auto-tuning 40 in. aluminum magnetic loop for 40-10m with ATU controller",
+ "jobs": [
+  {
+   "job": "ant_small_space",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "mag-loop",
+  "mount": "base",
+  "ant_bands": [
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": "No (built-in ATU 2.0)",
+  "max_w": 450.0,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": 27.0,
+  "radials": null,
+  "directional": false,
+  "polarization": null,
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "limited-space-small-loop-antennas"
+  }
+ },
+ "gotchas": [
+  "ATU passes 200 W max from the rig",
+  "450 W max below 22 MHz"
+ ],
+ "confidence": "high",
+ "pairs": []
+}

@@ -1,0 +1,61 @@
+{
+ "id": "alp-mini-loop",
+ "kind": "antenna",
+ "name": "MiniLoop Digital",
+ "title": "Alpha Antenna MiniLoop Digital",
+ "brand": "Alpha",
+ "price": 2300.0,
+ "line": "HF mag loop",
+ "legacy": false,
+ "summary": "Portable mag loop, TX 10-54 MHz, RX 1.8 MHz-1 GHz, 25 W digital",
+ "jobs": [
+  {
+   "job": "ant_small_space",
+   "role": "primary"
+  },
+  {
+   "job": "ant_hf_portable",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "mag-loop",
+  "mount": "portable",
+  "ant_bands": [
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m",
+   "6m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 25,
+  "max_w_digital": 25,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": null,
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "rx_range": "1.8 MHz-1 GHz",
+   "dxe_part_type": "limited-space-small-loop-antennas"
+  }
+ },
+ "gotchas": [
+  "25 W max"
+ ],
+ "confidence": "high",
+ "pairs": []
+}

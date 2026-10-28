@@ -1,0 +1,64 @@
+{
+ "id": "cha-mcc-prv-sota",
+ "kind": "antenna",
+ "name": "PRV SOTA",
+ "title": "Chameleon Antenna PRV Portable Resonant Vertical Antennas",
+ "brand": "Chameleon",
+ "price": 569.0,
+ "line": "HF portable vertical",
+ "legacy": false,
+ "summary": "Chameleon PRV resonant portable loaded vertical, 40m-2m light kit",
+ "jobs": [
+  {
+   "job": "ant_hf_portable",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "vertical",
+  "mount": "portable",
+  "ant_bands": [
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m",
+   "6m",
+   "2m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 500,
+  "max_w_digital": 200,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 6.67,
+  "weight_lb": 3.0,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "hf-portable-stealth-antennas"
+  }
+ },
+ "gotchas": [
+  "Coil must be retuned per band"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "1:1 common-mode choke at the shack entry",
+   "why": "keeps feedline RF out of the shack",
+   "req": false
+  }
+ ]
+}

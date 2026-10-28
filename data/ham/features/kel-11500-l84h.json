@@ -1,0 +1,53 @@
+{
+ "id": "kel-11500-l84h",
+ "kind": "antenna",
+ "name": "DP-1608040-H",
+ "title": "Kelemen Trap Dipole Antennas",
+ "brand": "Kelemen",
+ "price": 438.99,
+ "line": "HF trap dipole",
+ "legacy": false,
+ "summary": "Kelemen DP-1608040-H 177 ft 160/80/40m trap dipole, 2 kW",
+ "jobs": [
+  {
+   "job": "ant_hf_wire",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "dipole",
+  "mount": "base",
+  "ant_bands": [
+   "160m",
+   "80m",
+   "40m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 2000,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": 177.4,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "wire-antennas"
+  }
+ },
+ "gotchas": [
+  "160m tuned below 1.9 MHz",
+  "Needs 177 ft span"
+ ],
+ "confidence": "high",
+ "pairs": []
+}

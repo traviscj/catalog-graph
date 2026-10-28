@@ -1,0 +1,57 @@
+{
+ "id": "ean-r2010249",
+ "kind": "antenna",
+ "name": "VU-LFA23",
+ "title": "EANTENNA VU-LFA23",
+ "brand": "EAntenna",
+ "price": 449.99,
+ "line": "V/U yagi",
+ "legacy": false,
+ "summary": "Dual-band 8-el 2m + 15-el 70cm LFA yagi, 12.4 ft boom",
+ "jobs": [
+  {
+   "job": "ant_vu_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "2m",
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 2000,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 23,
+  "boom_ft": 12.4,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": "terminal studs",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "vhf-uhf-beam-antennas"
+  }
+ },
+ "gotchas": [
+  "Studs, no connectors"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

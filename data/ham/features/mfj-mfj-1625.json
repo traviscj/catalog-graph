@@ -1,0 +1,88 @@
+{
+ "id": "mfj-mfj-1625",
+ "kind": "antenna",
+ "name": "MFJ-1625",
+ "title": "MFJ MFJ-1625",
+ "brand": "MFJ",
+ "price": 289.95,
+ "line": "HF window/balcony vertical",
+ "legacy": false,
+ "summary": "Apartment window/balcony whip with built-in tuner and counterpoise, 80-6m, 200 W",
+ "jobs": [
+  {
+   "job": "ant_small_space",
+   "role": "primary"
+  },
+  {
+   "job": "ant_hf_portable",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "vertical",
+  "mount": "base",
+  "ant_bands": [
+   "80m",
+   "60m",
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m",
+   "6m"
+  ],
+  "resonant": false,
+  "tuner_req": "built-in tuner (included)",
+  "max_w": 200,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 12,
+  "weight_lb": null,
+  "radials": true,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "collapsed_in": 22.5,
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [
+  "very short radiator on 80/40m — low efficiency",
+  "200 W max"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "antenna tuner (wide-range)",
+   "why": "non-resonant on its listed bands",
+   "req": true
+  },
+  {
+   "id": "radial wires / counterpoise",
+   "why": "vertical needs a ground system",
+   "req": true
+  },
+  {
+   "id": "1:1 common-mode choke at the shack entry",
+   "why": "keeps feedline RF out of the shack",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 4.3,
+  "n": 4,
+  "pid": "6876",
+  "last": "2016-06-25",
+  "name": "MFJ-1625 80-6 Meter Window/Balcony Antenna w/ Built In Tuner"
+ }
+}

@@ -1,0 +1,61 @@
+{
+ "id": "iva-18486-0115",
+ "kind": "antenna",
+ "name": "VHF-UHF-SHF LPDA 14el",
+ "title": "InnovAntennas VHF-UHF-SHF LPDA 14el",
+ "brand": "InnovAntennas",
+ "price": 466.99,
+ "line": "V/U log-periodic",
+ "legacy": false,
+ "summary": "14-element 100-750 MHz wideband LPDA, H or V mount",
+ "jobs": [
+  {
+   "job": "ant_vu_beam",
+   "role": "primary"
+  },
+  {
+   "job": "ant_rx",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "log-periodic",
+  "mount": "base",
+  "ant_bands": [
+   "2m",
+   "1.25m",
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 1000.0,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 14,
+  "boom_ft": 4.92,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": 3.1,
+  "radials": null,
+  "directional": true,
+  "polarization": null,
+  "connector": "terminal studs",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "range": "100-750 MHz",
+   "dxe_part_type": "vhf-uhf-beam-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

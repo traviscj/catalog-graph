@@ -1,0 +1,63 @@
+{
+ "id": "mfj-lp-1010an",
+ "kind": "antenna",
+ "name": "LP-1010AN",
+ "title": "Hy-Gain LP-1010AN",
+ "brand": "Hy-Gain",
+ "price": 3499.95,
+ "line": "HF log-periodic",
+ "legacy": false,
+ "summary": "Commercial-grade 6-band log-periodic 30-10m, 36 ft boom, N connector",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "log-periodic",
+  "mount": "base",
+  "ant_bands": [
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 1500,
+  "max_w_digital": null,
+  "gain_dbi": 7.0,
+  "elements": null,
+  "boom_ft": 36,
+  "turn_radius_ft": 28.5,
+  "wind_sqft": 16,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": "N",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "longest_el_ft": 48,
+   "fb_db": 22,
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [
+  "36 ft boom / 28.5 ft turning radius"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

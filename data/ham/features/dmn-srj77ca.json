@@ -1,0 +1,59 @@
+{
+ "id": "dmn-srj77ca",
+ "kind": "antenna",
+ "name": "SRJ77CA",
+ "title": "Diamond Antenna Dual-Band HT Antennas",
+ "brand": "Diamond",
+ "price": 24.99,
+ "line": "HT antenna",
+ "legacy": false,
+ "summary": "Diamond 15 in dual-band HT antenna, SMA female (Baofeng-style radios)",
+ "jobs": [
+  {
+   "job": "ant_ht",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "rubber-duck",
+  "mount": "handheld",
+  "ant_bands": [
+   "2m",
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 10,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 1.25,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "SMA-female",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "rx_range": "to 900 MHz",
+   "dxe_part_type": "handheld-and-scanner-antennas"
+  }
+ },
+ "gotchas": [
+  "SMA female — fits SMA-male-jack radios only"
+ ],
+ "confidence": "high",
+ "pairs": [],
+ "rating": {
+  "avg": 3.2,
+  "n": 9,
+  "pid": "13720",
+  "last": "2026-09-20",
+  "name": "Diamond SRJ77CA"
+ }
+}

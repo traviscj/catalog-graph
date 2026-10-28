@@ -1,0 +1,71 @@
+{
+ "id": "cae-clp-5130-2n",
+ "kind": "antenna",
+ "name": "CLP-5130-2N",
+ "title": "Create CLP-5130-2N",
+ "brand": "Create",
+ "price": 379.99,
+ "line": "V/U log-periodic",
+ "legacy": false,
+ "summary": "17-element 105-1300 MHz log-periodic, 500 W, N female",
+ "jobs": [
+  {
+   "job": "ant_vu_beam",
+   "role": "primary"
+  },
+  {
+   "job": "ant_rx",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "log-periodic",
+  "mount": "base",
+  "ant_bands": [
+   "2m",
+   "1.25m",
+   "70cm",
+   "23cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 500,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 17,
+  "boom_ft": 4.59,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": null,
+  "connector": "N female",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "freq": "105-1300 MHz",
+   "dxe_part_type": "vhf-uhf-beam-antennas"
+  }
+ },
+ "gotchas": [
+  "LPDA: modest gain vs monoband yagi"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ],
+ "rating": {
+  "avg": 4.7,
+  "n": 10,
+  "pid": "5017",
+  "last": "2021-06-02",
+  "name": "Create Log-Periodic CLP5130-1N"
+ }
+}

@@ -1,0 +1,56 @@
+{
+ "id": "dmn-rhf40",
+ "kind": "antenna",
+ "name": "RHF40",
+ "title": "Diamond Antenna RHF40",
+ "brand": "Diamond",
+ "price": 27.99,
+ "line": "HT antenna",
+ "legacy": false,
+ "summary": "16 in. flexible dual-band HT whip, BNC male",
+ "jobs": [
+  {
+   "job": "ant_ht",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "whip",
+  "mount": "handheld",
+  "ant_bands": [
+   "2m",
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 10,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 1.33,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "BNC male",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "handheld-and-scanner-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [],
+ "rating": {
+  "avg": 4.7,
+  "n": 3,
+  "pid": "5881",
+  "last": "2013-08-31",
+  "name": "DIamond RHF40"
+ }
+}

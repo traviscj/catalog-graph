@@ -1,0 +1,52 @@
+{
+ "id": "nce-0032524o108",
+ "kind": "antenna",
+ "name": "JFA-108K",
+ "title": "Chelegance JFA-108K",
+ "brand": "Chelegance",
+ "price": 12.99,
+ "line": "HT antenna",
+ "legacy": false,
+ "summary": "42.5 in. tactical folding 2m/70cm HT whip, SMA female",
+ "jobs": [
+  {
+   "job": "ant_ht",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "whip",
+  "mount": "handheld",
+  "ant_bands": [
+   "2m",
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 8.0,
+  "max_w_digital": null,
+  "gain_dbi": 3.0,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 3.54,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "SMA female",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "handheld-and-scanner-antennas"
+  }
+ },
+ "gotchas": [
+  "8 W max",
+  "SMA female — fits Baofeng-style (SMA-male) radios only"
+ ],
+ "confidence": "high",
+ "pairs": []
+}

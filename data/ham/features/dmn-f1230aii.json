@@ -1,0 +1,50 @@
+{
+ "id": "dmn-f1230aii",
+ "kind": "antenna",
+ "name": "F1230AII",
+ "title": "Diamond F1230AII",
+ "brand": "Diamond",
+ "price": 179.99,
+ "line": "V/U base vertical",
+ "legacy": false,
+ "summary": "11.5 ft 23cm high-gain base collinear, 13.8 dBi, N female",
+ "jobs": [
+  {
+   "job": "ant_vu_base",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "collinear",
+  "mount": "base",
+  "ant_bands": [
+   "23cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 100,
+  "max_w_digital": null,
+  "gain_dbi": 13.8,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 11.5,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "N female",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "vhf-uhf-base-vertical-antennas"
+  }
+ },
+ "gotchas": [
+  "23cm feedline loss: use hardline"
+ ],
+ "confidence": "high",
+ "pairs": []
+}

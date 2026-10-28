@@ -1,0 +1,62 @@
+{
+ "id": "opb-ob1-4030",
+ "kind": "antenna",
+ "name": "OB1-4030",
+ "title": "Optibeam OB1-4030",
+ "brand": "OptiBeam",
+ "price": 1699.99,
+ "line": "HF rotatable dipole",
+ "legacy": false,
+ "summary": "Rotary split-element 40/30m dipole, 48 ft, 5 kW",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "dipole",
+  "mount": "base",
+  "ant_bands": [
+   "40m",
+   "30m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 5000,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": 24.11,
+  "wind_sqft": 4.9,
+  "length_ft": 48.23,
+  "height_ft": null,
+  "weight_lb": 30.86,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "hf-directional-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ],
+ "rating": {
+  "avg": 4.7,
+  "n": 14,
+  "pid": "8740",
+  "last": "2025-06-27",
+  "name": "OptiBeam OB1-4030 40m/30m duoband rotary dipole"
+ }
+}

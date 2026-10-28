@@ -1,0 +1,71 @@
+{
+ "id": "hsr-4btv",
+ "kind": "antenna",
+ "name": "4BTV",
+ "title": "Hustler 4BTV",
+ "brand": "Hustler",
+ "price": 369.98,
+ "line": "HF multiband vertical",
+ "legacy": false,
+ "summary": "Hustler 20 ft trap vertical, 40/20/15/10m, with DXE install guide",
+ "jobs": [
+  {
+   "job": "ant_hf_vertical",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "vertical",
+  "mount": "base",
+  "ant_bands": [
+   "40m",
+   "20m",
+   "15m",
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 1500,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 20.0,
+  "weight_lb": null,
+  "radials": true,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "hf-vertical-antennas-and-packages"
+  }
+ },
+ "gotchas": [
+  "radials required"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "radial wires / counterpoise",
+   "why": "vertical needs a ground system",
+   "req": true
+  },
+  {
+   "id": "1:1 common-mode choke at the shack entry",
+   "why": "keeps feedline RF out of the shack",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 4.8,
+  "n": 115,
+  "pid": "1285",
+  "last": "2026-01-14",
+  "name": "HUSTLER 4BTV"
+ }
+}

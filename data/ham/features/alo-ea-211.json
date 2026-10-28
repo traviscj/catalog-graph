@@ -1,0 +1,52 @@
+{
+ "id": "alo-ea-211",
+ "kind": "antenna",
+ "name": "EA-211",
+ "title": "Alinco EA-211",
+ "brand": "Alinco",
+ "price": 19.95,
+ "line": "HT antenna",
+ "legacy": false,
+ "summary": "Monoband replacement antenna for Alinco DJ-A10/DJ-100/DJ-A11 HTs",
+ "jobs": [
+  {
+   "job": "ant_ht",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "rubber-duck",
+  "mount": "handheld",
+  "ant_bands": [
+   "2m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "fits": "DJ-A10/DJ-100/DJ-A11",
+   "band_inferred_from": "radio model",
+   "dxe_part_type": "handheld-and-scanner-antennas"
+  }
+ },
+ "gotchas": [
+  "radio-specific replacement"
+ ],
+ "confidence": "medium",
+ "pairs": []
+}

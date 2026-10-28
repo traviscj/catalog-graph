@@ -1,0 +1,58 @@
+{
+ "id": "jxx-18470-83-26",
+ "kind": "antenna",
+ "name": "83JXX26",
+ "title": "I0JXX 83JXX26",
+ "brand": "I0JXX",
+ "price": 469.99,
+ "line": "V/U yagi",
+ "legacy": false,
+ "summary": "Dual-band 6m/2m yagi, 3+8 elements on 15.6 ft boom",
+ "jobs": [
+  {
+   "job": "ant_vu_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "6m",
+   "2m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 2000.0,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 11,
+  "boom_ft": 15.58,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "power_by_band": "2000W 50MHz, 1000W 144MHz",
+   "dxe_part_type": "vhf-uhf-beam-antennas"
+  }
+ },
+ "gotchas": [
+  "2m side rated 1 kW"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

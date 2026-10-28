@@ -1,0 +1,59 @@
+{
+ "id": "bcm-bu01332",
+ "kind": "antenna",
+ "name": "Delta Diamond 60",
+ "title": "Bushcomm Delta Diamond 60",
+ "brand": "Bushcomm",
+ "price": 567.99,
+ "line": "HF loop",
+ "legacy": false,
+ "summary": "197 ft horizontal wire loop, 2-30 MHz, no tuner, 125 W",
+ "jobs": [
+  {
+   "job": "ant_hf_wire",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "loop-wire",
+  "mount": "base",
+  "ant_bands": [
+   "80m",
+   "60m",
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 125,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": 196.85,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "freq_range": "2-30 MHz",
+   "dxe_part_type": "wire-antennas"
+  }
+ },
+ "gotchas": [
+  "125 W PEP max"
+ ],
+ "confidence": "high",
+ "pairs": []
+}

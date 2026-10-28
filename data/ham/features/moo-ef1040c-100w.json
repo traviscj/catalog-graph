@@ -1,0 +1,75 @@
+{
+ "id": "moo-ef1040c-100w",
+ "kind": "antenna",
+ "name": "EF1040C-100W",
+ "title": "Momobeam EF1040C-100W",
+ "brand": "Momobeam",
+ "price": 212.99,
+ "line": "HF end-fed wire",
+ "legacy": false,
+ "summary": "Coil-shortened 43 ft end-fed, 40/20/10m, 49:1, 100 W",
+ "jobs": [
+  {
+   "job": "ant_hf_wire",
+   "role": "primary"
+  },
+  {
+   "job": "ant_small_space",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "end-fed",
+  "mount": "base",
+  "ant_bands": [
+   "40m",
+   "20m",
+   "10m"
+  ],
+  "resonant": false,
+  "tuner_req": "Wide range tuner",
+  "max_w": 100,
+  "max_w_digital": 20,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": 43.0,
+  "height_ft": null,
+  "weight_lb": 1.76,
+  "radials": null,
+  "directional": false,
+  "polarization": null,
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": true,
+  "extra": {
+   "dxe_part_type": "wire-antennas"
+  }
+ },
+ "gotchas": [
+  "Wide-range tuner required per DXE",
+  "100 W max — not for amps"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "antenna tuner (wide-range)",
+   "why": "non-resonant on its listed bands",
+   "req": true
+  },
+  {
+   "id": "1:1 common-mode choke at the shack entry",
+   "why": "keeps feedline RF out of the shack",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 4.8,
+  "n": 13,
+  "pid": "11447",
+  "last": "2026-07-10",
+  "name": "Apache ANAN-100D HF + 6M 100W ALL MODE SDR TRANSCEIVER"
+ }
+}

@@ -1,0 +1,62 @@
+{
+ "id": "mfj-lp-1009a",
+ "kind": "antenna",
+ "name": "LP-1009A",
+ "title": "Hy-Gain LP-1009A",
+ "brand": "Hy-Gain",
+ "price": 2599.95,
+ "line": "HF log-periodic",
+ "legacy": false,
+ "summary": "Commercial-grade LPDA 13-30 MHz, 7.3 dBi, 27-ft boom, 1.5 kW",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "log-periodic",
+  "mount": "base",
+  "ant_bands": [
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 1500,
+  "max_w_digital": null,
+  "gain_dbi": 7.3,
+  "elements": null,
+  "boom_ft": 27,
+  "turn_radius_ft": 22.5,
+  "wind_sqft": 12.5,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "fb_db": 22,
+   "longest_el_ft": 39,
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [
+  "22.5-ft turn radius; HDR-300A/T2X-class rotator"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

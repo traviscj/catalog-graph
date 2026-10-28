@@ -1,0 +1,55 @@
+{
+ "id": "dmn-f23h",
+ "kind": "antenna",
+ "name": "F23H",
+ "title": "Diamond Antenna F23H",
+ "brand": "Diamond",
+ "price": 189.99,
+ "line": "V/U base vertical",
+ "legacy": false,
+ "summary": "15 ft fiberglass 2m monoband base collinear, 350 W",
+ "jobs": [
+  {
+   "job": "ant_vu_base",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "collinear",
+  "mount": "base",
+  "ant_bands": [
+   "2m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 350.0,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 15.0,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "vhf-uhf-base-vertical-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [],
+ "rating": {
+  "avg": 4.7,
+  "n": 10,
+  "pid": "9722",
+  "last": "2023-03-07",
+  "name": "Diamond F23H Antenna"
+ }
+}

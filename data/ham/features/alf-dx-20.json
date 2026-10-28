@@ -1,0 +1,48 @@
+{
+ "id": "alf-dx-20",
+ "kind": "antenna",
+ "name": "DX-20",
+ "title": "Alpha Delta DX-20",
+ "brand": "Alpha Delta",
+ "price": 90.99,
+ "line": "HF dipole",
+ "legacy": false,
+ "summary": "Full-size 34 ft 20m wire dipole with Delta-C center, 2 kW",
+ "jobs": [
+  {
+   "job": "ant_hf_wire",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "dipole",
+  "mount": "base",
+  "ant_bands": [
+   "20m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 2000,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": 34.0,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "wire-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": []
+}

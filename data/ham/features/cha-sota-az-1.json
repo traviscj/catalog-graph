@@ -1,0 +1,76 @@
+{
+ "id": "cha-sota-az-1",
+ "kind": "antenna",
+ "name": "SOTA AZ-1",
+ "title": "Chameleon Antenna SOTA Activation Zone Model 1 Portable HF Antennas",
+ "brand": "Chameleon",
+ "price": 146.99,
+ "line": "HF portable wire",
+ "legacy": false,
+ "summary": "Chameleon SOTA 42 ft non-resonant end-fed, 60-10m, ultralight",
+ "jobs": [
+  {
+   "job": "ant_hf_portable",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "random-wire",
+  "mount": "portable",
+  "ant_bands": [
+   "60m",
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m"
+  ],
+  "resonant": false,
+  "tuner_req": null,
+  "max_w": 100,
+  "max_w_digital": 50,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": 42.0,
+  "height_ft": null,
+  "weight_lb": 0.625,
+  "radials": null,
+  "directional": false,
+  "polarization": null,
+  "connector": "BNC-male",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "hf-portable-stealth-antennas"
+  }
+ },
+ "gotchas": [
+  "Needs a tuner",
+  "100 W SSB / 50 W digital"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "antenna tuner (wide-range)",
+   "why": "non-resonant on its listed bands",
+   "req": true
+  },
+  {
+   "id": "1:1 common-mode choke at the shack entry",
+   "why": "keeps feedline RF out of the shack",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 4.4,
+  "n": 160,
+  "pid": "1378",
+  "last": "2024-08-02",
+  "name": "Super Antennas MP-1 Portable Antenna"
+ }
+}

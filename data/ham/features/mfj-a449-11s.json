@@ -1,0 +1,61 @@
+{
+ "id": "mfj-a449-11s",
+ "kind": "antenna",
+ "name": "A449-11S",
+ "title": "Cushcraft A449-11S",
+ "brand": "Cushcraft",
+ "price": 179.95,
+ "line": "V/U yagi",
+ "legacy": false,
+ "summary": "11-el 440-450 MHz yagi for FM/packet, 350 W",
+ "jobs": [
+  {
+   "job": "ant_vu_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 350,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 11,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": null,
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ],
+ "rating": {
+  "avg": 3.2,
+  "n": 6,
+  "pid": "5756",
+  "last": "2014-01-31",
+  "name": "Cushcraft A430-11S"
+ }
+}

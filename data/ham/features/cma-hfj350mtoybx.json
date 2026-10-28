@@ -1,0 +1,67 @@
+{
+ "id": "cma-hfj350mtoybx",
+ "kind": "antenna",
+ "name": "HFJ-350M Toy Box",
+ "title": "Comet Antennas HFJ-350M Toy Box",
+ "brand": "Comet",
+ "price": 149.95,
+ "line": "HF portable whip",
+ "legacy": false,
+ "summary": "Tiny 10-band 160-6m telescopic loaded whip for portable rigs",
+ "jobs": [
+  {
+   "job": "ant_hf_portable",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "whip",
+  "mount": "portable",
+  "ant_bands": [
+   "160m",
+   "80m",
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m",
+   "6m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 6.3,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "PL-259",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "hf-portable-stealth-antennas"
+  }
+ },
+ "gotchas": [
+  "Very short — low efficiency on 160/80m",
+  "Needs a counterpoise"
+ ],
+ "confidence": "high",
+ "pairs": [],
+ "rating": {
+  "avg": 3.1,
+  "n": 10,
+  "pid": "14790",
+  "last": "2025-02-03",
+  "name": "Comet HFJ-350M"
+ }
+}

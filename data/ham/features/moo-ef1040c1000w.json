@@ -1,0 +1,67 @@
+{
+ "id": "moo-ef1040c1000w",
+ "kind": "antenna",
+ "name": "EF1040C1000W",
+ "title": "Momobeam Multiband Coil Shortened End Fed Wire Antennas",
+ "brand": "Momobeam",
+ "price": 384.99,
+ "line": "HF end-fed wire",
+ "legacy": false,
+ "summary": "Momobeam coil-shortened 42.6 ft EFHW, 40/20/10m, 1 kW",
+ "jobs": [
+  {
+   "job": "ant_hf_wire",
+   "role": "primary"
+  },
+  {
+   "job": "ant_small_space",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "end-fed",
+  "mount": "base",
+  "ant_bands": [
+   "40m",
+   "20m",
+   "10m"
+  ],
+  "resonant": false,
+  "tuner_req": "Wide range tuner",
+  "max_w": 1000,
+  "max_w_digital": 250,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": 42.6,
+  "height_ft": null,
+  "weight_lb": 1.54,
+  "radials": null,
+  "directional": false,
+  "polarization": null,
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": true,
+  "extra": {
+   "dxe_part_type": "wire-antennas"
+  }
+ },
+ "gotchas": [
+  "DXE spec lists wide-range tuner"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "antenna tuner (wide-range)",
+   "why": "non-resonant on its listed bands",
+   "req": true
+  },
+  {
+   "id": "1:1 common-mode choke at the shack entry",
+   "why": "keeps feedline RF out of the shack",
+   "req": false
+  }
+ ]
+}

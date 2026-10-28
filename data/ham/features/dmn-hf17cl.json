@@ -1,0 +1,61 @@
+{
+ "id": "dmn-hf17cl",
+ "kind": "antenna",
+ "name": "HF17CL",
+ "title": "Diamond Antenna HF17CL",
+ "brand": "Diamond",
+ "price": 74.99,
+ "line": "HF mobile whip",
+ "legacy": false,
+ "summary": "86.6 in. fold-over 17m monoband mobile whip, 200 W",
+ "jobs": [
+  {
+   "job": "ant_hf_mobile",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "whip",
+  "mount": "mobile",
+  "ant_bands": [
+   "17m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 200.0,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 7.22,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "PL-259",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "mobile-whip-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "mobile antenna mount (mag / trunk-lip / NMO)",
+   "why": "vehicle mount not included",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 5.0,
+  "n": 3,
+  "pid": "12709",
+  "last": "2026-05-24",
+  "name": "Diamond HF17CL"
+ }
+}

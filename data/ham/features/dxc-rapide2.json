@@ -1,0 +1,73 @@
+{
+ "id": "dxc-rapide2",
+ "kind": "antenna",
+ "name": "Rapide2",
+ "title": "DX Commander Rapide2 HF Multi-Band Vertical Antennas",
+ "brand": "DX Commander",
+ "price": 391.99,
+ "line": "HF multiband vertical",
+ "legacy": false,
+ "summary": "DX Commander Rapide2 23 ft multi-element wire vertical on telescoping mast, 40-6m",
+ "jobs": [
+  {
+   "job": "ant_hf_vertical",
+   "role": "primary"
+  },
+  {
+   "job": "ant_hf_portable",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "vertical",
+  "mount": "base",
+  "ant_bands": [
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m",
+   "6m"
+  ],
+  "resonant": true,
+  "tuner_req": "Antenna & installation dependent",
+  "max_w": 1500,
+  "max_w_digital": 400,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 23.0,
+  "weight_lb": null,
+  "radials": true,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "hf-vertical-antennas-and-packages"
+  }
+ },
+ "gotchas": [
+  "Radials required",
+  "Exact band set depends on elements built"
+ ],
+ "confidence": "medium",
+ "pairs": [
+  {
+   "id": "radial wires / counterpoise",
+   "why": "vertical needs a ground system",
+   "req": true
+  },
+  {
+   "id": "1:1 common-mode choke at the shack entry",
+   "why": "keeps feedline RF out of the shack",
+   "req": false
+  }
+ ]
+}

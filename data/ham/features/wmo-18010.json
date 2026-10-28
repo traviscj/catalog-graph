@@ -1,0 +1,57 @@
+{
+ "id": "wmo-18010",
+ "kind": "antenna",
+ "name": "X-Quad 2m",
+ "title": "WiMo X-Quad 2m",
+ "brand": "WiMo",
+ "price": 349.99,
+ "line": "V/U sat (crossed yagi)",
+ "legacy": false,
+ "summary": "12-element dual-polarization 2m X-Quad, two N connectors",
+ "jobs": [
+  {
+   "job": "ant_vu_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "quad",
+  "mount": "base",
+  "ant_bands": [
+   "2m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 1500.0,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 12,
+  "boom_ft": 4.79,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": null,
+  "connector": "N female",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "polarization_note": "dual (H/V; circular with phasing)",
+   "dxe_part_type": "vhf-uhf-beam-antennas"
+  }
+ },
+ "gotchas": [
+  "Two feedlines (or phasing harness for circular)"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

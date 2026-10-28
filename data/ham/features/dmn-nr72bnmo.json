@@ -1,0 +1,64 @@
+{
+ "id": "dmn-nr72bnmo",
+ "kind": "antenna",
+ "name": "NR72BNMO",
+ "title": "Diamond Antenna NR72BNMO",
+ "brand": "Diamond",
+ "price": 12.95,
+ "line": "V/U mobile whip",
+ "legacy": false,
+ "summary": "13.8 in. dual-band NMO for grounded side mounts",
+ "jobs": [
+  {
+   "job": "ant_vu_mobile",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "whip",
+  "mount": "mobile",
+  "ant_bands": [
+   "2m",
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 100,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 1.15,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "NMO",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "vhf-uhf-mobile-vertical-antennas"
+  }
+ },
+ "gotchas": [
+  "Grounded side-mount only (roof edge/door/trunk)"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "mobile antenna mount (mag / trunk-lip / NMO)",
+   "why": "vehicle mount not included",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 4.4,
+  "n": 22,
+  "pid": "4026",
+  "last": "2023-02-21",
+  "name": "Diamond NR72BNMO 2 meter and 70 cm mobile antenna"
+ }
+}

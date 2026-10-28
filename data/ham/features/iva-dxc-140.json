@@ -1,0 +1,56 @@
+{
+ "id": "iva-dxc-140",
+ "kind": "antenna",
+ "name": "DXC-140",
+ "title": "InnovAntennas DXC-140",
+ "brand": "InnovAntennas",
+ "price": 1128.99,
+ "line": "HF rotatable dipole",
+ "legacy": false,
+ "summary": "Full-size 40m rotatable dipole, 38 ft element, 3 kW",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "dipole",
+  "mount": "base",
+  "ant_bands": [
+   "40m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 3000,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 1,
+  "boom_ft": null,
+  "turn_radius_ft": 19.25,
+  "wind_sqft": 4.63,
+  "length_ft": 38.0,
+  "height_ft": null,
+  "weight_lb": 18.74,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": "Terminal studs",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "hf-directional-antennas"
+  }
+ },
+ "gotchas": [
+  "19 ft turning radius"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

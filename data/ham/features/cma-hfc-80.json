@@ -1,0 +1,56 @@
+{
+ "id": "cma-hfc-80",
+ "kind": "antenna",
+ "name": "HFC-80",
+ "title": "Comet HFC-80",
+ "brand": "Comet",
+ "price": 79.95,
+ "line": "HF mobile whip",
+ "legacy": false,
+ "summary": "88 in. center-loaded 80m mobile antenna, fold-over, UHF mount",
+ "jobs": [
+  {
+   "job": "ant_hf_mobile",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "whip",
+  "mount": "mobile",
+  "ant_bands": [
+   "80m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 7.33,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "UHF (PL-259)",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "mobile-whip-antennas"
+  }
+ },
+ "gotchas": [
+  "very narrow 80m bandwidth"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "mobile antenna mount (mag / trunk-lip / NMO)",
+   "why": "vehicle mount not included",
+   "req": false
+  }
+ ]
+}

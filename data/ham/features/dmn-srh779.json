@@ -1,0 +1,51 @@
+{
+ "id": "dmn-srh779",
+ "kind": "antenna",
+ "name": "SRH779",
+ "title": "Diamond Antenna Dual-Band HT Antennas",
+ "brand": "Diamond",
+ "price": 32.99,
+ "line": "HT antenna",
+ "legacy": false,
+ "summary": "Diamond 17.3 in telescopic dual-band HT antenna, SMA male",
+ "jobs": [
+  {
+   "job": "ant_ht",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "whip",
+  "mount": "handheld",
+  "ant_bands": [
+   "2m",
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 10,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 1.44,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "SMA-male",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "handheld-and-scanner-antennas"
+  }
+ },
+ "gotchas": [
+  "Telescopic — fragile when extended"
+ ],
+ "confidence": "high",
+ "pairs": []
+}

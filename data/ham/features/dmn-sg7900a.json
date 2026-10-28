@@ -1,0 +1,64 @@
+{
+ "id": "dmn-sg7900a",
+ "kind": "antenna",
+ "name": "SG7900A",
+ "title": "Diamond SG7900A",
+ "brand": "Diamond",
+ "price": 114.99,
+ "line": "V/U mobile whip",
+ "legacy": false,
+ "summary": "62.2 in. Supergainer dual-band UHF-mount mobile antenna",
+ "jobs": [
+  {
+   "job": "ant_vu_mobile",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "whip",
+  "mount": "mobile",
+  "ant_bands": [
+   "2m",
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 5.18,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "UHF (PL-259)",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "vhf-uhf-mobile-vertical-antennas"
+  }
+ },
+ "gotchas": [
+  "62 in.: garage/clearance issues"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "mobile antenna mount (mag / trunk-lip / NMO)",
+   "why": "vehicle mount not included",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 4.4,
+  "n": 21,
+  "pid": "3428",
+  "last": "2016-04-06",
+  "name": "Diamond SG-7900A"
+ }
+}

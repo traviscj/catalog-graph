@@ -1,0 +1,52 @@
+{
+ "id": "cma-ca-f22gf",
+ "kind": "antenna",
+ "name": "CA-F22GF",
+ "title": "Comet Antennas CA-F22GF",
+ "brand": "Comet",
+ "price": 245.95,
+ "line": "V/U base vertical",
+ "legacy": false,
+ "summary": "Tunable 136-175 MHz fiberglass base vertical, 150 W",
+ "jobs": [
+  {
+   "job": "ant_vu_base",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "collinear",
+  "mount": "base",
+  "ant_bands": [
+   "2m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 150,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 8.9,
+  "weight_lb": 2.5,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "freq_range": "136-175 MHz",
+   "bw_mhz": 4,
+   "dxe_part_type": "vhf-uhf-base-vertical-antennas"
+  }
+ },
+ "gotchas": [
+  "4 MHz bandwidth — must be tuned to 2m"
+ ],
+ "confidence": "high",
+ "pairs": []
+}

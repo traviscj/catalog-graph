@@ -1,0 +1,58 @@
+{
+ "id": "mfj-mfj-1723",
+ "kind": "antenna",
+ "name": "MFJ-1723",
+ "title": "MFJ MFJ-1723",
+ "brand": "MFJ",
+ "price": 59.95,
+ "line": "V/U mobile whip",
+ "legacy": false,
+ "summary": "220 MHz magnet-mount mobile whip, 22.5 in radiator",
+ "jobs": [
+  {
+   "job": "ant_vu_mobile",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "whip",
+  "mount": "mobile",
+  "ant_bands": [
+   "1.25m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 1.88,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "gain_db": "2.6, unit unstated",
+   "coax_ft": 12,
+   "mount_incl": "magnet",
+   "adapter": "BNC",
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "mobile antenna mount (mag / trunk-lip / NMO)",
+   "why": "vehicle mount not included",
+   "req": false
+  }
+ ]
+}

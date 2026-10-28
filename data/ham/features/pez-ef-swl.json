@@ -1,0 +1,49 @@
+{
+ "id": "pez-ef-swl",
+ "kind": "antenna",
+ "name": "EF-SWL",
+ "title": "Par EndFedz® Antennas",
+ "brand": "Par EndFedz",
+ "price": 74.99,
+ "line": "SWL end-fed wire (RX)",
+ "legacy": false,
+ "summary": "Par EndFedz 45 ft receive-only SWL wire, 9:1, 0-30 MHz",
+ "jobs": [
+  {
+   "job": "ant_rx",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "random-wire",
+  "mount": "base",
+  "ant_bands": [],
+  "resonant": null,
+  "tuner_req": "Antenna & installation dependent",
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": 45.0,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": null,
+  "connector": "SO-239",
+  "rx_only": true,
+  "assembled": false,
+  "extra": {
+   "rx_range": "0-30 MHz (120-13 m)",
+   "dxe_part_type": "wire-antennas"
+  }
+ },
+ "gotchas": [
+  "Receive only — do not transmit"
+ ],
+ "confidence": "high",
+ "pairs": []
+}

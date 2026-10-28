@@ -1,0 +1,61 @@
+{
+ "id": "moo-mono5-10",
+ "kind": "antenna",
+ "name": "Mono5-10",
+ "title": "Momobeam Mono5-10",
+ "brand": "Momobeam",
+ "price": 1507.99,
+ "line": "HF monoband yagi",
+ "legacy": false,
+ "summary": "5-element 10m monoband yagi, 25.6 ft boom, 10 kW",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 10000,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 5,
+  "boom_ft": 25.6,
+  "turn_radius_ft": 15.42,
+  "wind_sqft": 6.46,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": 48.5,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "hf-directional-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ],
+ "rating": {
+  "avg": 5.0,
+  "n": 1,
+  "pid": "15428",
+  "last": "2022-11-10",
+  "name": "Momobeam mono 5-10"
+ }
+}

@@ -1,0 +1,56 @@
+{
+ "id": "dmn-hf80cl",
+ "kind": "antenna",
+ "name": "HF80CL",
+ "title": "Diamond HF80CL",
+ "brand": "Diamond",
+ "price": 74.99,
+ "line": "HF mobile whip",
+ "legacy": false,
+ "summary": "87.5 in. fold-over 80m mobile whip, UHF mount",
+ "jobs": [
+  {
+   "job": "ant_hf_mobile",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "whip",
+  "mount": "mobile",
+  "ant_bands": [
+   "80m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 120,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 7.29,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "PL-259",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "mobile-whip-antennas"
+  }
+ },
+ "gotchas": [
+  "120 W PEP; very narrow 80m bandwidth"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "mobile antenna mount (mag / trunk-lip / NMO)",
+   "why": "vehicle mount not included",
+   "req": false
+  }
+ ]
+}

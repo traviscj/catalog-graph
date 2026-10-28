@@ -1,0 +1,59 @@
+{
+ "id": "cma-sma-w100rx2",
+ "kind": "antenna",
+ "name": "SMA-W100RX",
+ "title": "Comet Antennas SMA-W100RX",
+ "brand": "Comet",
+ "price": 37.95,
+ "line": "scanner antenna (RX)",
+ "legacy": false,
+ "summary": "Telescopic 40 in. double fold-over scanner receive antenna, SMA male",
+ "jobs": [
+  {
+   "job": "ant_rx",
+   "role": "primary"
+  },
+  {
+   "job": "ant_ht",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "whip",
+  "mount": "handheld",
+  "ant_bands": [],
+  "resonant": null,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 3.33,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "SMA male",
+  "rx_only": true,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "handheld-and-scanner-antennas"
+  }
+ },
+ "gotchas": [
+  "Receive only"
+ ],
+ "confidence": "high",
+ "pairs": [],
+ "rating": {
+  "avg": 4.0,
+  "n": 1,
+  "pid": "16307",
+  "last": "2026-04-22",
+  "name": "Comet – BNC-W100RX"
+ }
+}

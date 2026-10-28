@@ -1,0 +1,68 @@
+{
+ "id": "fac-2m15s-b",
+ "kind": "antenna",
+ "name": "2M15S-B",
+ "title": "Firestik Antenna Company 1/4 Wave 2M Tunable Tip Mobile Antennas",
+ "brand": "Firestik",
+ "price": 42.99,
+ "line": "V/U mobile whip",
+ "legacy": false,
+ "summary": "Firestik 17 in quarter-wave 2m tunable-tip mobile whip, 3/8-24",
+ "jobs": [
+  {
+   "job": "ant_vu_mobile",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "whip",
+  "mount": "mobile",
+  "ant_bands": [
+   "2m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 1.42,
+  "weight_lb": null,
+  "radials": true,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "3/8-24",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "vhf-uhf-mobile-vertical-antennas"
+  }
+ },
+ "gotchas": [
+  "Quarter-wave — needs ground plane"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "radial wires / counterpoise",
+   "why": "vertical needs a ground system",
+   "req": true
+  },
+  {
+   "id": "mobile antenna mount (mag / trunk-lip / NMO)",
+   "why": "vehicle mount not included",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 4.8,
+  "n": 4,
+  "pid": "8644",
+  "last": "2024-05-16",
+  "name": "Laird Technologies (Antenex) QW144 2M 1/4wave whip"
+ }
+}

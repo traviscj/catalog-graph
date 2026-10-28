@@ -1,0 +1,50 @@
+{
+ "id": "mfj-mfj-1718s",
+ "kind": "antenna",
+ "name": "MFJ-1718S",
+ "title": "MFJ MFJ-1718S",
+ "brand": "MFJ",
+ "price": 19.95,
+ "line": "HT antenna",
+ "legacy": false,
+ "summary": "17-in tri-band 2m/220/440 flex duck, SMA-M",
+ "jobs": [
+  {
+   "job": "ant_ht",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "rubber-duck",
+  "mount": "handheld",
+  "ant_bands": [
+   "2m",
+   "1.25m",
+   "70cm"
+  ],
+  "resonant": null,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 1.42,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "SMA-M",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": []
+}

@@ -1,0 +1,153 @@
+{
+ "id": "kwd-th-d75a",
+ "name": "TH-D75A",
+ "title": "Kenwood TH-D75A",
+ "brand": "Kenwood",
+ "price": 699.95,
+ "line": "D-STAR HT (tri-band)",
+ "legacy": false,
+ "summary": "5W 2m/220/70cm D-STAR + native APRS HT: GPS, Bluetooth, KISS TNC, DV/DV dual RX, USB-C; TH-D74 successor.",
+ "jobs": [
+  {
+   "job": "vhf_uhf_handheld",
+   "role": "primary"
+  },
+  {
+   "job": "digital_voice",
+   "role": "primary"
+  },
+  {
+   "job": "aprs",
+   "role": "primary"
+  },
+  {
+   "job": "emcomm",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "handheld",
+  "bands_tx": [
+   "2m",
+   "1.25m",
+   "70cm"
+  ],
+  "hf": false,
+  "vhf_uhf": true,
+  "rx_range": "136–174, 216–260, 410–470 MHz (DXE); band B 0.1–524 MHz all-mode (medium)",
+  "power_w": {
+   "hf": null,
+   "6m": null,
+   "2m": 5,
+   "70cm": 5,
+   "23cm": null
+  },
+  "modes": [
+   "FM",
+   "AM (RX)",
+   "SSB/CW (RX)",
+   "D-STAR"
+  ],
+  "digital_voice": [
+   "D-STAR"
+  ],
+  "receiver_arch": "FM (HT/mobile)",
+  "band_scope": "band scope",
+  "display": "1.74in transflective color TFT",
+  "dual_receive": true,
+  "dual_watch": true,
+  "atu": false,
+  "usb_single_cable": true,
+  "lan_remote": false,
+  "wifi_bt": [
+   "Bluetooth"
+  ],
+  "gps": true,
+  "aprs": true,
+  "full_duplex_sat": false,
+  "crossband_repeat": false,
+  "detachable_head": false,
+  "headless": false,
+  "power_source": "Li-ion pack",
+  "tx_current_a": null,
+  "battery": "KNB-75LA 1820 mAh Li-ion (included)",
+  "ip_rating": "IP54",
+  "antenna_ports": 1,
+  "rx_antenna_in": false,
+  "roofing_filters": null,
+  "memories": 1000,
+  "weight_kg": 0.34,
+  "size_mm": "56×122×33",
+  "special": [
+   "1.25m (220 MHz) TX",
+   "DV/DV dual receive (A+B)",
+   "native APRS + KISS TNC, standalone digipeater",
+   "Reflector Terminal Mode",
+   "USB-C serial + audio + charging",
+   "Bluetooth headset PTT",
+   "microSD recording",
+   "FM broadcast + air + WX RX",
+   "wideband SSB/CW RX on band B"
+  ],
+  "requires": [],
+  "extra": {
+   "connector": "SMA female",
+   "ip_rating": "medium: IP54 from Kenwood spec",
+   "memories": "medium",
+   "display": "medium",
+   "rx_note": "HF/all-mode band-B RX from TH-D74 lineage, not in DXE table",
+   "power_1_25m_w": 5,
+   "predecessor": "TH-D74A",
+   "list_price": 749.95,
+   "avail": "InStock"
+  }
+ },
+ "gotchas": [
+  "IP54 splash only — ID-52A PLUS / FT-5DR are IPX7 submersible",
+  "D-STAR only — no C4FM; FT-5DR for Yaesu System Fusion",
+  "~$50 under ID-52A PLUS; D75 adds 220 MHz + true APRS TNC, ID-52A PLUS has the bigger screen and waterfall",
+  "no crossband repeat",
+  "DXE RX table omits the wideband 0.1–524 MHz all-mode band-B receive",
+  "Li-ion pack: DXE only accepts returns in person at a retail store"
+ ],
+ "best_for": [
+  "APRS-centric HT users (native APRS-IS visible, digi in field)",
+  "220 MHz + D-STAR in one HT",
+  "packet/VARA via USB-C audio"
+ ],
+ "not_for": [
+  "C4FM/DMR",
+  "submersion-grade emcomm",
+  "budget first HT"
+ ],
+ "confidence": "medium",
+ "pairs": [
+  {
+   "id": "KNB-75LA spare battery",
+   "why": "GPS/dual RX drains battery",
+   "req": false
+  },
+  {
+   "id": "kwd-tm-d750a",
+   "why": "matching tri-band D-STAR/APRS mobile",
+   "req": false
+  },
+  {
+   "id": "Bluetooth headset",
+   "why": "hands-free PTT",
+   "req": false
+  },
+  {
+   "id": "tri-band SMA-male antenna",
+   "why": "stock duck is weak on 220",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 4.2,
+  "n": 6,
+  "pid": "15791",
+  "last": "2026-04-10",
+  "name": "Kenwood TH-D75A/E"
+ }
+}

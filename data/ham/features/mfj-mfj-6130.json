@@ -1,0 +1,61 @@
+{
+ "id": "mfj-mfj-6130",
+ "kind": "antenna",
+ "name": "MFJ-6130",
+ "title": "MFJ MFJ-6130",
+ "brand": "MFJ",
+ "price": 69.95,
+ "line": "HF end-fed wire",
+ "legacy": false,
+ "summary": "Single-band 30m half-wave end-fed Zepp, stub-matched, legal limit",
+ "jobs": [
+  {
+   "job": "ant_hf_wire",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "end-fed",
+  "mount": "base",
+  "ant_bands": [
+   "30m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 1500,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": null,
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "1:1 common-mode choke at the shack entry",
+   "why": "keeps feedline RF out of the shack",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 5.0,
+  "n": 1,
+  "pid": "10421",
+  "last": "2012-04-25",
+  "name": "MFJ-6130"
+ }
+}

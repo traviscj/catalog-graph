@@ -1,0 +1,56 @@
+{
+ "id": "moo-mono7-10",
+ "kind": "antenna",
+ "name": "Mono7-10",
+ "title": "Momobeam Mono7-10",
+ "brand": "Momobeam",
+ "price": 2883.99,
+ "line": "HF monoband yagi",
+ "legacy": false,
+ "summary": "7-element 10m long-boom yagi, 47.2 ft boom, 10 kW",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 10000,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 7,
+  "boom_ft": 47.24,
+  "turn_radius_ft": 28.9,
+  "wind_sqft": 12.92,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": 110.23,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "hf-directional-antennas"
+  }
+ },
+ "gotchas": [
+  "47 ft boom"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

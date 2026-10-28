@@ -1,0 +1,70 @@
+{
+ "id": "dxc-signature-18",
+ "kind": "antenna",
+ "name": "Signature 18 Nebula eXtreme",
+ "title": "DX Commander Signature 18 Nebula eXtreme",
+ "brand": "DX Commander",
+ "price": 933.91,
+ "line": "HF multiband vertical",
+ "legacy": false,
+ "summary": "59 ft multi-element wire vertical on fiberglass mast, 80-6m",
+ "jobs": [
+  {
+   "job": "ant_hf_vertical",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "vertical",
+  "mount": "base",
+  "ant_bands": [
+   "80m",
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m",
+   "6m"
+  ],
+  "resonant": true,
+  "tuner_req": "Antenna & installation dependent",
+  "max_w": 1500,
+  "max_w_digital": 400,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 59.0,
+  "weight_lb": null,
+  "radials": true,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "hf-vertical-antennas-and-packages"
+  }
+ },
+ "gotchas": [
+  "59 ft mast: guying required",
+  "Radials required"
+ ],
+ "confidence": "medium",
+ "pairs": [
+  {
+   "id": "radial wires / counterpoise",
+   "why": "vertical needs a ground system",
+   "req": true
+  },
+  {
+   "id": "1:1 common-mode choke at the shack entry",
+   "why": "keeps feedline RF out of the shack",
+   "req": false
+  }
+ ]
+}

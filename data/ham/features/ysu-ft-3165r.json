@@ -1,0 +1,122 @@
+{
+ "id": "ysu-ft-3165r",
+ "name": "FT-3165R",
+ "title": "Yaesu FT-3165R",
+ "brand": "Yaesu",
+ "price": 184.95,
+ "line": "VHF mobile",
+ "legacy": false,
+ "summary": "Simple 65 W 2m analog FM mobile with 5 W front speaker, Super-DX, NOAA alert; ASP optional.",
+ "jobs": [
+  {
+   "job": "vhf_uhf_mobile",
+   "role": "primary"
+  },
+  {
+   "job": "first_radio",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "mobile",
+  "bands_tx": [
+   "2m"
+  ],
+  "hf": false,
+  "vhf_uhf": true,
+  "rx_range": "136–174 MHz",
+  "power_w": {
+   "hf": null,
+   "6m": null,
+   "2m": 65,
+   "70cm": null,
+   "23cm": null
+  },
+  "modes": [
+   "FM"
+  ],
+  "digital_voice": [],
+  "receiver_arch": "FM (HT/mobile)",
+  "band_scope": null,
+  "display": "LCD",
+  "dual_receive": false,
+  "dual_watch": false,
+  "atu": false,
+  "usb_single_cable": false,
+  "lan_remote": false,
+  "wifi_bt": [],
+  "gps": false,
+  "aprs": false,
+  "full_duplex_sat": false,
+  "crossband_repeat": false,
+  "detachable_head": false,
+  "power_source": "13.8 VDC external",
+  "tx_current_a": 11.0,
+  "battery": null,
+  "ip_rating": null,
+  "antenna_ports": 1,
+  "rx_antenna_in": false,
+  "roofing_filters": null,
+  "memories": 220,
+  "weight_kg": 1.3,
+  "size_mm": "154×43×155",
+  "special": [
+   "Super-DX RF boost",
+   "5 W front speaker",
+   "NOAA WX alert",
+   "USB A-B cable included"
+  ],
+  "requires": [
+   "13.8V 15A power supply (base use)"
+  ],
+  "extra": {
+   "power_steps_w": [
+    65,
+    30,
+    5
+   ],
+   "asp_option": "SPU-1 (sold separately)",
+   "priority_scan": "priority channel 'dual watch' scan only",
+   "list_price": 234.95,
+   "avail": "InStock"
+  }
+ },
+ "gotchas": [
+  "2m only — FTM-150R / IC-2730B add 70cm",
+  "SPU-1 ASP unit is extra — ysu-ft-3165rasp has it fitted",
+  "Fixed head, no crossband — FTM-150R detaches and does crossband",
+  "Analog only — FTM-310DR for C4FM",
+  "Needs 13.8 V supply for base use"
+ ],
+ "best_for": [
+  "cheap 2m mobile or base",
+  "new Technician"
+ ],
+ "not_for": [
+  "70cm repeaters",
+  "digital voice"
+ ],
+ "pairs": [
+  {
+   "id": "ysu-ft-3165rasp",
+   "why": "same radio with ASP audio unit included",
+   "req": false
+  },
+  {
+   "id": "13.8 V 15 A power supply",
+   "why": "for base use",
+   "req": false
+  },
+  {
+   "id": "2m NMO mobile antenna",
+   "why": "needs an antenna",
+   "req": false
+  },
+  {
+   "id": "ico-ic-v3500b",
+   "why": "Icom 65 W 2m equivalent",
+   "req": false
+  }
+ ],
+ "confidence": "high"
+}

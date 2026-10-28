@@ -1,0 +1,60 @@
+{
+ "id": "mfj-lj-115",
+ "kind": "antenna",
+ "name": "LJ-115",
+ "title": "Hy-Gain LJ-115",
+ "brand": "Hy-Gain",
+ "price": 459.95,
+ "line": "HF monoband yagi",
+ "legacy": false,
+ "summary": "5-el 10/12m Long John, 9.7 dB gain, 25 dB F/B, 18-ft boom",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "12m",
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 5,
+  "boom_ft": 18,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": 18.9,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "gain_raw": "9.7 dB (ref unstated)",
+   "fb_db": 25,
+   "longest_el_ft": 18,
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [
+  "Rotator not included"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

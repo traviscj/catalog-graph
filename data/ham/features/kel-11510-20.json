@@ -1,0 +1,48 @@
+{
+ "id": "kel-11510-20",
+ "kind": "antenna",
+ "name": "DP-20",
+ "title": "Kelemen DP-20",
+ "brand": "Kelemen",
+ "price": 141.99,
+ "line": "HF dipole",
+ "legacy": false,
+ "summary": "33 ft 20m monoband wire dipole with balun, 1 kW",
+ "jobs": [
+  {
+   "job": "ant_hf_wire",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "dipole",
+  "mount": "base",
+  "ant_bands": [
+   "20m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 1000.0,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": 32.8,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": true,
+  "extra": {
+   "dxe_part_type": "wire-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": []
+}

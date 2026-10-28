@@ -1,0 +1,58 @@
+{
+ "id": "ean-r2010046",
+ "kind": "antenna",
+ "name": "EA10152040DXS",
+ "title": "EAntenna EA10152040DXS",
+ "brand": "EAntenna",
+ "price": 399.99,
+ "line": "HF fan dipole",
+ "legacy": false,
+ "summary": "42.6 ft multi-fan dipole for 40/20/15/10m, 1.5 kW",
+ "jobs": [
+  {
+   "job": "ant_hf_wire",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "dipole",
+  "mount": "base",
+  "ant_bands": [
+   "40m",
+   "20m",
+   "15m",
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 1500.0,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": 42.61,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "wire-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [],
+ "rating": {
+  "avg": 4.7,
+  "n": 3,
+  "pid": "12332",
+  "last": "2016-07-20",
+  "name": "Eantenna EA10152040DXS"
+ }
+}

@@ -1,0 +1,62 @@
+{
+ "id": "msq-2m7x",
+ "kind": "antenna",
+ "name": "2M7",
+ "title": "M2 2M7",
+ "brand": "M2",
+ "price": 258.99,
+ "line": "V/U yagi",
+ "legacy": false,
+ "summary": "7-element 2m yagi, 8.8 ft boom, 12.3 dBi, 2.5 kW",
+ "jobs": [
+  {
+   "job": "ant_vu_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "2m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 2500,
+  "max_w_digital": null,
+  "gain_dbi": 12.3,
+  "elements": 7,
+  "boom_ft": 8.8,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": 4.3,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": "N female",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "fb_db": 20,
+   "dxe_part_type": "vhf-uhf-beam-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ],
+ "rating": {
+  "avg": 4.4,
+  "n": 7,
+  "pid": "8882",
+  "last": "2020-12-31",
+  "name": "M2 2M7"
+ }
+}

@@ -1,0 +1,56 @@
+{
+ "id": "moo-duo4-1217",
+ "kind": "antenna",
+ "name": "Duo4 12/17",
+ "title": "Momobeam Duo4 12/17",
+ "brand": "Momobeam",
+ "price": 952.99,
+ "line": "HF duoband yagi",
+ "legacy": false,
+ "summary": "4-element 17/12m WARC duoband yagi, 9.85 ft boom",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "17m",
+   "12m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 10000,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 4,
+  "boom_ft": 9.85,
+  "turn_radius_ft": 15.0,
+  "wind_sqft": 4.09,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": 33.0,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "longest_el_ft": 27.55,
+   "dxe_part_type": "hf-directional-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

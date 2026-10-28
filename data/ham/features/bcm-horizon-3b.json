@@ -1,0 +1,60 @@
+{
+ "id": "bcm-horizon-3b",
+ "kind": "antenna",
+ "name": "Horizon 3B",
+ "title": "Bushcomm Horizon 3B",
+ "brand": "Bushcomm",
+ "price": 215.99,
+ "line": "HF end-fed wire",
+ "legacy": false,
+ "summary": "Limited-space 3-band 40/20/10m end-fed wire, 200 W",
+ "jobs": [
+  {
+   "job": "ant_hf_wire",
+   "role": "primary"
+  },
+  {
+   "job": "ant_small_space",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "end-fed",
+  "mount": "base",
+  "ant_bands": [
+   "40m",
+   "20m",
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 200,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": null,
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "wire-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "1:1 common-mode choke at the shack entry",
+   "why": "keeps feedline RF out of the shack",
+   "req": false
+  }
+ ]
+}

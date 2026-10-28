@@ -1,0 +1,138 @@
+{
+ "id": "ico-id-5200a",
+ "name": "ID-5200A",
+ "title": "Icom ID-5200A",
+ "brand": "Icom",
+ "price": 999.95,
+ "line": "VHF/UHF D-STAR mobile",
+ "legacy": false,
+ "summary": "Flagship 50W 2m/70cm D-STAR mobile: 4.3in touch with waterfall, true dual receive, Wi-Fi/BT, GNSS.",
+ "jobs": [
+  {
+   "job": "vhf_uhf_mobile",
+   "role": "primary"
+  },
+  {
+   "job": "digital_voice",
+   "role": "primary"
+  },
+  {
+   "job": "aprs",
+   "role": "secondary"
+  },
+  {
+   "job": "remote_operation",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "mobile",
+  "bands_tx": [
+   "2m",
+   "70cm"
+  ],
+  "hf": false,
+  "vhf_uhf": true,
+  "rx_range": "VHF/UHF incl. airband (exact range TBA)",
+  "power_w": {
+   "hf": null,
+   "6m": null,
+   "2m": 50,
+   "70cm": 50,
+   "23cm": null
+  },
+  "modes": [
+   "FM",
+   "D-STAR",
+   "AM(rx)"
+  ],
+  "digital_voice": [
+   "D-STAR"
+  ],
+  "receiver_arch": "FM (HT/mobile)",
+  "band_scope": "waterfall + memory scope",
+  "display": "4.3in color touch",
+  "dual_receive": true,
+  "dual_watch": true,
+  "atu": false,
+  "usb_single_cable": null,
+  "lan_remote": false,
+  "wifi_bt": [
+   "WLAN",
+   "Bluetooth"
+  ],
+  "gps": true,
+  "aprs": true,
+  "full_duplex_sat": false,
+  "crossband_repeat": true,
+  "detachable_head": true,
+  "power_source": "13.8 VDC external",
+  "tx_current_a": null,
+  "battery": null,
+  "ip_rating": null,
+  "antenna_ports": 1,
+  "rx_antenna_in": false,
+  "roofing_filters": null,
+  "memories": null,
+  "weight_kg": null,
+  "size_mm": null,
+  "special": [
+   "first mobile waterfall",
+   "DV/DV dual receive",
+   "Terminal/Access Point mode",
+   "2.4/5 GHz Wi-Fi AP",
+   "microSD",
+   "USB-C",
+   "image TX/RX"
+  ],
+  "requires": [
+   "13.8V 15A power supply (for base use)"
+  ],
+  "extra": {
+   "aprs_note": "D-PRS native; APRS via Android app",
+   "prerelease_specs": true,
+   "supersedes": "ico-id-5100a-d",
+   "dual_watch": "V/V, U/U, V/U",
+   "list_price": 999.95,
+   "avail": "InStock"
+  }
+ },
+ "gotchas": [
+  "specs are pre-release per DXE; current draw/weight/size not published",
+  "replaces ID-5100A-D, costs ~$450 more — ID-5100A-D still cheaper if Wi-Fi/waterfall unneeded",
+  "D-STAR only — no C4FM; FTM-510DRASP for Yaesu System Fusion",
+  "2m/70cm only, 50W — IC-2730A for cheaper analog dual band"
+ ],
+ "best_for": [
+  "D-STAR power users",
+  "hotspot-free Terminal/AP mode via Wi-Fi",
+  "airband + ham monitoring"
+ ],
+ "not_for": [
+  "C4FM/DMR",
+  "budget buyers"
+ ],
+ "confidence": "medium",
+ "pairs": [
+  {
+   "id": "13.8 V 15 A power supply",
+   "why": "base-station use",
+   "req": false
+  },
+  {
+   "id": "dual-band 2m/70cm mobile antenna + mount",
+   "why": "mobile install",
+   "req": false
+  },
+  {
+   "id": "ico-id-52aplus",
+   "why": "matching D-STAR HT",
+   "req": false
+  },
+  {
+   "id": "microSD card",
+   "why": "logs, voice/recording, settings",
+   "req": false
+  }
+ ]
+}

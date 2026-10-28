@@ -1,0 +1,75 @@
+{
+ "id": "mkr-12-122",
+ "kind": "antenna",
+ "name": "MD-7400",
+ "title": "Moonraker MD-7400",
+ "brand": "Moonraker",
+ "price": 229.99,
+ "line": "HF mobile whip",
+ "legacy": false,
+ "summary": "Sliding-coil manually tuned 40m–70cm whip, 5.8 ft",
+ "jobs": [
+  {
+   "job": "ant_hf_mobile",
+   "role": "primary"
+  },
+  {
+   "job": "ant_hf_portable",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "whip",
+  "mount": "mobile",
+  "ant_bands": [
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m",
+   "6m",
+   "2m",
+   "1.25m",
+   "70cm"
+  ],
+  "resonant": false,
+  "tuner_req": "Tuner Req.",
+  "max_w": 130,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 5.81,
+  "weight_lb": 0.66,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "PL-259",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "hf-vhf-uhf-mobile-vertical-antennas"
+  }
+ },
+ "gotchas": [
+  "external tuner required"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "antenna tuner (wide-range)",
+   "why": "non-resonant on its listed bands",
+   "req": true
+  },
+  {
+   "id": "mobile antenna mount (mag / trunk-lip / NMO)",
+   "why": "vehicle mount not included",
+   "req": false
+  }
+ ]
+}

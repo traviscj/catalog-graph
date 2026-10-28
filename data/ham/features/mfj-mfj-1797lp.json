@@ -1,0 +1,66 @@
+{
+ "id": "mfj-mfj-1797lp",
+ "kind": "antenna",
+ "name": "MFJ-1797LP",
+ "title": "MFJ MFJ-1797LP",
+ "brand": "MFJ",
+ "price": 369.95,
+ "line": "HF multiband vertical",
+ "legacy": false,
+ "summary": "9 ft low-profile MFJ-1797 without top whip, 40-10m",
+ "jobs": [
+  {
+   "job": "ant_hf_vertical",
+   "role": "primary"
+  },
+  {
+   "job": "ant_small_space",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "vertical",
+  "mount": "base",
+  "ant_bands": [
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 9,
+  "weight_lb": 6,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [
+  "less efficient, narrow bandwidth on 40m"
+ ],
+ "confidence": "medium",
+ "pairs": [
+  {
+   "id": "1:1 common-mode choke at the shack entry",
+   "why": "keeps feedline RF out of the shack",
+   "req": false
+  }
+ ]
+}

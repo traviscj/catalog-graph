@@ -1,0 +1,69 @@
+{
+ "id": "dxa-dxsv1",
+ "kind": "antenna",
+ "name": "DXSV1",
+ "title": "Diex Antennas DXV Series Tri-band Trap Shortened Vertical Antennas",
+ "brand": "DIEX",
+ "price": 379.99,
+ "line": "HF multiband vertical",
+ "legacy": false,
+ "summary": "Diex trap-shortened 20/15/10m vertical, 1.5 kW",
+ "jobs": [
+  {
+   "job": "ant_hf_vertical",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "vertical",
+  "mount": "base",
+  "ant_bands": [
+   "20m",
+   "15m",
+   "10m"
+  ],
+  "resonant": false,
+  "tuner_req": "Wide range tuner",
+  "max_w": 1500,
+  "max_w_digital": 375,
+  "gain_dbi": 2.4,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": 0.86,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": 6.17,
+  "radials": true,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "hf-vertical-antennas-and-packages"
+  }
+ },
+ "gotchas": [
+  "DXE spec says wide-range tuner despite trap design",
+  "Radials required"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "antenna tuner (wide-range)",
+   "why": "non-resonant on its listed bands",
+   "req": true
+  },
+  {
+   "id": "radial wires / counterpoise",
+   "why": "vertical needs a ground system",
+   "req": true
+  },
+  {
+   "id": "1:1 common-mode choke at the shack entry",
+   "why": "keeps feedline RF out of the shack",
+   "req": false
+  }
+ ]
+}

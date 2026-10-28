@@ -1,0 +1,59 @@
+{
+ "id": "iva-dxr5c",
+ "kind": "antenna",
+ "name": "DXR5C-MKII",
+ "title": "InnovAntennas DXR5C-MKII",
+ "brand": "InnovAntennas",
+ "price": 1775.99,
+ "line": "HF multiband yagi",
+ "legacy": false,
+ "summary": "Compact 9-element 5-band 20–10m yagi, 10.8 ft boom",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 10000,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 9,
+  "boom_ft": 10.8,
+  "turn_radius_ft": 15.88,
+  "wind_sqft": 12.44,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": 68.34,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": "terminal studs",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "longest_el_ft": 28.87,
+   "dxe_part_type": "hf-directional-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

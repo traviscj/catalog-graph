@@ -1,0 +1,52 @@
+{
+ "id": "mfj-asq-20",
+ "kind": "antenna",
+ "name": "ASQ-20",
+ "title": "Cushcraft ASQ-20",
+ "brand": "Cushcraft",
+ "price": 329.95,
+ "line": "HF squalo (horizontal omni)",
+ "legacy": false,
+ "summary": "20m Squalo square halo, horizontal omni, 100x100 in, 200 W",
+ "jobs": [
+  {
+   "job": "ant_small_space",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "other",
+  "mount": "base",
+  "ant_bands": [
+   "20m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 200,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "style": "squalo",
+   "size_in": "100x100",
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [
+  "200 W max"
+ ],
+ "confidence": "high",
+ "pairs": []
+}

@@ -1,0 +1,66 @@
+{
+ "id": "alp-milemcommbsc",
+ "kind": "antenna",
+ "name": "MIL EmComm Basic",
+ "title": "Alpha Antenna MIL EmComm Basic",
+ "brand": "Alpha",
+ "price": 400.0,
+ "line": "HF portable vertical",
+ "legacy": false,
+ "summary": "Portable 80-6m EmComm kit: matching unit, 9.5 ft whip, wires, bag",
+ "jobs": [
+  {
+   "job": "ant_hf_portable",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "vertical",
+  "mount": "portable",
+  "ant_bands": [
+   "80m",
+   "60m",
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m",
+   "6m"
+  ],
+  "resonant": null,
+  "tuner_req": null,
+  "max_w": 250,
+  "max_w_digital": 25,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 9.5,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "kv_type": "Vertical Dipole",
+   "dxe_part_type": "hf-portable-stealth-antennas"
+  }
+ },
+ "gotchas": [
+  "25 W digital max"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "1:1 common-mode choke at the shack entry",
+   "why": "keeps feedline RF out of the shack",
+   "req": false
+  }
+ ]
+}

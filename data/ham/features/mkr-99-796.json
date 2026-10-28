@@ -1,0 +1,61 @@
+{
+ "id": "mkr-99-796",
+ "kind": "antenna",
+ "name": "SPX-500",
+ "title": "Moonraker SPX-500",
+ "brand": "Moonraker",
+ "price": 159.95,
+ "line": "HF portable whip",
+ "legacy": false,
+ "summary": "Tapped-coil portable whip for 1.8-50 MHz, 50-100 W",
+ "jobs": [
+  {
+   "job": "ant_hf_portable",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "whip",
+  "mount": "portable",
+  "ant_bands": [
+   "160m",
+   "80m",
+   "60m",
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m",
+   "6m"
+  ],
+  "resonant": null,
+  "tuner_req": null,
+  "max_w": 100,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "PL-259",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "power_by_band": "50W 1.8MHz, 75W 3.5MHz, 100W 7-50MHz",
+   "dxe_part_type": "hf-portable-stealth-antennas"
+  }
+ },
+ "gotchas": [
+  "50 W on 160m, 75 W on 80m"
+ ],
+ "confidence": "high",
+ "pairs": []
+}

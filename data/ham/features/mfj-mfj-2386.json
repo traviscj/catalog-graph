@@ -1,0 +1,71 @@
+{
+ "id": "mfj-mfj-2386",
+ "kind": "antenna",
+ "name": "MFJ-2386",
+ "title": "MFJ MFJ-2386",
+ "brand": "MFJ",
+ "price": 299.95,
+ "line": "HF multiband vertical",
+ "legacy": false,
+ "summary": "23.5-ft no-radial broadband vertical, 3.5-54 MHz no tuning, 250 W",
+ "jobs": [
+  {
+   "job": "ant_hf_vertical",
+   "role": "primary"
+  },
+  {
+   "job": "ant_small_space",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "vertical",
+  "mount": "base",
+  "ant_bands": [
+   "80m",
+   "60m",
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m",
+   "6m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 250,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 23.5,
+  "weight_lb": 7,
+  "radials": false,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "rx_range": "2-90 MHz",
+   "wind_mph": 67,
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [
+  "Broadband no-tune design trades efficiency on 80/40m"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "1:1 common-mode choke at the shack entry",
+   "why": "keeps feedline RF out of the shack",
+   "req": false
+  }
+ ]
+}

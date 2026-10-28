@@ -1,0 +1,60 @@
+{
+ "id": "dmn-srh999",
+ "kind": "antenna",
+ "name": "SRH999",
+ "title": "Diamond SRH999",
+ "brand": "Diamond",
+ "price": 54.99,
+ "line": "HT antenna",
+ "legacy": false,
+ "summary": "19.5 in. quad-band 6m/2m/70cm/23cm flexible HT antenna, SMA",
+ "jobs": [
+  {
+   "job": "ant_ht",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "rubber-duck",
+  "mount": "handheld",
+  "ant_bands": [
+   "6m",
+   "2m",
+   "70cm",
+   "23cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 10,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 1.62,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "SMA",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "handheld-and-scanner-antennas"
+  }
+ },
+ "gotchas": [
+  "6m performance on a 19.5 in. whip is marginal"
+ ],
+ "confidence": "high",
+ "pairs": [],
+ "rating": {
+  "avg": 3.7,
+  "n": 10,
+  "pid": "2087",
+  "last": "2013-06-07",
+  "name": "Diamond SRH999 Quad Band HT Antenna"
+ }
+}

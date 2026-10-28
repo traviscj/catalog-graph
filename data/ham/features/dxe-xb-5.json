@@ -1,0 +1,60 @@
+{
+ "id": "dxe-xb-5",
+ "kind": "antenna",
+ "name": "XB-5",
+ "title": "DX Engineering XB-5",
+ "brand": "DX Engineering",
+ "price": 1247.92,
+ "line": "HF hex beam",
+ "legacy": false,
+ "summary": "5-band 20–10m Hexx Beam with mast bracket and balun, 25 lb",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "hex-beam",
+  "mount": "base",
+  "ant_bands": [
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 1500,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 10,
+  "boom_ft": null,
+  "turn_radius_ft": 11.0,
+  "wind_sqft": 5.2,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": 25.0,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "hf-directional-antennas"
+  }
+ },
+ "gotchas": [
+  "sold as component kits — order every part set"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

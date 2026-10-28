@@ -1,0 +1,58 @@
+{
+ "id": "ean-r2010420",
+ "kind": "antenna",
+ "name": "3BMOX",
+ "title": "EANTENNA 3BMOX",
+ "brand": "EAntenna",
+ "price": 1075.99,
+ "line": "HF tribander yagi",
+ "legacy": false,
+ "summary": "Compact 20/15/10m moxon-style tribander, 2/2/3 el, 10.4 ft boom",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "20m",
+   "15m",
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 7,
+  "boom_ft": 10.4,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "hf-directional-antennas"
+  }
+ },
+ "gotchas": [
+  "Rotator not included"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

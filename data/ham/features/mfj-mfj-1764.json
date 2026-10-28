@@ -1,0 +1,60 @@
+{
+ "id": "mfj-mfj-1764",
+ "kind": "antenna",
+ "name": "MFJ-1764",
+ "title": "MFJ MFJ-1764",
+ "brand": "MFJ",
+ "price": 89.95,
+ "line": "V/U base vertical",
+ "legacy": false,
+ "summary": "Stacked dual 5/8-wave 2m collinear, also 6m half-wave",
+ "jobs": [
+  {
+   "job": "ant_vu_base",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "collinear",
+  "mount": "base",
+  "ant_bands": [
+   "6m",
+   "2m"
+  ],
+  "resonant": null,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": 1.5,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "radiators_in": 47,
+   "note": "mount V for FM or H for SSB",
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [
+  "Mast not included"
+ ],
+ "confidence": "high",
+ "pairs": [],
+ "rating": {
+  "avg": 3.7,
+  "n": 9,
+  "pid": "2593",
+  "last": "2013-11-03",
+  "name": "MFJ-1764 Dual 2m/6m omnidirectional"
+ }
+}

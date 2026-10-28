@@ -1,0 +1,61 @@
+{
+ "id": "dmn-mr77sj",
+ "kind": "antenna",
+ "name": "MR77SJ",
+ "title": "Diamond Antenna Dual-Band Mobile Antennas",
+ "brand": "Diamond",
+ "price": 37.99,
+ "line": "V/U mobile whip",
+ "legacy": false,
+ "summary": "Diamond MR77SJ mag-mount dual-band antenna with RG-58 and SMA female for HTs",
+ "jobs": [
+  {
+   "job": "ant_vu_mobile",
+   "role": "primary"
+  },
+  {
+   "job": "ant_ht",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "whip",
+  "mount": "mobile",
+  "ant_bands": [
+   "2m",
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 1.62,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "SMA-female",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "vhf-uhf-mobile-vertical-antennas"
+  }
+ },
+ "gotchas": [
+  "Thin RG-58 + SMA — HT/low power use"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "mobile antenna mount (mag / trunk-lip / NMO)",
+   "why": "vehicle mount not included",
+   "req": false
+  }
+ ]
+}

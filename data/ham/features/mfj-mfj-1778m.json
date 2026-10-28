@@ -1,0 +1,73 @@
+{
+ "id": "mfj-mfj-1778m",
+ "kind": "antenna",
+ "name": "MFJ-1778M",
+ "title": "MFJ MFJ-1778M",
+ "brand": "MFJ",
+ "price": 79.95,
+ "line": "HF dipole",
+ "legacy": false,
+ "summary": "52-ft G5RV Junior, 40-10m with tuner, 1.5 kW",
+ "jobs": [
+  {
+   "job": "ant_hf_wire",
+   "role": "primary"
+  },
+  {
+   "job": "ant_small_space",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "dipole",
+  "mount": "base",
+  "ant_bands": [
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m"
+  ],
+  "resonant": false,
+  "tuner_req": null,
+  "max_w": 1500,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": 52,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [
+  "Tuner required"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "antenna tuner (wide-range)",
+   "why": "non-resonant on its listed bands",
+   "req": true
+  }
+ ],
+ "rating": {
+  "avg": 3.8,
+  "n": 5,
+  "pid": "11211",
+  "last": "2026-01-11",
+  "name": "MFJ-1778M G5RV Jr."
+ }
+}

@@ -1,0 +1,55 @@
+{
+ "id": "can-atticaptur40",
+ "kind": "antenna",
+ "name": "AttiCapture 40",
+ "title": "COMPACtenna AttiCapture 40",
+ "brand": "COMPACtenna",
+ "price": 379.0,
+ "line": "HF attic antenna",
+ "legacy": false,
+ "summary": "40m attic stealth V-fed antenna, 11x2 ft footprint, 200 W",
+ "jobs": [
+  {
+   "job": "ant_small_space",
+   "role": "primary"
+  },
+  {
+   "job": "ant_hf_wire",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "dipole",
+  "mount": "base",
+  "ant_bands": [
+   "40m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 200,
+  "max_w_digital": 100,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "horizontal",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "footprint_ft": "11x2",
+   "dxe_part_type": "hf-stealth-antenna-systems"
+  }
+ },
+ "gotchas": [
+  "indoor: RF exposure/noise near living space"
+ ],
+ "confidence": "high",
+ "pairs": []
+}

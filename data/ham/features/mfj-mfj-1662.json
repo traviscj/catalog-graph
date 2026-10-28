@@ -1,0 +1,78 @@
+{
+ "id": "mfj-mfj-1662",
+ "kind": "antenna",
+ "name": "MFJ-1662",
+ "title": "MFJ MFJ-1662",
+ "brand": "MFJ",
+ "price": 214.95,
+ "line": "HF mobile screwdriver",
+ "legacy": false,
+ "summary": "Manually adjusted screwdriver-style coil + whip, 40-2m",
+ "jobs": [
+  {
+   "job": "ant_hf_mobile",
+   "role": "primary"
+  },
+  {
+   "job": "ant_hf_portable",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "whip",
+  "mount": "mobile",
+  "ant_bands": [
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m",
+   "6m",
+   "2m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": 1.3,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "whip_ft": "4.5 mobile / 10 fixed",
+   "coil_in": 15,
+   "note": "title says 6-40M",
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [
+  "Manual (not motorized) tuning"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "mobile antenna mount (mag / trunk-lip / NMO)",
+   "why": "vehicle mount not included",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 3.7,
+  "n": 6,
+  "pid": "3812",
+  "last": "2011-11-15",
+  "name": "MFJ-1662 Manual Screwdeiver Mobile Antenna"
+ }
+}

@@ -1,0 +1,57 @@
+{
+ "id": "cma-cx-333",
+ "kind": "antenna",
+ "name": "CX-333",
+ "title": "Comet Antennas CX-333",
+ "brand": "Comet",
+ "price": 249.95,
+ "line": "V/U base vertical",
+ "legacy": false,
+ "summary": "10.4 ft tri-band 2m/220/70cm fiberglass base vertical",
+ "jobs": [
+  {
+   "job": "ant_vu_base",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "collinear",
+  "mount": "base",
+  "ant_bands": [
+   "2m",
+   "1.25m",
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 10.4,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "vhf-uhf-base-vertical-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [],
+ "rating": {
+  "avg": 4.5,
+  "n": 47,
+  "pid": "2522",
+  "last": "2025-09-29",
+  "name": "Comet CX-333 Triband Base Antenna"
+ }
+}

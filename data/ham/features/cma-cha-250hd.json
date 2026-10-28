@@ -1,0 +1,74 @@
+{
+ "id": "cma-cha-250hd",
+ "kind": "antenna",
+ "name": "CHA-250HD",
+ "title": "Comet CHA-250HD",
+ "brand": "Comet",
+ "price": 499.95,
+ "line": "HF multiband vertical",
+ "legacy": false,
+ "summary": "23 ft broadband no-tuner vertical, 3.5-57 MHz TX, 250 W",
+ "jobs": [
+  {
+   "job": "ant_hf_vertical",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "vertical",
+  "mount": "base",
+  "ant_bands": [
+   "80m",
+   "60m",
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m",
+   "6m"
+  ],
+  "resonant": true,
+  "tuner_req": "None",
+  "max_w": 250,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 23.42,
+  "weight_lb": 7.063,
+  "radials": false,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "rx_range": "2-90 MHz",
+   "dxe_part_type": "hf-vertical-antennas-and-packages"
+  }
+ },
+ "gotchas": [
+  "broadband loading: lossy, esp. 80/40m",
+  "250 W max"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "1:1 common-mode choke at the shack entry",
+   "why": "keeps feedline RF out of the shack",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 4.6,
+  "n": 5,
+  "pid": "15689",
+  "last": "2026-08-06",
+  "name": "COMET CHA250HD HF VERTICAL"
+ }
+}

@@ -1,0 +1,56 @@
+{
+ "id": "cma-ma-721",
+ "kind": "antenna",
+ "name": "MA-721",
+ "title": "Comet Antennas MA-721",
+ "brand": "Comet",
+ "price": 61.49,
+ "line": "V/U mobile whip",
+ "legacy": false,
+ "summary": "Dual-band 19.5 in. mag-mount mobile antenna with coax",
+ "jobs": [
+  {
+   "job": "ant_vu_mobile",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "whip",
+  "mount": "mobile",
+  "ant_bands": [
+   "2m",
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 80,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 1.62,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "PL-259",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "coax_ft": 16.5,
+   "dxe_part_type": "hf-vhf-uhf-mobile-vertical-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "mobile antenna mount (mag / trunk-lip / NMO)",
+   "why": "vehicle mount not included",
+   "req": false
+  }
+ ]
+}

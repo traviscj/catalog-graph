@@ -1,0 +1,157 @@
+{
+ "id": "ico-ic-7100",
+ "name": "IC-7100",
+ "title": "ICOM IC-7100",
+ "brand": "Icom",
+ "price": 838.95,
+ "line": "HF/VHF/UHF all-mode (mobile/base)",
+ "legacy": false,
+ "summary": "HF–70cm all-mode with D-STAR, detachable sloped touch head; 100 W HF/6m, 50 W 2m, 35 W 70cm.",
+ "jobs": [
+  {
+   "job": "allband_allmode",
+   "role": "primary"
+  },
+  {
+   "job": "hf_mobile",
+   "role": "primary"
+  },
+  {
+   "job": "digital_voice",
+   "role": "secondary"
+  },
+  {
+   "job": "ft8_digital",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "mobile",
+  "bands_tx": [
+   "160m",
+   "80m",
+   "60m",
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m",
+   "6m",
+   "2m",
+   "70cm"
+  ],
+  "hf": true,
+  "vhf_uhf": true,
+  "rx_range": "0.030–199.999, 400–470 MHz",
+  "power_w": {
+   "hf": 100,
+   "6m": 100,
+   "2m": 50,
+   "70cm": 35,
+   "23cm": null
+  },
+  "modes": [
+   "SSB",
+   "CW",
+   "AM",
+   "FM",
+   "RTTY",
+   "DV",
+   "DATA"
+  ],
+  "digital_voice": [
+   "D-STAR"
+  ],
+  "receiver_arch": "superhet",
+  "band_scope": null,
+  "display": "touch dot-matrix LCD (control head)",
+  "dual_receive": false,
+  "dual_watch": false,
+  "atu": false,
+  "usb_single_cable": true,
+  "lan_remote": false,
+  "wifi_bt": [],
+  "gps": false,
+  "aprs": true,
+  "full_duplex_sat": false,
+  "crossband_repeat": false,
+  "detachable_head": true,
+  "power_source": "13.8 VDC external",
+  "tx_current_a": 22.0,
+  "battery": null,
+  "ip_rating": null,
+  "antenna_ports": 2,
+  "rx_antenna_in": false,
+  "roofing_filters": null,
+  "memories": 505,
+  "weight_kg": 2.8,
+  "size_mm": "167×64×334 (body); head 165×64×78",
+  "special": [
+   "detachable control head",
+   "SD card voice/data",
+   "built-in RTTY decoder",
+   "voice record/playback",
+   "D-STAR DV + low-speed data"
+  ],
+  "requires": [
+   "13.8V 25A power supply",
+   "external ATU for HF (e.g. AH-4)"
+  ],
+  "extra": {
+   "aprs": "D-PRS (D-STAR); GPS needs external receiver",
+   "wfm": "RX only",
+   "warranty": "1-year (DXE spec)",
+   "list_price": 838.95,
+   "avail": "InStock"
+  }
+ },
+ "gotchas": [
+  "No internal ATU — FT-991A has one; add AH-4/LDG",
+  "No band scope at all — FT-991A or IC-705 have a waterfall",
+  "Single receiver, no satellite full duplex — IC-9700 for sats",
+  "No 1.25m/23cm — IC-905 for 23cm+",
+  "Needs 13.8 V ~22 A supply",
+  "Only 35 W on 70cm"
+ ],
+ "best_for": [
+  "HF+V/U mobile install",
+  "D-STAR plus HF in one box"
+ ],
+ "not_for": [
+  "satellites",
+  "scope-driven operating",
+  "contesting"
+ ],
+ "pairs": [
+  {
+   "id": "13.8 V 25 A power supply",
+   "why": "no internal PSU; 22 A draw",
+   "req": true
+  },
+  {
+   "id": "external auto-tuner (e.g. AH-4 / LDG IT-100)",
+   "why": "no internal ATU",
+   "req": false
+  },
+  {
+   "id": "HF/VHF/UHF mobile antenna",
+   "why": "two antenna ports (HF/6m, V/U)",
+   "req": false
+  },
+  {
+   "id": "ysu-ft-991a",
+   "why": "competitor with ATU and scope",
+   "req": false
+  }
+ ],
+ "confidence": "medium",
+ "rating": {
+  "avg": 4.4,
+  "n": 179,
+  "pid": "11080",
+  "last": "2026-08-18",
+  "name": "ICOM IC-7100"
+ }
+}

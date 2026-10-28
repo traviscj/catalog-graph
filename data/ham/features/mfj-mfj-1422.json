@@ -1,0 +1,63 @@
+{
+ "id": "mfj-mfj-1422",
+ "kind": "antenna",
+ "name": "MFJ-1422",
+ "title": "MFJ MFJ-1422",
+ "brand": "MFJ",
+ "price": 59.95,
+ "line": "V/U mobile whip",
+ "legacy": false,
+ "summary": "41.5 in 2m/70cm mobile whip, 150 W",
+ "jobs": [
+  {
+   "job": "ant_vu_mobile",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "whip",
+  "mount": "mobile",
+  "ant_bands": [
+   "2m",
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 150,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 3.46,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "gain_db": "3.2 (2m)/5.7 (70cm)",
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "mobile antenna mount (mag / trunk-lip / NMO)",
+   "why": "vehicle mount not included",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 2.7,
+  "n": 15,
+  "pid": "1065",
+  "last": "2013-01-14",
+  "name": "MFJ-1422 2mtr/440 Rough Rider Antenna and mfj 345 hatchback moun"
+ }
+}

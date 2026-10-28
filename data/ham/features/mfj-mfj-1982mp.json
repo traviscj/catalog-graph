@@ -1,0 +1,74 @@
+{
+ "id": "mfj-mfj-1982mp",
+ "kind": "antenna",
+ "name": "MFJ-1982MP",
+ "title": "MFJ MFJ-1982MP",
+ "brand": "MFJ",
+ "price": 99.95,
+ "line": "HF end-fed wire",
+ "legacy": false,
+ "summary": "EFHW 80-10m, 300 W, no counterpoise/radials",
+ "jobs": [
+  {
+   "job": "ant_hf_wire",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "end-fed",
+  "mount": "base",
+  "ant_bands": [
+   "80m",
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 300,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": null,
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "tuner_bands": [
+    "30m"
+   ],
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [
+  "30m needs tuner",
+  "80m 2:1 only 3.5-3.9 MHz"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "1:1 common-mode choke at the shack entry",
+   "why": "keeps feedline RF out of the shack",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 3.8,
+  "n": 4,
+  "pid": "14126",
+  "last": "2022-07-17",
+  "name": "MFJ-1982MP EFHW"
+ }
+}

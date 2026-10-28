@@ -1,0 +1,55 @@
+{
+ "id": "mfj-mfj-1788x",
+ "kind": "antenna",
+ "name": "MFJ-1788X",
+ "title": "MFJ MFJ-1788X",
+ "brand": "MFJ",
+ "price": 719.95,
+ "line": "HF mag loop",
+ "legacy": false,
+ "summary": "36-in remote auto-tune mag loop, 40-15m continuous, 150 W, 220 VAC",
+ "jobs": [
+  {
+   "job": "ant_small_space",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "mag-loop",
+  "mount": "base",
+  "ant_bands": [
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 150,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": null,
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [
+  "150 W max",
+  "220 VAC controller (110 V = MFJ-1788)"
+ ],
+ "confidence": "high",
+ "pairs": []
+}

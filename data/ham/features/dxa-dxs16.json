@@ -1,0 +1,55 @@
+{
+ "id": "dxa-dxs16",
+ "kind": "antenna",
+ "name": "DXS16",
+ "title": "DIEX Antennas DXS16",
+ "brand": "DIEX",
+ "price": 525.99,
+ "line": "HF rotatable dipole",
+ "legacy": false,
+ "summary": "Trap-shortened rigid rotatable dipole for 20/15/10/6m, 1.5 kW",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  },
+  {
+   "job": "ant_small_space",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "dipole",
+  "mount": "base",
+  "ant_bands": [
+   "20m",
+   "15m",
+   "10m",
+   "6m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 1500.0,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": 25.59,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "hf-directional-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": []
+}

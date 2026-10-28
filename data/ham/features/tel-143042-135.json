@@ -1,0 +1,61 @@
+{
+ "id": "tel-143042-135",
+ "kind": "antenna",
+ "name": "Telrex 14-30 LP 16el",
+ "title": "Telrex Antennas Telrex 14-30 LP 16el",
+ "brand": "Telrex",
+ "price": 10000.0,
+ "line": "HF log-periodic",
+ "legacy": false,
+ "summary": "Heavy-duty 16-element 14-30 MHz log-periodic, 42 ft boom, 350 lb",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "log-periodic",
+  "mount": "base",
+  "ant_bands": [
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 16,
+  "boom_ft": 42,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": 350,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "wind_survival_mph": 120,
+   "dxe_part_type": "hf-directional-antennas"
+  }
+ },
+ "gotchas": [
+  "350 lb, 42 ft boom — major tower project"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

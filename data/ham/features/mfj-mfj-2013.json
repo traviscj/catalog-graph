@@ -1,0 +1,65 @@
+{
+ "id": "mfj-mfj-2013",
+ "kind": "antenna",
+ "name": "MFJ-2013",
+ "title": "MFJ MFJ-2013",
+ "brand": "MFJ",
+ "price": 109.95,
+ "line": "HF OCF dipole",
+ "legacy": false,
+ "summary": "86 ft K1BQT OCFD for 60/30m, 300 W, built-in current choke",
+ "jobs": [
+  {
+   "job": "ant_hf_wire",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "ocf-dipole",
+  "mount": "base",
+  "ant_bands": [
+   "60m",
+   "30m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 300,
+  "max_w_digital": null,
+  "gain_dbi": 9,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": 86,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "horizontal",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "gain_note": "up to 9 dBi on 30m",
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [
+  "suggested height 35-70 ft"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "1:1 common-mode choke at the shack entry",
+   "why": "keeps feedline RF out of the shack",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 3.7,
+  "n": 3,
+  "pid": "13932",
+  "last": "2023-12-18",
+  "name": "MFJ 2013"
+ }
+}

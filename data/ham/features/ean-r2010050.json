@@ -1,0 +1,50 @@
+{
+ "id": "ean-r2010050",
+ "kind": "antenna",
+ "name": "EA101520DX",
+ "title": "EANTENNA EA101520DX",
+ "brand": "EAntenna",
+ "price": 305.99,
+ "line": "HF fan dipole",
+ "legacy": false,
+ "summary": "Compact 34 ft 20/15/10m fan dipole, 1.5 kW",
+ "jobs": [
+  {
+   "job": "ant_hf_wire",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "dipole",
+  "mount": "base",
+  "ant_bands": [
+   "20m",
+   "15m",
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 1500,
+  "max_w_digital": 1000,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": 34.42,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "wire-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": []
+}

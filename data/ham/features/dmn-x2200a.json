@@ -1,0 +1,50 @@
+{
+ "id": "dmn-x2200a",
+ "kind": "antenna",
+ "name": "X2200A",
+ "title": "Diamond Antenna X2200A",
+ "brand": "Diamond",
+ "price": 198.99,
+ "line": "V/U base vertical",
+ "legacy": false,
+ "summary": "10 ft 2m/1.25m dual-band base/repeater collinear",
+ "jobs": [
+  {
+   "job": "ant_vu_base",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "collinear",
+  "mount": "base",
+  "ant_bands": [
+   "2m",
+   "1.25m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 150,
+  "max_w_digital": null,
+  "gain_dbi": 7.8,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 10.0,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "gain": "6.0/7.8 (2m/1.25m)",
+   "dxe_part_type": "vhf-uhf-base-vertical-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": []
+}

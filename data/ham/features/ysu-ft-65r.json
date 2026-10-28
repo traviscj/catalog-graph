@@ -1,0 +1,131 @@
+{
+ "id": "ysu-ft-65r",
+ "name": "FT-65R",
+ "title": "Yaesu FT-65R",
+ "brand": "Yaesu",
+ "price": 119.95,
+ "line": "HT",
+ "legacy": false,
+ "summary": "Rugged, basic 2m/70cm analog FM 5W HT with LED display; cheap first repeater radio.",
+ "jobs": [
+  {
+   "job": "vhf_uhf_handheld",
+   "role": "primary"
+  },
+  {
+   "job": "first_radio",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "handheld",
+  "bands_tx": [
+   "2m",
+   "70cm"
+  ],
+  "hf": false,
+  "vhf_uhf": true,
+  "rx_range": "65–108 (FM bcast), 136–174, 400–500 MHz",
+  "power_w": {
+   "hf": null,
+   "6m": null,
+   "2m": 5,
+   "70cm": 5,
+   "23cm": null
+  },
+  "modes": [
+   "FM"
+  ],
+  "digital_voice": [],
+  "receiver_arch": "FM (HT/mobile)",
+  "band_scope": null,
+  "display": "LED (white)",
+  "dual_receive": false,
+  "dual_watch": false,
+  "atu": false,
+  "usb_single_cable": false,
+  "lan_remote": false,
+  "wifi_bt": [],
+  "gps": false,
+  "aprs": false,
+  "full_duplex_sat": false,
+  "crossband_repeat": false,
+  "detachable_head": false,
+  "power_source": "Li-ion pack",
+  "tx_current_a": null,
+  "battery": "SBR-25LI 1950 mAh Li-ion (incl.)",
+  "ip_rating": "IP54",
+  "antenna_ports": 1,
+  "rx_antenna_in": false,
+  "roofing_filters": null,
+  "memories": 200,
+  "weight_kg": 0.26,
+  "size_mm": "53×104×30",
+  "special": [
+   "1W audio",
+   "4 QRK quick-recall keys",
+   "weather alert",
+   "rapid charger incl."
+  ],
+  "requires": [],
+  "extra": {
+   "connector": "SMA male on radio (needs SMA-female antenna)",
+   "speaker_mic": "unique 2-pin",
+   "power_steps_w": [
+    5,
+    2.5,
+    0.5
+   ],
+   "warranty": "3-year",
+   "list_price": "169.95",
+   "avail": "InStock"
+  }
+ },
+ "gotchas": [
+  "Analog FM only — FT-5DR / FT-70DR add C4FM digital",
+  "Single receiver, no dual watch — FT-5DR has true dual receive",
+  "Radio is SMA-male: Baofeng-style SMA-male antennas won't fit",
+  "Proprietary 2-pin speaker-mic jack; no GPS/APRS — FT-5DR has GPS+APRS",
+  "Programming cable not included for PC/CHIRP use"
+ ],
+ "best_for": [
+  "new Technician",
+  "repeater/simplex",
+  "backup HT"
+ ],
+ "not_for": [
+  "digital voice",
+  "APRS",
+  "wide-band scanning"
+ ],
+ "pairs": [
+  {
+   "id": "SBR-26LI 2500 mAh battery",
+   "why": "longer runtime, ~11.5 h",
+   "req": false
+  },
+  {
+   "id": "FT-65/FT-4 programming cable",
+   "why": "PC programming; not included",
+   "req": false
+  },
+  {
+   "id": "SMA-female whip antenna upgrade",
+   "why": "stock rubber duck is weak",
+   "req": false
+  },
+  {
+   "id": "ysu-ftm-150r",
+   "why": "matching analog 2m mobile",
+   "req": false
+  }
+ ],
+ "confidence": "medium",
+ "rating": {
+  "avg": 4.1,
+  "n": 49,
+  "pid": "13257",
+  "last": "2025-10-09",
+  "name": "Yaesu FT-65R"
+ }
+}

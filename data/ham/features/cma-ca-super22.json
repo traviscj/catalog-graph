@@ -1,0 +1,55 @@
+{
+ "id": "cma-ca-super22",
+ "kind": "antenna",
+ "name": "CA-SUPER22",
+ "title": "Comet CA-SUPER22",
+ "brand": "Comet",
+ "price": 185.95,
+ "line": "V/U base vertical",
+ "legacy": false,
+ "summary": "8 ft 220 MHz (1.25m) fiberglass base collinear, 150 W",
+ "jobs": [
+  {
+   "job": "ant_vu_base",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "collinear",
+  "mount": "base",
+  "ant_bands": [
+   "1.25m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 150,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 8.0,
+  "weight_lb": 2.8,
+  "radials": false,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "vhf-uhf-base-vertical-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [],
+ "rating": {
+  "avg": 4.7,
+  "n": 3,
+  "pid": "4371",
+  "last": "2020-08-27",
+  "name": "Comet CA-Super22"
+ }
+}

@@ -1,0 +1,82 @@
+{
+ "id": "mfj-mfj-2982",
+ "kind": "antenna",
+ "name": "MFJ-2982",
+ "title": "MFJ MFJ-2982",
+ "brand": "MFJ",
+ "price": 179.95,
+ "line": "HF portable vertical",
+ "legacy": false,
+ "summary": "31 ft self-supporting telescoping vertical, tapped base coil, 80-6m, 600 W",
+ "jobs": [
+  {
+   "job": "ant_hf_portable",
+   "role": "primary"
+  },
+  {
+   "job": "ant_hf_vertical",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "vertical",
+  "mount": "portable",
+  "ant_bands": [
+   "80m",
+   "60m",
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m",
+   "6m"
+  ],
+  "resonant": false,
+  "tuner_req": "no tuner 80/60/40/17m; ATU on 30/20/15/12/10/6m",
+  "max_w": 600,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 31,
+  "weight_lb": null,
+  "radials": true,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "collapsed_ft": 3.8,
+   "counterpoise": "4x12 ft incl.",
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [
+  "ATU required on 30/20/15/12/10/6m",
+  "lay out the four 12 ft counterpoise wires"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "antenna tuner (wide-range)",
+   "why": "non-resonant on its listed bands",
+   "req": true
+  },
+  {
+   "id": "radial wires / counterpoise",
+   "why": "vertical needs a ground system",
+   "req": true
+  },
+  {
+   "id": "1:1 common-mode choke at the shack entry",
+   "why": "keeps feedline RF out of the shack",
+   "req": false
+  }
+ ]
+}

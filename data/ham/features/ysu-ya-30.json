@@ -1,0 +1,66 @@
+{
+ "id": "ysu-ya-30",
+ "kind": "antenna",
+ "name": "YA-30",
+ "title": "Yaesu YA-30",
+ "brand": "Yaesu",
+ "price": 349.99,
+ "line": "HF broadband dipole",
+ "legacy": false,
+ "summary": "Broadband folded dipole for Yaesu commercial HF radios (FT-600/VX-1700)",
+ "jobs": [
+  {
+   "job": "ant_hf_wire",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "dipole",
+  "mount": "base",
+  "ant_bands": [
+   "80m",
+   "60m",
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "note": "coverage inferred (~2-30 MHz)",
+   "dxe_part_type": "wire-antennas"
+  }
+ },
+ "gotchas": [
+  "broadband terminated — lossier than resonant"
+ ],
+ "confidence": "medium",
+ "pairs": [],
+ "rating": {
+  "avg": 4.5,
+  "n": 17,
+  "pid": "3400",
+  "last": "2023-03-25",
+  "name": "Yaesu YA-30 Folded Dipole"
+ }
+}

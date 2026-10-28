@@ -1,0 +1,62 @@
+{
+ "id": "mkr-12-077",
+ "kind": "antenna",
+ "name": "HF Mini Stick 20M",
+ "title": "Moonraker HF Mini Stick 20M",
+ "brand": "Moonraker",
+ "price": 49.99,
+ "line": "HF mobile whip",
+ "legacy": false,
+ "summary": "Compact 2-piece 20m mobile whip, 250 W SSB",
+ "jobs": [
+  {
+   "job": "ant_hf_mobile",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "whip",
+  "mount": "mobile",
+  "ant_bands": [
+   "20m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 250,
+  "max_w_digital": 50,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "3/8-24 stud",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "collapsed_in": 25.6,
+   "dxe_part_type": "mobile-whip-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "mobile antenna mount (mag / trunk-lip / NMO)",
+   "why": "vehicle mount not included",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 4.6,
+  "n": 34,
+  "pid": "7615",
+  "last": "2020-12-11",
+  "name": "Hendricks PFR-3 Transceiver (40/30/20m)"
+ }
+}

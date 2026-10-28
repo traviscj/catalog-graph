@@ -1,0 +1,64 @@
+{
+ "id": "pez-ef-40-10-kw",
+ "kind": "antenna",
+ "name": "EF-40-10-KW",
+ "title": "Par EndFedz® Antennas",
+ "brand": "Par EndFedz",
+ "price": 169.95,
+ "line": "HF end-fed wire",
+ "legacy": false,
+ "summary": "Par EndFedz 64 ft 40/20/15/10m EFHW, 1 kW SSB/CW",
+ "jobs": [
+  {
+   "job": "ant_hf_wire",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "end-fed",
+  "mount": "base",
+  "ant_bands": [
+   "40m",
+   "20m",
+   "15m",
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 1000,
+  "max_w_digital": 250,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": 64.0,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": null,
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "wire-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "1:1 common-mode choke at the shack entry",
+   "why": "keeps feedline RF out of the shack",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 5.0,
+  "n": 5,
+  "pid": "9847",
+  "last": "2014-05-13",
+  "name": "PAR / LNR PRECISION EF-40/20"
+ }
+}

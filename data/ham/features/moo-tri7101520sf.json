@@ -1,0 +1,60 @@
+{
+ "id": "moo-tri7101520sf",
+ "kind": "antenna",
+ "name": "TRI7-SF",
+ "title": "Momobeam TRI7-SF",
+ "brand": "Momobeam",
+ "price": 2039.99,
+ "line": "HF tribander yagi",
+ "legacy": false,
+ "summary": "7-element 20/15/10m tribander with separate feeds per band",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "20m",
+   "15m",
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 10000.0,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 7,
+  "boom_ft": 17.72,
+  "turn_radius_ft": 20.7,
+  "wind_sqft": 7.32,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": 61.73,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "boom_desc_ft": 13.78,
+   "dxe_part_type": "hf-directional-antennas"
+  }
+ },
+ "gotchas": [
+  "Three separate feedlines (or a remote switch)",
+  "Boom 13.78 ft in desc vs 17.72 ft in specs"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

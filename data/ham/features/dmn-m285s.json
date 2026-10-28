@@ -1,0 +1,55 @@
+{
+ "id": "dmn-m285s",
+ "kind": "antenna",
+ "name": "M285S",
+ "title": "Diamond M285S",
+ "brand": "Diamond",
+ "price": 33.99,
+ "line": "V/U mobile whip",
+ "legacy": false,
+ "summary": "52 in. 5/8-wave 2m mobile whip, tunable 144–172 MHz, UHF mount",
+ "jobs": [
+  {
+   "job": "ant_vu_mobile",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "whip",
+  "mount": "mobile",
+  "ant_bands": [
+   "2m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 200,
+  "max_w_digital": 100,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 4.37,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "PL-259",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "freq": "144-172 MHz",
+   "dxe_part_type": "vhf-uhf-mobile-vertical-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "mobile antenna mount (mag / trunk-lip / NMO)",
+   "why": "vehicle mount not included",
+   "req": false
+  }
+ ]
+}

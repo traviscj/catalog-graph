@@ -1,0 +1,54 @@
+{
+ "id": "dxe-wp-102",
+ "kind": "antenna",
+ "name": "WP-102",
+ "title": "DX Engineering WP-102",
+ "brand": "DX Engineering",
+ "price": 49.99,
+ "line": "HF mobile whip",
+ "legacy": false,
+ "summary": "8.5 ft (102 in.) tapered stainless whip, 10m, 3/8-24",
+ "jobs": [
+  {
+   "job": "ant_hf_mobile",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "whip",
+  "mount": "mobile",
+  "ant_bands": [
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 8.5,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "3/8-24 stud",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "mobile-whip-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "mobile antenna mount (mag / trunk-lip / NMO)",
+   "why": "vehicle mount not included",
+   "req": false
+  }
+ ]
+}

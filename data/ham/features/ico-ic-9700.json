@@ -1,0 +1,153 @@
+{
+ "id": "ico-ic-9700",
+ "name": "IC-9700",
+ "title": "ICOM IC-9700",
+ "brand": "Icom",
+ "price": 2099.95,
+ "line": "VHF/UHF all-mode (sat)",
+ "legacy": false,
+ "summary": "Direct-sampling SDR all-mode 2m/70cm/23cm base: 100/75/10W, D-STAR, full-duplex satellite, LAN.",
+ "jobs": [
+  {
+   "job": "vhf_uhf_allmode",
+   "role": "primary"
+  },
+  {
+   "job": "satellite",
+   "role": "primary"
+  },
+  {
+   "job": "digital_voice",
+   "role": "secondary"
+  },
+  {
+   "job": "remote_operation",
+   "role": "secondary"
+  },
+  {
+   "job": "ft8_digital",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "base",
+  "bands_tx": [
+   "2m",
+   "70cm",
+   "23cm"
+  ],
+  "hf": false,
+  "vhf_uhf": true,
+  "rx_range": "144–148, 430–450, 1240–1300 MHz",
+  "power_w": {
+   "hf": null,
+   "6m": null,
+   "2m": 100,
+   "70cm": 75,
+   "23cm": 10
+  },
+  "modes": [
+   "SSB",
+   "CW",
+   "AM",
+   "FM",
+   "RTTY",
+   "DATA",
+   "D-STAR",
+   "DD"
+  ],
+  "digital_voice": [
+   "D-STAR"
+  ],
+  "receiver_arch": "direct-sampling SDR",
+  "band_scope": "real-time scope + waterfall (main/sub)",
+  "display": "4.3in color touch",
+  "dual_receive": true,
+  "dual_watch": true,
+  "atu": false,
+  "usb_single_cable": true,
+  "lan_remote": true,
+  "wifi_bt": [],
+  "gps": false,
+  "aprs": true,
+  "full_duplex_sat": true,
+  "crossband_repeat": false,
+  "detachable_head": false,
+  "power_source": "13.8 VDC external",
+  "tx_current_a": 20.0,
+  "battery": null,
+  "ip_rating": null,
+  "antenna_ports": 3,
+  "rx_antenna_in": false,
+  "roofing_filters": null,
+  "memories": 297,
+  "weight_kg": 4.7,
+  "size_mm": "240×94×238",
+  "special": [
+   "2 receivers (cross-band)",
+   "SD recording",
+   "D-STAR DD 128 kbps",
+   "99 satellite memories",
+   "2500 DR memories",
+   "IF-sampled 23cm"
+  ],
+  "requires": [
+   "13.8V 20A+ power supply"
+  ],
+  "extra": {
+   "aprs_note": "D-PRS via D-STAR, not AX.25 APRS",
+   "dual_rx_note": "main/sub on different bands only (no V/V or U/U)",
+   "connectors": "2m SO-239, 70cm N, 23cm N",
+   "lan_note": "RS-BA1 software needed for remote",
+   "warranty": "1-year",
+   "list_price": "2099.95",
+   "avail": "InStock"
+  }
+ },
+ "gotchas": [
+  "No HF/6m — pair with IC-7300MK2 or IC-7610",
+  "Dual RX is cross-band only: no V/V or U/U dual watch (IC-2730A does V/V)",
+  "23cm only 10W; no 1.25m",
+  "LAN remote needs paid RS-BA1 software",
+  "Needs 20A 13.8V supply (not included); only 1-year warranty"
+ ],
+ "best_for": [
+  "satellite (FM + linear)",
+  "2m/70cm SSB/CW weak signal, EME starter",
+  "23cm"
+ ],
+ "not_for": [
+  "HF",
+  "mobile FM"
+ ],
+ "pairs": [
+  {
+   "id": "13.8 V 25 A power supply",
+   "why": "no internal supply; 20A on TX",
+   "req": true
+  },
+  {
+   "id": "2m/70cm Yagi + az/el rotator",
+   "why": "satellite/weak-signal antennas",
+   "req": false
+  },
+  {
+   "id": "ico-ic-7300mk2",
+   "why": "adds HF/6m; same UI family",
+   "req": false
+  },
+  {
+   "id": "RS-BA1 remote software",
+   "why": "needed for LAN remote",
+   "req": false
+  }
+ ],
+ "confidence": "high",
+ "rating": {
+  "avg": 4.1,
+  "n": 67,
+  "pid": "14225",
+  "last": "2026-05-25",
+  "name": "Icom IC-9700"
+ }
+}

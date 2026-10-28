@@ -1,0 +1,67 @@
+{
+ "id": "mfj-mfj-2012",
+ "kind": "antenna",
+ "name": "MFJ-2012",
+ "title": "MFJ MFJ-2012",
+ "brand": "MFJ",
+ "price": 109.95,
+ "line": "HF OCF dipole",
+ "legacy": false,
+ "summary": "Power-Lite OCFD for 40/20/10/6m, 1.5 kW, 14-ga wire",
+ "jobs": [
+  {
+   "job": "ant_hf_wire",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "ocf-dipole",
+  "mount": "base",
+  "ant_bands": [
+   "40m",
+   "20m",
+   "10m",
+   "6m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 1500,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "horizontal",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "min_feed_height_ft": 35,
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [
+  "Needs 35-70 ft support height"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "1:1 common-mode choke at the shack entry",
+   "why": "keeps feedline RF out of the shack",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 5.0,
+  "n": 11,
+  "pid": "8917",
+  "last": "2024-08-27",
+  "name": "MFJ 2012"
+ }
+}

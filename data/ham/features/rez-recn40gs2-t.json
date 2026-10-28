@@ -1,0 +1,67 @@
+{
+ "id": "rez-recn40gs2-t",
+ "kind": "antenna",
+ "name": "Recon 40 v2",
+ "title": "REZ Antenna Systems Recon 40 Version 2 HF Portable Antenna Systems",
+ "brand": "REZ",
+ "price": 593.0,
+ "line": "HF portable vertical",
+ "legacy": false,
+ "summary": "REZ Recon 40 v2 coil-loaded spike-mount portable vertical kit, 40-10m",
+ "jobs": [
+  {
+   "job": "ant_hf_portable",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "vertical",
+  "mount": "portable",
+  "ant_bands": [
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 500,
+  "max_w_digital": 200,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": true,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "hf-portable-stealth-antennas"
+  }
+ },
+ "gotchas": [
+  "Coil retune per band"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "radial wires / counterpoise",
+   "why": "vertical needs a ground system",
+   "req": true
+  },
+  {
+   "id": "1:1 common-mode choke at the shack entry",
+   "why": "keeps feedline RF out of the shack",
+   "req": false
+  }
+ ]
+}

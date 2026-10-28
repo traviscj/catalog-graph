@@ -1,0 +1,51 @@
+{
+ "id": "nce-0032524o124",
+ "kind": "antenna",
+ "name": "JFA-124K",
+ "title": "Chelegance JFA-124K",
+ "brand": "Chelegance",
+ "price": 14.99,
+ "line": "HT antenna",
+ "legacy": false,
+ "summary": "49 in. tactical folding dual-band HT whip, SMA female, 8 W",
+ "jobs": [
+  {
+   "job": "ant_ht",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "whip",
+  "mount": "handheld",
+  "ant_bands": [
+   "2m",
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 8,
+  "max_w_digital": null,
+  "gain_dbi": 3.2,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 4.08,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "SMA",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "handheld-and-scanner-antennas"
+  }
+ },
+ "gotchas": [
+  "8 W max"
+ ],
+ "confidence": "high",
+ "pairs": []
+}

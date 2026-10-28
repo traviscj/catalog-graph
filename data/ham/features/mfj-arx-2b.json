@@ -1,0 +1,56 @@
+{
+ "id": "mfj-arx-2b",
+ "kind": "antenna",
+ "name": "ARX-2B",
+ "title": "Cushcraft ARX-2B",
+ "brand": "Cushcraft",
+ "price": 179.95,
+ "line": "V/U base vertical",
+ "legacy": false,
+ "summary": "Ringo Ranger II 14-ft 2m collinear, 7.0 dBi, 1 kW",
+ "jobs": [
+  {
+   "job": "ant_vu_base",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "collinear",
+  "mount": "base",
+  "ant_bands": [
+   "2m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 1000,
+  "max_w_digital": null,
+  "gain_dbi": 7.0,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": 0.5,
+  "length_ft": null,
+  "height_ft": 14,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "freq_range": "135-160 MHz",
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [],
+ "rating": {
+  "avg": 4.0,
+  "n": 28,
+  "pid": "4437",
+  "last": "2018-12-03",
+  "name": "Cushcraft ARX2B Ringo Ranger II"
+ }
+}

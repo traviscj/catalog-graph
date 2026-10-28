@@ -1,0 +1,65 @@
+{
+ "id": "dbo-ob4-40-p",
+ "kind": "antenna",
+ "name": "OB4-40",
+ "title": "OptiBeam OB4-40",
+ "brand": "OptiBeam",
+ "price": 4567.98,
+ "line": "HF monoband yagi",
+ "legacy": false,
+ "summary": "Full-size 4-element 40m yagi on 39 ft boom, contest-grade",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "40m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 5000,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 4,
+  "boom_ft": 39.04,
+  "turn_radius_ft": 31.0,
+  "wind_sqft": 16.2,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": 176.4,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "longest_el_ft": 48.36,
+   "balun": "included",
+   "dxe_part_type": "hf-directional-antennas"
+  }
+ },
+ "gotchas": [
+  "176 lb / 16.2 sq ft — serious tower + rotator"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ],
+ "rating": {
+  "avg": 5.0,
+  "n": 10,
+  "pid": "5505",
+  "last": "2023-05-14",
+  "name": "OptiBeam OB4-40  high performance 4 element 40m Yagi"
+ }
+}

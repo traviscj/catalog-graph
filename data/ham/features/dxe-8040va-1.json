@@ -1,0 +1,69 @@
+{
+ "id": "dxe-8040va-1",
+ "kind": "antenna",
+ "name": "8040VA-1",
+ "title": "DX Engineering 8040VA-1",
+ "brand": "DX Engineering",
+ "price": 2019.97,
+ "line": "HF multiband vertical",
+ "legacy": false,
+ "summary": "55 ft heavy-duty THUNDERBOLT 80/40m dual-band vertical, 5 kW",
+ "jobs": [
+  {
+   "job": "ant_hf_vertical",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "vertical",
+  "mount": "base",
+  "ant_bands": [
+   "80m",
+   "40m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 5000,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 55.0,
+  "weight_lb": null,
+  "radials": true,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "hf-vertical-antennas-and-packages"
+  }
+ },
+ "gotchas": [
+  "needs extensive radial field"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "radial wires / counterpoise",
+   "why": "vertical needs a ground system",
+   "req": true
+  },
+  {
+   "id": "1:1 common-mode choke at the shack entry",
+   "why": "keeps feedline RF out of the shack",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 5.0,
+  "n": 11,
+  "pid": "8676",
+  "last": "2017-12-03",
+  "name": "DX Engineering DXE-8040VA-1 80/40 Meter THUNDERBOLT Vertical Ant"
+ }
+}

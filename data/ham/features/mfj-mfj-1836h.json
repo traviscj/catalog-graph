@@ -1,0 +1,67 @@
+{
+ "id": "mfj-mfj-1836h",
+ "kind": "antenna",
+ "name": "MFJ-1836H",
+ "title": "MFJ MFJ-1836H",
+ "brand": "MFJ",
+ "price": 319.95,
+ "line": "HF cobweb",
+ "legacy": false,
+ "summary": "Six-band 20-6m half-wave Cobweb, horizontal omni, 1.5 kW, 9x9 ft",
+ "jobs": [
+  {
+   "job": "ant_small_space",
+   "role": "primary"
+  },
+  {
+   "job": "ant_hf_portable",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "other",
+  "mount": "base",
+  "ant_bands": [
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m",
+   "6m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 1500,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": 8,
+  "radials": false,
+  "directional": false,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "size_ft": "9x9",
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [
+  "40/30m needs MFJ-1836HK34 add-on"
+ ],
+ "confidence": "high",
+ "pairs": [],
+ "rating": {
+  "avg": 2.4,
+  "n": 5,
+  "pid": "14461",
+  "last": "2025-04-11",
+  "name": "MFJ 1836H"
+ }
+}

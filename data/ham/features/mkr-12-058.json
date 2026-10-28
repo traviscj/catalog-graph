@@ -1,0 +1,64 @@
+{
+ "id": "mkr-12-058",
+ "kind": "antenna",
+ "name": "40m Mobile Whip",
+ "title": "Moonraker 40m Mobile Whip",
+ "brand": "Moonraker",
+ "price": 64.99,
+ "line": "HF mobile whip",
+ "legacy": false,
+ "summary": "8 ft wire-wound fiberglass 40m mobile whip, 250 W",
+ "jobs": [
+  {
+   "job": "ant_hf_mobile",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "whip",
+  "mount": "mobile",
+  "ant_bands": [
+   "40m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 250,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 8.04,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "3/8-24 stud",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "bw_khz": 60,
+   "dxe_part_type": "mobile-whip-antennas"
+  }
+ },
+ "gotchas": [
+  "Only ~60 kHz bandwidth"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "mobile antenna mount (mag / trunk-lip / NMO)",
+   "why": "vehicle mount not included",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 5.0,
+  "n": 25,
+  "pid": "9434",
+  "last": "2016-01-11",
+  "name": "W8AMZ G5RV Jr. 10m-40m Multi-Band HF Dipole Antenna 2Kw"
+ }
+}

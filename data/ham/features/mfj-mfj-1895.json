@@ -1,0 +1,61 @@
+{
+ "id": "mfj-mfj-1895",
+ "kind": "antenna",
+ "name": "MFJ-1895",
+ "title": "MFJ MFJ-1895",
+ "brand": "MFJ",
+ "price": 199.95,
+ "line": "HF moxon",
+ "legacy": false,
+ "summary": "2-el 15m Moxon, 3.3 dBi, light TV-rotator class",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  },
+  {
+   "job": "ant_small_space",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "moxon",
+  "mount": "base",
+  "ant_bands": [
+   "15m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": 3.3,
+  "elements": 2,
+  "boom_ft": 5.58,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": 10,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "span_ft": 16,
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [
+  "Rotator not included"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

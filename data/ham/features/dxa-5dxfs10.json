@@ -1,0 +1,58 @@
+{
+ "id": "dxa-5dxfs10",
+ "kind": "antenna",
+ "name": "5DXFS10",
+ "title": "DIEX Antennas 5DXFS10",
+ "brand": "DIEX",
+ "price": 959.99,
+ "line": "HF monoband yagi",
+ "legacy": false,
+ "summary": "Full-size 5-element 10m monoband yagi, 19.7 ft boom, 2 kW",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 2000,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 5,
+  "boom_ft": 19.69,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "claimed_gain_dbi": 23.48,
+   "listing_conflict": "desc says 10M but 50-54 MHz",
+   "dxe_part_type": "hf-directional-antennas"
+  }
+ },
+ "gotchas": [
+  "DXE listing conflicts (10M vs 50-54 MHz; 23.48 dBi gain) — verify band"
+ ],
+ "confidence": "medium",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

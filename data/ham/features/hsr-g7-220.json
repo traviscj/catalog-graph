@@ -1,0 +1,55 @@
+{
+ "id": "hsr-g7-220",
+ "kind": "antenna",
+ "name": "G7-220",
+ "title": "Hustler G7-220",
+ "brand": "Hustler",
+ "price": 519.99,
+ "line": "V/U base vertical",
+ "legacy": false,
+ "summary": "9.75 ft 222 MHz (1.25m) base collinear, 9.15 dBi, 600 W",
+ "jobs": [
+  {
+   "job": "ant_vu_base",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "collinear",
+  "mount": "base",
+  "ant_bands": [
+   "1.25m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 600,
+  "max_w_digital": null,
+  "gain_dbi": 9.15,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 9.75,
+  "weight_lb": null,
+  "radials": false,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "N female",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "vhf-uhf-base-vertical-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [],
+ "rating": {
+  "avg": 4.1,
+  "n": 7,
+  "pid": "1752",
+  "last": "2021-06-22",
+  "name": "Hustler G7-220 (220MHz Verticle)"
+ }
+}

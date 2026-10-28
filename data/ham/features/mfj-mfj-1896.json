@@ -1,0 +1,64 @@
+{
+ "id": "mfj-mfj-1896",
+ "kind": "antenna",
+ "name": "MFJ-1896",
+ "title": "MFJ MFJ-1896",
+ "brand": "MFJ",
+ "price": 99.95,
+ "line": "6m moxon",
+ "legacy": false,
+ "summary": "Compact 6m Moxon, 5.5 dBi, 34 in boom, under 5 lb, rover-friendly",
+ "jobs": [
+  {
+   "job": "ant_vu_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "moxon",
+  "mount": "base",
+  "ant_bands": [
+   "6m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": 5.5,
+  "elements": 2,
+  "boom_ft": 2.83,
+  "turn_radius_ft": 4,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": 5,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "span_ft": 7,
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [
+  "rotator not included"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ],
+ "rating": {
+  "avg": 4.5,
+  "n": 8,
+  "pid": "12701",
+  "last": "2024-06-21",
+  "name": "MFJ-1896 6M Rigid Moxon Antenna"
+ }
+}

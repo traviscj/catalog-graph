@@ -1,0 +1,149 @@
+{
+ "id": "ico-ic-905",
+ "name": "IC-905",
+ "title": "Icom IC-905",
+ "brand": "Icom",
+ "price": 2699.95,
+ "line": "VHF/UHF/SHF all-mode (microwave)",
+ "legacy": false,
+ "summary": "10 W 2m/70cm/23cm + 2 W 2.4/5.6 GHz all-mode (D-STAR, ATV) with PoE remote RF unit; 10 GHz option.",
+ "jobs": [
+  {
+   "job": "vhf_uhf_allmode",
+   "role": "primary"
+  },
+  {
+   "job": "new:microwave",
+   "role": "primary"
+  },
+  {
+   "job": "digital_voice",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "portable",
+  "bands_tx": [
+   "2m",
+   "70cm",
+   "23cm"
+  ],
+  "hf": false,
+  "vhf_uhf": true,
+  "rx_range": "144–148, 430–450, 1240–1300, 2390–2450, 5650–5925 MHz",
+  "power_w": {
+   "hf": null,
+   "6m": null,
+   "2m": 10,
+   "70cm": 10,
+   "23cm": 10
+  },
+  "modes": [
+   "SSB",
+   "CW",
+   "AM",
+   "FM",
+   "RTTY",
+   "DATA",
+   "D-STAR",
+   "ATV"
+  ],
+  "digital_voice": [
+   "D-STAR"
+  ],
+  "receiver_arch": "direct-sampling SDR",
+  "band_scope": "real-time scope + waterfall",
+  "display": "4.3in color touch",
+  "dual_receive": false,
+  "dual_watch": false,
+  "atu": false,
+  "usb_single_cable": true,
+  "lan_remote": true,
+  "wifi_bt": [],
+  "gps": true,
+  "aprs": true,
+  "full_duplex_sat": false,
+  "crossband_repeat": false,
+  "detachable_head": false,
+  "power_source": "13.8 VDC external",
+  "tx_current_a": 1.5,
+  "battery": null,
+  "ip_rating": null,
+  "antenna_ports": 4,
+  "rx_antenna_in": false,
+  "roofing_filters": null,
+  "memories": null,
+  "weight_kg": null,
+  "size_mm": "200×79×84 (controller)",
+  "special": [
+   "separate weatherproof RF unit via PoE LAN",
+   "2.4/5.6 GHz 2 W",
+   "10 GHz via CX-10G (0.5 W)",
+   "analog FM ATV",
+   "GPS-locked reference",
+   "SD recording"
+  ],
+  "requires": [
+   "antennas for each band at RF unit",
+   "LAN cable to RF unit"
+  ],
+  "extra": {
+   "power_ghz": {
+    "2400": 2,
+    "5600": 2,
+    "10G": 0.5
+   },
+   "aprs_note": "D-PRS",
+   "current_note": "DXE lists 1.5 A max (seems low)",
+   "lan_note": "RS-BA1 remote (medium)",
+   "list_price": 2699.95,
+   "avail": "InStock"
+  }
+ },
+ "gotchas": [
+  "Only 10 W on 2m/70cm — ico-ic-9700 gives 100/75 W plus full-duplex satellite",
+  "No HF/6m — pair with ico-ic-705 or ico-ic-7300mk2",
+  "10 GHz needs the CX-10G transverter (extra) and gives 0.5 W",
+  "Microwave antennas/feedline at the RF unit are all extra; RF unit must mount near antennas",
+  "No satellite full-duplex mode (medium) — ico-ic-9700 for sats"
+ ],
+ "best_for": [
+  "microwave/rover operation",
+  "2.4/5.6 GHz experimentation and ATV"
+ ],
+ "not_for": [
+  "satellites",
+  "FM repeater casual use",
+  "HF"
+ ],
+ "confidence": "medium",
+ "pairs": [
+  {
+   "id": "13.8 V 10 A power supply",
+   "why": "controller + PoE RF unit; not included",
+   "req": true
+  },
+  {
+   "id": "CX-10G 10 GHz transverter",
+   "why": "adds 10 GHz",
+   "req": false
+  },
+  {
+   "id": "ico-ic-9700",
+   "why": "higher-power V/U/23cm with sat mode",
+   "req": false
+  },
+  {
+   "id": "band-specific microwave antennas",
+   "why": "each port needs its own antenna",
+   "req": true
+  }
+ ],
+ "rating": {
+  "avg": 4.8,
+  "n": 4,
+  "pid": "15858",
+  "last": "2025-05-14",
+  "name": "Icom IC-905"
+ }
+}

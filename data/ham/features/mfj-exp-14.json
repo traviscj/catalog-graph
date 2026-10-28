@@ -1,0 +1,59 @@
+{
+ "id": "mfj-exp-14",
+ "kind": "antenna",
+ "name": "EXP-14",
+ "title": "Hy-Gain EXP-14",
+ "brand": "Hy-Gain",
+ "price": 929.95,
+ "line": "HF tribander yagi",
+ "legacy": false,
+ "summary": "Explorer 14 broadband 20/15/10m tribander, optional 30/40m kit",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "20m",
+   "15m",
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "option": "QK-710 30/40m kit",
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [
+  "30/40m needs QK-710 kit"
+ ],
+ "confidence": "medium",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

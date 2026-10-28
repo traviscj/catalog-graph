@@ -1,0 +1,56 @@
+{
+ "id": "alf-dx-b",
+ "kind": "antenna",
+ "name": "DX-B",
+ "title": "Alpha Delta DX-B",
+ "brand": "Alpha Delta",
+ "price": 159.99,
+ "line": "HF sloper",
+ "legacy": false,
+ "summary": "60 ft parallel-wire multiband sloper, 160/80/40/30m, 1 kW",
+ "jobs": [
+  {
+   "job": "ant_hf_wire",
+   "role": "primary"
+  },
+  {
+   "job": "ant_small_space",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "other",
+  "mount": "base",
+  "ant_bands": [
+   "160m",
+   "80m",
+   "40m",
+   "30m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 1000,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": 60,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": null,
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "design": "parallel-wire sloper",
+   "dxe_part_type": "wire-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": []
+}

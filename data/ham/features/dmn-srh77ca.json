@@ -1,0 +1,56 @@
+{
+ "id": "dmn-srh77ca",
+ "kind": "antenna",
+ "name": "SRH77CA",
+ "title": "Diamond SRH77CA",
+ "brand": "Diamond",
+ "price": 22.99,
+ "line": "HT antenna",
+ "legacy": false,
+ "summary": "15 in. flexible dual-band 2m/70cm HT antenna, SMA male",
+ "jobs": [
+  {
+   "job": "ant_ht",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "rubber-duck",
+  "mount": "handheld",
+  "ant_bands": [
+   "2m",
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 10,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 1.25,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "SMA male",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "handheld-and-scanner-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [],
+ "rating": {
+  "avg": 3.9,
+  "n": 63,
+  "pid": "3504",
+  "last": "2022-11-20",
+  "name": "Diamond SRH77CA Dual Band (2 m /70 CM) HT Antenna"
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "id": "mfj-v-4r",
+ "kind": "antenna",
+ "name": "V-4R",
+ "title": "Hy-Gain V-4R",
+ "brand": "Hy-Gain",
+ "price": 179.95,
+ "line": "V/U base vertical",
+ "legacy": false,
+ "summary": "4-ft 70cm double-Zepp collinear, 5.2 dBi, 500 W, N",
+ "jobs": [
+  {
+   "job": "ant_vu_base",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "collinear",
+  "mount": "base",
+  "ant_bands": [
+   "70cm"
+  ],
+  "resonant": null,
+  "tuner_req": null,
+  "max_w": 500,
+  "max_w_digital": null,
+  "gain_dbi": 5.2,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 4,
+  "weight_lb": 4,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "N",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "freq_range": "400-475 MHz",
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": []
+}

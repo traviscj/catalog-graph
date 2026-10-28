@@ -1,0 +1,50 @@
+{
+ "id": "mfj-v-42r",
+ "kind": "antenna",
+ "name": "V-42R",
+ "title": "Hy-Gain V-42R",
+ "brand": "Hy-Gain",
+ "price": 329.95,
+ "line": "V/U base vertical",
+ "legacy": false,
+ "summary": "9 ft dual-band 2m/70cm collinear, independently tunable, N, 200 W",
+ "jobs": [
+  {
+   "job": "ant_vu_base",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "collinear",
+  "mount": "base",
+  "ant_bands": [
+   "2m",
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 200,
+  "max_w_digital": null,
+  "gain_dbi": 5.15,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 9,
+  "weight_lb": 6,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "N",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "gain_note": "3 dBd 2m / 5 dBd 70cm",
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": []
+}

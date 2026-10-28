@@ -1,0 +1,155 @@
+{
+ "id": "fri-flex-8400m",
+ "name": "FLEX-8400M",
+ "title": "FlexRadio FLEX-8400M",
+ "brand": "FlexRadio",
+ "price": 3649.0,
+ "line": "HF base (direct-sampling SDR)",
+ "legacy": false,
+ "summary": "FLEX-8400 with built-in 8in touchscreen front panel; 100 W HF/6m SDR, 2 slices, no PC required.",
+ "jobs": [
+  {
+   "job": "hf_base",
+   "role": "primary"
+  },
+  {
+   "job": "remote_operation",
+   "role": "secondary"
+  },
+  {
+   "job": "ft8_digital",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "base",
+  "bands_tx": [
+   "160m",
+   "80m",
+   "60m",
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m",
+   "6m"
+  ],
+  "hf": true,
+  "vhf_uhf": false,
+  "rx_range": "0.030–54 MHz",
+  "power_w": {
+   "hf": 100,
+   "6m": 100,
+   "2m": null,
+   "70cm": null,
+   "23cm": null
+  },
+  "modes": [
+   "SSB",
+   "CW",
+   "AM",
+   "SAM",
+   "FM",
+   "RTTY",
+   "PSK",
+   "DATA"
+  ],
+  "digital_voice": [],
+  "receiver_arch": "direct-sampling SDR",
+  "band_scope": "panadapter + waterfall (2 × 7 MHz)",
+  "display": "8in 1920×1200 IPS touch + HDMI out",
+  "dual_receive": false,
+  "dual_watch": true,
+  "atu": false,
+  "usb_single_cable": false,
+  "lan_remote": true,
+  "wifi_bt": [],
+  "gps": true,
+  "aprs": false,
+  "full_duplex_sat": false,
+  "crossband_repeat": false,
+  "detachable_head": false,
+  "headless": false,
+  "power_source": "13.8 VDC external",
+  "tx_current_a": 25,
+  "battery": null,
+  "ip_rating": null,
+  "antenna_ports": 2,
+  "rx_antenna_in": true,
+  "roofing_filters": null,
+  "memories": null,
+  "weight_kg": null,
+  "size_mm": "356×171×337",
+  "special": [
+   "8in 1920×1200 IPS touchscreen",
+   "HDMI external monitor",
+   "dual symmetrical VFO knobs",
+   "1 SCU / 2 slice receivers (any band/mode)",
+   "full-duplex cross-band",
+   "16-bit 122.88 Msps ADC",
+   "110/115 dB RMDR @2 kHz",
+   "GNSS receiver + antenna incl.",
+   "10 MHz ref in",
+   "transverter port",
+   "SmartLink remote",
+   "FHM-3 hand mic incl.",
+   "QSK CW"
+  ],
+  "requires": [
+   "13.8V 25A power supply"
+  ],
+  "extra": {
+   "list_price": 3649.0,
+   "avail": "InStock"
+  }
+ },
+ "gotchas": [
+  "No internal ATU — fri-flex8400matu has it installed (+$350)",
+  "+$1,150 over headless fri-flex-8400 just for the front panel — skip it if the radio lives remote",
+  "Single SCU / 2 slices: no diversity/SO2R — fri-flex-8600m for 4 RX",
+  "Needs a separate 13.8 V 25 A supply (not included)",
+  "Compare ico-ic-7610-32 (~$350 more, true dual RX, ATU) and ico-ic-7300mk2 (single RX, far cheaper)",
+  "FT8 still via DAX on a networked PC — no single-USB codec"
+ ],
+ "best_for": [
+  "traditional knob+screen operation with SmartSDR remote",
+  "digital modes"
+ ],
+ "not_for": [
+  "SO2R/diversity",
+  "V/U",
+  "budget first rig"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "13.8 V 25 A power supply",
+   "why": "not included; 25 A max draw",
+   "req": true
+  },
+  {
+   "id": "fri-flex8400matu",
+   "why": "same with internal ATU",
+   "req": false
+  },
+  {
+   "id": "Windows PC running SmartSDR + DAX",
+   "why": "digital modes / bigger panadapters",
+   "req": false
+  },
+  {
+   "id": "external HDMI monitor",
+   "why": "large spectrum display",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 4.5,
+  "n": 2,
+  "pid": "16141",
+  "last": "2026-04-20",
+  "name": "FlexRadio FLEX-8400M"
+ }
+}

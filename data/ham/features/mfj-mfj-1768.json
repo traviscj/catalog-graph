@@ -1,0 +1,65 @@
+{
+ "id": "mfj-mfj-1768",
+ "kind": "antenna",
+ "name": "MFJ-1768",
+ "title": "MFJ MFJ-1768",
+ "brand": "MFJ",
+ "price": 139.95,
+ "line": "V/U yagi",
+ "legacy": false,
+ "summary": "Dual-band yagi: 4 el 2m + 7 el 70cm, 5 ft boom, single feed",
+ "jobs": [
+  {
+   "job": "ant_vu_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "2m",
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 11,
+  "boom_ft": 5,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": 2,
+  "radials": null,
+  "directional": true,
+  "polarization": null,
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "el_by_band": "4 (2m) + 7 (70cm)",
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [
+  "mast not included"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ],
+ "rating": {
+  "avg": 2.2,
+  "n": 9,
+  "pid": "5083",
+  "last": "2022-02-06",
+  "name": "mfj-1768"
+ }
+}

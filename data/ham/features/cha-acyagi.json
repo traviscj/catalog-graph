@@ -1,0 +1,56 @@
+{
+ "id": "cha-acyagi",
+ "kind": "antenna",
+ "name": "TACYAGI-70",
+ "title": "Chameleon TACYAGI-70",
+ "brand": "Chameleon",
+ "price": 155.0,
+ "line": "V/U yagi",
+ "legacy": false,
+ "summary": "Foldable 3-element tactical 400-470 MHz yagi, 7 dBi, 100 W",
+ "jobs": [
+  {
+   "job": "ant_vu_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "portable",
+  "ant_bands": [
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 100,
+  "max_w_digital": null,
+  "gain_dbi": 7.0,
+  "elements": 3,
+  "boom_ft": 1.48,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": 0.86,
+  "radials": null,
+  "directional": true,
+  "polarization": null,
+  "connector": "PL-259",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "pol": "horizontal or vertical",
+   "fb_db": 15,
+   "dxe_part_type": "vhf-uhf-beam-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

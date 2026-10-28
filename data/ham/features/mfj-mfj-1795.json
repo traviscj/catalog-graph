@@ -1,0 +1,75 @@
+{
+ "id": "mfj-mfj-1795",
+ "kind": "antenna",
+ "name": "MFJ-1795",
+ "title": "MFJ MFJ-1795",
+ "brand": "MFJ",
+ "price": 249.95,
+ "line": "HF portable vertical",
+ "legacy": false,
+ "summary": "7-10 ft end-loaded 40/20/15/10m vertical, 1.5 kW, stealth/portable",
+ "jobs": [
+  {
+   "job": "ant_hf_portable",
+   "role": "primary"
+  },
+  {
+   "job": "ant_small_space",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "vertical",
+  "mount": "portable",
+  "ant_bands": [
+   "40m",
+   "20m",
+   "15m",
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 1500,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 10,
+  "weight_lb": null,
+  "radials": true,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [
+  "Needs ground system or radials"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "radial wires / counterpoise",
+   "why": "vertical needs a ground system",
+   "req": true
+  },
+  {
+   "id": "1:1 common-mode choke at the shack entry",
+   "why": "keeps feedline RF out of the shack",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 4.0,
+  "n": 7,
+  "pid": "2778",
+  "last": "2024-03-19",
+  "name": "MFJ-1795 10/15/20/40 Meter Vertical Antenna"
+ }
+}

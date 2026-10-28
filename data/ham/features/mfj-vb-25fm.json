@@ -1,0 +1,61 @@
+{
+ "id": "mfj-vb-25fm",
+ "kind": "antenna",
+ "name": "VB-25FM",
+ "title": "Hy-Gain VB-25FM",
+ "brand": "Hy-Gain",
+ "price": 129.95,
+ "line": "V/U yagi",
+ "legacy": false,
+ "summary": "5-el 2m FM beam with Beta Match, 9.1 dBd",
+ "jobs": [
+  {
+   "job": "ant_vu_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "2m"
+  ],
+  "resonant": null,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": 11.25,
+  "elements": 5,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": null,
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ],
+ "rating": {
+  "avg": 3.7,
+  "n": 7,
+  "pid": "5414",
+  "last": "2021-08-14",
+  "name": "Hy Gain VB 25 FM"
+ }
+}

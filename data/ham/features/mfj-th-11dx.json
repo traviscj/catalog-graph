@@ -1,0 +1,61 @@
+{
+ "id": "mfj-th-11dx",
+ "kind": "antenna",
+ "name": "TH-11DX",
+ "title": "Hy-Gain TH-11DX",
+ "brand": "Hy-Gain",
+ "price": 1799.95,
+ "line": "HF multiband yagi",
+ "legacy": false,
+ "summary": "11-element 5-band Super Thunderbird with log-periodic driven cell, 4 kW PEP",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 4000,
+  "max_w_digital": 2000,
+  "gain_dbi": null,
+  "elements": 11,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "balun": "BN-4000 incl.",
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [
+  "tower + heavy rotator needed"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

@@ -1,0 +1,59 @@
+{
+ "id": "dmn-m685s",
+ "kind": "antenna",
+ "name": "M685S",
+ "title": "Diamond Antenna M685S",
+ "brand": "Diamond",
+ "price": 34.99,
+ "line": "V/U mobile whip",
+ "legacy": false,
+ "summary": "Tunable 1/4-wave 6m mobile whip, 50 in., 200 W PEP",
+ "jobs": [
+  {
+   "job": "ant_vu_mobile",
+   "role": "primary"
+  },
+  {
+   "job": "ant_hf_mobile",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "whip",
+  "mount": "mobile",
+  "ant_bands": [
+   "6m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 200,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 4.17,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "UHF (PL-259)",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "max_w_fm": 100,
+   "dxe_part_type": "vhf-uhf-mobile-vertical-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "mobile antenna mount (mag / trunk-lip / NMO)",
+   "why": "vehicle mount not included",
+   "req": false
+  }
+ ]
+}

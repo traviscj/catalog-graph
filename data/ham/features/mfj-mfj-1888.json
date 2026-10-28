@@ -1,0 +1,56 @@
+{
+ "id": "mfj-mfj-1888",
+ "kind": "antenna",
+ "name": "MFJ-1888",
+ "title": "MFJ MFJ-1888",
+ "brand": "MFJ",
+ "price": 499.95,
+ "line": "HF RX loop",
+ "legacy": false,
+ "summary": "High-performance preamp receive loop 50 kHz-34 MHz with 4-port multicoupler",
+ "jobs": [
+  {
+   "job": "ant_rx",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "mag-loop",
+  "mount": "base",
+  "ant_bands": [],
+  "resonant": null,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": null,
+  "connector": null,
+  "rx_only": true,
+  "assembled": null,
+  "extra": {
+   "rx_range": "0.05-34 MHz",
+   "nf_db": 1.7,
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [
+  "Receive only — use T/R switch (MFJ-4113TR)"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

@@ -1,0 +1,55 @@
+{
+ "id": "dxa-dxw1-30",
+ "kind": "antenna",
+ "name": "DXW1-30",
+ "title": "Diex Antennas Multi-Band Trap Shortened Rigid Rotatable Dipoles",
+ "brand": "DIEX",
+ "price": 459.99,
+ "line": "HF rotatable dipole",
+ "legacy": false,
+ "summary": "Diex trap-shortened rigid WARC rotatable dipole for 30/17/12m, 1.5 kW",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  },
+  {
+   "job": "ant_small_space",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "dipole",
+  "mount": "base",
+  "ant_bands": [
+   "30m",
+   "17m",
+   "12m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 1500,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": 34.81,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "rotatable": true,
+   "dxe_part_type": "hf-directional-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": []
+}

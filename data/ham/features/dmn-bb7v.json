@@ -1,0 +1,72 @@
+{
+ "id": "dmn-bb7v",
+ "kind": "antenna",
+ "name": "BB7V",
+ "title": "Diamond BB7V",
+ "brand": "Diamond",
+ "price": 429.99,
+ "line": "HF multiband vertical",
+ "legacy": false,
+ "summary": "22 ft broadband multiband HF vertical, 250 W",
+ "jobs": [
+  {
+   "job": "ant_hf_vertical",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "vertical",
+  "mount": "base",
+  "ant_bands": [
+   "80m",
+   "60m",
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 250,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 22.0,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "band_note": "bands not listed by DXE; nominal 2-30 MHz",
+   "dxe_part_type": "hf-vertical-antennas-and-packages"
+  }
+ },
+ "gotchas": [
+  "broadband unun design: tuner still advisable on some bands"
+ ],
+ "confidence": "medium",
+ "pairs": [
+  {
+   "id": "1:1 common-mode choke at the shack entry",
+   "why": "keeps feedline RF out of the shack",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 3.6,
+  "n": 25,
+  "pid": "5936",
+  "last": "2025-03-17",
+  "name": "Diamond BB-7V 80-10 vertical"
+ }
+}

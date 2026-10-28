@@ -1,0 +1,72 @@
+{
+ "id": "cae-clp-5130-1n",
+ "kind": "antenna",
+ "name": "CLP-5130-1N",
+ "title": "Create CLP-5130-1N VHF/UHF Log-Periodic Antennas",
+ "brand": "Create",
+ "price": 519.99,
+ "line": "V/U log-periodic",
+ "legacy": false,
+ "summary": "Create CLP-5130-1N 21-element 50-1300 MHz wideband log-periodic, N female",
+ "jobs": [
+  {
+   "job": "ant_vu_beam",
+   "role": "primary"
+  },
+  {
+   "job": "ant_rx",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "log-periodic",
+  "mount": "base",
+  "ant_bands": [
+   "6m",
+   "2m",
+   "1.25m",
+   "70cm",
+   "23cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 500,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 21,
+  "boom_ft": 6.66,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": "N-female",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "freq": "50-1300 MHz",
+   "dxe_part_type": "vhf-uhf-beam-antennas"
+  }
+ },
+ "gotchas": [
+  "Low gain per band vs. a monoband yagi"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ],
+ "rating": {
+  "avg": 4.7,
+  "n": 10,
+  "pid": "5017",
+  "last": "2021-06-02",
+  "name": "Create Log-Periodic CLP5130-1N"
+ }
+}

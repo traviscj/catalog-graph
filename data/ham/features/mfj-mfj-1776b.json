@@ -1,0 +1,48 @@
+{
+ "id": "mfj-mfj-1776b",
+ "kind": "antenna",
+ "name": "MFJ-1776B",
+ "title": "MFJ MFJ-1776B",
+ "brand": "MFJ",
+ "price": 59.95,
+ "line": "6m dipole",
+ "legacy": false,
+ "summary": "Lightweight 6m folded dipole, direct coax feed, 200 W",
+ "jobs": [
+  {
+   "job": "ant_hf_wire",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "dipole",
+  "mount": "base",
+  "ant_bands": [
+   "6m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 200,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": []
+}

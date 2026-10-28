@@ -1,0 +1,51 @@
+{
+ "id": "cma-gp-9b",
+ "kind": "antenna",
+ "name": "GP-9B",
+ "title": "Comet Antennas GP-9B",
+ "brand": "Comet",
+ "price": 324.95,
+ "line": "V/U base vertical",
+ "legacy": false,
+ "summary": "16.75 ft high-gain 2m/70cm base vertical, export 430-440 version",
+ "jobs": [
+  {
+   "job": "ant_vu_base",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "collinear",
+  "mount": "base",
+  "ant_bands": [
+   "2m",
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 16.75,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "N female",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "vhf-uhf-base-vertical-antennas"
+  }
+ },
+ "gotchas": [
+  "Export version: 70cm tuned 430-440 MHz"
+ ],
+ "confidence": "high",
+ "pairs": []
+}

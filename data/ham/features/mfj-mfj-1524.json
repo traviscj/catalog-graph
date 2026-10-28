@@ -1,0 +1,57 @@
+{
+ "id": "mfj-mfj-1524",
+ "kind": "antenna",
+ "name": "MFJ-1524",
+ "title": "MFJ MFJ-1524",
+ "brand": "MFJ",
+ "price": 129.95,
+ "line": "V/U base vertical",
+ "legacy": false,
+ "summary": "10-ft Pulsar dual-band 144/440 fiberglass base, 200 W",
+ "jobs": [
+  {
+   "job": "ant_vu_base",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "collinear",
+  "mount": "base",
+  "ant_bands": [
+   "2m",
+   "70cm"
+  ],
+  "resonant": null,
+  "tuner_req": null,
+  "max_w": 200,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 10,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "gain_raw": "6.5/9 dB (2m/70cm, ref unstated)",
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [],
+ "rating": {
+  "avg": 2.6,
+  "n": 5,
+  "pid": "1435",
+  "last": "2008-05-05",
+  "name": "MFJ-1524  2 meter/70 cm  base antenna"
+ }
+}

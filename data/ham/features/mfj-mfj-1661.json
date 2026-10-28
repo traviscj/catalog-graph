@@ -1,0 +1,78 @@
+{
+ "id": "mfj-mfj-1661",
+ "kind": "antenna",
+ "name": "MFJ-1661",
+ "title": "MFJ MFJ-1661",
+ "brand": "MFJ",
+ "price": 199.95,
+ "line": "HF manual screwdriver",
+ "legacy": false,
+ "summary": "Compact manual screwdriver coil, 40-2m with 10 ft whip, 1 lb",
+ "jobs": [
+  {
+   "job": "ant_hf_mobile",
+   "role": "primary"
+  },
+  {
+   "job": "ant_hf_portable",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "whip",
+  "mount": "mobile",
+  "ant_bands": [
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m",
+   "6m",
+   "2m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": 1,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "style": "manual screwdriver",
+   "coil_in": "12x2",
+   "note": "20-6m with 4.5 ft whip",
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [
+  "manual tuning on every QSY"
+ ],
+ "confidence": "medium",
+ "pairs": [
+  {
+   "id": "mobile antenna mount (mag / trunk-lip / NMO)",
+   "why": "vehicle mount not included",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 4.3,
+  "n": 3,
+  "pid": "9910",
+  "last": "2013-04-24",
+  "name": "MFJ-1661"
+ }
+}

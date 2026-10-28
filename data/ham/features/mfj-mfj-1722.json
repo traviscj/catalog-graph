@@ -1,0 +1,71 @@
+{
+ "id": "mfj-mfj-1722",
+ "kind": "antenna",
+ "name": "MFJ-1722",
+ "title": "MFJ MFJ-1722",
+ "brand": "MFJ",
+ "price": 29.95,
+ "line": "V/U mobile whip",
+ "legacy": false,
+ "summary": "Ultralight 2m/70cm mini mag-mount for HTs, RG-174, BNC",
+ "jobs": [
+  {
+   "job": "ant_vu_mobile",
+   "role": "primary"
+  },
+  {
+   "job": "ant_ht",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "whip",
+  "mount": "mobile",
+  "ant_bands": [
+   "2m",
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 50,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 1.67,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "BNC",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "w_70cm": 25,
+   "coax_ft": 12,
+   "mount_incl": "magnet",
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [
+  "50 W 2m / 25 W 70cm max"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "mobile antenna mount (mag / trunk-lip / NMO)",
+   "why": "vehicle mount not included",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 3.3,
+  "n": 12,
+  "pid": "4568",
+  "last": "2021-02-27",
+  "name": "MFJ-1722 UltraLite 2m/70cm Mag Mount"
+ }
+}

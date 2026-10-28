@@ -1,0 +1,71 @@
+{
+ "id": "mfj-mfj-1793",
+ "kind": "antenna",
+ "name": "MFJ-1793",
+ "title": "MFJ MFJ-1793",
+ "brand": "MFJ",
+ "price": 279.95,
+ "line": "HF multiband vertical",
+ "legacy": false,
+ "summary": "33-ft 80/40/20m end-loaded vertical, 1.5 kW",
+ "jobs": [
+  {
+   "job": "ant_hf_vertical",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "vertical",
+  "mount": "base",
+  "ant_bands": [
+   "80m",
+   "40m",
+   "20m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 1500,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 33,
+  "weight_lb": null,
+  "radials": true,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [
+  "Requires guying",
+  "Requires radials/ground screen"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "radial wires / counterpoise",
+   "why": "vertical needs a ground system",
+   "req": true
+  },
+  {
+   "id": "1:1 common-mode choke at the shack entry",
+   "why": "keeps feedline RF out of the shack",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 5.0,
+  "n": 1,
+  "pid": "14485",
+  "last": "2024-02-28",
+  "name": "MFJ-1793"
+ }
+}

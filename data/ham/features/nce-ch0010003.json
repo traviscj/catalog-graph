@@ -1,0 +1,76 @@
+{
+ "id": "nce-ch0010003",
+ "kind": "antenna",
+ "name": "JPC-12",
+ "title": "Chelegance JPC-12 Portable HF Vertical Antenna",
+ "brand": "Chelegance",
+ "price": 241.99,
+ "line": "HF portable vertical",
+ "legacy": false,
+ "summary": "Chelegance JPC-12 13 ft portable loaded vertical with ground plane, 40-6m",
+ "jobs": [
+  {
+   "job": "ant_hf_portable",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "vertical",
+  "mount": "portable",
+  "ant_bands": [
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m",
+   "6m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 100,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 13.0,
+  "weight_lb": 3.8,
+  "radials": true,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "hf-portable-stealth-antennas"
+  }
+ },
+ "gotchas": [
+  "100 W max",
+  "Coil retune per band"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "radial wires / counterpoise",
+   "why": "vertical needs a ground system",
+   "req": true
+  },
+  {
+   "id": "1:1 common-mode choke at the shack entry",
+   "why": "keeps feedline RF out of the shack",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 4.8,
+  "n": 5,
+  "pid": "15920",
+  "last": "2026-08-10",
+  "name": "Chelegance JPC-12 Portable HF Vertical Antenna"
+ }
+}

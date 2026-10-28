@@ -1,0 +1,64 @@
+{
+ "id": "mfj-mfj-1886-loop-receiving-5-to-30-mhz-110vac-copy",
+ "kind": "antenna",
+ "name": "MFJ-1886",
+ "title": "MFJ MFJ-1886",
+ "brand": "MFJ",
+ "price": 329.95,
+ "line": "HF RX loop",
+ "legacy": false,
+ "summary": "Preamplified 36-in receive loop, AM-BC to 30 MHz, deep nulls for QRM/QRN",
+ "jobs": [
+  {
+   "job": "ant_rx",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "mag-loop",
+  "mount": "base",
+  "ant_bands": [],
+  "resonant": null,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": 2.5,
+  "radials": null,
+  "directional": true,
+  "polarization": null,
+  "connector": null,
+  "rx_only": true,
+  "assembled": null,
+  "extra": {
+   "rx_range": "0.5-30 MHz",
+   "diameter_in": 36,
+   "preamp": true,
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [
+  "Receive only — needs T/R switch/separate TX antenna"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ],
+ "rating": {
+  "avg": 4.7,
+  "n": 11,
+  "pid": "13724",
+  "last": "2023-10-27",
+  "name": "MFJ 1886 Receive Loop"
+ }
+}

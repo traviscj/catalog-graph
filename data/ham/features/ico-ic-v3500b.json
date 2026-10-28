@@ -1,0 +1,117 @@
+{
+ "id": "ico-ic-v3500b",
+ "name": "IC-V3500B",
+ "title": "ICOM IC-V3500B Black Edition",
+ "brand": "Icom",
+ "price": 239.95,
+ "line": "VHF mobile",
+ "legacy": false,
+ "summary": "Rugged 65 W 2m analog FM mobile with 4.5 W speaker, MIL-STD-810G; Black Edition inverted LCD.",
+ "jobs": [
+  {
+   "job": "vhf_uhf_mobile",
+   "role": "primary"
+  },
+  {
+   "job": "first_radio",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "mobile",
+  "bands_tx": [
+   "2m"
+  ],
+  "hf": false,
+  "vhf_uhf": true,
+  "rx_range": "136–174 MHz",
+  "power_w": {
+   "hf": null,
+   "6m": null,
+   "2m": 65,
+   "70cm": null,
+   "23cm": null
+  },
+  "modes": [
+   "FM"
+  ],
+  "digital_voice": [],
+  "receiver_arch": "FM (HT/mobile)",
+  "band_scope": null,
+  "display": "black inverted LCD",
+  "dual_receive": false,
+  "dual_watch": false,
+  "atu": false,
+  "usb_single_cable": false,
+  "lan_remote": false,
+  "wifi_bt": [],
+  "gps": false,
+  "aprs": false,
+  "full_duplex_sat": false,
+  "crossband_repeat": false,
+  "detachable_head": false,
+  "power_source": "13.8 VDC external",
+  "tx_current_a": 11.0,
+  "battery": null,
+  "ip_rating": null,
+  "antenna_ports": 1,
+  "rx_antenna_in": false,
+  "roofing_filters": null,
+  "memories": 207,
+  "weight_kg": 1.1,
+  "size_mm": "140×40×118",
+  "special": [
+   "4.5 W internal speaker",
+   "emergency alarm call",
+   "MIL-STD-810G",
+   "WX alert",
+   "HM-133V keypad mic"
+  ],
+  "requires": [
+   "13.8V 15A power supply (base use)"
+  ],
+  "extra": {
+   "variant": "B = Black Edition inverted LCD; same radio as ico-ic-v3500 (and ico-ic-v3500-ob open-box)",
+   "list_price": 239.95,
+   "avail": "InStock"
+  }
+ },
+ "gotchas": [
+  "2m only — IC-2730B covers 70cm too",
+  "Fixed head, no crossband repeat — IC-2730B detaches and crossbands",
+  "Black Edition vs ico-ic-v3500: display only; ico-ic-v3500-ob is cheaper open-box",
+  "Analog only — ID-5100A-D for D-STAR",
+  "PC programming cable not included"
+ ],
+ "best_for": [
+  "cheap rugged 2m mobile or base",
+  "new Technician"
+ ],
+ "not_for": [
+  "70cm repeaters",
+  "digital voice"
+ ],
+ "pairs": [
+  {
+   "id": "ico-ic-v3500",
+   "why": "same radio, standard LCD",
+   "req": false
+  },
+  {
+   "id": "13.8 V 15 A power supply",
+   "why": "for base use",
+   "req": false
+  },
+  {
+   "id": "2m NMO mobile antenna",
+   "why": "needs an antenna",
+   "req": false
+  },
+  {
+   "id": "ysu-ft-3165r",
+   "why": "Yaesu 65 W 2m equivalent",
+   "req": false
+  }
+ ],
+ "confidence": "high"
+}

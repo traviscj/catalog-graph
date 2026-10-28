@@ -1,0 +1,63 @@
+{
+ "id": "dmn-nr22l",
+ "kind": "antenna",
+ "name": "NR22L",
+ "title": "Diamond Antenna Monoband Mobile Antennas",
+ "brand": "Diamond",
+ "price": 68.99,
+ "line": "V/U mobile whip",
+ "legacy": false,
+ "summary": "Diamond NR22L 96.8 in high-gain 2m fold-over mobile antenna",
+ "jobs": [
+  {
+   "job": "ant_vu_mobile",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "whip",
+  "mount": "mobile",
+  "ant_bands": [
+   "2m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 100,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 8.07,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "UHF mount",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "vhf-uhf-mobile-vertical-antennas"
+  }
+ },
+ "gotchas": [
+  "8 ft tall — clearance"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "mobile antenna mount (mag / trunk-lip / NMO)",
+   "why": "vehicle mount not included",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 4.6,
+  "n": 13,
+  "pid": "5055",
+  "last": "2023-05-20",
+  "name": "Diamond NR22L"
+ }
+}

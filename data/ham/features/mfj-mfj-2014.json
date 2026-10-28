@@ -1,0 +1,67 @@
+{
+ "id": "mfj-mfj-2014",
+ "kind": "antenna",
+ "name": "MFJ-2014",
+ "title": "MFJ MFJ-2014",
+ "brand": "MFJ",
+ "price": 139.95,
+ "line": "HF OCF dipole",
+ "legacy": false,
+ "summary": "122-ft 75/40m Power-Lite OCFD, legal limit, built-in current choke",
+ "jobs": [
+  {
+   "job": "ant_hf_wire",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "ocf-dipole",
+  "mount": "base",
+  "ant_bands": [
+   "80m",
+   "40m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 1500,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": 122,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "horizontal",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "min_feed_height_ft": 35,
+   "gain_claim": "6 dBi fund / 9 dBi 2nd harm (ground)",
+   "note": "text opening line says 60/30m (copy error)",
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [
+  "Needs 35-70 ft support height"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "1:1 common-mode choke at the shack entry",
+   "why": "keeps feedline RF out of the shack",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 3.0,
+  "n": 2,
+  "pid": "13279",
+  "last": "2018-10-25",
+  "name": "MFJ 2014"
+ }
+}

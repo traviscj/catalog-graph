@@ -1,0 +1,168 @@
+{
+ "id": "ecr-k4-10",
+ "name": "K4/10",
+ "title": "Elecraft K4/10",
+ "brand": "Elecraft",
+ "price": 5488.95,
+ "line": "HF flagship (SDR)",
+ "legacy": false,
+ "summary": "10 W version of the K4 direct-sampling SDR: same RX, touch pan, Ethernet remote; KPA4 adds 100 W later.",
+ "jobs": [
+  {
+   "job": "hf_base",
+   "role": "primary"
+  },
+  {
+   "job": "remote_operation",
+   "role": "secondary"
+  },
+  {
+   "job": "ft8_digital",
+   "role": "secondary"
+  },
+  {
+   "job": "hf_portable",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "base",
+  "bands_tx": [
+   "160m",
+   "80m",
+   "60m",
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m",
+   "6m"
+  ],
+  "hf": true,
+  "vhf_uhf": false,
+  "rx_range": "0.1–54 MHz (main + sub)",
+  "power_w": {
+   "hf": 10,
+   "6m": 10,
+   "2m": null,
+   "70cm": null,
+   "23cm": null
+  },
+  "modes": [
+   "SSB",
+   "CW",
+   "AM",
+   "FM",
+   "RTTY",
+   "PSK",
+   "DATA"
+  ],
+  "digital_voice": [],
+  "receiver_arch": "direct-sampling SDR",
+  "band_scope": "real-time panadapter + waterfall, per-RX hi-res mini-pan",
+  "display": "7in color touch (+ mouse)",
+  "dual_receive": false,
+  "dual_watch": true,
+  "atu": false,
+  "usb_single_cable": true,
+  "lan_remote": true,
+  "wifi_bt": [],
+  "gps": false,
+  "aprs": false,
+  "full_duplex_sat": false,
+  "crossband_repeat": false,
+  "detachable_head": false,
+  "headless": false,
+  "power_source": "13.8 VDC external",
+  "tx_current_a": null,
+  "battery": null,
+  "ip_rating": null,
+  "antenna_ports": 1,
+  "rx_antenna_in": true,
+  "roofing_filters": "none (direct sampling); crystal filters only in K4HD KHDR4",
+  "memories": null,
+  "weight_kg": 4.5,
+  "size_mm": "343×114×254",
+  "special": [
+   "10 W QRP K4 (KPA4 100 W upgrade kit)",
+   "7in touch panadapter",
+   "wideband main+sub RX (any bands, shared ADC)",
+   "PIN-diode silent QSK",
+   "transverter/driver-friendly low power",
+   "CW/PSK/RTTY decode+encode",
+   "SSNR spectral-subtraction NR",
+   "external video out"
+  ],
+  "requires": [
+   "13.8V power supply (low current at 10 W)",
+   "microphone (MH4, sold separately)"
+  ],
+  "extra": {
+   "usb_note": "USB-B = two virtual COM ports + USB audio",
+   "lan_note": "100% Ethernet remote from 2nd K4 (K4/0) or PC/tablet incl. panadapter data",
+   "supply_v": "11–15 VDC",
+   "rx_current_a": "~2 A",
+   "adc": "16-bit",
+   "io": "3× USB-A, USB-B, RS232, Ethernet, video out, LINE in/out, ACC, 12 V out",
+   "upgrade_path": "K4→K4D (KRX4/KDIV4 kit); K4/10→100 W (KPA4); K4HD (KHDR4 dual superhet) 'coming soon'; VHF/UHF ~15 W module planned",
+   "ant_note": "KAT4 option adds ATU + 3 antenna jacks; up to 5 RX antenna sources (medium on base jack count)",
+   "source": "elecraft.com",
+   "dual_watch_note": "main+sub share one ADC/BPF set (same as base K4); K4D upgrade kit adds 2nd ADC",
+   "tx_current_note": "page copies 100 W K4 spec (~18–23 A TX); 10 W unit draws far less — not stated",
+   "variant": "K4 without KPA4 100 W PA module, factory assembled",
+   "list_price": "5488.95",
+   "avail": "InStock"
+  }
+ },
+ "gotchas": [
+  "Only 10 W — saves just $660 vs the 100 W ecr-k4; KPA4 upgrade kit later likely costs more than the difference",
+  "$5.5k for 10 W: ico-ic-705 / ysu-ftx-1field are the actual QRP portables; ico-ic-7300mk2 does 100 W for ~1/4 the price",
+  "No internal ATU — KAT4 is extra",
+  "Main+sub share one ADC — no diversity without K4D upgrade",
+  "Spec sheet on the page is copied from the 100 W K4 (TX current etc.) — 10 W draw not published"
+ ],
+ "best_for": [
+  "driving transverters / external amps at low drive",
+  "QRP-purist home station with flagship RX",
+  "staged purchase toward 100 W"
+ ],
+ "not_for": [
+  "anyone needing 100 W out of the box",
+  "backpack portable (10 lb)"
+ ],
+ "confidence": "medium",
+ "pairs": [
+  {
+   "id": "Elecraft KPA4 100 W upgrade kit",
+   "why": "converts to 100 W K4",
+   "req": false
+  },
+  {
+   "id": "13.8 V power supply",
+   "why": "no internal PSU",
+   "req": true
+  },
+  {
+   "id": "Elecraft KAT4 ATU",
+   "why": "ATU optional",
+   "req": false
+  },
+  {
+   "id": "Elecraft MH4 hand mic",
+   "why": "no mic included",
+   "req": false
+  },
+  {
+   "id": "K4 to K4D upgrade kit",
+   "why": "diversity dual RX",
+   "req": false
+  },
+  {
+   "id": "ecr-k4",
+   "why": "same radio at 100 W",
+   "req": false
+  }
+ ]
+}

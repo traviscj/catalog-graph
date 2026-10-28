@@ -1,0 +1,52 @@
+{
+ "id": "mfj-asq-15",
+ "kind": "antenna",
+ "name": "ASQ-15",
+ "title": "Cushcraft ASQ-15",
+ "brand": "Cushcraft",
+ "price": 299.95,
+ "line": "HF squalo (horizontal omni)",
+ "legacy": false,
+ "summary": "15m Squalo square halo, horizontal omni, 65x65 in, 200 W",
+ "jobs": [
+  {
+   "job": "ant_small_space",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "other",
+  "mount": "base",
+  "ant_bands": [
+   "15m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 200,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "style": "squalo",
+   "size_in": "65x65",
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [
+  "200 W max"
+ ],
+ "confidence": "high",
+ "pairs": []
+}

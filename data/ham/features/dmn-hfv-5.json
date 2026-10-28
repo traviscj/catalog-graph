@@ -1,0 +1,66 @@
+{
+ "id": "dmn-hfv-5",
+ "kind": "antenna",
+ "name": "HFV-5",
+ "title": "Diamond Antenna HFV-5",
+ "brand": "Diamond",
+ "price": 339.99,
+ "line": "HF rotatable dipole",
+ "legacy": false,
+ "summary": "13 ft trap-shortened rotatable dipole for 40/20/15/10/6m",
+ "jobs": [
+  {
+   "job": "ant_small_space",
+   "role": "primary"
+  },
+  {
+   "job": "ant_hf_beam",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "dipole",
+  "mount": "base",
+  "ant_bands": [
+   "40m",
+   "20m",
+   "15m",
+   "10m",
+   "6m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 200.0,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": 13.1,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "hf-directional-antennas"
+  }
+ },
+ "gotchas": [
+  "200 W max",
+  "Shortened: narrow 40m bandwidth"
+ ],
+ "confidence": "high",
+ "pairs": [],
+ "rating": {
+  "avg": 4.2,
+  "n": 5,
+  "pid": "12383",
+  "last": "2025-05-22",
+  "name": "diamond hfv5"
+ }
+}

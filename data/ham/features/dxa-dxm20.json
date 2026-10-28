@@ -1,0 +1,67 @@
+{
+ "id": "dxa-dxm20",
+ "kind": "antenna",
+ "name": "DXM20",
+ "title": "DIEX DXM20",
+ "brand": "DIEX",
+ "price": 215.99,
+ "line": "HF rotatable dipole",
+ "legacy": false,
+ "summary": "Coil-shortened 20m rotatable rigid dipole, 16.7 ft, 300 W",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  },
+  {
+   "job": "ant_small_space",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "dipole",
+  "mount": "base",
+  "ant_bands": [
+   "20m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 300,
+  "max_w_digital": 100,
+  "gain_dbi": null,
+  "elements": 1,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": 16.73,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "hf-directional-antennas"
+  }
+ },
+ "gotchas": [
+  "300 W PEP max"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ],
+ "rating": {
+  "avg": 5.0,
+  "n": 2,
+  "pid": "6655",
+  "last": "2011-04-28",
+  "name": "DXBeam DXM20-2mx , 2 el. 20 meter Moxon"
+ }
+}

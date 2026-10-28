@@ -1,0 +1,54 @@
+{
+ "id": "dxe-rdpk-15-6",
+ "kind": "antenna",
+ "name": "RDPK-15-6",
+ "title": "DX Engineering RDPK-15-6",
+ "brand": "DX Engineering",
+ "price": 227.46,
+ "line": "HF dipole",
+ "legacy": false,
+ "summary": "User-cut single-band dipole kit for one of 15/12/10/6m, 1:1 balun",
+ "jobs": [
+  {
+   "job": "ant_hf_wire",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "dipole",
+  "mount": "base",
+  "ant_bands": [
+   "15m",
+   "12m",
+   "10m",
+   "6m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": 26.0,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "horizontal",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "single_band_after_cut": true,
+   "dxe_part_type": "wire-antennas"
+  }
+ },
+ "gotchas": [
+  "covers ONE band after cutting"
+ ],
+ "confidence": "high",
+ "pairs": []
+}

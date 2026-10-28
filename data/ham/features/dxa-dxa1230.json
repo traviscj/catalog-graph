@@ -1,0 +1,55 @@
+{
+ "id": "dxa-dxa1230",
+ "kind": "antenna",
+ "name": "DXA1230",
+ "title": "DIEX Antennas DXA1230",
+ "brand": "DIEX",
+ "price": 255.99,
+ "line": "HF rotatable dipole",
+ "legacy": false,
+ "summary": "Rigid rotatable dipole: coil-shortened 30m plus full-size 12m",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  },
+  {
+   "job": "ant_small_space",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "dipole",
+  "mount": "base",
+  "ant_bands": [
+   "30m",
+   "12m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 300.0,
+  "max_w_digital": 100.0,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": 33.14,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "hf-directional-antennas"
+  }
+ },
+ "gotchas": [
+  "300 W PEP max"
+ ],
+ "confidence": "high",
+ "pairs": []
+}

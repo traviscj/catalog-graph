@@ -1,0 +1,72 @@
+{
+ "id": "mfj-mfj-1775",
+ "kind": "antenna",
+ "name": "MFJ-1775",
+ "title": "MFJ MFJ-1775",
+ "brand": "MFJ",
+ "price": 399.95,
+ "line": "HF rotatable dipole",
+ "legacy": false,
+ "summary": "14 ft end-loaded 6-band rotatable mini-dipole (40/20/15/10/6/2m), 1.5 kW",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  },
+  {
+   "job": "ant_small_space",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "dipole",
+  "mount": "base",
+  "ant_bands": [
+   "40m",
+   "20m",
+   "15m",
+   "10m",
+   "6m",
+   "2m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 1500,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": 7,
+  "wind_sqft": null,
+  "length_ft": 14,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [
+  "TV rotator needed"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ],
+ "rating": {
+  "avg": 4.2,
+  "n": 19,
+  "pid": "5737",
+  "last": "2021-05-31",
+  "name": "MFJ-1775 6-Band Rotatable Mini-Dipole"
+ }
+}

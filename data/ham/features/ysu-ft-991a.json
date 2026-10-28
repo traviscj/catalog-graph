@@ -1,0 +1,163 @@
+{
+ "id": "ysu-ft-991a",
+ "name": "FT-991A",
+ "title": "Yaesu FT-991A",
+ "brand": "Yaesu",
+ "price": 1449.95,
+ "line": "HF/VHF/UHF all-mode",
+ "legacy": false,
+ "summary": "Shack-in-a-box: 160m–70cm all-mode 100W HF/6m, 50W V/U, C4FM, internal ATU, scope + waterfall.",
+ "jobs": [
+  {
+   "job": "allband_allmode",
+   "role": "primary"
+  },
+  {
+   "job": "hf_base",
+   "role": "primary"
+  },
+  {
+   "job": "ft8_digital",
+   "role": "secondary"
+  },
+  {
+   "job": "digital_voice",
+   "role": "secondary"
+  },
+  {
+   "job": "vhf_uhf_allmode",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "base",
+  "bands_tx": [
+   "160m",
+   "80m",
+   "60m",
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m",
+   "6m",
+   "2m",
+   "70cm"
+  ],
+  "hf": true,
+  "vhf_uhf": true,
+  "rx_range": "0.030–56, 118–164, 420–470 MHz",
+  "power_w": {
+   "hf": 100,
+   "6m": 100,
+   "2m": 50,
+   "70cm": 50,
+   "23cm": null
+  },
+  "modes": [
+   "SSB",
+   "CW",
+   "AM",
+   "FM",
+   "RTTY",
+   "PSK",
+   "DATA",
+   "C4FM"
+  ],
+  "digital_voice": [
+   "C4FM"
+  ],
+  "receiver_arch": "superhet",
+  "band_scope": "real-time scope + waterfall",
+  "display": "3.5in color touch",
+  "dual_receive": false,
+  "dual_watch": false,
+  "atu": true,
+  "usb_single_cable": true,
+  "lan_remote": false,
+  "wifi_bt": [],
+  "gps": false,
+  "aprs": false,
+  "full_duplex_sat": false,
+  "crossband_repeat": false,
+  "detachable_head": false,
+  "power_source": "13.8 VDC external",
+  "tx_current_a": 23.0,
+  "battery": null,
+  "ip_rating": null,
+  "antenna_ports": 2,
+  "rx_antenna_in": false,
+  "roofing_filters": "15k/6k/3k",
+  "memories": 99,
+  "weight_kg": 4.3,
+  "size_mm": "229×80×264",
+  "special": [
+   "triple-conversion",
+   "C4FM digital",
+   "AM 25W max",
+   "touch screen"
+  ],
+  "requires": [
+   "13.8V 23A+ power supply"
+  ],
+  "extra": {
+   "min_power_ssb_cw_w": 5,
+   "am_max_w": 25,
+   "usb_note": "USB carries CAT + built-in audio codec; DXE also mentions optional SCU-17",
+   "warranty": "3-year",
+   "antenna_ports_note": "HF/6m + V/U",
+   "list_price": "1449.95",
+   "avail": "InStock"
+  }
+ },
+ "gotchas": [
+  "Single receiver, no dual watch — no listening to 2m while on HF; IC-9700 / FTDX101D have dual RX",
+  "50W on 2m/70cm and no 23cm or full-duplex satellite — IC-9700 covers 23cm + full duplex",
+  "Superhet with narrow scope; SDR siblings FT-710 / FTDX10 have far better HF receivers & 3DSS scopes",
+  "Needs a 23A 13.8V supply (not included)",
+  "No LAN/remote built in — IC-7300MK2 / IC-9700 have LAN",
+  "C4FM only (no D-STAR) — IC-7100 is the D-STAR HF-70cm equivalent"
+ ],
+ "best_for": [
+  "one-radio station for new General",
+  "HF + local 2m/70cm repeaters + C4FM",
+  "FT8 via single USB"
+ ],
+ "not_for": [
+  "satellite full-duplex",
+  "serious contest/DX receiving",
+  "D-STAR users"
+ ],
+ "pairs": [
+  {
+   "id": "13.8 V 25 A power supply",
+   "why": "no internal supply; 23A draw on HF",
+   "req": true
+  },
+  {
+   "id": "HF/6m antenna (dipole or vertical)",
+   "why": "ATU only matches ≤3:1",
+   "req": false
+  },
+  {
+   "id": "dual-band 2m/70cm antenna",
+   "why": "separate V/U antenna port",
+   "req": false
+  },
+  {
+   "id": "ysu-ftm-310dr",
+   "why": "C4FM mobile companion for the car",
+   "req": false
+  }
+ ],
+ "confidence": "medium",
+ "rating": {
+  "avg": 4.0,
+  "n": 192,
+  "pid": "12025",
+  "last": "2025-04-10",
+  "name": "Yaesu FT-991/991A"
+ }
+}

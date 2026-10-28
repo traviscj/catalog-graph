@@ -1,0 +1,61 @@
+{
+ "id": "iva-18489-12",
+ "kind": "antenna",
+ "name": "Moxon 12M",
+ "title": "InnovAntennas Moxon Directional Antennas",
+ "brand": "InnovAntennas",
+ "price": 482.99,
+ "line": "HF moxon",
+ "legacy": false,
+ "summary": "InnovAntennas 12m moxon beam, 29 dB F/B, 7 kW",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "moxon",
+  "mount": "base",
+  "ant_bands": [
+   "12m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 7000,
+  "max_w_digital": null,
+  "gain_dbi": 6.13,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "hf-directional-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ],
+ "rating": {
+  "avg": 5.0,
+  "n": 2,
+  "pid": "3882",
+  "last": "2006-10-24",
+  "name": "FORCE 12 WARC 2/2 17/12m"
+ }
+}

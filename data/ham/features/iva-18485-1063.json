@@ -1,0 +1,68 @@
+{
+ "id": "iva-18485-1063",
+ "kind": "antenna",
+ "name": "10M+6M Yagi",
+ "title": "InnovAntennas 10M+6M Yagi",
+ "brand": "InnovAntennas",
+ "price": 949.99,
+ "line": "HF/6m dual-band yagi",
+ "legacy": false,
+ "summary": "Interlaced 10m/6m yagi, 5+6 elements on a 22 ft boom, single feed",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  },
+  {
+   "job": "ant_vu_beam",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "10m",
+   "6m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 11,
+  "boom_ft": 22.0,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "hf-directional-antennas"
+  }
+ },
+ "gotchas": [
+  "Rotator not included"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ],
+ "rating": {
+  "avg": 4.6,
+  "n": 28,
+  "pid": "1157",
+  "last": "2019-04-29",
+  "name": "Wilson 1000 antenna (10M)"
+ }
+}

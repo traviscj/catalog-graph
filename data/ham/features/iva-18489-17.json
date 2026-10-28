@@ -1,0 +1,62 @@
+{
+ "id": "iva-18489-17",
+ "kind": "antenna",
+ "name": "Moxon 17M",
+ "title": "InnovAntennas Moxon 17M",
+ "brand": "InnovAntennas",
+ "price": 682.99,
+ "line": "HF Moxon",
+ "legacy": false,
+ "summary": "2-element 17m Moxon, 6.1 dBi, 29 dB F/B",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "moxon",
+  "mount": "base",
+  "ant_bands": [
+   "17m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 7000,
+  "max_w_digital": null,
+  "gain_dbi": 6.13,
+  "elements": 2,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "fb_db": 29,
+   "dxe_part_type": "hf-directional-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ],
+ "rating": {
+  "avg": 0.3,
+  "n": 3,
+  "pid": "4285",
+  "last": "2018-02-23",
+  "name": "eh-antenna 17m backpacker"
+ }
+}

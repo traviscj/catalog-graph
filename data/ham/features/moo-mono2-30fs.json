@@ -1,0 +1,64 @@
+{
+ "id": "moo-mono2-30fs",
+ "kind": "antenna",
+ "name": "Mono2 30FS",
+ "title": "Momobeam Mono2 30FS",
+ "brand": "Momobeam",
+ "price": 4846.0,
+ "line": "HF monoband yagi",
+ "legacy": false,
+ "summary": "Full-size 2-element 30m yagi, 15.7 ft boom, 88 lb",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "30m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 10000,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 2,
+  "boom_ft": 15.75,
+  "turn_radius_ft": 27.23,
+  "wind_sqft": 9.04,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": 88.0,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "longest_el_ft": 52.5,
+   "dxe_part_type": "hf-directional-antennas"
+  }
+ },
+ "gotchas": [
+  "rotator not included — needs tower-class mast/rotator"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ],
+ "rating": {
+  "avg": 5.0,
+  "n": 1,
+  "pid": "15397",
+  "last": "2022-09-29",
+  "name": "Momobeam Mono2 40T"
+ }
+}

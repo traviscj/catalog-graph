@@ -1,0 +1,62 @@
+{
+ "id": "dxa-dxa1280",
+ "kind": "antenna",
+ "name": "DXA1280",
+ "title": "DIEX DXA1280",
+ "brand": "DIEX",
+ "price": 255.99,
+ "line": "HF rotatable dipole",
+ "legacy": false,
+ "summary": "Coil-shortened 80m + full-size 12m rotatable rigid dipole, 30.8 ft",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  },
+  {
+   "job": "ant_small_space",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "dipole",
+  "mount": "base",
+  "ant_bands": [
+   "80m",
+   "12m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 300,
+  "max_w_digital": 100,
+  "gain_dbi": null,
+  "elements": 1,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": 30.84,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "hf-directional-antennas"
+  }
+ },
+ "gotchas": [
+  "300 W PEP max",
+  "shortened 80m: narrow bandwidth, retune to move"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

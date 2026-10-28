@@ -1,0 +1,69 @@
+{
+ "id": "mfj-mfj-2240",
+ "kind": "antenna",
+ "name": "MFJ-2240",
+ "title": "MFJ MFJ-2240",
+ "brand": "MFJ",
+ "price": 74.95,
+ "line": "HF rotatable dipole",
+ "legacy": false,
+ "summary": "Hamstick mini-dipole for 40m, MFJ-347 mount, limited space",
+ "jobs": [
+  {
+   "job": "ant_small_space",
+   "role": "primary"
+  },
+  {
+   "job": "ant_hf_portable",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "dipole",
+  "mount": "base",
+  "ant_bands": [
+   "40m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "incl": "2 HF sticks + MFJ-347 mount",
+   "rotatable": true,
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [
+  "Narrow bandwidth (loaded hamsticks)"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ],
+ "rating": {
+  "avg": 4.0,
+  "n": 1,
+  "pid": "14393",
+  "last": "2019-10-01",
+  "name": "MFJ 40M Mini-Dipole Antenna MFJ-2240"
+ }
+}

@@ -1,0 +1,58 @@
+{
+ "id": "mfj-dis-72",
+ "kind": "antenna",
+ "name": "DIS-72",
+ "title": "Hy-Gain DIS-72",
+ "brand": "Hy-Gain",
+ "price": 1399.95,
+ "line": "HF monoband yagi",
+ "legacy": false,
+ "summary": "Discoverer 2-el 40m beam, hairpin-loaded, Beta Match",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "40m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 2,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "addon": "DIR-73 converts to 3-el",
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [
+  "Big 40m beam — heavy rotator/tower",
+  "BN-4000 balun recommended"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

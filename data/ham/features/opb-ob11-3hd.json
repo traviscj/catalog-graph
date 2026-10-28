@@ -1,0 +1,63 @@
+{
+ "id": "opb-ob11-3hd",
+ "kind": "antenna",
+ "name": "OB11-3HD",
+ "title": "OptiBeam HF Directional Antennas",
+ "brand": "OptiBeam",
+ "price": 2429.99,
+ "line": "HF tribander yagi",
+ "legacy": false,
+ "summary": "OptiBeam OB11-3 heavy-duty 11-element 20/15/10m yagi, 20 ft boom",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "20m",
+   "15m",
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 2500,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 11,
+  "boom_ft": 20.0,
+  "turn_radius_ft": 20.5,
+  "wind_sqft": 9.0,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": 70.5,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "hf-directional-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ],
+ "rating": {
+  "avg": 5.0,
+  "n": 37,
+  "pid": "5079",
+  "last": "2023-11-14",
+  "name": "OptiBeam OB11-5 (high performance 11el fivebander 20-17-15-12-10"
+ }
+}

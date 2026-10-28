@@ -1,0 +1,52 @@
+{
+ "id": "kel-11500-843",
+ "kind": "antenna",
+ "name": "DP-804030",
+ "title": "Kelemen DP-804030",
+ "brand": "Kelemen",
+ "price": 309.99,
+ "line": "HF trap dipole",
+ "legacy": false,
+ "summary": "88.6 ft 80/40/30m trap dipole with balun, 400 W",
+ "jobs": [
+  {
+   "job": "ant_hf_wire",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "dipole",
+  "mount": "base",
+  "ant_bands": [
+   "80m",
+   "40m",
+   "30m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 400,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": 88.6,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "wire-antennas"
+  }
+ },
+ "gotchas": [
+  "400 W max"
+ ],
+ "confidence": "high",
+ "pairs": []
+}

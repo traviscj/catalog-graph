@@ -1,0 +1,56 @@
+{
+ "id": "hsr-g-2537",
+ "kind": "antenna",
+ "name": "G-2537",
+ "title": "Hustler Antenna G-2537",
+ "brand": "Hustler",
+ "price": 398.99,
+ "line": "HF monoband vertical",
+ "legacy": false,
+ "summary": "Base vertical for 24.8-37 MHz (12m/10m/11m), 300 W",
+ "jobs": [
+  {
+   "job": "ant_hf_vertical",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "vertical",
+  "mount": "base",
+  "ant_bands": [
+   "12m",
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 300.0,
+  "max_w_digital": null,
+  "gain_dbi": 6.4,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "also": "11m CB",
+   "dxe_part_type": "hf-vertical-antennas-and-packages"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "1:1 common-mode choke at the shack entry",
+   "why": "keeps feedline RF out of the shack",
+   "req": false
+  }
+ ]
+}

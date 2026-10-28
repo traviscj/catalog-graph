@@ -1,0 +1,57 @@
+{
+ "id": "iva-dxr3",
+ "kind": "antenna",
+ "name": "DXR3-MKII",
+ "title": "InnovAntennas DXR3-MKII",
+ "brand": "InnovAntennas",
+ "price": 1439.99,
+ "line": "HF tribander yagi",
+ "legacy": false,
+ "summary": "6-element 20/15/10m tribander on a short 10 ft boom",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "20m",
+   "15m",
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 10000,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 6,
+  "boom_ft": 10.2,
+  "turn_radius_ft": 16.0,
+  "wind_sqft": 11.56,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": 54.23,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": "terminal studs",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "longest_el_ft": 36,
+   "dxe_part_type": "hf-directional-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

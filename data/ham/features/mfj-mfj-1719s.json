@@ -1,0 +1,59 @@
+{
+ "id": "mfj-mfj-1719s",
+ "kind": "antenna",
+ "name": "MFJ-1719S",
+ "title": "MFJ MFJ-1719S",
+ "brand": "MFJ",
+ "price": 24.95,
+ "line": "HT antenna",
+ "legacy": false,
+ "summary": "Sub-1-in stubby 2m/440 HT antenna, SMA-M, RX to 1200 MHz",
+ "jobs": [
+  {
+   "job": "ant_ht",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "rubber-duck",
+  "mount": "handheld",
+  "ant_bands": [
+   "2m",
+   "70cm"
+  ],
+  "resonant": null,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "SMA-M",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "rx_also": "1200 MHz",
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [
+  "Tiny stubby — low efficiency"
+ ],
+ "confidence": "high",
+ "pairs": [],
+ "rating": {
+  "avg": 2.8,
+  "n": 5,
+  "pid": "5685",
+  "last": "2014-01-22",
+  "name": "MFJ-1719S  Small Wonder HT Antenna"
+ }
+}

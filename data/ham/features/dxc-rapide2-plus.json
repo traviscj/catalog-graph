@@ -1,0 +1,68 @@
+{
+ "id": "dxc-rapide2-plus",
+ "kind": "antenna",
+ "name": "Rapide2-PLUS",
+ "title": "DX Commander Rapide2-PLUS",
+ "brand": "DX Commander",
+ "price": 444.9,
+ "line": "HF multiband vertical",
+ "legacy": false,
+ "summary": "DX Commander Rapide2 multi-element resonant vertical, 40-6m, ground post",
+ "jobs": [
+  {
+   "job": "ant_hf_vertical",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "vertical",
+  "mount": "base",
+  "ant_bands": [
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m",
+   "6m"
+  ],
+  "resonant": true,
+  "tuner_req": "Antenna & installation dependent",
+  "max_w": 1500,
+  "max_w_digital": 400,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 23.0,
+  "weight_lb": null,
+  "radials": true,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "hf-vertical-antennas-and-packages"
+  }
+ },
+ "gotchas": [
+  "radials required"
+ ],
+ "confidence": "medium",
+ "pairs": [
+  {
+   "id": "radial wires / counterpoise",
+   "why": "vertical needs a ground system",
+   "req": true
+  },
+  {
+   "id": "1:1 common-mode choke at the shack entry",
+   "why": "keeps feedline RF out of the shack",
+   "req": false
+  }
+ ]
+}

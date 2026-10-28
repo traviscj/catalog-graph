@@ -1,0 +1,57 @@
+{
+ "id": "dxa-dxa1240",
+ "kind": "antenna",
+ "name": "DXA1240",
+ "title": "Diex Antennas Two-Band Shortened Rigid Rotatable Dipoles",
+ "brand": "DIEX",
+ "price": 219.99,
+ "line": "HF rotatable dipole",
+ "legacy": false,
+ "summary": "Diex coil-shortened 40m plus full-size 12m rigid rotatable dipole, 29.5 ft",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  },
+  {
+   "job": "ant_small_space",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "dipole",
+  "mount": "base",
+  "ant_bands": [
+   "40m",
+   "12m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 300,
+  "max_w_digital": 100,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": 29.52,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "rotatable": true,
+   "dxe_part_type": "hf-directional-antennas"
+  }
+ },
+ "gotchas": [
+  "300 W PEP / 100 W digital max",
+  "Narrow 40m bandwidth (coil-shortened)"
+ ],
+ "confidence": "high",
+ "pairs": []
+}

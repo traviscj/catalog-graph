@@ -1,0 +1,56 @@
+{
+ "id": "ean-r2010181",
+ "kind": "antenna",
+ "name": "432XLFA18",
+ "title": "EAntenna 432XLFA18",
+ "brand": "EAntenna",
+ "price": 429.99,
+ "line": "V/U yagi (X-pol)",
+ "legacy": false,
+ "summary": "18+18-element cross-polarized 70cm yagi, 430–435 MHz",
+ "jobs": [
+  {
+   "job": "ant_vu_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 36,
+  "boom_ft": 14.42,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": null,
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "pol": "cross (X-pol)",
+   "freq": "430-435 MHz",
+   "dxe_part_type": "vhf-uhf-beam-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

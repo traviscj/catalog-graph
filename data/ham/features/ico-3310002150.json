@@ -1,0 +1,54 @@
+{
+ "id": "ico-3310002150",
+ "kind": "antenna",
+ "name": "FA-S270C",
+ "title": "ICOM FA-S270C",
+ "brand": "Icom",
+ "price": 20.97,
+ "line": "HT antenna",
+ "legacy": false,
+ "summary": "ICOM dual-band HT antenna with wideband receive, SMA",
+ "jobs": [
+  {
+   "job": "ant_ht",
+   "role": "primary"
+  },
+  {
+   "job": "ant_rx",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "rubber-duck",
+  "mount": "handheld",
+  "ant_bands": [
+   "2m",
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "SMA",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "rx": "wideband",
+   "dxe_part_type": "handheld-and-scanner-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "medium",
+ "pairs": []
+}

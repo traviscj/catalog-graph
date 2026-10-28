@@ -1,0 +1,60 @@
+{
+ "id": "dxe-ocf-hp40",
+ "kind": "antenna",
+ "name": "OCF-HP40",
+ "title": "DX Engineering Off Center Fed High Power Dipole Kits",
+ "brand": "DX Engineering",
+ "price": 231.97,
+ "line": "HF OCF dipole",
+ "legacy": false,
+ "summary": "DX Engineering 70 ft high-power OCF dipole kit, 40/20/15/10m, 1.5 kW",
+ "jobs": [
+  {
+   "job": "ant_hf_wire",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "ocf-dipole",
+  "mount": "base",
+  "ant_bands": [
+   "40m",
+   "20m",
+   "15m",
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": "Antenna & installation dependent",
+  "max_w": 1500,
+  "max_w_digital": 375,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": 70.0,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "horizontal",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": false,
+  "extra": {
+   "dxe_part_type": "wire-antennas"
+  }
+ },
+ "gotchas": [
+  "Kit — user assembles",
+  "Min 25 ft feedpoint height"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "1:1 common-mode choke at the shack entry",
+   "why": "keeps feedline RF out of the shack",
+   "req": false
+  }
+ ]
+}

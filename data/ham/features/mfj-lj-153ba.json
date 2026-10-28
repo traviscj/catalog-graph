@@ -1,0 +1,57 @@
+{
+ "id": "mfj-lj-153ba",
+ "kind": "antenna",
+ "name": "LJ-153BA",
+ "title": "Hy-Gain LJ-153BA",
+ "brand": "Hy-Gain",
+ "price": 339.95,
+ "line": "HF monoband yagi",
+ "legacy": false,
+ "summary": "3-element 15m Long John on 12 ft boom, 5.7 dBd, adjustable to 12m",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "15m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": 7.85,
+  "elements": 3,
+  "boom_ft": 12,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "alt_band": "12m (re-tune)",
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [
+  "BN-4000 balun recommended (extra)"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

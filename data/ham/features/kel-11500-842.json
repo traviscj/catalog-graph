@@ -1,0 +1,53 @@
+{
+ "id": "kel-11500-842",
+ "kind": "antenna",
+ "name": "DP-804020",
+ "title": "Kelemen Trap Dipole Antennas",
+ "brand": "Kelemen",
+ "price": 339.99,
+ "line": "HF trap dipole",
+ "legacy": false,
+ "summary": "Kelemen DP-804020 85 ft 80/40/20m trap dipole, 400 W",
+ "jobs": [
+  {
+   "job": "ant_hf_wire",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "dipole",
+  "mount": "base",
+  "ant_bands": [
+   "80m",
+   "40m",
+   "20m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 400,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": 85.3,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "wire-antennas"
+  }
+ },
+ "gotchas": [
+  "400 W max",
+  "Narrow 80m bandwidth"
+ ],
+ "confidence": "high",
+ "pairs": []
+}

@@ -1,0 +1,66 @@
+{
+ "id": "moo-tri9-101520",
+ "kind": "antenna",
+ "name": "TRI9SF",
+ "title": "Momobeam TRI9-SF Separate Feed 20/15/10 Meter Yagi Antennas",
+ "brand": "Momobeam",
+ "price": 2762.99,
+ "line": "HF tribander yagi",
+ "legacy": false,
+ "summary": "Momobeam TRI9-SF 9-element 20/15/10m yagi with separate feeds per band",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "20m",
+   "15m",
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 10000,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 9,
+  "boom_ft": 25.6,
+  "turn_radius_ft": 22.31,
+  "wind_sqft": 10.01,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": 88.18,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "separate_feeds": 3,
+   "dxe_part_type": "hf-directional-antennas"
+  }
+ },
+ "gotchas": [
+  "Three feedlines (separate feeds)"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ],
+ "rating": {
+  "avg": 4.8,
+  "n": 4,
+  "pid": "10183",
+  "last": "2026-01-09",
+  "name": "Radiowavz 10 METER DOUBLE BAZOOKA DIPOLE"
+ }
+}

@@ -1,0 +1,63 @@
+{
+ "id": "iva-18485-0055",
+ "kind": "antenna",
+ "name": "LFA-2 50 MHz 8el",
+ "title": "InnovAntennas LFA-2 50 MHz 8el",
+ "brand": "InnovAntennas",
+ "price": 865.99,
+ "line": "6m yagi",
+ "legacy": false,
+ "summary": "8-element low-noise 6m LFA yagi, 13.6 dBi, 38.3 ft boom, 5 kW",
+ "jobs": [
+  {
+   "job": "ant_vu_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "6m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 5000,
+  "max_w_digital": null,
+  "gain_dbi": 13.6,
+  "elements": 8,
+  "boom_ft": 38.31,
+  "turn_radius_ft": 19.8,
+  "wind_sqft": 5.6,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": 39.4,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": "Terminal studs",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "vhf-uhf-beam-antennas"
+  }
+ },
+ "gotchas": [
+  "38 ft boom"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ],
+ "rating": {
+  "avg": 5.0,
+  "n": 2,
+  "pid": "6132",
+  "last": "2012-03-23",
+  "name": "Elk Antenna 440LB 8 el log periodic"
+ }
+}

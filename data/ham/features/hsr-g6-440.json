@@ -1,0 +1,55 @@
+{
+ "id": "hsr-g6-440",
+ "kind": "antenna",
+ "name": "G6-440",
+ "title": "Hustler G6-440",
+ "brand": "Hustler",
+ "price": 459.99,
+ "line": "V/U base vertical",
+ "legacy": false,
+ "summary": "7.25 ft Hustler 70cm base collinear, 8.15 dBi, 250 W, N female",
+ "jobs": [
+  {
+   "job": "ant_vu_base",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "collinear",
+  "mount": "base",
+  "ant_bands": [
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 250,
+  "max_w_digital": null,
+  "gain_dbi": 8.15,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 7.25,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "N female",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "vhf-uhf-base-vertical-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [],
+ "rating": {
+  "avg": 4.5,
+  "n": 13,
+  "pid": "4513",
+  "last": "2023-03-14",
+  "name": "HUSTLER G6-440"
+ }
+}

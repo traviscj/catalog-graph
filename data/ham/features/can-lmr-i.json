@@ -1,0 +1,56 @@
+{
+ "id": "can-lmr-i",
+ "kind": "antenna",
+ "name": "LMR-I",
+ "title": "COMPACtenna LMR-I",
+ "brand": "COMPACtenna",
+ "price": 239.0,
+ "line": "V/U mobile whip",
+ "legacy": false,
+ "summary": "9 in. compact commercial LMR VHF/UHF/750 NMO antenna",
+ "jobs": [
+  {
+   "job": "ant_vu_mobile",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "whip",
+  "mount": "mobile",
+  "ant_bands": [
+   "2m",
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 100,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 0.75,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "NMO",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "note": "commercial LMR; ham coverage inferred from VHF/UHF",
+   "dxe_part_type": "hf-vhf-uhf-mobile-vertical-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "medium",
+ "pairs": [
+  {
+   "id": "mobile antenna mount (mag / trunk-lip / NMO)",
+   "why": "vehicle mount not included",
+   "req": false
+  }
+ ]
+}

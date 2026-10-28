@@ -1,0 +1,63 @@
+{
+ "id": "mkr-12-080",
+ "kind": "antenna",
+ "name": "HF Mini Stick 80M",
+ "title": "Moonraker HF Mini Stick 80M",
+ "brand": "Moonraker",
+ "price": 72.99,
+ "line": "HF mobile whip",
+ "legacy": false,
+ "summary": "Compact wire-wound 80m mobile whip, 250 W SSB",
+ "jobs": [
+  {
+   "job": "ant_hf_mobile",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "whip",
+  "mount": "mobile",
+  "ant_bands": [
+   "80m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 250.0,
+  "max_w_digital": 50.0,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "3/8-24",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "mobile-whip-antennas"
+  }
+ },
+ "gotchas": [
+  "Very narrow 80m bandwidth"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "mobile antenna mount (mag / trunk-lip / NMO)",
+   "why": "vehicle mount not included",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 4.6,
+  "n": 16,
+  "pid": "10559",
+  "last": "2025-10-20",
+  "name": "B-Square Engineering 10M-80M 66ft Terminated Folded Dipole"
+ }
+}

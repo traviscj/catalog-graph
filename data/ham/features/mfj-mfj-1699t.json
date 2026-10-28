@@ -1,0 +1,70 @@
+{
+ "id": "mfj-mfj-1699t",
+ "kind": "antenna",
+ "name": "MFJ-1699T",
+ "title": "MFJ MFJ-1699T",
+ "brand": "MFJ",
+ "price": 89.95,
+ "line": "HF mobile whip",
+ "legacy": false,
+ "summary": "49.5 in tapped-coil 10-band 80m-2m mobile whip, 200 W, 3/8-24",
+ "jobs": [
+  {
+   "job": "ant_hf_mobile",
+   "role": "primary"
+  },
+  {
+   "job": "ant_vu_mobile",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "whip",
+  "mount": "mobile",
+  "ant_bands": [
+   "80m",
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m",
+   "6m",
+   "2m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 200,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 4.12,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "3/8-24",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [
+  "change wander-lead tap to QSY",
+  "very short on 80/40m"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "mobile antenna mount (mag / trunk-lip / NMO)",
+   "why": "vehicle mount not included",
+   "req": false
+  }
+ ]
+}

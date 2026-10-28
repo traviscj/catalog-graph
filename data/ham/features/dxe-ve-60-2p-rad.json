@@ -1,0 +1,68 @@
+{
+ "id": "dxe-ve-60-2p-rad",
+ "kind": "antenna",
+ "name": "VE-60-2P-RAD",
+ "title": "DX Engineering DXE-VE-60-2P-RAD 60-Meter Monoband Vertical Antennas",
+ "brand": "DX Engineering",
+ "price": 1157.4,
+ "line": "HF monoband vertical",
+ "legacy": false,
+ "summary": "DX Engineering 45 ft 60m monoband vertical on SAF-T-TILT base",
+ "jobs": [
+  {
+   "job": "ant_hf_vertical",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "vertical",
+  "mount": "base",
+  "ant_bands": [
+   "60m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": true,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "hf-vertical-antennas-and-packages"
+  }
+ },
+ "gotchas": [
+  "Radials required"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "radial wires / counterpoise",
+   "why": "vertical needs a ground system",
+   "req": true
+  },
+  {
+   "id": "1:1 common-mode choke at the shack entry",
+   "why": "keeps feedline RF out of the shack",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 5.0,
+  "n": 2,
+  "pid": "12506",
+  "last": "2017-07-17",
+  "name": "DX Engineering AOK-60M - 60 Meter Add-On Kits"
+ }
+}

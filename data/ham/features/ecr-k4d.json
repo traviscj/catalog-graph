@@ -1,0 +1,187 @@
+{
+ "id": "ecr-k4d",
+ "name": "K4D",
+ "title": "Elecraft K4D",
+ "brand": "Elecraft",
+ "price": 7248.95,
+ "line": "HF flagship (SDR)",
+ "legacy": false,
+ "summary": "K4 with second ADC + BPF set: two independent 100 kHz–54 MHz receivers, diversity, 100 W, Ethernet remote.",
+ "jobs": [
+  {
+   "job": "hf_contest_dx",
+   "role": "primary"
+  },
+  {
+   "job": "hf_base",
+   "role": "primary"
+  },
+  {
+   "job": "remote_operation",
+   "role": "secondary"
+  },
+  {
+   "job": "ft8_digital",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "base",
+  "bands_tx": [
+   "160m",
+   "80m",
+   "60m",
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m",
+   "6m"
+  ],
+  "hf": true,
+  "vhf_uhf": false,
+  "rx_range": "0.1–54 MHz (main + sub)",
+  "power_w": {
+   "hf": 100,
+   "6m": 100,
+   "2m": null,
+   "70cm": null,
+   "23cm": null
+  },
+  "modes": [
+   "SSB",
+   "CW",
+   "AM",
+   "FM",
+   "RTTY",
+   "PSK",
+   "DATA"
+  ],
+  "digital_voice": [],
+  "receiver_arch": "direct-sampling SDR",
+  "band_scope": "real-time panadapter + waterfall, per-RX hi-res mini-pan",
+  "display": "7in color touch (+ mouse)",
+  "dual_receive": true,
+  "dual_watch": true,
+  "atu": false,
+  "usb_single_cable": true,
+  "lan_remote": true,
+  "wifi_bt": [],
+  "gps": false,
+  "aprs": false,
+  "full_duplex_sat": false,
+  "crossband_repeat": false,
+  "detachable_head": false,
+  "headless": false,
+  "power_source": "13.8 VDC external",
+  "tx_current_a": 23,
+  "battery": null,
+  "ip_rating": null,
+  "antenna_ports": 1,
+  "rx_antenna_in": true,
+  "roofing_filters": "none (direct sampling); crystal filters only in K4HD KHDR4",
+  "memories": null,
+  "weight_kg": 4.5,
+  "size_mm": "343×114×254",
+  "special": [
+   "2 receivers (2 ADCs, 2 BPF sets)",
+   "diversity receive",
+   "7in touch panadapter",
+   "per-RX hi-res mini-pan",
+   "PIN-diode silent QSK",
+   "full DVR",
+   "CW/PSK/RTTY decode+encode",
+   "SSNR spectral-subtraction NR",
+   "external video out",
+   "K-line accessory compatible (KPA500/KPA1500/KAT500/K-Pod)"
+  ],
+  "requires": [
+   "13.8V 25A power supply",
+   "microphone (MH4, sold separately)",
+   "external ATU or KAT4 option for non-resonant antennas"
+  ],
+  "extra": {
+   "usb_note": "USB-B = two virtual COM ports + USB audio",
+   "lan_note": "100% Ethernet remote from 2nd K4 (K4/0) or PC/tablet incl. panadapter data",
+   "supply_v": "12–15 VDC (K4D page; K4 FAQ says down to 11 V)",
+   "rx_current_a": "~2 A",
+   "adc": "16-bit",
+   "io": "3× USB-A, USB-B, RS232, Ethernet, video out, LINE in/out, ACC, 12 V out",
+   "upgrade_path": "K4→K4D (KRX4/KDIV4 kit); K4/10→100 W (KPA4); K4HD (KHDR4 dual superhet) 'coming soon'; VHF/UHF ~15 W module planned",
+   "ant_note": "KAT4 option adds ATU + 3 antenna jacks; up to 5 RX antenna sources (medium on base jack count)",
+   "source": "elecraft.com",
+   "dual_rx_note": "KDIV4 option fitted: 2nd direct-sampling ADC + 2nd BPF set → receivers on different antennas, true diversity",
+   "stability": "±0.25 ppm TCXO (K4D page; K4 page says ±0.1 ppm)",
+   "variant": "K4 + KDIV4 (KRX4) diversity option, factory assembled",
+   "list_price": "7248.95",
+   "avail": "InStock"
+  }
+ },
+ "gotchas": [
+  "No internal ATU even at $7.2k — KAT4 extra; ico-ic-7610-32 (dual RX + ATU) and ysu-ftdx-101d include one for much less",
+  "Options make it expensive: K4D + KAT4 + MH4 + K-Pod lands near $8k (Elecraft's own packages); fri-flex-8600m is the closest dual-SCU peer",
+  "Still direct-sampling only — the superhet K4HD (KHDR4 crystal-filtered IF) for multi-op/contest-site overload is 'coming soon'; ysu-ftdx-101d / kwd-ts-990s are superhet dual-RX now",
+  "Needs a separate 13.8 V ~25 A supply; no mic in the box",
+  "HF+6m only — promised V/U module still not shipping"
+ ],
+ "best_for": [
+  "SO2V / split DX with independent antennas",
+  "diversity reception on low bands",
+  "K-line contest station with KPA1500"
+ ],
+ "not_for": [
+  "budget buyers",
+  "V/U",
+  "portable QRP"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "13.8 V 25 A power supply",
+   "why": "no internal PSU; up to 23 A TX",
+   "req": true
+  },
+  {
+   "id": "Elecraft KAT4 ATU",
+   "why": "ATU optional; 3 antenna jacks selectable per receiver",
+   "req": false
+  },
+  {
+   "id": "Elecraft MH4 hand mic",
+   "why": "no mic included; required for SSB",
+   "req": false
+  },
+  {
+   "id": "Elecraft KPA1500 amplifier",
+   "why": "K4D/KPA1500 package 3 — matching 1500 W amp",
+   "req": false
+  },
+  {
+   "id": "Elecraft KPA500 amplifier",
+   "why": "500 W K-line amp",
+   "req": false
+  },
+  {
+   "id": "Elecraft K4/0 remote control panel",
+   "why": "full front-panel remote over Ethernet",
+   "req": false
+  },
+  {
+   "id": "Elecraft K-Pod controller",
+   "why": "in K4D packages 1/2",
+   "req": false
+  },
+  {
+   "id": "Elecraft SP4 speaker ×2",
+   "why": "stereo/diversity listening (package 3)",
+   "req": false
+  },
+  {
+   "id": "second RX antenna (e.g. Beverage/loop)",
+   "why": "diversity needs a 2nd antenna to matter",
+   "req": false
+  }
+ ]
+}

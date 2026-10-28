@@ -1,0 +1,55 @@
+{
+ "id": "moo-duo7-1217",
+ "kind": "antenna",
+ "name": "Duo7",
+ "title": "Momobeam DUO7 12/17 Dual Band HF Yagi Antennas",
+ "brand": "Momobeam",
+ "price": 1809.9,
+ "line": "HF duoband yagi",
+ "legacy": false,
+ "summary": "Momobeam DUO7 7-element 17/12m duoband yagi, 18 ft boom",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "17m",
+   "12m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 10000,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 7,
+  "boom_ft": 18.0,
+  "turn_radius_ft": 16.9,
+  "wind_sqft": 5.6,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": 57.0,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "hf-directional-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

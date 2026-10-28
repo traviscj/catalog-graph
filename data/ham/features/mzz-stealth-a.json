@@ -1,0 +1,61 @@
+{
+ "id": "mzz-stealth-a",
+ "kind": "antenna",
+ "name": "Stealth Loop",
+ "title": "Ciro Mazzoni Stealth Loop",
+ "brand": "Ciro Mazzoni",
+ "price": 1999.99,
+ "line": "HF mag loop",
+ "legacy": false,
+ "summary": "Ciro Mazzoni automatic-tune mag loop, 40-10m, 125 W",
+ "jobs": [
+  {
+   "job": "ant_small_space",
+   "role": "primary"
+  },
+  {
+   "job": "ant_hf_portable",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "mag-loop",
+  "mount": "portable",
+  "ant_bands": [
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": "Loop tuner: No",
+  "max_w": 125,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": 15.0,
+  "radials": null,
+  "directional": false,
+  "polarization": null,
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dims_in": "54x20x10",
+   "dxe_part_type": "limited-space-small-loop-antennas"
+  }
+ },
+ "gotchas": [
+  "125 W PEP max"
+ ],
+ "confidence": "high",
+ "pairs": []
+}

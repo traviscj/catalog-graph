@@ -1,0 +1,65 @@
+{
+ "id": "mfj-mfj-1728b",
+ "kind": "antenna",
+ "name": "MFJ-1728B",
+ "title": "MFJ MFJ-1728B",
+ "brand": "MFJ",
+ "price": 39.95,
+ "line": "V/U mobile whip",
+ "legacy": false,
+ "summary": "Magnet-mount 2m 5/8-wave / 6m quarter-wave mobile whip, 300 W",
+ "jobs": [
+  {
+   "job": "ant_vu_mobile",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "whip",
+  "mount": "mobile",
+  "ant_bands": [
+   "6m",
+   "2m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 300,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "PL-259",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "coax_ft": 12,
+   "mount_incl": "magnet",
+   "adapter": "BNC",
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "mobile antenna mount (mag / trunk-lip / NMO)",
+   "why": "vehicle mount not included",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 4.0,
+  "n": 25,
+  "pid": "874",
+  "last": "2025-03-28",
+  "name": "MFJ-1728B 2M 5/8 Wave / 6M Mobile"
+ }
+}

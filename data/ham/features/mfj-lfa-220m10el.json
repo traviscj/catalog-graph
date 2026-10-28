@@ -1,0 +1,59 @@
+{
+ "id": "mfj-lfa-220m10el",
+ "kind": "antenna",
+ "name": "LFA-220M10EL",
+ "title": "Cushcraft LFA-220M10EL",
+ "brand": "Cushcraft",
+ "price": 299.95,
+ "line": "V/U yagi",
+ "legacy": false,
+ "summary": "10-element G0KSC loop-fed 220 MHz yagi, 11.25 ft boom",
+ "jobs": [
+  {
+   "job": "ant_vu_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "1.25m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 5000,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 10,
+  "boom_ft": 11.25,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "design": "LFA",
+   "gain_note": "1.48 dBi as listed; 20.33 dBi w/ ground gain @10 m",
+   "fb_db": 34.58,
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [
+  "published gain '1.48 dBi' is a typo"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

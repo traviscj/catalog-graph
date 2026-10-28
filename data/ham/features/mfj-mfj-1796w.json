@@ -1,0 +1,64 @@
+{
+ "id": "mfj-mfj-1796w",
+ "kind": "antenna",
+ "name": "MFJ-1796W",
+ "title": "MFJ MFJ-1796W",
+ "brand": "MFJ",
+ "price": 369.95,
+ "line": "HF multiband vertical",
+ "legacy": false,
+ "summary": "WARC-band (60/30/17/12m) version of the MFJ-1796 vertical",
+ "jobs": [
+  {
+   "job": "ant_hf_vertical",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "vertical",
+  "mount": "base",
+  "ant_bands": [
+   "60m",
+   "30m",
+   "17m",
+   "12m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [],
+ "confidence": "medium",
+ "pairs": [
+  {
+   "id": "1:1 common-mode choke at the shack entry",
+   "why": "keeps feedline RF out of the shack",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 0.5,
+  "n": 2,
+  "pid": "7363",
+  "last": "2014-05-20",
+  "name": "MFJ-1796W"
+ }
+}

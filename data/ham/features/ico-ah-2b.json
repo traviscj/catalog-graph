@@ -1,0 +1,76 @@
+{
+ "id": "ico-ah-2b",
+ "kind": "antenna",
+ "name": "AH-2B",
+ "title": "Icom AH-2B",
+ "brand": "Icom",
+ "price": 524.99,
+ "line": "HF mobile whip",
+ "legacy": false,
+ "summary": "8.2 ft tapered steel HF whip for ICOM AH-4 auto-tuner",
+ "jobs": [
+  {
+   "job": "ant_hf_mobile",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "whip",
+  "mount": "mobile",
+  "ant_bands": [
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m",
+   "6m"
+  ],
+  "resonant": false,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 8.2,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "band_note": "bands per AH-4 pairing, not stated by DXE",
+   "dxe_part_type": "mobile-whip-antennas"
+  }
+ },
+ "gotchas": [
+  "needs ICOM AH-4 tuner (not incl.)"
+ ],
+ "confidence": "medium",
+ "pairs": [
+  {
+   "id": "antenna tuner (wide-range)",
+   "why": "non-resonant on its listed bands",
+   "req": true
+  },
+  {
+   "id": "mobile antenna mount (mag / trunk-lip / NMO)",
+   "why": "vehicle mount not included",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 3.2,
+  "n": 6,
+  "pid": "7447",
+  "last": "2022-07-03",
+  "name": "Icom ah-2b"
+ }
+}

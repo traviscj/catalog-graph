@@ -1,0 +1,50 @@
+{
+ "id": "mfj-mfj-1526n",
+ "kind": "antenna",
+ "name": "MFJ-1526N",
+ "title": "MFJ MFJ-1526N",
+ "brand": "MFJ",
+ "price": 169.95,
+ "line": "V/U base vertical",
+ "legacy": false,
+ "summary": "17-ft Pulsar ULTRA dual-band 144/440 fiberglass base, N, 200 W",
+ "jobs": [
+  {
+   "job": "ant_vu_base",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "collinear",
+  "mount": "base",
+  "ant_bands": [
+   "2m",
+   "70cm"
+  ],
+  "resonant": null,
+  "tuner_req": null,
+  "max_w": 200,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 17,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "N",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "gain_raw": "8.3/11.7 dB (2m/70cm, ref unstated)",
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": []
+}

@@ -1,0 +1,65 @@
+{
+ "id": "can-2m-440",
+ "kind": "antenna",
+ "name": "2M/440",
+ "title": "COMPACTenna 2M/440",
+ "brand": "COMPACtenna",
+ "price": 186.0,
+ "line": "V/U mobile whip",
+ "legacy": false,
+ "summary": "Ultra-short 7.5 in. dual-band NMO mobile antenna",
+ "jobs": [
+  {
+   "job": "ant_vu_mobile",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "whip",
+  "mount": "mobile",
+  "ant_bands": [
+   "2m",
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 85,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 0.62,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "NMO",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "max_w_70cm": 50,
+   "dxe_part_type": "vhf-uhf-mobile-vertical-antennas"
+  }
+ },
+ "gotchas": [
+  "Very short: low efficiency vs. 1/4-wave"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "mobile antenna mount (mag / trunk-lip / NMO)",
+   "why": "vehicle mount not included",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 4.8,
+  "n": 43,
+  "pid": "6377",
+  "last": "2025-08-28",
+  "name": "Edison Fong PVC pipe 2m/440 omni antenna"
+ }
+}

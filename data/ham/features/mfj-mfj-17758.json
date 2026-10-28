@@ -1,0 +1,58 @@
+{
+ "id": "mfj-mfj-17758",
+ "kind": "antenna",
+ "name": "MFJ-17758",
+ "title": "MFJ MFJ-17758",
+ "brand": "MFJ",
+ "price": 129.95,
+ "line": "HF dipole",
+ "legacy": false,
+ "summary": "85 ft 80/40m dipole, full-size on 40, end-loaded on 80, legal limit",
+ "jobs": [
+  {
+   "job": "ant_hf_wire",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "dipole",
+  "mount": "base",
+  "ant_bands": [
+   "80m",
+   "40m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 1500,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": 85,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "horizontal",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [
+  "end-loading makes 80m bandwidth narrow"
+ ],
+ "confidence": "high",
+ "pairs": [],
+ "rating": {
+  "avg": 4.3,
+  "n": 9,
+  "pid": "6081",
+  "last": "2020-05-08",
+  "name": "MFJ-17758 80/40 Meter Dipole Antenna"
+ }
+}

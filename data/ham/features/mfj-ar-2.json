@@ -1,0 +1,62 @@
+{
+ "id": "mfj-ar-2",
+ "kind": "antenna",
+ "name": "AR-2",
+ "title": "Cushcraft AR-2",
+ "brand": "Cushcraft",
+ "price": 109.95,
+ "line": "V/U base vertical",
+ "legacy": false,
+ "summary": "Original Ringo half-wave 2m FM vertical, no radials, 3.9 ft",
+ "jobs": [
+  {
+   "job": "ant_vu_base",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "vertical",
+  "mount": "base",
+  "ant_bands": [
+   "2m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 1000,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": 0.21,
+  "length_ft": null,
+  "height_ft": 3.9,
+  "weight_lb": 1.5,
+  "radials": false,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "gain_db": "3, unit unstated",
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "1:1 common-mode choke at the shack entry",
+   "why": "keeps feedline RF out of the shack",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 4.2,
+  "n": 22,
+  "pid": "1086",
+  "last": "2023-01-14",
+  "name": "Cushcraft Ringo AR-2"
+ }
+}

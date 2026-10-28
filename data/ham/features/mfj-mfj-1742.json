@@ -1,0 +1,69 @@
+{
+ "id": "mfj-mfj-1742",
+ "kind": "antenna",
+ "name": "MFJ-1742",
+ "title": "MFJ MFJ-1742",
+ "brand": "MFJ",
+ "price": 124.95,
+ "line": "HF dipole",
+ "legacy": false,
+ "summary": "84-ft 20m extended double Zepp; balanced-fed all-band 80-6m with tuner",
+ "jobs": [
+  {
+   "job": "ant_hf_wire",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "dipole",
+  "mount": "base",
+  "ant_bands": [
+   "80m",
+   "60m",
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m",
+   "6m"
+  ],
+  "resonant": false,
+  "tuner_req": "balanced feed + tuner (resonant design 20m)",
+  "max_w": 1500,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": 84,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "resonant_bands": [
+    "20m"
+   ],
+   "gain_claim": "~3 dB on 20m broadside",
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [
+  "Needs balanced feedline + tuner"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "antenna tuner (wide-range)",
+   "why": "non-resonant on its listed bands",
+   "req": true
+  }
+ ]
+}

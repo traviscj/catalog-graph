@@ -1,0 +1,64 @@
+{
+ "id": "mfj-th-1",
+ "kind": "antenna",
+ "name": "TH-1",
+ "title": "Hy-Gain TH-1",
+ "brand": "Hy-Gain",
+ "price": 379.95,
+ "line": "HF rotatable dipole",
+ "legacy": false,
+ "summary": "26-ft trapped 20/15/10m + 6m rotatable dipole, 1.5 kW",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  },
+  {
+   "job": "ant_small_space",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "dipole",
+  "mount": "base",
+  "ant_bands": [
+   "20m",
+   "15m",
+   "10m",
+   "6m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 1500,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": 13,
+  "wind_sqft": null,
+  "length_ft": 26,
+  "height_ft": null,
+  "weight_lb": 9,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "rotatable": true,
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [
+  "Rotator not included (AR-35 class)"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

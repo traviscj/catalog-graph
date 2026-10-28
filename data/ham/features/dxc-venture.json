@@ -1,0 +1,73 @@
+{
+ "id": "dxc-venture",
+ "kind": "antenna",
+ "name": "Venture",
+ "title": "DX Commander Venture HF Multi-Band Vertical Antennas",
+ "brand": "DX Commander",
+ "price": 354.97,
+ "line": "HF multiband vertical",
+ "legacy": false,
+ "summary": "DX Commander Venture 23 ft multi-element wire vertical kit with ground post",
+ "jobs": [
+  {
+   "job": "ant_hf_vertical",
+   "role": "primary"
+  },
+  {
+   "job": "ant_hf_portable",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "vertical",
+  "mount": "base",
+  "ant_bands": [
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m",
+   "6m"
+  ],
+  "resonant": true,
+  "tuner_req": "Antenna & installation dependent",
+  "max_w": 1500,
+  "max_w_digital": 400,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 23.0,
+  "weight_lb": 8.82,
+  "radials": true,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "hf-vertical-antennas-and-packages"
+  }
+ },
+ "gotchas": [
+  "Band set inferred",
+  "Radials required"
+ ],
+ "confidence": "medium",
+ "pairs": [
+  {
+   "id": "radial wires / counterpoise",
+   "why": "vertical needs a ground system",
+   "req": true
+  },
+  {
+   "id": "1:1 common-mode choke at the shack entry",
+   "why": "keeps feedline RF out of the shack",
+   "req": false
+  }
+ ]
+}

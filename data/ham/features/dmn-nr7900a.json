@@ -1,0 +1,62 @@
+{
+ "id": "dmn-nr7900a",
+ "kind": "antenna",
+ "name": "NR7900A",
+ "title": "Diamond NR7900A",
+ "brand": "Diamond",
+ "price": 99.99,
+ "line": "V/U mobile whip",
+ "legacy": false,
+ "summary": "57 in. high-performance dual-band UHF-mount mobile antenna",
+ "jobs": [
+  {
+   "job": "ant_vu_mobile",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "whip",
+  "mount": "mobile",
+  "ant_bands": [
+   "2m",
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 4.75,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "UHF (PL-259)",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "vhf-uhf-mobile-vertical-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "mobile antenna mount (mag / trunk-lip / NMO)",
+   "why": "vehicle mount not included",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 4.0,
+  "n": 4,
+  "pid": "4928",
+  "last": "2015-10-09",
+  "name": "Diamond NR7900a"
+ }
+}

@@ -1,0 +1,48 @@
+{
+ "id": "mkr-13-299",
+ "kind": "antenna",
+ "name": "Super Gainer Airband",
+ "title": "Moonraker Super Gainer Airband",
+ "brand": "Moonraker",
+ "price": 41.99,
+ "line": "scanner antenna (RX)",
+ "legacy": false,
+ "summary": "15.5 in. handheld VHF airband (118–137 MHz) scanner antenna",
+ "jobs": [
+  {
+   "job": "ant_rx",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "whip",
+  "mount": "handheld",
+  "ant_bands": [],
+  "resonant": null,
+  "tuner_req": null,
+  "max_w": 10,
+  "max_w_digital": null,
+  "gain_dbi": 2.15,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 1.3,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": null,
+  "rx_only": true,
+  "assembled": null,
+  "extra": {
+   "rx_range": "118-137 MHz",
+   "rated_w": 10,
+   "dxe_part_type": "handheld-and-scanner-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": []
+}

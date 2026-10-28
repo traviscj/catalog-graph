@@ -1,0 +1,66 @@
+{
+ "id": "moo-mono6-6hd",
+ "kind": "antenna",
+ "name": "Mono6-6HD",
+ "title": "Momobeam Mono6-6HD Monoband Yagi Antennas",
+ "brand": "Momobeam",
+ "price": 1121.99,
+ "line": "V/U yagi",
+ "legacy": false,
+ "summary": "Momobeam Mono6-6HD heavy-duty square-boom 6-element 6m yagi with choke balun",
+ "jobs": [
+  {
+   "job": "ant_vu_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "6m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 10000.0,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 6,
+  "boom_ft": 20.7,
+  "turn_radius_ft": 13.12,
+  "wind_sqft": 3.77,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": 19.84,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "gain_claim": "17.05 dBi (implausible)",
+   "kv_power": "10 kW",
+   "max_w_llm": 3000,
+   "dxe_part_type": "vhf-uhf-beam-antennas"
+  }
+ },
+ "gotchas": [
+  "Desc says 3 kW, spec table says 10 kW"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ],
+ "rating": {
+  "avg": 5.0,
+  "n": 2,
+  "pid": "15230",
+  "last": "2022-09-29",
+  "name": "Momobeam Mono 6-6"
+ }
+}

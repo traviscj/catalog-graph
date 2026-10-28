@@ -1,0 +1,59 @@
+{
+ "id": "cha-lefs-4010",
+ "kind": "antenna",
+ "name": "LEFS 4010",
+ "title": "Chameleon Antenna Lightweight 4010 End Fed Halfwave Sloper",
+ "brand": "Chameleon",
+ "price": 175.0,
+ "line": "HF end-fed wire",
+ "legacy": false,
+ "summary": "Chameleon lightweight 65 ft EFHW sloper 40-10m, BNC, for QRP/POTA",
+ "jobs": [
+  {
+   "job": "ant_hf_portable",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "end-fed",
+  "mount": "portable",
+  "ant_bands": [
+   "40m",
+   "20m",
+   "15m",
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 100,
+  "max_w_digital": 25,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": 65.0,
+  "height_ft": null,
+  "weight_lb": 1.0,
+  "radials": null,
+  "directional": false,
+  "polarization": null,
+  "connector": "BNC-female",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "hf-portable-stealth-antennas"
+  }
+ },
+ "gotchas": [
+  "100 W SSB / 25 W digital max"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "1:1 common-mode choke at the shack entry",
+   "why": "keeps feedline RF out of the shack",
+   "req": false
+  }
+ ]
+}

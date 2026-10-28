@@ -1,0 +1,165 @@
+{
+ "id": "kwd-ts-890s",
+ "name": "TS-890S",
+ "title": "Kenwood TS-890S",
+ "brand": "Kenwood",
+ "price": 4399.95,
+ "line": "HF base (down-conversion)",
+ "legacy": false,
+ "summary": "100W HF/6m full down-conversion superhet: low phase noise, 4 roofing filters, 7in TFT scope, ATU, LAN remote.",
+ "jobs": [
+  {
+   "job": "hf_contest_dx",
+   "role": "primary"
+  },
+  {
+   "job": "hf_base",
+   "role": "primary"
+  },
+  {
+   "job": "ft8_digital",
+   "role": "secondary"
+  },
+  {
+   "job": "remote_operation",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "base",
+  "bands_tx": [
+   "160m",
+   "80m",
+   "60m",
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m",
+   "6m"
+  ],
+  "hf": true,
+  "vhf_uhf": false,
+  "rx_range": "0.030–60 MHz",
+  "power_w": {
+   "hf": 100,
+   "6m": 100,
+   "2m": null,
+   "70cm": null,
+   "23cm": null
+  },
+  "modes": [
+   "SSB",
+   "CW",
+   "AM",
+   "FM",
+   "FSK",
+   "PSK",
+   "DATA"
+  ],
+  "digital_voice": [],
+  "receiver_arch": "superhet",
+  "band_scope": "high-speed independent scope + waterfall",
+  "display": "7in color TFT",
+  "dual_receive": false,
+  "dual_watch": false,
+  "atu": true,
+  "usb_single_cable": true,
+  "lan_remote": true,
+  "wifi_bt": [],
+  "gps": false,
+  "aprs": false,
+  "full_duplex_sat": false,
+  "crossband_repeat": false,
+  "detachable_head": false,
+  "headless": false,
+  "power_source": "13.8 VDC external",
+  "tx_current_a": 22.0,
+  "battery": null,
+  "ip_rating": null,
+  "antenna_ports": 3,
+  "rx_antenna_in": true,
+  "roofing_filters": "15k/6k/2.7k/500, 270 (opt)",
+  "memories": 120,
+  "weight_kg": 15.9,
+  "size_mm": "396×141×340 (DXE overall)",
+  "special": [
+   "full down-conversion all bands",
+   "extra-low phase noise LO",
+   "DVI-I external display",
+   "RX ANT IN/OUT + ANT out for ext RX",
+   "CW/PSK/RTTY encode+decode",
+   "TS-930/940 animated meters",
+   "KEYPAD jack (8 PF keys)",
+   "screen capture"
+  ],
+  "requires": [
+   "13.8V 25A power supply",
+   "hand/desk microphone (not included)",
+   "Kenwood USB driver + ARUA-10 for USB audio"
+  ],
+  "extra": {
+   "am_power_w": 25,
+   "min_power_w": 5,
+   "lan_remote": "KNS direct LAN (client software on PC)",
+   "rx_ant_note": "separate RX IN/OUT plus shared RX output",
+   "list_price": 4999.95,
+   "avail": "InStock"
+  }
+ },
+ "gotchas": [
+  "single receiver, no dual watch — IC-7610 / FTDX101D / TS-990S for two RX",
+  "needs 22A 13.8V supply (not included) and no mic in the box",
+  "USB CAT/audio needs Kenwood driver + ARUA-10 installed before plugging in",
+  "270 Hz roofing filter is optional, not stock",
+  "no touch screen — IC-7300MK2 / IC-7610 / FTDX10 have touch scopes for less money",
+  "HF/6m only — no 2m/70cm"
+ ],
+ "best_for": [
+  "CW/SSB DXers who value close-in dynamic range",
+  "quiet-audio, knob-driven HF shack",
+  "LAN remote without extra box"
+ ],
+ "not_for": [
+  "dual-RX contest SO2V",
+  "VHF/UHF",
+  "budget buyers"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "13.8 V 25 A power supply",
+   "why": "no internal PSU; 22 A draw",
+   "req": true
+  },
+  {
+   "id": "Kenwood MC-90 desk mic",
+   "why": "no mic included",
+   "req": true
+  },
+  {
+   "id": "Kenwood YK-88C-1 270 Hz roofing filter",
+   "why": "optional narrow CW roofing",
+   "req": false
+  },
+  {
+   "id": "external DVI monitor",
+   "why": "full-size scope/waterfall",
+   "req": false
+  },
+  {
+   "id": "Kenwood SP-890 external speaker",
+   "why": "matching speaker",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 4.9,
+  "n": 90,
+  "pid": "14060",
+  "last": "2026-01-29",
+  "name": "Kenwood TS-890S"
+ }
+}

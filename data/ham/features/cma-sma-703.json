@@ -1,0 +1,57 @@
+{
+ "id": "cma-sma-703",
+ "kind": "antenna",
+ "name": "SMA-703",
+ "title": "Comet Antennas SMA-703",
+ "brand": "Comet",
+ "price": 35.95,
+ "line": "HT antenna",
+ "legacy": false,
+ "summary": "6.5 in. tri-band 2m/70cm/23cm HT antenna, SMA male",
+ "jobs": [
+  {
+   "job": "ant_ht",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "rubber-duck",
+  "mount": "handheld",
+  "ant_bands": [
+   "2m",
+   "70cm",
+   "23cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 0.54,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "SMA male",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "handheld-and-scanner-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [],
+ "rating": {
+  "avg": 3.3,
+  "n": 7,
+  "pid": "3387",
+  "last": "2020-05-11",
+  "name": "Comet SMA-703"
+ }
+}

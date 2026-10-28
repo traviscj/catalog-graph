@@ -1,0 +1,71 @@
+{
+ "id": "opb-ob15-7",
+ "kind": "antenna",
+ "name": "OB15-7",
+ "title": "OptiBeam OB15-7",
+ "brand": "OptiBeam",
+ "price": 5814.0,
+ "line": "HF multiband yagi",
+ "legacy": false,
+ "summary": "15-element 7-band 40–10m yagi incl. 40/30m, 22 ft boom",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 2500,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 15,
+  "boom_ft": 22.0,
+  "turn_radius_ft": 26.9,
+  "wind_sqft": 25.3,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": 165.0,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "note": "DXE spec table says 11 elements; desc/model say 15",
+   "longest_el_ft": 47.6,
+   "dxe_part_type": "hf-directional-antennas"
+  }
+ },
+ "gotchas": [
+  "165 lb / 25.3 sq ft — big tower + rotator"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ],
+ "rating": {
+  "avg": 5.0,
+  "n": 7,
+  "pid": "6977",
+  "last": "2024-02-08",
+  "name": "OptiBeam OB15-7"
+ }
+}

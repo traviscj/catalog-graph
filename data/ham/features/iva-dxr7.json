@@ -1,0 +1,65 @@
+{
+ "id": "iva-dxr7",
+ "kind": "antenna",
+ "name": "DXR7",
+ "title": "InnovAntennas DXR Series Multi-Band HF Beams",
+ "brand": "InnovAntennas",
+ "price": 1930.0,
+ "line": "HF multiband yagi",
+ "legacy": false,
+ "summary": "InnovAntennas DXR7 seven-band 20-4m yagi on 12 ft boom",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m",
+   "6m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 10000,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 14,
+  "boom_ft": 12.0,
+  "turn_radius_ft": 19.65,
+  "wind_sqft": 13.02,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": 72.75,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": "terminal studs",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "other_bands": [
+    "4m"
+   ],
+   "elements_kv": 13,
+   "dxe_part_type": "hf-directional-antennas"
+  }
+ },
+ "gotchas": [
+  "4m (70 MHz) band not usable in US"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

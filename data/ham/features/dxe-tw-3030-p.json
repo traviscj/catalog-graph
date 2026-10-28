@@ -1,0 +1,61 @@
+{
+ "id": "dxe-tw-3030-p",
+ "kind": "antenna",
+ "name": "TW 30m Solo Explorer",
+ "title": "DX Engineering TW Antenna 30 Meter Solo Explorer Packages",
+ "brand": "DX Engineering",
+ "price": 748.96,
+ "line": "HF portable vertical",
+ "legacy": false,
+ "summary": "TransWorld Solo Explorer 30m portable antenna package",
+ "jobs": [
+  {
+   "job": "ant_hf_portable",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "vertical",
+  "mount": "portable",
+  "ant_bands": [
+   "30m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "hf-portable-stealth-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "medium",
+ "pairs": [
+  {
+   "id": "1:1 common-mode choke at the shack entry",
+   "why": "keeps feedline RF out of the shack",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 5.0,
+  "n": 3,
+  "pid": "9408",
+  "last": "2012-12-24",
+  "name": "ZeroFive 6-30 METER MULTIBAND VERTICAL GROUNDPLANE"
+ }
+}

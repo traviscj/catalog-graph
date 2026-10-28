@@ -1,0 +1,66 @@
+{
+ "id": "mfj-mfj-2016",
+ "kind": "antenna",
+ "name": "MFJ-2016",
+ "title": "MFJ MFJ-2016",
+ "brand": "MFJ",
+ "price": 169.95,
+ "line": "HF OCF dipole",
+ "legacy": false,
+ "summary": "240 ft K1BQT OCFD for 160/75m, legal limit, built-in current choke",
+ "jobs": [
+  {
+   "job": "ant_hf_wire",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "ocf-dipole",
+  "mount": "base",
+  "ant_bands": [
+   "160m",
+   "80m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 1500,
+  "max_w_digital": null,
+  "gain_dbi": 9,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": 240,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "horizontal",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "gain_note": "9 dBi in 75m DX window",
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [
+  "covers only the low end of 160m",
+  "needs 240 ft span, 35-70 ft height"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "1:1 common-mode choke at the shack entry",
+   "why": "keeps feedline RF out of the shack",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 3.0,
+  "n": 2,
+  "pid": "12748",
+  "last": "2016-04-09",
+  "name": "MFJ2016"
+ }
+}

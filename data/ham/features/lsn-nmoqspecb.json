@@ -1,0 +1,59 @@
+{
+ "id": "lsn-nmoqspecb",
+ "kind": "antenna",
+ "name": "NMOQSPECB",
+ "title": "Larsen NMOQSPECB",
+ "brand": "Larsen",
+ "price": 48.99,
+ "line": "V/U mobile whip",
+ "legacy": false,
+ "summary": "Cut-to-frequency 1/4-wave 136-960 MHz NMO whip, 200 W",
+ "jobs": [
+  {
+   "job": "ant_vu_mobile",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "whip",
+  "mount": "mobile",
+  "ant_bands": [
+   "2m",
+   "1.25m",
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 200,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 1.83,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "NMO",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "freq_range": "136-960 MHz",
+   "dxe_part_type": "vhf-uhf-mobile-vertical-antennas"
+  }
+ },
+ "gotchas": [
+  "Must be cut to one frequency/band"
+ ],
+ "confidence": "medium",
+ "pairs": [
+  {
+   "id": "mobile antenna mount (mag / trunk-lip / NMO)",
+   "why": "vehicle mount not included",
+   "req": false
+  }
+ ]
+}

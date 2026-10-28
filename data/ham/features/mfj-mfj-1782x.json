@@ -1,0 +1,57 @@
+{
+ "id": "mfj-mfj-1782x",
+ "kind": "antenna",
+ "name": "MFJ-1782X",
+ "title": "MFJ MFJ-1782X",
+ "brand": "MFJ",
+ "price": 599.95,
+ "line": "HF mag loop",
+ "legacy": false,
+ "summary": "36 in remote-tuned mag loop, 10-30 MHz, 150 W, 220 VAC controller",
+ "jobs": [
+  {
+   "job": "ant_small_space",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "mag-loop",
+  "mount": "base",
+  "ant_bands": [
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 150,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": null,
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "diameter_in": 36,
+   "power": "220 VAC",
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [
+  "220 VAC version — US buyers want MFJ-1782"
+ ],
+ "confidence": "high",
+ "pairs": []
+}

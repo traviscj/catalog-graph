@@ -1,0 +1,124 @@
+{
+ "id": "ico-ic-v3500-ob",
+ "name": "IC-V3500 (open box)",
+ "title": "Icom IC-V3500 (open box)",
+ "brand": "Icom",
+ "price": 211.16,
+ "line": "VHF/UHF mobile",
+ "legacy": false,
+ "summary": "Open-box 65W 2m-only FM mobile, MIL-810G, 207 memories, 4.5W audio; may be blemished/missing hardware.",
+ "jobs": [
+  {
+   "job": "vhf_uhf_mobile",
+   "role": "primary"
+  },
+  {
+   "job": "first_radio",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "mobile",
+  "bands_tx": [
+   "2m"
+  ],
+  "hf": false,
+  "vhf_uhf": true,
+  "rx_range": "136–174 MHz",
+  "power_w": {
+   "hf": null,
+   "6m": null,
+   "2m": 65,
+   "70cm": null,
+   "23cm": null
+  },
+  "modes": [
+   "FM"
+  ],
+  "digital_voice": [],
+  "receiver_arch": "FM (HT/mobile)",
+  "band_scope": null,
+  "display": "white-backlit LCD",
+  "dual_receive": false,
+  "dual_watch": false,
+  "atu": false,
+  "usb_single_cable": false,
+  "lan_remote": false,
+  "wifi_bt": [],
+  "gps": false,
+  "aprs": false,
+  "full_duplex_sat": false,
+  "crossband_repeat": false,
+  "detachable_head": false,
+  "power_source": "13.8 VDC external",
+  "tx_current_a": 11.0,
+  "battery": null,
+  "ip_rating": null,
+  "antenna_ports": 1,
+  "rx_antenna_in": false,
+  "roofing_filters": null,
+  "memories": 207,
+  "weight_kg": 1.1,
+  "size_mm": "140×40×118",
+  "special": [
+   "MIL-STD-810G",
+   "4.5W speaker",
+   "emergency alert function",
+   "free PC programming software",
+   "HM-133V keypad mic"
+  ],
+  "requires": [
+   "13.8V 15A power supply (for base use)"
+  ],
+  "extra": {
+   "condition": "open box",
+   "new_sibling": "ico-ic-v3500",
+   "list_price": 211.16,
+   "avail": "InStock"
+  }
+ },
+ "gotchas": [
+  "open box: may be blemished or missing mic/bracket/fuse — new ico-ic-v3500 is complete",
+  "2m only — IC-2730A adds 70cm",
+  "analog FM only — ID-5200A/ID-5100A-D add D-STAR",
+  "65W vs 85W on Yaesu FT-3185R; no detachable head"
+ ],
+ "best_for": [
+  "cheap 2m mobile/base",
+  "budget repeater rig"
+ ],
+ "not_for": [
+  "70cm or digital",
+  "buyers needing guaranteed full accessories"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "13.8 V 15 A power supply",
+   "why": "base use; 11 A draw",
+   "req": false
+  },
+  {
+   "id": "2m mobile antenna + mount",
+   "why": "mobile install",
+   "req": false
+  },
+  {
+   "id": "ico-ic-v3500",
+   "why": "new-in-box version",
+   "req": false
+  },
+  {
+   "id": "HM-133V microphone",
+   "why": "replace if missing in open box",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 5.0,
+  "n": 3,
+  "pid": "15773",
+  "last": "2025-06-09",
+  "name": "IC-V3500"
+ }
+}

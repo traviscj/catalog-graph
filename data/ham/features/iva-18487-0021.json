@@ -1,0 +1,55 @@
+{
+ "id": "iva-18487-0021",
+ "kind": "antenna",
+ "name": "LFA-Q-2",
+ "title": "InnovAntennas LFA-Q-2",
+ "brand": "InnovAntennas",
+ "price": 519.99,
+ "line": "HF quad",
+ "legacy": false,
+ "summary": "2-element low-noise loop-fed quad for 10m (or 11m)",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "quad",
+  "mount": "base",
+  "ant_bands": [
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 5000,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 2,
+  "boom_ft": 2.36,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "alt_band": "11m",
+   "dxe_part_type": "hf-directional-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

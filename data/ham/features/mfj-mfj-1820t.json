@@ -1,0 +1,52 @@
+{
+ "id": "mfj-mfj-1820t",
+ "kind": "antenna",
+ "name": "MFJ-1820T",
+ "title": "MFJ MFJ-1820T",
+ "brand": "MFJ",
+ "price": 39.95,
+ "line": "HF portable whip (rig-mount)",
+ "legacy": false,
+ "summary": "20m base-loaded BNC telescopic whip for FT-817/KX3, 25 W",
+ "jobs": [
+  {
+   "job": "ant_hf_portable",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "whip",
+  "mount": "portable",
+  "ant_bands": [
+   "20m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 25,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 4.6,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "BNC",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "fits": "FT-817/KX3",
+   "collapsed_cm": 26,
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [
+  "rig-mounted short whip — very low efficiency"
+ ],
+ "confidence": "high",
+ "pairs": []
+}

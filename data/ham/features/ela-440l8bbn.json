@@ -1,0 +1,54 @@
+{
+ "id": "ela-440l8bbn",
+ "kind": "antenna",
+ "name": "440L8BBN",
+ "title": "Elk 440L8BBN",
+ "brand": "Elk",
+ "price": 153.95,
+ "line": "V/U log-periodic",
+ "legacy": false,
+ "summary": "8-element 70cm LPDA, 10.4 dBi, 150 W, N connector",
+ "jobs": [
+  {
+   "job": "ant_vu_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "log-periodic",
+  "mount": "base",
+  "ant_bands": [
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 150,
+  "max_w_digital": null,
+  "gain_dbi": 10.4,
+  "elements": 8,
+  "boom_ft": 2.0,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": null,
+  "connector": "N female",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "vhf-uhf-beam-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

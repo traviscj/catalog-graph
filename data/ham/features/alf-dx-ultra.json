@@ -1,0 +1,61 @@
+{
+ "id": "alf-dx-ultra",
+ "kind": "antenna",
+ "name": "DX-ULTRA",
+ "title": "Alpha Delta DX-ULTRA",
+ "brand": "Alpha Delta",
+ "price": 209.99,
+ "line": "HF dipole",
+ "legacy": false,
+ "summary": "80 ft parallel multi-band dipole covering 13-120 m SWL range",
+ "jobs": [
+  {
+   "job": "ant_hf_wire",
+   "role": "primary"
+  },
+  {
+   "job": "ant_rx",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "dipole",
+  "mount": "base",
+  "ant_bands": [
+   "80m",
+   "60m",
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m"
+  ],
+  "resonant": null,
+  "tuner_req": null,
+  "max_w": 2000.0,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": 80.0,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": true,
+  "extra": {
+   "rx_range": "13-120 m SWL bands",
+   "dxe_part_type": "wire-antennas"
+  }
+ },
+ "gotchas": [
+  "Ham band list not stated — check SWR per band"
+ ],
+ "confidence": "medium",
+ "pairs": []
+}

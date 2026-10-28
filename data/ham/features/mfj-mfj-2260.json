@@ -1,0 +1,55 @@
+{
+ "id": "mfj-mfj-2260",
+ "kind": "antenna",
+ "name": "MFJ-2260",
+ "title": "MFJ MFJ-2260",
+ "brand": "MFJ",
+ "price": 74.95,
+ "line": "HF mini dipole (hamstick)",
+ "legacy": false,
+ "summary": "60m mini-dipole: two hamsticks on MFJ-347 mount, rotatable, limited space",
+ "jobs": [
+  {
+   "job": "ant_small_space",
+   "role": "primary"
+  },
+  {
+   "job": "ant_hf_portable",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "dipole",
+  "mount": "base",
+  "ant_bands": [
+   "60m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "mount_incl": "MFJ-347",
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [
+  "shortened loaded dipole — narrow bandwidth"
+ ],
+ "confidence": "high",
+ "pairs": []
+}

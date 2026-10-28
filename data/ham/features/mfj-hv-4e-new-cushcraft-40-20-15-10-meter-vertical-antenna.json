@@ -1,0 +1,72 @@
+{
+ "id": "mfj-hv-4e-new-cushcraft-40-20-15-10-meter-vertical-antenna",
+ "kind": "antenna",
+ "name": "HV-4E",
+ "title": "Cushcraft HV-4E",
+ "brand": "Cushcraft",
+ "price": 219.95,
+ "line": "HF multiband vertical",
+ "legacy": false,
+ "summary": "19-ft 40/20/15/10m parallel-resonator vertical, 1.2 kW, center-loaded 40m",
+ "jobs": [
+  {
+   "job": "ant_hf_vertical",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "vertical",
+  "mount": "base",
+  "ant_bands": [
+   "40m",
+   "20m",
+   "15m",
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 1200,
+  "max_w_digital": 500,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 19,
+  "weight_lb": 5,
+  "radials": true,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "max_w_cw": 500,
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [
+  "Needs radials (HV-4E-RK kit sold separately)"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "radial wires / counterpoise",
+   "why": "vertical needs a ground system",
+   "req": true
+  },
+  {
+   "id": "1:1 common-mode choke at the shack entry",
+   "why": "keeps feedline RF out of the shack",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 3.8,
+  "n": 6,
+  "pid": "15875",
+  "last": "2025-06-02",
+  "name": "Cushcraft HV-4E"
+ }
+}

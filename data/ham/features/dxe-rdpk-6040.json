@@ -1,0 +1,51 @@
+{
+ "id": "dxe-rdpk-6040",
+ "kind": "antenna",
+ "name": "DXE-RDPK-6040",
+ "title": "DX Engineering DXE-RDPK-6040",
+ "brand": "DX Engineering",
+ "price": 235.46,
+ "line": "HF dipole",
+ "legacy": false,
+ "summary": "User-cut 60m or 40m dipole kit with MC20 1:1 balun",
+ "jobs": [
+  {
+   "job": "ant_hf_wire",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "dipole",
+  "mount": "base",
+  "ant_bands": [
+   "60m",
+   "40m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": 92,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "horizontal",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": false,
+  "extra": {
+   "dxe_part_type": "wire-antennas"
+  }
+ },
+ "gotchas": [
+  "Resonates on one band (60 OR 40) as cut"
+ ],
+ "confidence": "high",
+ "pairs": []
+}

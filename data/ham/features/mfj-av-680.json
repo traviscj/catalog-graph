@@ -1,0 +1,73 @@
+{
+ "id": "mfj-av-680",
+ "kind": "antenna",
+ "name": "AV-680",
+ "title": "Hy-Gain AV-680",
+ "brand": "Hy-Gain",
+ "price": 769.95,
+ "line": "HF multiband vertical",
+ "legacy": false,
+ "summary": "Patriot 9-band 80-6m no-radial vertical, parallel resonators, 1.5 kW",
+ "jobs": [
+  {
+   "job": "ant_hf_vertical",
+   "role": "primary"
+  },
+  {
+   "job": "ant_small_space",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "vertical",
+  "mount": "base",
+  "ant_bands": [
+   "80m",
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m",
+   "6m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 1500,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": false,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "1:1 common-mode choke at the shack entry",
+   "why": "keeps feedline RF out of the shack",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 3.6,
+  "n": 15,
+  "pid": "10961",
+  "last": "2023-07-19",
+  "name": "Hy-Gain AV-680 Nine-Band Vertical"
+ }
+}

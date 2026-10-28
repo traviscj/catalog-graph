@@ -1,0 +1,62 @@
+{
+ "id": "mfj-d-4",
+ "kind": "antenna",
+ "name": "D-4",
+ "title": "Cushcraft D-4",
+ "brand": "Cushcraft",
+ "price": 599.95,
+ "line": "HF rotatable dipole",
+ "legacy": false,
+ "summary": "35.8-ft trapped 40/20/15/10m rotatable dipole, 1.5 kW PEP",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "dipole",
+  "mount": "base",
+  "ant_bands": [
+   "40m",
+   "20m",
+   "15m",
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 1500,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": 1.3,
+  "length_ft": 35.8,
+  "height_ft": null,
+  "weight_lb": 13,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "rotatable": true,
+   "max_w_cw": 500,
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [
+  "Rotator not included",
+  "500 W CW rating"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

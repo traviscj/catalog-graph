@@ -1,0 +1,56 @@
+{
+ "id": "mfj-vb-215dx",
+ "kind": "antenna",
+ "name": "VB-215DX",
+ "title": "Hy-Gain VB-215DX",
+ "brand": "Hy-Gain",
+ "price": 359.95,
+ "line": "V/U yagi",
+ "legacy": false,
+ "summary": "15-element 2m SSB/weak-signal yagi, 14.2 dBd, 27.9 ft boom",
+ "jobs": [
+  {
+   "job": "ant_vu_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "2m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 2000,
+  "max_w_digital": null,
+  "gain_dbi": 16.35,
+  "elements": 15,
+  "boom_ft": 27.88,
+  "turn_radius_ft": null,
+  "wind_sqft": 2.75,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": 13.56,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [
+  "144-146 MHz only (horizontal)"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

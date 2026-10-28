@@ -1,0 +1,71 @@
+{
+ "id": "chd-tactical-delta-loop-tdl",
+ "kind": "antenna",
+ "name": "CHA TDL",
+ "title": "Chameleon CHA TDL",
+ "brand": "Chameleon",
+ "price": 410.0,
+ "line": "HF portable loop",
+ "legacy": false,
+ "summary": "Tactical Delta Loop: 2 whips + 25-ft wire, 80-6m, best 30-6m",
+ "jobs": [
+  {
+   "job": "ant_hf_portable",
+   "role": "primary"
+  },
+  {
+   "job": "ant_small_space",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "loop-wire",
+  "mount": "portable",
+  "ant_bands": [
+   "80m",
+   "60m",
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m",
+   "6m"
+  ],
+  "resonant": false,
+  "tuner_req": null,
+  "max_w": 100,
+  "max_w_digital": 25,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": 5,
+  "radials": null,
+  "directional": false,
+  "polarization": null,
+  "connector": "PL-259",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "max_w_cw": 25,
+   "dxe_part_type": "chameleonantenna.com/Antenna Systems"
+  }
+ },
+ "gotchas": [
+  "100 W SSB / 25 W CW-digital max",
+  "Tuner likely needed (5:1 unun)"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "antenna tuner (wide-range)",
+   "why": "non-resonant on its listed bands",
+   "req": true
+  }
+ ]
+}

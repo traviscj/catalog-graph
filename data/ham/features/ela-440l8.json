@@ -1,0 +1,56 @@
+{
+ "id": "ela-440l8",
+ "kind": "antenna",
+ "name": "440L8",
+ "title": "Elk Antennas 440L8",
+ "brand": "Elk",
+ "price": 120.95,
+ "line": "V/U log-periodic",
+ "legacy": false,
+ "summary": "8-element 420-450 MHz LPDA, 10.4 dBi, SO-239",
+ "jobs": [
+  {
+   "job": "ant_vu_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "log-periodic",
+  "mount": "portable",
+  "ant_bands": [
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 150.0,
+  "max_w_digital": null,
+  "gain_dbi": 10.4,
+  "elements": 8,
+  "boom_ft": 2.0,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "vhf-uhf-beam-antennas"
+  }
+ },
+ "gotchas": [
+  "150 W max"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

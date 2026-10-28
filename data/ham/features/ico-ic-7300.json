@@ -1,0 +1,147 @@
+{
+ "id": "ico-ic-7300",
+ "name": "IC-7300",
+ "title": "ICOM IC-7300",
+ "brand": "Icom",
+ "price": 1039.95,
+ "line": "HF base (direct-sampling SDR)",
+ "legacy": true,
+ "summary": "Original 160–6m 100W direct-sampling SDR with touch scope + ATU; superseded by IC-7300MK2.",
+ "jobs": [
+  {
+   "job": "hf_base",
+   "role": "primary"
+  },
+  {
+   "job": "ft8_digital",
+   "role": "primary"
+  },
+  {
+   "job": "first_radio",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "base",
+  "bands_tx": [
+   "160m",
+   "80m",
+   "60m",
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m",
+   "6m"
+  ],
+  "hf": true,
+  "vhf_uhf": false,
+  "rx_range": "0.030–74.8 MHz",
+  "power_w": {
+   "hf": 100,
+   "6m": 100,
+   "2m": null,
+   "70cm": null,
+   "23cm": null
+  },
+  "modes": [
+   "SSB",
+   "CW",
+   "AM",
+   "FM",
+   "RTTY",
+   "DATA"
+  ],
+  "digital_voice": [],
+  "receiver_arch": "direct-sampling SDR",
+  "band_scope": "real-time scope + waterfall",
+  "display": "4.3in color touch",
+  "dual_receive": false,
+  "dual_watch": false,
+  "atu": true,
+  "usb_single_cable": true,
+  "lan_remote": false,
+  "wifi_bt": [],
+  "gps": false,
+  "aprs": false,
+  "full_duplex_sat": false,
+  "crossband_repeat": false,
+  "detachable_head": false,
+  "power_source": "13.8 VDC external",
+  "tx_current_a": 21.0,
+  "battery": null,
+  "ip_rating": null,
+  "antenna_ports": 1,
+  "rx_antenna_in": false,
+  "roofing_filters": null,
+  "memories": 101,
+  "weight_kg": 4.2,
+  "size_mm": "240×94×238",
+  "special": [
+   "SD recording",
+   "voice keyer",
+   "audio scope",
+   "IP-plus"
+  ],
+  "requires": [
+   "13.8V 21A+ power supply"
+  ],
+  "extra": {
+   "ip3": ">30 dBm",
+   "rmdr_db": 97,
+   "am_max_w": 25,
+   "min_power_w": 2,
+   "warranty": "1-year",
+   "supplied": "HM-219 mic, DC cord",
+   "list_price": "1039.95",
+   "avail": "InStock"
+  }
+ },
+ "gotchas": [
+  "Legacy: superseded by IC-7300MK2 (adds built-in LAN remote, HDMI out, USB-C)",
+  "No LAN remote — IC-7300MK2 or IC-7610 have it",
+  "Single receiver, no RX antenna input — IC-7610 has dual RX + RX ant",
+  "No 2m/70cm — IC-705 / IC-7100 / FT-991A cover VHF/UHF",
+  "Needs 21A 13.8V supply (not included)"
+ ],
+ "best_for": [
+  "budget HF SDR (used/discount)",
+  "FT8 single-cable"
+ ],
+ "not_for": [
+  "remote operation",
+  "VHF/UHF"
+ ],
+ "pairs": [
+  {
+   "id": "13.8 V 25 A power supply",
+   "why": "no internal supply; 21A on TX",
+   "req": true
+  },
+  {
+   "id": "ico-ic-7300mk2",
+   "why": "current successor with LAN/HDMI",
+   "req": false
+  },
+  {
+   "id": "HF antenna (dipole/vertical)",
+   "why": "internal ATU only ~3:1",
+   "req": false
+  },
+  {
+   "id": "USB A-B cable",
+   "why": "CAT + audio for WSJT-X",
+   "req": false
+  }
+ ],
+ "confidence": "high",
+ "rating": {
+  "avg": 4.6,
+  "n": 429,
+  "pid": "12742",
+  "last": "2025-11-24",
+  "name": "ICOM IC-7300"
+ }
+}

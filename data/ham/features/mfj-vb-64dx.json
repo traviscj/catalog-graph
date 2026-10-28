@@ -1,0 +1,61 @@
+{
+ "id": "mfj-vb-64dx",
+ "kind": "antenna",
+ "name": "VB-64DX",
+ "title": "Hy-Gain VB-64DX",
+ "brand": "Hy-Gain",
+ "price": 239.95,
+ "line": "V/U yagi",
+ "legacy": false,
+ "summary": "4-el 6m yagi, 8.2 dBd",
+ "jobs": [
+  {
+   "job": "ant_vu_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "6m"
+  ],
+  "resonant": null,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": 10.35,
+  "elements": 4,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": null,
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ],
+ "rating": {
+  "avg": 3.4,
+  "n": 16,
+  "pid": "6123",
+  "last": "2021-10-20",
+  "name": "Hy-Gain VB-64DX"
+ }
+}

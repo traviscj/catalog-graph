@@ -1,0 +1,161 @@
+{
+ "id": "kwd-ts-990s",
+ "name": "TS-990S",
+ "title": "Kenwood TS-990S",
+ "brand": "Kenwood",
+ "price": 9699.95,
+ "line": "HF flagship",
+ "legacy": false,
+ "summary": "Kenwood's 200W HF/6m dual-receiver flagship: down-conversion main RX, narrow roofing filters, ATU, dual TFT, internal AC PSU.",
+ "jobs": [
+  {
+   "job": "hf_contest_dx",
+   "role": "primary"
+  },
+  {
+   "job": "hf_base",
+   "role": "primary"
+  },
+  {
+   "job": "ft8_digital",
+   "role": "secondary"
+  },
+  {
+   "job": "remote_operation",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "base",
+  "bands_tx": [
+   "160m",
+   "80m",
+   "60m",
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m",
+   "6m"
+  ],
+  "hf": true,
+  "vhf_uhf": false,
+  "rx_range": "0.030–60 MHz (spec-table: 0.130–30 + 50–54 MHz)",
+  "power_w": {
+   "hf": 200,
+   "6m": 200,
+   "2m": null,
+   "70cm": null,
+   "23cm": null
+  },
+  "modes": [
+   "SSB",
+   "CW",
+   "AM",
+   "FM",
+   "FSK",
+   "PSK",
+   "DATA"
+  ],
+  "digital_voice": [],
+  "receiver_arch": "superhet",
+  "band_scope": "real-time scope + waterfall (DSP, sub-display)",
+  "display": "7in main TFT + 3.5in sub TFT",
+  "dual_receive": true,
+  "dual_watch": true,
+  "atu": true,
+  "usb_single_cable": true,
+  "lan_remote": true,
+  "wifi_bt": [],
+  "gps": false,
+  "aprs": false,
+  "full_duplex_sat": false,
+  "crossband_repeat": false,
+  "detachable_head": false,
+  "headless": false,
+  "power_source": "internal AC PSU",
+  "tx_current_a": null,
+  "battery": null,
+  "ip_rating": null,
+  "antenna_ports": 5,
+  "rx_antenna_in": true,
+  "roofing_filters": "15k/6k/2.7k/500/270 (main RX)",
+  "memories": 120,
+  "weight_kg": 24.5,
+  "size_mm": "460×182×400 (DXE: 18.11×7.17×15.75 in)",
+  "special": [
+   "2 receivers (main down-conversion, sub)",
+   "IP3 >+40 dBm",
+   "0.1 ppm TCXO",
+   "dual TFT displays",
+   "external display out",
+   "TX/RX DSP EQ",
+   "voice guidance + recording",
+   "2 front USB ports",
+   "5 W–200 W adjustable"
+  ],
+  "requires": [
+   "120 VAC 720 VA outlet (NEMA 5-15)",
+   "hand/desk microphone (not included)"
+  ],
+  "extra": {
+   "ac_input": "85–265 VAC, 720 VA TX / 120 VA RX",
+   "am_power_w": 50,
+   "min_power_w": 5,
+   "lan_remote": "medium: rear LAN for Kenwood ARCP-990/KNS remote, needs PC software",
+   "usb_audio": "DXE: digital audio via USB or 13-pin DIN",
+   "list_price": 10299.95,
+   "avail": "InStock"
+  }
+ },
+ "gotchas": [
+  "~$9.7k and 24.5 kg — IC-7610 / FTDX101D give dual RX for less than half; FTDX101MP is the like-for-like 200 W competitor",
+  "no mic included — budget for MC-90 or similar",
+  "200 W out: amps/ATUs/coax rated for 100 W rigs may not be",
+  "older-generation (2013) design: no touch screen or SDR direct sampling; scope less capable than IC-7610's",
+  "DXE spec-table RX range (0.130–30, 50–54 MHz) understates the 30 kHz–60 MHz general coverage in the overview",
+  "HF/6m only — no 2m/70cm (IC-9700 / TS-2000-class needed)"
+ ],
+ "best_for": [
+  "serious contesting/DX with two simultaneous receivers",
+  "no-external-PSU 200 W station",
+  "Kenwood loyalists"
+ ],
+ "not_for": [
+  "budget or first HF rig",
+  "portable/mobile",
+  "VHF/UHF"
+ ],
+ "confidence": "medium",
+ "pairs": [
+  {
+   "id": "Kenwood MC-90 desk mic",
+   "why": "no mic included",
+   "req": true
+  },
+  {
+   "id": "external DVI monitor",
+   "why": "big scope/waterfall",
+   "req": false
+  },
+  {
+   "id": "Kenwood SP-990 external speaker",
+   "why": "separate main/sub audio",
+   "req": false
+  },
+  {
+   "id": "ARCP-990 / KNS remote software",
+   "why": "PC control and LAN remote",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 4.7,
+  "n": 114,
+  "pid": "10981",
+  "last": "2026-08-21",
+  "name": "Kenwood TS-990S"
+ }
+}

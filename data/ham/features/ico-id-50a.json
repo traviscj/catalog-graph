@@ -1,0 +1,136 @@
+{
+ "id": "ico-id-50a",
+ "name": "ID-50A",
+ "title": "ICOM ID-50A",
+ "brand": "Icom",
+ "price": 499.95,
+ "line": "D-STAR HT",
+ "legacy": false,
+ "summary": "Compact 5 W 2m/70cm D-STAR HT with GPS, dual watch, band scope/waterfall, microSD and USB-C.",
+ "jobs": [
+  {
+   "job": "vhf_uhf_handheld",
+   "role": "primary"
+  },
+  {
+   "job": "digital_voice",
+   "role": "primary"
+  },
+  {
+   "job": "aprs",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "handheld",
+  "bands_tx": [
+   "2m",
+   "70cm"
+  ],
+  "hf": false,
+  "vhf_uhf": true,
+  "rx_range": "108–174, 375–479, 88–108 (WFM) MHz",
+  "power_w": {
+   "hf": null,
+   "6m": null,
+   "2m": 5,
+   "70cm": 5,
+   "23cm": null
+  },
+  "modes": [
+   "FM",
+   "AM(RX)",
+   "DV"
+  ],
+  "digital_voice": [
+   "D-STAR"
+  ],
+  "receiver_arch": "FM (HT/mobile)",
+  "band_scope": "band scope + waterfall",
+  "display": null,
+  "dual_receive": false,
+  "dual_watch": true,
+  "atu": false,
+  "usb_single_cable": false,
+  "lan_remote": false,
+  "wifi_bt": [],
+  "gps": true,
+  "aprs": true,
+  "full_duplex_sat": false,
+  "crossband_repeat": false,
+  "detachable_head": false,
+  "power_source": "Li-ion pack",
+  "tx_current_a": null,
+  "battery": "BP-272 Li-ion 1880 mAh",
+  "ip_rating": "IPX7",
+  "antenna_ports": 1,
+  "rx_antenna_in": false,
+  "roofing_filters": null,
+  "memories": null,
+  "weight_kg": 0.3,
+  "size_mm": "58×111×28",
+  "special": [
+   "built-in GPS (grid, near-repeater, log)",
+   "microSD",
+   "USB-C charge/program/terminal-AP mode",
+   "picture share (DV)",
+   "accepts BP-307"
+  ],
+  "requires": [
+   "USB-C cable/charger (not included)"
+  ],
+  "extra": {
+   "dual_watch": "V/V, V/U, U/U",
+   "aprs": "D-PRS",
+   "power_steps_w": [
+    5,
+    2.5,
+    1,
+    0.5,
+    0.1
+   ],
+   "usb_pd": false,
+   "list_price": 499.95,
+   "avail": "InStock"
+  }
+ },
+ "gotchas": [
+  "No Bluetooth — ID-52A Plus adds BT and a larger color display",
+  "USB-C cable not included and no USB-PD fast charging",
+  "D-STAR only — FT-70DR/FT-5DR for C4FM",
+  "No 220 MHz — VX-6R covers 1.25m",
+  "Small 1880 mAh pack — BP-307 for longer runtime"
+ ],
+ "best_for": [
+  "D-STAR on the go",
+  "hotspot/terminal mode users",
+  "GPS position + repeater search"
+ ],
+ "not_for": [
+  "C4FM/DMR networks",
+  "Bluetooth headset users"
+ ],
+ "pairs": [
+  {
+   "id": "USB-C cable + 5 V charger",
+   "why": "charging/programming cable not included",
+   "req": true
+  },
+  {
+   "id": "BP-307 spare battery",
+   "why": "larger pack, compatible",
+   "req": false
+  },
+  {
+   "id": "ico-id-5100a-d",
+   "why": "D-STAR mobile companion",
+   "req": false
+  },
+  {
+   "id": "ico-id-52aplus",
+   "why": "step-up with Bluetooth",
+   "req": false
+  }
+ ],
+ "confidence": "medium"
+}

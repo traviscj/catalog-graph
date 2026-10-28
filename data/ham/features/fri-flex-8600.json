@@ -1,0 +1,168 @@
+{
+ "id": "fri-flex-8600",
+ "name": "FLEX-8600",
+ "title": "FlexRadio FLEX-8600",
+ "brand": "FlexRadio",
+ "price": 4899.0,
+ "line": "HF flagship (direct-sampling SDR, headless)",
+ "legacy": false,
+ "summary": "Headless dual-SCU 100 W HF/6m SDR: 4 receivers, diversity, SO2R-capable, ATU; needs PC/iPad/Maestro.",
+ "jobs": [
+  {
+   "job": "hf_contest_dx",
+   "role": "primary"
+  },
+  {
+   "job": "hf_base",
+   "role": "primary"
+  },
+  {
+   "job": "remote_operation",
+   "role": "primary"
+  },
+  {
+   "job": "ft8_digital",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "base",
+  "bands_tx": [
+   "160m",
+   "80m",
+   "60m",
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m",
+   "6m"
+  ],
+  "hf": true,
+  "vhf_uhf": false,
+  "rx_range": "0.030–54 MHz",
+  "power_w": {
+   "hf": 100,
+   "6m": 100,
+   "2m": null,
+   "70cm": null,
+   "23cm": null
+  },
+  "modes": [
+   "SSB",
+   "CW",
+   "AM",
+   "SAM",
+   "FM",
+   "RTTY",
+   "PSK",
+   "DATA"
+  ],
+  "digital_voice": [],
+  "receiver_arch": "direct-sampling SDR",
+  "band_scope": "panadapter + waterfall (4 × 14 MHz, client-side)",
+  "display": "none (headless — SmartSDR client or Maestro)",
+  "dual_receive": true,
+  "dual_watch": true,
+  "atu": true,
+  "usb_single_cable": false,
+  "lan_remote": true,
+  "wifi_bt": [],
+  "gps": true,
+  "aprs": false,
+  "full_duplex_sat": false,
+  "crossband_repeat": false,
+  "detachable_head": false,
+  "headless": true,
+  "power_source": "13.8 VDC external",
+  "tx_current_a": 25,
+  "battery": null,
+  "ip_rating": null,
+  "antenna_ports": 2,
+  "rx_antenna_in": true,
+  "roofing_filters": null,
+  "memories": null,
+  "weight_kg": null,
+  "size_mm": "356×171×337",
+  "special": [
+   "2 SCUs / 4 slice receivers",
+   "true diversity RX",
+   "full-duplex cross-band (2 antennas)",
+   "SO2R w/ OTRSP",
+   "16-bit 245.76 Msps ADC",
+   "115 dB RMDR @2 kHz",
+   "contest-grade band filters >50 dB rejection",
+   "GNSS receiver + antenna incl.",
+   "10 MHz ref in",
+   "2 RX-only ports",
+   "2 transverter/exciter ports",
+   "adaptive predistortion",
+   "internal ATU",
+   "SmartLink remote",
+   "FHM-3 hand mic incl."
+  ],
+  "requires": [
+   "13.8V 25A power supply",
+   "PC/Mac/iPad running SmartSDR or a Maestro controller (no front panel)",
+   "Ethernet/LAN"
+  ],
+  "extra": {
+   "list_price": 4899.0,
+   "avail": "InStock"
+  }
+ },
+ "gotchas": [
+  "Headless: needs a PC/Mac/iPad (SmartSDR) or Maestro — fri-flex-8600m adds the front panel (+$1,000)",
+  "100 W only — legal-limit needs an amp (Power Genius XL); fri-au-520 integrates 500 W + AC PSU for $3,700 more",
+  "Needs a separate 13.8 V 25 A supply (not included)",
+  "SO2R/diversity need 2 antennas (and band-pass/stub filtering for multi-op on same tower)",
+  "vs ysu-ftdx-101mp / ico-ic-7610-32: equal-class receiver but no knobs unless you add Maestro",
+  "FT8 via DAX over LAN — no single-USB codec"
+ ],
+ "best_for": [
+  "SO2R contesting from one box",
+  "diversity RX on weak DX",
+  "remote contest stations"
+ ],
+ "not_for": [
+  "operators who want a front panel without extra hardware",
+  "V/U"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "13.8 V 25 A power supply",
+   "why": "not included; 25 A max draw",
+   "req": true
+  },
+  {
+   "id": "Windows PC / Mac / iPad running SmartSDR",
+   "why": "headless — no front panel",
+   "req": true
+  },
+  {
+   "id": "FlexRadio Maestro controller",
+   "why": "knobs+screen alternative to a PC for headless units",
+   "req": false
+  },
+  {
+   "id": "FlexRadio Power Genius XL amplifier",
+   "why": "legal-limit LDMOS amp, SO2R-aware pairing",
+   "req": false
+  },
+  {
+   "id": "fri-flex-8600m",
+   "why": "front-panel version",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 5.0,
+  "n": 7,
+  "pid": "16045",
+  "last": "2026-09-13",
+  "name": "FlexRadio FLEX-8600"
+ }
+}

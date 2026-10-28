@@ -1,0 +1,62 @@
+{
+ "id": "dmn-srh789",
+ "kind": "antenna",
+ "name": "SRH789",
+ "title": "Diamond SRH789",
+ "brand": "Diamond",
+ "price": 33.99,
+ "line": "scanner antenna (RX)",
+ "legacy": false,
+ "summary": "Telescopic 85–1100 MHz scanner whip, SMA male, 10 W",
+ "jobs": [
+  {
+   "job": "ant_rx",
+   "role": "primary"
+  },
+  {
+   "job": "ant_ht",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "whip",
+  "mount": "handheld",
+  "ant_bands": [
+   "2m",
+   "70cm"
+  ],
+  "resonant": null,
+  "tuner_req": null,
+  "max_w": 10,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 2.64,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "SMA male",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "rx_range": "85-1100 MHz",
+   "note": "TX bands inferred from coverage",
+   "dxe_part_type": "handheld-and-scanner-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "medium",
+ "pairs": [],
+ "rating": {
+  "avg": 4.7,
+  "n": 3,
+  "pid": "9361",
+  "last": "2013-02-26",
+  "name": "Diamond SRH789"
+ }
+}

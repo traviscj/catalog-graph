@@ -1,0 +1,60 @@
+{
+ "id": "moo-mono3-6p",
+ "kind": "antenna",
+ "name": "Mono3-6P",
+ "title": "Momobeam Mono3-6P",
+ "brand": "Momobeam",
+ "price": 277.99,
+ "line": "6m yagi",
+ "legacy": false,
+ "summary": "Portable 3-element 6m yagi, 3.6 ft boom, 4.2 lb",
+ "jobs": [
+  {
+   "job": "ant_vu_beam",
+   "role": "primary"
+  },
+  {
+   "job": "ant_hf_portable",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "portable",
+  "ant_bands": [
+   "6m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 3000,
+  "max_w_digital": null,
+  "gain_dbi": 11.2,
+  "elements": 3,
+  "boom_ft": 3.61,
+  "turn_radius_ft": 5.6,
+  "wind_sqft": 1.1,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": 4.19,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "vhf-uhf-beam-antennas"
+  }
+ },
+ "gotchas": [
+  "no balun included"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

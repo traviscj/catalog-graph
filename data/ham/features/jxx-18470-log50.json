@@ -1,0 +1,63 @@
+{
+ "id": "jxx-18470-log50",
+ "kind": "antenna",
+ "name": "LOG50JXX1300",
+ "title": "I0JXX LOG50JXX1300",
+ "brand": "I0JXX",
+ "price": 579.99,
+ "line": "V/U log-periodic",
+ "legacy": false,
+ "summary": "24-element 50–1296 MHz log-periodic, 9.5 ft boom, 200 W",
+ "jobs": [
+  {
+   "job": "ant_vu_beam",
+   "role": "primary"
+  },
+  {
+   "job": "ant_rx",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "log-periodic",
+  "mount": "base",
+  "ant_bands": [
+   "6m",
+   "2m",
+   "1.25m",
+   "70cm",
+   "23cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 200,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 24,
+  "boom_ft": 9.51,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": null,
+  "connector": "N female",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "freq": "50-1296 MHz",
+   "dxe_part_type": "vhf-uhf-beam-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

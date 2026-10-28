@@ -1,0 +1,146 @@
+{
+ "id": "kwd-tm-d750a",
+ "name": "TM-D750A",
+ "title": "Kenwood TM-D750A",
+ "brand": "Kenwood",
+ "price": 1199.95,
+ "line": "VHF/UHF D-STAR mobile (tri-band)",
+ "legacy": false,
+ "summary": "New 50W 2m/220/70cm D-STAR + native APRS mobile: GPS, WLAN/BT, KISS TNC, waterfall Visual Scan, remote head.",
+ "jobs": [
+  {
+   "job": "vhf_uhf_mobile",
+   "role": "primary"
+  },
+  {
+   "job": "digital_voice",
+   "role": "primary"
+  },
+  {
+   "job": "aprs",
+   "role": "primary"
+  },
+  {
+   "job": "emcomm",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "mobile",
+  "bands_tx": [
+   "2m",
+   "1.25m",
+   "70cm"
+  ],
+  "hf": false,
+  "vhf_uhf": true,
+  "rx_range": "108–174, 108–524 (band B), 410–470 MHz (DXE spec table)",
+  "power_w": {
+   "hf": null,
+   "6m": null,
+   "2m": 50,
+   "70cm": 50,
+   "23cm": null
+  },
+  "modes": [
+   "FM",
+   "AM (air RX)",
+   "D-STAR"
+  ],
+  "digital_voice": [
+   "D-STAR"
+  ],
+  "receiver_arch": "FM (HT/mobile)",
+  "band_scope": "Visual Scan with waterfall",
+  "display": "3.45in color TFT",
+  "dual_receive": true,
+  "dual_watch": true,
+  "atu": false,
+  "usb_single_cable": null,
+  "lan_remote": false,
+  "wifi_bt": [
+   "Bluetooth",
+   "WLAN"
+  ],
+  "gps": true,
+  "aprs": true,
+  "full_duplex_sat": false,
+  "crossband_repeat": false,
+  "detachable_head": true,
+  "headless": false,
+  "power_source": "13.8 VDC external",
+  "tx_current_a": 13.0,
+  "battery": null,
+  "ip_rating": null,
+  "antenna_ports": 1,
+  "rx_antenna_in": false,
+  "roofing_filters": null,
+  "memories": null,
+  "weight_kg": 1.32,
+  "size_mm": "140×43×181 (body); head 183×93×36",
+  "special": [
+   "1.25m (220 MHz) TX",
+   "native APRS + KISS TNC 1200/9600, digipeater, IGate",
+   "WLAN D-STAR Direct Mode (no hotspot)",
+   "Reflector Terminal Mode via PC/Android (USB/BT)",
+   "GPS w/ patch antenna",
+   "dual microSD (head + body)",
+   "900+ phrase voice guidance",
+   "USB-C",
+   "speaker in control head",
+   "air + WX band RX"
+  ],
+  "requires": [
+   "13.8V 15A power supply (for base use)"
+  ],
+  "extra": {
+   "power_1_25m_w": "medium: 50 W per DXE desc (not band-specific)",
+   "dual_receive": "medium: DXE 'simultaneous reception' of voice + data",
+   "lan_remote": "WLAN is for D-STAR network access, not radio remote control",
+   "crossband_repeat": "DXE spec table says No",
+   "list_price": 1199.95,
+   "avail": "(blank on DXE — likely preorder/backorder)"
+  }
+ },
+ "gotchas": [
+  "no crossband repeat per DXE — ID-5100A-D / FTM-510DR do it",
+  "$1,200 — ~$200 over ID-5200A; the tri-band 220 MHz and native APRS TNC are what you pay for",
+  "D-STAR only — no C4FM; FTM-510DR for Yaesu System Fusion",
+  "DXE stock status blank — new model, check availability",
+  "DXE spec-table RX ranges are inconsistent (108–524 overlaps the others) — confirm wideband coverage in manual",
+  "needs 13A 13.8V supply for shack use (not included)"
+ ],
+ "best_for": [
+  "APRS power users (real TNC, digi, IGate) who also want D-STAR",
+  "220 MHz repeater users",
+  "hotspot-free D-STAR via WLAN"
+ ],
+ "not_for": [
+  "C4FM/DMR",
+  "crossband repeat for emcomm",
+  "budget mobile"
+ ],
+ "confidence": "medium",
+ "pairs": [
+  {
+   "id": "13.8 V 15 A power supply",
+   "why": "base-station use; 13 A draw",
+   "req": false
+  },
+  {
+   "id": "tri-band 2m/220/70cm mobile antenna + mount",
+   "why": "use the 1.25m band",
+   "req": false
+  },
+  {
+   "id": "kwd-th-d75a",
+   "why": "matching tri-band D-STAR/APRS HT",
+   "req": false
+  },
+  {
+   "id": "microSD card",
+   "why": "config, logs, recording",
+   "req": false
+  }
+ ]
+}

@@ -1,0 +1,55 @@
+{
+ "id": "mkr-11598",
+ "kind": "antenna",
+ "name": "Storm Master 1200",
+ "title": "Moonraker Storm Master 1200",
+ "brand": "Moonraker",
+ "price": 268.99,
+ "line": "HF monoband vertical",
+ "legacy": false,
+ "summary": "18 ft half-wave 25-30 MHz fiberglass base vertical (10m/CB)",
+ "jobs": [
+  {
+   "job": "ant_hf_vertical",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "vertical",
+  "mount": "base",
+  "ant_bands": [
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 1000,
+  "max_w_digital": null,
+  "gain_dbi": 4.5,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 18.0,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "freq_range": "25-30 MHz",
+   "dxe_part_type": "hf-vertical-antennas-and-packages"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "1:1 common-mode choke at the shack entry",
+   "why": "keeps feedline RF out of the shack",
+   "req": false
+  }
+ ]
+}

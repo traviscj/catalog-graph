@@ -1,0 +1,69 @@
+{
+ "id": "mfj-dx-77a",
+ "kind": "antenna",
+ "name": "DX-77A",
+ "title": "Hy-Gain DX-77A",
+ "brand": "Hy-Gain",
+ "price": 659.95,
+ "line": "HF multiband vertical",
+ "legacy": false,
+ "summary": "29 ft no-radial 7-band 40-10m vertical with tilt base, legal limit",
+ "jobs": [
+  {
+   "job": "ant_hf_vertical",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "vertical",
+  "mount": "base",
+  "ant_bands": [
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 1500,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 29,
+  "weight_lb": 25,
+  "radials": false,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [
+  "60 mph unguyed wind survival"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "1:1 common-mode choke at the shack entry",
+   "why": "keeps feedline RF out of the shack",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 3.1,
+  "n": 17,
+  "pid": "617",
+  "last": "2016-04-14",
+  "name": "Hy-Gain DX-77A Seven-Band Vertical"
+ }
+}

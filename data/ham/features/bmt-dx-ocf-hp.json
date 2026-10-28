@@ -1,0 +1,62 @@
+{
+ "id": "bmt-dx-ocf-hp",
+ "kind": "antenna",
+ "name": "DX-OCF-HP",
+ "title": "Buckmaster DX-OCF-HP",
+ "brand": "Buckmaster",
+ "price": 429.0,
+ "line": "HF OCF dipole",
+ "legacy": false,
+ "summary": "135 ft 3 kW OCF dipole, 80/40/20/17/12/10/6m",
+ "jobs": [
+  {
+   "job": "ant_hf_wire",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "ocf-dipole",
+  "mount": "base",
+  "ant_bands": [
+   "80m",
+   "40m",
+   "20m",
+   "17m",
+   "12m",
+   "10m",
+   "6m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 3000,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": 135.0,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "wire-antennas"
+  }
+ },
+ "gotchas": [
+  "no 15m/30m listed"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "1:1 common-mode choke at the shack entry",
+   "why": "keeps feedline RF out of the shack",
+   "req": false
+  }
+ ]
+}

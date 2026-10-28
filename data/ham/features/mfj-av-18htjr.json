@@ -1,0 +1,72 @@
+{
+ "id": "mfj-av-18htjr",
+ "kind": "antenna",
+ "name": "AV-18HTJR",
+ "title": "Hy-Gain AV-18HTJR",
+ "brand": "Hy-Gain",
+ "price": 599.95,
+ "line": "HF multiband vertical",
+ "legacy": false,
+ "summary": "39 ft HyTower Jr: quarter-wave 40/20/15/10m, cage-loaded 80m",
+ "jobs": [
+  {
+   "job": "ant_hf_vertical",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "vertical",
+  "mount": "base",
+  "ant_bands": [
+   "80m",
+   "40m",
+   "20m",
+   "15m",
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 5000,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 39,
+  "weight_lb": null,
+  "radials": true,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [
+  "requires good ground/radial system"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "radial wires / counterpoise",
+   "why": "vertical needs a ground system",
+   "req": true
+  },
+  {
+   "id": "1:1 common-mode choke at the shack entry",
+   "why": "keeps feedline RF out of the shack",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 3.9,
+  "n": 8,
+  "pid": "5472",
+  "last": "2013-10-20",
+  "name": "Hy-Gain AV-18HTJR Hy-Tower Jr"
+ }
+}

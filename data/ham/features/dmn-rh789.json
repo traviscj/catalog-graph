@@ -1,0 +1,54 @@
+{
+ "id": "dmn-rh789",
+ "kind": "antenna",
+ "name": "RH789",
+ "title": "Diamond RH789",
+ "brand": "Diamond",
+ "price": 32.99,
+ "line": "HT antenna",
+ "legacy": false,
+ "summary": "Telescopic wideband HT/scanner antenna, 85-1100 MHz, BNC",
+ "jobs": [
+  {
+   "job": "ant_ht",
+   "role": "primary"
+  },
+  {
+   "job": "ant_rx",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "whip",
+  "mount": "handheld",
+  "ant_bands": [
+   "2m",
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 10,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 2.64,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "BNC male",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "rx_range": "85-1100 MHz",
+   "dxe_part_type": "handheld-and-scanner-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "medium",
+ "pairs": []
+}

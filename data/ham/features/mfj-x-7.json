@@ -1,0 +1,60 @@
+{
+ "id": "mfj-x-7",
+ "kind": "antenna",
+ "name": "X-7",
+ "title": "Cushcraft X-7",
+ "brand": "Cushcraft",
+ "price": 1599.95,
+ "line": "HF tribander yagi",
+ "legacy": false,
+ "summary": "Big Thunder 7-element 20/15/10m tribander, log-cell trapless drivers, legal limit",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "20m",
+   "15m",
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 1500,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 7,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "option": "X-740 40m add-on",
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [
+  "tower + heavy rotator needed",
+  "40m needs X-740 add-on"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

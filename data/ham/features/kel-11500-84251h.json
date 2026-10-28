@@ -1,0 +1,52 @@
+{
+ "id": "kel-11500-84251h",
+ "kind": "antenna",
+ "name": "DP-8040201510-H",
+ "title": "Kelemen DP-8040201510-H",
+ "brand": "Kelemen",
+ "price": 549.99,
+ "line": "HF dipole",
+ "legacy": false,
+ "summary": "Assembled 5-band 80/40/20/15/10m trap dipole, 72 ft, 2 kW",
+ "jobs": [
+  {
+   "job": "ant_hf_wire",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "dipole",
+  "mount": "base",
+  "ant_bands": [
+   "80m",
+   "40m",
+   "20m",
+   "15m",
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 2000,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": 72.0,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": true,
+  "extra": {
+   "dxe_part_type": "wire-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": []
+}

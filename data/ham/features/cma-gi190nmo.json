@@ -1,0 +1,55 @@
+{
+ "id": "cma-gi190nmo",
+ "kind": "antenna",
+ "name": "GI190NMO",
+ "title": "Comet GI190NMO",
+ "brand": "Comet",
+ "price": 65.95,
+ "line": "V/U mobile whip",
+ "legacy": false,
+ "summary": "Ground-independent dual-band NMO mobile antenna, 70 W",
+ "jobs": [
+  {
+   "job": "ant_vu_mobile",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "whip",
+  "mount": "mobile",
+  "ant_bands": [
+   "2m",
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 70,
+  "max_w_digital": null,
+  "gain_dbi": 2.1,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "NMO",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "vhf-uhf-mobile-vertical-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "medium",
+ "pairs": [
+  {
+   "id": "mobile antenna mount (mag / trunk-lip / NMO)",
+   "why": "vehicle mount not included",
+   "req": false
+  }
+ ]
+}

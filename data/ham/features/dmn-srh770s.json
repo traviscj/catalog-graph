@@ -1,0 +1,52 @@
+{
+ "id": "dmn-srh770s",
+ "kind": "antenna",
+ "name": "SRH770S",
+ "title": "Diamond Antenna SRH770S",
+ "brand": "Diamond",
+ "price": 34.99,
+ "line": "HT antenna",
+ "legacy": false,
+ "summary": "27.5 in. two-section high-gain 2m/70cm HT whip with wideband RX",
+ "jobs": [
+  {
+   "job": "ant_ht",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "whip",
+  "mount": "handheld",
+  "ant_bands": [
+   "2m",
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 10.0,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 2.29,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "SMA male",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "rx": "wideband",
+   "dxe_part_type": "handheld-and-scanner-antennas"
+  }
+ },
+ "gotchas": [
+  "27.5 in. long — awkward on a belt-carried HT"
+ ],
+ "confidence": "high",
+ "pairs": []
+}

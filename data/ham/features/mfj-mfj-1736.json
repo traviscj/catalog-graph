@@ -1,0 +1,48 @@
+{
+ "id": "mfj-mfj-1736",
+ "kind": "antenna",
+ "name": "MFJ-1736",
+ "title": "MFJ MFJ-1736",
+ "brand": "MFJ",
+ "price": 39.95,
+ "line": "V/U base vertical",
+ "legacy": false,
+ "summary": "Roll-up 6m half-wave J-pole for hanging",
+ "jobs": [
+  {
+   "job": "ant_vu_base",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "j-pole",
+  "mount": "portable",
+  "ant_bands": [
+   "6m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": []
+}

@@ -1,0 +1,165 @@
+{
+ "id": "fri-au-510m",
+ "name": "AU-510M",
+ "title": "FlexRadio AU-510M",
+ "brand": "FlexRadio",
+ "price": 7349.0,
+ "line": "HF base (integrated 500 W SDR)",
+ "legacy": false,
+ "summary": "Aurora with Maestro front panel: 500 W HF / 200 W 6m single-SCU SDR, ATU, AC PSU; no PC required.",
+ "jobs": [
+  {
+   "job": "hf_base",
+   "role": "primary"
+  },
+  {
+   "job": "hf_contest_dx",
+   "role": "secondary"
+  },
+  {
+   "job": "remote_operation",
+   "role": "secondary"
+  },
+  {
+   "job": "ft8_digital",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "base",
+  "bands_tx": [
+   "160m",
+   "80m",
+   "60m",
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m",
+   "6m"
+  ],
+  "hf": true,
+  "vhf_uhf": false,
+  "rx_range": "0.030–54 MHz",
+  "power_w": {
+   "hf": 500,
+   "6m": 200,
+   "2m": null,
+   "70cm": null,
+   "23cm": null
+  },
+  "modes": [
+   "SSB",
+   "CW",
+   "AM",
+   "SAM",
+   "FM",
+   "RTTY",
+   "PSK",
+   "DATA"
+  ],
+  "digital_voice": [],
+  "receiver_arch": "direct-sampling SDR",
+  "band_scope": "panadapter + waterfall (2 pans, up to 7 MHz each)",
+  "display": "8in 1920×1200 IPS touch + HDMI out",
+  "dual_receive": false,
+  "dual_watch": true,
+  "atu": true,
+  "usb_single_cable": false,
+  "lan_remote": true,
+  "wifi_bt": [],
+  "gps": true,
+  "aprs": false,
+  "full_duplex_sat": false,
+  "crossband_repeat": false,
+  "detachable_head": false,
+  "headless": false,
+  "power_source": "internal AC PSU (80–264 VAC)",
+  "tx_current_a": null,
+  "battery": null,
+  "ip_rating": null,
+  "antenna_ports": 2,
+  "rx_antenna_in": true,
+  "roofing_filters": null,
+  "memories": null,
+  "weight_kg": null,
+  "size_mm": "356×171×337",
+  "special": [
+   "integrated Maestro front panel (8in 1920×1200 touch)",
+   "HDMI external monitor",
+   "1 SCU / 2 slice receivers",
+   "500 W PEP HF / 200 W 6m integrated PA",
+   "internal 500 W ATU",
+   "internal AC PSU 80–264 VAC",
+   "SmartSignal adaptive predistortion",
+   "CESSB",
+   "MultiFlex (2 clients)",
+   "GNSS receiver",
+   "10 MHz ref in",
+   "transverter/exciter port",
+   "SmartLink remote",
+   "full-duplex cross-band"
+  ],
+  "requires": [
+   "AC outlet (675 W TX draw)"
+  ],
+  "extra": {
+   "list_price": 7349.0,
+   "avail": "InStock"
+  }
+ },
+ "gotchas": [
+  "+$1,150 over headless fri-au-510 for the front panel; fri-au-510m-ob is the same radio open-box for $367 less",
+  "Single SCU / 2 slices — no diversity/SO2R; fri-au-520m (+$2,250) for 2 SCUs",
+  "500 W out: every downstream item (coax switch, balun, feedline, antenna traps, external tuner) must be ≥500 W PEP rated — 100 W baluns/tuners will fail",
+  "500 W needs a proper FCC RF-exposure evaluation for your antenna/distances; 60m is capped at 100 W ERP — run reduced power there",
+  "Don't drive an external amp from the 500 W output — use the low-level exciter/transverter port or turn power down",
+  "vs fri-flex-8400matu ($3,999, 100 W, 13.8 V) — Aurora's premium buys the integrated 500 W PA + AC PSU"
+ ],
+ "best_for": [
+  "front-panel 500 W station with no amp/PSU clutter",
+  "SmartLink remote with local knobs"
+ ],
+ "not_for": [
+  "SO2R/diversity",
+  "budget",
+  "portable"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "≥500 W-rated coax switch / balun",
+   "why": "500 W PEP output",
+   "req": false
+  },
+  {
+   "id": "microphone (Flex/Heil or similar)",
+   "why": "no hand mic included with Aurora",
+   "req": false
+  },
+  {
+   "id": "Windows PC running SmartSDR + DAX",
+   "why": "digital modes",
+   "req": false
+  },
+  {
+   "id": "fri-au-510m-ob",
+   "why": "same radio open-box, cheaper",
+   "req": false
+  },
+  {
+   "id": "fri-au-520m",
+   "why": "dual-SCU step-up",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 5.0,
+  "n": 1,
+  "pid": "16354",
+  "last": "2026-07-16",
+  "name": "Flex Aurora AU-510M"
+ }
+}

@@ -1,0 +1,48 @@
+{
+ "id": "kel-11510-12",
+ "kind": "antenna",
+ "name": "DP-12",
+ "title": "Kelemen DP-12",
+ "brand": "Kelemen",
+ "price": 138.99,
+ "line": "HF dipole",
+ "legacy": false,
+ "summary": "Assembled 12m monoband wire dipole with balun, 19.7 ft, 1 kW",
+ "jobs": [
+  {
+   "job": "ant_hf_wire",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "dipole",
+  "mount": "base",
+  "ant_bands": [
+   "12m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 1000,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": 19.7,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": true,
+  "extra": {
+   "dxe_part_type": "wire-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": []
+}

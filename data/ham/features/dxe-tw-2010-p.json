@@ -1,0 +1,65 @@
+{
+ "id": "dxe-tw-2010-p",
+ "kind": "antenna",
+ "name": "TW-2010 Adventurer",
+ "title": "DX Engineering TW-2010 Adventurer",
+ "brand": "DX Engineering",
+ "price": 1054.96,
+ "line": "HF portable vertical",
+ "legacy": false,
+ "summary": "TransWorld 5-band 20–10m remote-switched portable antenna package",
+ "jobs": [
+  {
+   "job": "ant_hf_portable",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "vertical",
+  "mount": "portable",
+  "ant_bands": [
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "hf-portable-stealth-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "medium",
+ "pairs": [
+  {
+   "id": "1:1 common-mode choke at the shack entry",
+   "why": "keeps feedline RF out of the shack",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 4.9,
+  "n": 81,
+  "pid": "6869",
+  "last": "2018-06-24",
+  "name": "TransWorld Antennas TW2010 Traveler HF Portable Vertical Antenna"
+ }
+}

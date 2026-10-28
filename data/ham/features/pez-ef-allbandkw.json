@@ -1,0 +1,58 @@
+{
+ "id": "pez-ef-allbandkw",
+ "kind": "antenna",
+ "name": "EF-ALLBAND-KW",
+ "title": "Par EndFedz EF-ALLBAND-KW",
+ "brand": "Par EndFedz",
+ "price": 189.95,
+ "line": "HF end-fed wire",
+ "legacy": false,
+ "summary": "132.7 ft 80-10m end-fed half-wave, 1 kW",
+ "jobs": [
+  {
+   "job": "ant_hf_wire",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "end-fed",
+  "mount": "base",
+  "ant_bands": [
+   "80m",
+   "40m",
+   "20m",
+   "15m",
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 1000,
+  "max_w_digital": 250,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": 132.67,
+  "height_ft": null,
+  "weight_lb": 2.5,
+  "radials": null,
+  "directional": false,
+  "polarization": null,
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": true,
+  "extra": {
+   "dxe_part_type": "wire-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "1:1 common-mode choke at the shack entry",
+   "why": "keeps feedline RF out of the shack",
+   "req": false
+  }
+ ]
+}

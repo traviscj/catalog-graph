@@ -1,0 +1,57 @@
+{
+ "id": "mkr-12-028",
+ "kind": "antenna",
+ "name": "MRM-100P",
+ "title": "Moonraker MRM-100P Micro Mag Dual Band Mobile Antennas",
+ "brand": "Moonraker",
+ "price": 30.99,
+ "line": "V/U mobile whip",
+ "legacy": false,
+ "summary": "Moonraker MRM-100P micro-mag dual-band mobile antenna, RG174, 50 W",
+ "jobs": [
+  {
+   "job": "ant_vu_mobile",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "whip",
+  "mount": "mobile",
+  "ant_bands": [
+   "2m",
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 50,
+  "max_w_digital": null,
+  "gain_dbi": 2.65,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 1.8,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "PL-259",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "vhf-uhf-mobile-vertical-antennas"
+  }
+ },
+ "gotchas": [
+  "Thin RG174 — lossy, 50 W max"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "mobile antenna mount (mag / trunk-lip / NMO)",
+   "why": "vehicle mount not included",
+   "req": false
+  }
+ ]
+}

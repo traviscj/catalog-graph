@@ -1,0 +1,56 @@
+{
+ "id": "cma-gp-6",
+ "kind": "antenna",
+ "name": "GP-6",
+ "title": "Comet Antennas GP-6",
+ "brand": "Comet",
+ "price": 199.95,
+ "line": "V/U base vertical",
+ "legacy": false,
+ "summary": "10.1 ft dual-band 2m/70cm fiberglass base vertical",
+ "jobs": [
+  {
+   "job": "ant_vu_base",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "collinear",
+  "mount": "base",
+  "ant_bands": [
+   "2m",
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 10.1,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "vhf-uhf-base-vertical-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [],
+ "rating": {
+  "avg": 4.3,
+  "n": 32,
+  "pid": "1749",
+  "last": "2022-12-03",
+  "name": "Comet GP-6 - Dual Band"
+ }
+}

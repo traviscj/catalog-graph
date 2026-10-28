@@ -1,0 +1,65 @@
+{
+ "id": "mfj-mfj-1438",
+ "kind": "antenna",
+ "name": "MFJ-1438",
+ "title": "MFJ MFJ-1438",
+ "brand": "MFJ",
+ "price": 89.95,
+ "line": "V/U mobile whip",
+ "legacy": false,
+ "summary": "52 in quad-band 10m/6m/2m/70cm mobile whip, 150 W",
+ "jobs": [
+  {
+   "job": "ant_vu_mobile",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "whip",
+  "mount": "mobile",
+  "ant_bands": [
+   "10m",
+   "6m",
+   "2m",
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 150,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 4.33,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "NMO/SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "gain_db": "7.2 (70cm)/4.5 (2m)/2.15 (6m)",
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "mobile antenna mount (mag / trunk-lip / NMO)",
+   "why": "vehicle mount not included",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 3.0,
+  "n": 1,
+  "pid": "9142",
+  "last": "2010-07-28",
+  "name": "MFJ-1438"
+ }
+}

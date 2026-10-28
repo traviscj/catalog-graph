@@ -1,0 +1,62 @@
+{
+ "id": "mfj-mfj-1762",
+ "kind": "antenna",
+ "name": "MFJ-1762",
+ "title": "MFJ MFJ-1762",
+ "brand": "MFJ",
+ "price": 149.95,
+ "line": "V/U yagi",
+ "legacy": false,
+ "summary": "Light 6m yagi on 6-ft boom, ~6 dBd, 300 W, TV-rotator class",
+ "jobs": [
+  {
+   "job": "ant_vu_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "6m"
+  ],
+  "resonant": null,
+  "tuner_req": null,
+  "max_w": 300,
+  "max_w_digital": null,
+  "gain_dbi": 8.15,
+  "elements": null,
+  "boom_ft": 6,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": 2,
+  "radials": null,
+  "directional": true,
+  "polarization": null,
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "gain_claim": "quadruples ERP over dipole (~6 dBd)",
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ],
+ "rating": {
+  "avg": 2.9,
+  "n": 21,
+  "pid": "2592",
+  "last": "2026-02-27",
+  "name": "MFJ-1762 6m 3 element yagi"
+ }
+}

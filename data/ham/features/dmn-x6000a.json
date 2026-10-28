@@ -1,0 +1,57 @@
+{
+ "id": "dmn-x6000a",
+ "kind": "antenna",
+ "name": "X6000A",
+ "title": "Diamond Antenna X6000A",
+ "brand": "Diamond",
+ "price": 199.99,
+ "line": "V/U base vertical",
+ "legacy": false,
+ "summary": "10.5 ft tri-band 2m/70cm/23cm base collinear, N female",
+ "jobs": [
+  {
+   "job": "ant_vu_base",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "collinear",
+  "mount": "base",
+  "ant_bands": [
+   "2m",
+   "70cm",
+   "23cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 100,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 10.5,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "N female",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "vhf-uhf-base-vertical-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [],
+ "rating": {
+  "avg": 4.9,
+  "n": 8,
+  "pid": "4991",
+  "last": "2023-01-04",
+  "name": "Diamond X-6000A"
+ }
+}

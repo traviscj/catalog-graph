@@ -1,0 +1,56 @@
+{
+ "id": "cma-gp-3",
+ "kind": "antenna",
+ "name": "GP-3",
+ "title": "Comet Antennas GP-3",
+ "brand": "Comet",
+ "price": 119.95,
+ "line": "V/U base vertical",
+ "legacy": false,
+ "summary": "5.9 ft dual-band fiberglass base collinear",
+ "jobs": [
+  {
+   "job": "ant_vu_base",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "collinear",
+  "mount": "base",
+  "ant_bands": [
+   "2m",
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 5.9,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "vhf-uhf-base-vertical-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [],
+ "rating": {
+  "avg": 4.9,
+  "n": 51,
+  "pid": "1863",
+  "last": "2023-03-02",
+  "name": "Comet GP-3 Dual Band Base Antenna"
+ }
+}

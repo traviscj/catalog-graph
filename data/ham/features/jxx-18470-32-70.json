@@ -1,0 +1,55 @@
+{
+ "id": "jxx-18470-32-70",
+ "kind": "antenna",
+ "name": "32JXX70",
+ "title": "I0JXX 32JXX70",
+ "brand": "I0JXX",
+ "price": 379.99,
+ "line": "V/U sat (crossed yagi)",
+ "legacy": false,
+ "summary": "32-element 432 MHz cross yagi, 10.3 ft boom",
+ "jobs": [
+  {
+   "job": "ant_vu_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 1000,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 32,
+  "boom_ft": 10.33,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": null,
+  "connector": "N female",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "pol": "crossed (H+V / circular w/ phasing)",
+   "dxe_part_type": "vhf-uhf-beam-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "id": "cma-sma-501",
+ "kind": "antenna",
+ "name": "SMA-501",
+ "title": "Comet Dual-Band HT Antennas",
+ "brand": "Comet",
+ "price": 34.49,
+ "line": "HT antenna",
+ "legacy": false,
+ "summary": "Comet ultra-short 1.75 in dual-band stubby HT antenna, SMA male",
+ "jobs": [
+  {
+   "job": "ant_ht",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "rubber-duck",
+  "mount": "handheld",
+  "ant_bands": [
+   "2m",
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 0.15,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "SMA-male",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "handheld-and-scanner-antennas"
+  }
+ },
+ "gotchas": [
+  "Stubby — notably lower gain"
+ ],
+ "confidence": "high",
+ "pairs": [],
+ "rating": {
+  "avg": 4.3,
+  "n": 3,
+  "pid": "5818",
+  "last": "2007-10-13",
+  "name": "Comet SMA-501"
+ }
+}

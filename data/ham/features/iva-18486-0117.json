@@ -1,0 +1,62 @@
+{
+ "id": "iva-18486-0117",
+ "kind": "antenna",
+ "name": "LPDA 100-1300 MHz",
+ "title": "InnovAntennas VHF UHF Plus Log Periodic Dipole Array Antennas",
+ "brand": "InnovAntennas",
+ "price": 579.99,
+ "line": "V/U log-periodic",
+ "legacy": false,
+ "summary": "InnovAntennas 17-element 100-1300 MHz LPDA, horiz or vert mount, 1 kW",
+ "jobs": [
+  {
+   "job": "ant_vu_beam",
+   "role": "primary"
+  },
+  {
+   "job": "ant_rx",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "log-periodic",
+  "mount": "base",
+  "ant_bands": [
+   "2m",
+   "1.25m",
+   "70cm",
+   "23cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 1000,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 17,
+  "boom_ft": 5.25,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": 5.8,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": "terminal studs",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "freq": "100-1300 MHz",
+   "dxe_part_type": "vhf-uhf-beam-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

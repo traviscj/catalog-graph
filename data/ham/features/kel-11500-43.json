@@ -1,0 +1,51 @@
+{
+ "id": "kel-11500-43",
+ "kind": "antenna",
+ "name": "DP-4030",
+ "title": "Kelemen DP-4030",
+ "brand": "Kelemen",
+ "price": 169.99,
+ "line": "HF dipole",
+ "legacy": false,
+ "summary": "Assembled 40/30m trap dipole with balun, 55 ft, 400 W",
+ "jobs": [
+  {
+   "job": "ant_hf_wire",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "dipole",
+  "mount": "base",
+  "ant_bands": [
+   "40m",
+   "30m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 400,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": 55.0,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": true,
+  "extra": {
+   "dxe_part_type": "wire-antennas"
+  }
+ },
+ "gotchas": [
+  "400 W max"
+ ],
+ "confidence": "high",
+ "pairs": []
+}

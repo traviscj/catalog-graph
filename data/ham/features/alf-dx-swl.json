@@ -1,0 +1,49 @@
+{
+ "id": "alf-dx-swl",
+ "kind": "antenna",
+ "name": "DX-SWL",
+ "title": "Alpha Delta DX-SWL",
+ "brand": "Alpha Delta",
+ "price": 169.99,
+ "line": "HF SWL sloper (RX)",
+ "legacy": false,
+ "summary": "60 ft SWL sloper covering 13-120 m shortwave broadcast bands",
+ "jobs": [
+  {
+   "job": "ant_rx",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "dipole",
+  "mount": "base",
+  "ant_bands": [],
+  "resonant": null,
+  "tuner_req": null,
+  "max_w": 1000,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": 60.0,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": null,
+  "connector": null,
+  "rx_only": true,
+  "assembled": null,
+  "extra": {
+   "rx_range": "13-120 meter SW bands",
+   "dxe_part_type": "wire-antennas"
+  }
+ },
+ "gotchas": [
+  "SWL receive antenna (1 kW rating per DXE)"
+ ],
+ "confidence": "medium",
+ "pairs": []
+}

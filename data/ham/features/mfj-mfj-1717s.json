@@ -1,0 +1,56 @@
+{
+ "id": "mfj-mfj-1717s",
+ "kind": "antenna",
+ "name": "MFJ-1717S",
+ "title": "MFJ MFJ-1717S",
+ "brand": "MFJ",
+ "price": 39.95,
+ "line": "HT antenna",
+ "legacy": false,
+ "summary": "15.75-in dual-band 144/440 flex duck, SMA-M, half-wave on 440",
+ "jobs": [
+  {
+   "job": "ant_ht",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "rubber-duck",
+  "mount": "handheld",
+  "ant_bands": [
+   "2m",
+   "70cm"
+  ],
+  "resonant": null,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": 2.15,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 1.31,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "SMA-M",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [],
+ "rating": {
+  "avg": 4.2,
+  "n": 13,
+  "pid": "5873",
+  "last": "2016-12-05",
+  "name": "MFJ-1717S - High Gain 144/440 MHz Flexible Duck HT Antenna w/ SM"
+ }
+}

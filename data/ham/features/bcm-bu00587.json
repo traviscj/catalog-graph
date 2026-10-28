@@ -1,0 +1,59 @@
+{
+ "id": "bcm-bu00587",
+ "kind": "antenna",
+ "name": "BBA-600V",
+ "title": "Bushcomm BBA-600V",
+ "brand": "Bushcomm",
+ "price": 1329.99,
+ "line": "HF broadband dipole",
+ "legacy": false,
+ "summary": "88.6 ft multi-wire broadband 2-30 MHz dipole, 600 W",
+ "jobs": [
+  {
+   "job": "ant_hf_wire",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "dipole",
+  "mount": "base",
+  "ant_bands": [
+   "80m",
+   "60m",
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 600,
+  "max_w_digital": 250,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": 88.58,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "freq_range": "2-30 MHz",
+   "dxe_part_type": "wire-antennas"
+  }
+ },
+ "gotchas": [
+  "Terminated broadband: lossier than a resonant dipole"
+ ],
+ "confidence": "high",
+ "pairs": []
+}

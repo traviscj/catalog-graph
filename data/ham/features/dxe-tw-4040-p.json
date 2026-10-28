@@ -1,0 +1,55 @@
+{
+ "id": "dxe-tw-4040-p",
+ "kind": "antenna",
+ "name": "TW 40m Solo Explorer",
+ "title": "DX Engineering TW 40m Solo Explorer",
+ "brand": "DX Engineering",
+ "price": 748.96,
+ "line": "HF portable antenna",
+ "legacy": false,
+ "summary": "TransWorld 40m Solo Explorer monoband portable antenna package",
+ "jobs": [
+  {
+   "job": "ant_hf_portable",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "other",
+  "mount": "portable",
+  "ant_bands": [
+   "40m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": null,
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "hf-portable-stealth-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "medium",
+ "pairs": [],
+ "rating": {
+  "avg": 5.0,
+  "n": 25,
+  "pid": "9434",
+  "last": "2016-01-11",
+  "name": "W8AMZ G5RV Jr. 10m-40m Multi-Band HF Dipole Antenna 2Kw"
+ }
+}

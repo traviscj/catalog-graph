@@ -1,0 +1,133 @@
+{
+ "id": "ysu-ft-70dr",
+ "name": "FT-70DR",
+ "title": "Yaesu FT-70DR",
+ "brand": "Yaesu",
+ "price": 194.95,
+ "line": "C4FM HT",
+ "legacy": false,
+ "summary": "Budget 5 W 2m/70cm C4FM System Fusion + analog FM HT, IP54, 700 mW front speaker.",
+ "jobs": [
+  {
+   "job": "vhf_uhf_handheld",
+   "role": "primary"
+  },
+  {
+   "job": "digital_voice",
+   "role": "primary"
+  },
+  {
+   "job": "first_radio",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "handheld",
+  "bands_tx": [
+   "2m",
+   "70cm"
+  ],
+  "hf": false,
+  "vhf_uhf": true,
+  "rx_range": "108–580 MHz",
+  "power_w": {
+   "hf": null,
+   "6m": null,
+   "2m": 5,
+   "70cm": 5,
+   "23cm": null
+  },
+  "modes": [
+   "FM",
+   "C4FM"
+  ],
+  "digital_voice": [
+   "C4FM"
+  ],
+  "receiver_arch": "FM (HT/mobile)",
+  "band_scope": null,
+  "display": "monochrome LCD",
+  "dual_receive": false,
+  "dual_watch": false,
+  "atu": false,
+  "usb_single_cable": false,
+  "lan_remote": false,
+  "wifi_bt": [],
+  "gps": false,
+  "aprs": false,
+  "full_duplex_sat": false,
+  "crossband_repeat": false,
+  "detachable_head": false,
+  "power_source": "Li-ion pack",
+  "tx_current_a": null,
+  "battery": "SBR-24LI 7.4 V Li-ion 1800 mAh",
+  "ip_rating": "IP54",
+  "antenna_ports": 1,
+  "rx_antenna_in": false,
+  "roofing_filters": null,
+  "memories": 1200,
+  "weight_kg": 0.255,
+  "size_mm": "60×98×33",
+  "special": [
+   "AMS auto analog/digital",
+   "DG-ID/DP-ID group monitor",
+   "700 mW front speaker",
+   "MIL-STD-810 C/D/E",
+   "mini-USB programming/firmware"
+  ],
+  "requires": [],
+  "extra": {
+   "included": "SBR-24LI, SAD-18B charger, belt clip, USB cable",
+   "warranty": "3-year",
+   "rx_extras": "air, WX",
+   "list_price": 224.95,
+   "avail": "InStock"
+  }
+ },
+ "gotchas": [
+  "IP54 splash only, not submersible — FT-5DR / VX-6R are IPX7",
+  "Single receiver, no GPS/APRS — FT-5DR has dual RX, GPS, APRS, Bluetooth",
+  "No 220 MHz — VX-6R transmits 1.25m",
+  "No AM/FM broadcast receive",
+  "SAD-18B is a slow wall charger"
+ ],
+ "best_for": [
+  "cheapest C4FM entry",
+  "Tech licensee on Fusion/WIRES-X repeaters"
+ ],
+ "not_for": [
+  "APRS",
+  "D-STAR/DMR systems",
+  "submersion"
+ ],
+ "pairs": [
+  {
+   "id": "ysu-ftm-310dr",
+   "why": "C4FM mobile companion for car/base",
+   "req": false
+  },
+  {
+   "id": "SBR-24LI spare battery",
+   "why": "1800 mAh stock pack",
+   "req": false
+  },
+  {
+   "id": "SMA-male HT antenna (e.g. Diamond SRH77CA)",
+   "why": "improves range over stock antenna",
+   "req": false
+  },
+  {
+   "id": "ysu-ft-5dr",
+   "why": "step-up: dual RX, GPS/APRS, IPX7",
+   "req": false
+  }
+ ],
+ "confidence": "high",
+ "rating": {
+  "avg": 3.8,
+  "n": 80,
+  "pid": "13447",
+  "last": "2026-09-02",
+  "name": "Yaesu FT-70DR dual band digital HT"
+ }
+}

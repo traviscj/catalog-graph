@@ -1,0 +1,55 @@
+{
+ "id": "mfj-asq-10",
+ "kind": "antenna",
+ "name": "ASQ-10",
+ "title": "Cushcraft ASQ-10",
+ "brand": "Cushcraft",
+ "price": 249.95,
+ "line": "HF horizontal halo",
+ "legacy": false,
+ "summary": "Squalo 50-in square halo for 10m, horizontal omni, 200 W",
+ "jobs": [
+  {
+   "job": "ant_small_space",
+   "role": "primary"
+  },
+  {
+   "job": "ant_hf_mobile",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "other",
+  "mount": "base",
+  "ant_bands": [
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 200,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "size_in": "50x50",
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [
+  "200 W max"
+ ],
+ "confidence": "high",
+ "pairs": []
+}

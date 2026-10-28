@@ -1,0 +1,62 @@
+{
+ "id": "dmn-nr73bnmo",
+ "kind": "antenna",
+ "name": "NR73BNMO",
+ "title": "Diamond Antenna Dual-Band Mobile Antennas",
+ "brand": "Diamond",
+ "price": 56.99,
+ "line": "V/U mobile whip",
+ "legacy": false,
+ "summary": "Diamond NR73B 33.5 in dual-band NMO mobile antenna, 100 W",
+ "jobs": [
+  {
+   "job": "ant_vu_mobile",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "whip",
+  "mount": "mobile",
+  "ant_bands": [
+   "2m",
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 100,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 2.79,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "NMO",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "vhf-uhf-mobile-vertical-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "mobile antenna mount (mag / trunk-lip / NMO)",
+   "why": "vehicle mount not included",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 5.0,
+  "n": 5,
+  "pid": "10666",
+  "last": "2024-03-03",
+  "name": "Diamond NR73BNMO Dual Band Mobile Antenna"
+ }
+}

@@ -1,0 +1,79 @@
+{
+ "id": "ysu-atas-120a",
+ "kind": "antenna",
+ "name": "ATAS-120A",
+ "title": "Yaesu ATAS-120A Auto Active Tuning Antennas",
+ "brand": "Yaesu",
+ "price": 449.99,
+ "line": "HF mobile whip",
+ "legacy": false,
+ "summary": "Yaesu ATAS-120A auto-tuning screwdriver antenna, HF/VHF/UHF",
+ "jobs": [
+  {
+   "job": "ant_hf_mobile",
+   "role": "primary"
+  },
+  {
+   "job": "ant_vu_mobile",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "whip",
+  "mount": "mobile",
+  "ant_bands": [
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m",
+   "6m",
+   "2m",
+   "70cm"
+  ],
+  "resonant": null,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "auto_tune": true,
+   "compat": "FTX-1, FT-891, FT-991A, FT-710, FTDX10, FT-450/D, FT-857/D, FT-897/D",
+   "dxe_part_type": "hf-vhf-uhf-mobile-vertical-antennas"
+  }
+ },
+ "gotchas": [
+  "Only tunes with compatible Yaesu radios",
+  "Band set inferred"
+ ],
+ "confidence": "medium",
+ "pairs": [
+  {
+   "id": "mobile antenna mount (mag / trunk-lip / NMO)",
+   "why": "vehicle mount not included",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 3.8,
+  "n": 123,
+  "pid": "5984",
+  "last": "2025-01-02",
+  "name": "Yaesu ATAS-120A"
+ }
+}

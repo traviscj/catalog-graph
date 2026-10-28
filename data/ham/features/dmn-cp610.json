@@ -1,0 +1,56 @@
+{
+ "id": "dmn-cp610",
+ "kind": "antenna",
+ "name": "CP610",
+ "title": "Diamond Antenna CP610",
+ "brand": "Diamond",
+ "price": 284.99,
+ "line": "HF multiband vertical",
+ "legacy": false,
+ "summary": "22 ft aluminum 10m/6m ground-plane vertical, 500 W",
+ "jobs": [
+  {
+   "job": "ant_hf_vertical",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "ground-plane",
+  "mount": "base",
+  "ant_bands": [
+   "10m",
+   "6m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 500,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 22.0,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "hf-vertical-antennas-and-packages"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [],
+ "rating": {
+  "avg": 3.1,
+  "n": 10,
+  "pid": "9578",
+  "last": "2023-06-22",
+  "name": "Diamond CP-610"
+ }
+}

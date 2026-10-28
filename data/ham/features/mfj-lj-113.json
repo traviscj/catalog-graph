@@ -1,0 +1,58 @@
+{
+ "id": "mfj-lj-113",
+ "kind": "antenna",
+ "name": "LJ-113",
+ "title": "Hy-Gain LJ-113",
+ "brand": "Hy-Gain",
+ "price": 299.95,
+ "line": "HF monoband yagi",
+ "legacy": false,
+ "summary": "3-element 10/12m Long John monobander, 8 ft boom, 6.8 lb",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 3,
+  "boom_ft": 8,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": 6.8,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "alt_band": "12m",
+   "gain_db": "8.2, unit unstated",
+   "fb_db": 20,
+   "longest_el_ft": 18,
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

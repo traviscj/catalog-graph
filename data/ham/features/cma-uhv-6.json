@@ -1,0 +1,72 @@
+{
+ "id": "cma-uhv-6",
+ "kind": "antenna",
+ "name": "UHV-6",
+ "title": "Comet UHV-6 Multi-Band Mobile Antennas",
+ "brand": "Comet",
+ "price": 199.95,
+ "line": "HF/VHF/UHF mobile whip",
+ "legacy": false,
+ "summary": "Comet UHV-6 six-band 40/15/10/6/2/70cm mobile antenna, PL-259",
+ "jobs": [
+  {
+   "job": "ant_hf_mobile",
+   "role": "primary"
+  },
+  {
+   "job": "ant_vu_mobile",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "whip",
+  "mount": "mobile",
+  "ant_bands": [
+   "40m",
+   "15m",
+   "10m",
+   "6m",
+   "2m",
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 6.33,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "PL-259",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "hf-vhf-uhf-mobile-vertical-antennas"
+  }
+ },
+ "gotchas": [
+  "Narrow HF bandwidth — trim per band"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "mobile antenna mount (mag / trunk-lip / NMO)",
+   "why": "vehicle mount not included",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 3.9,
+  "n": 26,
+  "pid": "1592",
+  "last": "2021-01-02",
+  "name": "Comet HF/VHF/UHF UHV-6 Mobile Antenna"
+ }
+}

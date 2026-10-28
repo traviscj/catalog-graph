@@ -1,0 +1,58 @@
+{
+ "id": "cma-gp-9",
+ "kind": "antenna",
+ "name": "GP-9",
+ "title": "Comet GP-9",
+ "brand": "Comet",
+ "price": 324.95,
+ "line": "V/U base vertical",
+ "legacy": false,
+ "summary": "18.5 ft high-gain 2m/70cm fiberglass base collinear, 200 W",
+ "jobs": [
+  {
+   "job": "ant_vu_base",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "collinear",
+  "mount": "base",
+  "ant_bands": [
+   "2m",
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 200,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 18.5,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "vhf-uhf-base-vertical-antennas"
+  }
+ },
+ "gotchas": [
+  "18.5 ft: needs sturdy mast"
+ ],
+ "confidence": "high",
+ "pairs": [],
+ "rating": {
+  "avg": 4.4,
+  "n": 55,
+  "pid": "2455",
+  "last": "2025-06-09",
+  "name": "Comet GP-9 dual band base antenna"
+ }
+}

@@ -1,0 +1,81 @@
+{
+ "id": "mfj-mfj-2389",
+ "kind": "antenna",
+ "name": "MFJ-2389",
+ "title": "MFJ MFJ-2389",
+ "brand": "MFJ",
+ "price": 399.95,
+ "line": "HF multiband vertical",
+ "legacy": false,
+ "summary": "8.5 ft compact 8-band vertical, 80m-70cm, built-in radials, attic/balcony",
+ "jobs": [
+  {
+   "job": "ant_small_space",
+   "role": "primary"
+  },
+  {
+   "job": "ant_hf_vertical",
+   "role": "secondary"
+  },
+  {
+   "job": "ant_vu_base",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "vertical",
+  "mount": "base",
+  "ant_bands": [
+   "80m",
+   "40m",
+   "20m",
+   "15m",
+   "10m",
+   "6m",
+   "2m",
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 200,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 8.5,
+  "weight_lb": 6,
+  "radials": false,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "band_note": "8 bands; exact HF set inferred from name/text",
+   "w_vu_fm": 150,
+   "gain_note": "2.15 dBi 2m, 5.5 dBi 70cm",
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [
+  "very short for 80/40m — low efficiency, narrow bandwidth"
+ ],
+ "confidence": "medium",
+ "pairs": [
+  {
+   "id": "1:1 common-mode choke at the shack entry",
+   "why": "keeps feedline RF out of the shack",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 2.0,
+  "n": 5,
+  "pid": "14616",
+  "last": "2024-05-20",
+  "name": "MFJ-2389"
+ }
+}

@@ -1,0 +1,61 @@
+{
+ "id": "iva-18485-0039",
+ "kind": "antenna",
+ "name": "50-LFA-4-LN",
+ "title": "InnovAntennas 50-LFA-4-LN",
+ "brand": "InnovAntennas",
+ "price": 489.99,
+ "line": "6m yagi",
+ "legacy": false,
+ "summary": "Low-noise 4-element 6m LFA yagi, 11.2 ft boom, 5 kW",
+ "jobs": [
+  {
+   "job": "ant_vu_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "6m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 5000,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 4,
+  "boom_ft": 11.15,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "vhf-uhf-beam-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ],
+ "rating": {
+  "avg": 5.0,
+  "n": 2,
+  "pid": "10437",
+  "last": "2013-02-06",
+  "name": "InnovAntennas 450A-LFA  4-element 6m LFA Yagi"
+ }
+}

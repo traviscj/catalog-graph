@@ -1,0 +1,49 @@
+{
+ "id": "kel-11520-d84h",
+ "kind": "antenna",
+ "name": "DPD-8040-H",
+ "title": "Kelemen DPD-8040-H",
+ "brand": "Kelemen",
+ "price": 269.99,
+ "line": "HF fan dipole",
+ "legacy": false,
+ "summary": "80/40m fan (double) wire dipole, 128/65.6 ft, 2 kW",
+ "jobs": [
+  {
+   "job": "ant_hf_wire",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "dipole",
+  "mount": "base",
+  "ant_bands": [
+   "80m",
+   "40m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 2000,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": 128,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": true,
+  "extra": {
+   "dxe_part_type": "wire-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": []
+}

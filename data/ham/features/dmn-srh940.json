@@ -1,0 +1,59 @@
+{
+ "id": "dmn-srh940",
+ "kind": "antenna",
+ "name": "SRH940",
+ "title": "Diamond Antenna Tri-Band HT Antennas",
+ "brand": "Diamond",
+ "price": 39.99,
+ "line": "HT antenna",
+ "legacy": false,
+ "summary": "Diamond flexible 18 in tri-band 6m/2m/70cm HT antenna, SMA",
+ "jobs": [
+  {
+   "job": "ant_ht",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "rubber-duck",
+  "mount": "handheld",
+  "ant_bands": [
+   "6m",
+   "2m",
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 10,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 1.5,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "SMA-male",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "handheld-and-scanner-antennas"
+  }
+ },
+ "gotchas": [
+  "6m performance on an HT whip is poor"
+ ],
+ "confidence": "high",
+ "pairs": [],
+ "rating": {
+  "avg": 3.4,
+  "n": 10,
+  "pid": "8142",
+  "last": "2019-11-10",
+  "name": "Diamond SRH-940"
+ }
+}

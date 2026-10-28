@@ -1,0 +1,67 @@
+{
+ "id": "alp-dxnvisemcomm",
+ "kind": "antenna",
+ "name": "MIL EmComm Enhanced",
+ "title": "Alpha Antenna MIL EmComm Enhanced",
+ "brand": "Alpha",
+ "price": 899.0,
+ "line": "HF portable vertical",
+ "legacy": false,
+ "summary": "160–10m portable whip/NVIS kit with matching unit, tripod, 40 ft coax",
+ "jobs": [
+  {
+   "job": "ant_hf_portable",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "vertical",
+  "mount": "portable",
+  "ant_bands": [
+   "160m",
+   "80m",
+   "60m",
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m"
+  ],
+  "resonant": null,
+  "tuner_req": null,
+  "max_w": 100,
+  "max_w_digital": 25,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 15.5,
+  "weight_lb": 5.0,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "matching_unit": true,
+   "nvis": true,
+   "dxe_part_type": "hf-portable-stealth-antennas"
+  }
+ },
+ "gotchas": [
+  "100 W SSB / 25 W digital max"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "1:1 common-mode choke at the shack entry",
+   "why": "keeps feedline RF out of the shack",
+   "req": false
+  }
+ ]
+}

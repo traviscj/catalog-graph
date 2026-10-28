@@ -1,0 +1,58 @@
+{
+ "id": "dmn-rh77ca",
+ "kind": "antenna",
+ "name": "RH77CA",
+ "title": "Diamond Antenna Dual-Band HT Antennas",
+ "brand": "Diamond",
+ "price": 22.99,
+ "line": "HT antenna",
+ "legacy": false,
+ "summary": "Diamond 15 in dual-band HT antenna, BNC male",
+ "jobs": [
+  {
+   "job": "ant_ht",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "rubber-duck",
+  "mount": "handheld",
+  "ant_bands": [
+   "2m",
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 10,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 1.25,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "BNC-male",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "handheld-and-scanner-antennas"
+  }
+ },
+ "gotchas": [
+  "BNC — needs adapter for SMA radios"
+ ],
+ "confidence": "high",
+ "pairs": [],
+ "rating": {
+  "avg": 4.8,
+  "n": 41,
+  "pid": "1340",
+  "last": "2019-06-19",
+  "name": "Diamond RH77CA"
+ }
+}

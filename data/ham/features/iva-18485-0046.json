@@ -1,0 +1,61 @@
+{
+ "id": "iva-18485-0046",
+ "kind": "antenna",
+ "name": "OP-DES 50 MHz 6el",
+ "title": "InnovAntennas OP-DES 50 MHz 6el",
+ "brand": "InnovAntennas",
+ "price": 529.99,
+ "line": "6m yagi",
+ "legacy": false,
+ "summary": "6-element OP-DES 6m monoband yagi, 15.9 ft boom",
+ "jobs": [
+  {
+   "job": "ant_vu_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "6m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 6,
+  "boom_ft": 15.88,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "vhf-uhf-beam-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ],
+ "rating": {
+  "avg": 5.0,
+  "n": 1,
+  "pid": "11248",
+  "last": "2013-07-27",
+  "name": "Innovantennas 6 element 50MHz OP-DES Yagi (4.8m)"
+ }
+}

@@ -1,0 +1,58 @@
+{
+ "id": "mfj-mfj-1783-loop-antenna-with-remote-control",
+ "kind": "antenna",
+ "name": "MFJ-1783",
+ "title": "MFJ MFJ-1783",
+ "brand": "MFJ",
+ "price": 599.95,
+ "line": "HF mag loop",
+ "legacy": false,
+ "summary": "36-in remote-tuned box-fan mag loop, 30-10m, 300 W, tripod-mountable",
+ "jobs": [
+  {
+   "job": "ant_small_space",
+   "role": "primary"
+  },
+  {
+   "job": "ant_hf_portable",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "mag-loop",
+  "mount": "base",
+  "ant_bands": [
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 300,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": 24,
+  "radials": null,
+  "directional": false,
+  "polarization": null,
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "size_in": "36x36x4",
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": []
+}

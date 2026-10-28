@@ -1,0 +1,50 @@
+{
+ "id": "alo-ea-228",
+ "kind": "antenna",
+ "name": "EA-228",
+ "title": "Alinco EA-228",
+ "brand": "Alinco",
+ "price": 18.99,
+ "line": "HT antenna",
+ "legacy": false,
+ "summary": "OEM dual-band replacement HT antenna for Alinco DJ-500T",
+ "jobs": [
+  {
+   "job": "ant_ht",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "rubber-duck",
+  "mount": "handheld",
+  "ant_bands": [
+   "2m",
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "SMA female",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "fits": "DJ-500T",
+   "dxe_part_type": "handheld-and-scanner-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "medium",
+ "pairs": []
+}

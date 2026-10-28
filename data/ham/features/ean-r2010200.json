@@ -1,0 +1,75 @@
+{
+ "id": "ean-r2010200",
+ "kind": "antenna",
+ "name": "EADELTA7B",
+ "title": "EAntenna EADELTA7B",
+ "brand": "EAntenna",
+ "price": 539.99,
+ "line": "HF rotatable delta loop",
+ "legacy": false,
+ "summary": "Rotatable delta loop for 30-6m with 3 kW balun; tuner needed",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  },
+  {
+   "job": "ant_small_space",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "loop-wire",
+  "mount": "base",
+  "ant_bands": [
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m",
+   "6m"
+  ],
+  "resonant": false,
+  "tuner_req": "Tuner required for 7 bands",
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": 9.34,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "balun_w": 3000,
+   "dxe_part_type": "hf-directional-antennas"
+  }
+ },
+ "gotchas": [
+  "Tuner required for all 7 bands",
+  "Bidirectional loop — rotator needed"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "antenna tuner (wide-range)",
+   "why": "non-resonant on its listed bands",
+   "req": true
+  }
+ ],
+ "rating": {
+  "avg": 3.0,
+  "n": 1,
+  "pid": "13817",
+  "last": "2018-03-30",
+  "name": "EAntenna EADELTA7B"
+ }
+}

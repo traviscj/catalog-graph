@@ -1,0 +1,67 @@
+{
+ "id": "opb-ob10-5m",
+ "kind": "antenna",
+ "name": "OB10-5M",
+ "title": "Optibeam OB10-5M",
+ "brand": "OptiBeam",
+ "price": 2559.99,
+ "line": "HF multiband yagi",
+ "legacy": false,
+ "summary": "OptiBeam 10-element 5-band 20-10m Moxon-yagi on 12.5 ft boom",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 2500.0,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 10,
+  "boom_ft": 12.47,
+  "turn_radius_ft": 14.44,
+  "wind_sqft": 8.93,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": 49.66,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "hf-directional-antennas"
+  }
+ },
+ "gotchas": [
+  "Rotator not included"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ],
+ "rating": {
+  "avg": 4.9,
+  "n": 15,
+  "pid": "14244",
+  "last": "2023-06-28",
+  "name": "OptiBeam OB10-5M: 10el fiveband Yagi 20-17-15-12-10m"
+ }
+}

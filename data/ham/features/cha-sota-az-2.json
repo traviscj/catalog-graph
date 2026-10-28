@@ -1,0 +1,52 @@
+{
+ "id": "cha-sota-az-2",
+ "kind": "antenna",
+ "name": "SOTA AZ-2",
+ "title": "Chameleon Antenna SOTA AZ-2",
+ "brand": "Chameleon",
+ "price": 208.99,
+ "line": "HF portable dipole",
+ "legacy": false,
+ "summary": "Linked SOTA dipole for 40/30/20m, 66 ft, BNC, 1.5 lb",
+ "jobs": [
+  {
+   "job": "ant_hf_portable",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "dipole",
+  "mount": "portable",
+  "ant_bands": [
+   "40m",
+   "30m",
+   "20m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 100,
+  "max_w_digital": 50,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": 66.0,
+  "height_ft": null,
+  "weight_lb": 1.5,
+  "radials": null,
+  "directional": false,
+  "polarization": "horizontal",
+  "connector": "BNC female",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "hf-portable-stealth-antennas"
+  }
+ },
+ "gotchas": [
+  "change bands by opening/closing links"
+ ],
+ "confidence": "high",
+ "pairs": []
+}

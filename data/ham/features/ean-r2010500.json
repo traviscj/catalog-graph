@@ -1,0 +1,67 @@
+{
+ "id": "ean-r2010500",
+ "kind": "antenna",
+ "name": "5LPDA8",
+ "title": "EAntenna 5LPDA8",
+ "brand": "EAntenna",
+ "price": 2215.99,
+ "line": "HF log-periodic",
+ "legacy": false,
+ "summary": "8-element 13.5-32 MHz log-periodic covering 20 through 10m",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "log-periodic",
+  "mount": "base",
+  "ant_bands": [
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 8,
+  "boom_ft": 19.67,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "hf-directional-antennas"
+  }
+ },
+ "gotchas": [
+  "Rotator not included"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ],
+ "rating": {
+  "avg": 5.0,
+  "n": 1,
+  "pid": "10318",
+  "last": "2012-02-28",
+  "name": "EAntenna      5LPDA8 Log Periodic 8 el. 13~32MHz"
+ }
+}

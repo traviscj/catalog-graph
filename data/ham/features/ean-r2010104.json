@@ -1,0 +1,56 @@
+{
+ "id": "ean-r2010104",
+ "kind": "antenna",
+ "name": "50LFA10",
+ "title": "EAntenna VHF and UHF Directional Antennas",
+ "brand": "EAntenna",
+ "price": 1499.99,
+ "line": "V/U yagi",
+ "legacy": false,
+ "summary": "EAntenna 50LFA10 10-element 6m loop-fed yagi on 58 ft boom",
+ "jobs": [
+  {
+   "job": "ant_vu_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "6m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 10,
+  "boom_ft": 58.3,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "vhf-uhf-beam-antennas"
+  }
+ },
+ "gotchas": [
+  "58 ft boom — needs boom truss/heavy rotator"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

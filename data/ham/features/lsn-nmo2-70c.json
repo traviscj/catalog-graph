@@ -1,0 +1,62 @@
+{
+ "id": "lsn-nmo2-70c",
+ "kind": "antenna",
+ "name": "NMO2/70C",
+ "title": "Larsen NMO2/70C",
+ "brand": "Larsen",
+ "price": 177.99,
+ "line": "V/U mobile whip",
+ "legacy": false,
+ "summary": "Larsen dual-band 2m/70cm NMO mobile, 37.75 in., 100 W",
+ "jobs": [
+  {
+   "job": "ant_vu_mobile",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "whip",
+  "mount": "mobile",
+  "ant_bands": [
+   "2m",
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 100,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 3.15,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "NMO",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "vhf-uhf-mobile-vertical-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "mobile antenna mount (mag / trunk-lip / NMO)",
+   "why": "vehicle mount not included",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 4.6,
+  "n": 58,
+  "pid": "434",
+  "last": "2024-07-01",
+  "name": "Larsen NMO 2/70"
+ }
+}

@@ -1,0 +1,56 @@
+{
+ "id": "mfj-ub-7030sat",
+ "kind": "antenna",
+ "name": "UB-7030SAT",
+ "title": "Hy-Gain UB-7030SAT",
+ "brand": "Hy-Gain",
+ "price": 359.95,
+ "line": "V/U sat yagi",
+ "legacy": false,
+ "summary": "30-element 432-438 MHz satellite yagi from the DB-218SAT Oscar system",
+ "jobs": [
+  {
+   "job": "ant_vu_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 30,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": "circular",
+  "connector": "N",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [
+  "needs az/el rotator for sat work"
+ ],
+ "confidence": "medium",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

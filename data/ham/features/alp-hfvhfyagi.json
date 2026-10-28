@@ -1,0 +1,68 @@
+{
+ "id": "alp-hfvhfyagi",
+ "kind": "antenna",
+ "name": "HexTenna",
+ "title": "Alpha Antenna HexTenna HF/VHF Yagi Beam Antennas",
+ "brand": "Alpha",
+ "price": 650.0,
+ "line": "HF portable yagi",
+ "legacy": false,
+ "summary": "Alpha HexTenna portable telescopic-whip yagi covering 20m-2m, 1.5 kW",
+ "jobs": [
+  {
+   "job": "ant_hf_portable",
+   "role": "primary"
+  },
+  {
+   "job": "ant_hf_beam",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "portable",
+  "ant_bands": [
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m",
+   "6m",
+   "2m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 1500,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": 4.0,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": 19.0,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "whip_ft": 17.75,
+   "dxe_part_type": "hf-portable-stealth-antennas"
+  }
+ },
+ "gotchas": [
+  "Elements must be re-adjusted per band",
+  "Mast/rotation not included"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

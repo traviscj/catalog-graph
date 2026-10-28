@@ -1,0 +1,66 @@
+{
+ "id": "bcm-bu00592",
+ "kind": "antenna",
+ "name": "BBA-1kD",
+ "title": "Bushcomm BBA-1KD Kilowatt Multi-Wire Broadband Antennas",
+ "brand": "Bushcomm",
+ "price": 2089.99,
+ "line": "HF broadband wire",
+ "legacy": false,
+ "summary": "Bushcomm BBA-1KD 3-wire terminated broadband 2-30 MHz antenna, 2 kW PEP",
+ "jobs": [
+  {
+   "job": "ant_hf_wire",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "dipole",
+  "mount": "base",
+  "ant_bands": [
+   "80m",
+   "60m",
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 2000,
+  "max_w_digital": 1000,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": 88.58,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "freq": "2-30 MHz",
+   "dxe_part_type": "wire-antennas"
+  }
+ },
+ "gotchas": [
+  "Terminated design — resistive loss vs resonant dipole"
+ ],
+ "confidence": "high",
+ "pairs": [],
+ "rating": {
+  "avg": 5.0,
+  "n": 1,
+  "pid": "14237",
+  "last": "2019-04-21",
+  "name": "Bushcomm BBA 1KD Broadband antenna"
+ }
+}

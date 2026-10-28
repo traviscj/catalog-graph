@@ -1,0 +1,61 @@
+{
+ "id": "iva-18489-15",
+ "kind": "antenna",
+ "name": "Moxon 15M",
+ "title": "InnovAntennas Moxon 15M",
+ "brand": "InnovAntennas",
+ "price": 649.99,
+ "line": "HF moxon",
+ "legacy": false,
+ "summary": "15m Moxon beam, 6.1 dBi, 29 dB F/B, 7 kW",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "moxon",
+  "mount": "base",
+  "ant_bands": [
+   "15m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 7000,
+  "max_w_digital": null,
+  "gain_dbi": 6.13,
+  "elements": 2,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "hf-directional-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ],
+ "rating": {
+  "avg": 3.8,
+  "n": 6,
+  "pid": "689",
+  "last": "2015-01-03",
+  "name": "NCG Company 15M"
+ }
+}

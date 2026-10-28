@@ -1,0 +1,129 @@
+{
+ "id": "ysu-vx-6r",
+ "name": "VX-6R",
+ "title": "Yaesu VX-6R",
+ "brand": "Yaesu",
+ "price": 299.99,
+ "line": "HT (tri-band FM)",
+ "legacy": false,
+ "summary": "Submersible ultra-compact 2m/220/70cm analog FM HT with 0.5–999 MHz receive; older but rugged.",
+ "jobs": [
+  {
+   "job": "vhf_uhf_handheld",
+   "role": "primary"
+  },
+  {
+   "job": "emcomm",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "handheld",
+  "bands_tx": [
+   "2m",
+   "1.25m",
+   "70cm"
+  ],
+  "hf": false,
+  "vhf_uhf": true,
+  "rx_range": "0.5–999 MHz (cell blocked)",
+  "power_w": {
+   "hf": null,
+   "6m": null,
+   "2m": 5,
+   "70cm": 5,
+   "23cm": null
+  },
+  "modes": [
+   "FM"
+  ],
+  "digital_voice": [],
+  "receiver_arch": "FM (HT/mobile)",
+  "band_scope": null,
+  "display": "monochrome LCD",
+  "dual_receive": false,
+  "dual_watch": false,
+  "atu": false,
+  "usb_single_cable": false,
+  "lan_remote": false,
+  "wifi_bt": [],
+  "gps": false,
+  "aprs": false,
+  "full_duplex_sat": false,
+  "crossband_repeat": false,
+  "detachable_head": false,
+  "power_source": "Li-ion pack",
+  "tx_current_a": null,
+  "battery": "FNB-80LI 7.4 V Li-ion ~1400 mAh",
+  "ip_rating": "IPX7 (JIS7)",
+  "antenna_ports": 1,
+  "rx_antenna_in": false,
+  "roofing_filters": null,
+  "memories": 900,
+  "weight_kg": 0.27,
+  "size_mm": "58×89×28",
+  "special": [
+   "220 MHz TX at 1.5 W",
+   "AM/FM broadcast, air, marine, SW receive",
+   "pre-loaded SW/marine/WX channels",
+   "NOAA WX alert"
+  ],
+  "requires": [],
+  "extra": {
+   "power_220_w": 1.5,
+   "connector": "SMA female on radio",
+   "warranty": "3-year",
+   "rx_extras": "AM BC, FM BC, air, WX",
+   "list_price": 299.99,
+   "avail": "InStock"
+  }
+ },
+ "gotchas": [
+  "Analog FM only — FT-70DR / FT-5DR add C4FM",
+  "220 MHz is only 1.5 W and not officially specified by Yaesu",
+  "Single receiver; no GPS/APRS — FT-5DR adds dual RX, GPS, APRS",
+  "No USB; PC programming needs a separate serial/USB cable + software",
+  "SMA-female antenna port: most aftermarket HT antennas are SMA-female and won't fit",
+  "Circa-2004 design with small battery (~1400 mAh)"
+ ],
+ "best_for": [
+  "rugged pocket HT",
+  "220 MHz users",
+  "scanner-style wideband receive"
+ ],
+ "not_for": [
+  "digital voice",
+  "APRS",
+  "long battery life"
+ ],
+ "pairs": [
+  {
+   "id": "SMA-male HT antenna (e.g. Diamond SRH77CA)",
+   "why": "better than stock rubber duck",
+   "req": false
+  },
+  {
+   "id": "FNB-80LI spare battery",
+   "why": "small stock pack",
+   "req": false
+  },
+  {
+   "id": "VX-6R programming cable + software",
+   "why": "no USB; front-panel programming is tedious",
+   "req": false
+  },
+  {
+   "id": "ysu-ft-5dr",
+   "why": "modern C4FM step-up with GPS/APRS",
+   "req": false
+  }
+ ],
+ "confidence": "medium",
+ "rating": {
+  "avg": 4.4,
+  "n": 139,
+  "pid": "5013",
+  "last": "2026-08-28",
+  "name": "Yaesu VX-6R"
+ }
+}

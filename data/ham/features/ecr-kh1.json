@@ -1,0 +1,157 @@
+{
+ "id": "ecr-kh1",
+ "name": "KH1",
+ "title": "Elecraft KH1",
+ "brand": "Elecraft",
+ "price": 714.95,
+ "line": "HF handheld (CW)",
+ "legacy": false,
+ "summary": "7 oz handheld 5-band (40–15m) 5 W CW-only transceiver for SOTA; ATU/whip, battery, paddle optional.",
+ "jobs": [
+  {
+   "job": "hf_portable",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "handheld",
+  "bands_tx": [
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m"
+  ],
+  "hf": true,
+  "vhf_uhf": false,
+  "rx_range": "6.7–22.0 MHz",
+  "power_w": {
+   "hf": 5,
+   "6m": null,
+   "2m": null,
+   "70cm": null,
+   "23cm": null
+  },
+  "modes": [
+   "CW"
+  ],
+  "digital_voice": [],
+  "receiver_arch": "superhet",
+  "band_scope": "scan/mini-pan (8-level spectral display)",
+  "display": "small LCD",
+  "dual_receive": false,
+  "dual_watch": false,
+  "atu": false,
+  "usb_single_cable": false,
+  "lan_remote": false,
+  "wifi_bt": [],
+  "gps": false,
+  "aprs": false,
+  "full_duplex_sat": false,
+  "crossband_repeat": false,
+  "detachable_head": false,
+  "headless": false,
+  "power_source": "internal battery + 13.8 VDC",
+  "tx_current_a": 1.0,
+  "battery": null,
+  "ip_rating": null,
+  "antenna_ports": 1,
+  "rx_antenna_in": false,
+  "roofing_filters": "variable-BW crystal filter",
+  "memories": null,
+  "weight_kg": 0.2,
+  "size_mm": "61×36×112 (140 L with protrusions)",
+  "special": [
+   "HT-style HF CW handheld",
+   "CW decode + 32 kB time-stamped TX log",
+   "fold-out log tray option",
+   "SSB receive (cross-mode)",
+   "infinite SWR tolerance",
+   "RTC",
+   "Morse-audio UI",
+   "8–15 VDC, 50–70 mA RX"
+  ],
+  "requires": [
+   "KXBT2 battery (sold separately)",
+   "KHATU1 ATU/whip for whip operation",
+   "KHPD1 or external paddle",
+   "KHIBC1 + supply (or KXBC2) to charge"
+  ],
+  "extra": {
+   "modes_note": "TX CW only; RX CW/LSB/USB",
+   "atu_note": "KHATU1 option (ATU + whip + high-Q 20/17/15m inductor) — included in Edgewood Package",
+   "battery_note": "factory unit ships WITHOUT KXBT2; Edgewood Package adds KXBT2, KHIBC1, KHATU1, KHPD1, KHLOG1, ES20 ($100 savings)",
+   "eu_note": "not CE-certified; Elecraft can't ship to EU",
+   "source": "elecraft.com",
+   "list_price": "714.95",
+   "avail": "InStock"
+  }
+ },
+ "gotchas": [
+  "Bare KH1 is not operable portably: no battery, no ATU/whip, no paddle, no charger — the Edgewood Package is the real product",
+  "CW TX only, 40–15m only — no SSB/FT8; ecr-kx2 adds SSB/data and 80/60/12/10m",
+  "5 W fixed-class QRP; ico-ic-705 / ysu-ftx-1field for all-mode all-band",
+  "No USB audio, no digital modes — ft8_digital not possible",
+  "Not CE-certified — no EU shipping"
+ ],
+ "best_for": [
+  "SOTA CW activations standing up",
+  "ultralight travel CW",
+  "grab-and-go with built-in log"
+ ],
+ "not_for": [
+  "SSB/digital",
+  "80m/160m",
+  "new operators without CW"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "Elecraft KH1 Edgewood Package",
+   "why": "adds battery, charger, ATU+whip, paddle, log tray, ES20 case ($100 savings)",
+   "req": false
+  },
+  {
+   "id": "Elecraft KXBT2 Li-ion battery",
+   "why": "not included; needed for any field use",
+   "req": true
+  },
+  {
+   "id": "Elecraft KHATU1 ATU + whip",
+   "why": "internal ATU and built-in whip are optional",
+   "req": false
+  },
+  {
+   "id": "Elecraft KHPD1 keyer paddle",
+   "why": "plug-in paddle, not included",
+   "req": false
+  },
+  {
+   "id": "Elecraft KHIBC1 internal charger",
+   "why": "charge in radio (with SS30DV or other supply)",
+   "req": false
+  },
+  {
+   "id": "Elecraft KXBC2 external charger",
+   "why": "alternative battery charging",
+   "req": false
+  },
+  {
+   "id": "Elecraft AX1/AXE1 whip + extender",
+   "why": "40m whip operation",
+   "req": false
+  },
+  {
+   "id": "ecr-kx2",
+   "why": "SSB/data + 9 bands step-up",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 4.9,
+  "n": 15,
+  "pid": "15717",
+  "last": "2025-10-06",
+  "name": "Elecraft KH1"
+ }
+}

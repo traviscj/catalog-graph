@@ -1,0 +1,52 @@
+{
+ "id": "dmn-bc200n",
+ "kind": "antenna",
+ "name": "BC200",
+ "title": "Diamond BC200",
+ "brand": "Diamond",
+ "price": 109.99,
+ "line": "UHF base vertical",
+ "legacy": false,
+ "summary": "3x5/8 UHF base/repeater collinear, 430-490 MHz, 200 W, N female",
+ "jobs": [
+  {
+   "job": "ant_vu_base",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "collinear",
+  "mount": "base",
+  "ant_bands": [
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 200,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "N female",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "gain_note": "6.5 dB (unit unstated)",
+   "freq": "430-490 MHz",
+   "dxe_part_type": "vhf-uhf-base-vertical-antennas"
+  }
+ },
+ "gotchas": [
+  "also covers GMRS/commercial: broad, not ham-optimized"
+ ],
+ "confidence": "high",
+ "pairs": []
+}

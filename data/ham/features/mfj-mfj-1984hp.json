@@ -1,0 +1,68 @@
+{
+ "id": "mfj-mfj-1984hp",
+ "kind": "antenna",
+ "name": "MFJ-1984HP",
+ "title": "MFJ MFJ-1984HP",
+ "brand": "MFJ",
+ "price": 109.95,
+ "line": "HF end-fed wire",
+ "legacy": false,
+ "summary": "40-10m EFHW with 50-ohm matching network, 800 W PEP, no counterpoise",
+ "jobs": [
+  {
+   "job": "ant_hf_wire",
+   "role": "primary"
+  },
+  {
+   "job": "ant_hf_portable",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "end-fed",
+  "mount": "base",
+  "ant_bands": [
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": "tuner on 30m",
+  "max_w": 800,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": null,
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "power_note": "PEP SSB/CW, ≤50% duty (ICAS)",
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [
+  "30m needs a tuner",
+  "10m 2:1 SWR only 28.0-28.8 MHz"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "1:1 common-mode choke at the shack entry",
+   "why": "keeps feedline RF out of the shack",
+   "req": false
+  }
+ ]
+}

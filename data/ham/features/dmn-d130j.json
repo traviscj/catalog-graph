@@ -1,0 +1,64 @@
+{
+ "id": "dmn-d130j",
+ "kind": "antenna",
+ "name": "D130J",
+ "title": "Diamond Antenna D130J",
+ "brand": "Diamond",
+ "price": 129.99,
+ "line": "discone (RX)",
+ "legacy": false,
+ "summary": "Wideband 25-1300 MHz receive discone, transmits on 6m/2m/70cm",
+ "jobs": [
+  {
+   "job": "ant_rx",
+   "role": "primary"
+  },
+  {
+   "job": "ant_vu_base",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "discone",
+  "mount": "base",
+  "ant_bands": [
+   "6m",
+   "2m",
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 5.58,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "rx_range": "25-1300 MHz",
+   "dxe_part_type": "discone-antennas"
+  }
+ },
+ "gotchas": [
+  "Discone: low gain on TX bands vs. a dedicated vertical"
+ ],
+ "confidence": "high",
+ "pairs": [],
+ "rating": {
+  "avg": 4.7,
+  "n": 41,
+  "pid": "2777",
+  "last": "2025-03-09",
+  "name": "Diamond D-130J discone"
+ }
+}

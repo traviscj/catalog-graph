@@ -1,0 +1,49 @@
+{
+ "id": "alo-ea-141",
+ "kind": "antenna",
+ "name": "EA-141",
+ "title": "Alinco EA-141",
+ "brand": "Alinco",
+ "price": 17.99,
+ "line": "HT antenna",
+ "legacy": false,
+ "summary": "OEM 2m replacement antenna for Alinco DJ-V17T / DJ-175T",
+ "jobs": [
+  {
+   "job": "ant_ht",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "rubber-duck",
+  "mount": "handheld",
+  "ant_bands": [
+   "2m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "fits": "Alinco DJ-V17T, DJ-175T",
+   "dxe_part_type": "handheld-and-scanner-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "medium",
+ "pairs": []
+}

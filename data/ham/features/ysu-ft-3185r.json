@@ -1,0 +1,128 @@
+{
+ "id": "ysu-ft-3185r",
+ "name": "FT-3185R",
+ "title": "Yaesu FT-3185R",
+ "brand": "Yaesu",
+ "price": 209.95,
+ "line": "VHF/UHF mobile",
+ "legacy": false,
+ "summary": "Fanless 85W 2m-only FM mobile with Super DX, PMG, 10 NOAA WX channels; ASP DSP optional.",
+ "jobs": [
+  {
+   "job": "vhf_uhf_mobile",
+   "role": "primary"
+  },
+  {
+   "job": "first_radio",
+   "role": "secondary"
+  },
+  {
+   "job": "emcomm",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "mobile",
+  "bands_tx": [
+   "2m"
+  ],
+  "hf": false,
+  "vhf_uhf": true,
+  "rx_range": "136–174 MHz",
+  "power_w": {
+   "hf": null,
+   "6m": null,
+   "2m": 85,
+   "70cm": null,
+   "23cm": null
+  },
+  "modes": [
+   "FM"
+  ],
+  "digital_voice": [],
+  "receiver_arch": "FM (HT/mobile)",
+  "band_scope": null,
+  "display": "monochrome LCD",
+  "dual_receive": false,
+  "dual_watch": false,
+  "atu": false,
+  "usb_single_cable": false,
+  "lan_remote": false,
+  "wifi_bt": [],
+  "gps": false,
+  "aprs": false,
+  "full_duplex_sat": false,
+  "crossband_repeat": false,
+  "detachable_head": false,
+  "power_source": "13.8 VDC external",
+  "tx_current_a": 15.0,
+  "battery": null,
+  "ip_rating": null,
+  "antenna_ports": 1,
+  "rx_antenna_in": false,
+  "roofing_filters": null,
+  "memories": null,
+  "weight_kg": 1.9,
+  "size_mm": "160×51×185",
+  "special": [
+   "85/50/20/5W",
+   "fanless heatsink",
+   "3W speaker",
+   "Super DX",
+   "PMG 5-ch monitor",
+   "WX alert"
+  ],
+  "requires": [
+   "13.8V 20A power supply (for base use)"
+  ],
+  "extra": {
+   "asp": "SPU-1 optional (not installed)",
+   "list_price": 259.95,
+   "avail": "InStock"
+  }
+ },
+ "gotchas": [
+  "2m only — FTM-150R adds 70cm; FTM-510DRASP adds C4FM",
+  "no ASP audio DSP fitted — FT-3165RASP ships with SPU-1 (at 65W)",
+  "15A draw at 85W — needs a 20A-class supply or direct battery wiring",
+  "no detachable head — FTM-510DRASP/ID-5100A-D separate"
+ ],
+ "best_for": [
+  "max-power 2m simplex/repeater in fringe areas",
+  "budget base 2m station"
+ ],
+ "not_for": [
+  "70cm or digital voice",
+  "tight dash installs"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "13.8 V 20 A power supply",
+   "why": "15 A draw at 85 W",
+   "req": false
+  },
+  {
+   "id": "SPU-1 ASP unit",
+   "why": "weak-signal audio DSP",
+   "req": false
+  },
+  {
+   "id": "2m mobile antenna + mount",
+   "why": "mobile install",
+   "req": false
+  },
+  {
+   "id": "ysu-ft-3165rasp",
+   "why": "65W sibling with ASP installed",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 4.7,
+  "n": 3,
+  "pid": "16010",
+  "last": "2026-07-22",
+  "name": "Yaesu FT-3185R ASP"
+ }
+}

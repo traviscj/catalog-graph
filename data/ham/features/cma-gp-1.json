@@ -1,0 +1,56 @@
+{
+ "id": "cma-gp-1",
+ "kind": "antenna",
+ "name": "GP-1",
+ "title": "Comet GP-1 Dual-Band VHF/UHF Base Vertical Antennas",
+ "brand": "Comet",
+ "price": 99.95,
+ "line": "V/U base vertical",
+ "legacy": false,
+ "summary": "Comet GP-1 compact 4.2 ft dual-band 2m/70cm fiberglass base vertical",
+ "jobs": [
+  {
+   "job": "ant_vu_base",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "collinear",
+  "mount": "base",
+  "ant_bands": [
+   "2m",
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 4.2,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "vhf-uhf-base-vertical-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [],
+ "rating": {
+  "avg": 4.9,
+  "n": 17,
+  "pid": "7863",
+  "last": "2023-10-28",
+  "name": "Comet GP-1"
+ }
+}

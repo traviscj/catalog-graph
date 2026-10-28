@@ -1,0 +1,55 @@
+{
+ "id": "can-capturebeamx",
+ "kind": "antenna",
+ "name": "Capture Beam-X",
+ "title": "COMPACtenna Capture Beam-X",
+ "brand": "COMPACtenna",
+ "price": 399.0,
+ "line": "V/U compact beam",
+ "legacy": false,
+ "summary": "Compact 2m beam, 10 dBi, for HOA/small spaces",
+ "jobs": [
+  {
+   "job": "ant_vu_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "other",
+  "mount": "base",
+  "ant_bands": [
+   "2m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": 10.0,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": null,
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "design": "compact beam (type not stated)",
+   "dxe_part_type": "vhf-uhf-beam-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "medium",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

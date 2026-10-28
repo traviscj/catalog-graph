@@ -1,0 +1,68 @@
+{
+ "id": "ean-r2010251",
+ "kind": "antenna",
+ "name": "EA270ZB9",
+ "title": "EAntenna VHF and UHF Directional Antennas",
+ "brand": "EAntenna",
+ "price": 129.99,
+ "line": "V/U yagi",
+ "legacy": false,
+ "summary": "EAntenna EA270ZB9 DK7ZB dual-band 2m/70cm 4+5 element yagi, 47 in boom",
+ "jobs": [
+  {
+   "job": "ant_vu_beam",
+   "role": "primary"
+  },
+  {
+   "job": "ant_hf_portable",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "2m",
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 9,
+  "boom_ft": 3.94,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "vhf-uhf-beam-antennas"
+  }
+ },
+ "gotchas": [
+  "70cm optimized 420-440 MHz"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ],
+ "rating": {
+  "avg": 4.7,
+  "n": 3,
+  "pid": "12736",
+  "last": "2026-04-03",
+  "name": "EAntenna EA270ZB9"
+ }
+}

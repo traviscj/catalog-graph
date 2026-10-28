@@ -1,0 +1,67 @@
+{
+ "id": "cma-chv-5x",
+ "kind": "antenna",
+ "name": "CHV-5X",
+ "title": "Comet CHV-5X Rotatable Dipole Antennas",
+ "brand": "Comet",
+ "price": 392.95,
+ "line": "HF rotatable dipole",
+ "legacy": false,
+ "summary": "Comet compact five-band rotatable V-dipole for small lots",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  },
+  {
+   "job": "ant_small_space",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "dipole",
+  "mount": "base",
+  "ant_bands": [
+   "40m",
+   "20m",
+   "15m",
+   "10m",
+   "6m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 220,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 2,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "horizontal",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "rotatable": true,
+   "dxe_part_type": "hf-directional-antennas"
+  }
+ },
+ "gotchas": [
+  "Shortened — narrow bandwidth, 220 W max",
+  "Rotator needed to use the pattern"
+ ],
+ "confidence": "high",
+ "pairs": [],
+ "rating": {
+  "avg": 3.9,
+  "n": 8,
+  "pid": "10760",
+  "last": "2023-08-18",
+  "name": "Comet CHV-5X Multi Band Rotatable Dipole Antenna"
+ }
+}

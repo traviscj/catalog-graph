@@ -1,0 +1,62 @@
+{
+ "id": "iva-18489-20",
+ "kind": "antenna",
+ "name": "Moxon 20M",
+ "title": "InnovAntennas Moxon 20M",
+ "brand": "InnovAntennas",
+ "price": 783.99,
+ "line": "HF moxon",
+ "legacy": false,
+ "summary": "20m 2-element moxon, 6.1 dBi, 29 dB F/B",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "moxon",
+  "mount": "base",
+  "ant_bands": [
+   "20m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 7000,
+  "max_w_digital": null,
+  "gain_dbi": 6.13,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "fb_db": 29,
+   "dxe_part_type": "hf-directional-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ],
+ "rating": {
+  "avg": 4.6,
+  "n": 34,
+  "pid": "7615",
+  "last": "2020-12-11",
+  "name": "Hendricks PFR-3 Transceiver (40/30/20m)"
+ }
+}

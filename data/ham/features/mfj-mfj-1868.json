@@ -1,0 +1,68 @@
+{
+ "id": "mfj-mfj-1868",
+ "kind": "antenna",
+ "name": "MFJ-1868",
+ "title": "MFJ MFJ-1868",
+ "brand": "MFJ",
+ "price": 99.95,
+ "line": "discone (RX)",
+ "legacy": false,
+ "summary": "Discone: RX 25-1300 MHz, TX 50-1300 MHz, 200 W, 50 ft coax",
+ "jobs": [
+  {
+   "job": "ant_rx",
+   "role": "primary"
+  },
+  {
+   "job": "ant_vu_base",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "discone",
+  "mount": "base",
+  "ant_bands": [
+   "6m",
+   "2m",
+   "1.25m",
+   "70cm",
+   "23cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 200,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "rx_range": "25-1300 MHz",
+   "tx_also": "33cm",
+   "coax_ft": 50,
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [
+  "unity-gain omni — weaker than a V/U collinear"
+ ],
+ "confidence": "high",
+ "pairs": [],
+ "rating": {
+  "avg": 2.5,
+  "n": 4,
+  "pid": "7590",
+  "last": "2020-04-12",
+  "name": "MFJ-1868 25-1300 MHz Discone Antenna w/ Coaxial Cable & Mounting"
+ }
+}

@@ -1,0 +1,63 @@
+{
+ "id": "opb-ob6-3m",
+ "kind": "antenna",
+ "name": "OB6-3M",
+ "title": "OptiBeam OB6-3M",
+ "brand": "OptiBeam",
+ "price": 1869.99,
+ "line": "HF tribander yagi",
+ "legacy": false,
+ "summary": "6-element moxon-yagi tribander for 20/15/10m, 10.2 ft boom",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "moxon",
+  "mount": "base",
+  "ant_bands": [
+   "20m",
+   "15m",
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 2500,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 6,
+  "boom_ft": 10.17,
+  "turn_radius_ft": 14.44,
+  "wind_sqft": 4.9,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": 33.07,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "hf-directional-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ],
+ "rating": {
+  "avg": 5.0,
+  "n": 28,
+  "pid": "2681",
+  "last": "2024-12-25",
+  "name": "OptiBeam OB6/3M High Performance Tribander"
+ }
+}

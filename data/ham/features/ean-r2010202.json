@@ -1,0 +1,71 @@
+{
+ "id": "ean-r2010202",
+ "kind": "antenna",
+ "name": "EADELTA11",
+ "title": "EAntenna EADELTA11",
+ "brand": "EAntenna",
+ "price": 355.99,
+ "line": "HF rotatable delta loop",
+ "legacy": false,
+ "summary": "Small rotatable delta loop, 20-6m, needs tuner, 5.9 ft turning radius",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  },
+  {
+   "job": "ant_small_space",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "other",
+  "mount": "base",
+  "ant_bands": [
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m",
+   "6m"
+  ],
+  "resonant": false,
+  "tuner_req": "Tuner required for 6 bands",
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 1,
+  "boom_ft": null,
+  "turn_radius_ft": 5.9,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "balun_w": 1000,
+   "dxe_part_type": "hf-directional-antennas"
+  }
+ },
+ "gotchas": [
+  "tuner required on all 6 bands"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "antenna tuner (wide-range)",
+   "why": "non-resonant on its listed bands",
+   "req": true
+  },
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

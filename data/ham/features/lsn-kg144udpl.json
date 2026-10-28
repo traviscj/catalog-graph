@@ -1,0 +1,58 @@
+{
+ "id": "lsn-kg144udpl",
+ "kind": "antenna",
+ "name": "KG144UDPL",
+ "title": "Larsen VHF/UHF Mobile Antennas",
+ "brand": "Larsen",
+ "price": 271.99,
+ "line": "V/U mobile whip",
+ "legacy": false,
+ "summary": "Larsen 144-160 MHz on-glass mobile antenna with RG-58, PL-259",
+ "jobs": [
+  {
+   "job": "ant_vu_mobile",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "whip",
+  "mount": "mobile",
+  "ant_bands": [
+   "2m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 100,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 3.92,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "PL-259",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "gain_claim": "2 dB (unit unstated)",
+   "freq": "144-160 MHz",
+   "dxe_part_type": "vhf-uhf-mobile-vertical-antennas"
+  }
+ },
+ "gotchas": [
+  "Glass mount — lower efficiency"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "mobile antenna mount (mag / trunk-lip / NMO)",
+   "why": "vehicle mount not included",
+   "req": false
+  }
+ ]
+}

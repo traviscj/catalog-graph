@@ -1,0 +1,61 @@
+{
+ "id": "iva-dxr6c",
+ "kind": "antenna",
+ "name": "DXR6C-MKII",
+ "title": "InnovAntennas DXR6C-MKII",
+ "brand": "InnovAntennas",
+ "price": 1829.99,
+ "line": "HF multiband yagi",
+ "legacy": false,
+ "summary": "Compact 11-element six-band 20-6m yagi on 11.5 ft boom",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m",
+   "6m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 10000.0,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 11,
+  "boom_ft": 11.5,
+  "turn_radius_ft": 15.88,
+  "wind_sqft": 12.56,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": 74.96,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": "terminal studs",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "hf-directional-antennas"
+  }
+ },
+ "gotchas": [
+  "75 lb, 12.6 sq ft — needs a real rotator"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

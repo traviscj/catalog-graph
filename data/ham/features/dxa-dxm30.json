@@ -1,0 +1,67 @@
+{
+ "id": "dxa-dxm30",
+ "kind": "antenna",
+ "name": "DXM30",
+ "title": "DIEX Antennas DXM30",
+ "brand": "DIEX",
+ "price": 240.99,
+ "line": "HF rotatable dipole",
+ "legacy": false,
+ "summary": "Coil-shortened 30m rigid rotatable dipole, 28.9 ft, 300 W",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  },
+  {
+   "job": "ant_small_space",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "dipole",
+  "mount": "base",
+  "ant_bands": [
+   "30m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 300,
+  "max_w_digital": 100,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": 28.87,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "hf-directional-antennas"
+  }
+ },
+ "gotchas": [
+  "300 W PEP max"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ],
+ "rating": {
+  "avg": 5.0,
+  "n": 1,
+  "pid": "6665",
+  "last": "2007-04-29",
+  "name": "DXBeam DXM30-1 , 30 m rotary dipole"
+ }
+}

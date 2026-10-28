@@ -1,0 +1,72 @@
+{
+ "id": "cha-lefs-8010",
+ "kind": "antenna",
+ "name": "LEFS 8010",
+ "title": "Chameleon Antenna LEFS 8010",
+ "brand": "Chameleon",
+ "price": 225.0,
+ "line": "HF end-fed wire",
+ "legacy": false,
+ "summary": "Lightweight end-fed half-wave sloper, 80-10m, with winder and rope",
+ "jobs": [
+  {
+   "job": "ant_hf_portable",
+   "role": "primary"
+  },
+  {
+   "job": "ant_hf_wire",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "end-fed",
+  "mount": "portable",
+  "ant_bands": [
+   "80m",
+   "40m",
+   "20m",
+   "15m",
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "horizontal",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "note": "WARC bands may need a tuner",
+   "dxe_part_type": "hf-portable-stealth-antennas"
+  }
+ },
+ "gotchas": [
+  "~130 ft half-wave on 80m: needs a long run"
+ ],
+ "confidence": "medium",
+ "pairs": [
+  {
+   "id": "1:1 common-mode choke at the shack entry",
+   "why": "keeps feedline RF out of the shack",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 5.0,
+  "n": 1,
+  "pid": "15730",
+  "last": "2023-11-16",
+  "name": "CHA LEFS 8010 (Lightweight End Fed Sloper) EFHW"
+ }
+}

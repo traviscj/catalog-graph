@@ -1,0 +1,53 @@
+{
+ "id": "dxa-dxfs6",
+ "kind": "antenna",
+ "name": "DXFS6",
+ "title": "Diex Antennas Single-Band Full Size Rigid Rotatable Dipoles",
+ "brand": "DIEX",
+ "price": 115.99,
+ "line": "6m rotatable dipole",
+ "legacy": false,
+ "summary": "Diex full-size rigid 6m rotatable dipole, 1.5 kW, 9.5 ft",
+ "jobs": [
+  {
+   "job": "ant_vu_beam",
+   "role": "primary"
+  },
+  {
+   "job": "ant_hf_beam",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "dipole",
+  "mount": "base",
+  "ant_bands": [
+   "6m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 1500,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": 9.51,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "rotatable": true,
+   "dxe_part_type": "hf-directional-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": []
+}

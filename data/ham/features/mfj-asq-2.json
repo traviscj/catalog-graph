@@ -1,0 +1,51 @@
+{
+ "id": "mfj-asq-2",
+ "kind": "antenna",
+ "name": "ASQ-2",
+ "title": "Cushcraft ASQ-2",
+ "brand": "Cushcraft",
+ "price": 139.95,
+ "line": "V/U horizontal halo",
+ "legacy": false,
+ "summary": "Squalo 10-in square halo for 2m SSB, horizontal omni, 200 W",
+ "jobs": [
+  {
+   "job": "ant_vu_base",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "other",
+  "mount": "base",
+  "ant_bands": [
+   "2m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 200,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "size_in": "10x10",
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [
+  "200 W max"
+ ],
+ "confidence": "high",
+ "pairs": []
+}

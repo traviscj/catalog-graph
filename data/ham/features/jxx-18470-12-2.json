@@ -1,0 +1,61 @@
+{
+ "id": "jxx-18470-12-2",
+ "kind": "antenna",
+ "name": "12JXX2",
+ "title": "I0JXX 2M Yagi Antennas",
+ "brand": "I0JXX",
+ "price": 419.99,
+ "line": "V/U yagi",
+ "legacy": false,
+ "summary": "I0JXX 12JXX2 12-element 2m yagi, 18.4 ft boom, 1 kW",
+ "jobs": [
+  {
+   "job": "ant_vu_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "2m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 1000,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 12,
+  "boom_ft": 18.37,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": "N-female",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "vhf-uhf-beam-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ],
+ "rating": {
+  "avg": 5.0,
+  "n": 1,
+  "pid": "6850",
+  "last": "2007-11-01",
+  "name": "SOTAbeams SB5 5 element 2m Yagi"
+ }
+}

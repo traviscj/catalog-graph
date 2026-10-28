@@ -1,0 +1,62 @@
+{
+ "id": "dmn-mr77",
+ "kind": "antenna",
+ "name": "MR77",
+ "title": "Diamond Antenna MR77",
+ "brand": "Diamond",
+ "price": 37.99,
+ "line": "V/U mobile whip",
+ "legacy": false,
+ "summary": "19.5 in. dual-band mag-mount combo with 13 ft RG58",
+ "jobs": [
+  {
+   "job": "ant_vu_mobile",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "whip",
+  "mount": "mobile",
+  "ant_bands": [
+   "2m",
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 1.62,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "PL-259",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "vhf-uhf-mobile-vertical-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "mobile antenna mount (mag / trunk-lip / NMO)",
+   "why": "vehicle mount not included",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 4.6,
+  "n": 31,
+  "pid": "4078",
+  "last": "2024-11-23",
+  "name": "Diamond MR77 2m/70cm Mag Mount Ant."
+ }
+}

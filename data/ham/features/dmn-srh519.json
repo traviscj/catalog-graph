@@ -1,0 +1,56 @@
+{
+ "id": "dmn-srh519",
+ "kind": "antenna",
+ "name": "SRH519",
+ "title": "Diamond SRH519",
+ "brand": "Diamond",
+ "price": 26.99,
+ "line": "HT antenna",
+ "legacy": false,
+ "summary": "7.75 in. flexible dual-band 2m/70cm HT antenna, SMA male",
+ "jobs": [
+  {
+   "job": "ant_ht",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "rubber-duck",
+  "mount": "handheld",
+  "ant_bands": [
+   "2m",
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 10,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 0.65,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "SMA male",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "handheld-and-scanner-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [],
+ "rating": {
+  "avg": 4.1,
+  "n": 29,
+  "pid": "1774",
+  "last": "2019-03-01",
+  "name": "Diamond SRH519 HT Antenna"
+ }
+}

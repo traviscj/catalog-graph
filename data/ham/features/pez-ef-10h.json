@@ -1,0 +1,57 @@
+{
+ "id": "pez-ef-10h",
+ "kind": "antenna",
+ "name": "EF-10H",
+ "title": "Par EndFedz EF-10H",
+ "brand": "Par EndFedz",
+ "price": 74.99,
+ "line": "HF end-fed wire",
+ "legacy": false,
+ "summary": "16.6 ft 10m end-fed half-wave, 300 W",
+ "jobs": [
+  {
+   "job": "ant_hf_wire",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "end-fed",
+  "mount": "base",
+  "ant_bands": [
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": "Antenna & installation dependent",
+  "max_w": 300,
+  "max_w_digital": 150,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": 16.58,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": null,
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": false,
+  "extra": {
+   "min_feed_height_ft": 20,
+   "dxe_part_type": "wire-antennas"
+  }
+ },
+ "gotchas": [
+  "feedpoint ≥20 ft recommended"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "1:1 common-mode choke at the shack entry",
+   "why": "keeps feedline RF out of the shack",
+   "req": false
+  }
+ ]
+}

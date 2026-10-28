@@ -1,0 +1,61 @@
+{
+ "id": "ean-ea80dxs",
+ "kind": "antenna",
+ "name": "EA80DXS",
+ "title": "EAntenna EA80DXS Short Dipole Wire Antennas",
+ "brand": "EAntenna",
+ "price": 319.99,
+ "line": "HF dipole",
+ "legacy": false,
+ "summary": "EAntenna EA80DXS shortened 65.5 ft 80m dipole, 1.5 kW",
+ "jobs": [
+  {
+   "job": "ant_hf_wire",
+   "role": "primary"
+  },
+  {
+   "job": "ant_small_space",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "dipole",
+  "mount": "base",
+  "ant_bands": [
+   "80m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 1500,
+  "max_w_digital": 1000,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": 65.5,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "wire-antennas"
+  }
+ },
+ "gotchas": [
+  "Shortened — narrow 80m bandwidth"
+ ],
+ "confidence": "high",
+ "pairs": [],
+ "rating": {
+  "avg": 5.0,
+  "n": 1,
+  "pid": "15663",
+  "last": "2023-09-19",
+  "name": "EA Antennna EA80DXS"
+ }
+}

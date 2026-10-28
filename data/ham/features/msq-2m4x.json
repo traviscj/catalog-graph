@@ -1,0 +1,55 @@
+{
+ "id": "msq-2m4x",
+ "kind": "antenna",
+ "name": "2M4X",
+ "title": "M2 2M4X",
+ "brand": "M2",
+ "price": 229.99,
+ "line": "V/U yagi",
+ "legacy": false,
+ "summary": "M2 2m end-mount yagi, 4 ft boom, 9.6 dBi, 2.5 kW",
+ "jobs": [
+  {
+   "job": "ant_vu_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "2m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 2500,
+  "max_w_digital": null,
+  "gain_dbi": 9.6,
+  "elements": 4,
+  "boom_ft": 4.0,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": 3.0,
+  "radials": null,
+  "directional": true,
+  "polarization": null,
+  "connector": "N female",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "elements_note": "from model name",
+   "dxe_part_type": "vhf-uhf-beam-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

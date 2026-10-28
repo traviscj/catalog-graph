@@ -1,0 +1,66 @@
+{
+ "id": "mfj-mfj-1456",
+ "kind": "antenna",
+ "name": "MFJ-1456",
+ "title": "MFJ MFJ-1456",
+ "brand": "MFJ",
+ "price": 139.95,
+ "line": "HF/VHF/UHF mobile",
+ "legacy": false,
+ "summary": "Mobile 6m/2m/70cm plus two of four HF coils (40/20/15/10m)",
+ "jobs": [
+  {
+   "job": "ant_vu_mobile",
+   "role": "primary"
+  },
+  {
+   "job": "ant_hf_mobile",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "whip",
+  "mount": "mobile",
+  "ant_bands": [
+   "40m",
+   "20m",
+   "15m",
+   "10m",
+   "6m",
+   "2m",
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [
+  "mount not included (tri-magnet recommended)"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "mobile antenna mount (mag / trunk-lip / NMO)",
+   "why": "vehicle mount not included",
+   "req": false
+  }
+ ]
+}

@@ -1,0 +1,48 @@
+{
+ "id": "hsr-dcl-b",
+ "kind": "antenna",
+ "name": "DCL-B",
+ "title": "Hustler DCL-B",
+ "brand": "Hustler",
+ "price": 108.99,
+ "line": "discone (RX)",
+ "legacy": false,
+ "summary": "Base-station scanner discone, 40–950 MHz, with 50 ft coax",
+ "jobs": [
+  {
+   "job": "ant_rx",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "discone",
+  "mount": "base",
+  "ant_bands": [],
+  "resonant": null,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 4.5,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": null,
+  "rx_only": true,
+  "assembled": null,
+  "extra": {
+   "rx_range": "40-950 MHz",
+   "coax_ft": 50,
+   "dxe_part_type": "discone-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": []
+}

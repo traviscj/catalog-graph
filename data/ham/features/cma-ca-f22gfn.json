@@ -1,0 +1,50 @@
+{
+ "id": "cma-ca-f22gfn",
+ "kind": "antenna",
+ "name": "CA-F22GFN",
+ "title": "Comet Antennas CA-F22GFN",
+ "brand": "Comet",
+ "price": 245.95,
+ "line": "V/U base vertical",
+ "legacy": false,
+ "summary": "8.9 ft fiberglass 136-175 MHz tunable base vertical, N female",
+ "jobs": [
+  {
+   "job": "ant_vu_base",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "collinear",
+  "mount": "base",
+  "ant_bands": [
+   "2m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 150.0,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 8.9,
+  "weight_lb": 2.5,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "N female",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "vhf-uhf-base-vertical-antennas"
+  }
+ },
+ "gotchas": [
+  "Field-tuned; 4 MHz bandwidth"
+ ],
+ "confidence": "high",
+ "pairs": []
+}

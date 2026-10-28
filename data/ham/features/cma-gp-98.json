@@ -1,0 +1,57 @@
+{
+ "id": "cma-gp-98",
+ "kind": "antenna",
+ "name": "GP-98",
+ "title": "Comet Antennas GP-98",
+ "brand": "Comet",
+ "price": 322.49,
+ "line": "V/U base vertical",
+ "legacy": false,
+ "summary": "9.7 ft tri-band 2m/70cm/23cm base collinear, N female",
+ "jobs": [
+  {
+   "job": "ant_vu_base",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "collinear",
+  "mount": "base",
+  "ant_bands": [
+   "2m",
+   "70cm",
+   "23cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 9.7,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "N female",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "vhf-uhf-base-vertical-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [],
+ "rating": {
+  "avg": 4.1,
+  "n": 8,
+  "pid": "5709",
+  "last": "2024-09-09",
+  "name": "Comet GP-98 Tri-Band Antenna (2m, 70cm, 23cm)"
+ }
+}

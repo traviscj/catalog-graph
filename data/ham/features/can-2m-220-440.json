@@ -1,0 +1,65 @@
+{
+ "id": "can-2m-220-440",
+ "kind": "antenna",
+ "name": "2M/220/440",
+ "title": "COMPACtenna 2M/220/440",
+ "brand": "COMPACtenna",
+ "price": 199.0,
+ "line": "V/U mobile whip",
+ "legacy": false,
+ "summary": "7.5 in. tri-band 2m/1.25m/70cm low-profile NMO antenna",
+ "jobs": [
+  {
+   "job": "ant_vu_mobile",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "whip",
+  "mount": "mobile",
+  "ant_bands": [
+   "2m",
+   "1.25m",
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 85,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 0.62,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "NMO",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "vhf-uhf-mobile-vertical-antennas"
+  }
+ },
+ "gotchas": [
+  "50 W max on 220/440"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "mobile antenna mount (mag / trunk-lip / NMO)",
+   "why": "vehicle mount not included",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 4.6,
+  "n": 18,
+  "pid": "13030",
+  "last": "2024-02-17",
+  "name": "COMPACTenna 2M/220/440"
+ }
+}

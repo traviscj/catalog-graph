@@ -1,0 +1,61 @@
+{
+ "id": "mkr-12-060",
+ "kind": "antenna",
+ "name": "Moonraker 30M whip",
+ "title": "Moonraker Moonraker 30M whip",
+ "brand": "Moonraker",
+ "price": 61.99,
+ "line": "HF mobile whip",
+ "legacy": false,
+ "summary": "8 ft wire-wound 30m mobile whip, 60 kHz bandwidth",
+ "jobs": [
+  {
+   "job": "ant_hf_mobile",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "whip",
+  "mount": "mobile",
+  "ant_bands": [
+   "30m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 250.0,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 8.038,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "3/8-24",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "mobile-whip-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "mobile antenna mount (mag / trunk-lip / NMO)",
+   "why": "vehicle mount not included",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 5.0,
+  "n": 1,
+  "pid": "6665",
+  "last": "2007-04-29",
+  "name": "DXBeam DXM30-1 , 30 m rotary dipole"
+ }
+}

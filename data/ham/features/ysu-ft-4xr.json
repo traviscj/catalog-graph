@@ -1,0 +1,127 @@
+{
+ "id": "ysu-ft-4xr",
+ "name": "FT-4XR",
+ "title": "Yaesu FT-4XR",
+ "brand": "Yaesu",
+ "price": 109.95,
+ "line": "HT",
+ "legacy": false,
+ "summary": "Budget compact 5W 2m/70cm analog FM handheld; 200 memories, 1750mAh battery, FM broadcast RX.",
+ "jobs": [
+  {
+   "job": "vhf_uhf_handheld",
+   "role": "primary"
+  },
+  {
+   "job": "first_radio",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "handheld",
+  "bands_tx": [
+   "2m",
+   "70cm"
+  ],
+  "hf": false,
+  "vhf_uhf": true,
+  "rx_range": "65–108, 136–174, 400–480 MHz",
+  "power_w": {
+   "hf": null,
+   "6m": null,
+   "2m": 5,
+   "70cm": 5,
+   "23cm": null
+  },
+  "modes": [
+   "FM"
+  ],
+  "digital_voice": [],
+  "receiver_arch": "FM (HT/mobile)",
+  "band_scope": null,
+  "display": "monochrome LCD",
+  "dual_receive": false,
+  "dual_watch": false,
+  "atu": false,
+  "usb_single_cable": false,
+  "lan_remote": false,
+  "wifi_bt": [],
+  "gps": false,
+  "aprs": false,
+  "full_duplex_sat": false,
+  "crossband_repeat": false,
+  "detachable_head": false,
+  "power_source": "Li-ion pack",
+  "tx_current_a": null,
+  "battery": "SBR-28LI 1750 mAh Li-ion (included) + SBH-22 charger",
+  "ip_rating": "IP54",
+  "antenna_ports": 1,
+  "rx_antenna_in": false,
+  "roofing_filters": null,
+  "memories": 200,
+  "weight_kg": 0.25,
+  "size_mm": "52×90×30",
+  "special": [
+   "1W front speaker",
+   "3 power levels 5/2.5/0.5W",
+   "WX alert",
+   "ARTS",
+   "FM broadcast RX"
+  ],
+  "requires": [],
+  "extra": {
+   "connector": "SMA-female on radio",
+   "programming": "SCU-35 cable optional",
+   "dual_receive_note": "'dual receive' is priority-channel watch, not two receivers",
+   "list_price": 149.95,
+   "avail": "InStock"
+  }
+ },
+ "gotchas": [
+  "analog FM only — FT-5DR / FT-70DR add C4FM digital",
+  "no airband or AM RX — FT-5DR covers airband",
+  "PC programming needs optional SCU-35 cable",
+  "small 1750 mAh pack and no dual watch — FT-65R has larger battery/front speaker; FT-5DR true dual receive",
+  "IP54 only (splash) — IC-T10 is IP67"
+ ],
+ "best_for": [
+  "new Technicians on a budget",
+  "spare/loaner HT",
+  "repeater checks and nets"
+ ],
+ "not_for": [
+  "digital voice",
+  "APRS",
+  "heavy rain/emcomm"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "SCU-35 programming cable",
+   "why": "PC programming via CHIRP/ADMS",
+   "req": false
+  },
+  {
+   "id": "aftermarket dual-band whip (e.g. Diamond SRH77CA)",
+   "why": "stock stubby antenna is weak",
+   "req": false
+  },
+  {
+   "id": "SBR-28LI spare battery",
+   "why": "extend events/field days",
+   "req": false
+  },
+  {
+   "id": "ysu-ft-65r",
+   "why": "sibling with bigger battery, similar price",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 4.4,
+  "n": 25,
+  "pid": "13969",
+  "last": "2023-06-05",
+  "name": "YAESU FT-4XR – VHF/UHF Dual Band FM Handheld Transceiver"
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "id": "mfj-mfj-1796",
+ "kind": "antenna",
+ "name": "MFJ-1796",
+ "title": "MFJ MFJ-1796",
+ "brand": "MFJ",
+ "price": 369.95,
+ "line": "HF multiband vertical",
+ "legacy": false,
+ "summary": "12-ft end-loaded half-wave 40/20/15/10/6/2m, no radials, 1.5 kW",
+ "jobs": [
+  {
+   "job": "ant_hf_vertical",
+   "role": "primary"
+  },
+  {
+   "job": "ant_small_space",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "vertical",
+  "mount": "base",
+  "ant_bands": [
+   "40m",
+   "20m",
+   "15m",
+   "10m",
+   "6m",
+   "2m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 1500,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 12,
+  "weight_lb": null,
+  "radials": false,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "footprint_in": 24,
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "1:1 common-mode choke at the shack entry",
+   "why": "keeps feedline RF out of the shack",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 3.6,
+  "n": 44,
+  "pid": "1374",
+  "last": "2024-01-06",
+  "name": "MFJ-1796 40 - 2 Meter Vertical Antenna"
+ }
+}

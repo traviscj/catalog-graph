@@ -1,0 +1,48 @@
+{
+ "id": "cma-ca-712ef",
+ "kind": "antenna",
+ "name": "CA-712EF",
+ "title": "Comet CA-712EF",
+ "brand": "Comet",
+ "price": 222.95,
+ "line": "V/U base vertical",
+ "legacy": false,
+ "summary": "10.5 ft fiberglass 70cm base collinear, 200 W, N female",
+ "jobs": [
+  {
+   "job": "ant_vu_base",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "collinear",
+  "mount": "base",
+  "ant_bands": [
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 200,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 10.5,
+  "weight_lb": 3.0,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "N female",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "vhf-uhf-base-vertical-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": []
+}

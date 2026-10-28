@@ -1,0 +1,67 @@
+{
+ "id": "mfj-mfj-2215",
+ "kind": "antenna",
+ "name": "MFJ-2215",
+ "title": "MFJ MFJ-2215",
+ "brand": "MFJ",
+ "price": 69.95,
+ "line": "HF rotatable dipole",
+ "legacy": false,
+ "summary": "Hamstick mini-dipole for 15m, MFJ-347 mount, limited space",
+ "jobs": [
+  {
+   "job": "ant_small_space",
+   "role": "primary"
+  },
+  {
+   "job": "ant_hf_portable",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "dipole",
+  "mount": "base",
+  "ant_bands": [
+   "15m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "incl": "2 HF sticks + MFJ-347 mount",
+   "rotatable": true,
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ],
+ "rating": {
+  "avg": 4.0,
+  "n": 1,
+  "pid": "10566",
+  "last": "2012-07-13",
+  "name": "MFJ-2215"
+ }
+}

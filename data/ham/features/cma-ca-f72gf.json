@@ -1,0 +1,51 @@
+{
+ "id": "cma-ca-f72gf",
+ "kind": "antenna",
+ "name": "CA-F72GF",
+ "title": "Comet CA-F72GF UHF Base Vertical Antennas",
+ "brand": "Comet",
+ "price": 149.95,
+ "line": "V/U base vertical",
+ "legacy": false,
+ "summary": "Comet CA-F72GF tunable 440-512 MHz fiberglass base vertical, N female",
+ "jobs": [
+  {
+   "job": "ant_vu_base",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "collinear",
+  "mount": "base",
+  "ant_bands": [
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 150,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 3.5,
+  "weight_lb": 2.9,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "N-female",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "freq": "440-512 MHz tunable",
+   "dxe_part_type": "vhf-uhf-base-vertical-antennas"
+  }
+ },
+ "gotchas": [
+  "Tunable 10 MHz BW — must be cut/tuned for 70cm"
+ ],
+ "confidence": "high",
+ "pairs": []
+}

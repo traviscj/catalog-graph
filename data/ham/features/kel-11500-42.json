@@ -1,0 +1,51 @@
+{
+ "id": "kel-11500-42",
+ "kind": "antenna",
+ "name": "DP-4020",
+ "title": "Kelemen DP-4020",
+ "brand": "Kelemen",
+ "price": 169.99,
+ "line": "HF trap dipole",
+ "legacy": false,
+ "summary": "52.5 ft 40/20m trap dipole with balun, 400 W",
+ "jobs": [
+  {
+   "job": "ant_hf_wire",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "dipole",
+  "mount": "base",
+  "ant_bands": [
+   "40m",
+   "20m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 400,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": 52.5,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "wire-antennas"
+  }
+ },
+ "gotchas": [
+  "400 W max"
+ ],
+ "confidence": "high",
+ "pairs": []
+}

@@ -1,0 +1,62 @@
+{
+ "id": "cma-ca-2x4srnmo",
+ "kind": "antenna",
+ "name": "CA-2X4SR NMO",
+ "title": "Comet Antennas CA-2X4SR NMO",
+ "brand": "Comet",
+ "price": 89.95,
+ "line": "V/U mobile whip",
+ "legacy": false,
+ "summary": "40 in. dual-band NMO mobile antenna, 150 W",
+ "jobs": [
+  {
+   "job": "ant_vu_mobile",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "whip",
+  "mount": "mobile",
+  "ant_bands": [
+   "2m",
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 150,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 3.33,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "NMO",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "vhf-uhf-mobile-vertical-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "mobile antenna mount (mag / trunk-lip / NMO)",
+   "why": "vehicle mount not included",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 4.8,
+  "n": 51,
+  "pid": "2082",
+  "last": "2025-03-09",
+  "name": "Comet  CA-2x4SR"
+ }
+}

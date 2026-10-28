@@ -1,0 +1,55 @@
+{
+ "id": "ean-r2010802",
+ "kind": "antenna",
+ "name": "EA6J",
+ "title": "EAntenna EA6J 6-Meter Vertical Antennas",
+ "brand": "EAntenna",
+ "price": 319.99,
+ "line": "V/U base vertical",
+ "legacy": false,
+ "summary": "EAntenna EA6J aluminum 6m J-pole omni, direct coax feed, 2 kW",
+ "jobs": [
+  {
+   "job": "ant_vu_base",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "j-pole",
+  "mount": "base",
+  "ant_bands": [
+   "6m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 2000,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "vhf-uhf-base-vertical-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [],
+ "rating": {
+  "avg": 4.2,
+  "n": 16,
+  "pid": "7150",
+  "last": "2016-05-24",
+  "name": "Blue Star Antennas 6 Meter  4 Elements Yagi Beam Antenna"
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "id": "mkr-11-2241",
+ "kind": "antenna",
+ "name": "SQBM100P MKII",
+ "title": "Moonraker SQBM100P MKII Dual Band VHF/UHF Base Vertical Antennas",
+ "brand": "Moonraker",
+ "price": 127.99,
+ "line": "V/U base vertical",
+ "legacy": false,
+ "summary": "Moonraker SQBM100P 4.3 ft dual-band 2m/70cm ground-plane base vertical",
+ "jobs": [
+  {
+   "job": "ant_vu_base",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "ground-plane",
+  "mount": "base",
+  "ant_bands": [
+   "2m",
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 150,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 4.27,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "vhf-uhf-base-vertical-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": []
+}

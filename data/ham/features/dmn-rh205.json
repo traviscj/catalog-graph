@@ -1,0 +1,57 @@
+{
+ "id": "dmn-rh205",
+ "kind": "antenna",
+ "name": "RH205",
+ "title": "Diamond RH205",
+ "brand": "Diamond",
+ "price": 26.99,
+ "line": "HT antenna",
+ "legacy": false,
+ "summary": "52.8 in. telescopic 2m HT antenna, BNC, 10 W",
+ "jobs": [
+  {
+   "job": "ant_ht",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "whip",
+  "mount": "handheld",
+  "ant_bands": [
+   "2m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 10,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 4.4,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "BNC male",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "handheld-and-scanner-antennas"
+  }
+ },
+ "gotchas": [
+  "52.8 in. extended: fragile, awkward while walking"
+ ],
+ "confidence": "high",
+ "pairs": [],
+ "rating": {
+  "avg": 4.3,
+  "n": 4,
+  "pid": "4046",
+  "last": "2016-01-20",
+  "name": "Diamond RH205"
+ }
+}

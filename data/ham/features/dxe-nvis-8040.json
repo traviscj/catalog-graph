@@ -1,0 +1,53 @@
+{
+ "id": "dxe-nvis-8040",
+ "kind": "antenna",
+ "name": "NVIS 8040",
+ "title": "DX Engineering 8040 NVIS Antennas",
+ "brand": "DX Engineering",
+ "price": 549.36,
+ "line": "HF NVIS dipole",
+ "legacy": false,
+ "summary": "DX Engineering full-size 80/40m NVIS dual dipole with 15 ft fiberglass mast",
+ "jobs": [
+  {
+   "job": "ant_hf_portable",
+   "role": "primary"
+  },
+  {
+   "job": "ant_hf_wire",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "nvis",
+  "mount": "portable",
+  "ant_bands": [
+   "80m",
+   "40m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "wire-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": []
+}

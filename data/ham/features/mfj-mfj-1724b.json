@@ -1,0 +1,64 @@
+{
+ "id": "mfj-mfj-1724b",
+ "kind": "antenna",
+ "name": "MFJ-1724B",
+ "title": "MFJ MFJ-1724B",
+ "brand": "MFJ",
+ "price": 29.95,
+ "line": "V/U mobile whip",
+ "legacy": false,
+ "summary": "19-in 144/440 mag-mount, 15 ft coax, 300 W PEP",
+ "jobs": [
+  {
+   "job": "ant_vu_mobile",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "whip",
+  "mount": "mobile",
+  "ant_bands": [
+   "2m",
+   "70cm"
+  ],
+  "resonant": null,
+  "tuner_req": null,
+  "max_w": 300,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 1.58,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "PL-259",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "coax_ft": 15,
+   "mount": "magnet",
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "mobile antenna mount (mag / trunk-lip / NMO)",
+   "why": "vehicle mount not included",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 4.4,
+  "n": 21,
+  "pid": "3226",
+  "last": "2014-10-27",
+  "name": "MFJ-1724B 2 M/70 CM (144-440) Mobile Magmount Antenna"
+ }
+}

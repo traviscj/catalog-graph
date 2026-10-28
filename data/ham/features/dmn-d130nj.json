@@ -1,0 +1,56 @@
+{
+ "id": "dmn-d130nj",
+ "kind": "antenna",
+ "name": "D130NJ",
+ "title": "Diamond Antenna D130NJ Super Discone Antennas",
+ "brand": "Diamond",
+ "price": 129.99,
+ "line": "discone (RX)",
+ "legacy": false,
+ "summary": "Super discone: wideband 25-1300 MHz receive, transmit on 6m and 2m only",
+ "jobs": [
+  {
+   "job": "ant_rx",
+   "role": "primary"
+  },
+  {
+   "job": "ant_vu_base",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "discone",
+  "mount": "base",
+  "ant_bands": [
+   "6m",
+   "2m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 5.58,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "N-female",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "rx_range": "25-1300 MHz",
+   "dxe_part_type": "discone-antennas"
+  }
+ },
+ "gotchas": [
+  "TX only on 6m/2m — high SWR elsewhere"
+ ],
+ "confidence": "high",
+ "pairs": []
+}

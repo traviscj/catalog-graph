@@ -1,0 +1,70 @@
+{
+ "id": "nce-ch0010013",
+ "kind": "antenna",
+ "name": "KC4",
+ "title": "Chelegance KC4",
+ "brand": "Chelegance",
+ "price": 458.99,
+ "line": "HF multiband vertical",
+ "legacy": false,
+ "summary": "25.6 ft 4-band 40/20/15/10m base vertical, no radials needed",
+ "jobs": [
+  {
+   "job": "ant_hf_vertical",
+   "role": "primary"
+  },
+  {
+   "job": "ant_small_space",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "vertical",
+  "mount": "base",
+  "ant_bands": [
+   "40m",
+   "20m",
+   "15m",
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": "None",
+  "max_w": 400.0,
+  "max_w_digital": 100.0,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 25.6,
+  "weight_lb": 15.43,
+  "radials": false,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "hf-vertical-antennas-and-packages"
+  }
+ },
+ "gotchas": [
+  "Requires user trimming and tuning"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "1:1 common-mode choke at the shack entry",
+   "why": "keeps feedline RF out of the shack",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 4.7,
+  "n": 3,
+  "pid": "16181",
+  "last": "2026-08-07",
+  "name": "CHELEGANCE KC4 4 BAND VERTICAL ANTENNA"
+ }
+}

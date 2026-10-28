@@ -1,0 +1,61 @@
+{
+ "id": "dmn-cp22e",
+ "kind": "antenna",
+ "name": "CP22E",
+ "title": "Diamond Antenna CP22E",
+ "brand": "Diamond",
+ "price": 74.99,
+ "line": "V/U base vertical",
+ "legacy": false,
+ "summary": "8.9 ft aluminum 2m base/repeater vertical, 200 W",
+ "jobs": [
+  {
+   "job": "ant_vu_base",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "vertical",
+  "mount": "base",
+  "ant_bands": [
+   "2m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 200.0,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 8.9,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "vhf-uhf-base-vertical-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "1:1 common-mode choke at the shack entry",
+   "why": "keeps feedline RF out of the shack",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 4.2,
+  "n": 30,
+  "pid": "1885",
+  "last": "2021-12-06",
+  "name": "Diamond CP22E   2M Base"
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "id": "nce-0032524o48j",
+ "kind": "antenna",
+ "name": "JFA-48J",
+ "title": "Chelegance JFA-48J",
+ "brand": "Chelegance",
+ "price": 10.99,
+ "line": "HT antenna",
+ "legacy": false,
+ "summary": "18.9 in. tactical folding 2m/70cm HT whip, SMA male",
+ "jobs": [
+  {
+   "job": "ant_ht",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "whip",
+  "mount": "handheld",
+  "ant_bands": [
+   "2m",
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 8.0,
+  "max_w_digital": null,
+  "gain_dbi": 2.0,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 1.57,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "SMA male",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "handheld-and-scanner-antennas"
+  }
+ },
+ "gotchas": [
+  "8 W max"
+ ],
+ "confidence": "high",
+ "pairs": []
+}

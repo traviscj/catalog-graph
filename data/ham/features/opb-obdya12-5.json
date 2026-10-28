@@ -1,0 +1,59 @@
+{
+ "id": "opb-obdya12-5",
+ "kind": "antenna",
+ "name": "OBDYA12-5",
+ "title": "Optibeam OBDYA12-5",
+ "brand": "OptiBeam",
+ "price": 3032.99,
+ "line": "HF multiband yagi",
+ "legacy": false,
+ "summary": "12-element 5-band 20-10m driven yagi, 24.6 ft boom",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 2500,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 12,
+  "boom_ft": 24.61,
+  "turn_radius_ft": 21.5,
+  "wind_sqft": 16.2,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": 121.0,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "longest_el_ft": 36.75,
+   "dxe_part_type": "hf-directional-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

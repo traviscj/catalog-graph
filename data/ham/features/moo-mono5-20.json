@@ -1,0 +1,64 @@
+{
+ "id": "moo-mono5-20",
+ "kind": "antenna",
+ "name": "Mono5-20",
+ "title": "Momobeam Mono5-20",
+ "brand": "Momobeam",
+ "price": 4210.99,
+ "line": "HF monoband yagi",
+ "legacy": false,
+ "summary": "5-element 20m contest monobander, 41 ft boom, 176 lb",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "20m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 10000,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 5,
+  "boom_ft": 41.01,
+  "turn_radius_ft": 27.23,
+  "wind_sqft": 12.39,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": 176.37,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "longest_el_ft": 36.09,
+   "dxe_part_type": "hf-directional-antennas"
+  }
+ },
+ "gotchas": [
+  "176 lb, 41 ft boom: big tower + prop-pitch class rotator"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ],
+ "rating": {
+  "avg": 5.0,
+  "n": 1,
+  "pid": "15428",
+  "last": "2022-11-10",
+  "name": "Momobeam mono 5-10"
+ }
+}

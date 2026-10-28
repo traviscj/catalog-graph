@@ -1,0 +1,60 @@
+{
+ "id": "mfj-mfj-1717p",
+ "kind": "antenna",
+ "name": "MFJ-1717P",
+ "title": "MFJ MFJ-1717P",
+ "brand": "MFJ",
+ "price": 15.0,
+ "line": "V/U mobile whip",
+ "legacy": false,
+ "summary": "15.75-in dual-band flex duck on PL-259 (blowout)",
+ "jobs": [
+  {
+   "job": "ant_vu_mobile",
+   "role": "primary"
+  },
+  {
+   "job": "ant_ht",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "rubber-duck",
+  "mount": "mobile",
+  "ant_bands": [
+   "2m",
+   "70cm"
+  ],
+  "resonant": null,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": 2.15,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 1.31,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "PL-259",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "note": "title says 2M only; text describes 144/440 dual-band, BNC",
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [],
+ "confidence": "medium",
+ "pairs": [
+  {
+   "id": "mobile antenna mount (mag / trunk-lip / NMO)",
+   "why": "vehicle mount not included",
+   "req": false
+  }
+ ]
+}

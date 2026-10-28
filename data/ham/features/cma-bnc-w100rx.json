@@ -1,0 +1,54 @@
+{
+ "id": "cma-bnc-w100rx",
+ "kind": "antenna",
+ "name": "BNC-W100RX",
+ "title": "Comet BNC-W100RX",
+ "brand": "Comet",
+ "price": 39.95,
+ "line": "scanner antenna (RX)",
+ "legacy": false,
+ "summary": "Fold-over telescoping BNC scanner whip, 8–40 in.",
+ "jobs": [
+  {
+   "job": "ant_rx",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "whip",
+  "mount": "handheld",
+  "ant_bands": [],
+  "resonant": null,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 3.33,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "BNC",
+  "rx_only": true,
+  "assembled": null,
+  "extra": {
+   "rx_range": "wideband scanner",
+   "dxe_part_type": "handheld-and-scanner-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [],
+ "rating": {
+  "avg": 4.0,
+  "n": 1,
+  "pid": "16307",
+  "last": "2026-04-22",
+  "name": "Comet – BNC-W100RX"
+ }
+}

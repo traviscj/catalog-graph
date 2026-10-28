@@ -1,0 +1,56 @@
+{
+ "id": "ela-2m-440l5n",
+ "kind": "antenna",
+ "name": "2M/440L5N",
+ "title": "Elk Antennas 2M/440L5N",
+ "brand": "Elk",
+ "price": 145.95,
+ "line": "V/U log-periodic",
+ "legacy": false,
+ "summary": "5-element 2m/70cm LPDA on 24 in. boom (sat/portable favorite)",
+ "jobs": [
+  {
+   "job": "ant_vu_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "log-periodic",
+  "mount": "portable",
+  "ant_bands": [
+   "2m",
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 200,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 5,
+  "boom_ft": 2.0,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": "N female",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "max_w_70cm": 100,
+   "dxe_part_type": "vhf-uhf-beam-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

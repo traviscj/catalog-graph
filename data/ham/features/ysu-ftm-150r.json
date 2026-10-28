@@ -1,0 +1,130 @@
+{
+ "id": "ysu-ftm-150r",
+ "name": "FTM-150R",
+ "title": "Yaesu FTM-150R",
+ "brand": "Yaesu",
+ "price": 269.95,
+ "line": "VHF/UHF mobile",
+ "legacy": false,
+ "summary": "55/50 W 2m/70cm analog FM dual-band mobile with detachable head, V+V/U+U receive, crossband repeat.",
+ "jobs": [
+  {
+   "job": "vhf_uhf_mobile",
+   "role": "primary"
+  },
+  {
+   "job": "first_radio",
+   "role": "secondary"
+  },
+  {
+   "job": "emcomm",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "mobile",
+  "bands_tx": [
+   "2m",
+   "70cm"
+  ],
+  "hf": false,
+  "vhf_uhf": true,
+  "rx_range": "108–550 MHz",
+  "power_w": {
+   "hf": null,
+   "6m": null,
+   "2m": 55,
+   "70cm": 50,
+   "23cm": null
+  },
+  "modes": [
+   "FM",
+   "AM (air RX)"
+  ],
+  "digital_voice": [],
+  "receiver_arch": "FM (HT/mobile)",
+  "band_scope": "47-ch band scope",
+  "display": "dot-matrix graphic LCD",
+  "dual_receive": true,
+  "dual_watch": true,
+  "atu": false,
+  "usb_single_cable": false,
+  "lan_remote": false,
+  "wifi_bt": [],
+  "gps": false,
+  "aprs": false,
+  "full_duplex_sat": false,
+  "crossband_repeat": true,
+  "detachable_head": true,
+  "power_source": "13.8 VDC external",
+  "tx_current_a": 11.0,
+  "battery": null,
+  "ip_rating": null,
+  "antenna_ports": 1,
+  "rx_antenna_in": false,
+  "roofing_filters": null,
+  "memories": null,
+  "weight_kg": 1.2,
+  "size_mm": "139×42×133",
+  "special": [
+   "Super-DX RF boost",
+   "front+body speakers (6 W)",
+   "Primary Memory Group",
+   "SJMK-500 swing-head option"
+  ],
+  "requires": [
+   "13.8V 12A supply (base use)"
+  ],
+  "extra": {
+   "dual_watch_note": "V+V, U+U, V+U per DXE",
+   "included": "DTMF mic",
+   "list_price": 369.95,
+   "avail": "InStock"
+  }
+ },
+ "gotchas": [
+  "Analog FM only — no C4FM/APRS; ysu-ftm-510drasp / ysu-ftm-310dr add digital",
+  "No ASP audio-processing unit — ysu-ftm-150rasp is the same radio with Yaesu's ASP DSP audio",
+  "Swing-head mount SJMK-500 and separation cable extras are optional",
+  "Base use needs a 13.8 V ~12 A supply (not included)"
+ ],
+ "best_for": [
+  "dual-band FM car rig on a budget",
+  "crossband repeat for events"
+ ],
+ "not_for": [
+  "digital voice",
+  "APRS",
+  "HF"
+ ],
+ "confidence": "medium",
+ "pairs": [
+  {
+   "id": "ysu-ftm-150rasp",
+   "why": "same rig with ASP audio processing",
+   "req": false
+  },
+  {
+   "id": "13.8 V 12 A power supply",
+   "why": "base-station use",
+   "req": false
+  },
+  {
+   "id": "dual-band 2m/70cm mobile antenna (NMO)",
+   "why": "single antenna port",
+   "req": false
+  },
+  {
+   "id": "SJMK-500 swing-head kit",
+   "why": "angle-adjustable remote head",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 5.0,
+  "n": 2,
+  "pid": "16160",
+  "last": "2025-10-07",
+  "name": "Yaesu FTM-150R ASP"
+ }
+}

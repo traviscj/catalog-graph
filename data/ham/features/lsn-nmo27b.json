@@ -1,0 +1,55 @@
+{
+ "id": "lsn-nmo27b",
+ "kind": "antenna",
+ "name": "NMO27B",
+ "title": "Larsen NMO27B",
+ "brand": "Larsen",
+ "price": 131.99,
+ "line": "HF mobile whip",
+ "legacy": false,
+ "summary": "52.5 in. quarter-wave 27–30 MHz NMO whip (10m/CB)",
+ "jobs": [
+  {
+   "job": "ant_hf_mobile",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "whip",
+  "mount": "mobile",
+  "ant_bands": [
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 150,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 4.38,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "NMO",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "alt_band": "11m CB",
+   "dxe_part_type": "mobile-whip-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "mobile antenna mount (mag / trunk-lip / NMO)",
+   "why": "vehicle mount not included",
+   "req": false
+  }
+ ]
+}

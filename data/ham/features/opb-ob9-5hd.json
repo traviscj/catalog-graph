@@ -1,0 +1,66 @@
+{
+ "id": "opb-ob9-5hd",
+ "kind": "antenna",
+ "name": "OB9-5HD",
+ "title": "OptiBeam OB9-5HD",
+ "brand": "OptiBeam",
+ "price": 2659.99,
+ "line": "HF multiband yagi",
+ "legacy": false,
+ "summary": "Heavy-duty 9-element 5-band 20–10m yagi, 16.7 ft boom",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 5000,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 9,
+  "boom_ft": 16.73,
+  "turn_radius_ft": 19.78,
+  "wind_sqft": 7.8,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": 66.1,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "longest_el_ft": 35.89,
+   "dxe_part_type": "hf-directional-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ],
+ "rating": {
+  "avg": 5.0,
+  "n": 101,
+  "pid": "1996",
+  "last": "2026-04-02",
+  "name": "Optibeam OB9-5"
+ }
+}

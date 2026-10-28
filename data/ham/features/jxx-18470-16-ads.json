@@ -1,0 +1,55 @@
+{
+ "id": "jxx-18470-16-ads",
+ "kind": "antenna",
+ "name": "16JXXADS-B",
+ "title": "I0JXX 16JXXADS-B",
+ "brand": "I0JXX",
+ "price": 189.99,
+ "line": "ADS-B receive yagi",
+ "legacy": false,
+ "summary": "16-element 1090 MHz yagi for aircraft ADS-B reception",
+ "jobs": [
+  {
+   "job": "ant_rx",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [],
+  "resonant": null,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 16,
+  "boom_ft": 4.76,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": "N female",
+  "rx_only": true,
+  "assembled": null,
+  "extra": {
+   "rx_range": "1090 MHz (ADS-B)",
+   "dxe_part_type": "vhf-uhf-beam-antennas"
+  }
+ },
+ "gotchas": [
+  "Receive only"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

@@ -1,0 +1,73 @@
+{
+ "id": "dxe-hsr-5btv-p3",
+ "kind": "antenna",
+ "name": "5BTV",
+ "title": "DX Engineering 5BTV Five-Band High Performance HF Vertical Antenna and Original Tilt Base Systems",
+ "brand": "DX Engineering",
+ "price": 802.69,
+ "line": "HF multiband vertical",
+ "legacy": false,
+ "summary": "Hustler 5BTV 80/40/20/15/10m trap vertical system with DXE tilt base",
+ "jobs": [
+  {
+   "job": "ant_hf_vertical",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "vertical",
+  "mount": "base",
+  "ant_bands": [
+   "80m",
+   "40m",
+   "20m",
+   "15m",
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": "Antenna & installation dependent",
+  "max_w": 1500,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 22.8,
+  "weight_lb": 17.0,
+  "radials": true,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "hf-vertical-antennas-and-packages"
+  }
+ },
+ "gotchas": [
+  "Owner-supplied radials required",
+  "Narrow 80m bandwidth"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "radial wires / counterpoise",
+   "why": "vertical needs a ground system",
+   "req": true
+  },
+  {
+   "id": "1:1 common-mode choke at the shack entry",
+   "why": "keeps feedline RF out of the shack",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 5.0,
+  "n": 2,
+  "pid": "9698",
+  "last": "2015-02-23",
+  "name": "DX Engineering DXE-HUS-5BTV-P"
+ }
+}

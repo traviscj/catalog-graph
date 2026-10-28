@@ -1,0 +1,57 @@
+{
+ "id": "rez-ldk",
+ "kind": "antenna",
+ "name": "Linked Dipole Kit",
+ "title": "REZ Linked Dipole Kit",
+ "brand": "REZ",
+ "price": 65.0,
+ "line": "HF portable dipole",
+ "legacy": false,
+ "summary": "User-built linked inverted-V for REZ Scout base, any 4 bands 40–10m",
+ "jobs": [
+  {
+   "job": "ant_hf_portable",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "dipole",
+  "mount": "portable",
+  "ant_bands": [
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": "Antenna & installation dependent",
+  "max_w": 200,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": 77,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": false,
+  "extra": {
+   "note": "customizable: pick 4 bands in 40-10m",
+   "dxe_part_type": "wire-antennas"
+  }
+ },
+ "gotchas": [
+  "requires REZ Scout base"
+ ],
+ "confidence": "medium",
+ "pairs": []
+}

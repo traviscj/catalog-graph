@@ -1,0 +1,52 @@
+{
+ "id": "sbm-hopper403020",
+ "kind": "antenna",
+ "name": "Band Hopper 40/30/20",
+ "title": "SOTAbeams Band Hopper Multi-band Portable Dipole Antennas",
+ "brand": "SOTAbeams",
+ "price": 125.99,
+ "line": "HF portable dipole",
+ "legacy": false,
+ "summary": "SOTAbeams Band Hopper linked portable dipole for 40/30/20m, 125 W",
+ "jobs": [
+  {
+   "job": "ant_hf_portable",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "dipole",
+  "mount": "portable",
+  "ant_bands": [
+   "40m",
+   "30m",
+   "20m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 125,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "wire-antennas"
+  }
+ },
+ "gotchas": [
+  "Change bands by un/linking jumpers"
+ ],
+ "confidence": "high",
+ "pairs": []
+}

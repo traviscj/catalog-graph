@@ -1,0 +1,59 @@
+{
+ "id": "alp-vhfuhfmobile",
+ "kind": "antenna",
+ "name": "MilCom MOTO",
+ "title": "Alpha Antenna MilCom MOTO",
+ "brand": "Alpha",
+ "price": 200.0,
+ "line": "V/U mobile whip",
+ "legacy": false,
+ "summary": "Mag-mount 2m/70cm/33cm + MilCom-band mobile vertical, 80 W",
+ "jobs": [
+  {
+   "job": "ant_vu_mobile",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "whip",
+  "mount": "mobile",
+  "ant_bands": [
+   "2m",
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 80,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 1.56,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "PL-259",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "also_tx": "33cm (900 MHz)",
+   "milcom": "125-190/366-1016 MHz",
+   "dxe_part_type": "hf-vhf-uhf-mobile-vertical-antennas"
+  }
+ },
+ "gotchas": [
+  "80 W max"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "mobile antenna mount (mag / trunk-lip / NMO)",
+   "why": "vehicle mount not included",
+   "req": false
+  }
+ ]
+}

@@ -1,0 +1,59 @@
+{
+ "id": "dmn-srh815",
+ "kind": "antenna",
+ "name": "SRH815",
+ "title": "Diamond Antenna SRH815",
+ "brand": "Diamond",
+ "price": 32.99,
+ "line": "HT antenna",
+ "legacy": false,
+ "summary": "Compact 6 in. tri-band 2m/70cm/23cm HT antenna, SMA",
+ "jobs": [
+  {
+   "job": "ant_ht",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "rubber-duck",
+  "mount": "handheld",
+  "ant_bands": [
+   "2m",
+   "70cm",
+   "23cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 6.0,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 0.5,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "SMA",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "handheld-and-scanner-antennas"
+  }
+ },
+ "gotchas": [
+  "6 W max"
+ ],
+ "confidence": "high",
+ "pairs": [],
+ "rating": {
+  "avg": 4.5,
+  "n": 6,
+  "pid": "4686",
+  "last": "2012-12-07",
+  "name": "Diamond SRH815 144/430/1200 MHz SMA HT antenna"
+ }
+}

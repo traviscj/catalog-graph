@@ -1,0 +1,63 @@
+{
+ "id": "dxa-dxw3-30",
+ "kind": "antenna",
+ "name": "DXW3-30",
+ "title": "Diex Antennas DXW Series Tri-Band 3 Element Yagi Antennas",
+ "brand": "DIEX",
+ "price": 1319.99,
+ "line": "HF WARC yagi",
+ "legacy": false,
+ "summary": "Diex 3-element WARC tribander yagi for 30/17/12m (with 30m kit)",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "30m",
+   "17m",
+   "12m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 3,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "hf-directional-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ],
+ "rating": {
+  "avg": 4.6,
+  "n": 9,
+  "pid": "2537",
+  "last": "2020-08-09",
+  "name": "T.G.M. Communications MQ-36SR 3 element \"Hybrid Quad\" beam"
+ }
+}

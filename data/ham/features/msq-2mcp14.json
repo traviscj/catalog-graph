@@ -1,0 +1,63 @@
+{
+ "id": "msq-2mcp14",
+ "kind": "antenna",
+ "name": "2MCP14",
+ "title": "M2 Antennas 2MCP14",
+ "brand": "M2",
+ "price": 662.99,
+ "line": "V/U sat (crossed yagi)",
+ "legacy": false,
+ "summary": "14-element circularly polarized 2m satellite yagi, 12.3 dBic",
+ "jobs": [
+  {
+   "job": "ant_vu_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "2m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 1500.0,
+  "max_w_digital": null,
+  "gain_dbi": 12.3,
+  "elements": 14,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": 6.0,
+  "radials": null,
+  "directional": true,
+  "polarization": "circular",
+  "connector": "N female",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "vhf-uhf-beam-antennas"
+  }
+ },
+ "gotchas": [
+  "Needs az/el rotator for satellite work"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ],
+ "rating": {
+  "avg": 4.0,
+  "n": 2,
+  "pid": "5484",
+  "last": "2019-11-01",
+  "name": "M2 2mCP14"
+ }
+}

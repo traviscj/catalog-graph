@@ -1,0 +1,63 @@
+{
+ "id": "dmn-w8010",
+ "kind": "antenna",
+ "name": "W8010",
+ "title": "Diamond Antenna W8010 Wire Dipole Antennas",
+ "brand": "Diamond",
+ "price": 164.99,
+ "line": "HF dipole",
+ "legacy": false,
+ "summary": "Diamond W8010 coil-loaded shortened double dipole, 80/40/20/15/10m, 63 ft legs",
+ "jobs": [
+  {
+   "job": "ant_hf_wire",
+   "role": "primary"
+  },
+  {
+   "job": "ant_small_space",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "dipole",
+  "mount": "base",
+  "ant_bands": [
+   "80m",
+   "40m",
+   "20m",
+   "15m",
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 1200,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": 63.0,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "horizontal",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "wire-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [],
+ "rating": {
+  "avg": 4.3,
+  "n": 20,
+  "pid": "3582",
+  "last": "2020-12-09",
+  "name": "Diamond W-8010"
+ }
+}

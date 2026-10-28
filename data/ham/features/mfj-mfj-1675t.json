@@ -1,0 +1,58 @@
+{
+ "id": "mfj-mfj-1675t",
+ "kind": "antenna",
+ "name": "MFJ-1675T",
+ "title": "MFJ MFJ-1675T",
+ "brand": "MFJ",
+ "price": 29.95,
+ "line": "HF mobile whip",
+ "legacy": false,
+ "summary": "7 ft 75m Ham-tenna hamstick, 250 W, 3/8-24",
+ "jobs": [
+  {
+   "job": "ant_hf_mobile",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "whip",
+  "mount": "mobile",
+  "ant_bands": [
+   "80m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 250,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 7,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "3/8-24",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "collapsed_ft": 4,
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [
+  "mount not included",
+  "very narrow bandwidth on 75m"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "mobile antenna mount (mag / trunk-lip / NMO)",
+   "why": "vehicle mount not included",
+   "req": false
+  }
+ ]
+}

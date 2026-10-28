@@ -1,0 +1,55 @@
+{
+ "id": "iva-18481-lpa3",
+ "kind": "antenna",
+ "name": "BOLPA-3",
+ "title": "InnovAntennas BOLPA-3",
+ "brand": "InnovAntennas",
+ "price": 665.99,
+ "line": "HF log-periodic",
+ "legacy": false,
+ "summary": "Heavy-duty 3-element band-optimized LPDA for 24-30 MHz",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "log-periodic",
+  "mount": "base",
+  "ant_bands": [
+   "12m",
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 2000.0,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 3,
+  "boom_ft": 11.5,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "hf-directional-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

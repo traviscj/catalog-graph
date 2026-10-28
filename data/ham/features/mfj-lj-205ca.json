@@ -1,0 +1,57 @@
+{
+ "id": "mfj-lj-205ca",
+ "kind": "antenna",
+ "name": "LJ-205CA",
+ "title": "Hy-Gain LJ-205CA",
+ "brand": "Hy-Gain",
+ "price": 1199.95,
+ "line": "HF monoband yagi",
+ "legacy": false,
+ "summary": "5-element 20m Long John on 34 ft boom, adjustable to 17m",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "20m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 5,
+  "boom_ft": 34,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "alt_band": "17m (re-tune)",
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [
+  "BN-4000 balun recommended (extra)"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

@@ -1,0 +1,55 @@
+{
+ "id": "mfj-vb-23fm",
+ "kind": "antenna",
+ "name": "VB-23FM",
+ "title": "Hy-Gain VB-23FM",
+ "brand": "Hy-Gain",
+ "price": 109.95,
+ "line": "V/U yagi",
+ "legacy": false,
+ "summary": "3-element 2m FM yagi with BetaMatch, 6.1 ft boom",
+ "jobs": [
+  {
+   "job": "ant_vu_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "2m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 3,
+  "boom_ft": 6.1,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": null,
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "mast_max_in": 2,
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

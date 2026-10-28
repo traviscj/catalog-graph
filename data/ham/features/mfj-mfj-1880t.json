@@ -1,0 +1,52 @@
+{
+ "id": "mfj-mfj-1880t",
+ "kind": "antenna",
+ "name": "MFJ-1880T",
+ "title": "MFJ MFJ-1880T",
+ "brand": "MFJ",
+ "price": 49.95,
+ "line": "HF portable vertical",
+ "legacy": false,
+ "summary": "Base-loaded 80m telescoping BNC whip for FT-817/KX3, 25 W",
+ "jobs": [
+  {
+   "job": "ant_hf_portable",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "whip",
+  "mount": "portable",
+  "ant_bands": [
+   "80m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 25,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 4.6,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "BNC",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "fits": "FT-817/KX3",
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [
+  "25 W max",
+  "Very short for 80m — low efficiency"
+ ],
+ "confidence": "high",
+ "pairs": []
+}

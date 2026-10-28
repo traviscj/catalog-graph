@@ -1,0 +1,57 @@
+{
+ "id": "pez-ef-60",
+ "kind": "antenna",
+ "name": "EF-60",
+ "title": "Par EndFedz EF-60",
+ "brand": "Par EndFedz",
+ "price": 89.99,
+ "line": "HF end-fed wire",
+ "legacy": false,
+ "summary": "88 ft 60m end-fed half-wave, 100 W",
+ "jobs": [
+  {
+   "job": "ant_hf_wire",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "end-fed",
+  "mount": "base",
+  "ant_bands": [
+   "60m"
+  ],
+  "resonant": true,
+  "tuner_req": "Antenna & installation dependent",
+  "max_w": 100.0,
+  "max_w_digital": 50.0,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": 88.0,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": null,
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": false,
+  "extra": {
+   "dxe_part_type": "wire-antennas"
+  }
+ },
+ "gotchas": [
+  "100 W max",
+  "30 ft min feedpoint height"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "1:1 common-mode choke at the shack entry",
+   "why": "keeps feedline RF out of the shack",
+   "req": false
+  }
+ ]
+}

@@ -1,0 +1,63 @@
+{
+ "id": "mfj-mfj-1780",
+ "kind": "antenna",
+ "name": "MFJ-1780",
+ "title": "MFJ MFJ-1780",
+ "brand": "MFJ",
+ "price": 429.95,
+ "line": "HF mag loop",
+ "legacy": false,
+ "summary": "2x2-ft box-fan portable mag loop, 14-30 MHz",
+ "jobs": [
+  {
+   "job": "ant_small_space",
+   "role": "primary"
+  },
+  {
+   "job": "ant_hf_portable",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "mag-loop",
+  "mount": "portable",
+  "ant_bands": [
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": null,
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [],
+ "rating": {
+  "avg": 4.8,
+  "n": 4,
+  "pid": "612",
+  "last": "2015-03-29",
+  "name": "MFJ-1780 Box Fan Portable Loop"
+ }
+}

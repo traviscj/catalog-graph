@@ -1,0 +1,53 @@
+{
+ "id": "alo-ea-253",
+ "kind": "antenna",
+ "name": "EA-253",
+ "title": "Alinco EA-253",
+ "brand": "Alinco",
+ "price": 19.95,
+ "line": "HT antenna",
+ "legacy": false,
+ "summary": "Replacement whip for Alinco DJ-VX50 dual-band HT",
+ "jobs": [
+  {
+   "job": "ant_ht",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "whip",
+  "mount": "handheld",
+  "ant_bands": [
+   "2m",
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "fits": "DJ-VX50",
+   "band_inferred_from": "radio model",
+   "dxe_part_type": "handheld-and-scanner-antennas"
+  }
+ },
+ "gotchas": [
+  "radio-specific replacement (DJ-VX50)"
+ ],
+ "confidence": "medium",
+ "pairs": []
+}

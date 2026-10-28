@@ -1,0 +1,50 @@
+{
+ "id": "dxe-rdpk-160",
+ "kind": "antenna",
+ "name": "RDPK-160",
+ "title": "DX Engineering RDPK-160",
+ "brand": "DX Engineering",
+ "price": 252.96,
+ "line": "HF dipole",
+ "legacy": false,
+ "summary": "User-cut 160m wire dipole kit, 2×132 ft, 1:1 balun",
+ "jobs": [
+  {
+   "job": "ant_hf_wire",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "dipole",
+  "mount": "base",
+  "ant_bands": [
+   "160m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": 264,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "horizontal",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": false,
+  "extra": {
+   "dxe_part_type": "wire-antennas"
+  }
+ },
+ "gotchas": [
+  "264 ft span; you cut and assemble"
+ ],
+ "confidence": "high",
+ "pairs": []
+}

@@ -1,0 +1,66 @@
+{
+ "id": "iva-18486-0098",
+ "kind": "antenna",
+ "name": "144 MHz 20el X-Pol LFA",
+ "title": "InnovAntennas 144 MHz 20el X-Pol LFA",
+ "brand": "InnovAntennas",
+ "price": 679.99,
+ "line": "V/U yagi",
+ "legacy": false,
+ "summary": "20-element cross-polarized 2m LFA yagi, 19 ft boom, EME/weak-signal",
+ "jobs": [
+  {
+   "job": "ant_vu_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "2m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 1000,
+  "max_w_digital": null,
+  "gain_dbi": 14.82,
+  "elements": 20,
+  "boom_ft": 19.0,
+  "turn_radius_ft": 9.83,
+  "wind_sqft": 2.4,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": 14.33,
+  "radials": null,
+  "directional": true,
+  "polarization": null,
+  "connector": "terminal studs",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "pol": "cross-polarized (H+V)",
+   "fb_db": 39.1,
+   "desc_claims": "3000 W, 20.56 dBi",
+   "dxe_part_type": "vhf-uhf-beam-antennas"
+  }
+ },
+ "gotchas": [
+  "Cross-pol: needs two feedlines or switching"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ],
+ "rating": {
+  "avg": 4.8,
+  "n": 6,
+  "pid": "391",
+  "last": "2012-01-07",
+  "name": "K1FO FO12 (144MHz)"
+ }
+}

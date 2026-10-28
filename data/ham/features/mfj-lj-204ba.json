@@ -1,0 +1,59 @@
+{
+ "id": "mfj-lj-204ba",
+ "kind": "antenna",
+ "name": "LJ-204BA",
+ "title": "Hy-Gain LJ-204BA",
+ "brand": "Hy-Gain",
+ "price": 829.95,
+ "line": "HF monoband yagi",
+ "legacy": false,
+ "summary": "4-el Long John monobander, assemble for 20m or 17m",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "20m",
+   "17m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 4,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "note": "text says five elements; model/title = 4",
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [
+  "Built for 20 OR 17m, not both",
+  "BN-4000 balun recommended (not incl)"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

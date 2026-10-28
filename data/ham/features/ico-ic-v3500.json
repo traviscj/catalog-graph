@@ -1,0 +1,125 @@
+{
+ "id": "ico-ic-v3500",
+ "name": "IC-V3500",
+ "title": "ICOM IC-V3500",
+ "brand": "Icom",
+ "price": 234.95,
+ "line": "VHF/UHF mobile",
+ "legacy": false,
+ "summary": "Simple 2m-only 65W analog FM mobile, MIL-STD-810G, 4.5W audio, 207 memories.",
+ "jobs": [
+  {
+   "job": "vhf_uhf_mobile",
+   "role": "primary"
+  },
+  {
+   "job": "first_radio",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "mobile",
+  "bands_tx": [
+   "2m"
+  ],
+  "hf": false,
+  "vhf_uhf": true,
+  "rx_range": "136–174 MHz",
+  "power_w": {
+   "hf": null,
+   "6m": null,
+   "2m": 65,
+   "70cm": null,
+   "23cm": null
+  },
+  "modes": [
+   "FM"
+  ],
+  "digital_voice": [],
+  "receiver_arch": "FM (HT/mobile)",
+  "band_scope": null,
+  "display": "white backlit LCD",
+  "dual_receive": false,
+  "dual_watch": false,
+  "atu": false,
+  "usb_single_cable": false,
+  "lan_remote": false,
+  "wifi_bt": [],
+  "gps": false,
+  "aprs": false,
+  "full_duplex_sat": false,
+  "crossband_repeat": false,
+  "detachable_head": false,
+  "power_source": "13.8 VDC external",
+  "tx_current_a": 11.0,
+  "battery": null,
+  "ip_rating": null,
+  "antenna_ports": 1,
+  "rx_antenna_in": false,
+  "roofing_filters": null,
+  "memories": 207,
+  "weight_kg": 1.1,
+  "size_mm": "140×40×118",
+  "special": [
+   "65W",
+   "4.5W audio",
+   "MIL-STD-810G",
+   "emergency call/alert",
+   "weather alert (US)",
+   "HM-133V keypad mic"
+  ],
+  "requires": [],
+  "extra": {
+   "programming": "free CS-V3500 software",
+   "warranty": "1-year",
+   "list_price": "234.95",
+   "avail": "InStock"
+  }
+ },
+ "gotchas": [
+  "2m only — IC-2730A adds 70cm",
+  "Analog FM only — ID-5100A-D for D-STAR",
+  "No detachable head or crossband repeat — IC-2730A has both",
+  "Variants: IC-V3500-ob is open-box, IC-V3500B listed separately — compare before buying",
+  "Needs 13.8V 11A+ supply for base use"
+ ],
+ "best_for": [
+  "cheap powerful 2m car rig",
+  "base 2m FM"
+ ],
+ "not_for": [
+  "70cm",
+  "digital voice",
+  "APRS"
+ ],
+ "pairs": [
+  {
+   "id": "13.8 V 15 A power supply",
+   "why": "base use; 11A on TX",
+   "req": false
+  },
+  {
+   "id": "2m NMO mobile antenna",
+   "why": "single-band 2m",
+   "req": false
+  },
+  {
+   "id": "ico-ic-v86",
+   "why": "matching 2m HT",
+   "req": false
+  },
+  {
+   "id": "ico-ic-v3500-ob",
+   "why": "same radio, open-box discount",
+   "req": false
+  }
+ ],
+ "confidence": "medium",
+ "rating": {
+  "avg": 5.0,
+  "n": 3,
+  "pid": "15773",
+  "last": "2025-06-09",
+  "name": "IC-V3500"
+ }
+}

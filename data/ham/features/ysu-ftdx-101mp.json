@@ -1,0 +1,149 @@
+{
+ "id": "ysu-ftdx-101mp",
+ "name": "FTDX101MP",
+ "title": "Yaesu FTDX101MP",
+ "brand": "Yaesu",
+ "price": 5098.95,
+ "line": "HF flagship (hybrid SDR)",
+ "legacy": false,
+ "summary": "200 W HF/6m dual-receiver hybrid-SDR flagship with included SPS-101 AC supply/speaker; contest/DX grade.",
+ "jobs": [
+  {
+   "job": "hf_contest_dx",
+   "role": "primary"
+  },
+  {
+   "job": "hf_base",
+   "role": "primary"
+  },
+  {
+   "job": "ft8_digital",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "base",
+  "bands_tx": [
+   "160m",
+   "80m",
+   "60m",
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m",
+   "6m"
+  ],
+  "hf": true,
+  "vhf_uhf": false,
+  "rx_range": "0.030–75 MHz",
+  "power_w": {
+   "hf": 200,
+   "6m": 200,
+   "2m": null,
+   "70cm": null,
+   "23cm": null
+  },
+  "modes": [
+   "SSB",
+   "CW",
+   "AM",
+   "FM",
+   "RTTY",
+   "PSK",
+   "DATA"
+  ],
+  "digital_voice": [],
+  "receiver_arch": "hybrid SDR",
+  "band_scope": "real-time 3DSS scope + waterfall (both receivers)",
+  "display": "7in color touch",
+  "dual_receive": true,
+  "dual_watch": true,
+  "atu": true,
+  "usb_single_cable": true,
+  "lan_remote": false,
+  "wifi_bt": [],
+  "gps": false,
+  "aprs": false,
+  "full_duplex_sat": false,
+  "crossband_repeat": false,
+  "detachable_head": false,
+  "power_source": "100–240 VAC via included external SPS-101 PSU/speaker",
+  "tx_current_a": null,
+  "battery": null,
+  "ip_rating": null,
+  "antenna_ports": 3,
+  "rx_antenna_in": true,
+  "roofing_filters": "12k/3k/600/300 std; 1.2k (and SUB 300) special-order only",
+  "memories": 99,
+  "weight_kg": 12.2,
+  "size_mm": "420×130×322",
+  "special": [
+   "2 receivers",
+   "external monitor out",
+   "VC-Tune preselector",
+   "SPS-101 speaker/PSU included",
+   "MPVD outer dial"
+  ],
+  "requires": [],
+  "extra": {
+   "ip3_dbm": ">35",
+   "ac_current_a": 9.0,
+   "lan_option": "SCU-LAN10",
+   "warranty": "3-year",
+   "note": "weight excludes SPS-101",
+   "list_price": 5398.95,
+   "avail": "InStock"
+  }
+ },
+ "gotchas": [
+  "Optional 1.2 kHz / SUB 300 Hz roofing filters are factory special-order only — stock units cannot be user-upgraded",
+  "LAN remote needs optional SCU-LAN10 — IC-7760 has built-in LAN and a separable RF deck",
+  "FTDX-101D is the same receiver at 100 W on 13.8 VDC for ~$1k+ less if you don't need 200 W",
+  "200 W out exceeds many 100 W-rated tuners, baluns and amps' input limits",
+  "HF/6m only — no VHF/UHF (FT-991A / IC-9700 for that)",
+  "~12 kg plus separate SPS-101 box — big desk footprint"
+ ],
+ "best_for": [
+  "contesting and DXing",
+  "dual-RX split pileups",
+  "multiple antennas + Beverage RX"
+ ],
+ "not_for": [
+  "portable/mobile",
+  "budget first HF rig",
+  "VHF/UHF"
+ ],
+ "pairs": [
+  {
+   "id": "ysu-ftdx-101d",
+   "why": "100 W 13.8 V version, cheaper",
+   "req": false
+  },
+  {
+   "id": "SCU-LAN10 network remote unit",
+   "why": "remote operation over internet",
+   "req": false
+  },
+  {
+   "id": "200 W-rated external antenna tuner / balun",
+   "why": "internal ATU limited to ~3:1 SWR",
+   "req": false
+  },
+  {
+   "id": "ico-ic-7760",
+   "why": "competitor flagship with built-in LAN, split deck",
+   "req": false
+  }
+ ],
+ "confidence": "high",
+ "rating": {
+  "avg": 4.2,
+  "n": 57,
+  "pid": "14362",
+  "last": "2026-01-18",
+  "name": "Yaesu FTdx-101MP"
+ }
+}

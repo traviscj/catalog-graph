@@ -1,0 +1,61 @@
+{
+ "id": "mfj-lp-1009an",
+ "kind": "antenna",
+ "name": "LP-1009AN",
+ "title": "Hy-Gain LP-1009AN",
+ "brand": "Hy-Gain",
+ "price": 2599.95,
+ "line": "HF log-periodic",
+ "legacy": false,
+ "summary": "Commercial-grade log-periodic 13-30 MHz, 27 ft boom, N connector",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "log-periodic",
+  "mount": "base",
+  "ant_bands": [
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 1500,
+  "max_w_digital": null,
+  "gain_dbi": 7.3,
+  "elements": null,
+  "boom_ft": 27,
+  "turn_radius_ft": 22.5,
+  "wind_sqft": 12.5,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": "N",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "longest_el_ft": 39,
+   "fb_db": 22,
+   "balun": "BN-4000",
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

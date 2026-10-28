@@ -1,0 +1,57 @@
+{
+ "id": "cma-gp-15",
+ "kind": "antenna",
+ "name": "GP-15",
+ "title": "Comet GP-15",
+ "brand": "Comet",
+ "price": 207.95,
+ "line": "V/U base vertical",
+ "legacy": false,
+ "summary": "7.9 ft tri-band 6m/2m/70cm fiberglass base vertical",
+ "jobs": [
+  {
+   "job": "ant_vu_base",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "collinear",
+  "mount": "base",
+  "ant_bands": [
+   "6m",
+   "2m",
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 7.9,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "vhf-uhf-base-vertical-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [],
+ "rating": {
+  "avg": 4.5,
+  "n": 53,
+  "pid": "383",
+  "last": "2023-06-24",
+  "name": "Comet GP 15 Tri band (144/440/52 mhz) vertical ant"
+ }
+}

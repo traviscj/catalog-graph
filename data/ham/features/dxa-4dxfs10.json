@@ -1,0 +1,56 @@
+{
+ "id": "dxa-4dxfs10",
+ "kind": "antenna",
+ "name": "4DXFS10",
+ "title": "DIEX 4DXFS10",
+ "brand": "DIEX",
+ "price": 799.99,
+ "line": "HF monoband yagi",
+ "legacy": false,
+ "summary": "4-element full-size 10m monoband yagi, 2 kW, 14.4 ft boom",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 2000,
+  "max_w_digital": null,
+  "gain_dbi": 8.6,
+  "elements": 4,
+  "boom_ft": 14.44,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "hf-directional-antennas"
+  }
+ },
+ "gotchas": [
+  "tuned for 28.0-28.5 MHz only"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

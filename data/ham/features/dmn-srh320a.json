@@ -1,0 +1,57 @@
+{
+ "id": "dmn-srh320a",
+ "kind": "antenna",
+ "name": "SRH320A",
+ "title": "Diamond Antenna Tri-Band HT Antennas",
+ "brand": "Diamond",
+ "price": 46.99,
+ "line": "HT antenna",
+ "legacy": false,
+ "summary": "Diamond flexible tri-band 2m/220/440 HT antenna, SMA male",
+ "jobs": [
+  {
+   "job": "ant_ht",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "rubber-duck",
+  "mount": "handheld",
+  "ant_bands": [
+   "2m",
+   "1.25m",
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 10,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 1.15,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "SMA-male",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "handheld-and-scanner-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [],
+ "rating": {
+  "avg": 4.6,
+  "n": 43,
+  "pid": "4298",
+  "last": "2025-02-27",
+  "name": "Diamond SRH320A  HT Ant - 2/220/430"
+ }
+}

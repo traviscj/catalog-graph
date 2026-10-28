@@ -1,0 +1,59 @@
+{
+ "id": "kel-11505-4251",
+ "kind": "antenna",
+ "name": "GP-40201510",
+ "title": "Kelemen GP-40201510",
+ "brand": "Kelemen",
+ "price": 189.99,
+ "line": "HF wire ground plane",
+ "legacy": false,
+ "summary": "Trapped 19 ft wire ground plane with 4 radials for 40/20/15/10m",
+ "jobs": [
+  {
+   "job": "ant_hf_vertical",
+   "role": "primary"
+  },
+  {
+   "job": "ant_hf_wire",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "ground-plane",
+  "mount": "base",
+  "ant_bands": [
+   "40m",
+   "20m",
+   "15m",
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 400.0,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 19,
+  "weight_lb": null,
+  "radials": false,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": null,
+  "rx_only": false,
+  "assembled": true,
+  "extra": {
+   "radials_included": 4,
+   "dxe_part_type": "wire-antennas"
+  }
+ },
+ "gotchas": [
+  "400 W max",
+  "Needs elevated support"
+ ],
+ "confidence": "high",
+ "pairs": []
+}

@@ -1,0 +1,57 @@
+{
+ "id": "mfj-ar-270b",
+ "kind": "antenna",
+ "name": "AR-270B",
+ "title": "Cushcraft AR-270B",
+ "brand": "Cushcraft",
+ "price": 259.95,
+ "line": "V/U base vertical",
+ "legacy": false,
+ "summary": "7.7-ft dual-band 2m/70cm Ringo collinear, 5.5/7.5 dB",
+ "jobs": [
+  {
+   "job": "ant_vu_base",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "collinear",
+  "mount": "base",
+  "ant_bands": [
+   "2m",
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 7.7,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "gain_raw": "5.5/7.5 dB",
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [],
+ "rating": {
+  "avg": 4.3,
+  "n": 16,
+  "pid": "1000",
+  "last": "2022-04-19",
+  "name": "Swan Cygnet 270-B"
+ }
+}

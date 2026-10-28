@@ -1,0 +1,67 @@
+{
+ "id": "dmn-cp6ar",
+ "kind": "antenna",
+ "name": "CP6AR",
+ "title": "Diamond Antenna CP6AR",
+ "brand": "Diamond",
+ "price": 474.99,
+ "line": "HF multiband vertical",
+ "legacy": false,
+ "summary": "15 ft trap ground-plane vertical for 75/40/20/15/10/6m",
+ "jobs": [
+  {
+   "job": "ant_hf_vertical",
+   "role": "primary"
+  },
+  {
+   "job": "ant_small_space",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "ground-plane",
+  "mount": "base",
+  "ant_bands": [
+   "80m",
+   "40m",
+   "20m",
+   "15m",
+   "10m",
+   "6m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 200.0,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 15.0,
+  "weight_lb": null,
+  "radials": false,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "hf-vertical-antennas-and-packages"
+  }
+ },
+ "gotchas": [
+  "200 W max",
+  "Narrow bandwidth on 75/40m"
+ ],
+ "confidence": "high",
+ "pairs": [],
+ "rating": {
+  "avg": 2.7,
+  "n": 3,
+  "pid": "12751",
+  "last": "2020-09-28",
+  "name": "Diamond CP6AR"
+ }
+}

@@ -1,0 +1,76 @@
+{
+ "id": "cha-ocf40-green",
+ "kind": "antenna",
+ "name": "CHA OCF40",
+ "title": "Chameleon Antenna CHA OCF40",
+ "brand": "Chameleon",
+ "price": 99.0,
+ "line": "HF OCF dipole",
+ "legacy": false,
+ "summary": "Lightweight portable OCF: resonant 40/20/10/6m, 60/30/17/15/12m with tuner",
+ "jobs": [
+  {
+   "job": "ant_hf_portable",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "ocf-dipole",
+  "mount": "portable",
+  "ant_bands": [
+   "60m",
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m",
+   "6m"
+  ],
+  "resonant": false,
+  "tuner_req": null,
+  "max_w": 50.0,
+  "max_w_digital": 25.0,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "resonant_bands": [
+    "40m",
+    "20m",
+    "10m",
+    "6m"
+   ],
+   "dxe_part_type": "hf-portable-stealth-antennas"
+  }
+ },
+ "gotchas": [
+  "50 W SSB / 25 W CW max",
+  "Tuner needed on 60/30/17/15/12m"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "antenna tuner (wide-range)",
+   "why": "non-resonant on its listed bands",
+   "req": true
+  },
+  {
+   "id": "1:1 common-mode choke at the shack entry",
+   "why": "keeps feedline RF out of the shack",
+   "req": false
+  }
+ ]
+}

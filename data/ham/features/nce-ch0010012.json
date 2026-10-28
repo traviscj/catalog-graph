@@ -1,0 +1,64 @@
+{
+ "id": "nce-ch0010012",
+ "kind": "antenna",
+ "name": "MC-599",
+ "title": "Chelegance MC-599",
+ "brand": "Chelegance",
+ "price": 401.99,
+ "line": "HF portable dipole",
+ "legacy": false,
+ "summary": "Portable rigid-V rotatable dipole, 7-50 MHz, 200 W",
+ "jobs": [
+  {
+   "job": "ant_hf_portable",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "dipole",
+  "mount": "portable",
+  "ant_bands": [
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m",
+   "6m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 200,
+  "max_w_digital": 100,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "horizontal",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "hf-portable-stealth-antennas"
+  }
+ },
+ "gotchas": [
+  "Tripod shown not included"
+ ],
+ "confidence": "high",
+ "pairs": [],
+ "rating": {
+  "avg": 5.0,
+  "n": 1,
+  "pid": "15772",
+  "last": "2024-08-25",
+  "name": "JNCRADIO MC-599 SHORTWAVE DIPOLE ANTENNA"
+ }
+}

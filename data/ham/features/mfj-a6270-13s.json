@@ -1,0 +1,59 @@
+{
+ "id": "mfj-a6270-13s",
+ "kind": "antenna",
+ "name": "A6270-13S",
+ "title": "Cushcraft A6270-13S",
+ "brand": "Cushcraft",
+ "price": 399.95,
+ "line": "V/U yagi",
+ "legacy": false,
+ "summary": "Tri-band yagi: 5-el 2m, 5-el 70cm, 3-el 6m on one boom",
+ "jobs": [
+  {
+   "job": "ant_vu_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "6m",
+   "2m",
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 350,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 13,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": null,
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "max_w_6m": 1000,
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [
+  "Separate 6m feedline"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

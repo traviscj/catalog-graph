@@ -1,0 +1,60 @@
+{
+ "id": "mkr-13-427",
+ "kind": "antenna",
+ "name": "Whizz Loop",
+ "title": "Moonraker Whizz Loop",
+ "brand": "Moonraker",
+ "price": 115.99,
+ "line": "HF mag loop",
+ "legacy": false,
+ "summary": "15.75 in. QRP mag loop for 20-6m, 10 W max",
+ "jobs": [
+  {
+   "job": "ant_hf_portable",
+   "role": "primary"
+  },
+  {
+   "job": "ant_small_space",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "mag-loop",
+  "mount": "portable",
+  "ant_bands": [
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m",
+   "6m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 10,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": null,
+  "connector": "PL-259",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "loop_diam_in": 15.75,
+   "dxe_part_type": "limited-space-small-loop-antennas"
+  }
+ },
+ "gotchas": [
+  "10 W max: QRP only"
+ ],
+ "confidence": "high",
+ "pairs": []
+}

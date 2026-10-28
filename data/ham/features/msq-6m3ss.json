@@ -1,0 +1,55 @@
+{
+ "id": "msq-6m3ss",
+ "kind": "antenna",
+ "name": "6M3SS",
+ "title": "M2 6M3SS",
+ "brand": "M2",
+ "price": 374.99,
+ "line": "6m yagi",
+ "legacy": false,
+ "summary": "3-element 6m yagi, 5.8 ft boom, 8.1 dBi, 500 W",
+ "jobs": [
+  {
+   "job": "ant_vu_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "6m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 500,
+  "max_w_digital": null,
+  "gain_dbi": 8.1,
+  "elements": 3,
+  "boom_ft": 5.8,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": 4.0,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "fb_db": 28,
+   "dxe_part_type": "vhf-uhf-beam-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

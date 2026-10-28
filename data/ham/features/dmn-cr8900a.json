@@ -1,0 +1,70 @@
+{
+ "id": "dmn-cr8900a",
+ "kind": "antenna",
+ "name": "CR8900A",
+ "title": "Diamond CR8900A",
+ "brand": "Diamond",
+ "price": 114.99,
+ "line": "V/U mobile whip",
+ "legacy": false,
+ "summary": "Quad-band 10/6/2m/70cm fold-over mobile antenna, 50 in., 60 W",
+ "jobs": [
+  {
+   "job": "ant_vu_mobile",
+   "role": "primary"
+  },
+  {
+   "job": "ant_hf_mobile",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "whip",
+  "mount": "mobile",
+  "ant_bands": [
+   "10m",
+   "6m",
+   "2m",
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 60,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 4.17,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "UHF (PL-259)",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "hf-vhf-uhf-mobile-vertical-antennas"
+  }
+ },
+ "gotchas": [
+  "10m on 50 in.: narrow and inefficient"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "mobile antenna mount (mag / trunk-lip / NMO)",
+   "why": "vehicle mount not included",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 3.8,
+  "n": 18,
+  "pid": "4946",
+  "last": "2020-05-07",
+  "name": "Diamond CR8900A"
+ }
+}

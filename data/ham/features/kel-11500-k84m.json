@@ -1,0 +1,62 @@
+{
+ "id": "kel-11500-k84m",
+ "kind": "antenna",
+ "name": "DPK-8040-M",
+ "title": "Kelemen DPK-8040-M",
+ "brand": "Kelemen",
+ "price": 237.99,
+ "line": "HF trap dipole",
+ "legacy": false,
+ "summary": "Extra-short 72 ft 80/40m loaded dipole, 1 kW",
+ "jobs": [
+  {
+   "job": "ant_hf_wire",
+   "role": "primary"
+  },
+  {
+   "job": "ant_small_space",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "dipole",
+  "mount": "base",
+  "ant_bands": [
+   "80m",
+   "40m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 1000,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": 72.2,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": true,
+  "extra": {
+   "dxe_part_type": "wire-antennas"
+  }
+ },
+ "gotchas": [
+  "shortened — narrow 80m bandwidth"
+ ],
+ "confidence": "high",
+ "pairs": [],
+ "rating": {
+  "avg": 4.8,
+  "n": 8,
+  "pid": "11056",
+  "last": "2021-11-22",
+  "name": "G7FEK  80-40M SMALL GARDEN  ANTENNA"
+ }
+}

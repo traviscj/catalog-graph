@@ -1,0 +1,139 @@
+{
+ "id": "ico-id-52aplus",
+ "name": "ID-52A PLUS",
+ "title": "Icom ID-52A PLUS",
+ "brand": "Icom",
+ "price": 749.95,
+ "line": "D-STAR HT",
+ "legacy": false,
+ "summary": "Current flagship 2m/70cm D-STAR HT: GPS, waterfall scope, DV/DV dual watch, enhanced Bluetooth, USB-C, IPX7.",
+ "jobs": [
+  {
+   "job": "vhf_uhf_handheld",
+   "role": "primary"
+  },
+  {
+   "job": "digital_voice",
+   "role": "primary"
+  },
+  {
+   "job": "aprs",
+   "role": "secondary"
+  },
+  {
+   "job": "emcomm",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "handheld",
+  "bands_tx": [
+   "2m",
+   "70cm"
+  ],
+  "hf": false,
+  "vhf_uhf": true,
+  "rx_range": "88–174 MHz, 225–479 MHz",
+  "power_w": {
+   "hf": null,
+   "6m": null,
+   "2m": 5,
+   "70cm": 5,
+   "23cm": null
+  },
+  "modes": [
+   "FM",
+   "AM (RX)",
+   "D-STAR"
+  ],
+  "digital_voice": [
+   "D-STAR"
+  ],
+  "receiver_arch": "FM (HT/mobile)",
+  "band_scope": "color waterfall band scope",
+  "display": "2.3in color transflective",
+  "dual_receive": false,
+  "dual_watch": true,
+  "atu": false,
+  "usb_single_cable": false,
+  "lan_remote": false,
+  "wifi_bt": [
+   "Bluetooth"
+  ],
+  "gps": true,
+  "aprs": true,
+  "full_duplex_sat": false,
+  "crossband_repeat": false,
+  "detachable_head": false,
+  "power_source": "Li-ion pack",
+  "tx_current_a": null,
+  "battery": "BP-272 7.4V Li-ion (DXE desc says 1180 mAh)",
+  "ip_rating": "IPX7",
+  "antenna_ports": 1,
+  "rx_antenna_in": false,
+  "roofing_filters": null,
+  "memories": 2000,
+  "weight_kg": 0.33,
+  "size_mm": null,
+  "special": [
+   "USB-C charge/data",
+   "microSD voice recorder",
+   "DV/DV dual watch",
+   "Terminal/Access Point mode via Android",
+   "D-STAR image send",
+   "airband + mil-air RX"
+  ],
+  "requires": [],
+  "extra": {
+   "aprs_note": "D-PRS (D-STAR position), not native APRS",
+   "variant": "PLUS adds enhanced Bluetooth (Android Terminal/AP), simultaneous TM + simplex/repeater, USB-C vs ID-52A micro-USB",
+   "connector": "SMA female",
+   "list_price": 749.95,
+   "avail": "InStock"
+  }
+ },
+ "gotchas": [
+  "D-STAR only digital — no C4FM/DMR; ysu-ft-5dr for C4FM",
+  "$160 more than ico-id-52a; the PLUS gains are Bluetooth Android Terminal/AP mode and USB-C only",
+  "D-PRS not native APRS — position won't show on APRS-IS without a D-STAR gateway",
+  "Li-ion pack: DXE only accepts returns in person at a retail store"
+ ],
+ "best_for": [
+  "D-STAR users wanting the best HT",
+  "hotspot-free Terminal/AP mode via Android phone"
+ ],
+ "not_for": [
+  "C4FM/DMR networks",
+  "budget first HT"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "BP-307 spare battery",
+   "why": "higher-capacity pack for long events",
+   "req": false
+  },
+  {
+   "id": "ico-id-5100a-d",
+   "why": "D-STAR mobile with same ecosystem",
+   "req": false
+  },
+  {
+   "id": "Bluetooth headset (VS-3)",
+   "why": "hands-free operation",
+   "req": false
+  },
+  {
+   "id": "SMA-male aftermarket antenna",
+   "why": "better than stock rubber duck",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 4.0,
+  "n": 1,
+  "pid": "16030",
+  "last": "2026-05-30",
+  "name": "Icom ID 52A Plus 60th Anniversary Edition."
+ }
+}

@@ -1,0 +1,66 @@
+{
+ "id": "moo-tetra17",
+ "kind": "antenna",
+ "name": "Tetra17-FS",
+ "title": "Momobeam Tetra17-FS 40/20/15/10M Full-Size Yagi Antennas",
+ "brand": "Momobeam",
+ "price": 8070.99,
+ "line": "HF multiband yagi",
+ "legacy": false,
+ "summary": "Momobeam 17-element full-size 40/20/15/10m yagi — flagship contest array",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "40m",
+   "20m",
+   "15m",
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 10000,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 17,
+  "boom_ft": 39.7,
+  "turn_radius_ft": 41.7,
+  "wind_sqft": 27.34,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": 352.74,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "hf-directional-antennas"
+  }
+ },
+ "gotchas": [
+  "353 lb, 27 sq ft — major tower/rotator"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ],
+ "rating": {
+  "avg": 4.6,
+  "n": 28,
+  "pid": "1157",
+  "last": "2019-04-29",
+  "name": "Wilson 1000 antenna (10M)"
+ }
+}

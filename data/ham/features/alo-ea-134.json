@@ -1,0 +1,50 @@
+{
+ "id": "alo-ea-134",
+ "kind": "antenna",
+ "name": "EA-134",
+ "title": "Alinco EA-134",
+ "brand": "Alinco",
+ "price": 18.99,
+ "line": "HT antenna",
+ "legacy": false,
+ "summary": "Replacement monoband antenna for Alinco DJ-S45CQL handheld",
+ "jobs": [
+  {
+   "job": "ant_ht",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "rubber-duck",
+  "mount": "handheld",
+  "ant_bands": [
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "fits": "DJ-S45CQL",
+   "note": "band inferred from radio model",
+   "dxe_part_type": "handheld-and-scanner-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "medium",
+ "pairs": []
+}

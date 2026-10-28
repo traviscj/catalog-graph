@@ -1,0 +1,48 @@
+{
+ "id": "mfj-v-6r",
+ "kind": "antenna",
+ "name": "V-6R",
+ "title": "Hy-Gain V-6R",
+ "brand": "Hy-Gain",
+ "price": 349.95,
+ "line": "V/U base vertical",
+ "legacy": false,
+ "summary": "25 ft 6m two-5/8-wave collinear, 5.2 dBi, 500 W, decoupling radials",
+ "jobs": [
+  {
+   "job": "ant_vu_base",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "collinear",
+  "mount": "base",
+  "ant_bands": [
+   "6m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 500,
+  "max_w_digital": null,
+  "gain_dbi": 5.2,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 25.25,
+  "weight_lb": 15,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": []
+}

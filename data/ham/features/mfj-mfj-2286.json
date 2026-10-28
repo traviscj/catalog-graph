@@ -1,0 +1,77 @@
+{
+ "id": "mfj-mfj-2286",
+ "kind": "antenna",
+ "name": "MFJ-2286",
+ "title": "MFJ MFJ-2286",
+ "brand": "MFJ",
+ "price": 149.95,
+ "line": "HF portable vertical",
+ "legacy": false,
+ "summary": "Big Stick 17 ft whip + tapped coil portable vertical, 7-55 MHz, 1 kW",
+ "jobs": [
+  {
+   "job": "ant_hf_portable",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "vertical",
+  "mount": "portable",
+  "ant_bands": [
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m",
+   "6m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 1000,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 18,
+  "weight_lb": 2,
+  "radials": true,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "collapsed_in": 28,
+   "mount": "MFJ-342T pipe mount",
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [
+  "counterpoise must be deployed"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "radial wires / counterpoise",
+   "why": "vertical needs a ground system",
+   "req": true
+  },
+  {
+   "id": "1:1 common-mode choke at the shack entry",
+   "why": "keeps feedline RF out of the shack",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 4.3,
+  "n": 29,
+  "pid": "10436",
+  "last": "2020-04-05",
+  "name": "MFJ 2286 Big Stick Vertical Antenna"
+ }
+}

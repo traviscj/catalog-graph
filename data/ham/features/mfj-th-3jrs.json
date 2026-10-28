@@ -1,0 +1,67 @@
+{
+ "id": "mfj-th-3jrs",
+ "kind": "antenna",
+ "name": "TH-3JRS",
+ "title": "Hy-Gain TH-3JRS",
+ "brand": "Hy-Gain",
+ "price": 539.95,
+ "line": "HF tribander yagi",
+ "legacy": false,
+ "summary": "3-element 20/15/10m Thunderbird Jr tribander, 12 ft boom, 600 W",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "20m",
+   "15m",
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 600,
+  "max_w_digital": null,
+  "gain_dbi": 7.95,
+  "elements": 3,
+  "boom_ft": 12,
+  "turn_radius_ft": 14.75,
+  "wind_sqft": 3.35,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": 21,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "fb_db": 25,
+   "longest_el_ft": 27.25,
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [
+  "600 W max — not for full-legal amps"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ],
+ "rating": {
+  "avg": 3.2,
+  "n": 30,
+  "pid": "5904",
+  "last": "2023-08-27",
+  "name": "Hy-Gain TH-3JRS"
+ }
+}

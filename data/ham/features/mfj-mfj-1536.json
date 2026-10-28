@@ -1,0 +1,58 @@
+{
+ "id": "mfj-mfj-1536",
+ "kind": "antenna",
+ "name": "MFJ-1536",
+ "title": "MFJ MFJ-1536",
+ "brand": "MFJ",
+ "price": 169.95,
+ "line": "V/U base vertical",
+ "legacy": false,
+ "summary": "8.2-ft Pulsar fiberglass tri-band 6m/2m/70cm base, 200 W",
+ "jobs": [
+  {
+   "job": "ant_vu_base",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "collinear",
+  "mount": "base",
+  "ant_bands": [
+   "6m",
+   "2m",
+   "70cm"
+  ],
+  "resonant": null,
+  "tuner_req": null,
+  "max_w": 200,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 8.2,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "gain_raw": "2/6/8 dB (6m/2m/70cm, ref unstated)",
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [],
+ "rating": {
+  "avg": 1.7,
+  "n": 3,
+  "pid": "7025",
+  "last": "2017-08-15",
+  "name": "MFJ-1536 Pulsar Tri-Band Vertical 6m/2m/440"
+ }
+}

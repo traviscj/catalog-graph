@@ -1,0 +1,67 @@
+{
+ "id": "rez-rngr80pd-g",
+ "kind": "antenna",
+ "name": "Ranger 80 (tripod)",
+ "title": "REZ Antenna Systems Ranger 80 (tripod)",
+ "brand": "REZ",
+ "price": 560.0,
+ "line": "HF portable vertical",
+ "legacy": false,
+ "summary": "Manually tuned coil vertical, tripod kit; 80-15m as sold",
+ "jobs": [
+  {
+   "job": "ant_hf_portable",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "vertical",
+  "mount": "portable",
+  "ant_bands": [
+   "80m",
+   "60m",
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 200.0,
+  "max_w_digital": 100.0,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 12.0,
+  "weight_lb": null,
+  "radials": true,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "3/8-24",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "hf-portable-stealth-antennas"
+  }
+ },
+ "gotchas": [
+  "12/10m needs optional telescoping whip (desc says 80-10m)"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "radial wires / counterpoise",
+   "why": "vertical needs a ground system",
+   "req": true
+  },
+  {
+   "id": "1:1 common-mode choke at the shack entry",
+   "why": "keeps feedline RF out of the shack",
+   "req": false
+  }
+ ]
+}

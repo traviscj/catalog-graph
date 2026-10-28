@@ -1,0 +1,60 @@
+{
+ "id": "moo-tetra15",
+ "kind": "antenna",
+ "name": "Tetra15-DF",
+ "title": "Momobeam Tetra15-DF",
+ "brand": "Momobeam",
+ "price": 6271.99,
+ "line": "HF multiband yagi",
+ "legacy": false,
+ "summary": "15-element 40/20/15/10m dual-feed contest yagi, 243 lb",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "40m",
+   "20m",
+   "15m",
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 10000.0,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 15,
+  "boom_ft": 27.89,
+  "turn_radius_ft": 28.22,
+  "wind_sqft": 20.13,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": 242.5,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "hf-directional-antennas"
+  }
+ },
+ "gotchas": [
+  "243 lb, 20 sq ft — heavy tower + big rotator",
+  "Dual feed: two coax runs"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

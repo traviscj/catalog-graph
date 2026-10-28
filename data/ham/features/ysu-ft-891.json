@@ -1,0 +1,152 @@
+{
+ "id": "ysu-ft-891",
+ "name": "FT-891",
+ "title": "Yaesu FT-891",
+ "brand": "Yaesu",
+ "price": 749.95,
+ "line": "HF mobile",
+ "legacy": false,
+ "summary": "Ultra-compact 100 W HF+6m superhet mobile/portable rig with detachable head; no ATU, no USB audio.",
+ "jobs": [
+  {
+   "job": "hf_mobile",
+   "role": "primary"
+  },
+  {
+   "job": "hf_portable",
+   "role": "secondary"
+  },
+  {
+   "job": "hf_base",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "mobile",
+  "bands_tx": [
+   "160m",
+   "80m",
+   "60m",
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m",
+   "6m"
+  ],
+  "hf": true,
+  "vhf_uhf": false,
+  "rx_range": "0.030–56 MHz",
+  "power_w": {
+   "hf": 100,
+   "6m": 100,
+   "2m": null,
+   "70cm": null,
+   "23cm": null
+  },
+  "modes": [
+   "SSB",
+   "CW",
+   "AM",
+   "FM",
+   "DATA"
+  ],
+  "digital_voice": [],
+  "receiver_arch": "superhet",
+  "band_scope": "basic LCD band scope",
+  "display": "monochrome dot-matrix LCD",
+  "dual_receive": false,
+  "dual_watch": false,
+  "atu": false,
+  "usb_single_cable": false,
+  "lan_remote": false,
+  "wifi_bt": [],
+  "gps": false,
+  "aprs": false,
+  "full_duplex_sat": false,
+  "crossband_repeat": false,
+  "detachable_head": true,
+  "power_source": "13.8 VDC external",
+  "tx_current_a": 23,
+  "battery": null,
+  "ip_rating": null,
+  "antenna_ports": 1,
+  "rx_antenna_in": false,
+  "roofing_filters": "3k std",
+  "memories": 99,
+  "weight_kg": 1.9,
+  "size_mm": "155×52×218",
+  "special": [
+   "32-bit IF DSP",
+   "ATAS-120A/25 support",
+   "FC-50 ATU option",
+   "TCXO ±0.5 ppm",
+   "rugged diecast case"
+  ],
+  "requires": [
+   "13.8V 25A power supply",
+   "external ATU or resonant antenna"
+  ],
+  "extra": {
+   "am_power_w": 25,
+   "usb_note": "USB = virtual COM (CAT) only; no USB audio codec",
+   "head_sep": "YSK-891 separation kit sold separately",
+   "included": "MH-31A8J mic, mobile bracket",
+   "list_price": 749.95,
+   "avail": "InStock"
+  }
+ },
+ "gotchas": [
+  "No internal ATU — FC-50 or ATAS needed; ysu-ft-710-aess has an internal tuner",
+  "USB is CAT-only (no sound card): FT8 needs an external audio interface; ysu-ft-710-aess / ico-ic-7300mk2 do single-cable USB",
+  "Head separation needs the YSK-891 kit (not included)",
+  "HF+6m only — ysu-ft-991a adds 2m/70cm and C4FM",
+  "Small mono LCD and minimal scope vs touch waterfall on ysu-ft-710-aess"
+ ],
+ "best_for": [
+  "HF mobile installs",
+  "budget 100 W portable/POTA with a battery"
+ ],
+ "not_for": [
+  "easy FT8 setup",
+  "base station comfort",
+  "V/U"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "13.8 V 25 A power supply",
+   "why": "not included; 23 A TX",
+   "req": true
+  },
+  {
+   "id": "FC-50 auto-tuner / ATAS-120A",
+   "why": "no internal ATU",
+   "req": false
+  },
+  {
+   "id": "YSK-891 separation kit",
+   "why": "remote-mount head in vehicle",
+   "req": false
+  },
+  {
+   "id": "USB audio interface (e.g. SCU-17/Digirig)",
+   "why": "digital modes; USB lacks audio",
+   "req": false
+  },
+  {
+   "id": "ysu-ft-710-aess",
+   "why": "base sibling with ATU and USB audio",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 4.3,
+  "n": 169,
+  "pid": "13042",
+  "last": "2026-06-23",
+  "name": "Yaesu FT-891"
+ }
+}

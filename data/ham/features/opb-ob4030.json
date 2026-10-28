@@ -1,0 +1,62 @@
+{
+ "id": "opb-ob4030",
+ "kind": "antenna",
+ "name": "OB4030",
+ "title": "OptiBeam HF Directional Antennas",
+ "brand": "OptiBeam",
+ "price": 4143.99,
+ "line": "HF duoband yagi",
+ "legacy": false,
+ "summary": "OptiBeam 4-element 40/30m yagi on 18.4 ft boom",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "40m",
+   "30m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 4,
+  "boom_ft": 18.37,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "hf-directional-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ],
+ "rating": {
+  "avg": 5.0,
+  "n": 26,
+  "pid": "4709",
+  "last": "2025-06-26",
+  "name": "OptiBeam OB4030 - 40m & 30m high performance duobander"
+ }
+}

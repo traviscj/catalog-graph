@@ -1,0 +1,57 @@
+{
+ "id": "jxx-18470-32-2",
+ "kind": "antenna",
+ "name": "32JXX2",
+ "title": "I0JXX 32JXX2",
+ "brand": "I0JXX",
+ "price": 619.99,
+ "line": "V/U yagi (cross-pol)",
+ "legacy": false,
+ "summary": "16+16-element cross-polarized 2m yagi on 31 ft boom, 1 kW",
+ "jobs": [
+  {
+   "job": "ant_vu_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "2m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 1000,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 32,
+  "boom_ft": 31.0,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": null,
+  "connector": "N female",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "pol": "cross",
+   "dxe_part_type": "vhf-uhf-beam-antennas"
+  }
+ },
+ "gotchas": [
+  "31 ft boom — heavy rotator/support"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

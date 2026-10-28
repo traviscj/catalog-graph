@@ -1,0 +1,65 @@
+{
+ "id": "mfj-mfj-1848",
+ "kind": "antenna",
+ "name": "MFJ-1848",
+ "title": "MFJ MFJ-1848",
+ "brand": "MFJ",
+ "price": 799.95,
+ "line": "HF hex beam",
+ "legacy": false,
+ "summary": "G3TXQ-style 8-band hex beam 40-6m, 14 ft turning radius, legal limit",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "hex-beam",
+  "mount": "base",
+  "ant_bands": [
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m",
+   "6m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 1500,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": 14,
+  "wind_sqft": 3.5,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": 28,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "mast_max_in": 2,
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [
+  "rotator not included",
+  "gain figures not published"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

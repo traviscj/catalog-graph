@@ -1,0 +1,71 @@
+{
+ "id": "iva-18484-0122",
+ "kind": "antenna",
+ "name": "VertiGO",
+ "title": "InnovAntennas VertiGO HF Vertical Antennas",
+ "brand": "InnovAntennas",
+ "price": 399.99,
+ "line": "HF multiband vertical",
+ "legacy": false,
+ "summary": "InnovAntennas VertiGO 33 ft non-resonant vertical, 40-15m with remote tuner",
+ "jobs": [
+  {
+   "job": "ant_hf_vertical",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "vertical",
+  "mount": "base",
+  "ant_bands": [
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m"
+  ],
+  "resonant": false,
+  "tuner_req": null,
+  "max_w": 5000,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 33.0,
+  "weight_lb": 13.2,
+  "radials": true,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "terminal studs",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "hf-vertical-antennas-and-packages"
+  }
+ },
+ "gotchas": [
+  "Needs base-mounted remote tuner (not supplied)",
+  "Radials required"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "antenna tuner (wide-range)",
+   "why": "non-resonant on its listed bands",
+   "req": true
+  },
+  {
+   "id": "radial wires / counterpoise",
+   "why": "vertical needs a ground system",
+   "req": true
+  },
+  {
+   "id": "1:1 common-mode choke at the shack entry",
+   "why": "keeps feedline RF out of the shack",
+   "req": false
+  }
+ ]
+}

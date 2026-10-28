@@ -1,0 +1,69 @@
+{
+ "id": "mkr-11-432",
+ "kind": "antenna",
+ "name": "G5RV (half)",
+ "title": "Moonraker G5RV (half)",
+ "brand": "Moonraker",
+ "price": 134.99,
+ "line": "HF dipole",
+ "legacy": false,
+ "summary": "Half-size G5RV, 50.9 ft + 15 ft ladder line, 40-10m, 500 W",
+ "jobs": [
+  {
+   "job": "ant_hf_wire",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "dipole",
+  "mount": "base",
+  "ant_bands": [
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m"
+  ],
+  "resonant": false,
+  "tuner_req": null,
+  "max_w": 500,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": 50.85,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "horizontal",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": false,
+  "extra": {
+   "dxe_part_type": "wire-antennas"
+  }
+ },
+ "gotchas": [
+  "needs a tuner on most bands"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "antenna tuner (wide-range)",
+   "why": "non-resonant on its listed bands",
+   "req": true
+  }
+ ],
+ "rating": {
+  "avg": 4.9,
+  "n": 269,
+  "pid": "2202",
+  "last": "2025-07-05",
+  "name": "WA2NAN True-Talk G5RV"
+ }
+}

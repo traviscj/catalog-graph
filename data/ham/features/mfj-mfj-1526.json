@@ -1,0 +1,58 @@
+{
+ "id": "mfj-mfj-1526",
+ "kind": "antenna",
+ "name": "MFJ-1526",
+ "title": "MFJ MFJ-1526",
+ "brand": "MFJ",
+ "price": 159.95,
+ "line": "V/U base vertical",
+ "legacy": false,
+ "summary": "Pulsar 17 ft high-gain 2m/70cm fiberglass base collinear",
+ "jobs": [
+  {
+   "job": "ant_vu_base",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "collinear",
+  "mount": "base",
+  "ant_bands": [
+   "2m",
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 200,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 17,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "gain_db": "8.3/11.7, unit unstated",
+   "sections": 2,
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [],
+ "rating": {
+  "avg": 3.0,
+  "n": 7,
+  "pid": "4683",
+  "last": "2015-09-09",
+  "name": "MFJ-1526 Pular ULTRA MightyGain Dual Band 144/440Mhz"
+ }
+}

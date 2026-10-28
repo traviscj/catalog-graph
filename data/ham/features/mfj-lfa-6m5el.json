@@ -1,0 +1,61 @@
+{
+ "id": "mfj-lfa-6m5el",
+ "kind": "antenna",
+ "name": "LFA-6M5EL",
+ "title": "Cushcraft LFA-6M5EL",
+ "brand": "Cushcraft",
+ "price": 519.95,
+ "line": "V/U yagi",
+ "legacy": false,
+ "summary": "5-el G0KSC loop-fed 6m yagi, low-noise",
+ "jobs": [
+  {
+   "job": "ant_vu_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "6m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 5000,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 5,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ],
+ "rating": {
+  "avg": 1.0,
+  "n": 1,
+  "pid": "14076",
+  "last": "2018-11-16",
+  "name": "Cushcraft LFA-6M5EL"
+ }
+}

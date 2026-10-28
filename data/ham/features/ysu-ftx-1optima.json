@@ -1,0 +1,159 @@
+{
+ "id": "ysu-ftx-1optima",
+ "name": "FTX-1 Optima",
+ "title": "Yaesu FTX-1 Optima",
+ "brand": "Yaesu",
+ "price": 1549.95,
+ "line": "HF/VHF/UHF all-mode (field head + 100W amp)",
+ "legacy": false,
+ "summary": "FTX-1 Field Head bundled with SPA-1 100 W amp: HF–70cm all-mode incl. C4FM, base or portable.",
+ "jobs": [
+  {
+   "job": "allband_allmode",
+   "role": "primary"
+  },
+  {
+   "job": "hf_base",
+   "role": "primary"
+  },
+  {
+   "job": "hf_portable",
+   "role": "secondary"
+  },
+  {
+   "job": "digital_voice",
+   "role": "secondary"
+  },
+  {
+   "job": "ft8_digital",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "portable",
+  "bands_tx": [
+   "160m",
+   "80m",
+   "60m",
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m",
+   "6m",
+   "2m",
+   "70cm"
+  ],
+  "hf": true,
+  "vhf_uhf": true,
+  "rx_range": "0.030–174 MHz, 400–470 MHz",
+  "power_w": {
+   "hf": 100,
+   "6m": 100,
+   "2m": 50,
+   "70cm": 50,
+   "23cm": null
+  },
+  "modes": [
+   "SSB",
+   "CW",
+   "AM",
+   "FM",
+   "C4FM",
+   "RTTY",
+   "DATA"
+  ],
+  "digital_voice": [
+   "C4FM"
+  ],
+  "receiver_arch": "SDR (Yaesu, arch not specified by DXE)",
+  "band_scope": "real-time scope + waterfall",
+  "display": "4.3in color TFT (Field Head)",
+  "dual_receive": false,
+  "dual_watch": false,
+  "atu": true,
+  "usb_single_cable": true,
+  "lan_remote": false,
+  "wifi_bt": [],
+  "gps": false,
+  "aprs": false,
+  "full_duplex_sat": false,
+  "crossband_repeat": false,
+  "detachable_head": false,
+  "power_source": "13.8 VDC external (100 W via SPA-1) or internal battery (6 W)",
+  "tx_current_a": 21.0,
+  "battery": "SBR-52LI 10.8V 6400 mAh Li-ion (included; swaps with SPA-1 on Field Head)",
+  "ip_rating": null,
+  "antenna_ports": 3,
+  "rx_antenna_in": false,
+  "roofing_filters": null,
+  "memories": null,
+  "weight_kg": 3.9,
+  "size_mm": "213×89×240 (with SPA-1)",
+  "special": [
+   "SPA-1 100W amp included",
+   "tool-free amp/battery swap",
+   "USB-C PD charging (≥45 W)",
+   "voice synthesizer",
+   "QRP 6W on battery"
+  ],
+  "requires": [
+   "13.8V ~25A power supply for 100 W"
+  ],
+  "extra": {
+   "variant": "Optima = Field Head + SPA-1 amp + battery; Field = head + battery only (6/10 W)",
+   "atu_note": "DXE: internal HF tuner yes (in SPA-1 amp)",
+   "power_note": "VHF/UHF 50 W with SPA-1 (model knowledge); 10 W on 13.8 V without amp, 6 W on battery",
+   "list_price": 2049.95,
+   "avail": "InStock"
+  }
+ },
+ "gotchas": [
+  "Optima vs Field: Optima adds the SPA-1 100 W amp (+ATU); ysu-ftx-1field is head+battery only (6/10 W) for ~$500 less",
+  "Needs a separate 13.8 V ~21 A supply for 100 W; battery mode drops to 6 W (amp removed)",
+  "DXE lists single receiver, no dual watch — ysu-ftdx-101d / ico-ic-7610-32 for true dual RX on HF",
+  "Digital voice is C4FM only — no D-STAR; ico-ic-705 covers D-STAR in a QRP portable",
+  "Li-ion pack: DXE only accepts returns in person at a retail store"
+ ],
+ "best_for": [
+  "one radio for home 100 W and battery POTA/SOTA",
+  "HF+V/U all-mode with C4FM"
+ ],
+ "not_for": [
+  "contest-grade dual-RX HF",
+  "D-STAR users",
+  "budget buyers who only need QRP (Field model)"
+ ],
+ "confidence": "medium",
+ "pairs": [
+  {
+   "id": "13.8 V 25 A power supply",
+   "why": "100 W operation with SPA-1",
+   "req": true
+  },
+  {
+   "id": "ysu-ftx-1field",
+   "why": "same Field Head without the amp, QRP-only",
+   "req": false
+  },
+  {
+   "id": "ysu-ftm-510drasp",
+   "why": "C4FM mobile companion for the car",
+   "req": false
+  },
+  {
+   "id": "spare SBR-52LI Li-ion battery",
+   "why": "longer battery-only field sessions",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 4.1,
+  "n": 16,
+  "pid": "16175",
+  "last": "2026-10-17",
+  "name": "Yaesu FTX-1 Field (6W-10W) optima (100 Watts)"
+ }
+}

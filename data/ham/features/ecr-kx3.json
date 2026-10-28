@@ -1,0 +1,198 @@
+{
+ "id": "ecr-kx3",
+ "name": "KX3",
+ "title": "Elecraft KX3",
+ "brand": "Elecraft",
+ "price": 1814.95,
+ "line": "HF portable/QRP",
+ "legacy": false,
+ "summary": "160–6m all-mode QRP SDR portable, 10–15 W, 150 mA RX; ATU, 2m/4m, panadapter all optional add-ons.",
+ "jobs": [
+  {
+   "job": "hf_portable",
+   "role": "primary"
+  },
+  {
+   "job": "hf_base",
+   "role": "secondary"
+  },
+  {
+   "job": "ft8_digital",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "portable",
+  "bands_tx": [
+   "160m",
+   "80m",
+   "60m",
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m",
+   "6m"
+  ],
+  "hf": true,
+  "vhf_uhf": false,
+  "rx_range": "0.31–32 MHz (reduced <1.5 MHz) + 44–54 MHz (6m)",
+  "power_w": {
+   "hf": 15,
+   "6m": 8,
+   "2m": null,
+   "70cm": null,
+   "23cm": null
+  },
+  "modes": [
+   "SSB",
+   "CW",
+   "AM",
+   "FM",
+   "RTTY",
+   "PSK",
+   "DATA"
+  ],
+  "digital_voice": [],
+  "receiver_arch": "narrowband SDR",
+  "band_scope": null,
+  "display": "custom LCD (alphanumeric, K3S-size)",
+  "dual_receive": false,
+  "dual_watch": false,
+  "atu": false,
+  "usb_single_cable": false,
+  "lan_remote": false,
+  "wifi_bt": [],
+  "gps": false,
+  "aprs": false,
+  "full_duplex_sat": false,
+  "crossband_repeat": false,
+  "detachable_head": false,
+  "headless": false,
+  "power_source": "internal battery + 13.8 VDC",
+  "tx_current_a": null,
+  "battery": "8× AA internal (not included; KXBC3 NiMH charger optional)",
+  "ip_rating": null,
+  "antenna_ports": 1,
+  "rx_antenna_in": false,
+  "roofing_filters": "KXFL3 opt: 500/1500 Hz dual-passband",
+  "memories": 100,
+  "weight_kg": 0.51,
+  "size_mm": "188×86×43",
+  "special": [
+   "160–6m all-mode in 0.5 kg",
+   "RX I/Q outputs for PC SDR",
+   "PSK/RTTY decode/encode without PC",
+   "DVR 2 msgs",
+   "DSP dual watch ±15 kHz",
+   "150 mA RX",
+   "optional 2m or 4m internal module (KX3-2M/4M, ~3 W)",
+   "PIN-diode QSK",
+   "kit or assembled"
+  ],
+  "requires": [
+   "13.8V supply for full power",
+   "AA cells or external battery",
+   "external ATU or KXAT3 option",
+   "PX3 for any band scope",
+   "mic/paddle sold separately"
+  ],
+  "extra": {
+   "power_note": "page spec: 0.1–10 W (8 W on 12/10/6m) — internal-battery figure; KX2 FAQ: 'full 15 watt output on most bands' (external 13.8 V); 100 W with KXPA100",
+   "dual_watch_note": "same-band ±15 kHz DSP dual watch, not a 2nd receiver",
+   "band_scope_note": "none internal — requires PX3 panadapter",
+   "usb_note": "supplied USB cable is CAT/serial only (no USB audio codec)",
+   "vhf_option": "KX3-2M (120–165 MHz RX) or KX3-4M, 2.5–3 W ext supply / 1–1.5 W internal; not counted in bands_tx",
+   "rx_current_a": 0.15,
+   "source": "elecraft.com",
+   "variant": "factory assembled (kit also sold)",
+   "list_price": "1814.95",
+   "avail": "InStock"
+  }
+ },
+ "gotchas": [
+  "Options make it expensive: KX3 + KXAT3 ATU + KXFL3 + PX3 panadapter + MH3 easily tops $3k — ico-ic-705 includes scope/waterfall, battery, GPS, D-STAR, 2m/70cm for ~$1.4k",
+  "No band scope without the PX3 (separate box) — ico-ic-705 / ysu-ftx-1field have built-in waterfall",
+  "No USB audio codec: FT8 needs analog audio cables + interface, not one USB cable like ico-ic-705 / ico-ic-7300mk2",
+  "No internal ATU in base price — KXAT3 option",
+  "2m/4m module is ~3 W and one band only; ysu-ftx-1field / ico-ic-705 do 2m/70cm at 6–10 W",
+  "Elecraft page lists 10 W (8 W on 12/10/6m) — 15 W only from a 13.8 V external supply, not AA cells"
+ ],
+ "best_for": [
+  "SOTA/POTA CW + SSB with excellent RX",
+  "KXPA100 100 W home+field combo",
+  "operators who want knobs, not menus"
+ ],
+ "not_for": [
+  "plug-and-play FT8 via one USB cable",
+  "scope/waterfall users on a budget",
+  "V/U FM primary"
+ ],
+ "confidence": "medium",
+ "pairs": [
+  {
+   "id": "Elecraft KXAT3 internal ATU",
+   "why": "ATU optional; tunes random wires/whips",
+   "req": false
+  },
+  {
+   "id": "Elecraft PX3 panadapter",
+   "why": "only way to get a band scope/waterfall",
+   "req": false
+  },
+  {
+   "id": "Elecraft KXPA100 100 W amplifier",
+   "why": "100 W home station (KXAT100 ATU option)",
+   "req": false
+  },
+  {
+   "id": "Elecraft KX3-2M module",
+   "why": "internal 2m (or 4m) all-mode ~3 W",
+   "req": false
+  },
+  {
+   "id": "Elecraft KXBC3 NiMH charger",
+   "why": "internal AA NiMH charging + RTC",
+   "req": false
+  },
+  {
+   "id": "Elecraft KXFL3 roofing filter",
+   "why": "improves close-in dynamic range",
+   "req": false
+  },
+  {
+   "id": "Elecraft MH3 hand mic",
+   "why": "no mic included; needed for SSB",
+   "req": false
+  },
+  {
+   "id": "Elecraft KXPD3 keyer paddle",
+   "why": "attached paddle, not included",
+   "req": false
+  },
+  {
+   "id": "Elecraft KXUSB cable",
+   "why": "CAT/firmware (serial only)",
+   "req": false
+  },
+  {
+   "id": "USB sound-card interface (e.g. SignaLink)",
+   "why": "no USB audio for FT8",
+   "req": false
+  },
+  {
+   "id": "13.8 V power supply",
+   "why": "full 15 W and home use",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 4.7,
+  "n": 161,
+  "pid": "10271",
+  "last": "2025-11-09",
+  "name": "Elecraft KX3"
+ }
+}

@@ -1,0 +1,62 @@
+{
+ "id": "ean-r2010252",
+ "kind": "antenna",
+ "name": "EA270ZB13",
+ "title": "EAntenna EA270ZB13",
+ "brand": "EAntenna",
+ "price": 149.99,
+ "line": "V/U yagi",
+ "legacy": false,
+ "summary": "DK7ZB dual-band 2m/70cm yagi, 5+8 elements, 5 ft boom",
+ "jobs": [
+  {
+   "job": "ant_vu_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "2m",
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 13,
+  "boom_ft": 4.95,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": null,
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "vhf-uhf-beam-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ],
+ "rating": {
+  "avg": 3.3,
+  "n": 4,
+  "pid": "14315",
+  "last": "2023-08-10",
+  "name": "EAntenna VHF and UHF 2/70cm Yagi EA270ZB13"
+ }
+}

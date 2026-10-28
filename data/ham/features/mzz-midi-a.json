@@ -1,0 +1,64 @@
+{
+ "id": "mzz-midi-a",
+ "kind": "antenna",
+ "name": "MIDI LOOP",
+ "title": "Ciro Mazzoni Automatic Magnetic Loop Antennas",
+ "brand": "Ciro Mazzoni",
+ "price": 2479.99,
+ "line": "HF mag loop",
+ "legacy": false,
+ "summary": "Ciro Mazzoni MIDI auto-tuned 79 in magnetic loop, 80-20m",
+ "jobs": [
+  {
+   "job": "ant_small_space",
+   "role": "primary"
+  },
+  {
+   "job": "ant_hf_vertical",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "mag-loop",
+  "mount": "base",
+  "ant_bands": [
+   "80m",
+   "60m",
+   "40m",
+   "30m",
+   "20m"
+  ],
+  "resonant": true,
+  "tuner_req": "No",
+  "max_w": 300,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": 44,
+  "radials": null,
+  "directional": false,
+  "polarization": null,
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "diameter_in": 79,
+   "max_w_by_band": {
+    "3.5-8MHz": 300,
+    "8-14.5MHz": 800
+   },
+   "dxe_part_type": "limited-space-small-loop-antennas"
+  }
+ },
+ "gotchas": [
+  "300 W max on 80/40m (800 W 30/20m)",
+  "Controller handles 200 W"
+ ],
+ "confidence": "high",
+ "pairs": []
+}

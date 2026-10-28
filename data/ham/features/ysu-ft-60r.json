@@ -1,0 +1,129 @@
+{
+ "id": "ysu-ft-60r",
+ "name": "FT-60R",
+ "title": "Yaesu FT-60R",
+ "brand": "Yaesu",
+ "price": 189.99,
+ "line": "HT",
+ "legacy": false,
+ "summary": "Long-running basic 5 W 2m/70cm analog FM HT, 1000 memories, wideband receive, NiMH pack.",
+ "jobs": [
+  {
+   "job": "vhf_uhf_handheld",
+   "role": "primary"
+  },
+  {
+   "job": "first_radio",
+   "role": "primary"
+  },
+  {
+   "job": "emcomm",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "handheld",
+  "bands_tx": [
+   "2m",
+   "70cm"
+  ],
+  "hf": false,
+  "vhf_uhf": true,
+  "rx_range": "108–520 MHz, 700–999.99 MHz (cell blocked)",
+  "power_w": {
+   "hf": null,
+   "6m": null,
+   "2m": 5,
+   "70cm": 5,
+   "23cm": null
+  },
+  "modes": [
+   "FM",
+   "AM (RX)"
+  ],
+  "digital_voice": [],
+  "receiver_arch": "FM (HT/mobile)",
+  "band_scope": null,
+  "display": "monochrome LCD",
+  "dual_receive": false,
+  "dual_watch": false,
+  "atu": false,
+  "usb_single_cable": false,
+  "lan_remote": false,
+  "wifi_bt": [],
+  "gps": false,
+  "aprs": false,
+  "full_duplex_sat": false,
+  "crossband_repeat": false,
+  "detachable_head": false,
+  "power_source": "Ni-MH pack",
+  "tx_current_a": null,
+  "battery": "FNB-83 7.2V 1400 mAh Ni-MH (included) + SBH-13B cradle",
+  "ip_rating": null,
+  "antenna_ports": 1,
+  "rx_antenna_in": false,
+  "roofing_filters": null,
+  "memories": 1000,
+  "weight_kg": 0.37,
+  "size_mm": "58×109×30",
+  "special": [
+   "EAI emergency auto ID",
+   "NOAA weather alert",
+   "airband RX",
+   "DTMF autodialer"
+  ],
+  "requires": [],
+  "extra": {
+   "connector": "SMA female on radio",
+   "dual_watch_note": "priority-channel watch only, no dual-band receive",
+   "list_price": 189.99,
+   "avail": "InStock"
+  }
+ },
+ "gotchas": [
+  "Analog FM only — no digital voice; ysu-ft-5dr / ysu-ft-70dr add C4FM",
+  "Ni-MH 1400 mAh pack is heavy and low-capacity vs Li-ion on ysu-ft-65r / ysu-ft-5dr",
+  "No dual receive — single VFO; ysu-ft-5dr does V+V/U+U dual watch",
+  "SMA-female radio jack: aftermarket antennas must be SMA-male (many cheap whips are the opposite)",
+  "Programming cable not included; keypad programming of 1000 memories is tedious"
+ ],
+ "best_for": [
+  "cheap durable first HT",
+  "repeater/emcomm backup with wide RX"
+ ],
+ "not_for": [
+  "digital voice",
+  "APRS",
+  "waterproof needs"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "programming cable + software (e.g. RT Systems)",
+   "why": "bulk memory programming",
+   "req": false
+  },
+  {
+   "id": "ysu-ft-65r",
+   "why": "newer cheaper Li-ion analog HT",
+   "req": false
+  },
+  {
+   "id": "spare FNB-83 battery",
+   "why": "swap packs; cradle charges spares",
+   "req": false
+  },
+  {
+   "id": "SDD-13 DC car charger",
+   "why": "charge from vehicle",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 4.6,
+  "n": 326,
+  "pid": "4286",
+  "last": "2025-04-20",
+  "name": "Yaesu FT-60R"
+ }
+}

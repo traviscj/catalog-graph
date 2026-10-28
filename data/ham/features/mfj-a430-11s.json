@@ -1,0 +1,62 @@
+{
+ "id": "mfj-a430-11s",
+ "kind": "antenna",
+ "name": "A430-11S",
+ "title": "Cushcraft A430-11S",
+ "brand": "Cushcraft",
+ "price": 179.95,
+ "line": "V/U yagi",
+ "legacy": false,
+ "summary": "11-element 430-440 MHz yagi, 13.2 dBi, 4.6 ft boom",
+ "jobs": [
+  {
+   "job": "ant_vu_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 350,
+  "max_w_digital": null,
+  "gain_dbi": 13.2,
+  "elements": 11,
+  "boom_ft": 4.6,
+  "turn_radius_ft": 2.8,
+  "wind_sqft": 0.42,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": 4,
+  "radials": null,
+  "directional": true,
+  "polarization": null,
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "fb_db": 20,
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ],
+ "rating": {
+  "avg": 3.2,
+  "n": 6,
+  "pid": "5756",
+  "last": "2014-01-31",
+  "name": "Cushcraft A430-11S"
+ }
+}

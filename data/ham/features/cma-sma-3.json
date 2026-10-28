@@ -1,0 +1,57 @@
+{
+ "id": "cma-sma-3",
+ "kind": "antenna",
+ "name": "SMA-3",
+ "title": "Comet Antennas SMA-3",
+ "brand": "Comet",
+ "price": 45.95,
+ "line": "HT antenna",
+ "legacy": false,
+ "summary": "Flexible tri-band 2m/70cm/900 MHz HT whip, SMA male",
+ "jobs": [
+  {
+   "job": "ant_ht",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "whip",
+  "mount": "handheld",
+  "ant_bands": [
+   "2m",
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 0.81,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "SMA male",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "other_bands": "900 MHz (33cm)",
+   "dxe_part_type": "handheld-and-scanner-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [],
+ "rating": {
+  "avg": 4.5,
+  "n": 4,
+  "pid": "5286",
+  "last": "2016-09-26",
+  "name": "Comet SMA-3 Triband HT Antenna"
+ }
+}

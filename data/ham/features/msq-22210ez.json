@@ -1,0 +1,62 @@
+{
+ "id": "msq-22210ez",
+ "kind": "antenna",
+ "name": "222-10EZ",
+ "title": "M2 222-10EZ",
+ "brand": "M2",
+ "price": 373.99,
+ "line": "V/U yagi",
+ "legacy": false,
+ "summary": "10-element 222 MHz yagi, 9.75 ft boom, 14.1 dBi",
+ "jobs": [
+  {
+   "job": "ant_vu_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "1.25m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 1500,
+  "max_w_digital": null,
+  "gain_dbi": 14.1,
+  "elements": 10,
+  "boom_ft": 9.75,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": "N female",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "fb_db": 23,
+   "dxe_part_type": "vhf-uhf-beam-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ],
+ "rating": {
+  "avg": 5.0,
+  "n": 2,
+  "pid": "8101",
+  "last": "2015-11-28",
+  "name": "M2 222-10EZ"
+ }
+}

@@ -1,0 +1,63 @@
+{
+ "id": "mfj-a50-6s",
+ "kind": "antenna",
+ "name": "A50-6S",
+ "title": "Cushcraft A50-6S",
+ "brand": "Cushcraft",
+ "price": 529.95,
+ "line": "6m yagi",
+ "legacy": false,
+ "summary": "6-element broadband 6m yagi, stainless hardware, 1 kW",
+ "jobs": [
+  {
+   "job": "ant_vu_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "6m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 1000,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 6,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": null,
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [
+  "rotator not included"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ],
+ "rating": {
+  "avg": 4.2,
+  "n": 25,
+  "pid": "2057",
+  "last": "2024-09-16",
+  "name": "Cushcraft A50-5S 6 Meter Beam"
+ }
+}

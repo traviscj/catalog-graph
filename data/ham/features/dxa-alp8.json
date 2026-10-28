@@ -1,0 +1,61 @@
+{
+ "id": "dxa-alp8",
+ "kind": "antenna",
+ "name": "ALP8",
+ "title": "DIEX ALP8",
+ "brand": "DIEX",
+ "price": 1699.99,
+ "line": "HF log-periodic",
+ "legacy": false,
+ "summary": "8-element 13.5-30 MHz log-periodic, 20-10m incl. WARC, 2 kW",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "log-periodic",
+  "mount": "base",
+  "ant_bands": [
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 2000,
+  "max_w_digital": 700,
+  "gain_dbi": 8.55,
+  "elements": 8,
+  "boom_ft": 18.0,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "also": "11m",
+   "dxe_part_type": "hf-directional-antennas"
+  }
+ },
+ "gotchas": [
+  "18 ft boom; LPDA gain below a comparable yagi"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

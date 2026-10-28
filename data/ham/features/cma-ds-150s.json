@@ -1,0 +1,67 @@
+{
+ "id": "cma-ds-150s",
+ "kind": "antenna",
+ "name": "DS-150S",
+ "title": "Comet Antennas DS-150S",
+ "brand": "Comet",
+ "price": 161.49,
+ "line": "discone (RX)",
+ "legacy": false,
+ "summary": "Wideband base discone: RX 25-1300 MHz, TX on 6m/2m/70cm/23cm",
+ "jobs": [
+  {
+   "job": "ant_rx",
+   "role": "primary"
+  },
+  {
+   "job": "ant_vu_base",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "discone",
+  "mount": "base",
+  "ant_bands": [
+   "6m",
+   "2m",
+   "70cm",
+   "23cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 4.67,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "rx_range": "25-1300 MHz",
+   "tx_also": "900 MHz",
+   "coax_incl_ft": 65,
+   "dxe_part_type": "discone-antennas"
+  }
+ },
+ "gotchas": [
+  "Discone: unity-gain omni, weaker than a dedicated V/U collinear"
+ ],
+ "confidence": "high",
+ "pairs": [],
+ "rating": {
+  "avg": 4.5,
+  "n": 8,
+  "pid": "6864",
+  "last": "2022-08-06",
+  "name": "Comet DS-150S Discone Antenna"
+ }
+}

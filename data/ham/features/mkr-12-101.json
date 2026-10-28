@@ -1,0 +1,70 @@
+{
+ "id": "mkr-12-101",
+ "kind": "antenna",
+ "name": "SPX-100",
+ "title": "Moonraker SPX-100 9-Band Plug-N-Go Antennas",
+ "brand": "Moonraker",
+ "price": 89.99,
+ "line": "HF portable whip",
+ "legacy": false,
+ "summary": "Moonraker SPX-100 9-band telescopic plug-in whip for QRP rigs, 50 W",
+ "jobs": [
+  {
+   "job": "ant_hf_portable",
+   "role": "primary"
+  },
+  {
+   "job": "ant_ht",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "whip",
+  "mount": "portable",
+  "ant_bands": [
+   "40m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m",
+   "6m",
+   "2m",
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 4.92,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "hf-portable-stealth-antennas"
+  }
+ },
+ "gotchas": [
+  "Band set inferred",
+  "Very short on HF — low efficiency"
+ ],
+ "confidence": "medium",
+ "pairs": [],
+ "rating": {
+  "avg": 2.9,
+  "n": 10,
+  "pid": "8784",
+  "last": "2023-12-15",
+  "name": "Moonraker SPX100"
+ }
+}

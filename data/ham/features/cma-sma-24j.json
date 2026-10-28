@@ -1,0 +1,56 @@
+{
+ "id": "cma-sma-24j",
+ "kind": "antenna",
+ "name": "SMA-24J",
+ "title": "Comet Antennas SMA-24J",
+ "brand": "Comet",
+ "price": 28.95,
+ "line": "HT antenna",
+ "legacy": false,
+ "summary": "15 in. flexible dual-band HT whip, SMA female (Baofeng-style)",
+ "jobs": [
+  {
+   "job": "ant_ht",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "whip",
+  "mount": "handheld",
+  "ant_bands": [
+   "2m",
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 1.27,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "SMA female",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "handheld-and-scanner-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [],
+ "rating": {
+  "avg": 4.3,
+  "n": 58,
+  "pid": "1839",
+  "last": "2020-07-03",
+  "name": "Comet SMA-24J  HT antenna"
+ }
+}

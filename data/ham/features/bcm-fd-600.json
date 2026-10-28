@@ -1,0 +1,59 @@
+{
+ "id": "bcm-fd-600",
+ "kind": "antenna",
+ "name": "FD-600",
+ "title": "Bushcomm FD-600 Wideband Folded Dipoles",
+ "brand": "Bushcomm",
+ "price": 899.99,
+ "line": "HF broadband wire",
+ "legacy": false,
+ "summary": "Bushcomm FD-600 88.6 ft wideband folded dipole, 2-30 MHz, no tuner",
+ "jobs": [
+  {
+   "job": "ant_hf_wire",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "dipole",
+  "mount": "base",
+  "ant_bands": [
+   "80m",
+   "60m",
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 600,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": 88.58,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "freq": "2-30 MHz",
+   "dxe_part_type": "wire-antennas"
+  }
+ },
+ "gotchas": [
+  "Terminated design — resistive loss"
+ ],
+ "confidence": "high",
+ "pairs": []
+}

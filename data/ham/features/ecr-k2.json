@@ -1,0 +1,169 @@
+{
+ "id": "ecr-k2",
+ "name": "K2",
+ "title": "Elecraft K2",
+ "brand": "Elecraft",
+ "price": 1759.95,
+ "line": "HF kit",
+ "legacy": false,
+ "summary": "Classic 1999-era 80–10m CW superhet kit, 15 W, crystal filter; SSB, ATU, 160m are add-on kits.",
+ "jobs": [
+  {
+   "job": "hf_base",
+   "role": "primary"
+  },
+  {
+   "job": "hf_portable",
+   "role": "secondary"
+  },
+  {
+   "job": "new:kit_building",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "base",
+  "bands_tx": [
+   "80m",
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m"
+  ],
+  "hf": true,
+  "vhf_uhf": false,
+  "rx_range": "ham bands 80–10m (+160m with K160M); not general coverage",
+  "power_w": {
+   "hf": 15,
+   "6m": null,
+   "2m": null,
+   "70cm": null,
+   "23cm": null
+  },
+  "modes": [
+   "CW"
+  ],
+  "digital_voice": [],
+  "receiver_arch": "superhet",
+  "band_scope": null,
+  "display": "backlit LCD + LED bargraph",
+  "dual_receive": false,
+  "dual_watch": false,
+  "atu": false,
+  "usb_single_cable": false,
+  "lan_remote": false,
+  "wifi_bt": [],
+  "gps": false,
+  "aprs": false,
+  "full_duplex_sat": false,
+  "crossband_repeat": false,
+  "detachable_head": false,
+  "headless": false,
+  "power_source": "13.8 VDC external",
+  "tx_current_a": null,
+  "battery": null,
+  "ip_rating": null,
+  "antenna_ports": 1,
+  "rx_antenna_in": false,
+  "roofing_filters": "variable-BW IF crystal filter ~200–2000 Hz",
+  "memories": null,
+  "weight_kg": 1.5,
+  "size_mm": "198×74×208",
+  "special": [
+   "build-it-yourself kit (toroids, soldering)",
+   "single-conversion superhet, diode DBM",
+   "full diode-switched QSK",
+   "9-memory keyer",
+   "3 transverter bands",
+   "optional internal 2.9 Ah battery (KBT2)",
+   "150 mA RX (battery save)",
+   "options: KSB2 SSB, KAT2 ATU, KNB2 NB, K160M, KAF2, KIO2, K60XV 60m"
+  ],
+  "requires": [
+   "kit assembly + alignment (DMM)",
+   "13.8V supply",
+   "KSB2 option for SSB/data",
+   "KIO2 + custom cable for CAT"
+  ],
+  "extra": {
+   "modes_note": "CW-only base; KSB2 adds SSB (+ data via audio)",
+   "power_note": "0.1–15 W; K2/100 was 100 W but KPA100 amp is RETIRED (parts unavailable)",
+   "bands_note": "160m via K160M (+2nd RX ant port); 60m via K60XV upgrade",
+   "cat_note": "KUSB must NOT plug directly into K2 — needs KIO2 + custom RS-232 interface cable",
+   "design_year": "~1999",
+   "kit": true,
+   "rx_current_a": 0.15,
+   "source": "elecraft.com",
+   "list_price": "1759.95",
+   "avail": "InStock"
+  }
+ },
+ "gotchas": [
+  "It's a kit — soldering, toroid winding, alignment; not a ready radio",
+  "CW only out of the box; SSB needs KSB2, ATU needs KAT2, 160m needs K160M — options make a $1,760 kit ~$2.2k+, more than an assembled ico-ic-7300mk2 (100 W, ATU, scope, USB)",
+  "100 W path is gone: KPA100 amp retired — QRP only unless you add an external amp",
+  "1999-era design: no scope, no USB audio, no DSP NR; CAT needs KIO2 + custom cable (KUSB direct-connect damages it)",
+  "Ham bands only, no 60m/160m stock — ecr-kx3 does 160–6m all-mode assembled for similar money"
+ ],
+ "best_for": [
+  "kit builders who want a proven high-performance CW rig",
+  "learning RF by building",
+  "low-current field CW"
+ ],
+ "not_for": [
+  "plug-and-play",
+  "FT8 via USB",
+  "100 W stations"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "Elecraft KSB2 SSB adapter",
+   "why": "CW-only without it",
+   "req": false
+  },
+  {
+   "id": "Elecraft KAT2 internal ATU",
+   "why": "20 W ATU optional",
+   "req": false
+  },
+  {
+   "id": "Elecraft KNB2 noise blanker",
+   "why": "common package add",
+   "req": false
+  },
+  {
+   "id": "Elecraft K160M 160m + 2nd RX port",
+   "why": "adds 160m",
+   "req": false
+  },
+  {
+   "id": "Elecraft KIO2 RS-232 interface",
+   "why": "required for computer control",
+   "req": false
+  },
+  {
+   "id": "Elecraft KBT2 internal battery",
+   "why": "2.9 Ah internal battery for field",
+   "req": false
+  },
+  {
+   "id": "Elecraft MH4-K2 hand mic",
+   "why": "needed with KSB2 for SSB",
+   "req": false
+  },
+  {
+   "id": "13.8 V power supply (e.g. SS30DV)",
+   "why": "no internal PSU",
+   "req": true
+  },
+  {
+   "id": "soldering station + DMM",
+   "why": "kit assembly and alignment",
+   "req": true
+  }
+ ]
+}

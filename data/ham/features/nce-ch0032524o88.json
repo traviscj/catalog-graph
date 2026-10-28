@@ -1,0 +1,51 @@
+{
+ "id": "nce-ch0032524o88",
+ "kind": "antenna",
+ "name": "JFA-88K",
+ "title": "Chelegance JFA Tactical Folding Dual Band HT Antennas",
+ "brand": "Chelegance",
+ "price": 11.99,
+ "line": "HT antenna",
+ "legacy": false,
+ "summary": "Chelegance 35 in tactical folding dual-band HT whip, SMA female",
+ "jobs": [
+  {
+   "job": "ant_ht",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "whip",
+  "mount": "handheld",
+  "ant_bands": [
+   "2m",
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 8,
+  "max_w_digital": null,
+  "gain_dbi": 2.8,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 2.92,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "SMA-male",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "handheld-and-scanner-antennas"
+  }
+ },
+ "gotchas": [
+  "SMA female — Baofeng-style radios"
+ ],
+ "confidence": "high",
+ "pairs": []
+}

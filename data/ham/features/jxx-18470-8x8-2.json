@@ -1,0 +1,63 @@
+{
+ "id": "jxx-18470-8x8-2",
+ "kind": "antenna",
+ "name": "8x8JXX2",
+ "title": "I0JXX 2M Yagi Antennas",
+ "brand": "I0JXX",
+ "price": 499.99,
+ "line": "V/U sat (crossed yagi)",
+ "legacy": false,
+ "summary": "I0JXX 8x8JXX2 crossed 2m yagi for satellite/circular work",
+ "jobs": [
+  {
+   "job": "ant_vu_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "2m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 1000,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 16,
+  "boom_ft": 15.42,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": "circular",
+  "connector": "N-female",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "vhf-uhf-beam-antennas"
+  }
+ },
+ "gotchas": [
+  "Circular needs phasing harness/switch"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ],
+ "rating": {
+  "avg": 5.0,
+  "n": 1,
+  "pid": "6850",
+  "last": "2007-11-01",
+  "name": "SOTAbeams SB5 5 element 2m Yagi"
+ }
+}

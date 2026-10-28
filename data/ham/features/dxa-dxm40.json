@@ -1,0 +1,61 @@
+{
+ "id": "dxa-dxm40",
+ "kind": "antenna",
+ "name": "DXM40",
+ "title": "DIEX Antennas DXM40",
+ "brand": "DIEX",
+ "price": 425.99,
+ "line": "HF rotatable dipole",
+ "legacy": false,
+ "summary": "Coil-shortened 38 ft rigid rotatable 40m dipole, 1.5 kW",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  },
+  {
+   "job": "ant_small_space",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "dipole",
+  "mount": "base",
+  "ant_bands": [
+   "40m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 1500.0,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": 37.73,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": false,
+  "extra": {
+   "dxe_part_type": "hf-directional-antennas"
+  }
+ },
+ "gotchas": [
+  "Shortened: narrower bandwidth than full-size"
+ ],
+ "confidence": "high",
+ "pairs": [],
+ "rating": {
+  "avg": 5.0,
+  "n": 2,
+  "pid": "6658",
+  "last": "2008-10-31",
+  "name": "DXBeam DXM40-2 , 2 el. 40 m Yagi"
+ }
+}

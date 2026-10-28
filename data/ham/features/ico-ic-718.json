@@ -1,0 +1,139 @@
+{
+ "id": "ico-ic-718",
+ "name": "IC-718",
+ "title": "Icom IC-718",
+ "brand": "Icom",
+ "price": 899.95,
+ "line": "HF base",
+ "legacy": false,
+ "summary": "Basic 100W HF-only (160–10m) superhet with DSP, amber LCD; no scope, ATU, 6m, USB or FM.",
+ "jobs": [
+  {
+   "job": "hf_base",
+   "role": "primary"
+  },
+  {
+   "job": "first_radio",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "base",
+  "bands_tx": [
+   "160m",
+   "80m",
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m"
+  ],
+  "hf": true,
+  "vhf_uhf": false,
+  "rx_range": "0.030–29.999 MHz",
+  "power_w": {
+   "hf": 100,
+   "6m": null,
+   "2m": null,
+   "70cm": null,
+   "23cm": null
+  },
+  "modes": [
+   "SSB",
+   "CW",
+   "AM",
+   "RTTY"
+  ],
+  "digital_voice": [],
+  "receiver_arch": "superhet",
+  "band_scope": null,
+  "display": "amber monochrome LCD",
+  "dual_receive": false,
+  "dual_watch": false,
+  "atu": false,
+  "usb_single_cable": false,
+  "lan_remote": false,
+  "wifi_bt": [],
+  "gps": false,
+  "aprs": false,
+  "full_duplex_sat": false,
+  "crossband_repeat": false,
+  "detachable_head": false,
+  "power_source": "13.8 VDC external",
+  "tx_current_a": 20.0,
+  "battery": null,
+  "ip_rating": null,
+  "antenna_ports": 1,
+  "rx_antenna_in": false,
+  "roofing_filters": null,
+  "memories": 101,
+  "weight_kg": 3.8,
+  "size_mm": "240×95×239",
+  "special": [
+   "UT-106 DSP NR/auto-notch included",
+   "10-key direct entry",
+   "voice synthesizer",
+   "AM 40W max"
+  ],
+  "requires": [
+   "13.8V 25A power supply",
+   "CI-V cable + sound-card interface for digital modes"
+  ],
+  "extra": {
+   "ip3": "<25 dBm per DXE",
+   "no_60m": true,
+   "no_fm": true,
+   "list_price": 899.95,
+   "avail": "InStock"
+  }
+ },
+ "gotchas": [
+  "no 60m and no 6m — IC-7300MK2 covers 160–6m incl. 60m",
+  "no USB: FT8 needs CI-V cable + separate audio interface — IC-7300MK2 is one USB-C cable",
+  "no internal ATU, no scope — IC-7300MK2 has both for $600 more",
+  "dated design (IP3 <25 dBm per DXE); no FM mode",
+  "needs 20A 13.8V supply (not included)"
+ ],
+ "best_for": [
+  "cheapest new 100W HF rig",
+  "backup/Field Day rig",
+  "simple CW/SSB ops"
+ ],
+ "not_for": [
+  "FT8 with minimal cabling",
+  "6m",
+  "panadapter users"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "13.8 V 25 A power supply",
+   "why": "no internal PSU; 20 A draw",
+   "req": true
+  },
+  {
+   "id": "external auto-tuner (e.g. AH-4)",
+   "why": "no internal ATU",
+   "req": false
+  },
+  {
+   "id": "USB sound-card/CAT interface",
+   "why": "needed for FT8/digital",
+   "req": false
+  },
+  {
+   "id": "ico-ic-7300mk2",
+   "why": "modern upgrade path",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 4.6,
+  "n": 440,
+  "pid": "947",
+  "last": "2026-09-16",
+  "name": "ICOM IC-718"
+ }
+}

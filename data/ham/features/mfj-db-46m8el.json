@@ -1,0 +1,59 @@
+{
+ "id": "mfj-db-46m8el",
+ "kind": "antenna",
+ "name": "DB-46M8EL",
+ "title": "Cushcraft DB-46M8EL",
+ "brand": "Cushcraft",
+ "price": 349.95,
+ "line": "V/U yagi",
+ "legacy": false,
+ "summary": "Dual-band 4m/6m LFA yagi, 4+4 el on 7-ft boom, single feed",
+ "jobs": [
+  {
+   "job": "ant_vu_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "6m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 5000,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 8,
+  "boom_ft": 7,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "other_bands": [
+    "4m (70 MHz)"
+   ],
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [
+  "4m (70 MHz) not a US ham band"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

@@ -1,0 +1,68 @@
+{
+ "id": "dxa-5dxfs6",
+ "kind": "antenna",
+ "name": "5DXFS6",
+ "title": "Diex 5 Element 6-meter Monoband Full Size Yagi Antennas",
+ "brand": "DIEX",
+ "price": 679.99,
+ "line": "6m yagi",
+ "legacy": false,
+ "summary": "Diex 5-element 6m yagi on 14.8 ft boom, 2 kW",
+ "jobs": [
+  {
+   "job": "ant_vu_beam",
+   "role": "primary"
+  },
+  {
+   "job": "ant_hf_beam",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "6m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 2000,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 5,
+  "boom_ft": 14.76,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "gain_claim": "23.48 dBi (implausible)",
+   "dxe_part_type": "hf-directional-antennas"
+  }
+ },
+ "gotchas": [
+  "Listed 23.48 dBi gain is implausible (~11 dBi realistic)"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ],
+ "rating": {
+  "avg": 4.9,
+  "n": 92,
+  "pid": "4348",
+  "last": "2023-08-30",
+  "name": "Elk Antennas 2M/440L5 5-element log periodic"
+ }
+}

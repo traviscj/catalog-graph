@@ -1,0 +1,63 @@
+{
+ "id": "dxe-ocf-hp",
+ "kind": "antenna",
+ "name": "DXE-OCF-HP",
+ "title": "DX Engineering DXE-OCF-HP",
+ "brand": "DX Engineering",
+ "price": 243.97,
+ "line": "HF OCF dipole",
+ "legacy": false,
+ "summary": "134 ft 1.5 kW OCF dipole kit for 80/40/30/20/17/15/10m",
+ "jobs": [
+  {
+   "job": "ant_hf_wire",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "ocf-dipole",
+  "mount": "base",
+  "ant_bands": [
+   "80m",
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": "Antenna & installation dependent",
+  "max_w": 1500.0,
+  "max_w_digital": 375.0,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": 134.0,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "horizontal",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": false,
+  "extra": {
+   "dxe_part_type": "wire-antennas"
+  }
+ },
+ "gotchas": [
+  "30 ft min feedpoint height",
+  "Some bands may need a tuner"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "1:1 common-mode choke at the shack entry",
+   "why": "keeps feedline RF out of the shack",
+   "req": false
+  }
+ ]
+}

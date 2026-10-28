@@ -1,0 +1,58 @@
+{
+ "id": "dxa-4dxfs6",
+ "kind": "antenna",
+ "name": "4DXFS6",
+ "title": "DIEX 4DXFS6",
+ "brand": "DIEX",
+ "price": 475.99,
+ "line": "6m monoband yagi",
+ "legacy": false,
+ "summary": "Full-size 4-element 6m yagi on 6.6 ft boom",
+ "jobs": [
+  {
+   "job": "ant_vu_beam",
+   "role": "primary"
+  },
+  {
+   "job": "ant_hf_beam",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "6m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 2000,
+  "max_w_digital": null,
+  "gain_dbi": 8.0,
+  "elements": 4,
+  "boom_ft": 6.56,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "hf-directional-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

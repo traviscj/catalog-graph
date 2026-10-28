@@ -1,0 +1,154 @@
+{
+ "id": "ico-ic-7760",
+ "name": "IC-7760",
+ "title": "ICOM IC-7760",
+ "brand": "Icom",
+ "price": 6999.95,
+ "line": "HF flagship (direct-sampling SDR, split deck)",
+ "legacy": false,
+ "summary": "200 W HF/6m dual-receiver flagship with separate RF deck and control console linked over LAN; internal AC PSU.",
+ "jobs": [
+  {
+   "job": "hf_contest_dx",
+   "role": "primary"
+  },
+  {
+   "job": "hf_base",
+   "role": "primary"
+  },
+  {
+   "job": "remote_operation",
+   "role": "secondary"
+  },
+  {
+   "job": "ft8_digital",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "base",
+  "bands_tx": [
+   "160m",
+   "80m",
+   "60m",
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m",
+   "6m"
+  ],
+  "hf": true,
+  "vhf_uhf": false,
+  "rx_range": "0.030–60 MHz",
+  "power_w": {
+   "hf": 200,
+   "6m": 200,
+   "2m": null,
+   "70cm": null,
+   "23cm": null
+  },
+  "modes": [
+   "SSB",
+   "CW",
+   "AM",
+   "FM",
+   "RTTY",
+   "PSK",
+   "DATA"
+  ],
+  "digital_voice": [],
+  "receiver_arch": "direct-sampling SDR",
+  "band_scope": "real-time scope + waterfall (dual)",
+  "display": "7in color touch + secondary touch display",
+  "dual_receive": true,
+  "dual_watch": true,
+  "atu": true,
+  "usb_single_cable": true,
+  "lan_remote": true,
+  "wifi_bt": [],
+  "gps": false,
+  "aprs": false,
+  "full_duplex_sat": false,
+  "crossband_repeat": false,
+  "detachable_head": false,
+  "power_source": "internal AC PSU (90–264 VAC)",
+  "tx_current_a": null,
+  "battery": null,
+  "ip_rating": null,
+  "antenna_ports": 5,
+  "rx_antenna_in": true,
+  "roofing_filters": null,
+  "memories": 101,
+  "weight_kg": null,
+  "size_mm": "425×150×442 (RF deck, per DXE)",
+  "special": [
+   "2 receivers",
+   "separate RF deck via Cat5e LAN (≤100 m)",
+   "in-house LAN remote without PC",
+   "external monitor out",
+   "voice keyer/synth"
+  ],
+  "requires": [
+   "microphone (not included)",
+   "gigabit LAN for in-house remote"
+  ],
+  "extra": {
+   "am_power_w": 50,
+   "ac_rating": "800 VA",
+   "included": "3 m control cable, desk stand",
+   "warranty": "per Icom",
+   "list_price": 6999.95,
+   "avail": "InStock"
+  }
+ },
+ "gotchas": [
+  "No hand mic included — budget for SM-50 / HM-219 / SM-80",
+  "In-house LAN split requires gigabit Ethernet; internet remote still needs RS-BA1/PC",
+  "~$7k — IC-7610 gives dual RX at 100 W for far less; FTDX-101MP is ~$1.9k cheaper at 200 W",
+  "200 W out exceeds many 100 W-rated tuners/baluns",
+  "HF/6m only — IC-9700 / IC-905 for VHF+"
+ ],
+ "best_for": [
+  "serious contest/DX station",
+  "RF deck near antennas, quiet shack",
+  "in-house remote"
+ ],
+ "not_for": [
+  "portable",
+  "budget",
+  "VHF/UHF"
+ ],
+ "pairs": [
+  {
+   "id": "Icom SM-50 / HM-219 microphone",
+   "why": "no microphone in the box",
+   "req": true
+  },
+  {
+   "id": "ico-ic-7610-32",
+   "why": "100 W dual-RX alternative, much cheaper",
+   "req": false
+  },
+  {
+   "id": "Cat5e+ LAN cable / gigabit switch",
+   "why": "remote-site the RF deck",
+   "req": false
+  },
+  {
+   "id": "ysu-ftdx-101mp",
+   "why": "200 W dual-RX competitor",
+   "req": false
+  }
+ ],
+ "confidence": "medium",
+ "rating": {
+  "avg": 4.2,
+  "n": 19,
+  "pid": "16028",
+  "last": "2026-10-05",
+  "name": "Icom IC-7760 HF/6M 200W SDR"
+ }
+}

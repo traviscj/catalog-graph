@@ -1,0 +1,59 @@
+{
+ "id": "dmn-srh805",
+ "kind": "antenna",
+ "name": "SRH805",
+ "title": "Diamond Antenna SRH805",
+ "brand": "Diamond",
+ "price": 26.99,
+ "line": "HT antenna",
+ "legacy": false,
+ "summary": "1.75 in. tri-band stubby HT antenna, SMA male",
+ "jobs": [
+  {
+   "job": "ant_ht",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "rubber-duck",
+  "mount": "handheld",
+  "ant_bands": [
+   "2m",
+   "70cm",
+   "23cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 6,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 0.15,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "SMA male",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "handheld-and-scanner-antennas"
+  }
+ },
+ "gotchas": [
+  "Stubby: big efficiency hit vs. full-length whip"
+ ],
+ "confidence": "high",
+ "pairs": [],
+ "rating": {
+  "avg": 3.8,
+  "n": 17,
+  "pid": "4976",
+  "last": "2023-12-31",
+  "name": "Diamond SRH805 144/430/1200 Mhz  SMA  HT  Antenna (ducky)"
+ }
+}

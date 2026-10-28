@@ -1,0 +1,68 @@
+{
+ "id": "mfj-th-7dx",
+ "kind": "antenna",
+ "name": "TH-7DX",
+ "title": "Hy-Gain TH-7DX",
+ "brand": "Hy-Gain",
+ "price": 1599.95,
+ "line": "HF tribander yagi",
+ "legacy": false,
+ "summary": "7-el dual-driven 20/15/10m tribander, 27 dB F/B, BN-86 balun",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "20m",
+   "15m",
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 7,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "fb_db": 27,
+   "balun": "BN-86 incl",
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [
+  "Rotator not included",
+  "Heavy — needs tower + mid/heavy rotator"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ],
+ "rating": {
+  "avg": 5.0,
+  "n": 3,
+  "pid": "1845",
+  "last": "2003-12-05",
+  "name": "Mizuho P-7DX"
+ }
+}

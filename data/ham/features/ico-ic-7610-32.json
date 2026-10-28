@@ -1,0 +1,153 @@
+{
+ "id": "ico-ic-7610-32",
+ "name": "IC-7610-32",
+ "title": "Icom IC-7610-32",
+ "brand": "Icom",
+ "price": 3999.95,
+ "line": "HF flagship (direct-sampling SDR)",
+ "legacy": false,
+ "summary": "100 W 160–6m dual direct-sampling SDR, two independent receivers, ATU, LAN; refreshed '-32' build.",
+ "jobs": [
+  {
+   "job": "hf_contest_dx",
+   "role": "primary"
+  },
+  {
+   "job": "hf_base",
+   "role": "primary"
+  },
+  {
+   "job": "remote_operation",
+   "role": "secondary"
+  },
+  {
+   "job": "ft8_digital",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "base",
+  "bands_tx": [
+   "160m",
+   "80m",
+   "60m",
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m",
+   "6m"
+  ],
+  "hf": true,
+  "vhf_uhf": false,
+  "rx_range": "0.030–60 MHz (both receivers)",
+  "power_w": {
+   "hf": 100,
+   "6m": 100,
+   "2m": null,
+   "70cm": null,
+   "23cm": null
+  },
+  "modes": [
+   "SSB",
+   "CW",
+   "AM",
+   "FM",
+   "RTTY",
+   "PSK",
+   "DATA"
+  ],
+  "digital_voice": [],
+  "receiver_arch": "direct-sampling SDR",
+  "band_scope": "real-time dual scope + waterfall",
+  "display": "7in color touch",
+  "dual_receive": true,
+  "dual_watch": true,
+  "atu": true,
+  "usb_single_cable": true,
+  "lan_remote": true,
+  "wifi_bt": [],
+  "gps": false,
+  "aprs": false,
+  "full_duplex_sat": false,
+  "crossband_repeat": false,
+  "detachable_head": false,
+  "power_source": "13.8 VDC external",
+  "tx_current_a": 23,
+  "battery": null,
+  "ip_rating": null,
+  "antenna_ports": 3,
+  "rx_antenna_in": true,
+  "roofing_filters": null,
+  "memories": 101,
+  "weight_kg": 8.5,
+  "size_mm": "340×118×277",
+  "special": [
+   "2 receivers",
+   "110 dB RMDR @2 kHz",
+   "external monitor out (DVI-D)",
+   "SD recording",
+   "RX in/out BNC",
+   "LAN (RS-BA1 remote)",
+   "IP3 >35 dBm"
+  ],
+  "requires": [
+   "13.8V 25A power supply"
+  ],
+  "extra": {
+   "am_power_w": 25,
+   "variant": "-32 = updated internal components revision of the IC-7610",
+   "lan_note": "LAN port built-in; remote needs Icom RS-BA1 software (medium)",
+   "list_price": 3999.95,
+   "avail": "InStock"
+  }
+ },
+ "gotchas": [
+  "Needs a separate 13.8 V 23 A supply (not included)",
+  "HF+6m only — no V/U; ico-ic-9700 covers 2m/70cm/23cm",
+  "Only 1-year warranty (DXE) vs 3-year on ysu-ftdx-101d",
+  "LAN remote needs RS-BA1 software (extra cost)",
+  "Single-receiver ico-ic-7300mk2 gives most of the RX performance for far less if dual RX isn't needed"
+ ],
+ "best_for": [
+  "DX/contest with true dual RX",
+  "LAN remote shack"
+ ],
+ "not_for": [
+  "V/U",
+  "portable",
+  "budget"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "13.8 V 25 A power supply",
+   "why": "not included; 23 A TX",
+   "req": true
+  },
+  {
+   "id": "RS-BA1 remote software",
+   "why": "use the built-in LAN for remote",
+   "req": false
+  },
+  {
+   "id": "external DVI monitor",
+   "why": "full-size scope display",
+   "req": false
+  },
+  {
+   "id": "ico-ic-9700",
+   "why": "V/U/23cm companion with matching UI",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 4.6,
+  "n": 131,
+  "pid": "13607",
+  "last": "2026-10-11",
+  "name": "ICOM IC-7610"
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "id": "mfj-ma-6b",
+ "kind": "antenna",
+ "name": "MA-6B",
+ "title": "Cushcraft MA-6B",
+ "brand": "Cushcraft",
+ "price": 1099.95,
+ "line": "HF multiband yagi",
+ "legacy": false,
+ "summary": "Compact 2-element six-band yagi, 20-6m, 7.25 ft boom, legal limit",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m",
+   "6m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 1500,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 2,
+  "boom_ft": 7.25,
+  "turn_radius_ft": 9,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": 26,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "turn_radius_note": "<9 ft",
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [
+  "17/12m are a single trapped dipole (no gain)",
+  "rotator not included"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ],
+ "rating": {
+  "avg": 3.2,
+  "n": 6,
+  "pid": "13919",
+  "last": "2025-03-23",
+  "name": "Cushcraft MA6B"
+ }
+}

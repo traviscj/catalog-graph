@@ -1,0 +1,62 @@
+{
+ "id": "mfj-vb-28fm",
+ "kind": "antenna",
+ "name": "VB-28FM",
+ "title": "Hy-Gain VB-28FM",
+ "brand": "Hy-Gain",
+ "price": 189.95,
+ "line": "V/U yagi",
+ "legacy": false,
+ "summary": "8-element 2m FM yagi with BetaMatch, 11.8 ft boom",
+ "jobs": [
+  {
+   "job": "ant_vu_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "2m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 8,
+  "boom_ft": 11.8,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": null,
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "mast_max_in": 2,
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ],
+ "rating": {
+  "avg": 3.6,
+  "n": 5,
+  "pid": "4162",
+  "last": "2013-07-01",
+  "name": "Clegg 28FM"
+ }
+}

@@ -1,0 +1,57 @@
+{
+ "id": "mkr-99-574",
+ "kind": "antenna",
+ "name": "AMPRO-20HP",
+ "title": "Moonraker 600W Monoband Mobile Whip Antennas",
+ "brand": "Moonraker",
+ "price": 67.99,
+ "line": "HF mobile whip",
+ "legacy": false,
+ "summary": "Moonraker AMPRO-20HP 600 W wire-wound 20m mobile whip, 3/8-24",
+ "jobs": [
+  {
+   "job": "ant_hf_mobile",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "whip",
+  "mount": "mobile",
+  "ant_bands": [
+   "20m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 600,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 8.2,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "3/8-24",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "bandwidth_khz": 150,
+   "dxe_part_type": "mobile-whip-antennas"
+  }
+ },
+ "gotchas": [
+  "~150 kHz bandwidth"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "mobile antenna mount (mag / trunk-lip / NMO)",
+   "why": "vehicle mount not included",
+   "req": false
+  }
+ ]
+}

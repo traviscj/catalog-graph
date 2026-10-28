@@ -1,0 +1,50 @@
+{
+ "id": "mfj-mfj-1754",
+ "kind": "antenna",
+ "name": "MFJ-1754",
+ "title": "MFJ MFJ-1754",
+ "brand": "MFJ",
+ "price": 49.95,
+ "line": "V/U base vertical",
+ "legacy": false,
+ "summary": "Compact 144/440 ground plane, 1/4 on 2m, 1/2 on 70cm",
+ "jobs": [
+  {
+   "job": "ant_vu_base",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "ground-plane",
+  "mount": "base",
+  "ant_bands": [
+   "2m",
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "radiator_in": 19,
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": []
+}

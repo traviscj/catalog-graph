@@ -1,0 +1,71 @@
+{
+ "id": "mfj-mfj-1722s",
+ "kind": "antenna",
+ "name": "MFJ-1722S",
+ "title": "MFJ MFJ-1722S",
+ "brand": "MFJ",
+ "price": 29.95,
+ "line": "V/U mobile whip",
+ "legacy": false,
+ "summary": "Ultralite 2m/440 mini mag-mount for HTs, SMA, RG-174",
+ "jobs": [
+  {
+   "job": "ant_vu_mobile",
+   "role": "primary"
+  },
+  {
+   "job": "ant_ht",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "whip",
+  "mount": "mobile",
+  "ant_bands": [
+   "2m",
+   "70cm"
+  ],
+  "resonant": null,
+  "tuner_req": null,
+  "max_w": 50,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "SMA",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "max_w_70cm": 25,
+   "coax_ft": 12,
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [
+  "50 W 2m / 25 W 70cm max",
+  "Thin RG-174 coax is lossy"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "mobile antenna mount (mag / trunk-lip / NMO)",
+   "why": "vehicle mount not included",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 5.0,
+  "n": 2,
+  "pid": "7157",
+  "last": "2008-01-01",
+  "name": "MJF-1722/s"
+ }
+}

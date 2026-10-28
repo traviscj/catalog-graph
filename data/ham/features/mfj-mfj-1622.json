@@ -1,0 +1,77 @@
+{
+ "id": "mfj-mfj-1622",
+ "kind": "antenna",
+ "name": "MFJ-1622",
+ "title": "MFJ MFJ-1622",
+ "brand": "MFJ",
+ "price": 139.95,
+ "line": "HF apartment whip",
+ "legacy": false,
+ "summary": "Clamp-on bugcatcher apartment antenna, 40-2m, counterpoise incl",
+ "jobs": [
+  {
+   "job": "ant_small_space",
+   "role": "primary"
+  },
+  {
+   "job": "ant_hf_portable",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "whip",
+  "mount": "base",
+  "ant_bands": [
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m",
+   "6m",
+   "2m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": true,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "whip_ft": 5.5,
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [
+  "Counterpoise tuning critical",
+  "Indoor use = RF exposure caution"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "radial wires / counterpoise",
+   "why": "vertical needs a ground system",
+   "req": true
+  }
+ ],
+ "rating": {
+  "avg": 3.7,
+  "n": 30,
+  "pid": "2035",
+  "last": "2022-12-26",
+  "name": "MFJ 1622 Apartment Antenna"
+ }
+}

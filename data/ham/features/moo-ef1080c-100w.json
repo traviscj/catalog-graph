@@ -1,0 +1,70 @@
+{
+ "id": "moo-ef1080c-100w",
+ "kind": "antenna",
+ "name": "EF1080C",
+ "title": "Momobeam EF1080C",
+ "brand": "Momobeam",
+ "price": 238.99,
+ "line": "HF end-fed wire",
+ "legacy": false,
+ "summary": "76 ft coil-shortened end-fed wire, 49:1, 80/40/20/15/10m, 100 W",
+ "jobs": [
+  {
+   "job": "ant_hf_wire",
+   "role": "primary"
+  },
+  {
+   "job": "ant_small_space",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "end-fed",
+  "mount": "base",
+  "ant_bands": [
+   "80m",
+   "40m",
+   "20m",
+   "15m",
+   "10m"
+  ],
+  "resonant": false,
+  "tuner_req": "Wide range tuner",
+  "max_w": 100,
+  "max_w_digital": 20,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": 76.0,
+  "height_ft": null,
+  "weight_lb": 2.2,
+  "radials": null,
+  "directional": false,
+  "polarization": "horizontal",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": true,
+  "extra": {
+   "dxe_part_type": "wire-antennas"
+  }
+ },
+ "gotchas": [
+  "100 W PEP / 20 W digital max",
+  "DXE spec says wide-range tuner"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "antenna tuner (wide-range)",
+   "why": "non-resonant on its listed bands",
+   "req": true
+  },
+  {
+   "id": "1:1 common-mode choke at the shack entry",
+   "why": "keeps feedline RF out of the shack",
+   "req": false
+  }
+ ]
+}

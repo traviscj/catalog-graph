@@ -1,0 +1,63 @@
+{
+ "id": "mfj-mfj-1414",
+ "kind": "antenna",
+ "name": "MFJ-1414",
+ "title": "MFJ MFJ-1414",
+ "brand": "MFJ",
+ "price": 39.95,
+ "line": "V/U mobile whip",
+ "legacy": false,
+ "summary": "58.5-in stainless 144/440 whip on 3/8-24 stud, 200 W",
+ "jobs": [
+  {
+   "job": "ant_vu_mobile",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "whip",
+  "mount": "mobile",
+  "ant_bands": [
+   "2m",
+   "70cm"
+  ],
+  "resonant": null,
+  "tuner_req": null,
+  "max_w": 200,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 4.88,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "3/8-24",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "gain_raw": "2.15/3.5 dB (2m/70cm)",
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "mobile antenna mount (mag / trunk-lip / NMO)",
+   "why": "vehicle mount not included",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 2.2,
+  "n": 6,
+  "pid": "6726",
+  "last": "2016-08-18",
+  "name": "MFJ-1414"
+ }
+}

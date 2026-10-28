@@ -1,0 +1,58 @@
+{
+ "id": "mfj-lj-155ca",
+ "kind": "antenna",
+ "name": "LJ-155CA",
+ "title": "Hy-Gain LJ-155CA",
+ "brand": "Hy-Gain",
+ "price": 649.95,
+ "line": "HF monoband yagi",
+ "legacy": false,
+ "summary": "5-el 15m Long John on 26-ft boom, 12m setting",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "15m",
+   "12m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 5,
+  "boom_ft": 26,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [
+  "Built for 15 OR 12m",
+  "BN-4000 balun recommended"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

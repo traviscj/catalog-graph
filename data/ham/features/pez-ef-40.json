@@ -1,0 +1,61 @@
+{
+ "id": "pez-ef-40",
+ "kind": "antenna",
+ "name": "EF-40",
+ "title": "Par EndFedz EF-40",
+ "brand": "Par EndFedz",
+ "price": 83.99,
+ "line": "HF end-fed wire",
+ "legacy": false,
+ "summary": "65.5 ft 40m end-fed half-wave, 200 W",
+ "jobs": [
+  {
+   "job": "ant_hf_wire",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "end-fed",
+  "mount": "base",
+  "ant_bands": [
+   "40m"
+  ],
+  "resonant": true,
+  "tuner_req": "Antenna & installation dependent",
+  "max_w": 200.0,
+  "max_w_digital": 100.0,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": 65.5,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": null,
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": false,
+  "extra": {
+   "dxe_part_type": "wire-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "1:1 common-mode choke at the shack entry",
+   "why": "keeps feedline RF out of the shack",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 5.0,
+  "n": 5,
+  "pid": "9847",
+  "last": "2014-05-13",
+  "name": "PAR / LNR PRECISION EF-40/20"
+ }
+}

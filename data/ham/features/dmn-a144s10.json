@@ -1,0 +1,63 @@
+{
+ "id": "dmn-a144s10",
+ "kind": "antenna",
+ "name": "A144S10",
+ "title": "Diamond A144S10",
+ "brand": "Diamond",
+ "price": 114.99,
+ "line": "V/U yagi",
+ "legacy": false,
+ "summary": "10-element 2m base yagi, 100 W, SO-239",
+ "jobs": [
+  {
+   "job": "ant_vu_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "2m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 100,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 10,
+  "boom_ft": 6.99,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": null,
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "vhf-uhf-beam-antennas"
+  }
+ },
+ "gotchas": [
+  "100 W max"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ],
+ "rating": {
+  "avg": 4.2,
+  "n": 9,
+  "pid": "6613",
+  "last": "2024-03-06",
+  "name": "Diamond A144S10"
+ }
+}

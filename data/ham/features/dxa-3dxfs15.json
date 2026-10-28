@@ -1,0 +1,54 @@
+{
+ "id": "dxa-3dxfs15",
+ "kind": "antenna",
+ "name": "3DXFS15",
+ "title": "DIEX 3DXFS15",
+ "brand": "DIEX",
+ "price": 849.99,
+ "line": "HF monoband yagi",
+ "legacy": false,
+ "summary": "Full-size 3-element 15m monoband yagi, 16 ft boom",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "15m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 2000,
+  "max_w_digital": null,
+  "gain_dbi": 8.0,
+  "elements": 3,
+  "boom_ft": 16.4,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "hf-directional-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

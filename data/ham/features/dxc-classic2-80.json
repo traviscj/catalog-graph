@@ -1,0 +1,77 @@
+{
+ "id": "dxc-classic2-80",
+ "kind": "antenna",
+ "name": "CLASSIC 2 + 80m",
+ "title": "DX Commander CLASSIC 2 + 80m",
+ "brand": "DX Commander",
+ "price": 536.04,
+ "line": "HF multiband vertical",
+ "legacy": false,
+ "summary": "Multi-element wire vertical on 10 m fiberglass mast, 40-2m + 80m",
+ "jobs": [
+  {
+   "job": "ant_hf_vertical",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "vertical",
+  "mount": "base",
+  "ant_bands": [
+   "80m",
+   "40m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m",
+   "6m",
+   "2m"
+  ],
+  "resonant": true,
+  "tuner_req": "Antenna & installation dependent",
+  "max_w": 1500,
+  "max_w_digital": 400,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 32.81,
+  "weight_lb": null,
+  "radials": true,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "note": "30m element replaced by 80m",
+   "dxe_part_type": "hf-vertical-antennas-and-packages"
+  }
+ },
+ "gotchas": [
+  "Radials required (plate + wire incl.)"
+ ],
+ "confidence": "medium",
+ "pairs": [
+  {
+   "id": "radial wires / counterpoise",
+   "why": "vertical needs a ground system",
+   "req": true
+  },
+  {
+   "id": "1:1 common-mode choke at the shack entry",
+   "why": "keeps feedline RF out of the shack",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 4.6,
+  "n": 16,
+  "pid": "10559",
+  "last": "2025-10-20",
+  "name": "B-Square Engineering 10M-80M 66ft Terminated Folded Dipole"
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "id": "mfj-av-620",
+ "kind": "antenna",
+ "name": "AV-620",
+ "title": "Hy-Gain AV-620",
+ "brand": "Hy-Gain",
+ "price": 599.95,
+ "line": "HF multiband vertical",
+ "legacy": false,
+ "summary": "Patriot 22.5-ft 20-6m no-radial vertical, 1.5 kW",
+ "jobs": [
+  {
+   "job": "ant_hf_vertical",
+   "role": "primary"
+  },
+  {
+   "job": "ant_small_space",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "vertical",
+  "mount": "base",
+  "ant_bands": [
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m",
+   "6m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 1500,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": 2.4,
+  "length_ft": null,
+  "height_ft": 22.5,
+  "weight_lb": 10.5,
+  "radials": false,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "1:1 common-mode choke at the shack entry",
+   "why": "keeps feedline RF out of the shack",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 4.0,
+  "n": 39,
+  "pid": "555",
+  "last": "2025-11-02",
+  "name": "Hy-Gain AV-620 Six-Band Vertical"
+ }
+}

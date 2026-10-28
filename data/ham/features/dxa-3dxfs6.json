@@ -1,0 +1,65 @@
+{
+ "id": "dxa-3dxfs6",
+ "kind": "antenna",
+ "name": "3DXFS6",
+ "title": "Diex 3 Element Monoband Full Size Yagi Antennas",
+ "brand": "DIEX",
+ "price": 379.99,
+ "line": "6m yagi",
+ "legacy": false,
+ "summary": "Diex full-size 3-element 6m yagi, 2 kW, compact boom",
+ "jobs": [
+  {
+   "job": "ant_vu_beam",
+   "role": "primary"
+  },
+  {
+   "job": "ant_hf_beam",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "6m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 2000,
+  "max_w_digital": null,
+  "gain_dbi": 8.0,
+  "elements": 3,
+  "boom_ft": 6.56,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "hf-directional-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ],
+ "rating": {
+  "avg": 4.6,
+  "n": 9,
+  "pid": "2537",
+  "last": "2020-08-09",
+  "name": "T.G.M. Communications MQ-36SR 3 element \"Hybrid Quad\" beam"
+ }
+}

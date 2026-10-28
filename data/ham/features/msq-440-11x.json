@@ -1,0 +1,54 @@
+{
+ "id": "msq-440-11x",
+ "kind": "antenna",
+ "name": "440-11X",
+ "title": "M2 Antennas 440-11X",
+ "brand": "M2",
+ "price": 258.99,
+ "line": "V/U yagi",
+ "legacy": false,
+ "summary": "11-element wideband 420-450 MHz yagi, 5 ft boom, 13.4 dBi",
+ "jobs": [
+  {
+   "job": "ant_vu_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 1000,
+  "max_w_digital": null,
+  "gain_dbi": 13.4,
+  "elements": 11,
+  "boom_ft": 5.0,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": "N female",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "vhf-uhf-beam-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

@@ -1,0 +1,64 @@
+{
+ "id": "cma-b-10",
+ "kind": "antenna",
+ "name": "B-10",
+ "title": "Comet Mobile VHF/UHF Vertical Antennas",
+ "brand": "Comet",
+ "price": 49.95,
+ "line": "V/U mobile whip",
+ "legacy": false,
+ "summary": "Comet B-10 12 in dual-band 2m/70cm mobile whip with spring, 50 W",
+ "jobs": [
+  {
+   "job": "ant_vu_mobile",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "whip",
+  "mount": "mobile",
+  "ant_bands": [
+   "2m",
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 50,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 1.0,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "UHF mount",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "vhf-uhf-mobile-vertical-antennas"
+  }
+ },
+ "gotchas": [
+  "50 W max"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "mobile antenna mount (mag / trunk-lip / NMO)",
+   "why": "vehicle mount not included",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 4.1,
+  "n": 21,
+  "pid": "4027",
+  "last": "2021-05-13",
+  "name": "Comet B-10 dual band mobile antenna"
+ }
+}

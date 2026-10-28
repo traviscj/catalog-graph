@@ -1,0 +1,150 @@
+{
+ "id": "ysu-ft-710-aess",
+ "name": "FT-710 AESS",
+ "title": "Yaesu FT-710 AESS",
+ "brand": "Yaesu",
+ "price": 1099.95,
+ "line": "HF base/portable (SDR)",
+ "legacy": false,
+ "summary": "Compact 100 W HF/6m SDR with ATU, touch scope and DVI out; AESS bundle includes SP-40 speaker.",
+ "jobs": [
+  {
+   "job": "hf_base",
+   "role": "primary"
+  },
+  {
+   "job": "ft8_digital",
+   "role": "secondary"
+  },
+  {
+   "job": "hf_portable",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "base",
+  "bands_tx": [
+   "160m",
+   "80m",
+   "60m",
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m",
+   "6m"
+  ],
+  "hf": true,
+  "vhf_uhf": false,
+  "rx_range": "0.030–75 MHz",
+  "power_w": {
+   "hf": 100,
+   "6m": 100,
+   "2m": null,
+   "70cm": null,
+   "23cm": null
+  },
+  "modes": [
+   "SSB",
+   "CW",
+   "AM",
+   "FM",
+   "RTTY",
+   "PSK",
+   "DATA"
+  ],
+  "digital_voice": [],
+  "receiver_arch": "direct-sampling SDR",
+  "band_scope": "real-time 3DSS scope + waterfall",
+  "display": "4.3in color touch",
+  "dual_receive": false,
+  "dual_watch": false,
+  "atu": true,
+  "usb_single_cable": true,
+  "lan_remote": false,
+  "wifi_bt": [],
+  "gps": false,
+  "aprs": false,
+  "full_duplex_sat": false,
+  "crossband_repeat": false,
+  "detachable_head": false,
+  "power_source": "13.8 VDC external",
+  "tx_current_a": 21.0,
+  "battery": null,
+  "ip_rating": null,
+  "antenna_ports": 1,
+  "rx_antenna_in": false,
+  "roofing_filters": null,
+  "memories": 99,
+  "weight_kg": 4.5,
+  "size_mm": "239×80×247",
+  "special": [
+   "external monitor out (DVI)",
+   "AESS audio w/ SP-40 speaker included",
+   "FT8 preset modes",
+   "QMB quick memory bank"
+  ],
+  "requires": [
+   "13.8V 25A power supply"
+  ],
+  "extra": {
+   "am_power_w": 25,
+   "min_power_w": 5,
+   "lan_option": "SCU-LAN10",
+   "warranty": "3-year",
+   "variant": "AESS = FT-710 + SP-40 external speaker; ysu-ft-710-field is the same radio without SP-40",
+   "list_price": 1399.95,
+   "avail": "InStock"
+  }
+ },
+ "gotchas": [
+  "Needs a 13.8 V ~21 A supply (not included)",
+  "Single receiver, no dual watch — FTDX-101MP / IC-7760 have true dual RX for split DX",
+  "One antenna port, no RX-antenna input — FTDX-101MP has 3 ports + RX in",
+  "Remote over LAN needs optional SCU-LAN10 — IC-7760 has LAN built in",
+  "HF/6m only — FT-991A or IC-7100 add 2m/70cm",
+  "AESS vs FT-710 Field: only difference is the bundled SP-40 speaker; Field is cheaper"
+ ],
+ "best_for": [
+  "first serious HF base",
+  "FT8/digital via one USB cable",
+  "small shack or portable-ish base"
+ ],
+ "not_for": [
+  "VHF/UHF",
+  "contest SO2V/dual RX",
+  "battery QRP field use"
+ ],
+ "pairs": [
+  {
+   "id": "13.8 V 25 A power supply",
+   "why": "no internal PSU; draws 21 A on transmit",
+   "req": true
+  },
+  {
+   "id": "ysu-ft-710-field",
+   "why": "same radio without SP-40 speaker, lower price",
+   "req": false
+  },
+  {
+   "id": "SCU-LAN10 network remote unit",
+   "why": "enables internet remote operation",
+   "req": false
+  },
+  {
+   "id": "external monitor (DVI)",
+   "why": "mirrors scope/display on a big screen",
+   "req": false
+  }
+ ],
+ "confidence": "medium",
+ "rating": {
+  "avg": 4.7,
+  "n": 78,
+  "pid": "15395",
+  "last": "2026-10-12",
+  "name": "Yaesu FT-710 Field/Aess"
+ }
+}

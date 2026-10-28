@@ -1,0 +1,49 @@
+{
+ "id": "dmn-bc103",
+ "kind": "antenna",
+ "name": "BC103",
+ "title": "Diamond Antenna BC103 Base Station/Repeater Antennas",
+ "brand": "Diamond",
+ "price": 154.99,
+ "line": "V/U base vertical",
+ "legacy": false,
+ "summary": "Diamond BC103 wideband 143-176 MHz no-tune radialless base/repeater vertical",
+ "jobs": [
+  {
+   "job": "ant_vu_base",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "collinear",
+  "mount": "base",
+  "ant_bands": [
+   "2m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 4.1,
+  "weight_lb": null,
+  "radials": false,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "freq": "143-176 MHz",
+   "dxe_part_type": "vhf-uhf-base-vertical-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": []
+}

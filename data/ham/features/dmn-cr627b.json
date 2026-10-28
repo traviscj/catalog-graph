@@ -1,0 +1,63 @@
+{
+ "id": "dmn-cr627b",
+ "kind": "antenna",
+ "name": "CR627B",
+ "title": "Diamond CR627B",
+ "brand": "Diamond",
+ "price": 104.99,
+ "line": "V/U mobile whip",
+ "legacy": false,
+ "summary": "60 in. tri-band 6m/2m/70cm fold-over mobile, 150 W",
+ "jobs": [
+  {
+   "job": "ant_vu_mobile",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "whip",
+  "mount": "mobile",
+  "ant_bands": [
+   "6m",
+   "2m",
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 150,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 5.0,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "UHF (PL-259)",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "vhf-uhf-mobile-vertical-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "mobile antenna mount (mag / trunk-lip / NMO)",
+   "why": "vehicle mount not included",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 4.2,
+  "n": 11,
+  "pid": "2153",
+  "last": "2015-05-27",
+  "name": "Diamond CR627B mobile antenna 6m/2m/70cm"
+ }
+}

@@ -1,0 +1,64 @@
+{
+ "id": "dmn-sg7900anmo",
+ "kind": "antenna",
+ "name": "SG7900ANMO",
+ "title": "Diamond SG7900ANMO",
+ "brand": "Diamond",
+ "price": 119.99,
+ "line": "V/U mobile whip",
+ "legacy": false,
+ "summary": "62 in. high-gain Supergainer 2m/70cm NMO mobile whip",
+ "jobs": [
+  {
+   "job": "ant_vu_mobile",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "whip",
+  "mount": "mobile",
+  "ant_bands": [
+   "2m",
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 5.18,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "NMO",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "vhf-uhf-mobile-vertical-antennas"
+  }
+ },
+ "gotchas": [
+  "62 in. tall — garage clearance"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "mobile antenna mount (mag / trunk-lip / NMO)",
+   "why": "vehicle mount not included",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 4.5,
+  "n": 2,
+  "pid": "10083",
+  "last": "2014-12-24",
+  "name": "Diamond SG-7900ANMO"
+ }
+}

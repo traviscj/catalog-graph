@@ -1,0 +1,63 @@
+{
+ "id": "jxx-18470-39-70",
+ "kind": "antenna",
+ "name": "39JXX70",
+ "title": "I0JXX 70cm Yagi Antennas",
+ "brand": "I0JXX",
+ "price": 549.99,
+ "line": "V/U yagi",
+ "legacy": false,
+ "summary": "I0JXX 39JXX70 39-element long-boom 432 MHz EME/weak-signal yagi",
+ "jobs": [
+  {
+   "job": "ant_vu_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 1000,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 39,
+  "boom_ft": 30.84,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "vhf-uhf-beam-antennas"
+  }
+ },
+ "gotchas": [
+  "30.8 ft boom at 70cm — needs support"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ],
+ "rating": {
+  "avg": 2.9,
+  "n": 26,
+  "pid": "12039",
+  "last": "2016-10-08",
+  "name": "Jetstream JT270M 2m/70cm Dual Band Amateur Transceiver"
+ }
+}

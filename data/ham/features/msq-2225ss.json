@@ -1,0 +1,55 @@
+{
+ "id": "msq-2225ss",
+ "kind": "antenna",
+ "name": "222-5SS",
+ "title": "M2 Antennas 222-5SS",
+ "brand": "M2",
+ "price": 229.99,
+ "line": "V/U yagi",
+ "legacy": false,
+ "summary": "5-element 222 MHz yagi, 3 ft boom, 10.3 dBi",
+ "jobs": [
+  {
+   "job": "ant_vu_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "1.25m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": 10.3,
+  "elements": 5,
+  "boom_ft": 3.0,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": 1.5,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "fb_db": 22,
+   "dxe_part_type": "vhf-uhf-beam-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

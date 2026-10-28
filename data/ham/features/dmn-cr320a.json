@@ -1,0 +1,63 @@
+{
+ "id": "dmn-cr320a",
+ "kind": "antenna",
+ "name": "CR320A",
+ "title": "Diamond Antenna CR320A",
+ "brand": "Diamond",
+ "price": 79.99,
+ "line": "V/U mobile whip",
+ "legacy": false,
+ "summary": "37.4 in. fold-over tri-band 2m/220/70cm mobile antenna",
+ "jobs": [
+  {
+   "job": "ant_vu_mobile",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "whip",
+  "mount": "mobile",
+  "ant_bands": [
+   "2m",
+   "1.25m",
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 200.0,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 3.12,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "PL-259",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "vhf-uhf-mobile-vertical-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "mobile antenna mount (mag / trunk-lip / NMO)",
+   "why": "vehicle mount not included",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 3.5,
+  "n": 11,
+  "pid": "3953",
+  "last": "2020-03-14",
+  "name": "Diamond CR320A"
+ }
+}

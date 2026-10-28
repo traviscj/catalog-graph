@@ -1,0 +1,62 @@
+{
+ "id": "dxa-dxa1080",
+ "kind": "antenna",
+ "name": "DXA1080",
+ "title": "DIEX Antennas DXA1080",
+ "brand": "DIEX",
+ "price": 239.99,
+ "line": "HF rotatable dipole",
+ "legacy": false,
+ "summary": "Coil-shortened 80m + full-size 10m rigid rotatable dipole, 29.5 ft",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  },
+  {
+   "job": "ant_small_space",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "dipole",
+  "mount": "base",
+  "ant_bands": [
+   "80m",
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 300,
+  "max_w_digital": 100,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": 29.52,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "hf-directional-antennas"
+  }
+ },
+ "gotchas": [
+  "Coil-shortened 80m: narrow bandwidth",
+  "300 W PEP max"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

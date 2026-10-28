@@ -1,0 +1,63 @@
+{
+ "id": "dbo-ob5-15-p",
+ "kind": "antenna",
+ "name": "OB5-15",
+ "title": "OptiBeam OB5-15",
+ "brand": "OptiBeam",
+ "price": 2537.98,
+ "line": "HF monoband yagi",
+ "legacy": false,
+ "summary": "5-element 15m monoband yagi, 33 ft boom, 5 kW, balun incl.",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "15m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 5000,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 5,
+  "boom_ft": 33.14,
+  "turn_radius_ft": 20.83,
+  "wind_sqft": 9.1,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": 59.5,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "hf-directional-antennas"
+  }
+ },
+ "gotchas": [
+  "Rotator not included"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ],
+ "rating": {
+  "avg": 5.0,
+  "n": 4,
+  "pid": "7899",
+  "last": "2023-03-15",
+  "name": "OptiBeam OB5-6 (high performance 5el monoband Yagi 6m)"
+ }
+}

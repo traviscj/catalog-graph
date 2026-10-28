@@ -1,0 +1,70 @@
+{
+ "id": "chd-cha-prv-2-0",
+ "kind": "antenna",
+ "name": "CHA PRV 2.0",
+ "title": "Chameleon CHA PRV 2.0",
+ "brand": "Chameleon",
+ "price": 725.0,
+ "line": "HF portable vertical",
+ "legacy": false,
+ "summary": "Field-tunable resonant 40-6m portable vertical, MPAS family, 500 W SSB",
+ "jobs": [
+  {
+   "job": "ant_hf_portable",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "vertical",
+  "mount": "portable",
+  "ant_bands": [
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m",
+   "6m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 500,
+  "max_w_digital": 200,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 8.08,
+  "weight_lb": 3.69,
+  "radials": true,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "BNC/SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "max_w_cw": 300,
+   "dxe_part_type": "chameleonantenna.com/Antenna Systems"
+  }
+ },
+ "gotchas": [
+  "Mount/tripod is an extra option",
+  "Needs counterpoise"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "radial wires / counterpoise",
+   "why": "vertical needs a ground system",
+   "req": true
+  },
+  {
+   "id": "1:1 common-mode choke at the shack entry",
+   "why": "keeps feedline RF out of the shack",
+   "req": false
+  }
+ ]
+}

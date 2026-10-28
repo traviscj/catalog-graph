@@ -1,0 +1,58 @@
+{
+ "id": "pez-eft-102040",
+ "kind": "antenna",
+ "name": "EFT-102040",
+ "title": "Par EndFedz EFT-102040",
+ "brand": "Par EndFedz",
+ "price": 89.99,
+ "line": "HF end-fed wire",
+ "legacy": false,
+ "summary": "41 ft trail-friendly 40/20/10m end-fed, 25 W",
+ "jobs": [
+  {
+   "job": "ant_hf_portable",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "end-fed",
+  "mount": "portable",
+  "ant_bands": [
+   "40m",
+   "20m",
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 25,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": 41.0,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "wire-antennas"
+  }
+ },
+ "gotchas": [
+  "25 W max"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "1:1 common-mode choke at the shack entry",
+   "why": "keeps feedline RF out of the shack",
+   "req": false
+  }
+ ]
+}

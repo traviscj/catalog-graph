@@ -1,0 +1,61 @@
+{
+ "id": "mfj-th-5mk2",
+ "kind": "antenna",
+ "name": "TH-5MK2",
+ "title": "Hy-Gain TH-5MK2",
+ "brand": "Hy-Gain",
+ "price": 1299.95,
+ "line": "HF tribander yagi",
+ "legacy": false,
+ "summary": "5-element 20/15/10m Thunderbird tribander, 19 ft boom, 1.5 kW",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "20m",
+   "15m",
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 1500,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 5,
+  "boom_ft": 19,
+  "turn_radius_ft": 18.42,
+  "wind_sqft": 7.4,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": 57,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "gain_db": "6.1 avg, unit unstated",
+   "fb_db": 20,
+   "longest_el_ft": 31.5,
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [
+  "57 lb, 7.4 sq ft — tower + big rotator"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

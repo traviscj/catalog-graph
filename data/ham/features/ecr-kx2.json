@@ -1,0 +1,177 @@
+{
+ "id": "ecr-kx2",
+ "name": "KX2",
+ "title": "Elecraft KX2",
+ "brand": "Elecraft",
+ "price": 1319.95,
+ "line": "HF portable/QRP",
+ "legacy": false,
+ "summary": "Pocket 80–10m SSB/CW/data QRP SDR, 10 W, 13 oz; battery, ATU, charger all sold separately.",
+ "jobs": [
+  {
+   "job": "hf_portable",
+   "role": "primary"
+  },
+  {
+   "job": "ft8_digital",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "portable",
+  "bands_tx": [
+   "80m",
+   "60m",
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m"
+  ],
+  "hf": true,
+  "vhf_uhf": false,
+  "rx_range": "0.5–32 MHz (reduced below 3 MHz)",
+  "power_w": {
+   "hf": 10,
+   "6m": null,
+   "2m": null,
+   "70cm": null,
+   "23cm": null
+  },
+  "modes": [
+   "SSB",
+   "CW",
+   "RTTY",
+   "PSK",
+   "DATA"
+  ],
+  "digital_voice": [],
+  "receiver_arch": "narrowband SDR",
+  "band_scope": null,
+  "display": "custom LCD (alphanumeric)",
+  "dual_receive": false,
+  "dual_watch": false,
+  "atu": false,
+  "usb_single_cable": false,
+  "lan_remote": false,
+  "wifi_bt": [],
+  "gps": false,
+  "aprs": false,
+  "full_duplex_sat": false,
+  "crossband_repeat": false,
+  "detachable_head": false,
+  "headless": false,
+  "power_source": "internal battery + 13.8 VDC",
+  "tx_current_a": null,
+  "battery": null,
+  "ip_rating": null,
+  "antenna_ports": 1,
+  "rx_antenna_in": false,
+  "roofing_filters": null,
+  "memories": null,
+  "weight_kg": 0.37,
+  "size_mm": "147×71×38",
+  "special": [
+   "9 HF bands 80–10m in 13 oz",
+   "built-in mic (HT-style)",
+   "numeric keypad",
+   "PSK/RTTY decode/encode without PC",
+   "DVR 2 msgs",
+   "DSP dual watch ±23 kHz",
+   "135 mA RX, ~8 h on KXBT2",
+   "PIN-diode QSK",
+   "Morse-code UI option"
+  ],
+  "requires": [
+   "KXBT2 battery (sold separately) for portable use",
+   "external ATU or KXAT2 option",
+   "mic/paddle for CW (KXPD2) sold separately"
+  ],
+  "extra": {
+   "power_note": "up to 10 W 80–15m, 8 W 12/10m (typ.); 100 W with KXPA100; '12 W from external supply' commonly cited but not on page",
+   "battery_note": "KXBT2 11 V 2.6 Ah Li-ion not included; KXIBC2 internal charger optional (replaces KXIO2 RTC module)",
+   "dual_watch_note": "same-band ±23 kHz DSP dual receive for split DX",
+   "usb_note": "USB/RS232 cable = CAT only, no USB audio codec",
+   "modes_note": "page lists SSB/CW/Data only — no AM/FM TX",
+   "assembled_only": true,
+   "rx_current_a": 0.135,
+   "source": "elecraft.com",
+   "list_price": "1319.95",
+   "avail": "InStock"
+  }
+ },
+ "gotchas": [
+  "Battery NOT included at $1,320 — KXBT2 + KXIBC2 charger + KXAT2 ATU push it toward ~$1.9k; ico-ic-705 ships with battery, scope, 2m/70cm",
+  "No 160m or 6m — ecr-kx3 covers 160–6m; no 2m/70cm at all (ysu-ftx-1field / ico-ic-705)",
+  "No band scope or waterfall, and no option for one (PX3 is KX3-only)",
+  "No USB audio codec — FT8 needs a separate audio interface",
+  "Li-ion shipping limits: max 3 KXBT2 per shipment; no battery shipping to AU/JP/ES/TH"
+ ],
+ "best_for": [
+  "ultralight SOTA/POTA SSB+CW",
+  "stealth/travel HF",
+  "KXPA100 field-to-home combo"
+ ],
+ "not_for": [
+  "160m/6m",
+  "waterfall-driven operating",
+  "one-cable FT8"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "Elecraft KXBT2 Li-ion battery",
+   "why": "sold separately; radio is tethered to a supply without it",
+   "req": true
+  },
+  {
+   "id": "Elecraft KXIBC2 internal charger",
+   "why": "charge KXBT2 in the radio (+RTC)",
+   "req": false
+  },
+  {
+   "id": "Elecraft KXAT2 internal ATU",
+   "why": "ATU optional; random wire/whip",
+   "req": false
+  },
+  {
+   "id": "Elecraft KXPD2 keyer paddle",
+   "why": "attached paddle for CW, not included",
+   "req": false
+  },
+  {
+   "id": "Elecraft KXPA100 100 W amplifier",
+   "why": "100 W at home",
+   "req": false
+  },
+  {
+   "id": "Elecraft AX1 whip",
+   "why": "HT-style operation",
+   "req": false
+  },
+  {
+   "id": "Elecraft KXUSB cable",
+   "why": "CAT/firmware (serial)",
+   "req": false
+  },
+  {
+   "id": "Elecraft KXBC2 external fast charger",
+   "why": "spare-battery charging",
+   "req": false
+  },
+  {
+   "id": "ecr-kx3",
+   "why": "bigger sibling with 160/6m, PX3 scope, 15 W",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 4.8,
+  "n": 58,
+  "pid": "12852",
+  "last": "2026-06-11",
+  "name": "Elecraft KX2"
+ }
+}

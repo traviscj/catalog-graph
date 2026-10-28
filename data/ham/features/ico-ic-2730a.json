@@ -1,0 +1,127 @@
+{
+ "id": "ico-ic-2730a",
+ "name": "IC-2730A",
+ "title": "ICOM IC-2730A",
+ "brand": "Icom",
+ "price": 339.95,
+ "line": "VHF/UHF mobile",
+ "legacy": false,
+ "summary": "Analog 2m/70cm 50W FM mobile with V/V, U/U dual watch, detachable head, crossband repeat.",
+ "jobs": [
+  {
+   "job": "vhf_uhf_mobile",
+   "role": "primary"
+  },
+  {
+   "job": "emcomm",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "mobile",
+  "bands_tx": [
+   "2m",
+   "70cm"
+  ],
+  "hf": false,
+  "vhf_uhf": true,
+  "rx_range": "118–174, 375–550 MHz",
+  "power_w": {
+   "hf": null,
+   "6m": null,
+   "2m": 50,
+   "70cm": 50,
+   "23cm": null
+  },
+  "modes": [
+   "FM",
+   "AM(RX air)"
+  ],
+  "digital_voice": [],
+  "receiver_arch": "FM (HT/mobile)",
+  "band_scope": null,
+  "display": "large LCD, white backlight",
+  "dual_receive": false,
+  "dual_watch": true,
+  "atu": false,
+  "usb_single_cable": false,
+  "lan_remote": false,
+  "wifi_bt": [],
+  "gps": false,
+  "aprs": false,
+  "full_duplex_sat": false,
+  "crossband_repeat": true,
+  "detachable_head": true,
+  "power_source": "13.8 VDC external",
+  "tx_current_a": 13.0,
+  "battery": null,
+  "ip_rating": null,
+  "antenna_ports": 1,
+  "rx_antenna_in": false,
+  "roofing_filters": null,
+  "memories": 1000,
+  "weight_kg": 1.34,
+  "size_mm": "150×40×151 (main unit)",
+  "special": [
+   "V/V U/U V/U simultaneous RX",
+   "built-in duplexer",
+   "1.5x larger display",
+   "CI-V via OPC-478UC"
+  ],
+  "requires": [],
+  "extra": {
+   "bt_option": "VS-3 headset via UT-133A",
+   "supplied": "HM-207 mic, OPC-837 controller cable",
+   "head_bracket": "MBA-4 optional",
+   "input_voltage": "12-15 VDC",
+   "warranty": "1-year",
+   "list_price": "339.95",
+   "avail": "InStock"
+  }
+ },
+ "gotchas": [
+  "Analog only — ID-5100A-D / ID-5200A for D-STAR",
+  "No GPS/APRS — ID-5100A-D has GPS + D-PRS",
+  "Bluetooth requires optional UT-133A unit + VS-3",
+  "A vs B: IC-2730B is listed separately — check which version DXE ships before buying",
+  "Base use needs 13.8V 13A+ supply (not included)"
+ ],
+ "best_for": [
+  "dual-band FM car rig",
+  "crossband repeat for emcomm"
+ ],
+ "not_for": [
+  "digital voice",
+  "APRS"
+ ],
+ "pairs": [
+  {
+   "id": "13.8 V 15 A power supply",
+   "why": "base use; 13A on TX",
+   "req": false
+  },
+  {
+   "id": "dual-band NMO mobile antenna",
+   "why": "single port w/ built-in duplexer",
+   "req": false
+  },
+  {
+   "id": "ico-ic-2730b",
+   "why": "sibling version listed separately",
+   "req": false
+  },
+  {
+   "id": "UT-133A Bluetooth unit",
+   "why": "enables VS-3 headset",
+   "req": false
+  }
+ ],
+ "confidence": "medium",
+ "rating": {
+  "avg": 4.1,
+  "n": 61,
+  "pid": "12138",
+  "last": "2025-02-09",
+  "name": "Icom IC-2730A"
+ }
+}

@@ -1,0 +1,151 @@
+{
+ "id": "ico-ic-7300mk2",
+ "name": "IC-7300MK2",
+ "title": "Icom IC-7300MK2",
+ "brand": "Icom",
+ "price": 1499.95,
+ "line": "HF base",
+ "legacy": false,
+ "summary": "Direct-sampling 100W HF/6m base: touch scope, ATU, HDMI out, USB-C, built-in LAN remote, RX-ant I/O.",
+ "jobs": [
+  {
+   "job": "hf_base",
+   "role": "primary"
+  },
+  {
+   "job": "ft8_digital",
+   "role": "primary"
+  },
+  {
+   "job": "remote_operation",
+   "role": "secondary"
+  },
+  {
+   "job": "first_radio",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "base",
+  "bands_tx": [
+   "160m",
+   "80m",
+   "60m",
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m",
+   "6m"
+  ],
+  "hf": true,
+  "vhf_uhf": false,
+  "rx_range": "0.030–74.8 MHz",
+  "power_w": {
+   "hf": 100,
+   "6m": 100,
+   "2m": null,
+   "70cm": null,
+   "23cm": null
+  },
+  "modes": [
+   "SSB",
+   "CW",
+   "AM",
+   "FM",
+   "RTTY",
+   "DATA"
+  ],
+  "digital_voice": [],
+  "receiver_arch": "direct-sampling SDR",
+  "band_scope": "real-time scope + waterfall",
+  "display": "4.3in color touch",
+  "dual_receive": false,
+  "dual_watch": false,
+  "atu": true,
+  "usb_single_cable": true,
+  "lan_remote": true,
+  "wifi_bt": [],
+  "gps": false,
+  "aprs": false,
+  "full_duplex_sat": false,
+  "crossband_repeat": false,
+  "detachable_head": false,
+  "power_source": "13.8 VDC external",
+  "tx_current_a": 21.0,
+  "battery": null,
+  "ip_rating": null,
+  "antenna_ports": 3,
+  "rx_antenna_in": true,
+  "roofing_filters": null,
+  "memories": 101,
+  "weight_kg": 4.1,
+  "size_mm": "240×94×238",
+  "special": [
+   "HDMI external display out",
+   "USB-C dual virtual COM + audio",
+   "LAN RS-BA1 remote, no PC",
+   "RX antenna IN/OUT",
+   "CW decoder",
+   "voice synthesizer",
+   "RMDR ~105 dB"
+  ],
+  "requires": [
+   "13.8V 25A power supply"
+  ],
+  "extra": {
+   "supersedes": "ico-ic-7300",
+   "min_power_w": 2,
+   "list_price": 1499.95,
+   "avail": "InStock"
+  }
+ },
+ "gotchas": [
+  "supersedes the IC-7300 — buy MK2 unless the old one is deeply discounted",
+  "no crystal roofing filters, single receiver — FTDX10/FTDX101D better in contest pileups; IC-7610 for dual RX",
+  "HF/6m only — IC-7100/IC-705 add 2m/70cm; IC-9700 for V/U all-mode",
+  "needs 21A 13.8V supply (not included)",
+  "LAN remote still needs RS-BA1 software on the client"
+ ],
+ "best_for": [
+  "first serious HF rig",
+  "FT8/digital via one USB-C cable",
+  "remote shack over LAN"
+ ],
+ "not_for": [
+  "contest-grade RX",
+  "VHF/UHF"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "13.8 V 25 A power supply",
+   "why": "no internal PSU; 21 A draw",
+   "req": true
+  },
+  {
+   "id": "RS-BA1 remote software",
+   "why": "LAN remote client",
+   "req": false
+  },
+  {
+   "id": "external HDMI monitor",
+   "why": "large scope/waterfall",
+   "req": false
+  },
+  {
+   "id": "ico-ic-9700",
+   "why": "V/U/SHF companion, same UI family",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 4.6,
+  "n": 20,
+  "pid": "16240",
+  "last": "2026-10-12",
+  "name": "Icom IC-7300 MK2"
+ }
+}

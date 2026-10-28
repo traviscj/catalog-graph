@@ -1,0 +1,63 @@
+{
+ "id": "opb-ob2-40",
+ "kind": "antenna",
+ "name": "OB2-40",
+ "title": "Optibeam OB2-40",
+ "brand": "OptiBeam",
+ "price": 2999.99,
+ "line": "HF monoband yagi",
+ "legacy": false,
+ "summary": "Full-size 2-element 40m yagi, 49 ft elements, 77 lb",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "40m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 5000.0,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 2,
+  "boom_ft": 18.37,
+  "turn_radius_ft": null,
+  "wind_sqft": 6.67,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": 77.16,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "hf-directional-antennas"
+  }
+ },
+ "gotchas": [
+  "49 ft elements, 77 lb — tower + heavy rotator"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ],
+ "rating": {
+  "avg": 5.0,
+  "n": 26,
+  "pid": "3723",
+  "last": "2021-10-25",
+  "name": "OptiBeam OB2-40 high performance 2 element 40m Yagi"
+ }
+}

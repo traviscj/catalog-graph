@@ -1,0 +1,48 @@
+{
+ "id": "hsr-hd9-43050",
+ "kind": "antenna",
+ "name": "HD9-43050",
+ "title": "Hustler Antenna HD9-43050",
+ "brand": "Hustler",
+ "price": 1994.99,
+ "line": "V/U base vertical",
+ "legacy": false,
+ "summary": "Heavy-duty 14.5 ft 70cm repeater collinear, 11.15 dBi, 400 W",
+ "jobs": [
+  {
+   "job": "ant_vu_base",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "collinear",
+  "mount": "base",
+  "ant_bands": [
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 400,
+  "max_w_digital": null,
+  "gain_dbi": 11.15,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 14.5,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "N female",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "vhf-uhf-base-vertical-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": []
+}

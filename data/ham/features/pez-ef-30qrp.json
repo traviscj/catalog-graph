@@ -1,0 +1,60 @@
+{
+ "id": "pez-ef-30qrp",
+ "kind": "antenna",
+ "name": "EF-30QRP",
+ "title": "Par EndFedz EF-30QRP",
+ "brand": "Par EndFedz",
+ "price": 54.99,
+ "line": "HF end-fed wire",
+ "legacy": false,
+ "summary": "46 ft QRP 30m end-fed half-wave, 25 W",
+ "jobs": [
+  {
+   "job": "ant_hf_portable",
+   "role": "primary"
+  },
+  {
+   "job": "ant_hf_wire",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "end-fed",
+  "mount": "portable",
+  "ant_bands": [
+   "30m"
+  ],
+  "resonant": true,
+  "tuner_req": "Antenna & installation dependent",
+  "max_w": 25,
+  "max_w_digital": 12.5,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": 46.0,
+  "height_ft": null,
+  "weight_lb": 0.375,
+  "radials": null,
+  "directional": false,
+  "polarization": null,
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": true,
+  "extra": {
+   "dxe_part_type": "wire-antennas"
+  }
+ },
+ "gotchas": [
+  "25 W QRP max"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "1:1 common-mode choke at the shack entry",
+   "why": "keeps feedline RF out of the shack",
+   "req": false
+  }
+ ]
+}

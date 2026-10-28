@@ -1,0 +1,68 @@
+{
+ "id": "com-30va",
+ "kind": "antenna",
+ "name": "30VA",
+ "title": "COMTEK 30VA 30 Meter Vertical Antennas",
+ "brand": "Comtek",
+ "price": 299.99,
+ "line": "HF monoband vertical",
+ "legacy": false,
+ "summary": "COMTEK 30VA adjustable 24 ft quarter-wave 30m vertical, 3 kW",
+ "jobs": [
+  {
+   "job": "ant_hf_vertical",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "vertical",
+  "mount": "base",
+  "ant_bands": [
+   "30m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 3000,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 24.0,
+  "weight_lb": null,
+  "radials": true,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "hf-vertical-antennas-and-packages"
+  }
+ },
+ "gotchas": [
+  "Radials required"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "radial wires / counterpoise",
+   "why": "vertical needs a ground system",
+   "req": true
+  },
+  {
+   "id": "1:1 common-mode choke at the shack entry",
+   "why": "keeps feedline RF out of the shack",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 5.0,
+  "n": 3,
+  "pid": "9408",
+  "last": "2012-12-24",
+  "name": "ZeroFive 6-30 METER MULTIBAND VERTICAL GROUNDPLANE"
+ }
+}

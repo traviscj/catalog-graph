@@ -1,0 +1,51 @@
+{
+ "id": "dxe-rdpk-8075",
+ "kind": "antenna",
+ "name": "RDPK-8075",
+ "title": "DX Engineering Single-Band Dipole Antenna Kits",
+ "brand": "DX Engineering",
+ "price": 242.46,
+ "line": "HF dipole (kit)",
+ "legacy": false,
+ "summary": "DX Engineering 80/75m dipole kit, 2x69 ft legs, user cut to resonance",
+ "jobs": [
+  {
+   "job": "ant_hf_wire",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "dipole",
+  "mount": "base",
+  "ant_bands": [
+   "80m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": 138,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "horizontal",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "wire-antennas"
+  }
+ },
+ "gotchas": [
+  "User cuts to resonance",
+  "Needs 138 ft span"
+ ],
+ "confidence": "high",
+ "pairs": []
+}

@@ -1,0 +1,65 @@
+{
+ "id": "mfj-mfj-1890",
+ "kind": "antenna",
+ "name": "MFJ-1890",
+ "title": "MFJ MFJ-1890",
+ "brand": "MFJ",
+ "price": 159.95,
+ "line": "HF moxon",
+ "legacy": false,
+ "summary": "10m 2-element Moxon, 12 ft span, 3.3 dBi, 30 dB F/B, 8 lb",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "moxon",
+  "mount": "base",
+  "ant_bands": [
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": 3.3,
+  "elements": 2,
+  "boom_ft": 4.17,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": 8,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "span_ft": 12,
+   "fb_db": 30,
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [
+  "rotator not included"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ],
+ "rating": {
+  "avg": 4.5,
+  "n": 2,
+  "pid": "12883",
+  "last": "2016-10-28",
+  "name": "MFJ 1890"
+ }
+}

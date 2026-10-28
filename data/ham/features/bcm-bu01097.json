@@ -1,0 +1,68 @@
+{
+ "id": "bcm-bu01097",
+ "kind": "antenna",
+ "name": "Horizon 6.7",
+ "title": "Bushcomm Horizon 6.7",
+ "brand": "Bushcomm",
+ "price": 429.99,
+ "line": "HF compact dipole",
+ "legacy": false,
+ "summary": "Compact non-resonant broadband horizontal dipole from Bushcomm",
+ "jobs": [
+  {
+   "job": "ant_small_space",
+   "role": "primary"
+  },
+  {
+   "job": "ant_hf_beam",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "dipole",
+  "mount": "base",
+  "ant_bands": [
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m"
+  ],
+  "resonant": false,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "note": "bands inferred from model name (6.7 MHz lower limit?)",
+   "dxe_part_type": "hf-directional-antennas"
+  }
+ },
+ "gotchas": [
+  "Non-resonant — plan on a tuner",
+  "Band coverage not stated by DXE"
+ ],
+ "confidence": "medium",
+ "pairs": [
+  {
+   "id": "antenna tuner (wide-range)",
+   "why": "non-resonant on its listed bands",
+   "req": true
+  }
+ ]
+}

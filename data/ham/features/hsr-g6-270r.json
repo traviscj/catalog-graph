@@ -1,0 +1,58 @@
+{
+ "id": "hsr-g6-270r",
+ "kind": "antenna",
+ "name": "G6-270R",
+ "title": "Hustler Base Model G6-270R Vertical Antennas",
+ "brand": "Hustler",
+ "price": 494.99,
+ "line": "V/U base vertical",
+ "legacy": false,
+ "summary": "Hustler G6-270R 7.5 ft dual-band 2m/70cm base collinear, N female",
+ "jobs": [
+  {
+   "job": "ant_vu_base",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "collinear",
+  "mount": "base",
+  "ant_bands": [
+   "2m",
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 100,
+  "max_w_digital": null,
+  "gain_dbi": 8.15,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 7.5,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "N-female",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "vhf-uhf-base-vertical-antennas"
+  }
+ },
+ "gotchas": [
+  "100 W max"
+ ],
+ "confidence": "high",
+ "pairs": [],
+ "rating": {
+  "avg": 3.0,
+  "n": 18,
+  "pid": "2132",
+  "last": "2024-08-01",
+  "name": "HUSTLER G6-270R 2m/440 Antenna"
+ }
+}

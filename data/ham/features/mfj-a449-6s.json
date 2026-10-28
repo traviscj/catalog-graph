@@ -1,0 +1,61 @@
+{
+ "id": "mfj-a449-6s",
+ "kind": "antenna",
+ "name": "A449-6S",
+ "title": "Cushcraft A449-6S",
+ "brand": "Cushcraft",
+ "price": 129.95,
+ "line": "V/U yagi",
+ "legacy": false,
+ "summary": "6-element 440-450 MHz yagi for FM/packet, 350 W",
+ "jobs": [
+  {
+   "job": "ant_vu_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 350,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 6,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": null,
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ],
+ "rating": {
+  "avg": 0.0,
+  "n": 1,
+  "pid": "14114",
+  "last": "2018-12-15",
+  "name": "Cushcraft A449-6S"
+ }
+}

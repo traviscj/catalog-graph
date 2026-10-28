@@ -1,0 +1,55 @@
+{
+ "id": "mfj-mfj-1852",
+ "kind": "antenna",
+ "name": "MFJ-1852",
+ "title": "MFJ MFJ-1852",
+ "brand": "MFJ",
+ "price": 119.95,
+ "line": "V/U yagi",
+ "legacy": false,
+ "summary": "6-el full-band 2m yagi, 10 dBi, 600 W, 5-ft boom",
+ "jobs": [
+  {
+   "job": "ant_vu_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "2m"
+  ],
+  "resonant": null,
+  "tuner_req": null,
+  "max_w": 600,
+  "max_w_digital": null,
+  "gain_dbi": 10,
+  "elements": 6,
+  "boom_ft": 5,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": 3.5,
+  "radials": null,
+  "directional": true,
+  "polarization": null,
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "fb_db": 20,
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

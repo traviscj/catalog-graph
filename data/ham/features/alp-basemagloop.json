@@ -1,0 +1,58 @@
+{
+ "id": "alp-basemagloop",
+ "kind": "antenna",
+ "name": "Base MagLoop",
+ "title": "Alpha Antenna Base MagLoop",
+ "brand": "Alpha",
+ "price": 1000.0,
+ "line": "HF mag loop",
+ "legacy": false,
+ "summary": "3 ft base mag loop, 40-10m, remote matching unit, 100 W",
+ "jobs": [
+  {
+   "job": "ant_small_space",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "mag-loop",
+  "mount": "base",
+  "ant_bands": [
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": "Loop tuner: Yes",
+  "max_w": 100,
+  "max_w_digital": 25,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": null,
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "loop_diam_ft": 3,
+   "dxe_part_type": "limited-space-small-loop-antennas"
+  }
+ },
+ "gotchas": [
+  "100 W SSB / 25 W digital max",
+  "re-tune on every frequency change"
+ ],
+ "confidence": "high",
+ "pairs": []
+}

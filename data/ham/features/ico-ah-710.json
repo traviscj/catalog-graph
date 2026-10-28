@@ -1,0 +1,68 @@
+{
+ "id": "ico-ah-710",
+ "kind": "antenna",
+ "name": "AH-710",
+ "title": "ICOM AH-710",
+ "brand": "Icom",
+ "price": 429.99,
+ "line": "HF broadband dipole",
+ "legacy": false,
+ "summary": "80 ft broadband folded dipole for 1.9-30 MHz with 98 ft coax",
+ "jobs": [
+  {
+   "job": "ant_hf_wire",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "dipole",
+  "mount": "base",
+  "ant_bands": [
+   "160m",
+   "80m",
+   "60m",
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 150.0,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": 80.0,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "horizontal",
+  "connector": "PL-259",
+  "rx_only": false,
+  "assembled": true,
+  "extra": {
+   "note": "160m coverage starts at 1.9 MHz",
+   "dxe_part_type": "wire-antennas"
+  }
+ },
+ "gotchas": [
+  "150 W max",
+  "SWR up to 2.5:1"
+ ],
+ "confidence": "high",
+ "pairs": [],
+ "rating": {
+  "avg": 4.4,
+  "n": 5,
+  "pid": "7251",
+  "last": "2023-06-02",
+  "name": "ICOM AH-710 - HF Folded Dipole Antenna"
+ }
+}

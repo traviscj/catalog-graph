@@ -1,0 +1,52 @@
+{
+ "id": "alo-ea-143",
+ "kind": "antenna",
+ "name": "EA-143",
+ "title": "Alinco EA-143",
+ "brand": "Alinco",
+ "price": 29.99,
+ "line": "HT antenna",
+ "legacy": false,
+ "summary": "Monoband replacement antenna for Alinco DJ-V47E UHF HT",
+ "jobs": [
+  {
+   "job": "ant_ht",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "rubber-duck",
+  "mount": "handheld",
+  "ant_bands": [
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "fits": "DJ-V47E",
+   "band_inferred_from": "radio model",
+   "dxe_part_type": "handheld-and-scanner-antennas"
+  }
+ },
+ "gotchas": [
+  "radio-specific replacement (DJ-V47E)"
+ ],
+ "confidence": "medium",
+ "pairs": []
+}

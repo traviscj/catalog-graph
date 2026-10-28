@@ -1,0 +1,148 @@
+{
+ "id": "ysu-ftx-1field",
+ "name": "FTX-1 Field",
+ "title": "Yaesu FTX-1 Field",
+ "brand": "Yaesu",
+ "price": 999.95,
+ "line": "HF/VHF/UHF portable (QRP)",
+ "legacy": false,
+ "summary": "Field Head only: HF–70cm all-mode incl. C4FM, 6W on included 6400mAh Li-ion, 10W on 13.8V.",
+ "jobs": [
+  {
+   "job": "hf_portable",
+   "role": "primary"
+  },
+  {
+   "job": "allband_allmode",
+   "role": "secondary"
+  },
+  {
+   "job": "digital_voice",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "portable",
+  "bands_tx": [
+   "160m",
+   "80m",
+   "60m",
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m",
+   "6m",
+   "2m",
+   "70cm"
+  ],
+  "hf": true,
+  "vhf_uhf": true,
+  "rx_range": "0.030–174, 400–470 MHz",
+  "power_w": {
+   "hf": 10,
+   "6m": 10,
+   "2m": 10,
+   "70cm": 10,
+   "23cm": null
+  },
+  "modes": [
+   "SSB",
+   "CW",
+   "AM",
+   "FM",
+   "C4FM",
+   "DATA"
+  ],
+  "digital_voice": [
+   "C4FM"
+  ],
+  "receiver_arch": null,
+  "band_scope": "spectrum scope",
+  "display": "4.3in color TFT",
+  "dual_receive": false,
+  "dual_watch": false,
+  "atu": false,
+  "usb_single_cable": false,
+  "lan_remote": false,
+  "wifi_bt": [],
+  "gps": false,
+  "aprs": false,
+  "full_duplex_sat": false,
+  "crossband_repeat": false,
+  "detachable_head": false,
+  "power_source": "internal battery + 13.8 VDC",
+  "tx_current_a": 3.0,
+  "battery": "SBR-52LI 10.8V 6400 mAh Li-ion (included); USB-C PD ≥45W charging",
+  "ip_rating": null,
+  "antenna_ports": 2,
+  "rx_antenna_in": false,
+  "roofing_filters": null,
+  "memories": null,
+  "weight_kg": 1.25,
+  "size_mm": "213×89×55",
+  "special": [
+   "QRP 6W internal battery",
+   "SPA-1 100W amp option (tool-free)",
+   "voice synthesizer",
+   "~9 h HF SSB on battery",
+   "receives FM bcast + airband"
+  ],
+  "requires": [],
+  "extra": {
+   "variant": "Field = head + battery; Optima = head + SPA-1 100W amp",
+   "battery_power_w": 6,
+   "receiver_note": "marketed as SDR; arch not stated",
+   "list_price": 1499.95,
+   "avail": "InStock"
+  }
+ },
+ "gotchas": [
+  "no internal ATU — FTX-1 Optima's SPA-1 adds 100W (and its own tuner); otherwise budget an external tuner",
+  "10W max, 6W on battery — FTX-1 Optima or FT-991A for 100W HF",
+  "single receiver per DXE spec, no dual watch — IC-705 also single; FTM-510DR/ID-5200A for V/U dual watch",
+  "same Field Head as FTX-1 Optima: Optima costs more but adds SPA-1; buying Field then SPA-1 later costs more than Optima",
+  "Li-ion: DXE accepts returns only in person at a retail store"
+ ],
+ "best_for": [
+  "POTA/SOTA operators wanting HF+V/U in one box",
+  "C4FM users wanting HF too",
+  "backpack portable"
+ ],
+ "not_for": [
+  "100W home station without the SPA-1",
+  "users needing a built-in tuner"
+ ],
+ "confidence": "medium",
+ "pairs": [
+  {
+   "id": "external auto-tuner (e.g. Yaesu FC-50 / random-wire QRP tuner)",
+   "why": "no internal ATU on Field",
+   "req": false
+  },
+  {
+   "id": "ysu-ftx-1optima",
+   "why": "same head + SPA-1 100W amplifier",
+   "req": false
+  },
+  {
+   "id": "13.8 V 5 A power supply",
+   "why": "10W out and battery charging at home",
+   "req": false
+  },
+  {
+   "id": "USB-C PD charger ≥45 W",
+   "why": "field battery recharge",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 4.1,
+  "n": 16,
+  "pid": "16175",
+  "last": "2026-10-17",
+  "name": "Yaesu FTX-1 Field (6W-10W) optima (100 Watts)"
+ }
+}

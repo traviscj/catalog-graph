@@ -1,0 +1,66 @@
+{
+ "id": "ean-17820-hex6b",
+ "kind": "antenna",
+ "name": "HEX6B",
+ "title": "EAntenna HEX6B",
+ "brand": "EAntenna",
+ "price": 899.99,
+ "line": "HF hex beam",
+ "legacy": false,
+ "summary": "Six-band 20-6m hexbeam, 10.7 ft turning radius, light enough for small rotators",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  },
+  {
+   "job": "ant_small_space",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "hex-beam",
+  "mount": "base",
+  "ant_bands": [
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m",
+   "6m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 5000.0,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 12,
+  "boom_ft": null,
+  "turn_radius_ft": 10.7,
+  "wind_sqft": 4.84,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": 11.24,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "also": "11m",
+   "dxe_part_type": "hf-directional-antennas"
+  }
+ },
+ "gotchas": [
+  "Rotator not included"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

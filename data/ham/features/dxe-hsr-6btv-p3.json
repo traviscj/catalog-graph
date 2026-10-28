@@ -1,0 +1,73 @@
+{
+ "id": "dxe-hsr-6btv-p3",
+ "kind": "antenna",
+ "name": "6BTV system",
+ "title": "DX Engineering 6BTV system",
+ "brand": "DX Engineering",
+ "price": 842.69,
+ "line": "HF multiband vertical",
+ "legacy": false,
+ "summary": "Hustler 6BTV six-band vertical with tilt base and radial plate",
+ "jobs": [
+  {
+   "job": "ant_hf_vertical",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "vertical",
+  "mount": "base",
+  "ant_bands": [
+   "80m",
+   "40m",
+   "30m",
+   "20m",
+   "15m",
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": "Antenna & installation dependent",
+  "max_w": 1500,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 24.0,
+  "weight_lb": 15.0,
+  "radials": true,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "hf-vertical-antennas-and-packages"
+  }
+ },
+ "gotchas": [
+  "radial wires not included"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "radial wires / counterpoise",
+   "why": "vertical needs a ground system",
+   "req": true
+  },
+  {
+   "id": "1:1 common-mode choke at the shack entry",
+   "why": "keeps feedline RF out of the shack",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 4.1,
+  "n": 7,
+  "pid": "5910",
+  "last": "2009-02-25",
+  "name": "Astatic AST 6BTV Multiband HF mobile"
+ }
+}

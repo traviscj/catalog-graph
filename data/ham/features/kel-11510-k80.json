@@ -1,0 +1,54 @@
+{
+ "id": "kel-11510-k80",
+ "kind": "antenna",
+ "name": "DPK-80",
+ "title": "Kelemen DPK-80",
+ "brand": "Kelemen",
+ "price": 279.99,
+ "line": "HF dipole",
+ "legacy": false,
+ "summary": "Extra-shortened 62 ft 80m monoband dipole with balun",
+ "jobs": [
+  {
+   "job": "ant_hf_wire",
+   "role": "primary"
+  },
+  {
+   "job": "ant_small_space",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "dipole",
+  "mount": "base",
+  "ant_bands": [
+   "80m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 1000.0,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": 62.3,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": true,
+  "extra": {
+   "dxe_part_type": "wire-antennas"
+  }
+ },
+ "gotchas": [
+  "Shortened: narrow 80m bandwidth"
+ ],
+ "confidence": "high",
+ "pairs": []
+}

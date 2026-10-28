@@ -1,0 +1,52 @@
+{
+ "id": "dxa-dxfs10-11",
+ "kind": "antenna",
+ "name": "DXFS10-11",
+ "title": "Diex Antennas Single-Band Full Size Rigid Rotatable Dipoles",
+ "brand": "DIEX",
+ "price": 135.99,
+ "line": "HF rotatable dipole",
+ "legacy": false,
+ "summary": "Diex full-size rigid 10m/11m rotatable dipole, 1.5 kW",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "dipole",
+  "mount": "base",
+  "ant_bands": [
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 1500,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": 16.73,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "rotatable": true,
+   "other_bands": [
+    "11m CB"
+   ],
+   "dxe_part_type": "hf-directional-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": []
+}

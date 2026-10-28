@@ -1,0 +1,142 @@
+{
+ "id": "ysu-ft-5dr",
+ "name": "FT5DR",
+ "title": "Yaesu FT5DR",
+ "brand": "Yaesu",
+ "price": 384.95,
+ "line": "C4FM HT",
+ "legacy": false,
+ "summary": "Flagship-class 2m/70cm C4FM/FM HT: dual receive, GPS/APRS, Bluetooth, band scope, IPX7.",
+ "jobs": [
+  {
+   "job": "vhf_uhf_handheld",
+   "role": "primary"
+  },
+  {
+   "job": "digital_voice",
+   "role": "primary"
+  },
+  {
+   "job": "aprs",
+   "role": "secondary"
+  },
+  {
+   "job": "emcomm",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "handheld",
+  "bands_tx": [
+   "2m",
+   "70cm"
+  ],
+  "hf": false,
+  "vhf_uhf": true,
+  "rx_range": "0.5–999.9 MHz (A), 108–580 MHz (B)",
+  "power_w": {
+   "hf": null,
+   "6m": null,
+   "2m": 5,
+   "70cm": 5,
+   "23cm": null
+  },
+  "modes": [
+   "FM",
+   "AM(RX)",
+   "C4FM"
+  ],
+  "digital_voice": [
+   "C4FM"
+  ],
+  "receiver_arch": "FM (HT/mobile)",
+  "band_scope": "79-channel band scope",
+  "display": "monochrome dot-matrix, selectable backlight",
+  "dual_receive": false,
+  "dual_watch": true,
+  "atu": false,
+  "usb_single_cable": false,
+  "lan_remote": false,
+  "wifi_bt": [
+   "Bluetooth"
+  ],
+  "gps": true,
+  "aprs": true,
+  "full_duplex_sat": false,
+  "crossband_repeat": false,
+  "detachable_head": false,
+  "power_source": "Li-ion pack",
+  "tx_current_a": null,
+  "battery": "SBR-14LI 7.2V 2200 mAh Li-ion (incl.)",
+  "ip_rating": "IPX7",
+  "antenna_ports": 1,
+  "rx_antenna_in": false,
+  "roofing_filters": null,
+  "memories": 900,
+  "weight_kg": 0.28,
+  "size_mm": "62×100×34",
+  "special": [
+   "dual receive V+V/U+U/V+U",
+   "C4FM/C4FM dual standby",
+   "WiRES-X portable digital node",
+   "microSD voice recording",
+   "1W audio",
+   "SHB-26 holster incl."
+  ],
+  "requires": [],
+  "extra": {
+   "dual_rx_note": "two independent receivers (A/B), both decode C4FM",
+   "aprs_baud": "1200/9600",
+   "connector": "SMA female on radio",
+   "min_power_w": 0.3,
+   "warranty": "3-year",
+   "list_price": "484.95",
+   "avail": "InStock"
+  }
+ },
+ "gotchas": [
+  "C4FM only — no D-STAR (ID-52A Plus) or DMR",
+  "No touchscreen (unlike older FT3D); 3 touch keys + keypad",
+  "5W max; no 1.25m — FT-70DR is cheaper if you don't need dual RX/GPS/BT",
+  "Radio is SMA-female (Yaesu style) — Baofeng SMA-female antennas won't fit"
+ ],
+ "best_for": [
+  "C4FM/WiRES-X users",
+  "APRS hiking/emcomm",
+  "scanning airband/broadcast"
+ ],
+ "not_for": [
+  "D-STAR/DMR networks",
+  "budget first HT"
+ ],
+ "pairs": [
+  {
+   "id": "ysu-ftm-310drasp",
+   "why": "C4FM mobile w/ GPS/APRS companion",
+   "req": false
+  },
+  {
+   "id": "SSM-BT10 Bluetooth headset",
+   "why": "hands-free over built-in Bluetooth",
+   "req": false
+  },
+  {
+   "id": "SBR-14LI spare battery",
+   "why": "GPS/dual RX drains battery",
+   "req": false
+  },
+  {
+   "id": "SMA-male whip antenna upgrade",
+   "why": "better than stock duck",
+   "req": false
+  }
+ ],
+ "confidence": "medium",
+ "rating": {
+  "avg": 3.3,
+  "n": 42,
+  "pid": "15112",
+  "last": "2026-08-06",
+  "name": "Yaesu FT5DR"
+ }
+}

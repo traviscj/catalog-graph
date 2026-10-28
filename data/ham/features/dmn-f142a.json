@@ -1,0 +1,55 @@
+{
+ "id": "dmn-f142a",
+ "kind": "antenna",
+ "name": "F142A",
+ "title": "Diamond F142A",
+ "brand": "Diamond",
+ "price": 132.99,
+ "line": "V/U base vertical",
+ "legacy": false,
+ "summary": "6 ft 222–225 MHz (1.25m) base vertical, 5.5 dBi",
+ "jobs": [
+  {
+   "job": "ant_vu_base",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "collinear",
+  "mount": "base",
+  "ant_bands": [
+   "1.25m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 150,
+  "max_w_digital": null,
+  "gain_dbi": 5.5,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 6.0,
+  "weight_lb": null,
+  "radials": false,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "vhf-uhf-base-vertical-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [],
+ "rating": {
+  "avg": 5.0,
+  "n": 1,
+  "pid": "6832",
+  "last": "2007-07-04",
+  "name": "Diamond F142A"
+ }
+}

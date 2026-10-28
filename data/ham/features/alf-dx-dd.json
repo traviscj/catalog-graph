@@ -1,0 +1,51 @@
+{
+ "id": "alf-dx-dd",
+ "kind": "antenna",
+ "name": "DX-DD",
+ "title": "Alpha Delta DX-DD",
+ "brand": "Alpha Delta",
+ "price": 179.99,
+ "line": "HF dipole",
+ "legacy": false,
+ "summary": "82 ft single-wire 80/40m resonant dipole, 1 kW",
+ "jobs": [
+  {
+   "job": "ant_hf_wire",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "dipole",
+  "mount": "base",
+  "ant_bands": [
+   "80m",
+   "40m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 1000.0,
+  "max_w_digital": 250.0,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": 82.0,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": true,
+  "extra": {
+   "dxe_part_type": "wire-antennas"
+  }
+ },
+ "gotchas": [
+  "Shortened for 80m: narrow bandwidth"
+ ],
+ "confidence": "high",
+ "pairs": []
+}

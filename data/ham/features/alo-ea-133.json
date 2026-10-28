@@ -1,0 +1,53 @@
+{
+ "id": "alo-ea-133",
+ "kind": "antenna",
+ "name": "EA-133",
+ "title": "Alinco EA-133",
+ "brand": "Alinco",
+ "price": 17.99,
+ "line": "scanner antenna (RX)",
+ "legacy": false,
+ "summary": "Replacement scanner antenna for Alinco DJ-X7T receiver",
+ "jobs": [
+  {
+   "job": "ant_rx",
+   "role": "primary"
+  },
+  {
+   "job": "ant_ht",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "rubber-duck",
+  "mount": "handheld",
+  "ant_bands": [],
+  "resonant": null,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": null,
+  "rx_only": true,
+  "assembled": null,
+  "extra": {
+   "fits": "DJ-X7T",
+   "dxe_part_type": "handheld-and-scanner-antennas"
+  }
+ },
+ "gotchas": [
+  "receiver-only replacement part for DJ-X7T"
+ ],
+ "confidence": "medium",
+ "pairs": []
+}

@@ -1,0 +1,54 @@
+{
+ "id": "moo-mono4-20",
+ "kind": "antenna",
+ "name": "Mono4-20",
+ "title": "Momobeam Mono4-20 Monoband Yagi Antennas",
+ "brand": "Momobeam",
+ "price": 2230.99,
+ "line": "HF monoband yagi",
+ "legacy": false,
+ "summary": "Momobeam 4-element full-size 20m yagi, 28.2 ft boom",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "20m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 10000,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 4,
+  "boom_ft": 28.22,
+  "turn_radius_ft": 21.33,
+  "wind_sqft": 10.0,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": 71.0,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "hf-directional-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

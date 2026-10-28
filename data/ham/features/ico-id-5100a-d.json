@@ -1,0 +1,135 @@
+{
+ "id": "ico-id-5100a-d",
+ "name": "ID-5100A Deluxe",
+ "title": "Icom ID-5100A Deluxe",
+ "brand": "Icom",
+ "price": 549.95,
+ "line": "VHF/UHF D-STAR mobile",
+ "legacy": true,
+ "summary": "50W 2m/70cm D-STAR mobile, separated touch head, GPS + D-PRS, dual receive; superseded by ID-5200A.",
+ "jobs": [
+  {
+   "job": "vhf_uhf_mobile",
+   "role": "primary"
+  },
+  {
+   "job": "digital_voice",
+   "role": "primary"
+  },
+  {
+   "job": "aprs",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "mobile",
+  "bands_tx": [
+   "2m",
+   "70cm"
+  ],
+  "hf": false,
+  "vhf_uhf": true,
+  "rx_range": "118–174, 375–550 MHz",
+  "power_w": {
+   "hf": null,
+   "6m": null,
+   "2m": 50,
+   "70cm": 50,
+   "23cm": null
+  },
+  "modes": [
+   "FM",
+   "D-STAR",
+   "AM(rx)"
+  ],
+  "digital_voice": [
+   "D-STAR"
+  ],
+  "receiver_arch": "FM (HT/mobile)",
+  "band_scope": null,
+  "display": "touch LCD 320×128 (monochrome)",
+  "dual_receive": true,
+  "dual_watch": true,
+  "atu": false,
+  "usb_single_cable": false,
+  "lan_remote": false,
+  "wifi_bt": [],
+  "gps": true,
+  "aprs": true,
+  "full_duplex_sat": false,
+  "crossband_repeat": true,
+  "detachable_head": true,
+  "power_source": "13.8 VDC external",
+  "tx_current_a": 13.0,
+  "battery": null,
+  "ip_rating": null,
+  "antenna_ports": 1,
+  "rx_antenna_in": false,
+  "roofing_filters": null,
+  "memories": 1000,
+  "weight_kg": 1.3,
+  "size_mm": "150×40×173 (body); head 182×82×25",
+  "special": [
+   "GPS in remote head",
+   "D-PRS",
+   "DR repeater list",
+   "speech announce",
+   "CS-5100 software included"
+  ],
+  "requires": [
+   "13.8V 15A power supply (for base use)",
+   "MBF-4 main-body bracket (optional)"
+  ],
+  "extra": {
+   "aprs_note": "D-PRS (D-STAR), not APRS packet",
+   "bluetooth": "needs optional UT-133",
+   "head": "permanently separated, OPC-837 3.5m cable",
+   "list_price": 549.95,
+   "avail": "InStock"
+  }
+ },
+ "gotchas": [
+  "superseded by ID-5200A (Wi-Fi/BT, color 4.3in, waterfall)",
+  "Bluetooth needs optional UT-133 board — ID-5200A has it built in",
+  "main-body bracket MBF-4 not included; head is permanently remote (no desktop one-piece)",
+  "D-STAR only — FTM-510DRASP for C4FM"
+ ],
+ "best_for": [
+  "D-STAR mobile on a budget",
+  "GPS/D-PRS in the car"
+ ],
+ "not_for": [
+  "base desktop one-piece use",
+  "C4FM"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "MBF-4 main body bracket",
+   "why": "body mount not included",
+   "req": false
+  },
+  {
+   "id": "UT-133 Bluetooth unit",
+   "why": "headset/Android app",
+   "req": false
+  },
+  {
+   "id": "13.8 V 15 A power supply",
+   "why": "base use; 13 A draw",
+   "req": false
+  },
+  {
+   "id": "ico-id-5200a",
+   "why": "current replacement model",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 3.9,
+  "n": 57,
+  "pid": "11729",
+  "last": "2025-02-05",
+  "name": "Icom ID-5100A"
+ }
+}

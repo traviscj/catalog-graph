@@ -1,0 +1,57 @@
+{
+ "id": "iva-db6-6-4",
+ "kind": "antenna",
+ "name": "DB-664",
+ "title": "InnovAntennas DB-664",
+ "brand": "InnovAntennas",
+ "price": 229.99,
+ "line": "V/U yagi",
+ "legacy": false,
+ "summary": "Compact 3+3 element 6m/4m dual-band yagi, single feed",
+ "jobs": [
+  {
+   "job": "ant_vu_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "portable",
+  "ant_bands": [
+   "6m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 3000.0,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 6,
+  "boom_ft": 3.85,
+  "turn_radius_ft": 4.86,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": 4.4,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": "terminal studs",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "other_bands": "4m (70 MHz)",
+   "dxe_part_type": "vhf-uhf-beam-antennas"
+  }
+ },
+ "gotchas": [
+  "4m (70 MHz) not legal in the US"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

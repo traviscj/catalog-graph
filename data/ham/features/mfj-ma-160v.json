@@ -1,0 +1,70 @@
+{
+ "id": "mfj-ma-160v",
+ "kind": "antenna",
+ "name": "MA-160V",
+ "title": "Cushcraft MA-160V",
+ "brand": "Cushcraft",
+ "price": 429.95,
+ "line": "HF monoband vertical",
+ "legacy": false,
+ "summary": "Top-loaded 160m vertical, 1.5 kW, 400 ft radial wire + guy kit",
+ "jobs": [
+  {
+   "job": "ant_hf_vertical",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "vertical",
+  "mount": "base",
+  "ant_bands": [
+   "160m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 1500,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": 12,
+  "radials": true,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "cap_hat_in": 100,
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [
+  "40 kHz bandwidth — adjust stinger",
+  "radials required (wire incl.)"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "radial wires / counterpoise",
+   "why": "vertical needs a ground system",
+   "req": true
+  },
+  {
+   "id": "1:1 common-mode choke at the shack entry",
+   "why": "keeps feedline RF out of the shack",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 4.4,
+  "n": 17,
+  "pid": "5660",
+  "last": "2022-03-25",
+  "name": "Cushcraft MA160V"
+ }
+}

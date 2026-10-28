@@ -1,0 +1,168 @@
+{
+ "id": "ico-ic-705",
+ "name": "IC-705",
+ "title": "Icom IC-705",
+ "brand": "Icom",
+ "price": 1399.95,
+ "line": "HF portable/QRP",
+ "legacy": false,
+ "summary": "10 W (5 W battery) HF–70cm all-mode QRP portable with D-STAR, GPS, Wi-Fi/Bluetooth, touch waterfall.",
+ "jobs": [
+  {
+   "job": "hf_portable",
+   "role": "primary"
+  },
+  {
+   "job": "allband_allmode",
+   "role": "primary"
+  },
+  {
+   "job": "digital_voice",
+   "role": "secondary"
+  },
+  {
+   "job": "ft8_digital",
+   "role": "secondary"
+  },
+  {
+   "job": "remote_operation",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "portable",
+  "bands_tx": [
+   "160m",
+   "80m",
+   "60m",
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m",
+   "6m",
+   "2m",
+   "70cm"
+  ],
+  "hf": true,
+  "vhf_uhf": true,
+  "rx_range": "0.030–199.999 MHz, 400–470 MHz",
+  "power_w": {
+   "hf": 10,
+   "6m": 10,
+   "2m": 10,
+   "70cm": 10,
+   "23cm": null
+  },
+  "modes": [
+   "SSB",
+   "CW",
+   "AM",
+   "FM",
+   "RTTY",
+   "DATA",
+   "D-STAR"
+  ],
+  "digital_voice": [
+   "D-STAR"
+  ],
+  "receiver_arch": "direct-sampling SDR",
+  "band_scope": "real-time scope + waterfall",
+  "display": "4.3in color touch",
+  "dual_receive": false,
+  "dual_watch": false,
+  "atu": false,
+  "usb_single_cable": true,
+  "lan_remote": true,
+  "wifi_bt": [
+   "WLAN",
+   "Bluetooth"
+  ],
+  "gps": true,
+  "aprs": true,
+  "full_duplex_sat": false,
+  "crossband_repeat": false,
+  "detachable_head": false,
+  "power_source": "internal battery + 13.8 VDC",
+  "tx_current_a": 3.0,
+  "battery": "BP-272 Li-ion (included, 5 W)",
+  "ip_rating": null,
+  "antenna_ports": 1,
+  "rx_antenna_in": false,
+  "roofing_filters": null,
+  "memories": 500,
+  "weight_kg": 1.1,
+  "size_mm": "200×83.5×83.5",
+  "special": [
+   "QRP 5W internal battery",
+   "SD recording",
+   "D-STAR image send",
+   "GPS logger",
+   "single BNC all bands"
+  ],
+  "requires": [
+   "external ATU or resonant antenna",
+   "battery charger or 13.8V supply"
+  ],
+  "extra": {
+   "am_power_w": 2.5,
+   "rf_arch": "direct sampling <25 MHz, down-conversion IF above",
+   "aprs_note": "D-PRS",
+   "included": "HM-243 speaker-mic, BP-272, DC cable",
+   "list_price": 1499.95,
+   "avail": "InStock"
+  }
+ },
+ "gotchas": [
+  "10 W max (5 W on BP-272) — ysu-ftx-1optima or ico-ic-7300mk2 for 100 W",
+  "No internal ATU — needs AH-705/external tuner; ysu-ftx-1optima has one (in SPA-1)",
+  "No charger/PSU included; BP-272 only gives 5 W",
+  "Single BNC for all bands — no separate V/U port",
+  "D-STAR only (no C4FM) — ysu-ftx-1field for C4FM"
+ ],
+ "best_for": [
+  "SOTA/POTA backpack all-band",
+  "D-STAR + HF in one small box"
+ ],
+ "not_for": [
+  "100 W home station",
+  "high-power VHF"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "external auto-tuner (e.g. AH-705)",
+   "why": "no internal ATU",
+   "req": false
+  },
+  {
+   "id": "13.8 V 3 A power supply / battery",
+   "why": "10 W and charging; not included",
+   "req": true
+  },
+  {
+   "id": "BP-307 spare battery",
+   "why": "longer field runtime",
+   "req": false
+  },
+  {
+   "id": "LC-192 backpack",
+   "why": "field carry",
+   "req": false
+  },
+  {
+   "id": "ysu-ftx-1field",
+   "why": "C4FM QRP all-band competitor",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 4.6,
+  "n": 45,
+  "pid": "14776",
+  "last": "2026-04-09",
+  "name": "Icom IC-705"
+ }
+}

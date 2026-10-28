@@ -1,0 +1,68 @@
+{
+ "id": "bcm-bu00593",
+ "kind": "antenna",
+ "name": "BBA-1KDE",
+ "title": "Bushcomm BBA-1KDE",
+ "brand": "Bushcomm",
+ "price": 2610.99,
+ "line": "HF broadband wire",
+ "legacy": false,
+ "summary": "177 ft 3-wire broadband terminated antenna, 1.8-30 MHz, 2.5 kW",
+ "jobs": [
+  {
+   "job": "ant_hf_wire",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "dipole",
+  "mount": "base",
+  "ant_bands": [
+   "160m",
+   "80m",
+   "60m",
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 2500,
+  "max_w_digital": 1000,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": 177.17,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "broadband": true,
+   "freq": "1.8-30 MHz",
+   "dxe_part_type": "wire-antennas"
+  }
+ },
+ "gotchas": [
+  "terminated broadband: resistive loss, esp. low bands"
+ ],
+ "confidence": "high",
+ "pairs": [],
+ "rating": {
+  "avg": 5.0,
+  "n": 2,
+  "pid": "10781",
+  "last": "2013-01-08",
+  "name": "Bushcomm BBA 1kDE"
+ }
+}

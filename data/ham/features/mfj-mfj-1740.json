@@ -1,0 +1,50 @@
+{
+ "id": "mfj-mfj-1740",
+ "kind": "antenna",
+ "name": "MFJ-1740",
+ "title": "MFJ MFJ-1740",
+ "brand": "MFJ",
+ "price": 49.95,
+ "line": "V/U base vertical",
+ "legacy": false,
+ "summary": "Economy 300 W quarter-wave 2m ground plane",
+ "jobs": [
+  {
+   "job": "ant_vu_base",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "ground-plane",
+  "mount": "base",
+  "ant_bands": [
+   "2m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 300,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [
+  "title lists 2M/220/440 but text describes 2m only"
+ ],
+ "confidence": "medium",
+ "pairs": []
+}

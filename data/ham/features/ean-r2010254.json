@@ -1,0 +1,61 @@
+{
+ "id": "ean-r2010254",
+ "kind": "antenna",
+ "name": "DUOSAT",
+ "title": "EANTENNA DUOSAT",
+ "brand": "EAntenna",
+ "price": 201.99,
+ "line": "V/U sat (handheld yagi)",
+ "legacy": false,
+ "summary": "Handheld 144/432 LFA yagi for FM satellite work",
+ "jobs": [
+  {
+   "job": "ant_vu_beam",
+   "role": "primary"
+  },
+  {
+   "job": "ant_ht",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "handheld",
+  "ant_bands": [
+   "2m",
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": 2.92,
+  "height_ft": null,
+  "weight_lb": 1.375,
+  "radials": null,
+  "directional": true,
+  "polarization": null,
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "handheld-and-scanner-antennas"
+  }
+ },
+ "gotchas": [
+  "Duplexer required, not included"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

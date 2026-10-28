@@ -1,0 +1,54 @@
+{
+ "id": "mfj-mfj-1521",
+ "kind": "antenna",
+ "name": "MFJ-1521",
+ "title": "MFJ MFJ-1521",
+ "brand": "MFJ",
+ "price": 89.95,
+ "line": "V/U base vertical",
+ "legacy": false,
+ "summary": "4.5-ft Pulsar Mini dual-band 144/440 base for balconies/attics, 200 W",
+ "jobs": [
+  {
+   "job": "ant_vu_base",
+   "role": "primary"
+  },
+  {
+   "job": "ant_small_space",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "collinear",
+  "mount": "base",
+  "ant_bands": [
+   "2m",
+   "70cm"
+  ],
+  "resonant": null,
+  "tuner_req": null,
+  "max_w": 200,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 4.5,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "gain_raw": "3/5.5 dB (2m/70cm, ref unstated)",
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": []
+}

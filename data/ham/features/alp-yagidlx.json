@@ -1,0 +1,68 @@
+{
+ "id": "alp-yagidlx",
+ "kind": "antenna",
+ "name": "HexTenna Deluxe",
+ "title": "Alpha Antenna HexTenna Deluxe HF/VHF Yagi Beam Antennas",
+ "brand": "Alpha",
+ "price": 800.0,
+ "line": "HF portable yagi",
+ "legacy": false,
+ "summary": "Alpha HexTenna deluxe portable yagi 20m-2m with tripod, mast and guys",
+ "jobs": [
+  {
+   "job": "ant_hf_portable",
+   "role": "primary"
+  },
+  {
+   "job": "ant_hf_beam",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "portable",
+  "ant_bands": [
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m",
+   "6m",
+   "2m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 1500,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": 4.0,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": 19.0,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "whip_ft": 17.75,
+   "includes": "5.75 ft tripod + mast, guy kit",
+   "dxe_part_type": "hf-portable-stealth-antennas"
+  }
+ },
+ "gotchas": [
+  "Elements must be re-adjusted per band"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

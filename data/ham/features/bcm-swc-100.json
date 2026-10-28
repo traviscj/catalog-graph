@@ -1,0 +1,67 @@
+{
+ "id": "bcm-swc-100",
+ "kind": "antenna",
+ "name": "SWC-100",
+ "title": "Bushcomm SWC-100",
+ "brand": "Bushcomm",
+ "price": 459.99,
+ "line": "HF broadband dipole",
+ "legacy": false,
+ "summary": "157.5 ft broadband 2-30 MHz center-fed dipole, no tuner, 130 W",
+ "jobs": [
+  {
+   "job": "ant_hf_wire",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "dipole",
+  "mount": "base",
+  "ant_bands": [
+   "80m",
+   "60m",
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": "Antenna & installation dependent",
+  "max_w": 130,
+  "max_w_digital": 50,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": 157.5,
+  "height_ft": null,
+  "weight_lb": 4.3,
+  "radials": null,
+  "directional": false,
+  "polarization": "horizontal",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": true,
+  "extra": {
+   "freq_range": "2-30 MHz",
+   "dxe_part_type": "wire-antennas"
+  }
+ },
+ "gotchas": [
+  "Terminated broadband: lossy",
+  "130 W PEP max"
+ ],
+ "confidence": "high",
+ "pairs": [],
+ "rating": {
+  "avg": 4.0,
+  "n": 3,
+  "pid": "5749",
+  "last": "2015-01-28",
+  "name": "Bushcomm SWC-100 HF Single Wire"
+ }
+}

@@ -1,0 +1,57 @@
+{
+ "id": "mfj-mfj-1434b",
+ "kind": "antenna",
+ "name": "MFJ-1434B",
+ "title": "MFJ MFJ-1434B",
+ "brand": "MFJ",
+ "price": 59.95,
+ "line": "V/U mobile whip",
+ "legacy": false,
+ "summary": "38-in RuffRider tri-band 2m/220/440 mobile, NMO/SO, 100 W",
+ "jobs": [
+  {
+   "job": "ant_vu_mobile",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "whip",
+  "mount": "mobile",
+  "ant_bands": [
+   "2m",
+   "1.25m",
+   "70cm"
+  ],
+  "resonant": null,
+  "tuner_req": null,
+  "max_w": 100,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 3.17,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "NMO/SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "gain_raw": "2.15/3.5/6 dB (2m/220/440)",
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "mobile antenna mount (mag / trunk-lip / NMO)",
+   "why": "vehicle mount not included",
+   "req": false
+  }
+ ]
+}

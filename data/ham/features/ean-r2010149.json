@@ -1,0 +1,54 @@
+{
+ "id": "ean-r2010149",
+ "kind": "antenna",
+ "name": "144LFA9",
+ "title": "EAntenna VHF and UHF Directional Antennas",
+ "brand": "EAntenna",
+ "price": 449.99,
+ "line": "V/U yagi",
+ "legacy": false,
+ "summary": "EAntenna 144LFA9 9-element 2m loop-fed yagi, 14.75 ft boom",
+ "jobs": [
+  {
+   "job": "ant_vu_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "2m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 9,
+  "boom_ft": 14.75,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "vhf-uhf-beam-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

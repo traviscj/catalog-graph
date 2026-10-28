@@ -1,0 +1,61 @@
+{
+ "id": "can-scadamax-220",
+ "kind": "antenna",
+ "name": "SCADA MAX 220",
+ "title": "COMPACtenna SCADA MAX 220",
+ "brand": "COMPACtenna",
+ "price": 249.0,
+ "line": "V/U base vertical",
+ "legacy": false,
+ "summary": "9.5 in. compact 216-222 MHz NMO antenna",
+ "jobs": [
+  {
+   "job": "ant_vu_base",
+   "role": "primary"
+  },
+  {
+   "job": "ant_vu_mobile",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "vertical",
+  "mount": "base",
+  "ant_bands": [
+   "1.25m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": 50.0,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 0.79,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "NMO",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "gain_raw": "5 dB",
+   "dxe_part_type": "vhf-uhf-base-vertical-antennas"
+  }
+ },
+ "gotchas": [
+  "Spec'd 216-222 MHz — check SWR at 222-225"
+ ],
+ "confidence": "medium",
+ "pairs": [
+  {
+   "id": "1:1 common-mode choke at the shack entry",
+   "why": "keeps feedline RF out of the shack",
+   "req": false
+  }
+ ]
+}

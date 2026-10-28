@@ -1,0 +1,72 @@
+{
+ "id": "mfj-ma-5b",
+ "kind": "antenna",
+ "name": "MA-5B",
+ "title": "Cushcraft MA-5B",
+ "brand": "Cushcraft",
+ "price": 759.95,
+ "line": "HF tribander yagi",
+ "legacy": false,
+ "summary": "Compact 5-band 20-10m mini-beam, 1.2 kW PEP, tripod-mountable",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  },
+  {
+   "job": "ant_small_space",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 1200,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 3,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "note": "high F/B on 10/15/20 only",
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [
+  "WARC bands are dipole-only (no gain)"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ],
+ "rating": {
+  "avg": 4.6,
+  "n": 157,
+  "pid": "340",
+  "last": "2024-12-06",
+  "name": "Cushcraft MA5B Mini Beam"
+ }
+}

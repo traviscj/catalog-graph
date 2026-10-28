@@ -1,0 +1,49 @@
+{
+ "id": "dxe-nvis-8040s",
+ "kind": "antenna",
+ "name": "8040 NVIS",
+ "title": "DX Engineering 8040 NVIS",
+ "brand": "DX Engineering",
+ "price": 656.86,
+ "line": "HF NVIS wire",
+ "legacy": false,
+ "summary": "Shortened dual-dipole 80/40m NVIS kit with 15 ft fiberglass mast",
+ "jobs": [
+  {
+   "job": "ant_hf_portable",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "nvis",
+  "mount": "portable",
+  "ant_bands": [
+   "80m",
+   "40m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "wire-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": []
+}

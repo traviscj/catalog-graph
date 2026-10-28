@@ -1,0 +1,61 @@
+{
+ "id": "ean-r2010156",
+ "kind": "antenna",
+ "name": "59+",
+ "title": "EAntenna 59+",
+ "brand": "EAntenna",
+ "price": 1729.99,
+ "line": "HF log-periodic",
+ "legacy": false,
+ "summary": "EAntenna 59+ log-periodic yagi, 20-10m all bands, 3 kW",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "log-periodic",
+  "mount": "base",
+  "ant_bands": [
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 3000,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 10,
+  "boom_ft": 18.85,
+  "turn_radius_ft": 19.68,
+  "wind_sqft": 13.243,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": 85.5,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "elements_note": "desc says 7/7/7/6/7 per band",
+   "dxe_part_type": "hf-directional-antennas"
+  }
+ },
+ "gotchas": [
+  "85.5 lb, 13.2 sq ft"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

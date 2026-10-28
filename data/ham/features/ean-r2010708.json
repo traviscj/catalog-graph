@@ -1,0 +1,59 @@
+{
+ "id": "ean-r2010708",
+ "kind": "antenna",
+ "name": "80MDY1S",
+ "title": "EAntenna HF Rotatable Antennas",
+ "brand": "EAntenna",
+ "price": 1859.99,
+ "line": "HF rotatable dipole",
+ "legacy": false,
+ "summary": "EAntenna 80MDY1S shortened rotatable 80m dipole, 57.4 ft span",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "dipole",
+  "mount": "base",
+  "ant_bands": [
+   "80m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 1,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": 57.4,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "rotatable": true,
+   "dxe_part_type": "hf-directional-antennas"
+  }
+ },
+ "gotchas": [
+  "Needs heavy tower/rotator for 57 ft element",
+  "Narrow bandwidth on 80m"
+ ],
+ "confidence": "high",
+ "pairs": [],
+ "rating": {
+  "avg": 3.5,
+  "n": 2,
+  "pid": "13813",
+  "last": "2025-02-16",
+  "name": "EAntenna 80 MDY1S Rotary Dipole"
+ }
+}

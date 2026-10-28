@@ -1,0 +1,48 @@
+{
+ "id": "dmn-f718a",
+ "kind": "antenna",
+ "name": "F718A",
+ "title": "Diamond Antenna F718A Base Station Antennas",
+ "brand": "Diamond",
+ "price": 229.99,
+ "line": "V/U base vertical",
+ "legacy": false,
+ "summary": "Diamond F718A 15 ft high-gain 70cm monoband collinear, 11.5 dBi",
+ "jobs": [
+  {
+   "job": "ant_vu_base",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "collinear",
+  "mount": "base",
+  "ant_bands": [
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 250,
+  "max_w_digital": null,
+  "gain_dbi": 11.5,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 15.0,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "N-female",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "vhf-uhf-base-vertical-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": []
+}

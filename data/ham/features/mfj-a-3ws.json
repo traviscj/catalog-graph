@@ -1,0 +1,64 @@
+{
+ "id": "mfj-a-3ws",
+ "kind": "antenna",
+ "name": "A-3WS",
+ "title": "Cushcraft A-3WS",
+ "brand": "Cushcraft",
+ "price": 649.95,
+ "line": "HF monoband yagi",
+ "legacy": false,
+ "summary": "3-el WARC 12/17m beam; 30m via A-103 kit",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "17m",
+   "12m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 3,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [
+  "Rotator not included"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ],
+ "rating": {
+  "avg": 4.5,
+  "n": 16,
+  "pid": "363",
+  "last": "2023-09-02",
+  "name": "Cushcraft A3WS 12/17"
+ }
+}

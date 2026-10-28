@@ -1,0 +1,61 @@
+{
+ "id": "iva-18486-0209",
+ "kind": "antenna",
+ "name": "OWL Ultra 144 9el",
+ "title": "InnovAntennas OWL Ultra 144 9el",
+ "brand": "InnovAntennas",
+ "price": 469.99,
+ "line": "V/U yagi",
+ "legacy": false,
+ "summary": "9-element 144-145 MHz OWL weak-signal yagi, 17 ft boom",
+ "jobs": [
+  {
+   "job": "ant_vu_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "2m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 9,
+  "boom_ft": 17.0,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "vhf-uhf-beam-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ],
+ "rating": {
+  "avg": 4.5,
+  "n": 2,
+  "pid": "15821",
+  "last": "2026-09-14",
+  "name": "Innovantennas XR5C 9 el 5 band HF beam"
+ }
+}

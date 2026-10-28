@@ -1,0 +1,56 @@
+{
+ "id": "mfj-lfa-440m10el",
+ "kind": "antenna",
+ "name": "LFA-440M10EL",
+ "title": "Cushcraft LFA-440M10EL",
+ "brand": "Cushcraft",
+ "price": 259.95,
+ "line": "V/U yagi",
+ "legacy": false,
+ "summary": "10-el G0KSC loop-fed 70cm yagi, 11.25-ft boom",
+ "jobs": [
+  {
+   "job": "ant_vu_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 5000,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 10,
+  "boom_ft": 11.25,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": null,
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "fb_db": 34.58,
+   "gain_claim": "'1.48 dBi' (sic) / 20.33 dBi incl ground gain @10 m",
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

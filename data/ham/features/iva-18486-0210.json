@@ -1,0 +1,63 @@
+{
+ "id": "iva-18486-0210",
+ "kind": "antenna",
+ "name": "OWL Ultra 144 10-el",
+ "title": "InnovAntennas 144 MHz OWL Ultra Yagi Antennas",
+ "brand": "InnovAntennas",
+ "price": 453.99,
+ "line": "V/U yagi",
+ "legacy": false,
+ "summary": "InnovAntennas OWL Ultra 10-element 2m weak-signal yagi, 19 ft boom",
+ "jobs": [
+  {
+   "job": "ant_vu_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "2m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 10,
+  "boom_ft": 19.0,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "vhf-uhf-beam-antennas"
+  }
+ },
+ "gotchas": [
+  "Optimized 144-145 MHz (SSB/CW end)"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ],
+ "rating": {
+  "avg": 4.8,
+  "n": 6,
+  "pid": "391",
+  "last": "2012-01-07",
+  "name": "K1FO FO12 (144MHz)"
+ }
+}

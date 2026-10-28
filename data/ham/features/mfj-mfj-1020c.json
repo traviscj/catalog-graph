@@ -1,0 +1,50 @@
+{
+ "id": "mfj-mfj-1020c",
+ "kind": "antenna",
+ "name": "MFJ-1020C",
+ "title": "MFJ MFJ-1020C",
+ "brand": "MFJ",
+ "price": 129.95,
+ "line": "SWL active antenna",
+ "legacy": false,
+ "summary": "Indoor tunable active antenna/preselector, 0.3-40 MHz",
+ "jobs": [
+  {
+   "job": "ant_rx",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "whip",
+  "mount": "base",
+  "ant_bands": [],
+  "resonant": null,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": null,
+  "rx_only": true,
+  "assembled": null,
+  "extra": {
+   "rx_range": "0.3-40 MHz",
+   "power": "9 V battery or 9-18 VDC",
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [
+  "receive only"
+ ],
+ "confidence": "high",
+ "pairs": []
+}

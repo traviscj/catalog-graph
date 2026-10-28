@@ -1,0 +1,55 @@
+{
+ "id": "moo-mono4-15",
+ "kind": "antenna",
+ "name": "Mono4-15",
+ "title": "Momobeam Mono4-15",
+ "brand": "Momobeam",
+ "price": 1329.99,
+ "line": "HF monoband yagi",
+ "legacy": false,
+ "summary": "4-element 15m monoband yagi, 21.3 ft boom",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "15m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 10000,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 4,
+  "boom_ft": 21.33,
+  "turn_radius_ft": 15.75,
+  "wind_sqft": 5.4,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": 46.3,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "longest_el_ft": 23.62,
+   "dxe_part_type": "hf-directional-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

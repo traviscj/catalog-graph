@@ -1,0 +1,71 @@
+{
+ "id": "mfj-mfj-1797",
+ "kind": "antenna",
+ "name": "MFJ-1797",
+ "title": "MFJ MFJ-1797",
+ "brand": "MFJ",
+ "price": 399.95,
+ "line": "HF multiband vertical",
+ "legacy": false,
+ "summary": "23.5-ft 7-band 40-10m no-radial vertical, 1 kW",
+ "jobs": [
+  {
+   "job": "ant_hf_vertical",
+   "role": "primary"
+  },
+  {
+   "job": "ant_small_space",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "vertical",
+  "mount": "base",
+  "ant_bands": [
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 1000,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 23.5,
+  "weight_lb": 7.5,
+  "radials": false,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "1:1 common-mode choke at the shack entry",
+   "why": "keeps feedline RF out of the shack",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 1.5,
+  "n": 2,
+  "pid": "13105",
+  "last": "2022-08-29",
+  "name": "MFJ 1797"
+ }
+}

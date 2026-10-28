@@ -1,0 +1,65 @@
+{
+ "id": "wmo-18011",
+ "kind": "antenna",
+ "name": "X-Quad 70cm",
+ "title": "WiMo X-Quad Antennas",
+ "brand": "WiMo",
+ "price": 349.99,
+ "line": "V/U sat (crossed yagi)",
+ "legacy": false,
+ "summary": "WiMo X-Quad 18-element 70cm dual-polarization quad array, two N feeds",
+ "jobs": [
+  {
+   "job": "ant_vu_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "quad",
+  "mount": "base",
+  "ant_bands": [
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 1000,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 18,
+  "boom_ft": 4.17,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": null,
+  "connector": "N-female",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dual_pol": true,
+   "dxe_part_type": "vhf-uhf-beam-antennas"
+  }
+ },
+ "gotchas": [
+  "Two feedlines",
+  " circular needs phasing"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ],
+ "rating": {
+  "avg": 2.9,
+  "n": 26,
+  "pid": "12039",
+  "last": "2016-10-08",
+  "name": "Jetstream JT270M 2m/70cm Dual Band Amateur Transceiver"
+ }
+}

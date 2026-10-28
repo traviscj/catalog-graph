@@ -1,0 +1,66 @@
+{
+ "id": "wmo-17824-2850",
+ "kind": "antenna",
+ "name": "2850MOX",
+ "title": "WiMo - EAntennas 2850MOX Dual Band Moxon Antenna for 10 and 6 Meters",
+ "brand": "WiMo",
+ "price": 469.99,
+ "line": "HF moxon",
+ "legacy": false,
+ "summary": "EAntennas 2850MOX dual-band 10m/6m moxon, 5.9 ft boom, 3 kW",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  },
+  {
+   "job": "ant_vu_beam",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "moxon",
+  "mount": "base",
+  "ant_bands": [
+   "10m",
+   "6m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 3000,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 5,
+  "boom_ft": 5.92,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "hf-directional-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ],
+ "rating": {
+  "avg": 4.2,
+  "n": 26,
+  "pid": "5840",
+  "last": "2019-05-03",
+  "name": "Buxcomm Windom 80-6 meters"
+ }
+}

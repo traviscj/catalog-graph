@@ -1,0 +1,48 @@
+{
+ "id": "mfj-mfj-1731",
+ "kind": "antenna",
+ "name": "MFJ-1731",
+ "title": "MFJ MFJ-1731",
+ "brand": "MFJ",
+ "price": 39.95,
+ "line": "HT antenna",
+ "legacy": false,
+ "summary": "Pocket roll-up 440 MHz J-pole for HTs, BNC",
+ "jobs": [
+  {
+   "job": "ant_ht",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "j-pole",
+  "mount": "handheld",
+  "ant_bands": [
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "BNC",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": []
+}

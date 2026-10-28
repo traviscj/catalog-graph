@@ -1,0 +1,59 @@
+{
+ "id": "mfj-dis-71",
+ "kind": "antenna",
+ "name": "DIS-71",
+ "title": "Hy-Gain DIS-71",
+ "brand": "Hy-Gain",
+ "price": 499.95,
+ "line": "HF rotatable dipole",
+ "legacy": false,
+ "summary": "Discoverer 45 ft rotatable dipole, tune to 40 or 30m, 1.5 kW",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "dipole",
+  "mount": "base",
+  "ant_bands": [
+   "40m",
+   "30m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 1500,
+  "max_w_digital": null,
+  "gain_dbi": 6.45,
+  "elements": null,
+  "boom_ft": 2.7,
+  "turn_radius_ft": 22.5,
+  "wind_sqft": 2.7,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": 23,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "longest_el_ft": 45,
+   "fb_db": 35,
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [
+  "one band at a time (40 OR 30)"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

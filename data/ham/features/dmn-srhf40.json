@@ -1,0 +1,54 @@
+{
+ "id": "dmn-srhf40",
+ "kind": "antenna",
+ "name": "SRHF40",
+ "title": "Diamond Antenna SRHF40",
+ "brand": "Diamond",
+ "price": 26.99,
+ "line": "HT antenna",
+ "legacy": false,
+ "summary": "16 in. super-flexible 2m/70cm HT whip with airband/900 MHz RX",
+ "jobs": [
+  {
+   "job": "ant_ht",
+   "role": "primary"
+  },
+  {
+   "job": "ant_rx",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "whip",
+  "mount": "handheld",
+  "ant_bands": [
+   "2m",
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 10,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 1.33,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "SMA",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "rx_range": "airband, 900 MHz",
+   "dxe_part_type": "handheld-and-scanner-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": []
+}

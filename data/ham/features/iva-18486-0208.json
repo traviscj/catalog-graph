@@ -1,0 +1,61 @@
+{
+ "id": "iva-18486-0208",
+ "kind": "antenna",
+ "name": "OWL Ultra 8el 144",
+ "title": "InnovAntennas OWL Ultra 8el 144",
+ "brand": "InnovAntennas",
+ "price": 301.99,
+ "line": "V/U yagi",
+ "legacy": false,
+ "summary": "8-element 2m OWL Ultra yagi, 13.8 ft boom",
+ "jobs": [
+  {
+   "job": "ant_vu_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "2m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 8,
+  "boom_ft": 13.8,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "vhf-uhf-beam-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ],
+ "rating": {
+  "avg": 5.0,
+  "n": 2,
+  "pid": "6132",
+  "last": "2012-03-23",
+  "name": "Elk Antenna 440LB 8 el log periodic"
+ }
+}

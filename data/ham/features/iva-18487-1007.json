@@ -1,0 +1,63 @@
+{
+ "id": "iva-18487-1007",
+ "kind": "antenna",
+ "name": "OP-DES 7el 28 MHz",
+ "title": "InnovAntennas OP-DES 7el 28 MHz",
+ "brand": "InnovAntennas",
+ "price": 1400.0,
+ "line": "HF monoband yagi",
+ "legacy": false,
+ "summary": "Wideband heavy-duty 7-element 10m OP-DES yagi, 43 ft boom",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 5000,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 7,
+  "boom_ft": 43.3,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "hf-directional-antennas"
+  }
+ },
+ "gotchas": [
+  "43 ft boom: serious tower/rotator required"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ],
+ "rating": {
+  "avg": 4.6,
+  "n": 30,
+  "pid": "1671",
+  "last": "2016-10-25",
+  "name": "G3TPW CobWebb Antenna for 14, 18, 21, 24 and 28 MHz Bands"
+ }
+}

@@ -1,0 +1,66 @@
+{
+ "id": "mfj-mfj-1734",
+ "kind": "antenna",
+ "name": "MFJ-1734",
+ "title": "MFJ MFJ-1734",
+ "brand": "MFJ",
+ "price": 59.95,
+ "line": "V/U mobile whip",
+ "legacy": false,
+ "summary": "Dual-band 2m/70cm on-glass mobile antenna, 26 in radiator, 50 W",
+ "jobs": [
+  {
+   "job": "ant_vu_mobile",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "whip",
+  "mount": "mobile",
+  "ant_bands": [
+   "2m",
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 50,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 2.17,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "coax_ft": 12,
+   "mount_incl": "glass",
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [
+  "50 W max"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "mobile antenna mount (mag / trunk-lip / NMO)",
+   "why": "vehicle mount not included",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 3.8,
+  "n": 5,
+  "pid": "7048",
+  "last": "2022-06-09",
+  "name": "MFJ-1734 Glass Mount Antenns"
+ }
+}

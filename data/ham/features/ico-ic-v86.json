@@ -1,0 +1,133 @@
+{
+ "id": "ico-ic-v86",
+ "name": "IC-V86",
+ "title": "ICOM IC-V86",
+ "brand": "Icom",
+ "price": 129.95,
+ "line": "HT",
+ "legacy": false,
+ "summary": "Rugged 2m-only analog FM HT, 7W, 1.5W audio, IP54/MIL-STD, BNC antenna.",
+ "jobs": [
+  {
+   "job": "vhf_uhf_handheld",
+   "role": "primary"
+  },
+  {
+   "job": "emcomm",
+   "role": "secondary"
+  },
+  {
+   "job": "first_radio",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "handheld",
+  "bands_tx": [
+   "2m"
+  ],
+  "hf": false,
+  "vhf_uhf": true,
+  "rx_range": "136–174 MHz",
+  "power_w": {
+   "hf": null,
+   "6m": null,
+   "2m": 7,
+   "70cm": null,
+   "23cm": null
+  },
+  "modes": [
+   "FM"
+  ],
+  "digital_voice": [],
+  "receiver_arch": "FM (HT/mobile)",
+  "band_scope": null,
+  "display": "LCD",
+  "dual_receive": false,
+  "dual_watch": false,
+  "atu": false,
+  "usb_single_cable": false,
+  "lan_remote": false,
+  "wifi_bt": [],
+  "gps": false,
+  "aprs": false,
+  "full_duplex_sat": false,
+  "crossband_repeat": false,
+  "detachable_head": false,
+  "power_source": "Li-ion pack",
+  "tx_current_a": null,
+  "battery": "BP-298 2250 mAh Li-ion (incl.)",
+  "ip_rating": "IP54",
+  "antenna_ports": 1,
+  "rx_antenna_in": false,
+  "roofing_filters": null,
+  "memories": 200,
+  "weight_kg": 0.3,
+  "size_mm": "58.6×112×30.5",
+  "special": [
+   "7W TX",
+   "1.5W audio",
+   "MIL-STD-810 C–F",
+   "BNC antenna",
+   "desktop charger incl."
+  ],
+  "requires": [],
+  "extra": {
+   "ip_note": "DXE text says IP54 and also IP67; Icom spec is IP54",
+   "power_steps_w": [
+    7,
+    5.5,
+    2.5,
+    0.5
+   ],
+   "connector": "BNC female on radio",
+   "warranty": "1-year",
+   "list_price": "129.95",
+   "avail": "InStock"
+  }
+ },
+ "gotchas": [
+  "2m only — IC-T10 or ID-52A Plus add 70cm",
+  "Analog FM only — ID-52A Plus / ID-50A for D-STAR",
+  "No weather-proof submersion (IP54) — FT-5DR is IPX7",
+  "Single band, no dual watch"
+ ],
+ "best_for": [
+  "simple rugged 2m HT",
+  "ARES/SKYWARN 2m nets"
+ ],
+ "not_for": [
+  "70cm repeaters",
+  "digital voice"
+ ],
+ "pairs": [
+  {
+   "id": "BP-298 spare battery",
+   "why": "second pack for long nets",
+   "req": false
+  },
+  {
+   "id": "BNC 2m whip / 1/4-wave antenna",
+   "why": "BNC makes upgrades easy",
+   "req": false
+  },
+  {
+   "id": "ico-ic-v3500",
+   "why": "matching 2m mobile for car/base",
+   "req": false
+  },
+  {
+   "id": "OPC-478UC programming cable",
+   "why": "PC programming; not included",
+   "req": false
+  }
+ ],
+ "confidence": "medium",
+ "rating": {
+  "avg": 4.6,
+  "n": 14,
+  "pid": "14356",
+  "last": "2024-04-01",
+  "name": "Icom IC-V86"
+ }
+}

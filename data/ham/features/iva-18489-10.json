@@ -1,0 +1,59 @@
+{
+ "id": "iva-18489-10",
+ "kind": "antenna",
+ "name": "Moxon 10/11",
+ "title": "InnovAntennas Moxon 10/11",
+ "brand": "InnovAntennas",
+ "price": 399.99,
+ "line": "HF moxon",
+ "legacy": false,
+ "summary": "Two-element 10/11m Moxon beam, 27-29.5 MHz, 7 kW",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  },
+  {
+   "job": "ant_small_space",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "moxon",
+  "mount": "base",
+  "ant_bands": [
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 7000.0,
+  "max_w_digital": null,
+  "gain_dbi": 6.13,
+  "elements": 2,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "also": "11m CB",
+   "dxe_part_type": "hf-directional-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

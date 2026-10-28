@@ -1,0 +1,57 @@
+{
+ "id": "cma-ht-224",
+ "kind": "antenna",
+ "name": "HT-224",
+ "title": "Comet Antennas HT-224",
+ "brand": "Comet",
+ "price": 56.95,
+ "line": "HT antenna",
+ "legacy": false,
+ "summary": "Flexible 11 in. tri-band 2m/220/70cm HT whip, SMA male",
+ "jobs": [
+  {
+   "job": "ant_ht",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "whip",
+  "mount": "handheld",
+  "ant_bands": [
+   "2m",
+   "1.25m",
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 0.92,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "SMA male",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "handheld-and-scanner-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [],
+ "rating": {
+  "avg": 3.5,
+  "n": 19,
+  "pid": "2072",
+  "last": "2021-03-24",
+  "name": "Comet Ht-224"
+ }
+}

@@ -1,0 +1,149 @@
+{
+ "id": "ysu-ftdx-101d",
+ "name": "FTDX101D",
+ "title": "Yaesu FTDX101D",
+ "brand": "Yaesu",
+ "price": 3749.99,
+ "line": "HF flagship (hybrid SDR)",
+ "legacy": false,
+ "summary": "100 W 160–6m hybrid-SDR contest-class rig with two identical independent receivers, 3DSS scope, ATU.",
+ "jobs": [
+  {
+   "job": "hf_contest_dx",
+   "role": "primary"
+  },
+  {
+   "job": "hf_base",
+   "role": "primary"
+  },
+  {
+   "job": "ft8_digital",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "base",
+  "bands_tx": [
+   "160m",
+   "80m",
+   "60m",
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m",
+   "6m"
+  ],
+  "hf": true,
+  "vhf_uhf": false,
+  "rx_range": "0.030–75 MHz (both receivers)",
+  "power_w": {
+   "hf": 100,
+   "6m": 100,
+   "2m": null,
+   "70cm": null,
+   "23cm": null
+  },
+  "modes": [
+   "SSB",
+   "CW",
+   "AM",
+   "FM",
+   "RTTY",
+   "PSK",
+   "DATA"
+  ],
+  "digital_voice": [],
+  "receiver_arch": "hybrid SDR",
+  "band_scope": "3DSS real-time scope + waterfall (per receiver)",
+  "display": "7in color touch",
+  "dual_receive": true,
+  "dual_watch": true,
+  "atu": true,
+  "usb_single_cable": true,
+  "lan_remote": false,
+  "wifi_bt": [],
+  "gps": false,
+  "aprs": false,
+  "full_duplex_sat": false,
+  "crossband_repeat": false,
+  "detachable_head": false,
+  "power_source": "13.8 VDC external",
+  "tx_current_a": 23,
+  "battery": null,
+  "ip_rating": null,
+  "antenna_ports": 3,
+  "rx_antenna_in": true,
+  "roofing_filters": "12k/3k/600 std; 1.2k/300 Yaesu factory option (Main+Sub)",
+  "memories": 99,
+  "weight_kg": 12,
+  "size_mm": "420×130×320",
+  "special": [
+   "2 receivers",
+   "VC-Tune preselector (Main)",
+   "external monitor out (DVI-D)",
+   "SD recording",
+   "2 IF outs",
+   "RX out A/B",
+   "RS-232 + USB CAT",
+   "120 dB RDR @2 kHz"
+  ],
+  "requires": [
+   "13.8V 25A power supply"
+  ],
+  "extra": {
+   "am_power_w": 25,
+   "options_note": "Sub VC-Tune and extra roofing filters only via Yaesu special order; DXE stock units not user-upgradable",
+   "list_price": 4049.99,
+   "avail": "InStock"
+  }
+ },
+ "gotchas": [
+  "Needs a separate 13.8 V 23 A supply — ysu-ftdx-101mp is 200 W and ships with its external FPS-101 PSU",
+  "300 Hz roofing filter and Sub-RX VC-Tune not fitted; MP has both built-in, D needs Yaesu special order ($30/item labor)",
+  "Stock DXE units cannot be user-upgraded — options require sending to Yaesu",
+  "No built-in LAN remote (Yaesu SCU-LAN10 + software); ico-ic-7610-32 has a native LAN port",
+  "HF+6m only — no 2m/70cm; ysu-ft-991a or ysu-ftx-1optima add V/U"
+ ],
+ "best_for": [
+  "serious DX/contest receive performance",
+  "SO2V/split pileup work with two real receivers"
+ ],
+ "not_for": [
+  "V/U operation",
+  "portable/mobile",
+  "budget first rig"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "13.8 V 25 A power supply",
+   "why": "23 A max TX draw; not included",
+   "req": true
+  },
+  {
+   "id": "ysu-ftdx-101mp",
+   "why": "200 W sibling with PSU and full filter set",
+   "req": false
+  },
+  {
+   "id": "SP-101 external speaker",
+   "why": "separate A/B receiver audio",
+   "req": false
+  },
+  {
+   "id": "external DVI monitor",
+   "why": "mirror the 3DSS scope full-size",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 4.1,
+  "n": 61,
+  "pid": "14249",
+  "last": "2025-03-26",
+  "name": "Yaesu FTdx-101D"
+ }
+}

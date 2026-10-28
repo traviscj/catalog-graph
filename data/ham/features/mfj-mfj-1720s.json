@@ -1,0 +1,60 @@
+{
+ "id": "mfj-mfj-1720s",
+ "kind": "antenna",
+ "name": "MFJ-1720S",
+ "title": "MFJ MFJ-1720S",
+ "brand": "MFJ",
+ "price": 39.95,
+ "line": "HT antenna",
+ "legacy": false,
+ "summary": "19 in tri-band 6m/2m/70cm flexible duck, male SMA",
+ "jobs": [
+  {
+   "job": "ant_ht",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "rubber-duck",
+  "mount": "handheld",
+  "ant_bands": [
+   "6m",
+   "2m",
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 10,
+  "max_w_digital": null,
+  "gain_dbi": 2.15,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 1.58,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "SMA-male",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "gain_note": "2.15 dBi 2m; 3.2 dB 70cm",
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [
+  "10 W max"
+ ],
+ "confidence": "high",
+ "pairs": [],
+ "rating": {
+  "avg": 3.8,
+  "n": 10,
+  "pid": "4389",
+  "last": "2013-04-16",
+  "name": "MFJ-1720S   6M/2M/70cm  HT antenna"
+ }
+}

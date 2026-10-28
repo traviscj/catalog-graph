@@ -1,0 +1,73 @@
+{
+ "id": "mfj-mfj-1778",
+ "kind": "antenna",
+ "name": "MFJ-1778",
+ "title": "MFJ MFJ-1778",
+ "brand": "MFJ",
+ "price": 89.95,
+ "line": "HF G5RV dipole",
+ "legacy": false,
+ "summary": "102 ft G5RV, 80-10m with tuner, legal limit",
+ "jobs": [
+  {
+   "job": "ant_hf_wire",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "dipole",
+  "mount": "base",
+  "ant_bands": [
+   "160m",
+   "80m",
+   "60m",
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m"
+  ],
+  "resonant": false,
+  "tuner_req": "tuner required",
+  "max_w": 1500,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": 102,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [
+  "needs a tuner",
+  "160m only as Marconi with tuner and ground"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "antenna tuner (wide-range)",
+   "why": "non-resonant on its listed bands",
+   "req": true
+  }
+ ],
+ "rating": {
+  "avg": 4.4,
+  "n": 24,
+  "pid": "2389",
+  "last": "2025-02-16",
+  "name": "MFJ-1778 G5RV"
+ }
+}

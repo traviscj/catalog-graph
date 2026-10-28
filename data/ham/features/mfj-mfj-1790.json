@@ -1,0 +1,66 @@
+{
+ "id": "mfj-mfj-1790",
+ "kind": "antenna",
+ "name": "MFJ-1790",
+ "title": "MFJ MFJ-1790",
+ "brand": "MFJ",
+ "price": 99.95,
+ "line": "HF portable vertical",
+ "legacy": false,
+ "summary": "11-ft 10m ground-plane with two 6-ft radials, <3 lb",
+ "jobs": [
+  {
+   "job": "ant_hf_vertical",
+   "role": "primary"
+  },
+  {
+   "job": "ant_hf_portable",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "ground-plane",
+  "mount": "base",
+  "ant_bands": [
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 11,
+  "weight_lb": 3,
+  "radials": true,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "radials_incl": 2,
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "radial wires / counterpoise",
+   "why": "vertical needs a ground system",
+   "req": true
+  }
+ ],
+ "rating": {
+  "avg": 4.0,
+  "n": 1,
+  "pid": "12793",
+  "last": "2016-04-16",
+  "name": "MFJ-1790 10 Meter Groung Plane"
+ }
+}

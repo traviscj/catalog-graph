@@ -1,0 +1,72 @@
+{
+ "id": "mkr-11-428",
+ "kind": "antenna",
+ "name": "G5RV",
+ "title": "Moonraker G5RV Wire Antennas",
+ "brand": "Moonraker",
+ "price": 150.99,
+ "line": "HF dipole (G5RV)",
+ "legacy": false,
+ "summary": "Moonraker G5RV 102 ft multiband dipole with 300-ohm ladder line, 80-10m",
+ "jobs": [
+  {
+   "job": "ant_hf_wire",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "dipole",
+  "mount": "base",
+  "ant_bands": [
+   "80m",
+   "60m",
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m"
+  ],
+  "resonant": false,
+  "tuner_req": null,
+  "max_w": 500,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": 101.71,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "horizontal",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": false,
+  "extra": {
+   "ladder_line_ft": 30.18,
+   "dxe_part_type": "wire-antennas"
+  }
+ },
+ "gotchas": [
+  "Needs a tuner on most bands"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "antenna tuner (wide-range)",
+   "why": "non-resonant on its listed bands",
+   "req": true
+  }
+ ],
+ "rating": {
+  "avg": 4.9,
+  "n": 269,
+  "pid": "2202",
+  "last": "2025-07-05",
+  "name": "WA2NAN True-Talk G5RV"
+ }
+}

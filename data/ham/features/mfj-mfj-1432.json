@@ -1,0 +1,65 @@
+{
+ "id": "mfj-mfj-1432",
+ "kind": "antenna",
+ "name": "MFJ-1432",
+ "title": "MFJ MFJ-1432",
+ "brand": "MFJ",
+ "price": 69.95,
+ "line": "V/U mobile whip",
+ "legacy": false,
+ "summary": "62.5 in high-gain 2m/70cm mobile whip, 150 W",
+ "jobs": [
+  {
+   "job": "ant_vu_mobile",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "whip",
+  "mount": "mobile",
+  "ant_bands": [
+   "2m",
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 150,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 5.21,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "gain_db": "5 (2m)/7.6 (70cm)",
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [
+  "tall — garage clearance"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "mobile antenna mount (mag / trunk-lip / NMO)",
+   "why": "vehicle mount not included",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 4.3,
+  "n": 13,
+  "pid": "4955",
+  "last": "2021-12-08",
+  "name": "MFJ-1432 RuffRider Hyper Gain 144/440 MHz Mobile Antenna 62\""
+ }
+}

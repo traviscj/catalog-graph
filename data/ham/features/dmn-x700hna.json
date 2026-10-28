@@ -1,0 +1,51 @@
+{
+ "id": "dmn-x700hna",
+ "kind": "antenna",
+ "name": "X700HNA",
+ "title": "Diamond Antenna X700HNA",
+ "brand": "Diamond",
+ "price": 434.99,
+ "line": "V/U base vertical",
+ "legacy": false,
+ "summary": "24 ft high-gain dual-band 2m/70cm base collinear, N female",
+ "jobs": [
+  {
+   "job": "ant_vu_base",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "collinear",
+  "mount": "base",
+  "ant_bands": [
+   "2m",
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 200.0,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 24.0,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "N female",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "vhf-uhf-base-vertical-antennas"
+  }
+ },
+ "gotchas": [
+  "24 ft fiberglass — needs stout mast"
+ ],
+ "confidence": "high",
+ "pairs": []
+}

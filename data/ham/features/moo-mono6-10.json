@@ -1,0 +1,63 @@
+{
+ "id": "moo-mono6-10",
+ "kind": "antenna",
+ "name": "Mono6-10",
+ "title": "Momobeam Mono6-10",
+ "brand": "Momobeam",
+ "price": 2039.99,
+ "line": "HF monoband yagi",
+ "legacy": false,
+ "summary": "6-element long-boom 10m monoband yagi, 36 ft boom",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 10000.0,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 6,
+  "boom_ft": 36.1,
+  "turn_radius_ft": 19.36,
+  "wind_sqft": 8.61,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": 66.14,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "hf-directional-antennas"
+  }
+ },
+ "gotchas": [
+  "36 ft boom — tower-class install"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ],
+ "rating": {
+  "avg": 5.0,
+  "n": 2,
+  "pid": "15230",
+  "last": "2022-09-29",
+  "name": "Momobeam Mono 6-6"
+ }
+}

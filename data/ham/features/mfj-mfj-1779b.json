@@ -1,0 +1,56 @@
+{
+ "id": "mfj-mfj-1779b",
+ "kind": "antenna",
+ "name": "MFJ-1779B",
+ "title": "MFJ MFJ-1779B",
+ "brand": "MFJ",
+ "price": 79.95,
+ "line": "HF dipole",
+ "legacy": false,
+ "summary": "135-ft single-band 80m half-wave wire dipole, legal limit",
+ "jobs": [
+  {
+   "job": "ant_hf_wire",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "dipole",
+  "mount": "base",
+  "ant_bands": [
+   "80m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 1500,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": 135,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "horizontal",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "note": "title says 80-40M; 135 ft = 80m half-wave",
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [],
+ "confidence": "medium",
+ "pairs": [],
+ "rating": {
+  "avg": 4.0,
+  "n": 1,
+  "pid": "13462",
+  "last": "2017-07-16",
+  "name": "MFJ-1779B"
+ }
+}

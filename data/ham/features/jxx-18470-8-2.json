@@ -1,0 +1,57 @@
+{
+ "id": "jxx-18470-8-2",
+ "kind": "antenna",
+ "name": "8JXX2",
+ "title": "I0JXX 8JXX2",
+ "brand": "I0JXX",
+ "price": 279.99,
+ "line": "V/U yagi",
+ "legacy": false,
+ "summary": "8-element 2m weak-signal yagi, 144.0–144.5 MHz, 13.8 ft boom",
+ "jobs": [
+  {
+   "job": "ant_vu_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "2m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 1000,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 8,
+  "boom_ft": 13.78,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": "N female",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "freq": "144.0-144.5 MHz",
+   "dxe_part_type": "vhf-uhf-beam-antennas"
+  }
+ },
+ "gotchas": [
+  "tuned 144.0–144.5 — not FM end"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

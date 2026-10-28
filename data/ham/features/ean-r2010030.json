@@ -1,0 +1,50 @@
+{
+ "id": "ean-r2010030",
+ "kind": "antenna",
+ "name": "EASLP80S",
+ "title": "EAntenna EASLP80S",
+ "brand": "EAntenna",
+ "price": 122.99,
+ "line": "HF sloper",
+ "legacy": false,
+ "summary": "80m sloper antenna, 2 kW",
+ "jobs": [
+  {
+   "job": "ant_hf_wire",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "other",
+  "mount": "base",
+  "ant_bands": [
+   "80m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 2000,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": null,
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "wire-antennas"
+  }
+ },
+ "gotchas": [
+  "needs tall support to slope from"
+ ],
+ "confidence": "medium",
+ "pairs": []
+}

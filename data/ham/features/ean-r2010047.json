@@ -1,0 +1,51 @@
+{
+ "id": "ean-r2010047",
+ "kind": "antenna",
+ "name": "EA121730+6DX",
+ "title": "EAntenna Multi-Band Dipole Wire Antennas",
+ "brand": "EAntenna",
+ "price": 289.99,
+ "line": "HF fan dipole",
+ "legacy": false,
+ "summary": "EAntenna multi-fan dipole for 30/17/12/6m WARC coverage, 43 ft, 1.5 kW",
+ "jobs": [
+  {
+   "job": "ant_hf_wire",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "dipole",
+  "mount": "base",
+  "ant_bands": [
+   "30m",
+   "17m",
+   "12m",
+   "6m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 1500,
+  "max_w_digital": 1000,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": 43.3,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "wire-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": []
+}

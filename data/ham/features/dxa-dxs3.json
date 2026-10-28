@@ -1,0 +1,56 @@
+{
+ "id": "dxa-dxs3",
+ "kind": "antenna",
+ "name": "DXS3",
+ "title": "Diex Antennas DXS Series Multiband Directional Antennas",
+ "brand": "DIEX",
+ "price": 1279.99,
+ "line": "HF tribander yagi",
+ "legacy": false,
+ "summary": "Diex DXS 3-element 20/15/10m tribander yagi, 1.5 kW",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "20m",
+   "15m",
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 1500,
+  "max_w_digital": 375,
+  "gain_dbi": null,
+  "elements": 3,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "hf-directional-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

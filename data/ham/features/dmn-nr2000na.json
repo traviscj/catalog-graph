@@ -1,0 +1,65 @@
+{
+ "id": "dmn-nr2000na",
+ "kind": "antenna",
+ "name": "NR2000NA",
+ "title": "Diamond Antenna NR2000NA",
+ "brand": "Diamond",
+ "price": 84.99,
+ "line": "V/U mobile whip",
+ "legacy": false,
+ "summary": "39 in. fold-over tri-band 2m/70cm/23cm mobile antenna, N",
+ "jobs": [
+  {
+   "job": "ant_vu_mobile",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "whip",
+  "mount": "mobile",
+  "ant_bands": [
+   "2m",
+   "70cm",
+   "23cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 100.0,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 3.25,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "N female",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "vhf-uhf-mobile-vertical-antennas"
+  }
+ },
+ "gotchas": [
+  "100 W max"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "mobile antenna mount (mag / trunk-lip / NMO)",
+   "why": "vehicle mount not included",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 3.3,
+  "n": 3,
+  "pid": "2660",
+  "last": "2018-12-14",
+  "name": "Diamond NR2000NA Tri-band 2m/70cm/23cm mobile antenna"
+ }
+}

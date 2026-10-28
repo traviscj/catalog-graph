@@ -1,0 +1,65 @@
+{
+ "id": "iva-delpa-13",
+ "kind": "antenna",
+ "name": "DELPA-13",
+ "title": "InnovAntennas 13 Element HF Log Periodic Dipole Arrays",
+ "brand": "InnovAntennas",
+ "price": 4100.0,
+ "line": "HF log-periodic",
+ "legacy": false,
+ "summary": "InnovAntennas 13-element 10-54 MHz LPDA, 37.7 ft boom, 10 kW",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "log-periodic",
+  "mount": "base",
+  "ant_bands": [
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m",
+   "6m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 10000,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 13,
+  "boom_ft": 37.7,
+  "turn_radius_ft": 20.67,
+  "wind_sqft": 14.8,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": 165.35,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": "terminal studs",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "balun": "4:1 incl.",
+   "impedance_ohm": 200,
+   "dxe_part_type": "hf-directional-antennas"
+  }
+ },
+ "gotchas": [
+  "165 lb — needs heavy tower/rotator",
+  "200 ohm feed, 4:1 balun included"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

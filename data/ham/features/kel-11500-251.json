@@ -1,0 +1,56 @@
+{
+ "id": "kel-11500-251",
+ "kind": "antenna",
+ "name": "DP-201510",
+ "title": "Kelemen Trap Dipole Antennas",
+ "brand": "Kelemen",
+ "price": 245.99,
+ "line": "HF trap dipole",
+ "legacy": false,
+ "summary": "Kelemen DP-201510 compact 25 ft trap dipole for 20/15/10m, 400 W",
+ "jobs": [
+  {
+   "job": "ant_hf_wire",
+   "role": "primary"
+  },
+  {
+   "job": "ant_small_space",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "dipole",
+  "mount": "base",
+  "ant_bands": [
+   "20m",
+   "15m",
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 400,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": 25.0,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "wire-antennas"
+  }
+ },
+ "gotchas": [
+  "400 W max"
+ ],
+ "confidence": "high",
+ "pairs": []
+}

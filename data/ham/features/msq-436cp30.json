@@ -1,0 +1,62 @@
+{
+ "id": "msq-436cp30",
+ "kind": "antenna",
+ "name": "436CP30",
+ "title": "M2 436CP30",
+ "brand": "M2",
+ "price": 643.99,
+ "line": "V/U sat (crossed yagi)",
+ "legacy": false,
+ "summary": "30-element circularly polarized 70cm satellite yagi, 15.5 dBic",
+ "jobs": [
+  {
+   "job": "ant_vu_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 600,
+  "max_w_digital": null,
+  "gain_dbi": 15.5,
+  "elements": 30,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": 5.0,
+  "radials": null,
+  "directional": true,
+  "polarization": "circular",
+  "connector": "N female",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "fb_db": 18,
+   "dxe_part_type": "vhf-uhf-beam-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ],
+ "rating": {
+  "avg": 5.0,
+  "n": 4,
+  "pid": "5486",
+  "last": "2019-11-14",
+  "name": "M2 436CP30"
+ }
+}

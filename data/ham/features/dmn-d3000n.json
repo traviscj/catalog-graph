@@ -1,0 +1,59 @@
+{
+ "id": "dmn-d3000n",
+ "kind": "antenna",
+ "name": "D3000N",
+ "title": "Diamond D3000N",
+ "brand": "Diamond",
+ "price": 159.99,
+ "line": "discone (RX/TX)",
+ "legacy": false,
+ "summary": "Super discone: 25-3000 MHz RX, transmits on 6m/2m/70cm/23cm",
+ "jobs": [
+  {
+   "job": "ant_rx",
+   "role": "primary"
+  },
+  {
+   "job": "ant_vu_base",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "discone",
+  "mount": "base",
+  "ant_bands": [
+   "6m",
+   "2m",
+   "70cm",
+   "23cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 5.58,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "N female",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "rx_range": "25-3000 MHz",
+   "also_tx": "33cm (902 MHz)",
+   "dxe_part_type": "discone-antennas"
+  }
+ },
+ "gotchas": [
+  "unity-gain discone: weaker than a collinear on 2m/70cm"
+ ],
+ "confidence": "high",
+ "pairs": []
+}

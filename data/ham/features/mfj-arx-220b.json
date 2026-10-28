@@ -1,0 +1,55 @@
+{
+ "id": "mfj-arx-220b",
+ "kind": "antenna",
+ "name": "ARX-220B",
+ "title": "Cushcraft ARX-220B",
+ "brand": "Cushcraft",
+ "price": 179.95,
+ "line": "V/U base vertical",
+ "legacy": false,
+ "summary": "Ringo Ranger II 220 MHz three-5/8-wave base vertical, 7 dBi",
+ "jobs": [
+  {
+   "job": "ant_vu_base",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "collinear",
+  "mount": "base",
+  "ant_bands": [
+   "1.25m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 500,
+  "max_w_digital": null,
+  "gain_dbi": 7.0,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": 0.33,
+  "length_ft": null,
+  "height_ft": 9.3,
+  "weight_lb": 5,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [],
+ "rating": {
+  "avg": 4.0,
+  "n": 4,
+  "pid": "4345",
+  "last": "2019-05-03",
+  "name": "Cushcraft ARX220B"
+ }
+}

@@ -1,0 +1,61 @@
+{
+ "id": "msq-432-6wl",
+ "kind": "antenna",
+ "name": "432-6WL",
+ "title": "M2 Antennas 432-6WL 70cm Yagi Antennas",
+ "brand": "M2",
+ "price": 455.99,
+ "line": "V/U yagi",
+ "legacy": false,
+ "summary": "M2 432-6WL 21-element 70cm long yagi, 14.5 ft boom, 1 kW",
+ "jobs": [
+  {
+   "job": "ant_vu_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 1000,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 21,
+  "boom_ft": 14.5,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": "N-female",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "vhf-uhf-beam-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ],
+ "rating": {
+  "avg": 2.9,
+  "n": 26,
+  "pid": "12039",
+  "last": "2016-10-08",
+  "name": "Jetstream JT270M 2m/70cm Dual Band Amateur Transceiver"
+ }
+}

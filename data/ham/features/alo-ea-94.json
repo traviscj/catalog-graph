@@ -1,0 +1,53 @@
+{
+ "id": "alo-ea-94",
+ "kind": "antenna",
+ "name": "EA-94",
+ "title": "Alinco EA-94",
+ "brand": "Alinco",
+ "price": 27.99,
+ "line": "scanner antenna (RX)",
+ "legacy": false,
+ "summary": "Replacement scanner antenna for Alinco DJ-X2000 receiver",
+ "jobs": [
+  {
+   "job": "ant_rx",
+   "role": "primary"
+  },
+  {
+   "job": "ant_ht",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "rubber-duck",
+  "mount": "handheld",
+  "ant_bands": [],
+  "resonant": null,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": null,
+  "rx_only": true,
+  "assembled": null,
+  "extra": {
+   "fits": "DJ-X2000T/K",
+   "dxe_part_type": "handheld-and-scanner-antennas"
+  }
+ },
+ "gotchas": [
+  "receiver-only replacement part for DJ-X2000"
+ ],
+ "confidence": "medium",
+ "pairs": []
+}

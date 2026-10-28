@@ -1,0 +1,67 @@
+{
+ "id": "pez-ef-10qrp",
+ "kind": "antenna",
+ "name": "EF-10QRP",
+ "title": "Par EndFedz EF-10QRP",
+ "brand": "Par EndFedz",
+ "price": 45.99,
+ "line": "HF end-fed wire",
+ "legacy": false,
+ "summary": "16.6 ft QRP 10m end-fed half-wave, 25 W",
+ "jobs": [
+  {
+   "job": "ant_hf_portable",
+   "role": "primary"
+  },
+  {
+   "job": "ant_hf_wire",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "end-fed",
+  "mount": "portable",
+  "ant_bands": [
+   "10m"
+  ],
+  "resonant": true,
+  "tuner_req": "Antenna & installation dependent",
+  "max_w": 25,
+  "max_w_digital": 12.5,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": 16.7,
+  "height_ft": null,
+  "weight_lb": 0.25,
+  "radials": null,
+  "directional": false,
+  "polarization": null,
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": true,
+  "extra": {
+   "dxe_part_type": "wire-antennas"
+  }
+ },
+ "gotchas": [
+  "25 W QRP max"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "1:1 common-mode choke at the shack entry",
+   "why": "keeps feedline RF out of the shack",
+   "req": false
+  }
+ ],
+ "rating": {
+  "avg": 4.9,
+  "n": 7,
+  "pid": "13992",
+  "last": "2023-02-26",
+  "name": "Commradio CTX-10 QRP Transceiver"
+ }
+}

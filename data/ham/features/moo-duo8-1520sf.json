@@ -1,0 +1,58 @@
+{
+ "id": "moo-duo8-1520sf",
+ "kind": "antenna",
+ "name": "DUO8 15/20 SF",
+ "title": "Momobeam DUO8 15/20 SF",
+ "brand": "Momobeam",
+ "price": 3245.99,
+ "line": "HF duoband yagi",
+ "legacy": false,
+ "summary": "8-element 20/15m duoband yagi, 32.8 ft boom, 10 kW",
+ "jobs": [
+  {
+   "job": "ant_hf_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "20m",
+   "15m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 10000,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 8,
+  "boom_ft": 32.8,
+  "turn_radius_ft": 24.27,
+  "wind_sqft": 10.76,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": 110.23,
+  "radials": null,
+  "directional": true,
+  "polarization": "horizontal",
+  "connector": "SO-239 x2",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "hf-directional-antennas"
+  }
+ },
+ "gotchas": [
+  "two feedlines (SO-239 x2)",
+  "110 lb, 24 ft turning radius"
+ ],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ]
+}

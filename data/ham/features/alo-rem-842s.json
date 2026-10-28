@@ -1,0 +1,56 @@
+{
+ "id": "alo-rem-842s",
+ "kind": "antenna",
+ "name": "REM-842S",
+ "title": "Remtronix Flexible HT and Scanner Whips",
+ "brand": "Alinco",
+ "price": 34.0,
+ "line": "HT antenna",
+ "legacy": false,
+ "summary": "Remtronix flexible 8.5 in VHF/UHF/800 MHz HT and scanner whip",
+ "jobs": [
+  {
+   "job": "ant_ht",
+   "role": "primary"
+  },
+  {
+   "job": "ant_rx",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "ant_type": "rubber-duck",
+  "mount": "handheld",
+  "ant_bands": [
+   "2m",
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 0.71,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "SMA-male",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "other_freq": "800 MHz",
+   "dxe_part_type": "handheld-and-scanner-antennas"
+  }
+ },
+ "gotchas": [
+  "800 MHz coverage is RX/commercial, not ham"
+ ],
+ "confidence": "medium",
+ "pairs": []
+}

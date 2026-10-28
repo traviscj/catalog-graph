@@ -1,0 +1,58 @@
+{
+ "id": "cma-ch-32",
+ "kind": "antenna",
+ "name": "CH-32",
+ "title": "Comet Antennas CH-32",
+ "brand": "Comet",
+ "price": 38.49,
+ "line": "HT antenna",
+ "legacy": false,
+ "summary": "1.75 in. dual-band stubby HT antenna, BNC male",
+ "jobs": [
+  {
+   "job": "ant_ht",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "rubber-duck",
+  "mount": "handheld",
+  "ant_bands": [
+   "2m",
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 10,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 0.15,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "BNC male",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "handheld-and-scanner-antennas"
+  }
+ },
+ "gotchas": [
+  "Stubby: big efficiency hit vs. full-length whip"
+ ],
+ "confidence": "high",
+ "pairs": [],
+ "rating": {
+  "avg": 4.5,
+  "n": 2,
+  "pid": "9613",
+  "last": "2018-02-17",
+  "name": "Comet CH-32 \\\"Miracle Baby\\\""
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "id": "alo-ea-245",
+ "kind": "antenna",
+ "name": "EA-245",
+ "title": "Alinco Handheld Radio Replacement Antennas",
+ "brand": "Alinco",
+ "price": 20.99,
+ "line": "HT antenna",
+ "legacy": false,
+ "summary": "Alinco OEM UHF replacement antenna for DJ-AXD4T",
+ "jobs": [
+  {
+   "job": "ant_ht",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "rubber-duck",
+  "mount": "handheld",
+  "ant_bands": [
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": null,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "handheld-and-scanner-antennas"
+  }
+ },
+ "gotchas": [
+  "Radio-specific fit (DJ-AXD4T)"
+ ],
+ "confidence": "medium",
+ "pairs": []
+}

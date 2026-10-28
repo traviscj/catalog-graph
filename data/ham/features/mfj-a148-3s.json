@@ -1,0 +1,61 @@
+{
+ "id": "mfj-a148-3s",
+ "kind": "antenna",
+ "name": "A148-3S",
+ "title": "Cushcraft A148-3S",
+ "brand": "Cushcraft",
+ "price": 119.95,
+ "line": "V/U yagi",
+ "legacy": false,
+ "summary": "3-element 2m yagi for FM/packet/portable, 1 kW",
+ "jobs": [
+  {
+   "job": "ant_vu_beam",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "yagi",
+  "mount": "base",
+  "ant_bands": [
+   "2m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 1000,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": 3,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": true,
+  "polarization": null,
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "mfjenterprises.com/Antenna"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [
+  {
+   "id": "rotator + mast/tower",
+   "why": "beam must be turned",
+   "req": true
+  }
+ ],
+ "rating": {
+  "avg": 4.4,
+  "n": 17,
+  "pid": "3818",
+  "last": "2017-10-07",
+  "name": "Cushcraft A148-10"
+ }
+}

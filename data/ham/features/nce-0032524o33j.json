@@ -1,0 +1,50 @@
+{
+ "id": "nce-0032524o33j",
+ "kind": "antenna",
+ "name": "JFA-33J",
+ "title": "Chelegance JFA-33J",
+ "brand": "Chelegance",
+ "price": 10.99,
+ "line": "HT antenna",
+ "legacy": false,
+ "summary": "13 in. tactical folding dual-band HT whip, SMA male, 8 W",
+ "jobs": [
+  {
+   "job": "ant_ht",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "whip",
+  "mount": "handheld",
+  "ant_bands": [
+   "2m",
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 8,
+  "max_w_digital": null,
+  "gain_dbi": 2.0,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 1.08,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "SMA",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "gain": "1.5/2.0 dBi (2m/70cm)",
+   "dxe_part_type": "handheld-and-scanner-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": []
+}

@@ -1,0 +1,48 @@
+{
+ "id": "hsr-hx6-14448",
+ "kind": "antenna",
+ "name": "HX6-14448",
+ "title": "Hustler Antenna HX6-14448",
+ "brand": "Hustler",
+ "price": 2599.99,
+ "line": "V/U base vertical",
+ "legacy": false,
+ "summary": "Extreme-duty 19.6 ft 2m base collinear, 600 W, N female",
+ "jobs": [
+  {
+   "job": "ant_vu_base",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "collinear",
+  "mount": "base",
+  "ant_bands": [
+   "2m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 600.0,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 19.6,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "N female",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "vhf-uhf-base-vertical-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": []
+}

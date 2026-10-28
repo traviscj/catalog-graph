@@ -1,0 +1,57 @@
+{
+ "id": "alf-dx-80",
+ "kind": "antenna",
+ "name": "DX-80",
+ "title": "Alpha Delta Single Band Full Size Dipole Antennas",
+ "brand": "Alpha Delta",
+ "price": 119.99,
+ "line": "HF dipole",
+ "legacy": false,
+ "summary": "Alpha Delta DX-80 full-size 134 ft adjustable 80m dipole, 2 kW",
+ "jobs": [
+  {
+   "job": "ant_hf_wire",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "dipole",
+  "mount": "base",
+  "ant_bands": [
+   "80m"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 2000,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": 134.0,
+  "height_ft": null,
+  "weight_lb": null,
+  "radials": null,
+  "directional": false,
+  "polarization": "horizontal",
+  "connector": null,
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "wire-antennas"
+  }
+ },
+ "gotchas": [
+  "Needs 134 ft span"
+ ],
+ "confidence": "high",
+ "pairs": [],
+ "rating": {
+  "avg": 3.7,
+  "n": 20,
+  "pid": "6092",
+  "last": "2026-07-12",
+  "name": "RADIOWAVZ DX 80 (OCF) WINDOM"
+ }
+}

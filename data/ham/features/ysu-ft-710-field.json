@@ -1,0 +1,149 @@
+{
+ "id": "ysu-ft-710-field",
+ "name": "FT-710 Field",
+ "title": "Yaesu FT-710 Field",
+ "brand": "Yaesu",
+ "price": 999.95,
+ "line": "HF base (direct-sampling SDR)",
+ "legacy": false,
+ "summary": "FT-710 SDR 160–6m 100W in field package: carrying belt, no SP-40 speaker; cheaper than AESS.",
+ "jobs": [
+  {
+   "job": "hf_base",
+   "role": "primary"
+  },
+  {
+   "job": "hf_portable",
+   "role": "secondary"
+  },
+  {
+   "job": "ft8_digital",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "base",
+  "bands_tx": [
+   "160m",
+   "80m",
+   "60m",
+   "40m",
+   "30m",
+   "20m",
+   "17m",
+   "15m",
+   "12m",
+   "10m",
+   "6m"
+  ],
+  "hf": true,
+  "vhf_uhf": false,
+  "rx_range": "0.030–75 MHz",
+  "power_w": {
+   "hf": 100,
+   "6m": 100,
+   "2m": null,
+   "70cm": null,
+   "23cm": null
+  },
+  "modes": [
+   "SSB",
+   "CW",
+   "AM",
+   "FM",
+   "RTTY",
+   "PSK",
+   "DATA"
+  ],
+  "digital_voice": [],
+  "receiver_arch": "direct-sampling SDR",
+  "band_scope": "real-time 3DSS scope + waterfall",
+  "display": "4.3in color touch",
+  "dual_receive": false,
+  "dual_watch": false,
+  "atu": true,
+  "usb_single_cable": true,
+  "lan_remote": false,
+  "wifi_bt": [],
+  "gps": false,
+  "aprs": false,
+  "full_duplex_sat": false,
+  "crossband_repeat": false,
+  "detachable_head": false,
+  "power_source": "13.8 VDC external",
+  "tx_current_a": 21.0,
+  "battery": null,
+  "ip_rating": null,
+  "antenna_ports": 1,
+  "rx_antenna_in": false,
+  "roofing_filters": null,
+  "memories": 99,
+  "weight_kg": 4.5,
+  "size_mm": "239×80×247",
+  "special": [
+   "external monitor out (DVI)",
+   "carrying belt kit",
+   "QMB 10 ch",
+   "FT8 preset modes"
+  ],
+  "requires": [
+   "13.8V 21A+ power supply"
+  ],
+  "extra": {
+   "variant": "FIELD = carrying belt, SP-40 external AESS speaker NOT included",
+   "optional_lan": "SCU-LAN10",
+   "input_voltage": "12-15 VDC",
+   "am_max_w": 25,
+   "min_power_w": 5,
+   "warranty": "3-year",
+   "list_price": "1299.95",
+   "avail": "InStock"
+  }
+ },
+ "gotchas": [
+  "'Field' has no internal battery — still needs external 13.8V 21A; FTX-1 Field has internal battery/QRP",
+  "No SP-40 AESS speaker in box — FT-710 AESS includes it",
+  "No 2m/70cm — FT-991A / FTX-1 Optima cover VHF/UHF",
+  "LAN remote needs optional SCU-LAN10 — IC-7300MK2 has LAN built in",
+  "Single receiver, no RX antenna input — FTDX101D for dual RX"
+ ],
+ "best_for": [
+  "budget SDR HF base",
+  "portable-ish HF from a car/table with generator or big battery",
+  "FT8"
+ ],
+ "not_for": [
+  "true backpack QRP",
+  "VHF/UHF"
+ ],
+ "pairs": [
+  {
+   "id": "13.8 V 25 A power supply",
+   "why": "no internal supply; 21A on TX",
+   "req": true
+  },
+  {
+   "id": "ysu-ft-710-aess",
+   "why": "same radio bundled with SP-40 speaker",
+   "req": false
+  },
+  {
+   "id": "SCU-LAN10 network remote unit",
+   "why": "adds internet remote operation",
+   "req": false
+  },
+  {
+   "id": "LiFePO4 12 V 20+ Ah battery",
+   "why": "field power for 100W TX",
+   "req": false
+  }
+ ],
+ "confidence": "high",
+ "rating": {
+  "avg": 4.7,
+  "n": 78,
+  "pid": "15395",
+  "last": "2026-10-12",
+  "name": "Yaesu FT-710 Field/Aess"
+ }
+}

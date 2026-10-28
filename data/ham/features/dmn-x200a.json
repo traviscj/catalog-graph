@@ -1,0 +1,56 @@
+{
+ "id": "dmn-x200a",
+ "kind": "antenna",
+ "name": "X200A",
+ "title": "Diamond X200A",
+ "brand": "Diamond",
+ "price": 129.99,
+ "line": "V/U base vertical",
+ "legacy": false,
+ "summary": "8.3 ft dual-band 2m/70cm fiberglass base collinear, 200 W",
+ "jobs": [
+  {
+   "job": "ant_vu_base",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "ant_type": "collinear",
+  "mount": "base",
+  "ant_bands": [
+   "2m",
+   "70cm"
+  ],
+  "resonant": true,
+  "tuner_req": null,
+  "max_w": 200,
+  "max_w_digital": null,
+  "gain_dbi": null,
+  "elements": null,
+  "boom_ft": null,
+  "turn_radius_ft": null,
+  "wind_sqft": null,
+  "length_ft": null,
+  "height_ft": 8.3,
+  "weight_lb": null,
+  "radials": false,
+  "directional": false,
+  "polarization": "vertical",
+  "connector": "SO-239",
+  "rx_only": false,
+  "assembled": null,
+  "extra": {
+   "dxe_part_type": "vhf-uhf-base-vertical-antennas"
+  }
+ },
+ "gotchas": [],
+ "confidence": "high",
+ "pairs": [],
+ "rating": {
+  "avg": 4.6,
+  "n": 37,
+  "pid": "2188",
+  "last": "2023-10-09",
+  "name": "DIAMOND X-200A"
+ }
+}
