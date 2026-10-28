@@ -1,0 +1,94 @@
+{
+ "id": "ua-g2-sk",
+ "name": "UA-G2-SK",
+ "title": "Access G2 Starter Kit",
+ "price": 289.0,
+ "line": "Access",
+ "legacy": false,
+ "summary": "Access single-door starter kit: PoE++ Door Hub (4 PoE out) + G2 reader + 10 cards.",
+ "jobs": [
+  {
+   "job": "access_hub_lock",
+   "role": "primary"
+  },
+  {
+   "job": "access_reader",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "din",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "access",
+  "power_in": [
+   "poe++"
+  ],
+  "power_draw_w": 50,
+  "uplink": "1GbE",
+  "ports": {
+   "rj45_1g": 5,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 4,
+  "poe_out_types": [
+   "poe",
+   "poe+"
+  ],
+  "poe_budget_w": 45,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": true,
+  "ip_rating": "IP55 (reader)",
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "NFC reader",
+   "mobile unlock",
+   "10 cards included"
+  ],
+  "requires": [
+   "PoE++ source",
+   "UniFi Access on a console"
+  ],
+  "extra": {
+   "in_box": "(1) Door Hub (1) G2 Reader (10) Access Cards",
+   "hub_poe": "4 outputs 30W/port, 45W aggregate",
+   "hub_temp_c": "0 to 40 (indoor)",
+   "jobs_note": "both hub and reader primary"
+  }
+ },
+ "gotchas": [
+  "Door Hub needs a PoE++ input - PoE+ switches won't power it.",
+  "Handles one door only; more doors need more hubs.",
+  "Requires UniFi Access on a console (UDM/UCG/UNVR class).",
+  "Hub is indoor-only (0-40 C); only the reader is IP55."
+ ],
+ "best_for": [
+  "first UniFi Access door",
+  "offices adding badge entry"
+ ],
+ "not_for": [
+  "multi-door from one hub",
+  "sites without PoE++"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

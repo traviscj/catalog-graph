@@ -1,0 +1,97 @@
+{
+ "id": "enas",
+ "name": "ENAS",
+ "title": "Enterprise NAS",
+ "price": 3999.0,
+ "line": "UNAS",
+ "legacy": false,
+ "summary": "3U 16-bay enterprise NAS (ZFS RAID-Z), 2x 25G SFP28 + 10GbE, NVMe cache, redundant PSUs, SAS expansion.",
+ "jobs": [
+  {
+   "job": "storage_nas",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "rack_2u",
+  "requires_console": null,
+  "hosts_apps": [
+   "drive"
+  ],
+  "managed_by": "drive",
+  "power_in": [
+   "ac",
+   "redundant_psu"
+  ],
+  "power_draw_w": 550,
+  "uplink": "25G SFP28",
+  "ports": {
+   "rj45_1g": 0,
+   "rj45_2_5g": 0,
+   "rj45_10g": 1,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 2,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": "16x 2.5/3.5\" bays + 2x M.2 NVMe",
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [
+   "redundant_psu"
+  ],
+  "special": [
+   "SMB/NFS/iSCSI",
+   "RAID-Z1/2/3",
+   "SSD cache",
+   "snapshots",
+   "Time Machine",
+   "cloud backup",
+   "Mini-SAS HD expansion"
+  ],
+  "requires": [
+   "4-post rack"
+  ],
+  "extra": {
+   "form_factor_actual": "rack_3u (schema lacks 3U)",
+   "ram_gb": 64,
+   "cpu": "8-core ARM N2 2.4 GHz",
+   "expansion": "(2) SFF-8644 to UACC-ESE-16",
+   "status": "SoldOut",
+   "requires_console_unknown": "not stated in specs"
+  }
+ },
+ "gotchas": [
+  "Sold out at scrape; $3,999 empty - drives are extra.",
+  "3U, 16 kg, 4-post rack with square holes required.",
+  "25G SFP28 ports need modules/DACs and a 25G/10G switch to matter (e.g. ECS-48S).",
+  "Not a Protect NVR - camera storage belongs on a UNVR / console."
+ ],
+ "best_for": [
+  "SMB file/backup storage at scale",
+  "ZFS-style NAS in a UniFi estate"
+ ],
+ "not_for": [
+  "homes",
+  "camera recording"
+ ],
+ "confidence": "medium",
+ "in_store": true,
+ "status": "SoldOut"
+}

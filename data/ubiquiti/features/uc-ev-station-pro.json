@@ -1,0 +1,85 @@
+{
+ "id": "uc-ev-station-pro",
+ "name": "UC-EV-Station-Pro",
+ "title": "EV Station Pro",
+ "price": 1199.0,
+ "line": "EV",
+ "legacy": false,
+ "summary": "11 kW Level 2 EV charger with 10.1\" display, access control, payment accessory; UniFi Connect-managed.",
+ "jobs": [
+  {
+   "job": "iot_premium",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "wall",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "connect",
+  "power_in": [
+   "ac"
+  ],
+  "power_draw_w": null,
+  "uplink": "GbE",
+  "ports": {
+   "rj45_1g": 1,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": true,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "10.1\" 800-nit touchscreen",
+   "payment terminal via USB-C",
+   "7 m cable",
+   "WiFi 5"
+  ],
+  "requires": [
+   "UniFi Connect on a UniFi OS console",
+   "200–240V circuit (20–70A breaker)"
+  ],
+  "extra": {
+   "weatherproofing": "NEMA Type 3R",
+   "max_load": "50A on 70A circuit (hardwired); plug-in up to 50A circuit",
+   "status": "SoldOut"
+  }
+ },
+ "gotchas": [
+  "Needs a dedicated 200–240 V circuit; full 11 kW requires hardwire, 60/70 A circuits can't use the plug-in option.",
+  "Managed via UniFi Connect — requires a UniFi OS console running Connect.",
+  "Weather rating is NEMA Type 3R (not an IP rating).",
+  "Single-phase only."
+ ],
+ "best_for": [
+  "commercial/multifamily charging with access control"
+ ],
+ "not_for": [
+  "simple home charging on a budget"
+ ],
+ "confidence": "medium",
+ "in_store": true,
+ "status": "SoldOut"
+}

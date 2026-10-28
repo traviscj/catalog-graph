@@ -1,0 +1,76 @@
+{
+ "id": "uvc-g4-pro",
+ "name": "UVC-G4-Pro",
+ "title": "Camera G4 Pro",
+ "price": null,
+ "line": "G4 camera (legacy)",
+ "legacy": true,
+ "summary": "Legacy 4K bullet with 3x optical zoom, IP67, 15 m IR, 50 fps.",
+ "jobs": [
+  {
+   "job": "camera_outdoor",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "camera_bullet",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "protect",
+  "power_in": [
+   "poe"
+  ],
+  "power_draw_w": 12.5,
+  "uplink": "1GbE",
+  "ports": null,
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": true,
+  "ip_rating": "IP67",
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": {
+   "res": "4K (8MP)",
+   "fps": 50,
+   "night": "IR 15m",
+   "ai": "person/vehicle/animal",
+   "lens": "4.1-12.3mm 3x optical",
+   "audio": null
+  },
+  "sensors": [],
+  "redundancy": [],
+  "special": [],
+  "requires": [
+   "UniFi Protect on a console/NVR with storage"
+  ],
+  "extra": {
+   "audio_not_listed": true
+  }
+ },
+ "gotchas": [
+  "Discontinued (not in store) - G6 Bullet / G6 Edge Turret are the current 4K replacements with face/LPR.",
+  "Only 15 m IR - weaker night range than G6 models (30-40 m).",
+  "No face/LPR recognition listed.",
+  "Requires Protect on a console/NVR."
+ ],
+ "best_for": [
+  "existing G4 deployments"
+ ],
+ "not_for": [
+  "new installs"
+ ],
+ "confidence": "high",
+ "in_store": false,
+ "status": null
+}

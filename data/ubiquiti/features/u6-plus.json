@@ -1,0 +1,79 @@
+{
+ "id": "u6-plus",
+ "name": "U6+",
+ "title": "Access Point U6 Plus",
+ "price": 129.0,
+ "line": "WiFi 6",
+ "legacy": false,
+ "summary": "Compact dual-band WiFi 6 2x2 ceiling AP, GbE uplink, 802.3af PoE; budget workhorse.",
+ "jobs": [
+  {
+   "job": "wifi_ceiling",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "ceiling",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "poe"
+  ],
+  "power_draw_w": 9,
+  "uplink": "1GbE",
+  "ports": {
+   "rj45_1g": 1,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": 300,
+  "wifi_std": "WiFi 6",
+  "bands": [
+   "2.4",
+   "5"
+  ],
+  "streams": 4,
+  "coverage_m2": 140,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [],
+  "requires": [
+   "PoE (802.3af) source"
+  ],
+  "extra": {}
+ },
+ "gotchas": [
+  "No 6 GHz - for 6 GHz pick U6 Enterprise (6E) or U7 Pro (WiFi 7).",
+  "2x2 per band and 1 GbE uplink - fine for homes, limited for dense offices.",
+  "PoE injector not listed as included - needs a PoE switch or injector."
+ ],
+ "best_for": [
+  "budget homes/SMB coverage",
+  "802.3af-only switches"
+ ],
+ "not_for": [
+  "6 GHz clients",
+  "high density"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

@@ -1,0 +1,83 @@
+{
+ "id": "uap-ac-lite",
+ "name": "UAP-AC-LITE",
+ "title": "Access Point AC Lite",
+ "price": null,
+ "line": "WiFi 5 (legacy)",
+ "legacy": true,
+ "summary": "Old entry-level WiFi 5 ceiling AP (2x2 dual-band, 1GbE), 24V passive PoE; no longer sold.",
+ "jobs": [
+  {
+   "job": "wifi_ceiling",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "ceiling",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "poe"
+  ],
+  "power_draw_w": 6.5,
+  "uplink": "1GbE",
+  "ports": {
+   "rj45_1g": 1,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": 250,
+  "wifi_std": "WiFi 5",
+  "bands": [
+   "2.4",
+   "5"
+  ],
+  "streams": 4,
+  "coverage_m2": 115,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "24V passive PoE in",
+   "PoE adapter included (single pack)"
+  ],
+  "requires": [
+   "UniFi Network controller/console"
+  ],
+  "extra": {
+   "power_note": "Supports passive 24V; 5-pack ships without PoE adapters"
+  }
+ },
+ "gotchas": [
+  "Legacy WiFi 5 AP, not in store — a current U6+/U7-class AP replaces it.",
+  "No WiFi 6/6E/7, no 6 GHz, 80 MHz max channels; downlink-only MU-MIMO.",
+  "24V passive PoE heritage — 5-packs ship without injectors; confirm your switch PoE mode.",
+  "Needs a UniFi console/gateway (controller) to adopt."
+ ],
+ "best_for": [
+  "reuse in low-demand spots"
+ ],
+ "not_for": [
+  "new deployments"
+ ],
+ "confidence": "high",
+ "in_store": false,
+ "status": null
+}

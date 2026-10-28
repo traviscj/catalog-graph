@@ -1,0 +1,87 @@
+{
+ "id": "uvc-ai-ptz",
+ "name": "UVC-AI-PTZ",
+ "title": "Camera AI PTZ Industrial",
+ "price": 1299.0,
+ "line": "AI camera",
+ "legacy": false,
+ "summary": "Industrial 4K PTZ: 22x optical zoom, 100 m IR, endless pan, face/LPR, IP66, PoE++.",
+ "jobs": [
+  {
+   "job": "camera_ptz_wide",
+   "role": "primary"
+  },
+  {
+   "job": "camera_outdoor",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "camera_ptz",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "protect",
+  "power_in": [
+   "poe++"
+  ],
+  "power_draw_w": 51,
+  "uplink": "1GbE",
+  "ports": null,
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": true,
+  "ip_rating": "IP66",
+  "storage": "microSD slot",
+  "max_storage_tb": null,
+  "camera": {
+   "res": "4K (8MP)",
+   "fps": 30,
+   "night": "adaptive IR 100m",
+   "ai": "person/vehicle/animal, face, LPR",
+   "lens": "6.36-138.5mm 22x optical",
+   "audio": null
+  },
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "PTZ 360 endless pan / 120 tilt",
+   "edge recording"
+  ],
+  "requires": [
+   "PoE++ source (51W)",
+   "UniFi Protect on a console/NVR with storage"
+  ],
+  "extra": {
+   "temp_c": "-40 to 50",
+   "weight_kg": 3.8
+  }
+ },
+ "gotchas": [
+  "Needs PoE++ (51 W) - PoE+ switches won't drive it (USW-Pro-HD-24-PoE / ECS-24-PoE will).",
+  "Requires Protect on a console/NVR; 4K PTZ streams eat storage.",
+  "Heavy (3.8 kg + mount) - needs solid wall/pole mounting.",
+  "No audio listed."
+ ],
+ "best_for": [
+  "parking lots, campuses, perimeters",
+  "long-range plates/faces"
+ ],
+ "not_for": [
+  "small homes",
+  "PoE+ infrastructure"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

@@ -1,0 +1,68 @@
+{
+ "id": "u-lte-backup-pro",
+ "name": "U-LTE-Backup Pro",
+ "title": "UniFi LTE Backup Pro",
+ "price": 279.0,
+ "line": "Internet backup",
+ "legacy": false,
+ "summary": "LTE failover modem for UniFi gateways using a BYO AT&T nano-SIM.",
+ "jobs": [
+  {
+   "job": "internet_backup",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": null,
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [],
+  "power_draw_w": null,
+  "uplink": null,
+  "ports": null,
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [],
+  "requires": [
+   "UniFi gateway",
+   "AT&T nano-SIM"
+  ],
+  "extra": {
+   "thin_specs": "no techspecs in source; only description"
+  }
+ },
+ "gotchas": [
+  "Specs missing in source — verify power/port details before buying.",
+  "Requires a UniFi gateway; description specifies AT&T SIM (BYO).",
+  "LTE only — U5G-Max-Outdoor offers 5G and dual SIM."
+ ],
+ "best_for": [
+  "cheap LTE failover for UniFi gateways"
+ ],
+ "not_for": [
+  "non-AT&T carriers (verify)",
+  "5G speeds"
+ ],
+ "confidence": "low",
+ "in_store": true,
+ "status": "Available"
+}

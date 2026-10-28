@@ -1,0 +1,79 @@
+{
+ "id": "usw-flexutility",
+ "name": "USW-Flex-Utility",
+ "title": "Switch Flex Utility",
+ "price": 49.0,
+ "line": "Flex accessory",
+ "legacy": false,
+ "summary": "Outdoor weatherproof enclosure plus 54V PoE adapter for housing a Switch Flex.",
+ "jobs": [
+  {
+   "job": "accessory",
+   "role": "primary"
+  },
+  {
+   "job": "switch_industrial",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "outdoor",
+  "requires_console": false,
+  "hosts_apps": [],
+  "managed_by": "standalone",
+  "power_in": [
+   "ac"
+  ],
+  "power_draw_w": null,
+  "uplink": null,
+  "ports": null,
+  "poe_out_ports": 1,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": true,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "weatherproof enclosure",
+   "included 54V 1.11A 4-pair PoE adapter",
+   "4kV surge protection"
+  ],
+  "requires": [
+   "UniFi Switch Flex (sold separately)",
+   "AC outlet at the enclosure"
+  ],
+  "extra": {
+   "adapter_output": "54V 1.11A (~60W), 4-pair",
+   "ip_rating": "not stated",
+   "contains_switch": false
+  }
+ },
+ "gotchas": [
+  "It's only an enclosure + PoE adapter — the Switch Flex itself is sold separately.",
+  "Needs AC mains at the install point to feed the 54V adapter.",
+  "No IP rating published; fitment is stated only for 'Switch Flex' — verify before using other Flex models."
+ ],
+ "best_for": [
+  "outdoor/garage Flex deployments"
+ ],
+ "not_for": [
+  "anyone expecting a switch in the box"
+ ],
+ "confidence": "medium",
+ "in_store": true,
+ "status": "Available"
+}

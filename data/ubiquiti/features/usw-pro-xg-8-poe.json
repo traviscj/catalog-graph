@@ -1,0 +1,93 @@
+{
+ "id": "usw-pro-xg-8-poe",
+ "name": "USW-Pro-XG-8-PoE",
+ "title": "Switch Pro XG 8 PoE",
+ "price": 499.0,
+ "line": "Pro XG switch",
+ "legacy": false,
+ "summary": "Compact desktop/wall 8x 10GbE PoE++ L3 Etherlighting switch with 2x 10G SFP+, 155 W PoE.",
+ "jobs": [
+  {
+   "job": "switch_poe_edge",
+   "role": "primary"
+  },
+  {
+   "job": "switch_compact",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "desktop",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "dc"
+  ],
+  "power_draw_w": 61,
+  "uplink": "10G SFP+",
+  "ports": {
+   "rj45_1g": 0,
+   "rj45_2_5g": 0,
+   "rj45_10g": 8,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 2,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 8,
+  "poe_out_types": [
+   "poe",
+   "poe+",
+   "poe++"
+  ],
+  "poe_budget_w": 155,
+  "layer": "L3",
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "etherlighting",
+   "wall-mountable",
+   "Pro AV profiles"
+  ],
+  "requires": [
+   "UniFi Network 9.0.114+"
+  ],
+  "extra": {
+   "psu": "external 210W AC/DC brick (included)",
+   "max_power_incl_poe_w": 210
+  }
+ },
+ "gotchas": [
+  "155 W PoE vs 8x 60 W PoE++ ports - roughly 5 WiFi 7 APs at ~25-30 W, far fewer PoE++ devices.",
+  "External power brick, no RPS/redundant input.",
+  "Only 8 ports - for a full closet use USW-Pro-HD-24-PoE.",
+  "SFP+ uplinks need modules/DACs."
+ ],
+ "best_for": [
+  "10GbE WiFi 7 AP clusters (U7 Pro XG)",
+  "small 10G labs/studios",
+  "wall/desk installs"
+ ],
+ "not_for": [
+  "high PoE++ loads",
+  "large port counts"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

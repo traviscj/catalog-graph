@@ -1,0 +1,92 @@
+{
+ "id": "uvc-g4-doorbell-pro-poe-kit",
+ "name": "UVC-G4 Doorbell Pro PoE Kit",
+ "title": "G4 Doorbell Pro PoE Kit",
+ "price": 379.0,
+ "line": "Doorbell",
+ "legacy": false,
+ "summary": "PoE G4 Doorbell Pro with package camera, NFC reader, plus PoE chime; plug-and-play kit.",
+ "jobs": [
+  {
+   "job": "camera_doorbell",
+   "role": "primary"
+  },
+  {
+   "job": "intercom",
+   "role": "secondary"
+  },
+  {
+   "job": "access_reader",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "camera_doorbell",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "protect",
+  "power_in": [
+   "poe"
+  ],
+  "power_draw_w": 7,
+  "uplink": "1GbE",
+  "ports": null,
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": true,
+  "ip_rating": "IPX4",
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": {
+   "res": "FHD 2MP main + 2MP package (1600x1200)",
+   "fps": 30,
+   "night": "IR 6m",
+   "ai": "people/vehicle",
+   "lens": "main 160°H (LDC off), package 97.5°H",
+   "audio": "two-way"
+  },
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "NFC card & keyfob access",
+   "package camera",
+   "PoE chime included"
+  ],
+  "requires": [
+   "UniFi Protect console/NVR with storage",
+   "PoE (doorbell + chime, 2 ports)"
+  ],
+  "extra": {
+   "status": "SoldOut",
+   "chime": "10/100 PoE, 3W"
+  }
+ },
+ "gotchas": [
+  "Needs Ethernet + PoE at the door (and a 2nd PoE run for the chime) — not wired-transformer powered.",
+  "Sold out; FHD (2MP) only vs 5MP on the newer G6 Entry.",
+  "IPX4 — sheltered doorways only.",
+  "Requires Protect on a console/NVR; NFC door unlock also needs Access + hardware."
+ ],
+ "best_for": [
+  "PoE-wired front doors",
+  "package monitoring"
+ ],
+ "not_for": [
+  "exposed doors",
+  "doorbell-transformer retrofit"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "SoldOut"
+}

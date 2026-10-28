@@ -1,0 +1,89 @@
+{
+ "id": "uvc-ai-theta-lens",
+ "name": "UVC-AI-Theta-Lens",
+ "title": "AI Theta Lens",
+ "price": 59.0,
+ "line": "AI camera",
+ "legacy": false,
+ "summary": "4K wide-angle indoor lens module that plugs into an AI Theta Hub; no network of its own.",
+ "jobs": [
+  {
+   "job": "camera_indoor",
+   "role": "primary"
+  },
+  {
+   "job": "accessory",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "camera_mini",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "protect",
+  "power_in": [
+   "dc"
+  ],
+  "power_draw_w": 2.5,
+  "uplink": null,
+  "ports": {
+   "rj45_1g": 0,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": {
+   "res": "4K (8MP 4:3)",
+   "fps": 24,
+   "night": null,
+   "ai": null,
+   "lens": "fixed, ultra-wide",
+   "audio": null
+  },
+  "sensors": [],
+  "redundancy": [],
+  "special": [],
+  "requires": [
+   "UniFi AI Theta Hub",
+   "UniFi Protect on a console/NVR with storage (e.g. UCG-Max w/ SSD, UNVR-Instant, ENVR)"
+  ],
+  "extra": {
+   "power": "Theta proprietary 5V 0.5A from hub"
+  }
+ },
+ "gotchas": [
+  "Not a standalone camera — requires an AI Theta Hub (sold separately) for power, network and processing.",
+  "Indoor only; no IR night vision listed; 24 fps max.",
+  "Also needs UniFi Protect on a console/NVR via the hub."
+ ],
+ "best_for": [
+  "discreet indoor installs (retail, ATM-style)"
+ ],
+ "not_for": [
+  "outdoor",
+  "standalone use"
+ ],
+ "confidence": "medium",
+ "in_store": true,
+ "status": "Available"
+}

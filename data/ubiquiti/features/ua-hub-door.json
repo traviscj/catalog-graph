@@ -1,0 +1,90 @@
+{
+ "id": "ua-hub-door",
+ "name": "UA-Hub-Door",
+ "title": "Access Door Hub",
+ "price": 199.0,
+ "line": "Access",
+ "legacy": false,
+ "summary": "Single-door Access hub: PoE++ in, 4 PoE+ out for readers, lock relays, DPS/REX inputs, DIN rail.",
+ "jobs": [
+  {
+   "job": "access_hub_lock",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "din",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "access",
+  "power_in": [
+   "poe++"
+  ],
+  "power_draw_w": 50,
+  "uplink": "1GbE",
+  "ports": {
+   "rj45_1g": 5,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 4,
+  "poe_out_types": [
+   "poe+"
+  ],
+  "poe_budget_w": 45,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "12V lock power output",
+   "dry relays",
+   "DPS/REX/emergency inputs",
+   "UL 294"
+  ],
+  "requires": [
+   "PoE++ source",
+   "UniFi Access console",
+   "Access reader(s)"
+  ],
+  "extra": {
+   "max_users": 6000,
+   "supported_doors": 1,
+   "rj45_note": "5x 10/100/1000 = 1 PoE++ in + 4 PoE+ out",
+   "indoor_only": true
+  }
+ },
+ "gotchas": [
+  "Controls exactly 1 door — multi-door sites need one per door (or Enterprise Access Hub).",
+  "Needs PoE++ input; the 4 PoE+ outputs share only 45W.",
+  "Lock power 12V/1A max — long runs to mag locks need thick wire (see cable-length table).",
+  "Indoor-only DIN device; requires UniFi Access on a console plus readers."
+ ],
+ "best_for": [
+  "single doors with UniFi readers"
+ ],
+ "not_for": [
+  "gates (use Gate Hub)",
+  "outdoor mounting"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

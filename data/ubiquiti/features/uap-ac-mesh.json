@@ -1,0 +1,89 @@
+{
+ "id": "uap-ac-mesh",
+ "name": "UAP-AC-M",
+ "title": "Access Point AC Mesh",
+ "price": 99.0,
+ "line": "WiFi 5 (legacy)",
+ "legacy": true,
+ "summary": "Old WiFi 5 indoor/outdoor 2x2 mesh AP with optional external antennas, 24V passive PoE.",
+ "jobs": [
+  {
+   "job": "wifi_outdoor",
+   "role": "primary"
+  },
+  {
+   "job": "wifi_mesh_extend",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "outdoor",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "poe"
+  ],
+  "power_draw_w": 8.5,
+  "uplink": "1GbE",
+  "ports": {
+   "rj45_1g": 1,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": 200,
+  "wifi_std": "WiFi 5",
+  "bands": [
+   "2.4",
+   "5"
+  ],
+  "streams": 4,
+  "coverage_m2": 140,
+  "outdoor_rated": true,
+  "ip_rating": "IPX4",
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "external antenna option",
+   "meshing",
+   "PoE adapter included (single)"
+  ],
+  "requires": [
+   "UniFi OS console / gateway running UniFi Network"
+  ],
+  "extra": {
+   "power_conflict": "Power Method says PoE (passive 24V supported) but voltage range is 22-26V DC — treat as 24V passive",
+   "5pack": "5-packs ship without PoE adapters",
+   "store_status": "SoldOut"
+  }
+ },
+ "gotchas": [
+  "WiFi 5 / sold out — modern replacements are the U7 Pro Outdoor or U6 Mesh.",
+  "Voltage range 22-26V means 24V passive; 48V 802.3af/at switch ports may not power it — use the included injector (5-packs have none).",
+  "IPX4 is splash-only; no 6 GHz; 867 Mbps max on 5 GHz."
+ ],
+ "best_for": [
+  "cheap legacy patio coverage"
+ ],
+ "not_for": [
+  "new deployments"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "SoldOut"
+}

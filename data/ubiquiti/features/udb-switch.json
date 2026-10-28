@@ -1,0 +1,103 @@
+{
+ "id": "udb-switch",
+ "name": "UDB-Switch",
+ "title": "Device Bridge Switch",
+ "price": 299.0,
+ "line": "Device Bridge",
+ "legacy": false,
+ "summary": "WiFi 7 (5/6 GHz) wireless bridge client + 8-port PoE+ switch (1x 10G, 7x 2.5G) for no-cable sites.",
+ "jobs": [
+  {
+   "job": "wireless_bridge",
+   "role": "primary"
+  },
+  {
+   "job": "switch_compact",
+   "role": "secondary"
+  },
+  {
+   "job": "wifi_mesh_extend",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "desktop",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "dc"
+  ],
+  "power_draw_w": 25,
+  "uplink": "WiFi 7 bridge (5/6 GHz) / 10GbE",
+  "ports": {
+   "rj45_1g": 0,
+   "rj45_2_5g": 7,
+   "rj45_10g": 1,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 8,
+  "poe_out_types": [
+   "poe",
+   "poe+"
+  ],
+  "poe_budget_w": 35,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": "WiFi 7",
+  "bands": [
+   "5",
+   "6"
+  ],
+  "streams": 4,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "wireless uplink to UniFi WiFi",
+   "0.96\" status display"
+  ],
+  "requires": [
+   "UniFi WiFi AP to bridge to",
+   "UniFi Network 10.0.156+"
+  ],
+  "extra": {
+   "poe_budget_by_psu_w": {
+    "included_60W_adapter": 35,
+    "210W_adapter": 185
+   },
+   "desc_asterisk": "'PoE+ switch*' footnote",
+   "wifi_security": "WPA3 SAE always on",
+   "no_ip_rating": true
+  }
+ },
+ "gotchas": [
+  "Included 60 W adapter gives only 35 W PoE total - 185 W needs the separate 210 W adapter.",
+  "Bridging needs a UniFi AP within range; real throughput is capped by the wireless link, not the 10G port.",
+  "No 2.4 GHz; indoor-rated only (no IP rating).",
+  "DC-jack powered - no PoE input."
+ ],
+ "best_for": [
+  "detached rooms/desks where pulling cable is impossible",
+  "wireless uplink for small PoE clusters"
+ ],
+ "not_for": [
+  "outdoor building links (use a UniFi bridge)",
+  "high PoE loads on stock adapter"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

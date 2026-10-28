@@ -1,0 +1,102 @@
+{
+ "id": "ecs-24-poe",
+ "name": "ECS-24-PoE",
+ "title": "Switch Enterprise Campus 24 PoE",
+ "price": 2499.0,
+ "line": "Enterprise Campus switch",
+ "legacy": false,
+ "summary": "24-port L3 Etherlighting PoE+++ (90W) campus switch, 16x 10GbE + 8x 2.5GbE, 2x 25G, dual hot-swap PSU.",
+ "jobs": [
+  {
+   "job": "switch_poe_edge",
+   "role": "primary"
+  },
+  {
+   "job": "switch_core_agg",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "rack_1u",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "ac",
+   "redundant_psu"
+  ],
+  "power_draw_w": 150,
+  "uplink": "25G SFP28",
+  "ports": {
+   "rj45_1g": 0,
+   "rj45_2_5g": 8,
+   "rj45_10g": 16,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 2,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 24,
+  "poe_out_types": [
+   "poe",
+   "poe+",
+   "poe++",
+   "poe_bt_90w"
+  ],
+  "poe_budget_w": 1050,
+  "layer": "L3",
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [
+   "redundant_psu",
+   "hot_swap_fans"
+  ],
+  "special": [
+   "etherlighting",
+   "1.3\" touchscreen",
+   "Pro AV profiles"
+  ],
+  "requires": [
+   "UniFi Network 9.0.114+",
+   "4-post rack (full depth)"
+  ],
+  "extra": {
+   "poe_budget_detail": "1,050W shared w/ (2) stock 600W modules @100-240V; 450W in redundant mode; up to 2,250W shared with optional 1,200W modules @200-240V",
+   "max_power_incl_poe_w": 2400,
+   "switching_capacity_gbps": 460,
+   "status": "Available"
+  }
+ },
+ "gotchas": [
+  "PoE budget depends on PSU mode: 1,050 W shared but only 450 W in redundant mode with the stock 600 W modules - 24x 90 W needs optional 1,200 W modules.",
+  "Full-depth 1U (496 mm) needs a 4-post rack; 4 hot-swap fans - loud, not for a closet near people.",
+  "Only 2 uplinks (25G SFP28), modules/DACs not included.",
+  "Overkill for home/SMB PoE; USW-Pro-HD-24-PoE gives 24x PoE++ / 600 W for ~40% of the price."
+ ],
+ "best_for": [
+  "enterprise wiring closets with WiFi 7 APs/PTZ/PoE lighting",
+  "90W PoE (802.3bt Type 4) loads",
+  "HA designs"
+ ],
+ "not_for": [
+  "homes",
+  "shallow/2-post racks",
+  "quiet spaces"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

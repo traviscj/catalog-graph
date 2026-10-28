@@ -1,0 +1,82 @@
+{
+ "id": "up-chime-us",
+ "name": "UP-Chime",
+ "title": "WiFi Smart Chime",
+ "price": 59.0,
+ "line": "Doorbell accessory",
+ "legacy": false,
+ "summary": "Plug-in WiFi chime that rings for a UniFi Protect doorbell.",
+ "jobs": [
+  {
+   "job": "camera_doorbell",
+   "role": "primary"
+  },
+  {
+   "job": "accessory",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "other",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "protect",
+  "power_in": [
+   "ac"
+  ],
+  "power_draw_w": 3.7,
+  "uplink": "WiFi 4 (2.4 GHz)",
+  "ports": {
+   "rj45_1g": 0,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "speaker",
+   "buzzer"
+  ],
+  "requires": [
+   "UniFi Protect doorbell",
+   "UniFi Protect console"
+  ],
+  "extra": {}
+ },
+ "gotchas": [
+  "Accessory only — useless without a UniFi Protect doorbell (G4/G6 Doorbell) on a Protect console.",
+  "2.4 GHz 802.11n WiFi only.",
+  "US plug variant."
+ ],
+ "best_for": [
+  "hearing the doorbell in far rooms"
+ ],
+ "not_for": [
+  "non-UniFi doorbells"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

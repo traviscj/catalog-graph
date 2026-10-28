@@ -1,0 +1,92 @@
+{
+ "id": "eah-8",
+ "name": "EAH-8",
+ "title": "Enterprise Access Hub",
+ "price": 999.0,
+ "line": "Access",
+ "legacy": false,
+ "summary": "Enterprise 8-door Access hub: 8 PoE+ reader ports (190 W), 8 lock relays, battery backup.",
+ "jobs": [
+  {
+   "job": "access_hub_lock",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "wall",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "access",
+  "power_in": [
+   "ac",
+   "battery"
+  ],
+  "power_draw_w": 240,
+  "uplink": "1GbE",
+  "ports": {
+   "rj45_1g": 10,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 8,
+  "poe_out_types": [
+   "poe",
+   "poe+"
+  ],
+  "poe_budget_w": 190,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [
+   "battery_backup"
+  ],
+  "special": [
+   "8 doors",
+   "10,000 users",
+   "8 lock relays + 4 AUX",
+   "UL 294"
+  ],
+  "requires": [
+   "UniFi Access readers",
+   "console running UniFi Access",
+   "32–48V lead-acid battery (optional, not included per spec)"
+  ],
+  "extra": {
+   "inputs": "8 REX, 8 DPS, 1 emergency",
+   "lock_output": "12V DC 1A or dry",
+   "indoor_only": true
+  }
+ },
+ "gotchas": [
+  "Indoor wall-mount steel enclosure (9.1 kg) — needs a comms room, not a door frame.",
+  "190 W PoE across 8 reader ports; G3 Intercoms at 13 W are fine, but don't use it as a general PoE switch.",
+  "12 V 1 A lock outputs — maglocks over long runs need thicker gauge (spec cable tables).",
+  "Battery backup requires a separately sourced 32–48 V lead-acid battery; needs a console running Access."
+ ],
+ "best_for": [
+  "multi-door commercial sites"
+ ],
+ "not_for": [
+  "single door homes"
+ ],
+ "confidence": "medium",
+ "in_store": true,
+ "status": "Available"
+}

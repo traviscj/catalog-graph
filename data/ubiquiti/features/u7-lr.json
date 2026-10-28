@@ -1,0 +1,81 @@
+{
+ "id": "u7-lr",
+ "name": "U7-LR",
+ "title": "Access Point U7 Long-Range",
+ "price": 159.0,
+ "line": "WiFi 7",
+ "legacy": false,
+ "summary": "Long-range dual-band WiFi 7 ceiling AP, 5 streams, 2.5GbE, runs on plain 802.3af PoE.",
+ "jobs": [
+  {
+   "job": "wifi_ceiling",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "ceiling",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "poe"
+  ],
+  "power_draw_w": 14,
+  "uplink": "2.5GbE",
+  "ports": {
+   "rj45_1g": 0,
+   "rj45_2_5g": 1,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": 300,
+  "wifi_std": "WiFi 7",
+  "bands": [
+   "2.4",
+   "5"
+  ],
+  "streams": 5,
+  "coverage_m2": 160,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [],
+  "requires": [
+   "UniFi Network controller/console"
+  ],
+  "extra": {
+   "radios": "5G 3x3 4.3Gbps, 2.4G 2x2"
+  }
+ },
+ "gotchas": [
+  "No 6 GHz band — WiFi 7 on 5/2.4 GHz only; get U7-Pro / U7-Pro-XGS for 6 GHz.",
+  "2.5GbE uplink wants a 2.5GbE switch port; on 1G ports it caps there.",
+  "Needs a UniFi console/gateway to adopt."
+ ],
+ "best_for": [
+  "large homes / warehouses wanting range",
+  "PoE (af) switches"
+ ],
+ "not_for": [
+  "6 GHz clients",
+  "dense venues"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

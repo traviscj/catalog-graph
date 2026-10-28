@@ -1,0 +1,80 @@
+{
+ "id": "up-siren-poe",
+ "name": "UP-Siren-PoE",
+ "title": "Siren PoE",
+ "price": 109.0,
+ "line": "Protect alarm",
+ "legacy": false,
+ "summary": "Outdoor IP56 PoE siren: 110 dB alarm plus RGBW light ring, triggered from Protect.",
+ "jobs": [
+  {
+   "job": "alarm_sensor",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "wall",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "protect",
+  "power_in": [
+   "poe"
+  ],
+  "power_draw_w": 5,
+  "uplink": "100MbE",
+  "ports": {
+   "rj45_1g": 0,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": true,
+  "ip_rating": "IP56",
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "110 dB siren",
+   "LED light ring",
+   "tamper switch"
+  ],
+  "requires": [
+   "UniFi Protect on a console/NVR with storage (e.g. UCG-Max w/ SSD, UNVR-Instant, ENVR)"
+  ],
+  "extra": {
+   "ports_note": "single 10/100 RJ45"
+  }
+ },
+ "gotchas": [
+  "Needs a wired PoE run — it's not a SuperLink/battery siren.",
+  "Driven by UniFi Protect alarms; no standalone operation.",
+  "110 dB outdoors may violate local noise ordinances — configure schedules."
+ ],
+ "best_for": [
+  "perimeter deterrence tied to camera detections"
+ ],
+ "not_for": [
+  "wireless-only setups"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

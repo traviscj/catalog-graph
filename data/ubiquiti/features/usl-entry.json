@@ -1,0 +1,75 @@
+{
+ "id": "usl-entry",
+ "name": "USL-Entry",
+ "title": "Entry Sensor",
+ "price": 39.0,
+ "line": "SuperLink",
+ "legacy": false,
+ "summary": "SuperLink door/window contact sensor, 2 km LOS range, CR123A up to 6 years.",
+ "jobs": [
+  {
+   "job": "alarm_sensor",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "other",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "protect",
+  "power_in": [
+   "battery"
+  ],
+  "power_draw_w": 0.0277,
+  "uplink": null,
+  "ports": null,
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [
+   "contact",
+   "tamper"
+  ],
+  "redundancy": [],
+  "special": [],
+  "requires": [
+   "SuperLink Gateway",
+   "UniFi Protect console"
+  ],
+  "extra": {
+   "battery": "CR123A, up to 6 years",
+   "range": "2 km LOS",
+   "environment": "0–40°C"
+  }
+ },
+ "gotchas": [
+  "Needs a SuperLink Gateway (USL-G2-Gateway-HA is 'coming soon') plus Protect — no direct WiFi/Zigbee.",
+  "Rated 0–40°C — not for unheated exterior/garage doors in winter.",
+  "Contact + tamper only; no temperature/vibration."
+ ],
+ "best_for": [
+  "doors/windows on SuperLink-equipped Protect sites"
+ ],
+ "not_for": [
+  "Zigbee/Z-Wave hubs",
+  "cold environments"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

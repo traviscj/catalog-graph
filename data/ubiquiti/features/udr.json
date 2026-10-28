@@ -1,0 +1,106 @@
+{
+ "id": "udr",
+ "name": "UDR",
+ "title": "Dream Router",
+ "price": null,
+ "line": "Cloud Gateway (legacy)",
+ "legacy": true,
+ "summary": "Legacy all-in-one Dream Router: gateway + WiFi 6 AP + 4-port switch (2 PoE) + small Protect SSD.",
+ "jobs": [
+  {
+   "job": "gateway_allinone",
+   "role": "primary"
+  },
+  {
+   "job": "console_host",
+   "role": "secondary"
+  },
+  {
+   "job": "wifi_ceiling",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "desktop",
+  "requires_console": false,
+  "hosts_apps": [
+   "network",
+   "protect",
+   "access",
+   "talk",
+   "connect"
+  ],
+  "managed_by": "network",
+  "power_in": [
+   "ac"
+  ],
+  "power_draw_w": 19.37,
+  "uplink": "1GbE",
+  "ports": {
+   "rj45_1g": 5,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 2,
+  "poe_out_types": [
+   "poe"
+  ],
+  "poe_budget_w": 40,
+  "layer": null,
+  "wan_ports_max": 1,
+  "ips_throughput_gbps": 1,
+  "routing_throughput_gbps": null,
+  "max_devices": 20,
+  "max_clients": 150,
+  "wifi_std": "WiFi 6",
+  "bands": [
+   "2.4",
+   "5"
+  ],
+  "streams": 8,
+  "coverage_m2": 140,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": "128 GB SSD (detection recordings) + microSD slot",
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "built-in WiFi",
+   "PoE out",
+   "0.96\" status display"
+  ],
+  "requires": [],
+  "extra": {
+   "apps_note": "Network + 2 optional apps (Protect/Access/Talk/Connect)",
+   "managed_cameras": "(5) HD (2) 2K (1) 4K",
+   "conflict_clients": "spec 'Simultaneous Users' 150+ vs tag performance-client-devices:300",
+   "mimo": "4x4 on both 2.4 and 5 GHz",
+   "no_multi_wan_lb_listed": true
+  }
+ },
+ "gotchas": [
+  "Not sold in store anymore (legacy) - current all-in-one replacements are UDR7 / UX7-class products.",
+  "Single 1 GbE WAN, max 1 WAN port - no dual-WAN failover except via UniFi LTE Backup.",
+  "Only 2 PoE ports at 802.3af 15.4 W, 40 W total - won't power PoE+ APs or more than a couple cameras.",
+  "Protect storage is a 128 GB SSD for detections + microSD - not continuous recording; max 1x 4K camera.",
+  "WiFi 6 with no 6 GHz; only Network + 2 of the optional apps can run at once."
+ ],
+ "best_for": [
+  "small apartments wanting one box",
+  "existing UDR owners"
+ ],
+ "not_for": [
+  "new purchases",
+  "multi-gig WAN",
+  "camera-heavy sites"
+ ],
+ "confidence": "high",
+ "in_store": false,
+ "status": null
+}

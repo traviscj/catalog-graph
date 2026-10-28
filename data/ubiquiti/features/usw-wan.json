@@ -1,0 +1,86 @@
+{
+ "id": "usw-wan",
+ "name": "USW-WAN",
+ "title": "UniFi WAN Switch",
+ "price": 249.0,
+ "line": "WAN switch",
+ "legacy": false,
+ "summary": "Tiny 1U 3x10G SFP+ + 1GbE switch that splits one ISP handoff to two Shadow Mode HA gateways.",
+ "jobs": [
+  {
+   "job": "accessory",
+   "role": "primary"
+  },
+  {
+   "job": "gateway_router",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "rack_1u",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "ac",
+   "redundant_psu"
+  ],
+  "power_draw_w": 13,
+  "uplink": "10G SFP+",
+  "ports": {
+   "rj45_1g": 1,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 3,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [
+   "dual_ac_inputs"
+  ],
+  "special": [
+   "Shadow Mode HA WAN splitter"
+  ],
+  "requires": [
+   "two Shadow-Mode-capable UniFi gateways",
+   "SFP+ modules/DACs"
+  ],
+  "extra": {
+   "non_blocking_gbps": 10
+  }
+ },
+ "gotchas": [
+  "Purpose-built for gateway HA; it is not a general-purpose switch — useless without two Shadow Mode gateways (e.g. 2x EF-Core).",
+  "10 Gbps non-blocking total: no help for >10G WANs.",
+  "SFP+ cages need modules/DACs; only one RJ45 port (1GbE)."
+ ],
+ "best_for": [
+  "single-ISP HA gateway pairs"
+ ],
+ "not_for": [
+  "anyone with one gateway"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

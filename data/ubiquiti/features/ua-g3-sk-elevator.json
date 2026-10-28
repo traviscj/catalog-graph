@@ -1,0 +1,92 @@
+{
+ "id": "ua-g3-sk-elevator",
+ "name": "UA-G3-SK-Elevator",
+ "title": "Access G3 Elevator Starter Kit",
+ "price": 999.0,
+ "line": "Access",
+ "legacy": false,
+ "summary": "Elevator starter kit: 18-floor relay hub, G3 reader, 2-wire PoE extenders, 10 cards.",
+ "jobs": [
+  {
+   "job": "access_hub_lock",
+   "role": "primary"
+  },
+  {
+   "job": "access_reader",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "other",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "access",
+  "power_in": [
+   "poe++"
+  ],
+  "power_draw_w": 7,
+  "uplink": "1GbE",
+  "ports": {
+   "rj45_1g": 4,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 4,
+  "poe_out_types": [
+   "poe+"
+  ],
+  "poe_budget_w": 45,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "18 floor relays",
+   "car position/status inputs",
+   "2-wire PoE extenders (HomePlug AV)",
+   "10 Touch Passes"
+  ],
+  "requires": [
+   "PoE++ source",
+   "UniFi Access on a console",
+   "elevator controller integration"
+  ],
+  "extra": {
+   "max_users": 6000,
+   "extender_link": "10/100 over HomePlug AV 2-wire",
+   "ports_note": "counted elevator hub ports only"
+  }
+ },
+ "gotchas": [
+  "Max 18 floors per hub.",
+  "Hub needs PoE++ input; its 4 PoE+ outputs share 45W.",
+  "Requires elevator-contractor wiring (relays per floor, car position/status inputs).",
+  "2-wire extenders run 10/100 over HomePlug — fine for a reader, not for cameras."
+ ],
+ "best_for": [
+  "multi-tenant buildings controlling floor access"
+ ],
+ "not_for": [
+  "single doors"
+ ],
+ "confidence": "medium",
+ "in_store": true,
+ "status": "Available"
+}

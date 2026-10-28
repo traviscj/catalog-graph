@@ -1,0 +1,87 @@
+{
+ "id": "usl-g2-gateway-ha",
+ "name": "USL-G2-Gateway-HA",
+ "title": "SuperLink Gateway HA",
+ "price": 199.0,
+ "line": "SuperLink",
+ "legacy": false,
+ "summary": "SuperLink sensor gateway (2 km LOS, 96 sensors) with BLE, LTE connectivity and 2.2h battery; Protect.",
+ "jobs": [
+  {
+   "job": "alarm_sensor",
+   "role": "primary"
+  },
+  {
+   "job": "internet_backup",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "wall",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "protect",
+  "power_in": [
+   "poe",
+   "usb_c",
+   "dc",
+   "battery"
+  ],
+  "power_draw_w": 6.5,
+  "uplink": "100M",
+  "ports": null,
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "LTE (per desc)",
+   "BLE 128 clients",
+   "status display",
+   "DIN or wall mount"
+  ],
+  "requires": [
+   "UniFi Protect console"
+  ],
+  "extra": {
+   "status": "ComingSoon",
+   "superlink_clients": 96,
+   "superlink_range": "2 km LOS",
+   "battery_h": 2.2,
+   "ble_sleepy_limit": 10,
+   "net_port": "10/100 MbE",
+   "lte_plan": "unspecified; SMA mobile antenna connector"
+  }
+ },
+ "gotchas": [
+  "Coming soon — not shipping yet.",
+  "Only talks to proprietary SuperLink sensors (and BLE) — not Zigbee/Z-Wave.",
+  "Battery backup lasts ~2.2 h; BLE sleepy devices limited to 10 concurrent.",
+  "Requires Protect on a UniFi console; LTE plan/carrier details not specified."
+ ],
+ "best_for": [
+  "alarm/sensor coverage across large properties"
+ ],
+ "not_for": [
+  "third-party sensor ecosystems"
+ ],
+ "confidence": "medium",
+ "in_store": true,
+ "status": "ComingSoon"
+}

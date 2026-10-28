@@ -1,0 +1,101 @@
+{
+ "id": "ucg-fiber",
+ "name": "UCG-Fiber",
+ "title": "Cloud Gateway Fiber",
+ "price": 279.0,
+ "line": "Cloud Gateway",
+ "legacy": false,
+ "summary": "Compact 10G Cloud Gateway: 5 Gbps IPS, 4x 2.5G LAN switch, NVMe NVR bay, runs all UniFi apps.",
+ "jobs": [
+  {
+   "job": "gateway_router",
+   "role": "primary"
+  },
+  {
+   "job": "console_host",
+   "role": "secondary"
+  },
+  {
+   "job": "nvr_recording",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "desktop",
+  "requires_console": false,
+  "hosts_apps": [
+   "network",
+   "protect",
+   "access",
+   "talk",
+   "connect"
+  ],
+  "managed_by": "network",
+  "power_in": [
+   "dc"
+  ],
+  "power_draw_w": 29.4,
+  "uplink": "10G SFP+ / 10GbE",
+  "ports": {
+   "rj45_1g": 0,
+   "rj45_2_5g": 4,
+   "rj45_10g": 1,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 2,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": null,
+  "poe_out_types": [],
+  "poe_budget_w": 30,
+  "layer": null,
+  "wan_ports_max": 6,
+  "ips_throughput_gbps": 5,
+  "routing_throughput_gbps": null,
+  "max_devices": 50,
+  "max_clients": 500,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": "1x NVMe SSD slot (optional SSD, up to 2 TB)",
+  "max_storage_tb": 2,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "0.96\" status display",
+   "BGP/OSPF"
+  ],
+  "requires": [
+   "NVMe SSD for Protect recording (not in base SKU)"
+  ],
+  "extra": {
+   "default_wan": "(1) 10G SFP+ (1) 10 GbE RJ45",
+   "managed_cameras": "(15) HD (8) 2K (5) 4K",
+   "managed_access_hubs": 50,
+   "poe_note": "Tag feature:poe + 30W PoE Budget, but specs do not say which port(s) supply PoE or the class",
+   "status": "Available"
+  }
+ },
+ "gotchas": [
+  "No-storage SKU has no NVMe SSD (and third-party SSDs need a tray accessory) — Protect can't record until you add one.",
+  "Only 30 W total PoE budget — enough for ~1 AP, not a PoE switch replacement; add a USW-Pro-Max-16-PoE / Ultra.",
+  "LAN switch ports are 2.5G; the 10G ports (1 RJ45 + 2 SFP+) default to WAN — 10G to a server/switch means reassigning one.",
+  "NVR capacity tops at 2 TB / ~5 4K cameras — bigger Protect deployments want a UNVR.",
+  "External 54V DC brick, no redundant power."
+ ],
+ "best_for": [
+  "home / SMB with 2–10 Gbps fiber",
+  "all-in-one console for Network+Protect+Access"
+ ],
+ "not_for": [
+  "large camera counts",
+  "sites needing HA/redundant PSU"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

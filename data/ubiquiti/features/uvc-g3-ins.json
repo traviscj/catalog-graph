@@ -1,0 +1,77 @@
+{
+ "id": "uvc-g3-ins",
+ "name": "UVC-G3-INS",
+ "title": "Camera G3 Instant",
+ "price": null,
+ "line": "G3 camera (legacy)",
+ "legacy": true,
+ "summary": "Legacy compact 1080p WiFi Instant camera, two-way audio, USB powered; not in store.",
+ "jobs": [
+  {
+   "job": "camera_indoor",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "camera_compact",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "protect",
+  "power_in": [
+   "usb_c"
+  ],
+  "power_draw_w": 5,
+  "uplink": "WiFi 5",
+  "ports": null,
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": "WiFi 5",
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": {
+   "res": "FHD 2MP",
+   "fps": 30,
+   "night": "IR 6m",
+   "ai": null,
+   "lens": "2.8mm f/2.0, 111°H",
+   "audio": "two-way"
+  },
+  "sensors": [],
+  "redundancy": [],
+  "special": [],
+  "requires": [
+   "UniFi Protect console/NVR with storage"
+  ],
+  "extra": {
+   "power_note": "5V 2A USB adapter included; Instant PoE adapter optional",
+   "weather": "no IP rating, 0–40°C"
+  }
+ },
+ "gotchas": [
+  "Legacy / not in store — G6 Instant (4K, AI, IPX5) replaces it.",
+  "1080p, no smart detections listed; indoor only (no IP rating).",
+  "WiFi-only; requires Protect console/NVR."
+ ],
+ "best_for": [
+  "existing G3 installs"
+ ],
+ "not_for": [
+  "outdoor",
+  "new builds"
+ ],
+ "confidence": "high",
+ "in_store": false,
+ "status": null
+}

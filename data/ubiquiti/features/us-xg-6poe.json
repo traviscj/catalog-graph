@@ -1,0 +1,81 @@
+{
+ "id": "us-xg-6poe",
+ "name": "US-XG-6POE",
+ "title": "Switch XG 6 PoE",
+ "price": null,
+ "line": "Legacy US switch",
+ "legacy": true,
+ "summary": "Legacy L3 switch: 4x 10GbE PoE++ RJ45 and 2x 10G SFP+.",
+ "jobs": [
+  {
+   "job": "switch_poe_edge",
+   "role": "primary"
+  },
+  {
+   "job": "switch_core_agg",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": null,
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [],
+  "power_draw_w": null,
+  "uplink": "10G SFP+",
+  "ports": {
+   "rj45_1g": 0,
+   "rj45_2_5g": 0,
+   "rj45_10g": 4,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 2,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 4,
+  "poe_out_types": [
+   "poe++"
+  ],
+  "poe_budget_w": null,
+  "layer": "L3 lite",
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [],
+  "requires": [
+   "UniFi console/gateway"
+  ],
+  "extra": {
+   "specs_missing": "techspecs entry empty; all values from desc/tags only",
+   "price_null": "not in store"
+  }
+ },
+ "gotchas": [
+  "Legacy US-series and not in store — the USW-Pro-XG-10-PoE is the modern 10G PoE+++ equivalent.",
+  "Only 4 PoE++ copper ports; PoE budget not published in the dataset.",
+  "Requires a UniFi console/gateway to adopt."
+ ],
+ "best_for": [
+  "existing 10G PoE++ deployments"
+ ],
+ "not_for": [
+  "new purchases"
+ ],
+ "confidence": "low",
+ "in_store": false,
+ "status": null
+}

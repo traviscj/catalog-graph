@@ -1,0 +1,92 @@
+{
+ "id": "unas-pro",
+ "name": "UNAS-Pro",
+ "title": "UNAS Pro",
+ "price": 499.0,
+ "line": "UNAS",
+ "legacy": false,
+ "summary": "2U 7-bay UniFi NAS with 10G SFP+, RAID 5/6/10, snapshots and cloud backup via UniFi Drive.",
+ "jobs": [
+  {
+   "job": "storage_nas",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "rack_2u",
+  "requires_console": null,
+  "hosts_apps": [
+   "drive"
+  ],
+  "managed_by": "drive",
+  "power_in": [
+   "ac",
+   "dc"
+  ],
+  "power_draw_w": 160,
+  "uplink": "10G SFP+",
+  "ports": {
+   "rj45_1g": 1,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 1,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": "7x 2.5/3.5\" bays",
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [
+   "dc_power_backup_rps",
+   "raid",
+   "hot_spare"
+  ],
+  "special": [
+   "SMB/NFS",
+   "snapshots",
+   "Time Machine",
+   "cloud backup (S3/B2/etc)"
+  ],
+  "requires": [
+   "drives (not included)",
+   "SFP+ module/DAC for 10G"
+  ],
+  "extra": {
+   "raid": "RAID 5/6/10 only",
+   "ram_gb": 8,
+   "console": "spec doesn't say whether a separate console is needed"
+  }
+ },
+ "gotchas": [
+  "Drives not included.",
+  "RAID 5/6/10 only (no RAID 1) — plan at least 3-4 drives.",
+  "10G is SFP+ only; no 10GBASE-T — needs an SFP+ module/DAC or SFP+ switch port.",
+  "No apps/containers listed — pure file storage, not a Synology/TrueNAS replacement for services."
+ ],
+ "best_for": [
+  "UniFi-centric offices wanting simple file shares/backup"
+ ],
+ "not_for": [
+  "homelab app hosting"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

@@ -1,0 +1,109 @@
+{
+ "id": "ua-sk-gate",
+ "name": "UA-SK-Gate",
+ "title": "Gate Access Starter Kit",
+ "price": 699.0,
+ "line": "Access",
+ "legacy": false,
+ "summary": "Gate Starter Kit: Gate Hub + 7\" camera Intercom + PoE++ adapter + 2-wire PoE extenders for vehicle gates.",
+ "jobs": [
+  {
+   "job": "access_hub_lock",
+   "role": "primary"
+  },
+  {
+   "job": "intercom",
+   "role": "primary"
+  },
+  {
+   "job": "access_reader",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "other",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "access",
+  "power_in": [
+   "poe++"
+  ],
+  "power_draw_w": 60,
+  "uplink": "1GbE",
+  "ports": {
+   "rj45_1g": 5,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 4,
+  "poe_out_types": [
+   "poe+"
+  ],
+  "poe_budget_w": 55,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": true,
+  "ip_rating": "IP65 (intercom); hub needs waterproof box",
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": {
+   "res": "2MP (8MP sensor)",
+   "fps": 30,
+   "night": null,
+   "ai": "face unlock",
+   "lens": "79°H",
+   "audio": "two-way"
+  },
+  "sensors": [
+   "proximity",
+   "ambient_light"
+  ],
+  "redundancy": [],
+  "special": [
+   "7\" touchscreen intercom",
+   "NFC/PIN/face/mobile unlock",
+   "2-wire PoE extenders (reuse existing pair)",
+   "LPR unlock with Protect AI camera"
+  ],
+  "requires": [
+   "UniFi Access console",
+   "Protect AI camera for license-plate unlock",
+   "gate operator"
+  ],
+  "extra": {
+   "status": "SoldOut",
+   "kit": "Gate Hub, Intercom, U-PoE++ adapter, 2x UACC-Extender-2Wire",
+   "supports": "1 gate + 1 side door",
+   "max_users": 6000,
+   "poe_out_note": "spec says PoE outputs 30W/port max 55W aggregated"
+  }
+ },
+ "gotchas": [
+  "License Plate Unlock requires a separate compatible Protect AI camera and Protect console.",
+  "Gate Hub is indoor-only unless mounted in a waterproof junction box.",
+  "2-wire extenders are 10/100 HomePlug — fine for the intercom, not high-bandwidth.",
+  "Needs UniFi Access on a console; doesn't include the gate operator.",
+  "Sold out at capture."
+ ],
+ "best_for": [
+  "driveway/vehicle gates with intercom + side door"
+ ],
+ "not_for": [
+  "sites without UniFi console"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "SoldOut"
+}

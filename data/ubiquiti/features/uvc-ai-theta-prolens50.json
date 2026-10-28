@@ -1,0 +1,90 @@
+{
+ "id": "uvc-ai-theta-prolens50",
+ "name": "UVC-AI-Theta-ProLens50",
+ "title": "AI Theta Pro Long-Distance Lens",
+ "price": 129.0,
+ "line": "AI Theta",
+ "legacy": false,
+ "summary": "Indoor 4K long-distance lens module for the AI Theta Hub (53° HFOV).",
+ "jobs": [
+  {
+   "job": "camera_indoor",
+   "role": "primary"
+  },
+  {
+   "job": "accessory",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "camera_other",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "protect",
+  "power_in": [
+   "dc"
+  ],
+  "power_draw_w": 2.5,
+  "uplink": null,
+  "ports": {
+   "rj45_1g": 0,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": {
+   "res": "4K",
+   "fps": 24,
+   "night": null,
+   "ai": null,
+   "lens": "fixed, 53° H",
+   "audio": null
+  },
+  "sensors": [],
+  "redundancy": [],
+  "special": [],
+  "requires": [
+   "UniFi AI Theta Hub",
+   "UniFi Protect console/NVR"
+  ],
+  "extra": {
+   "power": "Theta proprietary 5V/0.5A via hub",
+   "indoor_only": true
+  }
+ },
+ "gotchas": [
+  "Lens only — does nothing without an AI Theta Hub (sold separately).",
+  "Indoor only, 24 fps max, no IR night vision listed.",
+  "Requires a Protect console/NVR to record."
+ ],
+ "best_for": [
+  "discreet indoor covert-style installs"
+ ],
+ "not_for": [
+  "outdoor",
+  "standalone use"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

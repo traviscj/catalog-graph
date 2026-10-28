@@ -1,0 +1,82 @@
+{
+ "id": "ufp-viewport",
+ "name": "UP-Viewport",
+ "title": "Protect Viewport",
+ "price": 199.0,
+ "line": "Protect accessory",
+ "legacy": false,
+ "summary": "PoE HDMI box that displays live UniFi Protect camera feeds on a TV/monitor.",
+ "jobs": [
+  {
+   "job": "accessory",
+   "role": "primary"
+  },
+  {
+   "job": "nvr_recording",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "mini",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "protect",
+  "power_in": [
+   "poe"
+  ],
+  "power_draw_w": 9.5,
+  "uplink": "1GbE",
+  "ports": {
+   "rj45_1g": 1,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "HDMI output"
+  ],
+  "requires": [
+   "UniFi Protect on a console/NVR"
+  ],
+  "extra": {
+   "thin_specs": "no output resolution / stream count listed"
+  }
+ },
+ "gotchas": [
+  "Viewer only - no recording; requires a Protect console/NVR.",
+  "Specs don't state max output resolution or simultaneous streams.",
+  "Some NVRs (e.g. UNVR-Instant) already have HDMI Viewport built in - may be redundant."
+ ],
+ "best_for": [
+  "reception/security-desk monitors"
+ ],
+ "not_for": [
+  "standalone use"
+ ],
+ "confidence": "medium",
+ "in_store": true,
+ "status": "Available"
+}

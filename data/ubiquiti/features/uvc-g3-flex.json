@@ -1,0 +1,83 @@
+{
+ "id": "uvc-g3-flex",
+ "name": "UVC-G3-FLEX",
+ "title": "Camera G3 Flex",
+ "price": null,
+ "line": "G3 camera (legacy)",
+ "legacy": true,
+ "summary": "Old 1080p mini camera, 10/100 PoE, IPX4; discontinued.",
+ "jobs": [
+  {
+   "job": "camera_indoor",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "camera_mini",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "protect",
+  "power_in": [
+   "poe"
+  ],
+  "power_draw_w": 4,
+  "uplink": "100MbE",
+  "ports": {
+   "rj45_1g": 0,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": true,
+  "ip_rating": "IPX4",
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": {
+   "res": "1080p",
+   "fps": 25,
+   "night": "IR 6m",
+   "ai": null,
+   "lens": "4mm f/2.0",
+   "audio": "microphone"
+  },
+  "sensors": [],
+  "redundancy": [],
+  "special": [],
+  "requires": [
+   "UniFi Protect on a console/NVR with storage (e.g. UCG-Max w/ SSD, UNVR-Instant, ENVR)"
+  ],
+  "extra": {
+   "power_note": "48V DC PoE"
+  }
+ },
+ "gotchas": [
+  "Legacy G3, not in store — the G5 Flex is the direct replacement (2K, AI detections).",
+  "1080p@25fps, no smart detections; 10/100 Ethernet.",
+  "Requires UniFi Protect on a console/NVR with storage."
+ ],
+ "best_for": [
+  "existing G3 installs"
+ ],
+ "not_for": [
+  "new builds"
+ ],
+ "confidence": "high",
+ "in_store": false,
+ "status": null
+}

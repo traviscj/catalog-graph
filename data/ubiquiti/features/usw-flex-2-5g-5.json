@@ -1,0 +1,78 @@
+{
+ "id": "usw-flex-2-5g-5",
+ "name": "USW-Flex-2.5G-5",
+ "title": "Switch Flex Mini 2.5G",
+ "price": 49.0,
+ "line": "Flex switch",
+ "legacy": false,
+ "summary": "Tiny 5-port 2.5GbE managed switch powered by USB-C or PoE; no PoE output.",
+ "jobs": [
+  {
+   "job": "switch_compact",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "mini",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "usb_c",
+   "poe"
+  ],
+  "power_draw_w": 6.4,
+  "uplink": "2.5GbE",
+  "ports": {
+   "rj45_1g": 0,
+   "rj45_2_5g": 5,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": "L2",
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [],
+  "requires": [],
+  "extra": {
+   "usb_c_power": "5V/1A adapter included"
+  }
+ },
+ "gotchas": [
+  "No 10G uplink — all 5 ports share 2.5G, so it's a desk switch, not an aggregation point.",
+  "Can't power anything: no PoE output (it can be PoE-powered itself).",
+  "Basic L2 (no LACP/802.1X/IGMP snooping listed).",
+  "Adopts only via a UniFi console running Network 8.6.9+."
+ ],
+ "best_for": [
+  "desks/media centers with 2.5G PCs/NAS",
+  "cheap 2.5G expansion behind a 2.5G drop"
+ ],
+ "not_for": [
+  "PoE devices",
+  "10G"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

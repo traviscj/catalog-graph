@@ -1,0 +1,81 @@
+{
+ "id": "usw-aggregation",
+ "name": "USW-Aggregation",
+ "title": "Switch Aggregation",
+ "price": 269.0,
+ "line": "Aggregation",
+ "legacy": false,
+ "summary": "8-port 10G SFP+ L2 rack switch for aggregating 10G uplinks between switches/servers.",
+ "jobs": [
+  {
+   "job": "switch_core_agg",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "rack_1u",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "ac"
+  ],
+  "power_draw_w": 36,
+  "uplink": "10G SFP+",
+  "ports": {
+   "rj45_1g": 0,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 8,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": "L2",
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "1.3in touchscreen"
+  ],
+  "requires": [
+   "SFP+ modules or DACs",
+   "UniFi Network controller/console"
+  ],
+  "extra": {
+   "non_blocking_gbps": 80
+  }
+ },
+ "gotchas": [
+  "All 8 ports are SFP+ cages with no RJ45 — every link needs an SFP+ module, DAC, or 10GBASE-T module.",
+  "Layer 2 only — no inter-VLAN routing; L3 aggregation needs a USW-Pro-class L3 switch or the gateway.",
+  "Only 8 ports and 1000 VLANs; a 24-port 10G/25G core (e.g. USW-Pro-XG / ECS line) for bigger cores.",
+  "Needs a UniFi console/gateway to adopt."
+ ],
+ "best_for": [
+  "10G backbone between a gateway, NAS and several PoE switches"
+ ],
+ "not_for": [
+  "copper-only installs",
+  "routing"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

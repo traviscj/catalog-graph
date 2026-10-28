@@ -1,0 +1,94 @@
+{
+ "id": "utr",
+ "name": "UTR",
+ "title": "UniFi Travel Router",
+ "price": 79.0,
+ "line": "Travel Router",
+ "legacy": false,
+ "summary": "Pocket USB-C travel router extending your UniFi network via WireGuard over hotel WiFi/Ethernet/tethering.",
+ "jobs": [
+  {
+   "job": "new:travel_router",
+   "role": "primary"
+  },
+  {
+   "job": "gateway_allinone",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "mini",
+  "requires_console": null,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "usb_c"
+  ],
+  "power_draw_w": 5,
+  "uplink": "1GbE",
+  "ports": {
+   "rj45_1g": 2,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": "WiFi 5",
+  "bands": [
+   "2.4",
+   "5"
+  ],
+  "streams": 2,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "WAN via WiFi/Ethernet/USB tethering",
+   "WireGuard client",
+   "status display",
+   "Bluetooth setup"
+  ],
+  "requires": [
+   "USB-C 5V/2A power adapter (not included)"
+  ],
+  "extra": {
+   "thin_data": "Mechanical/Networking sections empty; no clients/coverage figures",
+   "openvpn": "OpenVPN client 'future firmware'",
+   "tx_power_dbm": {
+    "2.4": 13,
+    "5": 15
+   }
+  }
+ },
+ "gotchas": [
+  "WiFi 5, 2x2 at 13/15 dBm — a hotel-room router, not a home gateway.",
+  "USB-C power adapter not included.",
+  "OpenVPN client is listed as future firmware; tunneling home realistically needs a UniFi gateway running WireGuard/Teleport.",
+  "Spec sheet is thin (no throughput/client numbers)."
+ ],
+ "best_for": [
+  "travel, remote workers"
+ ],
+ "not_for": [
+  "permanent sites"
+ ],
+ "confidence": "medium",
+ "in_store": true,
+ "status": "Available"
+}

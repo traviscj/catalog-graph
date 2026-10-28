@@ -1,0 +1,76 @@
+{
+ "id": "uc-cast-lite",
+ "name": "UC-Cast-Lite",
+ "title": "Display Cast Lite",
+ "price": 179.0,
+ "line": "Connect / Display",
+ "legacy": false,
+ "summary": "Compact HDMI digital-signage player for UniFi Connect; 1080p, WiFi 6, USB-C power.",
+ "jobs": [
+  {
+   "job": "iot_premium",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "mini",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "connect",
+  "power_in": [
+   "usb_c"
+  ],
+  "power_draw_w": 5,
+  "uplink": "WiFi 6",
+  "ports": null,
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": "WiFi 6",
+  "bands": [
+   "2.4",
+   "5"
+  ],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "HDMI output"
+  ],
+  "requires": [
+   "UniFi OS console running Connect"
+  ],
+  "extra": {
+   "video": "480p/720p/1080p only",
+   "poe_option": "UACC-Adapter-PoE-USBC",
+   "network": "WiFi only, no RJ45"
+  }
+ },
+ "gotchas": [
+  "1080p max — no 4K signage.",
+  "WiFi-only, USB-C 5V powered; wired/PoE needs the UACC-Adapter-PoE-USBC.",
+  "Requires UniFi Connect on a UniFi OS console."
+ ],
+ "best_for": [
+  "menu boards, lobby screens"
+ ],
+ "not_for": [
+  "4K content",
+  "standalone players"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

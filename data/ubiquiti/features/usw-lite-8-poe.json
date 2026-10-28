@@ -1,0 +1,86 @@
+{
+ "id": "usw-lite-8-poe",
+ "name": "USW-Lite-8-PoE",
+ "title": "Switch Lite 8 PoE",
+ "price": 109.0,
+ "line": "Lite switch",
+ "legacy": false,
+ "summary": "Fanless 8-port 1GbE L2 desktop switch, 4 PoE+ ports, 52 W budget via external 60 W brick.",
+ "jobs": [
+  {
+   "job": "switch_compact",
+   "role": "primary"
+  },
+  {
+   "job": "switch_poe_edge",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "desktop",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "dc"
+  ],
+  "power_draw_w": 60,
+  "uplink": "1GbE",
+  "ports": {
+   "rj45_1g": 8,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 4,
+  "poe_out_types": [
+   "poe",
+   "poe+"
+  ],
+  "poe_budget_w": 52,
+  "layer": "L2",
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "fanless",
+   "wall-mountable"
+  ],
+  "requires": [],
+  "extra": {
+   "psu": "external 60W 50-57V DC adapter (included)"
+  }
+ },
+ "gotchas": [
+  "Only 4 of 8 ports supply PoE; 52 W budget depends on the included external 60 W adapter.",
+  "1GbE only — no SFP or 2.5GbE uplink for multi-gig APs/WAN.",
+  "Layer 2 only; external power brick is a single point of failure."
+ ],
+ "best_for": [
+  "small office/home: a couple of APs + cameras",
+  "desk switch"
+ ],
+ "not_for": [
+  "PoE++ devices",
+  "multi-gig"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

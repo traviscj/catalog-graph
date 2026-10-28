@@ -1,0 +1,97 @@
+{
+ "id": "usw-pro-hd-24-poe",
+ "name": "USW-Pro-HD-24-PoE",
+ "title": "Switch Pro HD 24 PoE",
+ "price": 999.0,
+ "line": "Pro Max switch",
+ "legacy": false,
+ "summary": "24-port L3 Etherlighting PoE++ switch: 22x 2.5G + 2x 10G RJ45 (all PoE++), 4x 10G SFP+, 600 W.",
+ "jobs": [
+  {
+   "job": "switch_poe_edge",
+   "role": "primary"
+  },
+  {
+   "job": "switch_core_agg",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "rack_1u",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "ac",
+   "dc"
+  ],
+  "power_draw_w": 60,
+  "uplink": "10G SFP+",
+  "ports": {
+   "rj45_1g": 0,
+   "rj45_2_5g": 22,
+   "rj45_10g": 2,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 4,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 24,
+  "poe_out_types": [
+   "poe",
+   "poe+",
+   "poe++"
+  ],
+  "poe_budget_w": 600,
+  "layer": "L3",
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [
+   "rps_dc_backup"
+  ],
+  "special": [
+   "etherlighting",
+   "1.3\" touchscreen",
+   "Pro AV profiles"
+  ],
+  "requires": [
+   "UniFi Network 9.0.114+"
+  ],
+  "extra": {
+   "poe_per_port_max_w": 64,
+   "max_power_incl_poe_w": 660,
+   "rack_depth": "400 mm deep chassis, 600-1,200 mm racks"
+  }
+ },
+ "gotchas": [
+  "600 W budget vs 24x 64 W ports (1,536 W) - fine for APs, not for all-PoE++ loads.",
+  "No 802.3bt Type 4 / 90 W - for 90 W devices use ECS-24-PoE.",
+  "Only 2 ports are 10 GbE RJ45; WiFi 7 APs with 10G uplinks beyond 2 need SFP+ or another switch.",
+  "400 mm deep - check shallow wall racks."
+ ],
+ "best_for": [
+  "WiFi 7 AP closets",
+  "multi-gig PoE++ for cameras/APs",
+  "prosumer racks"
+ ],
+ "not_for": [
+  "90W PoE loads",
+  "shallow cabinets"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

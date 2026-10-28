@@ -1,0 +1,105 @@
+{
+ "id": "udm-pro-max",
+ "name": "UDM-Pro-Max",
+ "title": "Dream Machine Pro Max",
+ "price": 599.0,
+ "line": "Cloud Gateway",
+ "legacy": false,
+ "summary": "1U rack Cloud Gateway: 5 Gbps IPS, 2x SFP+ WAN/LAN, dual HDD NVR bays, 200+ devices, Shadow Mode HA.",
+ "jobs": [
+  {
+   "job": "gateway_router",
+   "role": "primary"
+  },
+  {
+   "job": "console_host",
+   "role": "primary"
+  },
+  {
+   "job": "nvr_recording",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "rack_1u",
+  "requires_console": false,
+  "hosts_apps": [
+   "network",
+   "protect",
+   "access",
+   "talk",
+   "connect"
+  ],
+  "managed_by": "network",
+  "power_in": [
+   "ac",
+   "dc"
+  ],
+  "power_draw_w": 60,
+  "uplink": "10G SFP+",
+  "ports": {
+   "rj45_1g": 8,
+   "rj45_2_5g": 1,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 2,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": 8,
+  "ips_throughput_gbps": 5,
+  "routing_throughput_gbps": null,
+  "max_devices": 200,
+  "max_clients": 2000,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": "2x 3.5\" HDD bays + 128GB SSD",
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [
+   "shadow_mode_ha",
+   "dc_backup_rps"
+  ],
+  "special": [
+   "1.3\" touchscreen",
+   "NVR",
+   "multi-WAN",
+   "BGP/OSPF"
+  ],
+  "requires": [],
+  "extra": {
+   "managed_cameras": "50 HD / 25 2K / 15 4K",
+   "managed_access_hubs": 150,
+   "default_wan": "1x 10G SFP+, 1x 2.5GbE",
+   "cpu": "4x A57 2.0GHz, 8GB RAM"
+  }
+ },
+ "gotchas": [
+  "No PoE output on any port — pair with a PoE switch (e.g. USW-Pro-Max-24-PoE) for APs/cameras.",
+  "LAN side is 8x 1GbE + one 2.5GbE; only the SFP+ ports are 10G, so a 10G LAN needs a 10G aggregation switch and SFP+ modules/DACs.",
+  "Camera ceiling is 15x 4K / 50x HD with only 2 HDD bays — bigger Protect sites want a UNVR-G2 / UNVR-G2-Pro.",
+  "IPS caps at 5 Gbps; multi-gig ISP plans beyond that need EFG-class gateways.",
+  "Redundant power is DC via a separately sold UniFi RPS, not a second internal PSU."
+ ],
+ "best_for": [
+  "small/medium office or prosumer rack wanting gateway + NVR in 1U",
+  "sites needing gateway HA (Shadow Mode)"
+ ],
+ "not_for": [
+  "fanless/desktop installs",
+  "large camera fleets",
+  "10G LAN routing on copper"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

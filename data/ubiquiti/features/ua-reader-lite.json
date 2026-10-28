@@ -1,0 +1,81 @@
+{
+ "id": "ua-reader-lite",
+ "name": "UA-Reader Lite",
+ "title": "Access Reader Lite",
+ "price": null,
+ "line": "Access (legacy)",
+ "legacy": true,
+ "summary": "Legacy PoE NFC door reader with mobile and handwave unlock, IP54.",
+ "jobs": [
+  {
+   "job": "access_reader",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "reader",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "access",
+  "power_in": [
+   "poe"
+  ],
+  "power_draw_w": 6,
+  "uplink": "100MbE",
+  "ports": {
+   "rj45_1g": 0,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": true,
+  "ip_rating": "IP54",
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "NFC",
+   "mobile unlock",
+   "handwave request-to-exit"
+  ],
+  "requires": [
+   "UniFi Access Hub",
+   "UniFi Access console"
+  ],
+  "extra": {}
+ },
+ "gotchas": [
+  "Not in store — modern replacement is UA-G2-Reader / G3 Reader line.",
+  "Needs a UniFi Access Hub and Access console to work; reader alone doesn't drive a lock.",
+  "IP54 — must sit indoors or under an eave.",
+  "No Apple/Google Wallet Touch Pass listed (newer readers have it)."
+ ],
+ "best_for": [
+  "extending existing Access installs"
+ ],
+ "not_for": [
+  "new builds",
+  "exposed outdoor"
+ ],
+ "confidence": "high",
+ "in_store": false,
+ "status": null
+}

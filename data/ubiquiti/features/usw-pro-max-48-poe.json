@@ -1,0 +1,93 @@
+{
+ "id": "usw-pro-max-48-poe",
+ "name": "USW-Pro-Max-48-PoE",
+ "title": "Switch Pro Max 48 PoE",
+ "price": 1299.0,
+ "line": "Pro Max switch",
+ "legacy": false,
+ "summary": "1U L3 Etherlighting 48-port PoE switch: 32x 1G + 16x 2.5G, 720W PoE (16 PoE++), 4x 10G SFP+.",
+ "jobs": [
+  {
+   "job": "switch_poe_edge",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "rack_1u",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "ac",
+   "dc"
+  ],
+  "power_draw_w": 100,
+  "uplink": "10G SFP+",
+  "ports": {
+   "rj45_1g": 32,
+   "rj45_2_5g": 16,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 4,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 48,
+  "poe_out_types": [
+   "poe",
+   "poe+",
+   "poe++"
+  ],
+  "poe_budget_w": 720,
+  "layer": "L3",
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [
+   "rps_dc_backup"
+  ],
+  "special": [
+   "etherlighting",
+   "Pro AV profiles",
+   "1.3\" touchscreen"
+  ],
+  "requires": [],
+  "extra": {
+   "poe_split": "1G: 24 PoE+ / 8 PoE++; 2.5G: 8 PoE+ / 8 PoE++",
+   "poe_per_port_w": {
+    "poe+": 32,
+    "poe++": 64
+   },
+   "power_draw_note": "100W excl PoE, 820W incl"
+  }
+ },
+ "gotchas": [
+  "Only 16 of 48 ports are 2.5GbE (32 are 1G) — WiFi 7 APs on 1G ports are uplink-bottlenecked.",
+  "Only 16 ports are PoE++ (64W); the other 32 are PoE+ (32W) — count your E7/U7 Pro Max/PTZ loads.",
+  "720W budget < 48 x 32W; can't run every port at max PoE+.",
+  "Uplinks are 4x 10G SFP+ (no 25G); for 10GbE copper + 90W PoE step up to USW-Pro-XG-48-PoE."
+ ],
+ "best_for": [
+  "mid-size office/home-lab PoE core",
+  "mixed AP/camera closets"
+ ],
+ "not_for": [
+  "10G-to-the-AP builds",
+  "25G fabrics"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

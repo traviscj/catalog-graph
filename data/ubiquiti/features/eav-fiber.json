@@ -1,0 +1,99 @@
+{
+ "id": "eav-fiber",
+ "name": "EAV-Fiber",
+ "title": "Switch Enterprise Audio/Video Fiber",
+ "price": 2999.0,
+ "line": "Enterprise A/V switch",
+ "legacy": false,
+ "summary": "L3 fiber A/V switch: 20x10G SFP+, 2x100G QSFP28, PTPv2 grandmaster/boundary with OCXO + GPS input for ST 2110.",
+ "jobs": [
+  {
+   "job": "switch_core_agg",
+   "role": "primary"
+  },
+  {
+   "job": "new:proav_media",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "rack_1u",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "ac",
+   "redundant_psu"
+  ],
+  "power_draw_w": 150,
+  "uplink": "100G QSFP28",
+  "ports": {
+   "rj45_1g": 1,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 20,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 2
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": "L3",
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [
+   "redundant_psu",
+   "hot_swap_psu",
+   "hot_swap_fans_3+1"
+  ],
+  "special": [
+   "etherlighting",
+   "PTPv2 hardware timestamping",
+   "OCXO clock",
+   "GPS SMA grandmaster input",
+   "serial console",
+   "SMPTE ST 2110 / AES67 / SDVoE"
+  ],
+  "requires": [
+   "SFP+/QSFP28 modules or DACs"
+  ],
+  "extra": {
+   "rj45_1g_note": "single 1GbE RJ45 (likely management)",
+   "qsfp_breakout": "not supported",
+   "ptp_lag": "PTPv2 not supported over aggregated ports"
+  }
+ },
+ "gotchas": [
+  "No PoE and essentially no copper (one 1GbE) — every endpoint needs SFP+ optics/DACs.",
+  "QSFP28 breakout cables are NOT supported, so the 100G ports can't fan out to 4x25G/4x10G.",
+  "PTP doesn't run over LAG ports — design media links without aggregation.",
+  "Full-depth 1U with 4 hot-swap fans; needs a 4-post rack.",
+  "Specialist broadcast/A/V switch — for general 10G aggregation an Aggregation/Pro Aggregation switch is far cheaper."
+ ],
+ "best_for": [
+  "broadcast/ProAV facilities needing ST 2110 / Dante / AES67 timing",
+  "100G fiber spine with PTP"
+ ],
+ "not_for": [
+  "general IT aggregation",
+  "PoE endpoints",
+  "copper-cabled sites"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

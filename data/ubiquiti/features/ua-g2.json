@@ -1,0 +1,77 @@
+{
+ "id": "ua-g2",
+ "name": "UA-G2",
+ "title": "Access G2 Reader",
+ "price": 139.0,
+ "line": "Access",
+ "legacy": false,
+ "summary": "Compact gen-2 NFC/BLE door reader with handwave exit, IP55, PoE; needs an Access hub.",
+ "jobs": [
+  {
+   "job": "access_reader",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "reader",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "access",
+  "power_in": [
+   "poe"
+  ],
+  "power_draw_w": 5,
+  "uplink": "100MbE",
+  "ports": null,
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": true,
+  "ip_rating": "IP55",
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [
+   "proximity"
+  ],
+  "redundancy": [],
+  "special": [
+   "NFC reader",
+   "mobile unlock",
+   "handwave REX"
+  ],
+  "requires": [
+   "UniFi Access Hub",
+   "UniFi Access on a console"
+  ],
+  "extra": {
+   "status": "SoldOut",
+   "ul294": "Level I"
+  }
+ },
+ "gotchas": [
+  "Reader only - needs a UniFi Access hub (e.g. Door Hub in UA-G2-SK) to drive the lock; for one-device doors use UA-Ultra.",
+  "Requires UniFi Access on a console.",
+  "NFC read range < 30 mm; FeliCa is ID-only.",
+  "IP55 - covered outdoor locations, not direct exposure."
+ ],
+ "best_for": [
+  "adding readers to existing Access hubs"
+ ],
+ "not_for": [
+  "standalone single doors"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "SoldOut"
+}

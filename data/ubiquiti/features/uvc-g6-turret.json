@@ -1,0 +1,92 @@
+{
+ "id": "uvc-g6-turret",
+ "name": "UVC-G6-Turret",
+ "title": "Camera G6 Turret",
+ "price": 199.0,
+ "line": "G6 camera",
+ "legacy": false,
+ "summary": "$199 IP66 4K turret, 1/1.8\" sensor, AI face/LPR, plain PoE.",
+ "jobs": [
+  {
+   "job": "camera_outdoor",
+   "role": "primary"
+  },
+  {
+   "job": "camera_indoor",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "camera_turret",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "protect",
+  "power_in": [
+   "poe"
+  ],
+  "power_draw_w": 12.5,
+  "uplink": "100M",
+  "ports": {
+   "rj45_1g": 0,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": true,
+  "ip_rating": "IP66",
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": {
+   "res": "4K",
+   "fps": 30,
+   "night": "IR 30m",
+   "ai": "person/vehicle/animal, face, LPR",
+   "lens": "fixed",
+   "audio": "mic"
+  },
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "IK04",
+   "3-axis manual adjust"
+  ],
+  "requires": [
+   "UniFi Protect console/NVR with storage"
+  ],
+  "extra": {
+   "network_port": "10/100 MbE RJ45 (on 30cm pigtail)"
+  }
+ },
+ "gotchas": [
+  "Requires a Protect console/NVR with storage — no onboard recording listed (G6 Edge models have 128 GB).",
+  "10/100 Mbps network port, fixed lens, no optical zoom.",
+  "IK04 only — not vandal-resistant (G6 Edge Dome is IK10).",
+  "Mic only, no speaker."
+ ],
+ "best_for": [
+  "general 4K exterior coverage on a budget"
+ ],
+ "not_for": [
+  "vandal-prone spots",
+  "zoom/long range"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

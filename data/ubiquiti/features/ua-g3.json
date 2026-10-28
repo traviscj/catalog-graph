@@ -1,0 +1,83 @@
+{
+ "id": "ua-g3",
+ "name": "UA-G3",
+ "title": "Access G3 Reader",
+ "price": 159.0,
+ "line": "Access",
+ "legacy": false,
+ "summary": "Compact IP55 NFC/BLE door reader with Touch Pass (Apple/Google Wallet) and hand-wave exit.",
+ "jobs": [
+  {
+   "job": "access_reader",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "reader",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "access",
+  "power_in": [
+   "poe"
+  ],
+  "power_draw_w": 5,
+  "uplink": "100M",
+  "ports": {
+   "rj45_1g": 0,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": true,
+  "ip_rating": "IP55",
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [
+   "proximity"
+  ],
+  "redundancy": [],
+  "special": [
+   "NFC",
+   "Apple/Google Wallet",
+   "mobile unlock",
+   "hand-wave REX"
+  ],
+  "requires": [
+   "UniFi Access Hub",
+   "UniFi Access console"
+  ],
+  "extra": {}
+ },
+ "gotchas": [
+  "Reader only — needs a UniFi Access Hub (or Door Hub Mini) to drive the lock; the G3 Starter Kit bundles one.",
+  "No keypad/PIN or camera — use Intercom or G3 Pro for those.",
+  "Requires a console running UniFi Access."
+ ],
+ "best_for": [
+  "single-door card/phone entry"
+ ],
+ "not_for": [
+  "PIN entry",
+  "video verification"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

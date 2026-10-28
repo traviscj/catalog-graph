@@ -1,0 +1,112 @@
+{
+ "id": "udm-se",
+ "name": "UDM-SE",
+ "title": "Dream Machine Special Edition",
+ "price": 499.0,
+ "line": "Cloud Gateway",
+ "legacy": false,
+ "summary": "1U rack Cloud Gateway: 10G SFP+ WAN/LAN, 8-port PoE switch, 3.5in NVR bay, runs all UniFi apps.",
+ "jobs": [
+  {
+   "job": "gateway_router",
+   "role": "primary"
+  },
+  {
+   "job": "console_host",
+   "role": "primary"
+  },
+  {
+   "job": "nvr_recording",
+   "role": "secondary"
+  },
+  {
+   "job": "switch_poe_edge",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "rack_1u",
+  "requires_console": false,
+  "hosts_apps": [
+   "network",
+   "protect",
+   "access",
+   "talk",
+   "connect"
+  ],
+  "managed_by": "network",
+  "power_in": [
+   "ac",
+   "dc"
+  ],
+  "power_draw_w": 50,
+  "uplink": "10G SFP+",
+  "ports": {
+   "rj45_1g": 8,
+   "rj45_2_5g": 1,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 2,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": null,
+  "poe_out_types": [
+   "poe",
+   "poe+"
+  ],
+  "poe_budget_w": 180,
+  "layer": null,
+  "wan_ports_max": 8,
+  "ips_throughput_gbps": 3.5,
+  "routing_throughput_gbps": null,
+  "max_devices": 100,
+  "max_clients": 1000,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": "1x 3.5\" NVR HDD bay + 128 GB SSD",
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [
+   "shadow_mode_ha",
+   "dc_power_backup_rps"
+  ],
+  "special": [
+   "built-in PoE switch",
+   "1.3\" touchscreen",
+   "OSPF/BGP",
+   "NVR bay"
+  ],
+  "requires": [],
+  "extra": {
+   "managed_cameras": "(24) HD / (14) 2K / (8) 4K",
+   "managed_access_hubs": 150,
+   "default_wan": "(1) 10G SFP+ + (1) 2.5GbE RJ45",
+   "poe_port_split": "specs give per-port caps (PoE 15.4W / PoE+ 30W) and 180W budget but not how many of ports 1-8 are PoE vs PoE+"
+  }
+ },
+ "gotchas": [
+  "The 8 LAN ports are 1GbE; only one 2.5GbE RJ45 (default WAN) — multi-gig APs/NAS need a downstream switch such as USW-Pro-Max-16 or USW-Pro-XG.",
+  "IDS/IPS tops out at 3.5 Gbps — with a 5-10G ISP and IPS on, routing is capped well below the 10G SFP+ WAN.",
+  "Single 3.5\" NVR bay, no RAID: recording is limited to ~8 4K cameras with no drive redundancy — offload Protect to a UNVR/UNVR-Pro for larger fleets.",
+  "No built-in WiFi — budget for APs (e.g. U7 Pro); UDR-5G-Max/Dream Router line is the all-in-one alternative.",
+  "Shadow Mode HA requires a second UDM-SE; DC backup requires a USP-RPS."
+ ],
+ "best_for": [
+  "SMB/prosumer rack with 1-10G WAN wanting one box for gateway + Protect",
+  "sites up to ~100 UniFi devices"
+ ],
+ "not_for": [
+  "multi-gig LAN without an extra switch",
+  "large camera fleets (>8 4K)",
+  "WiFi-only small homes"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

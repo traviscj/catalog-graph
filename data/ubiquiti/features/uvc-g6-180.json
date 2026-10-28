@@ -1,0 +1,84 @@
+{
+ "id": "uvc-g6-180",
+ "name": "UVC-G6-180",
+ "title": "Camera G6 180",
+ "price": 299.0,
+ "line": "G6 camera",
+ "legacy": false,
+ "summary": "Dual-sensor 16MP 180° panoramic PoE+ camera with AI (face/LPR), IR 20m, IP66.",
+ "jobs": [
+  {
+   "job": "camera_ptz_wide",
+   "role": "primary"
+  },
+  {
+   "job": "camera_outdoor",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "camera_panoramic",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "protect",
+  "power_in": [
+   "poe+"
+  ],
+  "power_draw_w": 15,
+  "uplink": "100M",
+  "ports": null,
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": true,
+  "ip_rating": "IP66",
+  "storage": "microSD slot",
+  "max_storage_tb": null,
+  "camera": {
+   "res": "16MP dual 4K (7680x2160, 3.5:1)",
+   "fps": 20,
+   "night": "IR 20m",
+   "ai": "people/vehicle, face, LPR",
+   "lens": "2x fixed, 180°H x 56.7°V",
+   "audio": "two-way"
+  },
+  "sensors": [],
+  "redundancy": [],
+  "special": [],
+  "requires": [
+   "UniFi Protect console/NVR with storage",
+   "PoE+ source"
+  ],
+  "extra": {
+   "tamper": "IK04",
+   "net_port": "10/100 MbE"
+  }
+ },
+ "gotchas": [
+  "Needs UniFi Protect on a console/NVR with storage — no standalone recording to cloud.",
+  "Requires PoE+ (15W); 20 FPS max, not 30.",
+  "10/100 network port — fine for the stream but no GbE.",
+  "IK04 only — not vandal-resistant; AI Turret (IK08) for reachable mounts."
+ ],
+ "best_for": [
+  "wide yards/driveways with one camera",
+  "storefront panoramas"
+ ],
+ "not_for": [
+  "vandal-exposed low mounts",
+  "fast motion 30 FPS needs"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

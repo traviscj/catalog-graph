@@ -1,0 +1,110 @@
+{
+ "id": "eav-xg-24-poe",
+ "name": "EAV-XG-24-PoE",
+ "title": "Switch Enterprise Audio/Video XG 24 PoE",
+ "price": 3999.0,
+ "line": "Enterprise AV switch",
+ "legacy": false,
+ "summary": "1U full-depth ProAV switch: 24x 10G PoE+++ (90 W) ports, 4x 100G QSFP28, PTP grandmaster/OCXO.",
+ "jobs": [
+  {
+   "job": "switch_poe_edge",
+   "role": "primary"
+  },
+  {
+   "job": "switch_core_agg",
+   "role": "secondary"
+  },
+  {
+   "job": "new",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "rack_1u",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "ac",
+   "redundant_psu"
+  ],
+  "power_draw_w": 2400,
+  "uplink": "100G QSFP28",
+  "ports": {
+   "rj45_1g": 1,
+   "rj45_2_5g": 0,
+   "rj45_10g": 24,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 4
+  },
+  "poe_out_ports": 24,
+  "poe_out_types": [
+   "poe",
+   "poe+",
+   "poe++",
+   "poe_bt_90w"
+  ],
+  "poe_budget_w": 2150,
+  "layer": "L3 lite",
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [
+   "redundant_psu",
+   "hot-swap fans 3+1"
+  ],
+  "special": [
+   "etherlighting",
+   "PTPv2 grandmaster/boundary/transparent",
+   "GPS SMA input",
+   "OCXO clock",
+   "SMPTE ST 2110/AES67",
+   "serial console"
+  ],
+  "requires": [
+   "4-post rack (or center-mount bracket / cantilever shelf)",
+   "QSFP28 optics/DACs (no breakout)",
+   "UniFi console/gateway"
+  ],
+  "extra": {
+   "poe_budget_modes": "240V shared 2,150W; 120V shared 1,850W; 240V redundant 1,050W; 120V redundant 850W",
+   "fans": 4,
+   "half_duplex": "10/100M half-duplex not supported",
+   "ptp_lag": "PTPv2 not supported over aggregated ports"
+  }
+ },
+ "gotchas": [
+  "PoE budget collapses in redundant-PSU mode: 850 W at 120 V (≈35 W/port across 24) vs 2,150 W shared at 240 V.",
+  "Full-depth 9.95 kg chassis — needs a 4-post rack (or center-mount/cantilever on 2-post).",
+  "100G QSFP28 breakout cables are not supported — can't fan out to 4x25G.",
+  "4 hot-swap fans — not for quiet rooms.",
+  "PTPv2 doesn't work over LACP-aggregated ports.",
+  "$3,999 ProAV niche — for ordinary 10G PoE edge, USW-Pro-XG-10-PoE is far cheaper."
+ ],
+ "best_for": [
+  "broadcast / ST 2110 / Dante / SDVoE AV",
+  "high-power 90 W PoE endpoints"
+ ],
+ "not_for": [
+  "home / SMB",
+  "quiet spaces"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

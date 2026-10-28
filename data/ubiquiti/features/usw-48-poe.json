@@ -1,0 +1,88 @@
+{
+ "id": "usw-48-poe",
+ "name": "USW-48-POE",
+ "title": "Switch 48 PoE",
+ "price": 589.0,
+ "line": "Standard switch",
+ "legacy": false,
+ "summary": "1U fanless L2 switch: 48x 1G (32 PoE+), 4x 1G SFP, 195 W budget.",
+ "jobs": [
+  {
+   "job": "switch_poe_edge",
+   "role": "primary"
+  },
+  {
+   "job": "switch_edge",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "rack_1u",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "ac"
+  ],
+  "power_draw_w": 240,
+  "uplink": "1G SFP",
+  "ports": {
+   "rj45_1g": 48,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 4,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 32,
+  "poe_out_types": [
+   "poe",
+   "poe+"
+  ],
+  "poe_budget_w": 195,
+  "layer": "L2",
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "fanless/silent",
+   "1.3\" touchscreen"
+  ],
+  "requires": [
+   "UniFi console/gateway"
+  ],
+  "extra": {}
+ },
+ "gotchas": [
+  "Only 32 of 48 ports supply PoE, and 195 W is ~6 W/port if all 32 are loaded.",
+  "Uplinks are 1G SFP — no SFP+, so the whole 48-port switch shares 1 Gbps (or a 4G LAG) upstream; USW-Pro-Max-48-PoE fixes this.",
+  "All copper is 1 GbE — no multi-gig for WiFi 6E/7 APs.",
+  "L2 only — inter-VLAN routing stays on the gateway.",
+  "Requires a UniFi console/gateway to adopt."
+ ],
+ "best_for": [
+  "quiet closets with many 1G drops",
+  "budget camera/phone PoE"
+ ],
+ "not_for": [
+  "multi-gig APs",
+  "10G uplink"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

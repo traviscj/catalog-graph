@@ -1,0 +1,100 @@
+{
+ "id": "ecs-48s",
+ "name": "ECS-48S",
+ "title": "Switch Enterprise Campus 48S",
+ "price": 2999.0,
+ "line": "Enterprise Campus switch",
+ "legacy": false,
+ "summary": "48-port L3 stackable Etherlighting campus switch (32x 2.5G, 16x 10G, 4x 25G, 100G stacking); no PoE.",
+ "jobs": [
+  {
+   "job": "switch_edge",
+   "role": "primary"
+  },
+  {
+   "job": "switch_core_agg",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "rack_1u",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "ac",
+   "redundant_psu"
+  ],
+  "power_draw_w": 250,
+  "uplink": "25G SFP28",
+  "ports": {
+   "rj45_1g": 0,
+   "rj45_2_5g": 32,
+   "rj45_10g": 16,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 4,
+   "qsfp28_100g": 2
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": "L3",
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [
+   "redundant_psu",
+   "hot_swap_fans",
+   "stacking"
+  ],
+  "special": [
+   "etherlighting",
+   "stackable",
+   "1.3\" touchscreen",
+   "OOB mgmt port",
+   "serial console"
+  ],
+  "requires": [
+   "UniFi Network 10.6.101+",
+   "4-post rack (full depth)"
+  ],
+  "extra": {
+   "qsfp28_note": "100G QSFP28 ports are stacking-only; no uplink, no breakout",
+   "oob_port": "(1) 1 GbE RJ45 OOB management only (not counted)",
+   "stacking": "up to 4 switches, same port count only; cross-stack LAG up to 8 ports",
+   "tags_empty": true,
+   "switching_capacity_gbps": 680
+  }
+ },
+ "gotchas": [
+  "No PoE at all ('S' = stacking) - for powered APs/cameras pick ECS-24-PoE or a Pro HD PoE model.",
+  "The 2x 100G QSFP28 ports are stacking-only: not usable as uplinks and no breakout cables.",
+  "Stacks only with same-port-count switches (max 4) - can't mix with 24-port ECS units.",
+  "Full-depth 4-post rack, 4 hot-swap fans - datacenter/closet noise levels."
+ ],
+ "best_for": [
+  "dense multi-gig access layers in enterprise closets",
+  "stacked HA distribution"
+ ],
+ "not_for": [
+  "PoE devices",
+  "homes",
+  "uplinking via 100G"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

@@ -1,0 +1,93 @@
+{
+ "id": "ecs-aggregation",
+ "name": "ECS-Aggregation",
+ "title": "Switch Enterprise Campus Aggregation",
+ "price": 3999.0,
+ "line": "Enterprise Campus switch",
+ "legacy": false,
+ "summary": "1U full-depth 48x 25G SFP28 + 6x 100G QSFP28 L3 aggregation switch with MC-LAG, hot-swap PSUs/fans.",
+ "jobs": [
+  {
+   "job": "switch_core_agg",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "rack_1u",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "ac",
+   "redundant_psu"
+  ],
+  "power_draw_w": 340,
+  "uplink": "100G QSFP28",
+  "ports": {
+   "rj45_1g": 0,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 48,
+   "qsfp28_100g": 6
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": "L3 lite",
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [
+   "redundant_psu",
+   "hot_swap_fans",
+   "mc_lag"
+  ],
+  "special": [
+   "etherlighting",
+   "1.3\" touchscreen",
+   "1.8 Tbps non-blocking"
+  ],
+  "requires": [
+   "UniFi OS console / gateway running UniFi Network (8.5.6+)",
+   "SFP28/QSFP28 optics or DACs",
+   "4-post rack (full depth)"
+  ],
+  "extra": {
+   "routing": "spec lists only static + inter-VLAN routing; no OSPF/BGP",
+   "breakout": "QSFP28 breakout cables NOT supported",
+   "mc_lag_members": 26
+  }
+ },
+ "gotchas": [
+  "All-optical: zero RJ45 data ports — every link needs an SFP28/QSFP28 module or DAC (budget it).",
+  "QSFP28 breakout is not supported, so the 100G ports cannot fan out to 4x25G.",
+  "MC-LAG HA only pairs with a second ECS-Aggregation — true redundancy means buying two.",
+  "Full-depth 1U, 340W, 5 hot-swap fans: needs a 4-post rack in a real equipment room, not a closet shelf.",
+  "Only static/inter-VLAN routing listed (L3 lite) — no dynamic routing for a true campus core."
+ ],
+ "best_for": [
+  "campus distribution layer aggregating many 10/25G access switches"
+ ],
+ "not_for": [
+  "homes",
+  "SMB without a fiber plant",
+  "RJ45 endpoints"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

@@ -1,0 +1,90 @@
+{
+ "id": "u7-outdoor",
+ "name": "U7-Outdoor",
+ "title": "Access Point U7 Outdoor",
+ "price": 199.0,
+ "line": "WiFi 7 outdoor",
+ "legacy": false,
+ "summary": "Outdoor WiFi 7 AP (2.4/5 GHz), 4 streams, directional super-antenna + external omni option, 2.5GbE, IPX6.",
+ "jobs": [
+  {
+   "job": "wifi_outdoor",
+   "role": "primary"
+  },
+  {
+   "job": "wifi_mesh_extend",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "outdoor",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "poe+"
+  ],
+  "power_draw_w": 19,
+  "uplink": "2.5GbE",
+  "ports": {
+   "rj45_1g": 0,
+   "rj45_2_5g": 1,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": 250,
+  "wifi_std": "WiFi 7",
+  "bands": [
+   "2.4",
+   "5"
+  ],
+  "streams": 4,
+  "coverage_m2": 465,
+  "outdoor_rated": true,
+  "ip_rating": "IPX6",
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "directional antenna",
+   "external omni antennas (RP-SMA)",
+   "mesh"
+  ],
+  "requires": [
+   "PoE+ source"
+  ],
+  "extra": {
+   "antenna_gain": "5G 12.5 dBi 45° directional / 4 dBi omni; 2.4G 8 dBi 90° / 3 dBi omni"
+  }
+ },
+ "gotchas": [
+  "No 6 GHz — outdoor WiFi 7 on 2.4/5 GHz only.",
+  "Internal antenna is directional (45° on 5 GHz) — for 360° coverage attach the external omnis.",
+  "Requires PoE+ (19W); 802.3af won't do.",
+  "2x2 per band; mesh works but halves throughput — wire it where possible."
+ ],
+ "best_for": [
+  "yards, patios, parking lots",
+  "point coverage across a field"
+ ],
+ "not_for": [
+  "6 GHz clients",
+  "PoE-only (af) runs"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

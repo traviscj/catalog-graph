@@ -1,0 +1,85 @@
+{
+ "id": "udb-pro",
+ "name": "UDB-Pro",
+ "title": "Device Bridge Pro",
+ "price": 199.0,
+ "line": "Device Bridge",
+ "legacy": false,
+ "summary": "5 GHz outdoor bridge, 19 dBi antenna, 5+ km links or uplink to UniFi WiFi; passive PoE out.",
+ "jobs": [
+  {
+   "job": "wireless_bridge",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "outdoor",
+  "requires_console": null,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "poe",
+   "poe+"
+  ],
+  "power_draw_w": 9,
+  "uplink": "1GbE",
+  "ports": {
+   "rj45_1g": 2,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 1,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": "WiFi 5",
+  "bands": [
+   "5"
+  ],
+  "streams": 2,
+  "coverage_m2": null,
+  "outdoor_rated": true,
+  "ip_rating": "IPX6",
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "19 dBi antenna",
+   "passive PoE output"
+  ],
+  "requires": [
+   "PoE+ input to use PoE output",
+   "line of sight"
+  ],
+  "extra": {
+   "range_km": 5,
+   "poe_out": "passive PoE output, not 802.3af/at",
+   "console": "no app requirement listed in specs"
+  }
+ },
+ "gotchas": [
+  "Point-to-point needs a second UDB-Pro (or a UniFi AP to uplink to) on the far end.",
+  "PoE output is passive, not 802.3af/at — confirm the remote device accepts it, and feed PoE+ to enable it.",
+  "867 Mbps PHY on 5 GHz WiFi 5 — real throughput well under 1 Gbps; needs clear line of sight."
+ ],
+ "best_for": [
+  "linking a garage/barn/camera pole"
+ ],
+ "not_for": [
+  "multi-gig backhaul"
+ ],
+ "confidence": "medium",
+ "in_store": true,
+ "status": "Available"
+}

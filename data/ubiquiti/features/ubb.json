@@ -1,0 +1,88 @@
+{
+ "id": "ubb",
+ "name": "UBB",
+ "title": "Building-to-Building Bridge",
+ "price": 279.0,
+ "line": "Wireless bridge",
+ "legacy": false,
+ "summary": "60 GHz point-to-point building bridge (1.7 Gbps, up to 500 m) with 5 GHz backup radio.",
+ "jobs": [
+  {
+   "job": "wireless_bridge",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "outdoor",
+  "requires_console": null,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "poe"
+  ],
+  "power_draw_w": 11,
+  "uplink": "1GbE",
+  "ports": {
+   "rj45_1g": 1,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [
+   "60",
+   "5"
+  ],
+  "streams": 2,
+  "coverage_m2": null,
+  "outdoor_rated": true,
+  "ip_rating": "IPX6",
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "5 GHz failover radio",
+   "PoE adapter included",
+   "Bluetooth setup"
+  ],
+  "requires": [],
+  "extra": {
+   "range_m": 500,
+   "max_rate_60ghz_gbps": 1.7,
+   "passive_48v": true,
+   "wifi_std_source": "WiFi 5 (backup radio)",
+   "console_note": "Bluetooth setup listed; console requirement not stated",
+   "pair": "sold as PtP; confirm 1 vs 2 units in box"
+  }
+ },
+ "gotchas": [
+  "60 GHz link fades in heavy rain/snow; falls back to the much slower 5 GHz radio (867 Mbps PHY).",
+  "1GbE port caps real throughput at ~1 Gbps despite 1.7 Gbps radio.",
+  "Needs clear line of sight; max 500 m.",
+  "Point-to-point only — not a client AP."
+ ],
+ "best_for": [
+  "linking a garage/outbuilding/second building up to 500 m"
+ ],
+ "not_for": [
+  "non-LOS links",
+  ">1 Gbps backhaul"
+ ],
+ "confidence": "medium",
+ "in_store": true,
+ "status": "Available"
+}

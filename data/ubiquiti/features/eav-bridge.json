@@ -1,0 +1,87 @@
+{
+ "id": "eav-bridge",
+ "name": "EAV-Bridge",
+ "title": "Enterprise Audio/Video Bridge",
+ "price": 299.0,
+ "line": "Connect / AV",
+ "legacy": false,
+ "summary": "PoE+ AV-over-IP transceiver (encoder or decoder): HDMI 2.0 4K60 + balanced XLR audio, video walls up to 8x8.",
+ "jobs": [
+  {
+   "job": "iot_premium",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "other",
+  "requires_console": null,
+  "hosts_apps": [],
+  "managed_by": null,
+  "power_in": [
+   "poe+"
+  ],
+  "power_draw_w": 14,
+  "uplink": "1GbE",
+  "ports": {
+   "rj45_1g": 1,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "etherlighting port",
+   "HDMI 2.0 4K60 in/out",
+   "XLR in/out with 48V phantom",
+   "IR in/out",
+   "1.3\" touchscreen"
+  ],
+  "requires": [
+   "PoE+ source",
+   "matching EAV-Bridge at other end"
+  ],
+  "extra": {
+   "distribution": "1-to-1, 1-to-N, up to 8x8 video wall",
+   "mount": "DIN, wall, pole",
+   "management_note": "app not specified in specs"
+  }
+ },
+ "gotchas": [
+  "You need at least two — one as source, one per display/destination.",
+  "4K60 over a 1 GbE link means compressed video; 1-to-N needs multicast/IGMP-capable switching (Pro AV profiles on Pro Max/Pro XG).",
+  "Requires PoE+ (14W).",
+  "Managing app not stated in specs."
+ ],
+ "best_for": [
+  "conference rooms, video walls, pro-AV distribution"
+ ],
+ "not_for": [
+  "uncompressed AV",
+  "single-display homes"
+ ],
+ "confidence": "medium",
+ "in_store": true,
+ "status": "Available"
+}

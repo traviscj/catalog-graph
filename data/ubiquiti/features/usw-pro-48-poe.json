@@ -1,0 +1,88 @@
+{
+ "id": "usw-pro-48-poe",
+ "name": "USW-Pro-48-POE",
+ "title": "Switch Pro 48 PoE",
+ "price": 1099.0,
+ "line": "Pro switch",
+ "legacy": false,
+ "summary": "48-port 1GbE L3 PoE switch (40 PoE+, 8 PoE++), 4x10G SFP+, 600 W budget; previous Pro generation.",
+ "jobs": [
+  {
+   "job": "switch_poe_edge",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "rack_1u",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "ac"
+  ],
+  "power_draw_w": 660,
+  "uplink": "10G SFP+",
+  "ports": {
+   "rj45_1g": 48,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 4,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 48,
+  "poe_out_types": [
+   "poe",
+   "poe+",
+   "poe++"
+  ],
+  "poe_budget_w": 600,
+  "layer": "L3",
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [
+   "rps_dc_backup"
+  ],
+  "special": [
+   "Pro AV profiles",
+   "1.3in touchscreen"
+  ],
+  "requires": [
+   "SFP+ modules/DACs"
+  ],
+  "extra": {
+   "poe_split": "40 PoE+, 8 PoE++",
+   "generation_note": "still sold but no 2.5GbE / no Etherlighting — superseded in features by Pro Max line"
+  }
+ },
+ "gotchas": [
+  "All copper ports are 1GbE — no 2.5GbE for WiFi 7 APs; the Pro Max 48 PoE line adds 2.5GbE + Etherlighting.",
+  "600 W over 48 PoE ports averages 12.5 W/port; only 8 ports are PoE++.",
+  "No 802.3bt; 4x SFP+ uplinks require modules/DACs.",
+  "Fan-cooled 1U 400 mm deep — not a living-space device."
+ ],
+ "best_for": [
+  "dense 1G PoE closets (phones, cameras, WiFi 6 APs)"
+ ],
+ "not_for": [
+  "multi-gig APs",
+  "high-wattage PoE"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

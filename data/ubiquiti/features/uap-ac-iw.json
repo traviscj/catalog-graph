@@ -1,0 +1,84 @@
+{
+ "id": "uap-ac-iw",
+ "name": "UAP-AC-IW",
+ "title": "Access Point AC In-Wall",
+ "price": null,
+ "line": "WiFi 5 (legacy)",
+ "legacy": true,
+ "summary": "Legacy WiFi 5 in-wall AP with 2 extra GbE jacks; PoE passthrough with PoE+ input.",
+ "jobs": [
+  {
+   "job": "wifi_wall",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "in_wall",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "poe",
+   "poe+"
+  ],
+  "power_draw_w": 7,
+  "uplink": "1GbE",
+  "ports": {
+   "rj45_1g": 3,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": null,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": 250,
+  "wifi_std": "WiFi 5",
+  "bands": [
+   "2.4",
+   "5"
+  ],
+  "streams": 4,
+  "coverage_m2": 25,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "PoE passthrough",
+   "built-in 2-port switch"
+  ],
+  "requires": [],
+  "extra": {
+   "passthrough_ports_count": "not stated; PoE+ input required for passthrough",
+   "wireless_meshing_listed": true
+  }
+ },
+ "gotchas": [
+  "Discontinued WiFi 5 - get a current in-wall AP (U6 In-Wall / U7 In-Wall class) for new installs.",
+  "Only 25 m^2 coverage - one room.",
+  "PoE passthrough only works if fed with PoE+; on plain PoE the downstream device gets no power.",
+  "No WiFi 6/6 GHz; 867 Mbps max on 5 GHz."
+ ],
+ "best_for": [
+  "replacing an existing unit in place"
+ ],
+ "not_for": [
+  "new builds",
+  "modern clients"
+ ],
+ "confidence": "high",
+ "in_store": false,
+ "status": null
+}

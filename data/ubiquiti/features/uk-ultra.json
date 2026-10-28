@@ -1,0 +1,89 @@
+{
+ "id": "uk-ultra",
+ "name": "UK-Ultra",
+ "title": "Swiss Army Knife",
+ "price": 89.0,
+ "line": "WiFi 5 compact outdoor",
+ "legacy": false,
+ "summary": "Swiss Army Knife: tiny indoor/outdoor WiFi 5 AP, 2x2 dual-band, IPX6, RP-SMA external antenna option.",
+ "jobs": [
+  {
+   "job": "wifi_outdoor",
+   "role": "primary"
+  },
+  {
+   "job": "wifi_mesh_extend",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "outdoor",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "poe"
+  ],
+  "power_draw_w": 8,
+  "uplink": "1GbE",
+  "ports": {
+   "rj45_1g": 1,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": 200,
+  "wifi_std": "WiFi 5",
+  "bands": [
+   "2.4",
+   "5"
+  ],
+  "streams": 4,
+  "coverage_m2": 115,
+  "outdoor_rated": true,
+  "ip_rating": "IPX6",
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "external antennas (2x RP-SMA)",
+   "-40–60°C",
+   "mesh"
+  ],
+  "requires": [],
+  "extra": {
+   "status": "SoldOut",
+   "generation_note": "current product but WiFi 5 radio"
+  }
+ },
+ "gotchas": [
+  "WiFi 5 only (867 Mbps 5 GHz, 80 MHz) — no WiFi 6/7 or 6 GHz; U7 Outdoor for modern clients.",
+  "1 GbE, 2x2 — a coverage tool, not a capacity AP.",
+  "Currently sold out in store.",
+  "Long range needs optional external antennas on the RP-SMA ports."
+ ],
+ "best_for": [
+  "barns, sheds, remote low-client spots",
+  "IoT/camera coverage outdoors"
+ ],
+ "not_for": [
+  "high-throughput outdoor WiFi",
+  "6 GHz"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "SoldOut"
+}

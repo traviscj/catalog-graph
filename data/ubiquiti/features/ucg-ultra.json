@@ -1,0 +1,91 @@
+{
+ "id": "ucg-ultra",
+ "name": "UCG-Ultra",
+ "title": "Cloud Gateway Ultra",
+ "price": 129.0,
+ "line": "Cloud Gateway",
+ "legacy": false,
+ "summary": "Compact USB-C-powered Cloud Gateway: 1 Gbps IPS, 2.5G WAN, 4x GbE LAN, Network app only.",
+ "jobs": [
+  {
+   "job": "gateway_router",
+   "role": "primary"
+  },
+  {
+   "job": "console_host",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "desktop",
+  "requires_console": false,
+  "hosts_apps": [
+   "network"
+  ],
+  "managed_by": "network",
+  "power_in": [
+   "usb_c"
+  ],
+  "power_draw_w": 6.2,
+  "uplink": "2.5GbE",
+  "ports": {
+   "rj45_1g": 4,
+   "rj45_2_5g": 1,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": 4,
+  "ips_throughput_gbps": 1,
+  "routing_throughput_gbps": null,
+  "max_devices": 30,
+  "max_clients": 300,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": "16 GB on-board (system only)",
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "0.96\" status display",
+   "multi-WAN load balancing",
+   "BGP/OSPF"
+  ],
+  "requires": [],
+  "extra": {
+   "ram_gb": 3,
+   "status": "SoldOut",
+   "tag_25-gbe": "means 2.5 GbE WAN"
+  }
+ },
+ "gotchas": [
+  "Hosts UniFi Network only - no Protect/Access/Talk; cameras need a separate NVR (UNVR / UNVR-Instant) or a bigger gateway (UCG-Max / UDM-Pro class).",
+  "IPS/IDS throughput caps at 1 Gbps - on >1 Gbps fiber with IPS on, it becomes the bottleneck.",
+  "LAN ports are 1 GbE and no PoE output; you still need a PoE switch for APs.",
+  "30-device / 300-client ceiling - fine for a home, tight for a growing office."
+ ],
+ "best_for": [
+  "homes and small offices on <=1 Gbps WAN",
+  "cheapest entry to UniFi Network",
+  "branch sites with Site Magic VPN"
+ ],
+ "not_for": [
+  "camera recording",
+  "multi-gig WAN with IPS",
+  "large device counts"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "SoldOut"
+}

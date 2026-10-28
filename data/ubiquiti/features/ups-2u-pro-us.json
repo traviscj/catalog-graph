@@ -1,0 +1,90 @@
+{
+ "id": "ups-2u-pro-us",
+ "name": "UPS-2U-Pro-US",
+ "title": "UPS 2U Pro",
+ "price": 679.0,
+ "line": "Power Tech (UPS)",
+ "legacy": false,
+ "summary": "2U 1920VA/1920W line-interactive pure-sine UPS, 8 managed NEMA 5-20R outlets, 720Wh hot-swap battery.",
+ "jobs": [
+  {
+   "job": "power_backup",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "rack_2u",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "ac"
+  ],
+  "power_draw_w": null,
+  "uplink": "100M",
+  "ports": null,
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "8 individually switchable outlets with per-port monitoring",
+   "pure sine wave",
+   "3.7\" touchscreen",
+   "EPO",
+   "hot-swap battery"
+  ],
+  "requires": [
+   "NEMA 5-20 (20A 120V) receptacle"
+  ],
+  "extra": {
+   "status": "SoldOut",
+   "capacity": "1920VA/1920W",
+   "runtime_min": {
+    "full": 9,
+    "half": 22
+   },
+   "battery": "lead acid 72V 10Ah (720Wh)",
+   "recharge": "8h to 90%",
+   "transfer_ms": "6 typ / 10 max",
+   "voltage": "120V only (89–145V)",
+   "weight_kg": 32,
+   "depth_mm": 630,
+   "min_network_version": "10.5.67",
+   "surge_ports": "2x GbE surge in/out"
+  }
+ },
+ "gotchas": [
+  "NEMA 5-20P plug — needs a 20A 120V receptacle; won't plug into a standard 15A outlet.",
+  "US 120V-only model; 32 kg and 630 mm deep — 4-post rack required.",
+  "Runtime is short: 9 min at full load, 22 min at half (960W); lead-acid, 8h recharge.",
+  "Currently sold out; managed via UniFi Network 10.5.67+ on a console."
+ ],
+ "best_for": [
+  "UniFi racks wanting remote outlet power-cycling"
+ ],
+ "not_for": [
+  "long runtime",
+  "230V regions",
+  "15A circuits"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "SoldOut"
+}

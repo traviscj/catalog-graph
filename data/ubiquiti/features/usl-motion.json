@@ -1,0 +1,86 @@
+{
+ "id": "usl-motion",
+ "name": "USL-Motion",
+ "title": "Motion Sensor",
+ "price": 49.0,
+ "line": "SuperLink",
+ "legacy": false,
+ "summary": "Battery PIR motion sensor (CR123A, ~6 yr) on UniFi SuperLink, pet-immune, for Protect alarms.",
+ "jobs": [
+  {
+   "job": "alarm_sensor",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "mini",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "protect",
+  "power_in": [
+   "battery"
+  ],
+  "power_draw_w": 0.0226,
+  "uplink": null,
+  "ports": {
+   "rj45_1g": 0,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [
+   "motion"
+  ],
+  "redundancy": [],
+  "special": [
+   "pet immunity",
+   "tamper switch",
+   "6-yr battery"
+  ],
+  "requires": [
+   "USL-Gateway (SuperLink hub)",
+   "UniFi Protect on a console/NVR with storage (e.g. UCG-Max w/ SSD, UNVR-Instant, ENVR)"
+  ],
+  "extra": {
+   "range": "PIR 6 m vertical / 1.5 m horizontal; SuperLink 2 km LOS",
+   "temp": "0–40 C (indoor)"
+  }
+ },
+ "gotchas": [
+  "Needs a USL-Gateway (SuperLink hub) — which is currently sold out.",
+  "0–40 °C rated with no IP rating: indoor only.",
+  "Requires a console running UniFi Protect.",
+  "PIR range is only 6 m."
+ ],
+ "best_for": [
+  "indoor intrusion zones"
+ ],
+ "not_for": [
+  "outdoor",
+  "no-Protect sites"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

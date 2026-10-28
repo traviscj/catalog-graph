@@ -1,0 +1,88 @@
+{
+ "id": "usw-industrial-din-8",
+ "name": "USW-Industrial-DIN-8",
+ "title": "Switch Industrial DIN 8",
+ "price": 279.0,
+ "line": "Industrial switch",
+ "legacy": false,
+ "summary": "Hardened DIN-rail 8x GbE L2 switch with 2x 1G SFP, dual 12-60V DC inputs, -30 to 70 C.",
+ "jobs": [
+  {
+   "job": "switch_industrial",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "din",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "dc",
+   "redundant_psu"
+  ],
+  "power_draw_w": 12,
+  "uplink": "1G SFP",
+  "ports": {
+   "rj45_1g": 8,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 2,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": "L2",
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [
+   "dual_dc_input"
+  ],
+  "special": [
+   "alarm relay (dry contact)",
+   "serial console",
+   "fanless aluminum"
+  ],
+  "requires": [
+   "12-60V DC power supply (not included)"
+  ],
+  "extra": {
+   "status": "ComingSoon",
+   "temp_c": "-30 to 70",
+   "no_ip_rating": true
+  }
+ },
+ "gotchas": [
+  "No PoE output - can't power cameras/APs; pair with a DC PoE source.",
+  "DC terminal-block power only and the PSU isn't included.",
+  "1 GbE / 1G SFP only - no multi-gig.",
+  "Status ComingSoon at time of scrape; no IP rating, so outdoor use needs an enclosure."
+ ],
+ "best_for": [
+  "control cabinets, factories, kiosks",
+  "wide-temp DC-powered sites"
+ ],
+ "not_for": [
+  "PoE devices",
+  "home closets"
+ ],
+ "confidence": "medium",
+ "in_store": true,
+ "status": "ComingSoon"
+}

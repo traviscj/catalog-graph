@@ -1,0 +1,99 @@
+{
+ "id": "umr-industrial-us",
+ "name": "UMR-Industrial",
+ "title": "Mobile Router Industrial",
+ "price": 199.0,
+ "line": "Mobile Router",
+ "legacy": false,
+ "summary": "Rugged IP66 LTE Cat 4 router (unlocked, US bands) with WiFi 4, 2 GbE, PoE in/out, GPS.",
+ "jobs": [
+  {
+   "job": "internet_backup",
+   "role": "primary"
+  },
+  {
+   "job": "gateway_router",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "outdoor",
+  "requires_console": null,
+  "hosts_apps": [],
+  "managed_by": null,
+  "power_in": [
+   "poe+",
+   "usb_c",
+   "dc"
+  ],
+  "power_draw_w": 12.5,
+  "uplink": "LTE Cat 4",
+  "ports": {
+   "rj45_1g": 2,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 1,
+  "poe_out_types": [
+   "poe"
+  ],
+  "poe_budget_w": 10,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [
+   "2.4"
+  ],
+  "streams": 2,
+  "coverage_m2": null,
+  "outdoor_rated": true,
+  "ip_rating": "IP66",
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "LTE Cat 4 150/50 Mbps",
+   "GPS",
+   "carrier unlocked",
+   "WAN failover",
+   "WireGuard/OpenVPN client",
+   "DIN/wall/pole mount"
+  ],
+  "requires": [
+   "Nano SIM / data plan",
+   "PoE+ source to use PoE passthrough"
+  ],
+  "extra": {
+   "status": "SoldOut",
+   "wifi": "WiFi 4 (802.11n) 2.4 GHz 2x2 — schema wifi_std has no WiFi 4",
+   "lte_bands": "B2/4/5/12/13/14/25/26/66/71",
+   "ip_note": "IP66 only with outdoor cover",
+   "management_note": "management app not stated in specs"
+  }
+ },
+ "gotchas": [
+  "LTE Cat 4 caps at 150/50 Mbps — a backup/IoT link, not a primary broadband replacement.",
+  "WiFi is 2.4 GHz WiFi 4 only.",
+  "PoE output is just 10 W and only when fed by PoE+.",
+  "US band set (-US SKU); IP66 requires the outdoor cover. Sold out."
+ ],
+ "best_for": [
+  "remote IoT sites, vehicles, failover for small sites"
+ ],
+ "not_for": [
+  "high-bandwidth primary internet"
+ ],
+ "confidence": "medium",
+ "in_store": true,
+ "status": "SoldOut"
+}

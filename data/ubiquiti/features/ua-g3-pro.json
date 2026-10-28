@@ -1,0 +1,93 @@
+{
+ "id": "ua-g3-pro",
+ "name": "UA-G3-Pro",
+ "title": "Access G3 Reader Pro",
+ "price": 379.0,
+ "line": "Access G3",
+ "legacy": false,
+ "summary": "Indoor/outdoor NFC/PIN/face/mobile reader with 4.7in touch display, camera and two-way intercom.",
+ "jobs": [
+  {
+   "job": "access_reader",
+   "role": "primary"
+  },
+  {
+   "job": "intercom",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "reader",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "access",
+  "power_in": [
+   "poe"
+  ],
+  "power_draw_w": 6,
+  "uplink": "1GbE",
+  "ports": null,
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": true,
+  "ip_rating": "IP55",
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": {
+   "res": "2MP video (12MP sensor)",
+   "fps": 30,
+   "night": null,
+   "ai": null,
+   "lens": null,
+   "audio": "two-way"
+  },
+  "sensors": [
+   "proximity"
+  ],
+  "redundancy": [],
+  "special": [
+   "NFC",
+   "PIN",
+   "face unlock",
+   "Apple/Google Wallet",
+   "Touch Pass",
+   "QR visitor",
+   "4.7\" touch display"
+  ],
+  "requires": [
+   "UniFi Access on a console (Protect too for camera)",
+   "UniFi Access Hub to drive the lock"
+  ],
+  "extra": {
+   "camera_oddity": "optics 12MP, video stream 2MP",
+   "display_temp": "-10 to 45C (display off outside)",
+   "ul294": "Level I"
+  }
+ },
+ "gotchas": [
+  "No lock relay in the reader — pair with an Access hub (e.g. UA-Hub-Door-Mini) to actually release a door.",
+  "Needs UniFi Access (and Protect for the camera) on a UniFi console.",
+  "Camera streams only 2MP despite 12MP optics.",
+  "Display shuts off below -10°C; IP55 favors covered mounting."
+ ],
+ "best_for": [
+  "front doors needing intercom + every credential type"
+ ],
+ "not_for": [
+  "budget card-only doors (G3 Fingerprint/Reader)"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

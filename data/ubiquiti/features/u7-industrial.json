@@ -1,0 +1,85 @@
+{
+ "id": "u7-industrial",
+ "name": "U7-Industrial",
+ "title": "Access Point U7 Industrial",
+ "price": 349.0,
+ "line": "WiFi 7 Industrial",
+ "legacy": false,
+ "summary": "IP67 dual-band WiFi 7 AP, -40..70°C, directional reflectors or external omni, 2.5GbE, PoE.",
+ "jobs": [
+  {
+   "job": "wifi_outdoor",
+   "role": "primary"
+  },
+  {
+   "job": "switch_industrial",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "outdoor",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "poe"
+  ],
+  "power_draw_w": 13,
+  "uplink": "2.5GbE",
+  "ports": {
+   "rj45_1g": 0,
+   "rj45_2_5g": 1,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": 200,
+  "wifi_std": "WiFi 7",
+  "bands": [
+   "2.4",
+   "5"
+  ],
+  "streams": 4,
+  "coverage_m2": 465,
+  "outdoor_rated": true,
+  "ip_rating": "IP67",
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "adjustable reflector antennas",
+   "external omni option",
+   "extended temp -40..70°C"
+  ],
+  "requires": [],
+  "extra": {}
+ },
+ "gotchas": [
+  "No 6 GHz — 2.4/5 GHz only.",
+  "Default pattern is directional (~95°); omni needs the included external antennas — choose per site.",
+  "IP67 only with the cable gland installed correctly.",
+  "Requires a UniFi console."
+ ],
+ "best_for": [
+  "warehouses, yards, industrial and extreme-temp outdoor coverage"
+ ],
+ "not_for": [
+  "6 GHz",
+  "ceiling office installs"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

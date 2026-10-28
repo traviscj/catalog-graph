@@ -1,0 +1,93 @@
+{
+ "id": "ua-g3-sk",
+ "name": "UA-G3-SK",
+ "title": "Access G3 Starter Kit",
+ "price": 299.0,
+ "line": "Access",
+ "legacy": false,
+ "summary": "Single-door Access kit: Door Hub Mini + G3 Reader + 2 keyfobs + 10 Touch Passes.",
+ "jobs": [
+  {
+   "job": "access_reader",
+   "role": "primary"
+  },
+  {
+   "job": "access_hub_lock",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "other",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "access",
+  "power_in": [
+   "poe++"
+  ],
+  "power_draw_w": 50,
+  "uplink": "GbE",
+  "ports": {
+   "rj45_1g": 3,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 2,
+  "poe_out_types": [
+   "poe",
+   "poe+"
+  ],
+  "poe_budget_w": 45,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "NFC",
+   "Apple/Google Wallet",
+   "dry/wet relay switchable",
+   "10 free 1-yr Touch Passes"
+  ],
+  "requires": [
+   "PoE++ source for hub",
+   "UniFi Access console",
+   "door lock hardware"
+  ],
+  "extra": {
+   "kit": "Door Hub Mini + G3 Reader + 2 Pocket Keyfobs",
+   "spec_oddity": "includes 'G3 Reader Pro' optics section though kit lists G3 Reader",
+   "hub_temp": "Door Hub Mini 0–40°C, indoor"
+  }
+ },
+ "gotchas": [
+  "Lock not included; Door Hub Mini supports exactly one door.",
+  "Hub needs PoE++ in; outputs share 45 W.",
+  "Touch Passes are 1-year free, then subscription-style.",
+  "Requires a console running UniFi Access (e.g., UCG-Fiber)."
+ ],
+ "best_for": [
+  "first UniFi Access door"
+ ],
+ "not_for": [
+  "multi-door rollouts"
+ ],
+ "confidence": "medium",
+ "in_store": true,
+ "status": "Available"
+}

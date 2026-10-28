@@ -1,0 +1,82 @@
+{
+ "id": "usw-pro-48",
+ "name": "USW-Pro-48",
+ "title": "Switch Pro 48",
+ "price": null,
+ "line": "Pro switch (legacy)",
+ "legacy": true,
+ "summary": "Legacy fanless 1U L3 48x GbE switch with 4x 10G SFP+; no PoE. Not in store.",
+ "jobs": [
+  {
+   "job": "switch_edge",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "rack_1u",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "ac",
+   "dc"
+  ],
+  "power_draw_w": 60,
+  "uplink": "10G SFP+",
+  "ports": {
+   "rj45_1g": 48,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 4,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": "L3",
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [
+   "rps_dc_backup"
+  ],
+  "special": [
+   "fanless",
+   "1.3\" touchscreen",
+   "Pro AV profiles"
+  ],
+  "requires": [],
+  "extra": {}
+ },
+ "gotchas": [
+  "Not sold in store (legacy) — modern replacement is USW-Pro-Max-48 / Pro Max 48 PoE.",
+  "All 48 copper ports are 1 GbE only — no 2.5G for WiFi 7 APs.",
+  "No PoE output; the PoE twin (USW-Pro-48-PoE) or Pro Max 48 PoE is needed for APs/cameras.",
+  "Fanless (good for quiet spaces) but MAC table 16k and 4 MB buffer vs 32k on Pro XG."
+ ],
+ "best_for": [
+  "quiet 1G access racks (used/existing installs)"
+ ],
+ "not_for": [
+  "new builds",
+  "PoE",
+  "multi-gig"
+ ],
+ "confidence": "high",
+ "in_store": false,
+ "status": null
+}

@@ -1,0 +1,84 @@
+{
+ "id": "ua-g3-flex",
+ "name": "UA-G3-Flex",
+ "title": "Access G3 Reader Flex",
+ "price": 199.0,
+ "line": "Access",
+ "legacy": false,
+ "summary": "G3 NFC reader with PIN keypad, Apple/Google Wallet Touch Pass and mobile unlock; IP55, PoE.",
+ "jobs": [
+  {
+   "job": "access_reader",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "reader",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "access",
+  "power_in": [
+   "poe"
+  ],
+  "power_draw_w": 5,
+  "uplink": "100MbE",
+  "ports": {
+   "rj45_1g": 0,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": true,
+  "ip_rating": "IP55",
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "NFC",
+   "PIN keypad",
+   "Apple/Google Wallet",
+   "mobile unlock",
+   "UL 294"
+  ],
+  "requires": [
+   "UniFi Access Hub",
+   "console running UniFi Access"
+  ],
+  "extra": {
+   "ports_note": "single 10/100 RJ45",
+   "nfc": "MIFARE Classic/DESFire, FeliCa ID only"
+  }
+ },
+ "gotchas": [
+  "A reader only — it can't drive a lock; needs a UniFi Access Hub (e.g. EAH-8 or a door hub) plus a console running Access.",
+  "No camera/intercom — use UA-G3-Intercom for visitor video.",
+  "Touch Pass (Wallet) credentials are a paid add-on per user in UniFi Access."
+ ],
+ "best_for": [
+  "office/residential doors with cards, PINs and phone wallets"
+ ],
+ "not_for": [
+  "visitor intercom"
+ ],
+ "confidence": "medium",
+ "in_store": true,
+ "status": "Available"
+}

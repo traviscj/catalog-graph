@@ -1,0 +1,103 @@
+{
+ "id": "ua-g3-sk-pro",
+ "name": "UA-G3-SK-Pro",
+ "title": "G3 Starter Kit Pro",
+ "price": 599.0,
+ "line": "Access",
+ "legacy": false,
+ "summary": "Single-door Access kit: PoE++ Door Hub (4 PoE out), G3 Reader Pro (camera/intercom), G3 Reader, 2 keyfobs.",
+ "jobs": [
+  {
+   "job": "access_hub_lock",
+   "role": "primary"
+  },
+  {
+   "job": "access_reader",
+   "role": "primary"
+  },
+  {
+   "job": "intercom",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "din",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "access",
+  "power_in": [
+   "poe++"
+  ],
+  "power_draw_w": 50,
+  "uplink": "1GbE",
+  "ports": {
+   "rj45_1g": 5,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 4,
+  "poe_out_types": [
+   "poe",
+   "poe+"
+  ],
+  "poe_budget_w": 45,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "lock relays (dry + 12V powered)",
+   "Touch Pass (10 free 1-yr)",
+   "face unlock",
+   "Apple/Google Wallet",
+   "UL 294"
+  ],
+  "requires": [
+   "PoE++ source for Door Hub",
+   "UniFi OS console running Access",
+   "door lock (not included)"
+  ],
+  "extra": {
+   "in_box": "Door Hub, G3 Reader Pro, G3 Reader, 2 keyfobs",
+   "hub_users": 6000,
+   "hub_doors": 1,
+   "poe_note": "30W per port, 45W aggregate",
+   "hub_temp": "0–40°C indoor",
+   "power_draw_note": "Hub 30W w/o PoE out, 50W with"
+  }
+ },
+ "gotchas": [
+  "Door Hub needs PoE++ input; its 4 PoE outputs share just 45W total.",
+  "One door per hub — using the G3 Reader for a second door's entry requires a second hub.",
+  "No lock included; lock cable runs are length-limited by gauge (e.g. 1A lock: 9 m at 24 AWG).",
+  "Requires a UniFi OS console running Access; Touch Pass beyond the 10 free 1-yr passes costs extra.",
+  "Hub is indoor-only (0–40°C) DIN-rail."
+ ],
+ "best_for": [
+  "first door on UniFi Access with entry + exit readers"
+ ],
+ "not_for": [
+  "multi-door from one hub",
+  "sites without a console"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

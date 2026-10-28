@@ -1,0 +1,95 @@
+{
+ "id": "e7-audience-indoor",
+ "name": "E7-Audience-Indoor",
+ "title": "Access Point E7 Audience Indoor",
+ "price": 1999.0,
+ "line": "Enterprise WiFi 7",
+ "legacy": false,
+ "summary": "Directional 12-stream WiFi 7 high-density AP (dual 6 GHz + 5 GHz), 10GbE + redundant GbE, PoE++.",
+ "jobs": [
+  {
+   "job": "wifi_highdensity",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "wall",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "poe++"
+  ],
+  "power_draw_w": 51,
+  "uplink": "10GbE",
+  "ports": {
+   "rj45_1g": 1,
+   "rj45_2_5g": 0,
+   "rj45_10g": 1,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": 1500,
+  "wifi_std": "WiFi 7",
+  "bands": [
+   "5",
+   "6"
+  ],
+  "streams": 12,
+  "coverage_m2": 465,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "directional antennas (15 dBi 50deg / 11 dBi 90deg)",
+   "dual 6 GHz radios",
+   "spectral analysis radio",
+   "redundant GbE port",
+   "PRISM RF filtering",
+   "6 GHz Extended Range (FCC/IC)"
+  ],
+  "requires": [
+   "PoE++ source (51W)",
+   "UniFi Network 10.0.162+"
+  ],
+  "extra": {
+   "no_2_4ghz": "spec lists only 6 GHz (low+high) and 5 GHz radios",
+   "certifications": "FCC, IC only",
+   "temp_c": "-40 to 60",
+   "no_ip_rating": "despite 'Indoor' name, -40C rating; no IP listed"
+  }
+ },
+ "gotchas": [
+  "No 2.4 GHz radio - legacy/IoT 2.4 GHz-only clients won't connect; add a normal AP for them.",
+  "Needs PoE++ (51 W) - PoE+ switches won't run it.",
+  "Directional patch antenna, wall/pole mount - for auditoriums/arenas, not general ceiling coverage.",
+  "FCC/IC certs only - check regulatory region.",
+  "~$1,999: wasted outside true high-density venues; U7 Pro Max / U7 Pro XG cover offices."
+ ],
+ "best_for": [
+  "auditoriums, lecture halls, arenas",
+  "very high client density"
+ ],
+ "not_for": [
+  "homes",
+  "2.4 GHz IoT",
+  "PoE+ infrastructure"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

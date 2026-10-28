@@ -1,0 +1,79 @@
+{
+ "id": "usw-flex-mini",
+ "name": "USW-Flex-Mini",
+ "title": "Switch Flex Mini",
+ "price": 29.0,
+ "line": "Flex Mini",
+ "legacy": false,
+ "summary": "Tiny 5-port GbE managed switch powered by PoE or 5V USB-C; desk/room expansion.",
+ "jobs": [
+  {
+   "job": "switch_compact",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "mini",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "poe",
+   "usb_c"
+  ],
+  "power_draw_w": 2.5,
+  "uplink": "1GbE",
+  "ports": {
+   "rj45_1g": 5,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": "L2",
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "PoE powered"
+  ],
+  "requires": [],
+  "extra": {}
+ },
+ "gotchas": [
+  "No PoE output — can't power APs/cameras; it consumes PoE on one port.",
+  "Minimal L2 feature set: no STP/RSTP, 802.1X or LACP listed — loops are on you.",
+  "1 GbE only; for 2.5G/10G desks use USW-Flex-XG.",
+  "USB-C needs a 5V/1A adapter (5W) if not PoE-fed; still needs a UniFi console to manage VLANs."
+ ],
+ "best_for": [
+  "adding ports at a desk/TV",
+  "VLAN-aware dumb-switch replacement"
+ ],
+ "not_for": [
+  "PoE devices",
+  "multi-gig",
+  "loop-prone setups"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

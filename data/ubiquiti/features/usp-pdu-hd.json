@@ -1,0 +1,90 @@
+{
+ "id": "usp-pdu-hd",
+ "name": "USP-PDU-HD",
+ "title": "Power Distribution Hi-Density",
+ "price": 999.0,
+ "line": "Power Tech",
+ "legacy": false,
+ "summary": "Rack PDU (L5-30P, 120V) with 24 switched/metered outlets and 4 USB-C, managed in UniFi Network.",
+ "jobs": [
+  {
+   "job": "power_backup",
+   "role": "primary"
+  },
+  {
+   "job": "accessory",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "other",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "ac"
+  ],
+  "power_draw_w": null,
+  "uplink": "1GbE",
+  "ports": {
+   "rj45_1g": 3,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "24 switched outlets",
+   "4x USB-C 20W total",
+   "1.3in touchscreen",
+   "per-outlet control"
+  ],
+  "requires": [
+   "NEMA L5-30 receptacle (30A 120V circuit)",
+   "UniFi Network console"
+  ],
+  "extra": {
+   "form_factor_true": "0U vertical PDU 1485 mm",
+   "mgmt": "1x 10/100 + 3x GbE for redundancy",
+   "capacity": "24A derated / 3000W rated, 2 banks of 12A"
+  }
+ },
+ "gotchas": [
+  "Needs a NEMA L5-30 twist-lock 30 A circuit — won't plug into a standard 5-15 outlet.",
+  "100–125 V only: North America–style power, no 208/240 V.",
+  "1.49 m vertical 0U — fits full-height racks only.",
+  "Requires a UniFi console for outlet management."
+ ],
+ "best_for": [
+  "full racks of UniFi gear needing remote power cycling"
+ ],
+ "not_for": [
+  "small wall racks",
+  "240V sites"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

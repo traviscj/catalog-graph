@@ -1,0 +1,82 @@
+{
+ "id": "uvc-doorbell-lite",
+ "name": "UVC-Doorbell-Lite",
+ "title": "Doorbell Lite",
+ "price": 99.0,
+ "line": "Doorbell",
+ "legacy": false,
+ "summary": "Compact PoE video doorbell, 5MP portrait, two-way audio, AI detections.",
+ "jobs": [
+  {
+   "job": "camera_doorbell",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "camera_doorbell",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "protect",
+  "power_in": [
+   "poe"
+  ],
+  "power_draw_w": 8,
+  "uplink": "100M",
+  "ports": {
+   "rj45_1g": 0,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": true,
+  "ip_rating": "IPX5",
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": {
+   "res": "5MP 1920x2560",
+   "fps": 24,
+   "night": "IR 5m",
+   "ai": "person/vehicle/animal",
+   "lens": "fixed 175.9° D",
+   "audio": "two-way"
+  },
+  "sensors": [],
+  "redundancy": [],
+  "special": [],
+  "requires": [
+   "Ethernet run with PoE",
+   "UniFi Protect console/NVR"
+  ],
+  "extra": {}
+ },
+ "gotchas": [
+  "PoE-only — needs an Ethernet run to the door; existing doorbell (AC transformer) wiring isn't a power option per spec.",
+  "No package camera, 5 m IR, 10/100 port.",
+  "Requires a Protect console/NVR with storage."
+ ],
+ "best_for": [
+  "entry with an Ethernet drop"
+ ],
+ "not_for": [
+  "doors with only bell wire"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

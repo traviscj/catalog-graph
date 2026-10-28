@@ -1,0 +1,80 @@
+{
+ "id": "u7-pro-xg",
+ "name": "U7-Pro-XG",
+ "title": "Access Point U7 Pro XG",
+ "price": 199.0,
+ "line": "WiFi 7",
+ "legacy": false,
+ "summary": "Ceiling 6-stream tri-band WiFi 7 AP with 10GbE uplink, PoE+ powered.",
+ "jobs": [
+  {
+   "job": "wifi_ceiling",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "ceiling",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "poe+"
+  ],
+  "power_draw_w": 22,
+  "uplink": "10GbE",
+  "ports": {
+   "rj45_1g": 0,
+   "rj45_2_5g": 0,
+   "rj45_10g": 1,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": 300,
+  "wifi_std": "WiFi 7",
+  "bands": [
+   "2.4",
+   "5",
+   "6"
+  ],
+  "streams": 6,
+  "coverage_m2": 140,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [],
+  "requires": [],
+  "extra": {
+   "black_variant": "needs Network 9.1.120+"
+  }
+ },
+ "gotchas": [
+  "10GbE uplink only matters on a 10G/5G switch port; on 2.5G it's effectively a U7 Pro.",
+  "Needs PoE+ (22W) — PoE (802.3af) won't do.",
+  "Indoor only (no IP rating); 6 GHz needs 6E/7 clients.",
+  "Requires a UniFi console (Network 9.0.114+; black SKU 9.1.120+)."
+ ],
+ "best_for": [
+  "homes/offices with 10G switching wanting max WiFi 7 headroom"
+ ],
+ "not_for": [
+  "1G-only switches",
+  "outdoor"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

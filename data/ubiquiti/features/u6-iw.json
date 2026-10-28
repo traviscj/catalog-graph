@@ -1,0 +1,91 @@
+{
+ "id": "u6-iw",
+ "name": "U6-IW",
+ "title": "Access Point U6 In-Wall",
+ "price": 179.0,
+ "line": "WiFi 6 (in-wall)",
+ "legacy": false,
+ "summary": "In-wall WiFi 6 AP for single rooms with a built-in 4-port GbE switch (1 PoE out).",
+ "jobs": [
+  {
+   "job": "wifi_wall",
+   "role": "primary"
+  },
+  {
+   "job": "switch_compact",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "in_wall",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "poe",
+   "poe+"
+  ],
+  "power_draw_w": 13,
+  "uplink": "1GbE",
+  "ports": {
+   "rj45_1g": 5,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 1,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": 250,
+  "wifi_std": "WiFi 6",
+  "bands": [
+   "2.4",
+   "5"
+  ],
+  "streams": 6,
+  "coverage_m2": 115,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "built-in 4-port GbE switch",
+   "PoE passthrough (1 port)"
+  ],
+  "requires": [
+   "PoE+ source if using PoE output",
+   "UniFi OS console / gateway running UniFi Network (6.0.45+)"
+  ],
+  "extra": {
+   "ports_note": "1 data-in + 4 data-out GbE",
+   "poe_out_type": "not specified"
+  }
+ },
+ "gotchas": [
+  "Only one downstream port supplies PoE, and only when the AP itself is fed PoE+.",
+  "Everything (WiFi + 4 wired ports) shares a single 1GbE uplink.",
+  "WiFi 6 only — no 6 GHz; consider a WiFi 7 wall AP if 6 GHz clients matter.",
+  "Mounts over a wall box; coverage 115 m² — one per room, not a whole-floor AP."
+ ],
+ "best_for": [
+  "hotel rooms, dorms, offices with wired desk devices"
+ ],
+ "not_for": [
+  "open-plan coverage",
+  "multi-gig"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

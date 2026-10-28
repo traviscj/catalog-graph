@@ -1,0 +1,85 @@
+{
+ "id": "us-8-60w",
+ "name": "US-8-60W",
+ "title": "Switch 8 PoE (60W)",
+ "price": null,
+ "line": "US gen1 switch (legacy)",
+ "legacy": true,
+ "summary": "Legacy fanless 8x 1GbE L2 switch with 4x 802.3af PoE ports (48W).",
+ "jobs": [
+  {
+   "job": "switch_poe_edge",
+   "role": "primary"
+  },
+  {
+   "job": "switch_compact",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "desktop",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "dc"
+  ],
+  "power_draw_w": 12,
+  "uplink": "1GbE",
+  "ports": {
+   "rj45_1g": 8,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 4,
+  "poe_out_types": [
+   "poe"
+  ],
+  "poe_budget_w": 48,
+  "layer": "L2",
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "fanless"
+  ],
+  "requires": [
+   "UniFi OS console / gateway running UniFi Network"
+  ],
+  "extra": {
+   "power": "AC/DC adapter included; spec voltage range 44-57V DC/PoE suggests PoE input also possible"
+  }
+ },
+ "gotchas": [
+  "Legacy/not in store — current equivalent is the USW-Lite-8-PoE.",
+  "PoE is 802.3af only (15.4W/port) — won't power PoE+ APs like the U7 Pro or U6-LR.",
+  "Only 4 of 8 ports are PoE; no SFP uplink."
+ ],
+ "best_for": [
+  "reusing for low-power cameras/phones"
+ ],
+ "not_for": [
+  "WiFi 6/7 APs",
+  "new purchases"
+ ],
+ "confidence": "high",
+ "in_store": false,
+ "status": null
+}

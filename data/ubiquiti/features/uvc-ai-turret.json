@@ -1,0 +1,81 @@
+{
+ "id": "uvc-ai-turret",
+ "name": "UVC-AI-Turret",
+ "title": "Camera AI Turret",
+ "price": 399.0,
+ "line": "AI camera",
+ "legacy": false,
+ "summary": "Vandal-proof IK08 4K30 PoE+ turret with enhanced AI (face/LPR), IR 40m + visible LEDs, IP66.",
+ "jobs": [
+  {
+   "job": "camera_outdoor",
+   "role": "primary"
+  },
+  {
+   "job": "camera_indoor",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "camera_turret",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "protect",
+  "power_in": [
+   "poe+"
+  ],
+  "power_draw_w": 20,
+  "uplink": "1GbE",
+  "ports": null,
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": true,
+  "ip_rating": "IP66",
+  "storage": "microSD slot (>=64GB)",
+  "max_storage_tb": null,
+  "camera": {
+   "res": "4K 8MP",
+   "fps": 30,
+   "night": "IR 40m + visible LEDs",
+   "ai": "people/vehicle, face, LPR",
+   "lens": "fixed, 109.9°H",
+   "audio": "two-way"
+  },
+  "sensors": [],
+  "redundancy": [],
+  "special": [],
+  "requires": [
+   "UniFi Protect console/NVR with storage",
+   "PoE+ source"
+  ],
+  "extra": {
+   "tamper": "IK08"
+  }
+ },
+ "gotchas": [
+  "Requires PoE+ (20W) — 802.3af ports won't run it.",
+  "Fixed lens (110°) — no zoom; AI Pro has 3x optical.",
+  "Needs Protect on a console/NVR with storage; microSD must be >=64GB if used.",
+  "Pigtail RJ45 (30 cm) — plan a junction box for weather sealing."
+ ],
+ "best_for": [
+  "entrances, vandal-prone outdoor mounts"
+ ],
+ "not_for": [
+  "long-range plate capture (use AI Pro)"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

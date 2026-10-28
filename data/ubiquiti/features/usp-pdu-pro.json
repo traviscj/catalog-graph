@@ -1,0 +1,86 @@
+{
+ "id": "usp-pdu-pro",
+ "name": "USP-PDU-Pro",
+ "title": "Power Distribution Pro",
+ "price": 279.0,
+ "line": "Power Tech",
+ "legacy": false,
+ "summary": "1U-ish rack PDU: 16 switched 125 V outlets + 4 USB-C, remotely managed in UniFi.",
+ "jobs": [
+  {
+   "job": "power_backup",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "rack_2u",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "ac"
+  ],
+  "power_draw_w": null,
+  "uplink": "GbE",
+  "ports": {
+   "rj45_1g": 3,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "16 switched outlets",
+   "4 USB-C (20W total)",
+   "1.3\" touchscreen",
+   "circuit breaker"
+  ],
+  "requires": [
+   "UniFi console/gateway",
+   "125V/15A circuit"
+  ],
+  "extra": {
+   "ports_raw": "(1) 100 MbE + (3) GbE RJ45",
+   "height": "87.4 mm (~2U)",
+   "total_w": 1875
+  }
+ },
+ "gotchas": [
+  "125 V / 15 A North-American only — 1,875 W total.",
+  "Not a UPS — no battery backup.",
+  "Height is 87.4 mm (~2U).",
+  "Requires a UniFi console/gateway for remote outlet control."
+ ],
+ "best_for": [
+  "remote power-cycling of rack gear"
+ ],
+ "not_for": [
+  "outside NA",
+  "battery backup"
+ ],
+ "confidence": "medium",
+ "in_store": true,
+ "status": "Available"
+}

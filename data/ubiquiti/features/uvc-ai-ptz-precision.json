@@ -1,0 +1,94 @@
+{
+ "id": "uvc-ai-ptz-precision",
+ "name": "UVC-AI-PTZ-Precision",
+ "title": "Camera AI PTZ Precision",
+ "price": 1999.0,
+ "line": "AI camera",
+ "legacy": false,
+ "summary": "Industrial 4K PTZ with 31x optical zoom, 100 m IR, LiDAR autofocus, PoE++.",
+ "jobs": [
+  {
+   "job": "camera_ptz_wide",
+   "role": "primary"
+  },
+  {
+   "job": "camera_outdoor",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "camera_ptz",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "protect",
+  "power_in": [
+   "poe++"
+  ],
+  "power_draw_w": 51,
+  "uplink": "GbE",
+  "ports": {
+   "rj45_1g": 1,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": true,
+  "ip_rating": "IP66",
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": {
+   "res": "4K",
+   "fps": 30,
+   "night": "IR 100m",
+   "ai": "person/vehicle/animal, face, LPR",
+   "lens": "6.91-214.64mm, 31x optical",
+   "audio": null
+  },
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "LiDAR autofocus",
+   "360° endless pan",
+   "microSD edge slot"
+  ],
+  "requires": [
+   "PoE++ source (51W)",
+   "UniFi Protect console/NVR"
+  ],
+  "extra": {
+   "lightning_zoom": "Coming Soon",
+   "audio": "not listed"
+  }
+ },
+ "gotchas": [
+  "Needs PoE++ (51 W) — PoE+ switches won't power it.",
+  "5.5 kg body; pole mounts sized 2–6\" — plan structural mounting.",
+  "No audio listed.",
+  "Requires a Protect console/NVR; 'Lightning Zoom' listed as Coming Soon."
+ ],
+ "best_for": [
+  "parking lots, campuses, long-range tracking"
+ ],
+ "not_for": [
+  "small residential yards"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

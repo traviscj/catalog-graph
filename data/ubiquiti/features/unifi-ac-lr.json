@@ -1,0 +1,84 @@
+{
+ "id": "unifi-ac-lr",
+ "name": "UAP-AC-LR",
+ "title": "Access Point AC Long-Range",
+ "price": null,
+ "line": "WiFi 5 (legacy)",
+ "legacy": true,
+ "summary": "Legacy WiFi 5 long-range ceiling AP, 3x3 2.4 GHz / 2x2 5 GHz, GbE, PoE incl. passive 24V.",
+ "jobs": [
+  {
+   "job": "wifi_ceiling",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "ceiling",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "poe"
+  ],
+  "power_draw_w": 6.5,
+  "uplink": "1GbE",
+  "ports": {
+   "rj45_1g": 1,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": 250,
+  "wifi_std": "WiFi 5",
+  "bands": [
+   "2.4",
+   "5"
+  ],
+  "streams": 5,
+  "coverage_m2": 185,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "PoE adapter included (single pack)",
+   "passive 24V supported"
+  ],
+  "requires": [],
+  "extra": {
+   "mimo": "5G 2x2, 2.4G 3x3",
+   "max_rate": "5G 867 Mbps, 2.4G 450 Mbps"
+  }
+ },
+ "gotchas": [
+  "Legacy / not in store — WiFi 5 only; replacement is U6+/U6 Pro or U7 Lite/Pro.",
+  "No WiFi 6/6E/7, no 6 GHz, 80 MHz max on 5 GHz (867 Mbps).",
+  "Only 2x2 on 5 GHz — 'long range' mostly comes from a 3x3 2.4 GHz radio.",
+  "5-packs don't include PoE adapters; supports passive 24V which modern APs do not."
+ ],
+ "best_for": [
+  "existing AC fleets",
+  "IoT-heavy 2.4 GHz coverage"
+ ],
+ "not_for": [
+  "new deployments",
+  "modern clients"
+ ],
+ "confidence": "high",
+ "in_store": false,
+ "status": null
+}

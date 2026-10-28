@@ -1,0 +1,82 @@
+{
+ "id": "usp-rps",
+ "name": "USP-RPS",
+ "title": "Redundant Power",
+ "price": 399.0,
+ "line": "Power Tech",
+ "legacy": false,
+ "summary": "1U 950 W redundant DC power supply with 6 RPS ports for RPS-capable UniFi switches/gateways.",
+ "jobs": [
+  {
+   "job": "power_backup",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "rack_1u",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "ac"
+  ],
+  "power_draw_w": 995,
+  "uplink": "1GbE",
+  "ports": {
+   "rj45_1g": 1,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "6 RPS DC ports",
+   "1.3\" touchscreen"
+  ],
+  "requires": [
+   "RPS-capable UniFi devices"
+  ],
+  "extra": {
+   "outputs": "52V 600W + 11.5V 350W total, shared across 6 ports",
+   "per_port_max": "52V 11.54A (600W) / 11.5V 30.44A (350W)"
+  }
+ },
+ "gotchas": [
+  "Not a UPS - no battery; protects against PSU failure only (pair with a UPS or USW-Mission-Critical).",
+  "600 W @52V is shared across all 6 ports - can't fully back up several fully-loaded PoE switches at once.",
+  "Only devices with an RPS DC input work (e.g. UDM-Beast, USW-Pro-Max-48, USW-Pro-HD-24-PoE, US-24-500W).",
+  "Single AC input itself."
+ ],
+ "best_for": [
+  "rack PSU redundancy for UniFi switches/gateways"
+ ],
+ "not_for": [
+  "power outages",
+  "non-UniFi gear"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

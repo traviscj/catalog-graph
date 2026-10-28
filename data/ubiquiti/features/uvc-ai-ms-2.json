@@ -1,0 +1,83 @@
+{
+ "id": "uvc-ai-ms-2",
+ "name": "UVC-AI-MS-2",
+ "title": "Camera AI Multi Sensor 2",
+ "price": 699.0,
+ "line": "AI camera",
+ "legacy": false,
+ "summary": "Dual-lens 16MP (2x 4K) AI multi-sensor camera with 2.33x optical zoom, face ID and LPR.",
+ "jobs": [
+  {
+   "job": "camera_outdoor",
+   "role": "primary"
+  },
+  {
+   "job": "camera_ptz_wide",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "camera_multisensor",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "protect",
+  "power_in": [
+   "poe+"
+  ],
+  "power_draw_w": 25,
+  "uplink": "1GbE",
+  "ports": null,
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": true,
+  "ip_rating": "IP66",
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": {
+   "res": "2x 8MP 4K (16MP total)",
+   "fps": 30,
+   "night": "adaptive IR 20m",
+   "ai": "people/vehicles/animals, face recognition, LPR",
+   "lens": "2x 3.18-7.42mm, 2.33x optical",
+   "audio": "microphone"
+  },
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "IK10",
+   "two independently aimed lenses",
+   "microSD"
+  ],
+  "requires": [
+   "PoE+ source (25W)",
+   "UniFi Protect host (Cloud Gateway/UNVR/CloudKey) with storage"
+  ],
+  "extra": {}
+ },
+ "gotchas": [
+  "25W draw — PoE+ at near the 802.3at limit; eats switch PoE budgets fast (USW-16-PoE's 42W fits one).",
+  "Two 4K streams double the storage/NVR load of a single 4K camera.",
+  "Microphone only, no speaker.",
+  "Needs Protect on a console/NVR with storage."
+ ],
+ "best_for": [
+  "parking lots/entrances needing wide + zoomed views, LPR"
+ ],
+ "not_for": [
+  "budget installs"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

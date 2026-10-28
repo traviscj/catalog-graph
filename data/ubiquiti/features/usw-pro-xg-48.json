@@ -1,0 +1,89 @@
+{
+ "id": "usw-pro-xg-48",
+ "name": "USW-Pro-XG-48",
+ "title": "Switch Pro XG 48",
+ "price": 1999.0,
+ "line": "Pro XG switch",
+ "legacy": false,
+ "summary": "1U L3 48-port non-PoE switch: 32x 10GbE + 16x 2.5GbE copper, 4x 25G SFP28.",
+ "jobs": [
+  {
+   "job": "switch_edge",
+   "role": "primary"
+  },
+  {
+   "job": "switch_core_agg",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "rack_1u",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "ac",
+   "dc"
+  ],
+  "power_draw_w": 250,
+  "uplink": "25G SFP28",
+  "ports": {
+   "rj45_1g": 0,
+   "rj45_2_5g": 16,
+   "rj45_10g": 32,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 4,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": "L3",
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [
+   "rps_dc_backup"
+  ],
+  "special": [
+   "etherlighting",
+   "1.3\" touchscreen"
+  ],
+  "requires": [
+   "4-post rack (600–1066 mm)"
+  ],
+  "extra": {
+   "pro_av_profiles": "not listed (unlike PoE sibling)"
+  }
+ },
+ "gotchas": [
+  "No PoE on any port — for APs/cameras get USW-Pro-XG-48-PoE (+$500).",
+  "250W draw in 1U; 480 mm deep needs a 4-post rack.",
+  "25G uplinks need SFP28 modules/DACs; adopt requires a UniFi console (Network 9.0.114+).",
+  "Pro AV profiles / QoS (DSCP) are not listed on this model, unlike the PoE version."
+ ],
+ "best_for": [
+  "10GbE copper workstation/server floors",
+  "multi-gig wired-only racks"
+ ],
+ "not_for": [
+  "PoE devices",
+  "small homes"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

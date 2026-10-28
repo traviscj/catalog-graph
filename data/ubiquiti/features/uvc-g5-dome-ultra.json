@@ -1,0 +1,89 @@
+{
+ "id": "uvc-g5-dome-ultra",
+ "name": "UVC-G5-Dome-Ultra",
+ "title": "Camera G5 Dome Ultra",
+ "price": 129.0,
+ "line": "G5 camera",
+ "legacy": false,
+ "summary": "Tiny indoor 2K PoE dome, IK06, 20 m IR, basic AI detections.",
+ "jobs": [
+  {
+   "job": "camera_indoor",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "camera_dome",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "protect",
+  "power_in": [
+   "poe"
+  ],
+  "power_draw_w": 4.2,
+  "uplink": "100M",
+  "ports": {
+   "rj45_1g": 0,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": {
+   "res": "2K (4MP)",
+   "fps": 30,
+   "night": "IR 20m",
+   "ai": "person/vehicle/animal",
+   "lens": "fixed",
+   "audio": null
+  },
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "IK06",
+   "ultra-compact"
+  ],
+  "requires": [
+   "UniFi Protect console/NVR with storage"
+  ],
+  "extra": {
+   "network_port": "10/100 MbE",
+   "ip_rating": "none listed — indoor"
+  }
+ },
+ "gotchas": [
+  "Indoor only (no IP rating) — use G6 Turret outdoors.",
+  "2K, not 4K; no face/LPR recognition; no audio listed.",
+  "Previous G5 generation — G6 Turret is 4K for $70 more.",
+  "Requires a Protect console/NVR with storage."
+ ],
+ "best_for": [
+  "discreet indoor coverage"
+ ],
+ "not_for": [
+  "outdoor",
+  "license plates"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

@@ -1,0 +1,75 @@
+{
+ "id": "usl-glassbreak",
+ "name": "USL-GlassBreak",
+ "title": "Glass Break Sensor",
+ "price": 59.0,
+ "line": "SuperLink sensor",
+ "legacy": false,
+ "summary": "Battery SuperLink glass-break + PIR motion sensor for UniFi Protect.",
+ "jobs": [
+  {
+   "job": "alarm_sensor",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "other",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "protect",
+  "power_in": [
+   "battery"
+  ],
+  "power_draw_w": 0.2,
+  "uplink": null,
+  "ports": null,
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [
+   "glass_break",
+   "motion"
+  ],
+  "redundancy": [],
+  "special": [
+   "tamper switch",
+   "SuperLink 2 km LOS"
+  ],
+  "requires": [
+   "SuperLink receiver on a UniFi Protect host"
+  ],
+  "extra": {
+   "battery": "2x CR123A, up to 3 years",
+   "glass": "plate/tempered/laminated etc, 2.4-6.4 mm, 11x14 to 42x64 in"
+  }
+ },
+ "gotchas": [
+  "Proprietary SuperLink — UniFi Protect only.",
+  "Indoor temps (0-40°C); 3-year life on two CR123As.",
+  "Rated for specific glass sizes/thicknesses (up to 6.4 mm) — check large/thick panes."
+ ],
+ "best_for": [
+  "window protection in Protect alarm setups"
+ ],
+ "not_for": [
+  "non-UniFi ecosystems"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

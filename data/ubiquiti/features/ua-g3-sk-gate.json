@@ -1,0 +1,95 @@
+{
+ "id": "ua-g3-sk-gate",
+ "name": "UA-G3-SK-Gate",
+ "title": "G3 Gate Access Starter Kit",
+ "price": 799.0,
+ "line": "Access (kit)",
+ "legacy": false,
+ "summary": "Gate kit: Gate Hub + G3 Intercom + PoE++ adapter + 2-wire (coax) retrofit extenders for one gate.",
+ "jobs": [
+  {
+   "job": "access_hub_lock",
+   "role": "primary"
+  },
+  {
+   "job": "intercom",
+   "role": "secondary"
+  },
+  {
+   "job": "access_reader",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "din",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "access",
+  "power_in": [
+   "poe++"
+  ],
+  "power_draw_w": 60,
+  "uplink": "1GbE",
+  "ports": {
+   "rj45_1g": 5,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 4,
+  "poe_out_types": [
+   "poe"
+  ],
+  "poe_budget_w": 55,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "kit: Gate Hub + G3 Intercom + PoE++ adapter + 2 retrofit extenders",
+   "BNC/2-wire retrofit",
+   "10 free 1-yr Touch Passes"
+  ],
+  "requires": [
+   "console running UniFi Access",
+   "gate operator",
+   "waterproof enclosure if hub mounted outdoors"
+  ],
+  "extra": {
+   "status": "SoldOut",
+   "hub": "1 gate + 1 side door, 6,000 users",
+   "extender_note": "retrofit extender: 10/100 HomePlug AV over coax, PoE+ out 0.6A"
+  }
+ },
+ "gotchas": [
+  "Gate Hub is indoor-rated; outdoors it needs a waterproof junction box.",
+  "Retrofit extenders run 10/100 HomePlug over coax — ok for the intercom, not a high-speed link.",
+  "Touch Passes are free for only 10 users for 1 year, then paid.",
+  "Needs a console running UniFi Access; sold out."
+ ],
+ "best_for": [
+  "driveway/estate gates with existing 2-wire/coax runs"
+ ],
+ "not_for": [
+  "standard doors"
+ ],
+ "confidence": "medium",
+ "in_store": true,
+ "status": "SoldOut"
+}

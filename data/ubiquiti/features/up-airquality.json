@@ -1,0 +1,85 @@
+{
+ "id": "up-airquality",
+ "name": "UP-AirQuality",
+ "title": "Vape Detection & Air Quality Sensor",
+ "price": 99.0,
+ "line": "Protect sensor",
+ "legacy": false,
+ "summary": "PoE indoor vape-detection and air-quality sensor (CO2, PM, VOC, NOx, temp, humidity) for Protect.",
+ "jobs": [
+  {
+   "job": "alarm_sensor",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "ceiling",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "protect",
+  "power_in": [
+   "poe"
+  ],
+  "power_draw_w": 2.2,
+  "uplink": "100MbE",
+  "ports": null,
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [
+   "vape",
+   "co2",
+   "pm1",
+   "pm2.5",
+   "pm4",
+   "pm10",
+   "voc",
+   "nox",
+   "aqi",
+   "temp",
+   "humidity"
+  ],
+  "redundancy": [],
+  "special": [],
+  "requires": [
+   "UniFi Protect 7.1+ on a console"
+  ],
+  "extra": {
+   "mounting": "wall, ceiling, table",
+   "indoor_only": true,
+   "sampling_hz": 1
+  }
+ },
+ "gotchas": [
+  "Requires UniFi Protect 7.1+ on a console - no standalone app.",
+  "PoE-only (wired) - no battery/wireless option.",
+  "Not a smoke/fire detector; RH accuracy is only +/-8%.",
+  "Indoor only, recommended 10-35 C."
+ ],
+ "best_for": [
+  "schools/office restrooms vape alerts",
+  "IAQ monitoring in Protect"
+ ],
+ "not_for": [
+  "life-safety smoke detection",
+  "battery-only sites"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

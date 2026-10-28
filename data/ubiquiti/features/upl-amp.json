@@ -1,0 +1,91 @@
+{
+ "id": "upl-amp",
+ "name": "UPL-Amp",
+ "title": "UniFi PowerAmp",
+ "price": 599.0,
+ "line": "Play",
+ "legacy": false,
+ "summary": "UniFi Play multi-zone streaming amp: 130 W/ch @8 ohm, HDMI eARC (Atmos), AirPlay/Spotify Connect.",
+ "jobs": [
+  {
+   "job": "iot_premium",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "desktop",
+  "requires_console": null,
+  "hosts_apps": [],
+  "managed_by": "standalone",
+  "power_in": [
+   "ac"
+  ],
+  "power_draw_w": 17,
+  "uplink": "1GbE",
+  "ports": {
+   "rj45_1g": 2,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": "WiFi 5",
+  "bands": [
+   "2.4",
+   "5"
+  ],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "HDMI eARC",
+   "AirPlay",
+   "Spotify Connect",
+   "Dolby Atmos decode",
+   "rotary touchscreen knob",
+   "up to 32 zones"
+  ],
+  "requires": [
+   "UniFi Play app"
+  ],
+  "extra": {
+   "power_per_channel": "130W@8ohm / 260W@4ohm",
+   "status": "SoldOut",
+   "app": "UniFi Play (not Network/Protect)",
+   "power_draw_conflict": "max power consumption 17W listed vs 130W/ch output"
+  }
+ },
+ "gotchas": [
+  "Managed by the separate UniFi Play app - not part of Network/Protect; console requirement not stated.",
+  "Amplifier only - speakers sold separately.",
+  "Sold out at scrape time.",
+  "Spec's 17 W max consumption looks inconsistent with 130 W/ch output."
+ ],
+ "best_for": [
+  "whole-home audio zones",
+  "TV + passive speakers via eARC"
+ ],
+ "not_for": [
+  "PA/commercial 70V systems"
+ ],
+ "confidence": "medium",
+ "in_store": true,
+ "status": "SoldOut"
+}

@@ -1,0 +1,86 @@
+{
+ "id": "usw-industrial-din-2-5g-8-poe",
+ "name": "USW-Industrial-DIN-2.5G-8-PoE",
+ "title": "Switch Industrial DIN 2.5G 8 PoE",
+ "price": null,
+ "line": "Industrial switch",
+ "legacy": false,
+ "summary": "Upcoming DIN-rail industrial 8-port PoE++ switch: 4x2.5GbE + 4x1GbE, 2x SFP+, redundant power.",
+ "jobs": [
+  {
+   "job": "switch_industrial",
+   "role": "primary"
+  },
+  {
+   "job": "switch_poe_edge",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "din",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": null,
+  "power_draw_w": null,
+  "uplink": "10G SFP+",
+  "ports": {
+   "rj45_1g": 4,
+   "rj45_2_5g": 4,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 2,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 8,
+  "poe_out_types": [
+   "poe++"
+  ],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [
+   "power_redundancy"
+  ],
+  "special": [
+   "DIN-rail"
+  ],
+  "requires": [],
+  "extra": {
+   "status": "ComingSoon",
+   "price_raw": 0.0,
+   "thin_data": "no techspecs; all fields from one-line desc",
+   "poe_note": "desc: '8-port PoE++ switch' — assumed all 8 RJ45 ports PoE++, unverified"
+  }
+ },
+ "gotchas": [
+  "Coming soon with no published techspecs — PoE budget, power input type and temperature range are unknown.",
+  "Only 4 of 8 copper ports are 2.5GbE.",
+  "DIN-rail form factor needs a cabinet/enclosure and a DIN PSU; not a desktop switch."
+ ],
+ "best_for": [
+  "industrial cabinets",
+  "replacing USW-Industrial"
+ ],
+ "not_for": [
+  "anyone who needs it today"
+ ],
+ "confidence": "low",
+ "in_store": false,
+ "status": "ComingSoon"
+}

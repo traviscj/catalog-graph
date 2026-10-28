@@ -1,0 +1,99 @@
+{
+ "id": "envr",
+ "name": "ENVR",
+ "title": "Enterprise NVR",
+ "price": 1999.0,
+ "line": "NVR",
+ "legacy": false,
+ "summary": "3U enterprise NVR: 16 drive bays, 70x 4K / 210x HD cameras, dual hot-swap PSUs, 10G networking.",
+ "jobs": [
+  {
+   "job": "nvr_recording",
+   "role": "primary"
+  },
+  {
+   "job": "console_host",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "other",
+  "requires_console": false,
+  "hosts_apps": [
+   "protect",
+   "access",
+   "connect"
+  ],
+  "managed_by": "protect",
+  "power_in": [
+   "ac",
+   "redundant_psu"
+  ],
+  "power_draw_w": 410,
+  "uplink": "10G SFP+",
+  "ports": {
+   "rj45_1g": 0,
+   "rj45_2_5g": 0,
+   "rj45_10g": 1,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 2,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": "16x 2.5/3.5\" bays",
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [
+   "redundant_psu",
+   "data_protection"
+  ],
+  "special": [
+   "Vantage Point",
+   "door access support"
+  ],
+  "requires": [
+   "HDDs (not stated as included)",
+   "4-post rack"
+  ],
+  "extra": {
+   "form_factor_true": "3U rack (schema lacks rack_3u)",
+   "managed_cameras": "(210) HD (140) 2K (70) 4K",
+   "managed_access_hubs": 300,
+   "cpu": "8-core ARM 2.5GHz",
+   "ram_gb": 32
+  }
+ },
+ "gotchas": [
+  "Doesn't host UniFi Network — you still need a gateway (UCG/EF) for routing.",
+  "Drives not included per specs; 16-bay capacity is HDD-cost dominated.",
+  "3U, 16.6 kg, 650–1000 mm 4-post rack rails required.",
+  "Huge overkill for <15 cameras — UNVR-Instant or a UCG-Max SSD covers small sites."
+ ],
+ "best_for": [
+  "large camera estates",
+  "enterprise Protect + Access"
+ ],
+ "not_for": [
+  "small sites",
+  "no rack"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

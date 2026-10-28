@@ -1,0 +1,96 @@
+{
+ "id": "usw-flex",
+ "name": "USW-Flex",
+ "title": "Switch Flex",
+ "price": 99.0,
+ "line": "Flex",
+ "legacy": false,
+ "summary": "5-port 1G outdoor-capable L2 switch powered by PoE++, passing 4 PoE+ outputs (46 W).",
+ "jobs": [
+  {
+   "job": "switch_compact",
+   "role": "primary"
+  },
+  {
+   "job": "switch_industrial",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "mini",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "poe++",
+   "poe+",
+   "poe"
+  ],
+  "power_draw_w": 51,
+  "uplink": "1GbE",
+  "ports": {
+   "rj45_1g": 5,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 4,
+  "poe_out_types": [
+   "poe",
+   "poe+"
+  ],
+  "poe_budget_w": 46,
+  "layer": "L2",
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": true,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "PoE-powered (PoE passthrough)",
+   "outdoor ready",
+   "pole mount via USW-Flex-Utility"
+  ],
+  "requires": [
+   "PoE++ source (60W) for full 46W output",
+   "UniFi console/gateway"
+  ],
+  "extra": {
+   "poe_out_per_port_w": 25,
+   "outdoor": "'Outdoor Ready=yes' but no IP rating given",
+   "budget_by_input": "PoE++/60W adapter 46W; PoE+ 20W; PoE 8W",
+   "adapter": "60W PoE adapter sold separately"
+  }
+ },
+ "gotchas": [
+  "Output budget scales with input: 46 W only from PoE++/60 W injector (sold separately); PoE+ gives 20 W, PoE 8 W.",
+  "Per-port PoE output capped at 25 W — below full 802.3at 30 W.",
+  "All 1 GbE, no SFP; single 1G uplink for every downstream device.",
+  "Outdoor-ready but no IP rating listed; pole mount needs the USW-Flex-Utility accessory.",
+  "Very minimal L2 feature set (no STP/LACP/802.1X listed)."
+ ],
+ "best_for": [
+  "extending one PoE++ run to a few cameras/APs outdoors"
+ ],
+ "not_for": [
+  "high-power PoE",
+  "multi-gig"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

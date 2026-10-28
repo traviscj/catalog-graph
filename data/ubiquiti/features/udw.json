@@ -1,0 +1,119 @@
+{
+ "id": "udw",
+ "name": "UDW",
+ "title": "Dream Wall",
+ "price": null,
+ "line": "Dream Wall",
+ "legacy": false,
+ "summary": "Wall-mount 10G Cloud Gateway with WiFi 6 AP, 17-port PoE switch (420 W), NVR storage, dual PSUs.",
+ "jobs": [
+  {
+   "job": "gateway_allinone",
+   "role": "primary"
+  },
+  {
+   "job": "console_host",
+   "role": "secondary"
+  },
+  {
+   "job": "switch_poe_edge",
+   "role": "secondary"
+  },
+  {
+   "job": "nvr_recording",
+   "role": "secondary"
+  },
+  {
+   "job": "wifi_wall",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "wall",
+  "requires_console": false,
+  "hosts_apps": [
+   "network",
+   "protect",
+   "access",
+   "talk",
+   "connect"
+  ],
+  "managed_by": "network",
+  "power_in": [
+   "ac",
+   "redundant_psu"
+  ],
+  "power_draw_w": 532,
+  "uplink": "10G SFP+",
+  "ports": {
+   "rj45_1g": 17,
+   "rj45_2_5g": 1,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 2,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 12,
+  "poe_out_types": [
+   "poe",
+   "poe+",
+   "poe++"
+  ],
+  "poe_budget_w": 420,
+  "layer": null,
+  "wan_ports_max": 8,
+  "ips_throughput_gbps": 3.5,
+  "routing_throughput_gbps": null,
+  "max_devices": 100,
+  "max_clients": 300,
+  "wifi_std": "WiFi 6",
+  "bands": [
+   "2.4",
+   "5"
+  ],
+  "streams": 6,
+  "coverage_m2": 140,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": "512 GB microSD (NVR) + 128 GB SSD (detections); microSD up to 1 TB",
+  "max_storage_tb": 1,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [
+   "redundant_psu"
+  ],
+  "special": [
+   "built-in WiFi",
+   "4.7\" touchscreen",
+   "hot-swap PSUs (1 pre-installed)"
+  ],
+  "requires": [],
+  "extra": {
+   "port_layout_raw": "1 GbE RJ45=17 (4 PoE++; 4 PoE+; 4 PoE) — only 12 of 17 listed as PoE; remaining 5 presumably non-PoE",
+   "managed_cameras": "(12) HD (7) 2K (4) 4K",
+   "price_null": "not in store (status None)",
+   "psu_note": "(2) hot-swap bays, (1) PSU pre-installed — redundancy needs 2nd PSU purchased",
+   "default_wan": "(1) 2.5 GbE RJ45 (1) 10G SFP+"
+  }
+ },
+ "gotchas": [
+  "Not currently sold in the store (price null) — modern path is a UCG-Fiber/UDM-Pro-Max + PoE switch + WiFi 7 AP.",
+  "Only one PSU pre-installed; redundancy requires buying the second hot-swap PSU.",
+  "LAN copper is 1 GbE — no multi-gig to WiFi 7 APs; only 12 of 17 RJ45 ports supply PoE (4 PoE++ / 4 PoE+ / 4 PoE).",
+  "NVR on microSD (max 1 TB) — no HDD bay; heavy Protect use wants a UNVR.",
+  "Integrated AP is WiFi 6, no 6 GHz.",
+  "3.5 Gbps IPS — below the 5 Gbps of the cheaper UCG-Fiber."
+ ],
+ "best_for": [
+  "wall-closet small office wanting one box"
+ ],
+ "not_for": [
+  "rack installs",
+  "large camera fleets",
+  "6 GHz WiFi"
+ ],
+ "confidence": "medium",
+ "in_store": false,
+ "status": null
+}

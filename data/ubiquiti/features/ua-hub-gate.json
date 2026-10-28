@@ -1,0 +1,87 @@
+{
+ "id": "ua-hub-gate",
+ "name": "UA-Hub-Gate",
+ "title": "Access Gate Hub",
+ "price": 279.0,
+ "line": "Access",
+ "legacy": false,
+ "summary": "DIN-rail Access hub for 1 gate + 1 side door: relays, 12 V lock output, 4 PoE+ outs for readers.",
+ "jobs": [
+  {
+   "job": "access_hub_lock",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "din",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "access",
+  "power_in": [
+   "poe++"
+  ],
+  "power_draw_w": 60,
+  "uplink": "GbE",
+  "ports": {
+   "rj45_1g": 5,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 4,
+  "poe_out_types": [
+   "poe",
+   "poe+"
+  ],
+  "poe_budget_w": 55,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "2 operator dry relays + aux",
+   "12V side-door lock output",
+   "emergency input"
+  ],
+  "requires": [
+   "PoE++ source",
+   "UniFi Access console",
+   "gate operator / lock hardware"
+  ],
+  "extra": {
+   "max_users": 6000,
+   "outdoor": "indoor; outdoor needs waterproof junction box"
+  }
+ },
+ "gotchas": [
+  "PoE+ outputs share 55 W — not four full 30 W readers/intercoms.",
+  "Indoor device; outdoor gate posts need a waterproof enclosure.",
+  "Side-door lock output is 12 V/1 A; maglocks' cable-length limits are tight on 24 AWG.",
+  "Needs PoE++ input and a console running Access."
+ ],
+ "best_for": [
+  "driveway/parking gates"
+ ],
+ "not_for": [
+  "multi-door buildings (use Hub/Enterprise Hub)"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

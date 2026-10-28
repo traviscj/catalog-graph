@@ -1,0 +1,110 @@
+{
+ "id": "ecs-48s-poe",
+ "name": "ECS-48S-PoE",
+ "title": "Switch Enterprise Campus 48S PoE",
+ "price": 3999.0,
+ "line": "Enterprise Campus switch",
+ "legacy": false,
+ "summary": "1U 48-port PoE+++ (90W) L3 access switch: 32x 2.5GbE + 16x 10GbE, 4x 25G uplinks, 100G stacking.",
+ "jobs": [
+  {
+   "job": "switch_poe_edge",
+   "role": "primary"
+  },
+  {
+   "job": "switch_core_agg",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "rack_1u",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "ac",
+   "redundant_psu"
+  ],
+  "power_draw_w": 250,
+  "uplink": "25G SFP28",
+  "ports": {
+   "rj45_1g": 0,
+   "rj45_2_5g": 32,
+   "rj45_10g": 16,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 4,
+   "qsfp28_100g": 2
+  },
+  "poe_out_ports": 48,
+  "poe_out_types": [
+   "poe",
+   "poe+",
+   "poe++",
+   "poe_bt_90w"
+  ],
+  "poe_budget_w": 2150,
+  "layer": "L3 lite",
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [
+   "redundant_psu",
+   "hot_swap_fans",
+   "stacking"
+  ],
+  "special": [
+   "etherlighting",
+   "stackable (up to 4)",
+   "Pro AV profiles",
+   "OOB mgmt port",
+   "serial console"
+  ],
+  "requires": [
+   "UniFi OS console / gateway running UniFi Network (10.6.101+)",
+   "4-post rack (full depth)",
+   "SFP28 optics/DAC for uplinks"
+  ],
+  "extra": {
+   "poe_budget_table_w": {
+    "240V_shared": 2150,
+    "120V_shared": 1750,
+    "240V_redundant": 950,
+    "120V_redundant": 750
+   },
+   "oob_mgmt_rj45_1g": 1,
+   "qsfp28_note": "2x 100G QSFP28 are stacking-only, no uplink, no breakout",
+   "half_duplex": "10/100M half-duplex not supported",
+   "max_power_incl_poe_w": 2400
+  }
+ },
+ "gotchas": [
+  "PoE budget depends on mains and PSU mode: 2,150W at 240V shared but 1,750W at 120V and only 750W in 120V redundant mode — far below 48x90W.",
+  "The 2x 100G QSFP28 are stacking-only; real uplink capacity is 4x 25G SFP28 (100G) for 16x10G + 32x2.5G = 3:1+ oversubscribed.",
+  "Stacking only with same-port-count ECS switches, max 4 per stack.",
+  "Full-depth 1U with 4 hot-swap fans — equipment-room noise/depth; 4-post rack required.",
+  "Needs UniFi Network 10.6.101+; older self-hosted controllers can't adopt it."
+ ],
+ "best_for": [
+  "high-density WiFi 7 / 90W PoE (PTZ, displays, lighting) campus closets"
+ ],
+ "not_for": [
+  "home labs",
+  "120V single-circuit closets expecting full PoE budget"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

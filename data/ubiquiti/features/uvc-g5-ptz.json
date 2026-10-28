@@ -1,0 +1,82 @@
+{
+ "id": "uvc-g5-ptz",
+ "name": "UVC-G5-PTZ",
+ "title": "Camera G5 PTZ",
+ "price": 299.0,
+ "line": "G5 camera",
+ "legacy": false,
+ "summary": "Compact all-weather 2K PTZ with 2x optical zoom, 350° pan, IR + white LED.",
+ "jobs": [
+  {
+   "job": "camera_ptz_wide",
+   "role": "primary"
+  },
+  {
+   "job": "camera_outdoor",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "camera_ptz",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "protect",
+  "power_in": [
+   "poe+"
+  ],
+  "power_draw_w": 14,
+  "uplink": "100MbE",
+  "ports": null,
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": true,
+  "ip_rating": "IP66",
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": {
+   "res": "2K (2688x1512)",
+   "fps": 30,
+   "night": "IR + white LED 20m",
+   "ai": "people/vehicles/animals",
+   "lens": "3.42-6.85mm, 2x optical",
+   "audio": "microphone"
+  },
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "pan 350° / tilt 100°",
+   "IK04"
+  ],
+  "requires": [
+   "PoE+ source",
+   "UniFi Protect host (Cloud Gateway/UNVR/CloudKey) with storage"
+  ],
+  "extra": {}
+ },
+ "gotchas": [
+  "Only 2x optical zoom — a framing PTZ, not long-range; G6 Pro 360/AI line for coverage, bigger PTZ for distance.",
+  "Pan is 350°, not continuous 360°.",
+  "IK04 — low vandal resistance; mic only.",
+  "Needs PoE+ and a Protect host."
+ ],
+ "best_for": [
+  "yards/lots needing remote re-aiming"
+ ],
+ "not_for": [
+  "long-distance zoom"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

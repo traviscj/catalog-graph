@@ -1,0 +1,88 @@
+{
+ "id": "unas-4",
+ "name": "UNAS-4",
+ "title": "UNAS 4",
+ "price": 379.0,
+ "line": "UNAS",
+ "legacy": false,
+ "summary": "Compact 4-bay UniFi NAS + 2 NVMe cache, 2.5GbE, powered by included 90 W PoE+++ adapter.",
+ "jobs": [
+  {
+   "job": "storage_nas",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "desktop",
+  "requires_console": null,
+  "hosts_apps": [
+   "drive"
+  ],
+  "managed_by": "drive",
+  "power_in": [
+   "poe_bt"
+  ],
+  "power_draw_w": 90,
+  "uplink": "2.5GbE",
+  "ports": {
+   "rj45_1g": 0,
+   "rj45_2_5g": 1,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": "4x 2.5/3.5\" bays + 2x M.2 NVMe (cache)",
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "SSD cache",
+   "RAID 5/6/10",
+   "SMB/NFS",
+   "USB-C 5Gbps expansion",
+   "1.47in LCM"
+  ],
+  "requires": [
+   "HDDs",
+   "90W PoE+++ (802.3bt) adapter (included) or bt switch port"
+  ],
+  "extra": {
+   "console_note": "runs UniFi Drive; whether a separate console is required not stated in specs",
+   "raid": "single RAID group only",
+   "max_nvme": "2 TiB per SSD"
+  }
+ },
+ "gotchas": [
+  "Single 2.5GbE port — caps throughput at ~280 MB/s; no 10G/SFP+ (bigger UNAS models have it).",
+  "Powered by PoE+++ (90 W, 802.3bt Type 4) — uses the included adapter unless your switch has 90 W ports (USW-Pro-XG-24-PoE).",
+  "Only one RAID group; RAID 5/6/10 only.",
+  "NVMe slots are cache, capped at 2 TiB each."
+ ],
+ "best_for": [
+  "home/small-office backups in a UniFi stack"
+ ],
+ "not_for": [
+  "10G editing workloads"
+ ],
+ "confidence": "medium",
+ "in_store": true,
+ "status": "Available"
+}

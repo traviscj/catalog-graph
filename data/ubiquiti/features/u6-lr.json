@@ -1,0 +1,85 @@
+{
+ "id": "u6-lr",
+ "name": "U6-LR",
+ "title": "Access Point U6 Long-Range",
+ "price": null,
+ "line": "WiFi 6",
+ "legacy": true,
+ "summary": "Previous-gen ceiling WiFi 6 AP with 4x4 radios for extended range; no 6 GHz, GbE uplink.",
+ "jobs": [
+  {
+   "job": "wifi_ceiling",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "ceiling",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "poe+"
+  ],
+  "power_draw_w": 18.5,
+  "uplink": "1GbE",
+  "ports": {
+   "rj45_1g": 1,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": 350,
+  "wifi_std": "WiFi 6",
+  "bands": [
+   "2.4",
+   "5"
+  ],
+  "streams": 8,
+  "coverage_m2": 185,
+  "outdoor_rated": true,
+  "ip_rating": "IP54",
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "long range",
+   "passive 48V supported"
+  ],
+  "requires": [
+   "PoE+ source",
+   "UniFi OS console / gateway running UniFi Network (6.0.45+)"
+  ],
+  "extra": {
+   "ip54_note": "IP54 listed but it's an indoor ceiling AP",
+   "2g_mimo": "2.4 GHz 4x4 is SU-MIMO only"
+  }
+ },
+ "gotchas": [
+  "Not in store / previous gen — the WiFi 7 replacement is the U7 Long-Range (or U7 Pro).",
+  "No 6 GHz band (WiFi 6, not 6E).",
+  "1GbE uplink caps aggregate throughput.",
+  "Needs PoE+; 802.3af switches won't power it."
+ ],
+ "best_for": [
+  "existing WiFi 6 deployments"
+ ],
+ "not_for": [
+  "new builds"
+ ],
+ "confidence": "high",
+ "in_store": false,
+ "status": null
+}

@@ -1,0 +1,78 @@
+{
+ "id": "ua-retrofit-hub-2",
+ "name": "UA-Retrofit-Hub-2",
+ "title": "Access Retrofit Hub",
+ "price": 229.0,
+ "line": "Access",
+ "legacy": false,
+ "summary": "DIN-rail 2-door Access hub for reusing third-party Wiegand readers; 12/24V DC powered.",
+ "jobs": [
+  {
+   "job": "access_hub_lock",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "din",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "access",
+  "power_in": [
+   "dc"
+  ],
+  "power_draw_w": 50,
+  "uplink": "100MbE",
+  "ports": null,
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "Wiegand reader inputs",
+   "12V/24V/dry lock relays"
+  ],
+  "requires": [
+   "12/24V DC power supply",
+   "UniFi Access on a console"
+  ],
+  "extra": {
+   "doors": 2,
+   "max_users": 10000,
+   "network": "(2) 10/100 RJ45",
+   "desc_vs_spec": "desc says Wiegand and OSDP; input terminals list Wiegand / UniFi Retrofit Reader only",
+   "indoor_only": true
+  }
+ },
+ "gotchas": [
+  "DC-powered (12/24V), not PoE - you need a separate DC PSU.",
+  "Built for retrofitting third-party Wiegand readers; OSDP support claimed in desc but not in terminal list - verify.",
+  "Indoor only; lock power output limited (12V 1A / 24V 0.5A).",
+  "Requires UniFi Access on a console."
+ ],
+ "best_for": [
+  "migrating legacy access systems while keeping readers",
+  "2-door closets"
+ ],
+ "not_for": [
+  "new single-door installs (UA-Ultra or G2 kit)"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

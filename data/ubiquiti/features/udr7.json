@@ -1,0 +1,107 @@
+{
+ "id": "udr7",
+ "name": "UDR7",
+ "title": "Dream Router 7",
+ "price": 279.0,
+ "line": "Cloud Gateway (WiFi 7 desktop)",
+ "legacy": false,
+ "summary": "Desktop Cloud Gateway with tri-band WiFi 7, 4x 2.5GbE (1 PoE), 10G SFP+, microSD NVR; all UniFi apps.",
+ "jobs": [
+  {
+   "job": "gateway_allinone",
+   "role": "primary"
+  },
+  {
+   "job": "console_host",
+   "role": "secondary"
+  },
+  {
+   "job": "gateway_router",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "desktop",
+  "requires_console": false,
+  "hosts_apps": [
+   "network",
+   "protect",
+   "access",
+   "talk",
+   "connect"
+  ],
+  "managed_by": "network",
+  "power_in": [
+   "ac"
+  ],
+  "power_draw_w": 26,
+  "uplink": "10G SFP+",
+  "ports": {
+   "rj45_1g": 0,
+   "rj45_2_5g": 4,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 1,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 1,
+  "poe_out_types": [
+   "poe"
+  ],
+  "poe_budget_w": 15.4,
+  "layer": null,
+  "wan_ports_max": 4,
+  "ips_throughput_gbps": 2.3,
+  "routing_throughput_gbps": null,
+  "max_devices": 30,
+  "max_clients": 300,
+  "wifi_std": "WiFi 7",
+  "bands": [
+   "2.4",
+   "5",
+   "6"
+  ],
+  "streams": 6,
+  "coverage_m2": 160,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": "64GB microSD (pre-installed)",
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "built-in WiFi",
+   "0.96\" status display",
+   "OSPF"
+  ],
+  "requires": [],
+  "extra": {
+   "managed_cameras": "(5) HD (2) 2K (1) 4K",
+   "default_wan": "(1) 10G SFP+ (1) 2.5 GbE RJ45",
+   "mimo": "2x2 per band",
+   "power_draw_note": "26W excluding PoE output",
+   "mac_table": 2000
+  }
+ },
+ "gotchas": [
+  "Only 1 PoE port at 15.4W (802.3af) — can't power a PoE+ AP like U7 Pro; add a PoE switch (USW-Ultra).",
+  "Protect storage is a 64GB microSD — (1) 4K / (5) HD cameras max; for real recording use UNVR or UDM-Pro.",
+  "WiFi radios are 2x2 on each band (6 streams total), vs 4x4 on ceiling APs like U7 Pro/E7.",
+  "Only 4 RJ45 ports + 1 SFP+; 30-device / 2.3 Gbps IPS ceiling vs rack gateways."
+ ],
+ "best_for": [
+  "homes/small offices wanting one box",
+  "multi-gig ISP via SFP+",
+  "tri-band WiFi 7 at the gateway"
+ ],
+ "not_for": [
+  "camera-heavy sites",
+  "many wired devices",
+  "PoE+ AP powering"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

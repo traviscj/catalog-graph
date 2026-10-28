@@ -1,0 +1,97 @@
+{
+ "id": "ux",
+ "name": "UX",
+ "title": "UniFi Express",
+ "price": null,
+ "line": "Cloud Gateway (legacy)",
+ "legacy": true,
+ "summary": "Tiny USB-C Cloud Gateway + WiFi 6 AP for very small networks; Network app only, 4 devices.",
+ "jobs": [
+  {
+   "job": "gateway_allinone",
+   "role": "primary"
+  },
+  {
+   "job": "wifi_mesh_extend",
+   "role": "secondary"
+  },
+  {
+   "job": "console_host",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "mini",
+  "requires_console": false,
+  "hosts_apps": [
+   "network"
+  ],
+  "managed_by": "network",
+  "power_in": [
+   "usb_c"
+  ],
+  "power_draw_w": 10,
+  "uplink": "1GbE",
+  "ports": {
+   "rj45_1g": 2,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": 1,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": 4,
+  "max_clients": 50,
+  "wifi_std": "WiFi 6",
+  "bands": [
+   "2.4",
+   "5"
+  ],
+  "streams": 4,
+  "coverage_m2": 140,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "built-in WiFi",
+   "status display",
+   "AP/mesh mode"
+  ],
+  "requires": [],
+  "extra": {
+   "software_note": "Network 9.0 is the last major train; 9.1+ requires UniFi Express 7",
+   "ips": "IDS/IPS not listed in specs"
+  }
+ },
+ "gotchas": [
+  "Not in store / legacy: Ubiquiti says Network 9.1+ needs UniFi Express 7 — buy UX7 instead.",
+  "Only 1 WAN + 1 LAN at 1GbE and no IDS/IPS listed — gigabit-ish ISP ceiling, no security inspection.",
+  "Manages just 4 UniFi devices and hosts Network only (no Protect/Access) — outgrow it with UCG-Ultra/Max.",
+  "No PoE output; any AP or switch beyond it needs its own power."
+ ],
+ "best_for": [
+  "apartments/tiny offices",
+  "travel or temporary sites",
+  "meshing as an extra AP in an existing UniFi network"
+ ],
+ "not_for": [
+  "cameras/Protect",
+  ">4 UniFi devices",
+  "multi-gig ISP"
+ ],
+ "confidence": "high",
+ "in_store": false,
+ "status": null
+}

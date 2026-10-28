@@ -1,0 +1,90 @@
+{
+ "id": "usw-pro-max-24-poe",
+ "name": "USW-Pro-Max-24-PoE",
+ "title": "Switch Pro Max 24 PoE",
+ "price": 799.0,
+ "line": "Pro Max switch",
+ "legacy": false,
+ "summary": "24-port L3 Etherlighting PoE++ switch: 16x1GbE + 8x2.5GbE, all PoE (16 PoE++), 2x10G SFP+, 400 W.",
+ "jobs": [
+  {
+   "job": "switch_poe_edge",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "rack_1u",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "ac"
+  ],
+  "power_draw_w": 450,
+  "uplink": "10G SFP+",
+  "ports": {
+   "rj45_1g": 16,
+   "rj45_2_5g": 8,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 2,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 24,
+  "poe_out_types": [
+   "poe",
+   "poe+",
+   "poe++"
+  ],
+  "poe_budget_w": 400,
+  "layer": "L3",
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [
+   "rps_dc_backup"
+  ],
+  "special": [
+   "etherlighting",
+   "Pro AV profiles",
+   "1.3in touchscreen"
+  ],
+  "requires": [
+   "SFP+ module/DAC for 10G uplink"
+  ],
+  "extra": {
+   "poe_split": "8x1G PoE+, 8x1G PoE++, 8x2.5G PoE++ (Hardware: PoE+=8, PoE++=16)",
+   "power_draw_note": "50W excl. PoE / 450W incl. PoE"
+  }
+ },
+ "gotchas": [
+  "Only 8 of 24 ports are 2.5GbE — WiFi 7 APs beyond 8 will be stuck at 1G.",
+  "400 W budget across 24 PoE ports (16 PoE++ @60 W) — can't drive many 60 W devices at once.",
+  "No 802.3bt Class 8 (90 W) — that needs USW-Pro-XG-24-PoE.",
+  "Uplinks are 2x 10G SFP+ (no 10GbE RJ45) — needs modules/DACs; single PSU unless you add USP-RPS."
+ ],
+ "best_for": [
+  "mixed AP + camera closets",
+  "small/medium office with a few WiFi 7 APs"
+ ],
+ "not_for": [
+  "10GbE APs",
+  "90 W PoE loads"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

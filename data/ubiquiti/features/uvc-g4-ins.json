@@ -1,0 +1,92 @@
+{
+ "id": "uvc-g4-ins",
+ "name": "UVC-G4-INS",
+ "title": "Camera G4 Instant",
+ "price": 99.0,
+ "line": "G4 camera",
+ "legacy": false,
+ "summary": "Compact WiFi 2K camera, USB-C powered, two-way audio, wide angle, IPX5.",
+ "jobs": [
+  {
+   "job": "camera_indoor",
+   "role": "primary"
+  },
+  {
+   "job": "camera_outdoor",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "camera_compact",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "protect",
+  "power_in": [
+   "usb_c"
+  ],
+  "power_draw_w": 6,
+  "uplink": "WiFi 5",
+  "ports": {
+   "rj45_1g": 0,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": true,
+  "ip_rating": "IPX5",
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": {
+   "res": "2K (4MP)",
+   "fps": 30,
+   "night": "IR 6m",
+   "ai": "person/vehicle/animal",
+   "lens": "2.8mm f/1.6, 102°H",
+   "audio": "two-way"
+  },
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "WiFi",
+   "Instant PoE-to-USB adapter optional"
+  ],
+  "requires": [
+   "UniFi Protect NVR/console with storage"
+  ],
+  "extra": {
+   "older_gen": "G4 generation still sold at $99"
+  }
+ },
+ "gotchas": [
+  "WiFi (802.11ac) only — reliability depends on your AP coverage; no Ethernet without the optional PoE-to-USB adapter.",
+  "Not battery-powered: needs USB-C 5V/2A at the mount.",
+  "Short 6 m IR; older G4 generation.",
+  "Needs Protect on a console/NVR."
+ ],
+ "best_for": [
+  "renters / spots without Ethernet"
+ ],
+ "not_for": [
+  "critical 24/7 recording",
+  "battery-only spots"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

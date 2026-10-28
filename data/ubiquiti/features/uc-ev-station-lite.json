@@ -1,0 +1,89 @@
+{
+ "id": "uc-ev-station-lite",
+ "name": "UC-EV-Station-Lite",
+ "title": "EV Station Lite",
+ "price": 499.0,
+ "line": "EV",
+ "legacy": false,
+ "summary": "11 kW Level 2 EV charger (single-phase 240V, up to 50 A load), 7 m cable, managed via UniFi Connect.",
+ "jobs": [
+  {
+   "job": "iot_premium",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "wall",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "connect",
+  "power_in": [
+   "ac"
+  ],
+  "power_draw_w": 11000,
+  "uplink": "1GbE",
+  "ports": {
+   "rj45_1g": 1,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": true,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "Level 2",
+   "7 m cable",
+   "WiFi/BLE/Ethernet",
+   "access control",
+   "1.7in display"
+  ],
+  "requires": [
+   "dedicated 208–240V circuit (125% of load)",
+   "console running UniFi Connect",
+   "electrician install"
+  ],
+  "extra": {
+   "enclosure_rating": "NEMA Type 3R (not IP)",
+   "odd": "desc 11 kW vs 70A circuit→50A load table (~12 kW @240V)",
+   "connector": "not stated (J1772 vs NACS unknown)",
+   "plug_in": "plug-in up to 50A circuit; 60/70A hardwired only"
+  }
+ },
+ "gotchas": [
+  "Needs a dedicated 240 V circuit sized at 125% of load (50 A circuit → 40 A) — likely an electrician and panel capacity check.",
+  "Plug-in install only up to a 50 A circuit; full output needs hardwiring on 60–70 A.",
+  "Managed through UniFi Connect — requires a console running Connect.",
+  "Connector type (J1772 vs NACS) isn't in the specs — verify for your vehicle."
+ ],
+ "best_for": [
+  "managed fleets / multi-tenant parking",
+  "homes already on UniFi"
+ ],
+ "not_for": [
+  "no 240V service"
+ ],
+ "confidence": "medium",
+ "in_store": true,
+ "status": "Available"
+}

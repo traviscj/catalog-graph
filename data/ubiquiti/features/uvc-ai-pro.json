@@ -1,0 +1,84 @@
+{
+ "id": "uvc-ai-pro",
+ "name": "UVC-AI-Pro",
+ "title": "Camera AI Pro",
+ "price": 499.0,
+ "line": "AI camera",
+ "legacy": false,
+ "summary": "4K30 bullet with 3x optical zoom, AI face/LPR, IR 25m (40m with Vision Enhancer), IP65.",
+ "jobs": [
+  {
+   "job": "camera_outdoor",
+   "role": "primary"
+  },
+  {
+   "job": "camera_ptz_wide",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "camera_bullet",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "protect",
+  "power_in": [
+   "poe",
+   "poe+"
+  ],
+  "power_draw_w": 11,
+  "uplink": "1GbE",
+  "ports": null,
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": true,
+  "ip_rating": "IP65",
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": {
+   "res": "4K 8MP",
+   "fps": 30,
+   "night": "IR 25m (40m w/ Vision Enhancer)",
+   "ai": "people/vehicle, face, LPR",
+   "lens": "4.1–12.3mm 3x optical, f/1.53–3.3",
+   "audio": "two-way"
+  },
+  "sensors": [],
+  "redundancy": [],
+  "special": [],
+  "requires": [
+   "UniFi Protect console/NVR with storage"
+  ],
+  "extra": {
+   "power_note": "PoE 11W alone; PoE+ 22W with Vision Enhancer",
+   "tamper": "IK04"
+  }
+ },
+ "gotchas": [
+  "Adding the Vision Enhancer doubles draw to 22W and requires PoE+.",
+  "IK04 — not vandal-resistant; AI Turret (IK08) for reachable spots.",
+  "No microSD/edge recording listed — fully dependent on Protect console/NVR storage.",
+  "3x optical is not PTZ — field of view is fixed once set."
+ ],
+ "best_for": [
+  "driveway LPR at distance",
+  "parking lots"
+ ],
+ "not_for": [
+  "vandal-prone low mounts",
+  "pan/tilt needs"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

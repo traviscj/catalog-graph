@@ -1,0 +1,91 @@
+{
+ "id": "utp-touchmax-u",
+ "name": "UTP-TouchMax-US",
+ "title": "Phone G2 Touch Max",
+ "price": 249.0,
+ "line": "Talk",
+ "legacy": false,
+ "summary": "Premium desktop VoIP phone: 7\" touchscreen, camera, 2x GbE, WiFi, BT, NFC; PoE+ or USB-C.",
+ "jobs": [
+  {
+   "job": "voip_phone",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "desktop",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "talk",
+  "power_in": [
+   "poe+",
+   "usb_c"
+  ],
+  "power_draw_w": 15,
+  "uplink": "GbE",
+  "ports": {
+   "rj45_1g": 2,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": {
+   "res": "5MP",
+   "fps": null,
+   "night": null,
+   "ai": null,
+   "lens": null,
+   "audio": "two-way"
+  },
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "7\" touchscreen",
+   "privacy shutter",
+   "NFC",
+   "Bluetooth headset",
+   "PC passthrough port"
+  ],
+  "requires": [
+   "UniFi Talk on a UniFi OS console",
+   "PoE+ source or USB-C power"
+  ],
+  "extra": {
+   "status": "SoldOut"
+  }
+ },
+ "gotchas": [
+  "Needs a UniFi OS console running UniFi Talk (and a Talk service plan/SIP).",
+  "PoE+ required for PoE power (15 W).",
+  "$249 per desk — overkill vs basic Talk phones."
+ ],
+ "best_for": [
+  "executive/reception desks on UniFi Talk"
+ ],
+ "not_for": [
+  "non-Talk PBXs"
+ ],
+ "confidence": "medium",
+ "in_store": true,
+ "status": "SoldOut"
+}

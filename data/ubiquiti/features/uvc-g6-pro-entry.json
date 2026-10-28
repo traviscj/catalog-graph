@@ -1,0 +1,95 @@
+{
+ "id": "uvc-g6-pro-entry",
+ "name": "UVC-G6-Pro-Entry",
+ "title": "Reader G6 Pro Entry",
+ "price": 379.0,
+ "line": "Access/Protect G6",
+ "legacy": false,
+ "summary": "12MP video door entry with package camera, 3in touch display, face unlock, Protect + Access integration.",
+ "jobs": [
+  {
+   "job": "camera_doorbell",
+   "role": "primary"
+  },
+  {
+   "job": "intercom",
+   "role": "primary"
+  },
+  {
+   "job": "access_reader",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "reader",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "protect",
+  "power_in": [
+   "poe+"
+  ],
+  "power_draw_w": 18,
+  "uplink": "1GbE",
+  "ports": null,
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": true,
+  "ip_rating": "IP55",
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": {
+   "res": "12MP main (20fps) / 8MP (30fps) + 8MP package cam (3fps)",
+   "fps": 30,
+   "night": "IR 5m",
+   "ai": "people/vehicles/animals, face recognition",
+   "lens": "fixed",
+   "audio": "two-way, beamforming"
+  },
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "face unlock",
+   "PIN",
+   "QR visitor",
+   "Wallet",
+   "Touch Pass",
+   "3\" touch display",
+   "package camera"
+  ],
+  "requires": [
+   "PoE+ source (18W)",
+   "UniFi Protect AND UniFi Access on the console",
+   "UniFi Access Hub / Hub Mini for NFC & lock"
+  ],
+  "extra": {
+   "tamper": "IK07 body, IK04 display",
+   "ul294": "Level I"
+  }
+ },
+ "gotchas": [
+  "NFC and door-lock features require a UniFi Access Hub / Hub Mini.",
+  "Both Protect and Access must be installed on the console.",
+  "PoE+ (18W) required — not plain PoE.",
+  "Package camera runs at 3 fps; IR only 5m."
+ ],
+ "best_for": [
+  "front-door video entry with package view"
+ ],
+ "not_for": [
+  "sites without a Protect host"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

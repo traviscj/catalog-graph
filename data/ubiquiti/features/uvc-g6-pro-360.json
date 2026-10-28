@@ -1,0 +1,90 @@
+{
+ "id": "uvc-g6-pro-360",
+ "name": "UVC-G6-Pro-360",
+ "title": "Camera G6 Pro 360",
+ "price": 499.0,
+ "line": "G6 camera",
+ "legacy": false,
+ "summary": "12MP fisheye 360° vandal-resistant PoE+ camera with smart IR and AI detections.",
+ "jobs": [
+  {
+   "job": "camera_ptz_wide",
+   "role": "primary"
+  },
+  {
+   "job": "camera_outdoor",
+   "role": "secondary"
+  },
+  {
+   "job": "camera_indoor",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "camera_360",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "protect",
+  "power_in": [
+   "poe+"
+  ],
+  "power_draw_w": 13.5,
+  "uplink": "100MbE",
+  "ports": null,
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": true,
+  "ip_rating": "IP66",
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": {
+   "res": "12MP (3504x3504)",
+   "fps": 24,
+   "night": "Smart IR 15m (4 zones)",
+   "ai": "people/vehicles/animals",
+   "lens": "fisheye 180°",
+   "audio": "two-way"
+  },
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "IK10",
+   "microSD edge recording",
+   "digital PTZ/dewarp"
+  ],
+  "requires": [
+   "PoE+ source",
+   "UniFi Protect host (Cloud Gateway/UNVR/CloudKey) with storage"
+  ],
+  "extra": {
+   "nic_oddity": "12MP camera lists a 10/100 MbE interface"
+  }
+ },
+ "gotchas": [
+  "Needs PoE+ (13.5W) and a Protect host with storage (Cloud Gateway/UNVR).",
+  "Pan/tilt/zoom is digital (fisheye dewarp), not optical — detail at distance is limited; G5 PTZ for real PTZ.",
+  "24 fps max and only 15m IR.",
+  "Spec lists a 10/100 interface for a 12MP stream — odd; verify."
+ ],
+ "best_for": [
+  "room/lobby/courtyard overview from one ceiling point"
+ ],
+ "not_for": [
+  "long-range detail",
+  "LPR"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

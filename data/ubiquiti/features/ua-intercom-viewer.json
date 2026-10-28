@@ -1,0 +1,81 @@
+{
+ "id": "ua-intercom-viewer",
+ "name": "UA-Intercom-Viewer",
+ "title": "Access Intercom Viewer",
+ "price": 199.0,
+ "line": "Access",
+ "legacy": false,
+ "summary": "Indoor 5\" PoE answering station for Access Intercom / Reader Pro calls.",
+ "jobs": [
+  {
+   "job": "intercom",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "wall",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "access",
+  "power_in": [
+   "poe"
+  ],
+  "power_draw_w": 5,
+  "uplink": "100M",
+  "ports": {
+   "rj45_1g": 0,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "5\" display",
+   "mic/speaker",
+   "mobile unlock"
+  ],
+  "requires": [
+   "UniFi Access Intercom or Reader Pro",
+   "UniFi Access console"
+  ],
+  "extra": {
+   "status": "SoldOut"
+  }
+ },
+ "gotchas": [
+  "Useless alone — answers calls from an Access Intercom or Reader Pro only.",
+  "Indoor only, 10/100 port.",
+  "Requires a console running Access."
+ ],
+ "best_for": [
+  "front-desk / apartment answering"
+ ],
+ "not_for": [
+  "standalone doorbell"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "SoldOut"
+}

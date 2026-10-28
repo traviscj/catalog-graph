@@ -1,0 +1,96 @@
+{
+ "id": "uck-g2-ssd",
+ "name": "UCK-G2-SSD",
+ "title": "CloudKey+ SSD",
+ "price": 249.0,
+ "line": "Cloud Key",
+ "legacy": false,
+ "summary": "Compact PoE-powered UniFi OS console with 1 TB SSD running Network, Protect, Access, Talk, Connect.",
+ "jobs": [
+  {
+   "job": "console_host",
+   "role": "primary"
+  },
+  {
+   "job": "nvr_recording",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "desktop",
+  "requires_console": false,
+  "hosts_apps": [
+   "network",
+   "protect",
+   "access",
+   "talk",
+   "connect"
+  ],
+  "managed_by": "network",
+  "power_in": [
+   "poe",
+   "usb_c"
+  ],
+  "power_draw_w": 9.6,
+  "uplink": "1GbE",
+  "ports": {
+   "rj45_1g": 1,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": "1 TB 2.5\" SATA SSD (user-upgradeable, 5V-only drives)",
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "OLED status display"
+  ],
+  "requires": [
+   "separate gateway/router (no routing)"
+  ],
+  "extra": {
+   "managed_cameras": "(24) HD / (14) 2K / (8) 4K if Protect-only",
+   "managed_access_hubs": 80,
+   "spec_oddity": "camera footnote references UCK-G2-PLUS",
+   "operating_temp": "0-35C",
+   "store_status": "SoldOut"
+  }
+ },
+ "gotchas": [
+  "Not a gateway — no routing/firewall; pair with a UniFi gateway or keep a third-party router.",
+  "Camera limits (8 4K) assume Protect-only; running Network too lowers it.",
+  "1 TB SSD = short retention; only 5V-powered 2.5\" drives work — for real recording use a UNVR.",
+  "0-35°C operating range — don't bury it in a hot closet. Currently sold out."
+ ],
+ "best_for": [
+  "controller for non-UniFi-gateway networks",
+  "tiny Protect sites"
+ ],
+ "not_for": [
+  "many cameras",
+  "long retention"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "SoldOut"
+}

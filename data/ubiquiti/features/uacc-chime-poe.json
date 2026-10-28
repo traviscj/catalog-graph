@@ -1,0 +1,75 @@
+{
+ "id": "uacc-chime-poe",
+ "name": "UACC-Chime-PoE",
+ "title": "PoE Smart Chime",
+ "price": 79.0,
+ "line": "Protect accessory",
+ "legacy": false,
+ "summary": "PoE indoor chime (speaker + buzzer) that pairs with a UniFi doorbell or Access hub.",
+ "jobs": [
+  {
+   "job": "accessory",
+   "role": "primary"
+  },
+  {
+   "job": "camera_doorbell",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "wall",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "protect",
+  "power_in": [
+   "poe"
+  ],
+  "power_draw_w": 3,
+  "uplink": "100MbE",
+  "ports": null,
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "speaker",
+   "buzzer",
+   "in-wall/on-wall mount"
+  ],
+  "requires": [
+   "UniFi doorbell or Access hub",
+   "UniFi Protect or Access"
+  ],
+  "extra": {}
+ },
+ "gotchas": [
+  "Does nothing alone - needs a UniFi doorbell (Protect) or door access hub (Access).",
+  "Needs a PoE port/cable run - not a plug-in or wireless chime.",
+  "Indoor only (0-40 C)."
+ ],
+ "best_for": [
+  "adding chimes to UniFi doorbells over Ethernet"
+ ],
+ "not_for": [
+  "non-UniFi doorbells"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

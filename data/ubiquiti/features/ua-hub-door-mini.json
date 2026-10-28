@@ -1,0 +1,86 @@
+{
+ "id": "ua-hub-door-mini",
+ "name": "UA-Hub-Door-Mini",
+ "title": "Access Door Hub Mini",
+ "price": 129.0,
+ "line": "Access",
+ "legacy": false,
+ "summary": "Single-door DIN-rail Access hub, PoE++ in, 2x PoE+ out for readers, lock relays.",
+ "jobs": [
+  {
+   "job": "access_hub_lock",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "din",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "access",
+  "power_in": [
+   "poe++"
+  ],
+  "power_draw_w": 50,
+  "uplink": "1GbE",
+  "ports": {
+   "rj45_1g": 3,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 2,
+  "poe_out_types": [
+   "poe+"
+  ],
+  "poe_budget_w": 45,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "wet/dry relay",
+   "REX + door position inputs",
+   "3,000 users"
+  ],
+  "requires": [
+   "PoE++ source",
+   "UniFi Access on a console"
+  ],
+  "extra": {
+   "doors": 1,
+   "lock_cable_limits": "e.g. mag lock 500mA: 12 m @24AWG, 46 m @18AWG",
+   "indoor_only": true
+  }
+ },
+ "gotchas": [
+  "One door only — multi-door sites need a larger Access Hub per door group.",
+  "Needs PoE++ input (most UniFi PoE+ switch ports won't do).",
+  "Two PoE+ outputs share 45W total.",
+  "Lock wire length is short on thin gauge (mag lock: 12 m at 24 AWG); indoor only."
+ ],
+ "best_for": [
+  "single office/residential door"
+ ],
+ "not_for": [
+  "multi-door buildings"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

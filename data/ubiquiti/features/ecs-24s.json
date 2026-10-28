@@ -1,0 +1,100 @@
+{
+ "id": "ecs-24s",
+ "name": "ECS-24S",
+ "title": "Switch Enterprise Campus 24S",
+ "price": 1999.0,
+ "line": "Enterprise Campus switch",
+ "legacy": false,
+ "summary": "24-port L3 stackable campus switch: 16x10GbE + 8x2.5GbE copper, 4x25G SFP28, dual PSUs, Etherlighting.",
+ "jobs": [
+  {
+   "job": "switch_core_agg",
+   "role": "primary"
+  },
+  {
+   "job": "switch_edge",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "rack_1u",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "ac",
+   "redundant_psu"
+  ],
+  "power_draw_w": 150,
+  "uplink": "25G SFP28",
+  "ports": {
+   "rj45_1g": 0,
+   "rj45_2_5g": 8,
+   "rj45_10g": 16,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 4,
+   "qsfp28_100g": 2
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": "L3",
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [
+   "redundant_psu",
+   "hot_swap_fans_3+1",
+   "stacking"
+  ],
+  "special": [
+   "etherlighting",
+   "stackable (4 units)",
+   "cross-stack LAG",
+   "Pro AV profiles",
+   "OOB mgmt + serial console",
+   "1.3in touchscreen"
+  ],
+  "requires": [
+   "4-post rack (full depth)",
+   "SFP28 optics/DACs"
+  ],
+  "extra": {
+   "oob_mgmt_rj45_1g": 1,
+   "qsfp28_note": "2x 100G QSFP28 are stacking-only, no uplink, no breakout",
+   "odd": "Hardware lists 'Power Output=yes' but no PoE ports/budget are specified — treated as non-PoE",
+   "stacking_rule": "up to 4 switches, same port count only"
+  }
+ },
+ "gotchas": [
+  "No PoE — this is a non-PoE copper switch; for powered 10GbE access use USW-Pro-XG-24-PoE.",
+  "The two 100G QSFP28 ports are stacking-only: they cannot be used as uplinks and don't support breakout.",
+  "Full-depth 1U (496 mm) — needs a 4-post rack or center-mount shelf; 4 hot-swap fans mean noise.",
+  "Stacks only with switches of the same port count (max 4)."
+ ],
+ "best_for": [
+  "campus distribution with stacking and PSU redundancy",
+  "10GbE wired workstation floors"
+ ],
+ "not_for": [
+  "PoE devices",
+  "2-post/wall racks",
+  "home labs on a budget"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

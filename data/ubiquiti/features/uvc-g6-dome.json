@@ -1,0 +1,85 @@
+{
+ "id": "uvc-g6-dome",
+ "name": "UVC-G6-Dome",
+ "title": "Camera G6 Dome",
+ "price": 279.0,
+ "line": "G6 camera",
+ "legacy": false,
+ "summary": "Vandal-proof IK10 4K dome with 1/1.8\" sensor, Multi-TOPS AI (face/LPR), 30 m IR, PoE.",
+ "jobs": [
+  {
+   "job": "camera_outdoor",
+   "role": "primary"
+  },
+  {
+   "job": "camera_indoor",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "camera_dome",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "protect",
+  "power_in": [
+   "poe"
+  ],
+  "power_draw_w": 9.25,
+  "uplink": "100MbE",
+  "ports": null,
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": true,
+  "ip_rating": "IP66",
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": {
+   "res": "4K (8MP)",
+   "fps": 30,
+   "night": "IR 30m",
+   "ai": "person/vehicle/animal, face, LPR",
+   "lens": "fixed, 109.9deg H",
+   "audio": "mic"
+  },
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "IK10 vandal-proof",
+   "HDR"
+  ],
+  "requires": [
+   "UniFi Protect on a console/NVR with storage"
+  ],
+  "extra": {
+   "network_port": "10/100 MbE"
+  }
+ },
+ "gotchas": [
+  "Requires Protect on a console/NVR with storage - no local recording.",
+  "10/100 Mb port - fine for one stream, no GbE.",
+  "Microphone only, no speaker / two-way audio.",
+  "Fixed lens, no optical zoom - for zoom use G6 Edge Turret / AI PTZ."
+ ],
+ "best_for": [
+  "vandal-prone entrances/hallways",
+  "LPR/face at short range"
+ ],
+ "not_for": [
+  "standalone use",
+  "two-way talk"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

@@ -1,0 +1,92 @@
+{
+ "id": "u7-pro-outdoor-us",
+ "name": "U7-Pro-Outdoor-US",
+ "title": "Access Point U7 Pro Outdoor",
+ "price": 279.0,
+ "line": "WiFi 7 outdoor",
+ "legacy": false,
+ "summary": "IP67 outdoor WiFi 7 tri-band AP with directional super antenna, AFC 6 GHz, 2.5GbE uplink.",
+ "jobs": [
+  {
+   "job": "wifi_outdoor",
+   "role": "primary"
+  },
+  {
+   "job": "wifi_mesh_extend",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "outdoor",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "poe+"
+  ],
+  "power_draw_w": 21,
+  "uplink": "2.5GbE",
+  "ports": {
+   "rj45_1g": 0,
+   "rj45_2_5g": 1,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": 300,
+  "wifi_std": "WiFi 7",
+  "bands": [
+   "2.4",
+   "5",
+   "6"
+  ],
+  "streams": 6,
+  "coverage_m2": 465,
+  "outdoor_rated": true,
+  "ip_rating": "IP67",
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "directional super antenna",
+   "optional external omni (2.4/5 GHz)",
+   "AFC 6 GHz extended range",
+   "meshing"
+  ],
+  "requires": [
+   "PoE+ source (21W)",
+   "UniFi OS console / gateway running UniFi Network (9.0.114+)"
+  ],
+  "extra": {
+   "ip_note": "IPX6 baseline; IP67 only with cable-gland door kit",
+   "region": "-US SKU; 6 GHz Extended Range FCC/IC only"
+  }
+ },
+ "gotchas": [
+  "IP67 only with the cable-gland door kit installed; otherwise IPX6.",
+  "Default antenna is directional (90°x45°) — aim it; external omni option covers only 2.4/5 GHz.",
+  "US SKU: AFC 6 GHz extended range is FCC/IC only.",
+  "Needs PoE+ and benefits from a 2.5GbE port."
+ ],
+ "best_for": [
+  "yards, parking lots, building-to-yard coverage"
+ ],
+ "not_for": [
+  "indoor ceilings"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

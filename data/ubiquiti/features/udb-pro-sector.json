@@ -1,0 +1,84 @@
+{
+ "id": "udb-pro-sector",
+ "name": "UDB-Pro-Sector",
+ "title": "Device Bridge Pro Sector",
+ "price": 199.0,
+ "line": "Device Bridge",
+ "legacy": false,
+ "summary": "5 GHz sector point-to-multipoint base station linking 50+ Device Bridge Pro clients up to 5 km.",
+ "jobs": [
+  {
+   "job": "wireless_bridge",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "pole",
+  "requires_console": null,
+  "hosts_apps": [],
+  "managed_by": null,
+  "power_in": [
+   "poe"
+  ],
+  "power_draw_w": 6,
+  "uplink": "1GbE",
+  "ports": {
+   "rj45_1g": 1,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": "WiFi 5",
+  "bands": [
+   "5"
+  ],
+  "streams": 2,
+  "coverage_m2": null,
+  "outdoor_rated": true,
+  "ip_rating": "IPX6",
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [],
+  "requires": [
+   "UDB-Pro (Device Bridge Pro) clients"
+  ],
+  "extra": {
+   "range_km": 5,
+   "max_rate": "400 Mbps (40 MHz)",
+   "antenna_gain": "17 dBi sector",
+   "clients": "50+ Device Bridge Pro",
+   "management_note": "spec lists Ethernet+WiFi management; no app requirement listed"
+  }
+ },
+ "gotchas": [
+  "Air capacity is 400 Mbps (2x2, 40 MHz) shared across all clients — 50 clients get a fraction.",
+  "Only talks to Device Bridge Pro clients — it is not a WiFi AP for phones/laptops.",
+  "5 GHz only; needs clear line of sight for the 5 km rating.",
+  "Pole mount only; 1 GbE uplink."
+ ],
+ "best_for": [
+  "campus/farm multipoint links to outbuildings or cameras"
+ ],
+ "not_for": [
+  "client WiFi",
+  "multi-gig backhaul"
+ ],
+ "confidence": "medium",
+ "in_store": true,
+ "status": "Available"
+}

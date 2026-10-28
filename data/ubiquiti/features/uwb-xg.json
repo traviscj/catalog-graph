@@ -1,0 +1,90 @@
+{
+ "id": "uwb-xg",
+ "name": "UWB-XG",
+ "title": "WiFi BaseStation XG",
+ "price": 1499.0,
+ "line": "WiFi 5 (high-density)",
+ "legacy": false,
+ "summary": "Stadium-class WiFi 5 BaseStation: 3x 5 GHz 4x4 radios (12 streams), beamforming array, IP67, 10GbE.",
+ "jobs": [
+  {
+   "job": "wifi_highdensity",
+   "role": "primary"
+  },
+  {
+   "job": "wifi_outdoor",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "outdoor",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "poe++"
+  ],
+  "power_draw_w": 31,
+  "uplink": "10GbE",
+  "ports": {
+   "rj45_1g": 1,
+   "rj45_2_5g": 0,
+   "rj45_10g": 1,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": 1500,
+  "wifi_std": "WiFi 5",
+  "bands": [
+   "5"
+  ],
+  "streams": 12,
+  "coverage_m2": 465,
+  "outdoor_rated": true,
+  "ip_rating": "IP67",
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "selectable beamforming antenna",
+   "PoE adapter included",
+   "VESA (optional)"
+  ],
+  "requires": [
+   "PoE++ source",
+   "UniFi Network controller/console"
+  ],
+  "extra": {
+   "odd": "Channel Bandwidth lists HE (WiFi 6) modes but WiFi Standard says WiFi 5",
+   "uplink_note": "10G is the 'ICM' Ethernet port"
+  }
+ },
+ "gotchas": [
+  "5 GHz ONLY — no 2.4 GHz radio, so older/IoT 2.4 GHz-only clients can't connect.",
+  "WiFi 5 generation (no 6 GHz/WiFi 6E/7) despite the high price.",
+  "Needs PoE++ (adapter included) and a 10GbE path to use full capacity.",
+  "Directional, 3.2 kg venue gear — not a home or office AP."
+ ],
+ "best_for": [
+  "arenas, auditoriums, large venues"
+ ],
+ "not_for": [
+  "homes",
+  "2.4 GHz IoT"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

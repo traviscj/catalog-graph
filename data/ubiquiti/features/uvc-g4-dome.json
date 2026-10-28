@@ -1,0 +1,82 @@
+{
+ "id": "uvc-g4-dome",
+ "name": "UVC-G4-DOME",
+ "title": "Camera G4 Dome",
+ "price": null,
+ "line": "G4 camera (legacy)",
+ "legacy": true,
+ "summary": "Legacy 2K (4MP) PoE dome, 24 FPS, IR 9m, IPX4/IK08; not in store.",
+ "jobs": [
+  {
+   "job": "camera_indoor",
+   "role": "primary"
+  },
+  {
+   "job": "camera_outdoor",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "camera_dome",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "protect",
+  "power_in": [
+   "poe"
+  ],
+  "power_draw_w": 5,
+  "uplink": "1GbE",
+  "ports": null,
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": true,
+  "ip_rating": "IPX4",
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": {
+   "res": "2K 4MP (2688x1512)",
+   "fps": 24,
+   "night": "IR 9m",
+   "ai": "people/vehicle",
+   "lens": "fixed, 102.4°H",
+   "audio": "two-way"
+  },
+  "sensors": [],
+  "redundancy": [],
+  "special": [],
+  "requires": [
+   "UniFi Protect console/NVR with storage"
+  ],
+  "extra": {
+   "tamper": "IK08",
+   "weather_note": "IPX4 = covered outdoor only"
+  }
+ },
+ "gotchas": [
+  "Legacy / not in store — G5 Dome / G6 / AI Turret replace it.",
+  "IPX4 only: covered outdoor locations, not exposed.",
+  "2K at 24 FPS, IR just 9m; no face/LPR AI.",
+  "Needs Protect on a console/NVR with storage."
+ ],
+ "best_for": [
+  "existing G4 fleets"
+ ],
+ "not_for": [
+  "new builds",
+  "exposed outdoor"
+ ],
+ "confidence": "high",
+ "in_store": false,
+ "status": null
+}

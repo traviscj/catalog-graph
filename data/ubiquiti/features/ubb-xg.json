@@ -1,0 +1,90 @@
+{
+ "id": "ubb-xg",
+ "name": "UBB-XG",
+ "title": "Building-to-Building Bridge XG",
+ "price": 549.0,
+ "line": "Building bridge",
+ "legacy": false,
+ "summary": "60 GHz PtP bridge (6 Gbps) up to 500 m with 10G SFP+ and 5 GHz backup radio.",
+ "jobs": [
+  {
+   "job": "wireless_bridge",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "outdoor",
+  "requires_console": null,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "poe++"
+  ],
+  "power_draw_w": 29,
+  "uplink": "10G SFP+",
+  "ports": {
+   "rj45_1g": 1,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 1,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [
+   "60",
+   "5"
+  ],
+  "streams": 2,
+  "coverage_m2": null,
+  "outdoor_rated": true,
+  "ip_rating": "IPX6",
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "60 GHz 6 Gbps main radio",
+   "5 GHz backup radio",
+   "Bluetooth setup"
+  ],
+  "requires": [
+   "sold/used as a pair (PtP)",
+   "SFP+ module for 10G"
+  ],
+  "extra": {
+   "range_m": 500,
+   "listed_wifi_std": "WiFi 5 (backup radio)",
+   "power": "PoE++ or passive 48V; adapter included",
+   "status": "SoldOut",
+   "console_note": "not stated whether a console is required"
+  }
+ },
+ "gotchas": [
+  "60 GHz link (6 Gbps) is rain-fade sensitive; in heavy rain it falls back to the 5 GHz radio (~867 Mbps PHY).",
+  "10G only via SFP+ — copper port is 1 GbE; buy an SFP+ module/DAC.",
+  "PtP only, 500 m max — for longer/multipoint use UISP airMAX/Wave.",
+  "Needs PoE++/passive 48 V (adapter included)."
+ ],
+ "best_for": [
+  "building-to-building 10G across a parking lot"
+ ],
+ "not_for": [
+  "> 500 m",
+  "multipoint"
+ ],
+ "confidence": "medium",
+ "in_store": true,
+ "status": "SoldOut"
+}

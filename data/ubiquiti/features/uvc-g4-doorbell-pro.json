@@ -1,0 +1,102 @@
+{
+ "id": "uvc-g4-doorbell-pro",
+ "name": "UVC-G4 Doorbell Pro",
+ "title": "G4 Doorbell Pro",
+ "price": 299.0,
+ "line": "G4 camera",
+ "legacy": false,
+ "summary": "WiFi video doorbell with dual cameras (main + package), display, NFC and two-way intercom.",
+ "jobs": [
+  {
+   "job": "camera_doorbell",
+   "role": "primary"
+  },
+  {
+   "job": "intercom",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "camera_doorbell",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "protect",
+  "power_in": [
+   "ac",
+   "usb_c"
+  ],
+  "power_draw_w": 10,
+  "uplink": "WiFi 5",
+  "ports": {
+   "rj45_1g": 0,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": "WiFi 5",
+  "bands": [
+   "2.4",
+   "5"
+  ],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": true,
+  "ip_rating": "IPX4",
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": {
+   "res": "2MP 1600x1200 main + 2MP package cam",
+   "fps": 30,
+   "night": "IR 6m",
+   "ai": "person/vehicle/animal, package",
+   "lens": "fixed; main 138° H, package 97.5° H",
+   "audio": "two-way"
+  },
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "package camera",
+   "display",
+   "NFC card reader",
+   "chime support"
+  ],
+  "requires": [
+   "16-24V AC doorbell transformer or USB-C 5V",
+   "strong WiFi at the door (or UACC-Adapter-DBPOE for wired GbE)",
+   "UniFi Protect on a console/NVR with storage (e.g. UCG-Max w/ SSD, UNVR-Instant, ENVR)"
+  ],
+  "extra": {
+   "status": "SoldOut",
+   "wifi_note": "802.11a/b/g/n/ac per spec — bands assumed 2.4+5",
+   "compatible_chimes": "listed mechanical/digital models only"
+  }
+ },
+ "gotchas": [
+  "WiFi-connected by default — weak signal at the front door kills reliability; wired GbE needs the UACC-Adapter-DBPOE.",
+  "Needs 16–24 V AC doorbell wiring (or USB-C); chime compatibility is limited to listed models.",
+  "Only IPX4 and ~2MP — no 4K; currently sold out.",
+  "Requires UniFi Protect on a console/NVR with storage."
+ ],
+ "best_for": [
+  "front doors with existing doorbell wiring"
+ ],
+ "not_for": [
+  "no-WiFi porches",
+  "exposed weather"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "SoldOut"
+}

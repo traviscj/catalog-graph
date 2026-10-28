@@ -1,0 +1,83 @@
+{
+ "id": "uap-ac-mesh-pro",
+ "name": "UAP-AC-M-PRO",
+ "title": "Access Point AC Mesh Pro",
+ "price": null,
+ "line": "WiFi 5 (legacy)",
+ "legacy": true,
+ "summary": "Legacy indoor/outdoor 3x3 WiFi 5 mesh AP, IPX4, dual GbE, 24V-era PoE.",
+ "jobs": [
+  {
+   "job": "wifi_outdoor",
+   "role": "primary"
+  },
+  {
+   "job": "wifi_mesh_extend",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "outdoor",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "poe"
+  ],
+  "power_draw_w": 9,
+  "uplink": "1GbE",
+  "ports": {
+   "rj45_1g": 2,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": 250,
+  "wifi_std": "WiFi 5",
+  "bands": [
+   "2.4",
+   "5"
+  ],
+  "streams": 6,
+  "coverage_m2": 185,
+  "outdoor_rated": true,
+  "ip_rating": "IPX4",
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "PoE adapter included (single)",
+   "second GbE port"
+  ],
+  "requires": [],
+  "extra": {}
+ },
+ "gotchas": [
+  "Legacy WiFi 5, not in store — replace with U7 Outdoor / U6 Mesh class APs.",
+  "IPX4 only (splash) — less weatherproof than modern IP67 outdoor APs.",
+  "No WiFi 6/7 features (OFDMA, 160 MHz, 6 GHz); 1G uplink.",
+  "5-packs ship without PoE adapters."
+ ],
+ "best_for": [
+  "existing AC mesh deployments"
+ ],
+ "not_for": [
+  "new builds"
+ ],
+ "confidence": "high",
+ "in_store": false,
+ "status": null
+}

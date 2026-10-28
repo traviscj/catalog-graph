@@ -1,0 +1,98 @@
+{
+ "id": "usw-ultra",
+ "name": "USW-Ultra",
+ "title": "Switch Ultra",
+ "price": 129.0,
+ "line": "Ultra switch",
+ "legacy": false,
+ "summary": "Compact L2 8-port GbE switch: 7 PoE+ out, PoE++-powered or AC adapter; budget 16–202W by input.",
+ "jobs": [
+  {
+   "job": "switch_compact",
+   "role": "primary"
+  },
+  {
+   "job": "switch_poe_edge",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "desktop",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "poe++",
+   "poe+",
+   "dc"
+  ],
+  "power_draw_w": 9,
+  "uplink": "1GbE",
+  "ports": {
+   "rj45_1g": 8,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 7,
+  "poe_out_types": [
+   "poe",
+   "poe+"
+  ],
+  "poe_budget_w": 42,
+  "layer": "L2",
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "PoE passthrough",
+   "magnetic/wall mount",
+   "-30–60°C on PoE++ input"
+  ],
+  "requires": [],
+  "extra": {
+   "poe_budget_by_input": {
+    "PoE++ in": 42,
+    "PoE+ in": 16,
+    "60W PoE adapter": 42,
+    "60W AC adapter": 52,
+    "210W AC adapter": 202
+   },
+   "derating": "210W adapter: 161W (230V)/121W (115V) at 60°C",
+   "adapter": "excluded from box"
+  }
+ },
+ "gotchas": [
+  "PoE output depends on how it's fed: PoE+ in = 16W total, PoE++ in = 42W; 7 ports x 30W needs the optional 210W adapter (202W).",
+  "Power adapter is NOT included; PoE output requires PoE+/PoE++ input or AC adapter.",
+  "All ports 1 GbE, no SFP — WiFi 7 APs downstream are capped at 1G.",
+  "Trimmed L2: no 802.1X, LACP, IGMP snooping listed; 256 VLANs max."
+ ],
+ "best_for": [
+  "powering a few APs/cameras at a remote spot off one PoE++ run",
+  "outdoor-ish enclosures"
+ ],
+ "not_for": [
+  "multi-gig",
+  "high PoE without the 210W adapter"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

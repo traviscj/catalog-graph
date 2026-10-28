@@ -1,0 +1,82 @@
+{
+ "id": "u6-pro",
+ "name": "U6-Pro",
+ "title": "Access Point U6 Pro",
+ "price": 159.0,
+ "line": "WiFi 6",
+ "legacy": false,
+ "summary": "Ceiling WiFi 6 AP, 6 streams (4x4 5 GHz), GbE uplink, 802.3af PoE, IP54.",
+ "jobs": [
+  {
+   "job": "wifi_ceiling",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "ceiling",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "poe"
+  ],
+  "power_draw_w": 13,
+  "uplink": "1GbE",
+  "ports": {
+   "rj45_1g": 1,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": 250,
+  "wifi_std": "WiFi 6",
+  "bands": [
+   "2.4",
+   "5"
+  ],
+  "streams": 6,
+  "coverage_m2": 140,
+  "outdoor_rated": false,
+  "ip_rating": "IP54",
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "802.3af powered"
+  ],
+  "requires": [],
+  "extra": {
+   "ip54_note": "IP54 listed but marketed as ceiling/indoor; not claimed outdoor"
+  }
+ },
+ "gotchas": [
+  "No 6 GHz — WiFi 6, not 6E/7; U7 Pro adds 6 GHz for ~$30 more.",
+  "GbE uplink only — fine for WiFi 6 but no multi-gig headroom.",
+  "Previous generation; buy only on price or to match an existing WiFi 6 fleet.",
+  "Needs a UniFi console/gateway to adopt (no standalone mode in specs)."
+ ],
+ "best_for": [
+  "budget office ceiling coverage",
+  "802.3af-only PoE switches"
+ ],
+ "not_for": [
+  "6 GHz clients",
+  "new WiFi 7 builds"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

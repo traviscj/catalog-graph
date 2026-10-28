@@ -1,0 +1,87 @@
+{
+ "id": "uvc-g6-edge-bullet",
+ "name": "UVC-G6-Edge-Bullet",
+ "title": "Camera G6 Edge Bullet",
+ "price": 699.0,
+ "line": "G6 camera",
+ "legacy": false,
+ "summary": "IP66 4K bullet, 1/1.2\" sensor, 2.36x zoom, 60 m IR, two-way audio, 128 GB edge storage.",
+ "jobs": [
+  {
+   "job": "camera_outdoor",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "camera_bullet",
+  "requires_console": false,
+  "hosts_apps": [],
+  "managed_by": "protect",
+  "power_in": [
+   "poe+"
+  ],
+  "power_draw_w": 25,
+  "uplink": "GbE",
+  "ports": {
+   "rj45_1g": 1,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": true,
+  "ip_rating": "IP66",
+  "storage": "128 GB microSD (pre-installed)",
+  "max_storage_tb": null,
+  "camera": {
+   "res": "4K",
+   "fps": 30,
+   "night": "adaptive IR 60m",
+   "ai": "person/vehicle/animal, face, LPR, AI search",
+   "lens": "5.9-13.8mm f/1.5-2.9, 2.36x optical",
+   "audio": "two-way"
+  },
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "standalone operation (NVR optional)",
+   "1/1.2\" 8MP sensor"
+  ],
+  "requires": [
+   "PoE+ source (25W)"
+  ],
+  "extra": {
+   "status": "ComingSoon"
+  }
+ },
+ "gotchas": [
+  "Draws up to 25 W — needs a real PoE+ port with budget headroom.",
+  "IK04 — not vandal-rated; G6 Edge Dome is IK10.",
+  "Status ComingSoon at time of scrape.",
+  "Standalone storage is 128 GB; long retention wants a Protect NVR."
+ ],
+ "best_for": [
+  "long driveways, perimeters at night"
+ ],
+ "not_for": [
+  "vandal-prone low mounts"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "ComingSoon"
+}

@@ -1,0 +1,94 @@
+{
+ "id": "ua-sk-elevator",
+ "name": "UA-SK-Elevator",
+ "title": "Access Elevator Starter Kit",
+ "price": null,
+ "line": "Access (legacy kit)",
+ "legacy": true,
+ "summary": "Legacy elevator kit: Elevator Hub (18 floor relays, PoE++), G2 Reader, 2-wire PoE extenders, 10 cards.",
+ "jobs": [
+  {
+   "job": "access_hub_lock",
+   "role": "primary"
+  },
+  {
+   "job": "access_reader",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "other",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "access",
+  "power_in": [
+   "poe++"
+  ],
+  "power_draw_w": 7,
+  "uplink": "1GbE",
+  "ports": {
+   "rj45_1g": 4,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 4,
+  "poe_out_types": [
+   "poe",
+   "poe+"
+  ],
+  "poe_budget_w": 45,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "18 floor relays (30V/2A)",
+   "2-wire PoE extenders (HomePlug AV) for traveling cable"
+  ],
+  "requires": [
+   "PoE++ source",
+   "UniFi OS console running Access",
+   "elevator contractor integration"
+  ],
+  "extra": {
+   "in_box": "Elevator Hub, G2 Reader, 2x 2-wire PoE extenders, 10 cards",
+   "max_floors": 18,
+   "hub_users": 6000,
+   "mgmt_port": "extra 10/100/1000 management port",
+   "power_draw_note": "7W without PoE output"
+  }
+ },
+ "gotchas": [
+  "Not in store (legacy) and ships the older G2 Reader.",
+  "Max 18 floors via dry relays — integration with the elevator controller needs a licensed elevator contractor.",
+  "Hub PoE outputs share 45W; needs a PoE++ feed.",
+  "In-car reader rides on 2-wire PoE extenders (10/100 HomePlug) over the traveling cable."
+ ],
+ "best_for": [
+  "existing elevator floor-access deployments"
+ ],
+ "not_for": [
+  "new purchases",
+  "buildings >18 floors"
+ ],
+ "confidence": "high",
+ "in_store": false,
+ "status": null
+}

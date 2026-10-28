@@ -1,0 +1,90 @@
+{
+ "id": "upl-port",
+ "name": "UPL-Port",
+ "title": "UniFi PoE Audio Port",
+ "price": 199.0,
+ "line": "Play",
+ "legacy": false,
+ "summary": "PoE/12V network audio streamer: AirPlay/Cast/Spotify, HDMI eARC, optical, RCA; multi-zone via UniFi Play.",
+ "jobs": [
+  {
+   "job": "iot_premium",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "desktop",
+  "requires_console": null,
+  "hosts_apps": [],
+  "managed_by": "standalone",
+  "power_in": [
+   "poe",
+   "dc"
+  ],
+  "power_draw_w": 10,
+  "uplink": "100MbE / WiFi 6",
+  "ports": {
+   "rj45_1g": 0,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": "WiFi 6",
+  "bands": [
+   "2.4",
+   "5"
+  ],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "AirPlay",
+   "Google Cast",
+   "Spotify Connect",
+   "HDMI eARC",
+   "optical in/out",
+   "RCA in/out",
+   "32-zone"
+  ],
+  "requires": [
+   "amplifier or powered speakers"
+  ],
+  "extra": {
+   "app": "UniFi Play mobile app 2.0+",
+   "ethernet": "10/100 only"
+  }
+ },
+ "gotchas": [
+  "Line-level streamer — no built-in amplifier; needs powered speakers or a PowerAmp.",
+  "Ethernet is 10/100 only.",
+  "Managed by UniFi Play app; console requirement not stated."
+ ],
+ "best_for": [
+  "adding streaming to existing hi-fi/TV",
+  "multi-zone UniFi Play installs"
+ ],
+ "not_for": [
+  "passive speakers without amp"
+ ],
+ "confidence": "medium",
+ "in_store": true,
+ "status": "Available"
+}

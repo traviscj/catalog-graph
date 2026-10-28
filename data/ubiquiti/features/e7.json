@@ -1,0 +1,95 @@
+{
+ "id": "e7",
+ "name": "E7",
+ "title": "Access Point E7",
+ "price": 499.0,
+ "line": "WiFi 7 Enterprise",
+ "legacy": false,
+ "summary": "Enterprise tri-band WiFi 7 AP, 10 streams, 10GbE + redundant GbE uplink, 1000+ clients.",
+ "jobs": [
+  {
+   "job": "wifi_ceiling",
+   "role": "primary"
+  },
+  {
+   "job": "wifi_highdensity",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "ceiling",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "poe++"
+  ],
+  "power_draw_w": 43,
+  "uplink": "10GbE",
+  "ports": {
+   "rj45_1g": 1,
+   "rj45_2_5g": 0,
+   "rj45_10g": 1,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": 1000,
+  "wifi_std": "WiFi 7",
+  "bands": [
+   "2.4",
+   "5",
+   "6"
+  ],
+  "streams": 10,
+  "coverage_m2": 185,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [
+   "dual_uplink"
+  ],
+  "special": [
+   "spectral analysis radio",
+   "zero-wait DFS",
+   "6 GHz extended range (30 dBm, FCC/IC)",
+   "ceiling/wall/VESA mount"
+  ],
+  "requires": [
+   "PoE++ source (43W)"
+  ],
+  "extra": {
+   "mimo": "6G 4x4, 5G 4x4, 2.4G 2x2",
+   "min_network_version": "9.2.87"
+  }
+ },
+ "gotchas": [
+  "Requires PoE++ (43W max) — PoE+ switches/injectors won't run it; use USW-Pro-XG-48-PoE / ECS-24S-PoE / PoE++ ports on Pro Max.",
+  "The 10GbE uplink only pays off on a 10G-capable PoE port — on Pro Max 48 PoE's 2.5G ports it's capped at 2.5G.",
+  "Redundant port is only 1 GbE; failover drops to 1G.",
+  "Overkill for homes; U7 Pro / U7 Pro Max deliver tri-band WiFi 7 on PoE+ for far less."
+ ],
+ "best_for": [
+  "high-density offices/venues",
+  "10G-wired enterprise"
+ ],
+ "not_for": [
+  "homes",
+  "PoE+ only switches"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

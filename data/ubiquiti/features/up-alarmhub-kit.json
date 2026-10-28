@@ -1,0 +1,90 @@
+{
+ "id": "up-alarmhub-kit",
+ "name": "UP-AlarmHub-Kit",
+ "title": "Protect Alarm Hub Kit",
+ "price": 399.0,
+ "line": "Protect Alarm",
+ "legacy": false,
+ "summary": "32-zone hardwired alarm hub for Protect, PoE++/PoE+++ powered with SLA battery backup and relays.",
+ "jobs": [
+  {
+   "job": "alarm_sensor",
+   "role": "primary"
+  },
+  {
+   "job": "power_backup",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "wall",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "protect",
+  "power_in": [
+   "poe++",
+   "poe_bt",
+   "battery"
+  ],
+  "power_draw_w": 90,
+  "uplink": "100MbE",
+  "ports": null,
+  "poe_out_ports": 1,
+  "poe_out_types": [
+   "poe+"
+  ],
+  "poe_budget_w": 42,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [
+   "wired zones (32)"
+  ],
+  "redundancy": [],
+  "special": [
+   "2 wet/dry relays",
+   "12V aux outputs",
+   "EOL resistor supervision"
+  ],
+  "requires": [
+   "PoE++ (60W) or PoE+++ (90W) source",
+   "UniFi Protect 7.0.88+",
+   "12V SLA battery for backup"
+  ],
+  "extra": {
+   "output_budget_w": {
+    "poe++_input": 42,
+    "poe+++_input": 68
+   },
+   "indoor_only": true,
+   "battery_in_kit": "not stated"
+  }
+ },
+ "gotchas": [
+  "Requires a PoE++ (60W) or 90W source — standard PoE+ switches won't power it.",
+  "Output power for sensors/relays/PoE+ port is 42W on PoE++ vs 68W on PoE+++.",
+  "Hardwired sensors only (32 EOL zones); wireless SuperLink sensors are a separate system.",
+  "Indoor only; needs Protect on a console."
+ ],
+ "best_for": [
+  "retrofitting existing wired alarm sensors into Protect"
+ ],
+ "not_for": [
+  "wireless-only homes"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

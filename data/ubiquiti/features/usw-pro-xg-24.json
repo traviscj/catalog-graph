@@ -1,0 +1,91 @@
+{
+ "id": "usw-pro-xg-24",
+ "name": "USW-Pro-XG-24",
+ "title": "Switch Pro XG 24",
+ "price": 1099.0,
+ "line": "Pro XG switch",
+ "legacy": false,
+ "summary": "1U L3 Etherlighting switch: 16x 10GbE + 8x 2.5GbE RJ45 and 2x 25G SFP28 uplinks, no PoE.",
+ "jobs": [
+  {
+   "job": "switch_edge",
+   "role": "primary"
+  },
+  {
+   "job": "switch_core_agg",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "rack_1u",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "ac",
+   "dc"
+  ],
+  "power_draw_w": 150,
+  "uplink": "25G SFP28",
+  "ports": {
+   "rj45_1g": 0,
+   "rj45_2_5g": 8,
+   "rj45_10g": 16,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 2,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": "L3 lite",
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [
+   "dc_power_backup_rps"
+  ],
+  "special": [
+   "etherlighting",
+   "1.3\" touchscreen"
+  ],
+  "requires": [
+   "UniFi OS console / gateway running UniFi Network (9.0.114+)",
+   "SFP28/SFP+ optics or DAC for uplinks"
+  ],
+  "extra": {
+   "half_duplex": "10/100M half-duplex not supported"
+  }
+ },
+ "gotchas": [
+  "No PoE — for powering WiFi 7 APs on 10G ports, the PoE sibling (USW-Pro-XG-24-PoE) is the one to buy.",
+  "Only 2x 25G uplinks behind 16x 10G + 8x 2.5G (180G of access) — ~3.6:1 oversubscribed to the core.",
+  "No dedicated SFP+ cages: 10G fiber only via the two SFP28 ports (which also serve as uplinks).",
+  "10/100M half-duplex unsupported — very old devices may not link.",
+  "Deep 1U chassis (480 mm) needs 4-post rack; DC backup only via USP-RPS."
+ ],
+ "best_for": [
+  "10GbE workstation/NAS/server racks",
+  "small 10G aggregation"
+ ],
+ "not_for": [
+  "PoE device closets",
+  "fiber-heavy aggregation"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

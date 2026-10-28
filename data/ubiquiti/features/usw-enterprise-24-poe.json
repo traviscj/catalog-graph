@@ -1,0 +1,85 @@
+{
+ "id": "usw-enterprise-24-poe",
+ "name": "USW-Enterprise-24-PoE",
+ "title": "Switch Enterprise 24 PoE (Vintage)",
+ "price": null,
+ "line": "Enterprise switch (legacy)",
+ "legacy": true,
+ "summary": "Vintage 24-port L3 PoE+ switch: 12x1G + 12x2.5G all PoE+, 400W, 2x10G SFP+.",
+ "jobs": [
+  {
+   "job": "switch_poe_edge",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "rack_1u",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "ac",
+   "dc"
+  ],
+  "power_draw_w": 60,
+  "uplink": "10G SFP+",
+  "ports": {
+   "rj45_1g": 12,
+   "rj45_2_5g": 12,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 2,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 24,
+  "poe_out_types": [
+   "poe",
+   "poe+"
+  ],
+  "poe_budget_w": 400,
+  "layer": "L3",
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [
+   "dc_backup_rps"
+  ],
+  "special": [
+   "1.3\" touchscreen",
+   "Pro AV profiles"
+  ],
+  "requires": [],
+  "extra": {
+   "vintage": "titled '(Vintage)'; not in store"
+  }
+ },
+ "gotchas": [
+  "Legacy/not in store — modern replacement is USW-Pro-Max-24-PoE (Etherlighting, PoE++).",
+  "PoE+ only (30W class) — no PoE++/802.3bt for U7 Pro Max/E7 class APs or PTZ cameras.",
+  "400W across 24 ports = ~16.7W/port average if all loaded.",
+  "Half the ports are 1GbE only — put WiFi 6E/7 APs on the 12 2.5G ports."
+ ],
+ "best_for": [
+  "existing deployments expanding with a matching unit"
+ ],
+ "not_for": [
+  "new builds",
+  "PoE++ devices"
+ ],
+ "confidence": "high",
+ "in_store": false,
+ "status": null
+}

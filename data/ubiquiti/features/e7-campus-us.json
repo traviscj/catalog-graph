@@ -1,0 +1,97 @@
+{
+ "id": "e7-campus-us",
+ "name": "E7-Campus-US",
+ "title": "Access Point E7 Campus",
+ "price": 799.0,
+ "line": "WiFi 7 Enterprise",
+ "legacy": false,
+ "summary": "Enterprise indoor/outdoor 10-stream tri-band WiFi 7 AP, directional antennas, 10GbE + backup 1GbE, IP67.",
+ "jobs": [
+  {
+   "job": "wifi_highdensity",
+   "role": "primary"
+  },
+  {
+   "job": "wifi_outdoor",
+   "role": "primary"
+  },
+  {
+   "job": "wifi_ceiling",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "outdoor",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "poe++"
+  ],
+  "power_draw_w": 44,
+  "uplink": "10GbE",
+  "ports": {
+   "rj45_1g": 1,
+   "rj45_2_5g": 0,
+   "rj45_10g": 1,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": 1000,
+  "wifi_std": "WiFi 7",
+  "bands": [
+   "2.4",
+   "5",
+   "6"
+  ],
+  "streams": 10,
+  "coverage_m2": 465,
+  "outdoor_rated": true,
+  "ip_rating": "IPX6 / IP67 (with door kit)",
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [
+   "redundant_uplink_1gbe"
+  ],
+  "special": [
+   "PRISM RF filtering",
+   "spectral analysis radio",
+   "directional antennas",
+   "zero-wait DFS"
+  ],
+  "requires": [
+   "PoE++ source (44W)"
+  ],
+  "extra": {
+   "antenna_pattern": "directional ~90x50 deg (6 GHz)"
+  }
+ },
+ "gotchas": [
+  "Needs PoE++ (44W max) — a PoE+ switch won't run it; use USW-Pro-Max-PoE / ECS class or a PoE++ injector.",
+  "Directional antennas (~90°) — not an omni ceiling AP; aim it at the coverage area.",
+  "10GbE uplink only pays off on a 10GbE RJ45 switch port.",
+  "Pricey ($799) — U7 Outdoor / U7 Pro Outdoor cover ordinary yards."
+ ],
+ "best_for": [
+  "campuses, stadium sections, courtyards, high-density outdoor/indoor spaces"
+ ],
+ "not_for": [
+  "homes",
+  "PoE+ only sites"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

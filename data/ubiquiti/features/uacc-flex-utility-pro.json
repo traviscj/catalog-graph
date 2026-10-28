@@ -1,0 +1,69 @@
+{
+ "id": "uacc-flex-utility-pro",
+ "name": "UACC-Flex-Utility-Pro",
+ "title": "Flex Utility Pro",
+ "price": 59.0,
+ "line": "Accessory",
+ "legacy": false,
+ "summary": "IPX6 outdoor polycarbonate enclosure for mounting Flex-class network gear on walls or poles.",
+ "jobs": [
+  {
+   "job": "accessory",
+   "role": "primary"
+  },
+  {
+   "job": "switch_industrial",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "outdoor",
+  "requires_console": false,
+  "hosts_apps": [],
+  "managed_by": "standalone",
+  "power_in": [],
+  "power_draw_w": null,
+  "uplink": null,
+  "ports": null,
+  "poe_out_ports": null,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": true,
+  "ip_rating": "IPX6",
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [],
+  "requires": [],
+  "extra": {
+   "dimensions_mm": "350 x 220 x 89",
+   "weight_kg": 1.6
+  }
+ },
+ "gotchas": [
+  "It's just an enclosure - no switch, no power supply included.",
+  "IPX6 (water) with no dust rating digit; no thermal/heater spec for hot or freezing sites.",
+  "Check internal clearance for your device - spec only gives outer 350x220x89 mm."
+ ],
+ "best_for": [
+  "housing a Flex switch/PoE gear outdoors"
+ ],
+ "not_for": [
+  "anyone expecting active hardware"
+ ],
+ "confidence": "medium",
+ "in_store": true,
+ "status": "Available"
+}

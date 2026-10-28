@@ -1,0 +1,82 @@
+{
+ "id": "ut-g3-handset",
+ "name": "UT-G3-Handset",
+ "title": "G3 Wireless Handset",
+ "price": 99.0,
+ "line": "Talk",
+ "legacy": false,
+ "summary": "Bluetooth LE audio wireless handset accessory for G3 Touch Phones.",
+ "jobs": [
+  {
+   "job": "voip_phone",
+   "role": "primary"
+  },
+  {
+   "job": "accessory",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "other",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "talk",
+  "power_in": [
+   "battery"
+  ],
+  "power_draw_w": null,
+  "uplink": "Bluetooth 5.2 LE",
+  "ports": {
+   "rj45_1g": 0,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "0.96\" display",
+   "1000mAh battery",
+   "pogo-pin charging"
+  ],
+  "requires": [
+   "UniFi G3 Touch Phone",
+   "UniFi Talk console"
+  ],
+  "extra": {}
+ },
+ "gotchas": [
+  "Accessory only — needs a G3 Touch Phone (pairs over BT LE) and UniFi Talk on a console.",
+  "Not a standalone DECT/cordless phone."
+ ],
+ "best_for": [
+  "cordless handset for G3 desk phones"
+ ],
+ "not_for": [
+  "standalone phones"
+ ],
+ "confidence": "medium",
+ "in_store": true,
+ "status": "Available"
+}

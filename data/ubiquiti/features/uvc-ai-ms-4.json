@@ -1,0 +1,94 @@
+{
+ "id": "uvc-ai-ms-4",
+ "name": "UVC-AI-MS-4",
+ "title": "Camera AI Multi Sensor 4",
+ "price": 1799.0,
+ "line": "AI camera",
+ "legacy": false,
+ "summary": "Four-lens 32MP (4x 4K) multi-sensor dome with 2.33x optical zoom, 360° IR, IP66/IK10, PoE++.",
+ "jobs": [
+  {
+   "job": "camera_ptz_wide",
+   "role": "primary"
+  },
+  {
+   "job": "camera_outdoor",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "camera_dome",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "protect",
+  "power_in": [
+   "poe++"
+  ],
+  "power_draw_w": 34.6,
+  "uplink": "1GbE",
+  "ports": {
+   "rj45_1g": 1,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": true,
+  "ip_rating": "IP66",
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": {
+   "res": "4x 8MP (32MP)",
+   "fps": 24,
+   "night": "IR 20m, 16 LEDs",
+   "ai": "person/vehicle/animal/face/LPR",
+   "lens": "4x 3.18-7.42mm, 2.33x optical",
+   "audio": null
+  },
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "IK10",
+   "2x microSD + M.2 SATA (SSD coming soon)",
+   "edge storage"
+  ],
+  "requires": [
+   "UniFi Protect NVR/console with storage",
+   "PoE++ source (35W)"
+  ],
+  "extra": {
+   "camera_load": "counts as 4x 4K streams against NVR capacity (assumed)"
+  }
+ },
+ "gotchas": [
+  "Needs PoE++ (34.6W) — PoE+ switches/ports won't power it.",
+  "Four 4K streams eat NVR capacity and disk like four cameras — size the UNVR accordingly.",
+  "24 fps max; audio not listed.",
+  "$1,799 — for a single direction a G6 Turret/Bullet is far cheaper."
+ ],
+ "best_for": [
+  "parking lots, intersections, building corners needing multi-direction coverage from one mount"
+ ],
+ "not_for": [
+  "single-view needs",
+  "PoE+ only sites"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

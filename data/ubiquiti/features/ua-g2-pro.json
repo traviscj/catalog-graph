@@ -1,0 +1,91 @@
+{
+ "id": "ua-g2-pro",
+ "name": "UA-G2-Pro",
+ "title": "Access G2 Reader Pro",
+ "price": 359.0,
+ "line": "Access (G2, superseded)",
+ "legacy": true,
+ "summary": "G2 NFC/PIN reader-intercom with 2MP camera and touch display, PoE, IP55; superseded by G3 Reader Pro.",
+ "jobs": [
+  {
+   "job": "access_reader",
+   "role": "primary"
+  },
+  {
+   "job": "intercom",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "reader",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "access",
+  "power_in": [
+   "poe"
+  ],
+  "power_draw_w": 6,
+  "uplink": "1GbE",
+  "ports": null,
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": true,
+  "ip_rating": "IP55",
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": {
+   "res": "2MP (1200x1600)",
+   "fps": 30,
+   "night": null,
+   "ai": null,
+   "lens": "157.8°D",
+   "audio": "two-way intercom"
+  },
+  "sensors": [
+   "proximity"
+  ],
+  "redundancy": [],
+  "special": [
+   "NFC",
+   "PIN keypad (touch display)",
+   "QR visitor unlock",
+   "mobile unlock",
+   "UL 294"
+  ],
+  "requires": [
+   "UniFi Access Hub",
+   "UniFi OS console running Access"
+  ],
+  "extra": {
+   "status": "SoldOut",
+   "apps": "Protect + Access",
+   "legacy_reason": "second gen; G3 Reader Pro is current"
+  }
+ },
+ "gotchas": [
+  "Reader only — door lock control needs a UniFi Access Hub (G3 Starter Kit Pro bundles one).",
+  "Superseded and sold out — G3 Reader Pro adds Apple/Google Wallet & face unlock.",
+  "Requires a UniFi OS console running Access (and Protect for camera/intercom).",
+  "Display shuts off below -10°C (device rated to -30°C)."
+ ],
+ "best_for": [
+  "existing G2 fleets"
+ ],
+ "not_for": [
+  "new installs"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "SoldOut"
+}

@@ -1,0 +1,90 @@
+{
+ "id": "usw-industrial",
+ "name": "USW-Industrial",
+ "title": "Switch Industrial",
+ "price": null,
+ "line": "Industrial switch (legacy)",
+ "legacy": true,
+ "summary": "Hardened fanless 10-port 1GbE L2 switch, 8 PoE++ ports, 430 W, -40 to 60 C; discontinued.",
+ "jobs": [
+  {
+   "job": "switch_industrial",
+   "role": "primary"
+  },
+  {
+   "job": "switch_poe_edge",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "wall",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "ac"
+  ],
+  "power_draw_w": 450,
+  "uplink": "1GbE",
+  "ports": {
+   "rj45_1g": 10,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 8,
+  "poe_out_types": [
+   "poe",
+   "poe+",
+   "poe++"
+  ],
+  "poe_budget_w": 430,
+  "layer": "L2",
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "fanless",
+   "die-cast aluminum",
+   "-40 to 60 C"
+  ],
+  "requires": [],
+  "extra": {
+   "port_note": "spec lists 1 GbE RJ45=10 (8 PoE++); no SFP listed",
+   "temp_note": "-40–50C at 450W PSU, -40–60C at 240W",
+   "limited_l2": "fewer L2 features (no LACP/802.1X/IGMP listed), 256 VLANs"
+  }
+ },
+ "gotchas": [
+  "Legacy, not in store — the USW-Industrial-DIN-2.5G-8-PoE is the coming replacement (adds 2.5GbE + SFP+).",
+  "1GbE only with no SFP uplink listed — bottleneck for 8 PoE++ devices.",
+  "Stripped L2 feature set (no LACP/802.1X listed, 256 VLANs) vs. other UniFi switches.",
+  "No IP rating listed despite 'industrial' — still needs an enclosure outdoors."
+ ],
+ "best_for": [
+  "hot/cold plant rooms powering 60 W PTZ/APs"
+ ],
+ "not_for": [
+  "new builds",
+  "multi-gig"
+ ],
+ "confidence": "medium",
+ "in_store": false,
+ "status": null
+}

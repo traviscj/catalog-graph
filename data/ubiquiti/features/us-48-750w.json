@@ -1,0 +1,84 @@
+{
+ "id": "us-48-750w",
+ "name": "US-48-750W",
+ "title": "Switch 48 (750W)",
+ "price": null,
+ "line": "Standard switch (legacy, Gen1)",
+ "legacy": true,
+ "summary": "Gen1 48-port 1GbE L2 PoE+/24V-passive switch with 2x SFP + 2x SFP+, 750 W; discontinued.",
+ "jobs": [
+  {
+   "job": "switch_poe_edge",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "rack_1u",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "ac"
+  ],
+  "power_draw_w": null,
+  "uplink": "10G SFP+",
+  "ports": {
+   "rj45_1g": 48,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 2,
+   "sfp_plus_10g": 2,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 48,
+  "poe_out_types": [
+   "poe",
+   "poe+"
+  ],
+  "poe_budget_w": 750,
+  "layer": "L2",
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "24V passive PoE output"
+  ],
+  "requires": [
+   "SFP/SFP+ modules"
+  ],
+  "extra": {
+   "desc_note": "desc says ports support PoE+ and 24V passive PoE",
+   "thin_data": "no performance/dimensions-to-hardware detail, no power draw"
+  }
+ },
+ "gotchas": [
+  "Legacy US-series (Gen1) switch, not in store — replacement is the USW-Pro-48-POE / Pro Max 48 PoE.",
+  "L2 only and 1GbE-only; no PoE++ for 60 W devices.",
+  "24V passive PoE output is a footgun if misconfigured on 802.3af devices — only useful for old AC-gen gear.",
+  "Older Gen1 hardware may lag on new UniFi Network features."
+ ],
+ "best_for": [
+  "reusing existing gear for 24V-passive legacy APs"
+ ],
+ "not_for": [
+  "new deployments",
+  "multi-gig"
+ ],
+ "confidence": "medium",
+ "in_store": false,
+ "status": null
+}

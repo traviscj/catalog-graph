@@ -1,0 +1,78 @@
+{
+ "id": "uvc-g6-bullet",
+ "name": "UVC-G6-Bullet",
+ "title": "Camera G6 Bullet",
+ "price": 199.0,
+ "line": "G6 camera",
+ "legacy": false,
+ "summary": "4K bullet with 1/1.8\" sensor, Multi-TOPS AI (face/LPR), 30 m IR, IP66, PoE.",
+ "jobs": [
+  {
+   "job": "camera_outdoor",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "camera_bullet",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "protect",
+  "power_in": [
+   "poe"
+  ],
+  "power_draw_w": 9.9,
+  "uplink": "100MbE",
+  "ports": null,
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": true,
+  "ip_rating": "IP66",
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": {
+   "res": "4K (8MP)",
+   "fps": 30,
+   "night": "IR 30m",
+   "ai": "person/vehicle/animal, face, LPR",
+   "lens": "fixed, 109.9deg H",
+   "audio": "mic"
+  },
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "HDR",
+   "pole mount included"
+  ],
+  "requires": [
+   "UniFi Protect on a console/NVR with storage"
+  ],
+  "extra": {}
+ },
+ "gotchas": [
+  "Requires Protect on a console/NVR with storage.",
+  "Fixed wide lens - LPR works at short range only; for long range use AI PTZ.",
+  "10/100 port, mic only, IK04 (not vandal-proof - G6 Dome is IK10)."
+ ],
+ "best_for": [
+  "driveways/yards",
+  "best value 4K + LPR"
+ ],
+ "not_for": [
+  "long-range plates",
+  "two-way audio"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

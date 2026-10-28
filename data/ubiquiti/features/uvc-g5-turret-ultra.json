@@ -1,0 +1,80 @@
+{
+ "id": "uvc-g5-turret-ultra",
+ "name": "UVC-G5-Turret-Ultra",
+ "title": "Camera G5 Turret Ultra",
+ "price": 129.0,
+ "line": "G5 camera",
+ "legacy": false,
+ "summary": "Ultra-compact budget 2K turret, IP66, 30 m IR, basic AI detections, 4 W PoE.",
+ "jobs": [
+  {
+   "job": "camera_outdoor",
+   "role": "primary"
+  },
+  {
+   "job": "camera_indoor",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "camera_turret",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "protect",
+  "power_in": [
+   "poe"
+  ],
+  "power_draw_w": 4,
+  "uplink": "100MbE",
+  "ports": null,
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": true,
+  "ip_rating": "IP66",
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": {
+   "res": "2K (4MP)",
+   "fps": 30,
+   "night": "IR 30m",
+   "ai": "person/vehicle/animal",
+   "lens": "fixed, 102.4deg H",
+   "audio": "mic"
+  },
+  "sensors": [],
+  "redundancy": [],
+  "special": [],
+  "requires": [
+   "UniFi Protect on a console/NVR with storage"
+  ],
+  "extra": {}
+ },
+ "gotchas": [
+  "Requires Protect on a console/NVR - no onboard storage.",
+  "2K only, no face/LPR - for those step to G6 Bullet/Dome.",
+  "10/100 port, mic only (no speaker), small 1/2.4\" sensor.",
+  "IK04 only - not vandal-resistant like the G6 Dome (IK10)."
+ ],
+ "best_for": [
+  "cheap coverage at many angles",
+  "small homes"
+ ],
+ "not_for": [
+  "license plates",
+  "vandal-prone spots"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

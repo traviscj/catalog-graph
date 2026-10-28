@@ -1,0 +1,85 @@
+{
+ "id": "usl-smoke",
+ "name": "USL-Smoke",
+ "title": "Smoke and CO Alarm",
+ "price": 89.0,
+ "line": "SuperLink",
+ "legacy": false,
+ "summary": "Battery smoke (photoelectric) + CO alarm on SuperLink, 10-year batteries, Protect-managed.",
+ "jobs": [
+  {
+   "job": "alarm_sensor",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "ceiling",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "protect",
+  "power_in": [
+   "battery"
+  ],
+  "power_draw_w": 0.51,
+  "uplink": null,
+  "ports": {
+   "rj45_1g": 0,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [
+   "smoke",
+   "co"
+  ],
+  "redundancy": [],
+  "special": [
+   "85 dB siren",
+   "SuperLink 2 km LOS"
+  ],
+  "requires": [
+   "UniFi SuperLink hub/gateway",
+   "UniFi Protect"
+  ],
+  "extra": {
+   "radio": "SuperLink proprietary sub-GHz (US 915.6–927.6 MHz)",
+   "batteries": "CR123A (SuperLink, replaceable) + 2x L91 sealed (alarm, 10 yr)",
+   "status": "SoldOut"
+  }
+ },
+ "gotchas": [
+  "SuperLink radio — needs a SuperLink hub/gateway in range; it does not join WiFi or Zigbee.",
+  "Alarm batteries are non-replaceable (10-year unit); only the CR123A for SuperLink is swappable.",
+  "Managed in Protect — requires a Protect console."
+ ],
+ "best_for": [
+  "Protect-centric sites wanting networked smoke/CO"
+ ],
+ "not_for": [
+  "non-UniFi homes"
+ ],
+ "confidence": "medium",
+ "in_store": true,
+ "status": "SoldOut"
+}

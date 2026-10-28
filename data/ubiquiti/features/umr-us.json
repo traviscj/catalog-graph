@@ -1,0 +1,100 @@
+{
+ "id": "umr-us",
+ "name": "UMR-US",
+ "title": "UniFi Mobile Router",
+ "price": 199.0,
+ "line": "Mobile Router",
+ "legacy": false,
+ "summary": "AT&T LTE Cat 4 mobile router with WiFi 4, 2x GbE, PoE in/out, GPS; plug-and-play remote connectivity.",
+ "jobs": [
+  {
+   "job": "internet_backup",
+   "role": "primary"
+  },
+  {
+   "job": "gateway_allinone",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "din",
+  "requires_console": null,
+  "hosts_apps": [],
+  "managed_by": null,
+  "power_in": [
+   "poe+",
+   "usb_c",
+   "dc"
+  ],
+  "power_draw_w": 9,
+  "uplink": "LTE Cat 4",
+  "ports": {
+   "rj45_1g": 2,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 1,
+  "poe_out_types": [
+   "poe"
+  ],
+  "poe_budget_w": 10,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [
+   "2.4"
+  ],
+  "streams": 1,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "LTE Cat 4",
+   "GPS",
+   "1.3\" touchscreen",
+   "WireGuard/OpenVPN client",
+   "IPsec/WG site-to-site"
+  ],
+  "requires": [
+   "AT&T nano-SIM / data plan"
+  ],
+  "extra": {
+   "wifi": "WiFi 4 802.11n 1x1 2.4 GHz",
+   "lte_bands": "B2,B4,B5,B12,B14,B66",
+   "lte_speed": "150/50 Mbps",
+   "poe_out_note": "max 10W, requires PoE+ input",
+   "form": "DIN rail or wall",
+   "management_note": "'Managed' per desc; app not specified"
+  }
+ },
+ "gotchas": [
+  "AT&T-locked: pre-installed AT&T SIM or bring-your-own AT&T SIM only.",
+  "LTE Cat 4 tops out at 150/50 Mbps; WiFi is 1x1 2.4 GHz WiFi 4 — not a home WiFi replacement.",
+  "PoE output is only 10W and only when fed by PoE+.",
+  "No IDS/IPS or multi-device switching — pair with a real gateway (or use UniFi LTE Backup for gateway failover)."
+ ],
+ "best_for": [
+  "vans, job sites, kiosks, remote cameras",
+  "temporary internet"
+ ],
+ "not_for": [
+  "primary home/office gateway",
+  "non-AT&T areas"
+ ],
+ "confidence": "medium",
+ "in_store": true,
+ "status": "Available"
+}

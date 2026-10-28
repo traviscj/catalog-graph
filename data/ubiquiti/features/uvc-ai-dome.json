@@ -1,0 +1,89 @@
+{
+ "id": "uvc-ai-dome",
+ "name": "UVC-AI-Dome",
+ "title": "Camera AI Dome",
+ "price": 399.0,
+ "line": "AI camera",
+ "legacy": false,
+ "summary": "4K vandal-proof AI dome (IK10), fixed lens, face/LPR detection, runs on standard PoE.",
+ "jobs": [
+  {
+   "job": "camera_outdoor",
+   "role": "primary"
+  },
+  {
+   "job": "camera_indoor",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "camera_dome",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "protect",
+  "power_in": [
+   "poe"
+  ],
+  "power_draw_w": 10,
+  "uplink": "1GbE",
+  "ports": {
+   "rj45_1g": 1,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": true,
+  "ip_rating": "IP66",
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": {
+   "res": "4K",
+   "fps": 30,
+   "night": "IR 40m",
+   "ai": "person/vehicle/animal, face, LPR",
+   "lens": "fixed",
+   "audio": "microphone",
+   "sensor": "1/1.8\" 8MP",
+   "ik": "IK10"
+  },
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "microSD edge recording (≥64GB)"
+  ],
+  "requires": [
+   "UniFi Protect on a console/NVR with storage (e.g. UCG-Max w/ SSD, UNVR-Instant, ENVR)"
+  ],
+  "extra": {}
+ },
+ "gotchas": [
+  "Fixed lens, no optical zoom; smaller 1/1.8\" sensor than G6 Pro Dome — weaker low light.",
+  "microSD edge slot requires ≥64 GB card; real recording still needs Protect on a console/NVR.",
+  "Microphone only, no speaker."
+ ],
+ "best_for": [
+  "outdoor coverage on af PoE budgets"
+ ],
+ "not_for": [
+  "zoomed detail at distance"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

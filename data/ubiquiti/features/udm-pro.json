@@ -1,0 +1,106 @@
+{
+ "id": "udm-pro",
+ "name": "UDM-Pro",
+ "title": "Dream Machine Pro",
+ "price": 379.0,
+ "line": "Cloud Gateway",
+ "legacy": false,
+ "summary": "1U rack Cloud Gateway: 3.5 Gbps IPS, 10G SFP+ WAN/LAN, 8-port GbE switch, 1 NVR bay, runs all UniFi apps.",
+ "jobs": [
+  {
+   "job": "gateway_router",
+   "role": "primary"
+  },
+  {
+   "job": "console_host",
+   "role": "primary"
+  },
+  {
+   "job": "nvr_recording",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "rack_1u",
+  "requires_console": false,
+  "hosts_apps": [
+   "network",
+   "protect",
+   "access",
+   "talk",
+   "connect"
+  ],
+  "managed_by": "network",
+  "power_in": [
+   "ac",
+   "dc"
+  ],
+  "power_draw_w": 33,
+  "uplink": "10G SFP+",
+  "ports": {
+   "rj45_1g": 9,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 2,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": 8,
+  "ips_throughput_gbps": 3.5,
+  "routing_throughput_gbps": null,
+  "max_devices": 100,
+  "max_clients": 1000,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": "1x 3.5\" NVR HDD bay",
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [
+   "shadow_mode_ha",
+   "rps_dc_backup"
+  ],
+  "special": [
+   "1.3\" touchscreen",
+   "BGP/OSPF",
+   "MAC table 4,000"
+  ],
+  "requires": [],
+  "extra": {
+   "managed_cameras": "(24) HD (14) 2K (8) 4K",
+   "managed_access_hubs": 150,
+   "default_wan": "(1) 10G SFP+ (1) GbE RJ45",
+   "lacp": "GbE ports 1-8 only",
+   "cpu": "4x Cortex-A57 1.7 GHz, 4 GB RAM"
+  }
+ },
+ "gotchas": [
+  "All RJ45 ports are 1 GbE — no 2.5G; multi-gig WAN/LAN only via the 2 SFP+ cages (UDM-Pro-Max/UDM-SE-class gets 2.5G).",
+  "No PoE output at all — APs/cameras need a separate PoE switch (e.g. USW-Pro-Max-48-PoE / USW-Ultra).",
+  "Single 3.5\" NVR bay = no RAID for Protect; limit (8) 4K cameras. Use a UNVR (4 bays) for real camera counts.",
+  "Single internal 50W PSU; DC redundancy requires the separate UniFi RPS (USP-RPS).",
+  "IPS caps at 3.5 Gbps — multi-gig ISP plans with IPS on will bottleneck; Shadow Mode HA needs a second identical gateway (+ USW-WAN-RJ45 for single-ISP)."
+ ],
+ "best_for": [
+  "small/medium office rack core",
+  "1G-class internet with IPS",
+  "all-in-one console + small Protect"
+ ],
+ "not_for": [
+  "multi-gig ISP with full IPS",
+  "PoE needs",
+  "large camera deployments"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

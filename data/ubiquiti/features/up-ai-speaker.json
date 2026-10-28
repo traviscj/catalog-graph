@@ -1,0 +1,73 @@
+{
+ "id": "up-ai-speaker",
+ "name": "UP-AI-Speaker",
+ "title": "AI Speaker",
+ "price": 199.0,
+ "line": "Protect speaker",
+ "legacy": false,
+ "summary": "Indoor 100 dB PoE++ speaker for AI-triggered alerts; surface or flush mount.",
+ "jobs": [
+  {
+   "job": "alarm_sensor",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "wall",
+  "requires_console": null,
+  "hosts_apps": [],
+  "managed_by": null,
+  "power_in": [
+   "poe++"
+  ],
+  "power_draw_w": 33,
+  "uplink": "100M",
+  "ports": null,
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [],
+  "requires": [
+   "PoE++ source"
+  ],
+  "extra": {
+   "audio": "3\" full-range mono, 150Hz–20kHz, 100dB max SPL",
+   "net_port": "10/100 MbE",
+   "management_note": "spec lists no app; category = sensors-alarms (Protect)",
+   "environment": "indoor 0–40°C"
+  }
+ },
+ "gotchas": [
+  "Requires PoE++ (33W) — a PoE+ port won't drive it; USW-Pro-Max PoE++ ports or a PoE++ injector.",
+  "Indoor only (0–40°C, no IP rating).",
+  "Mono 3\" driver, 100 dB — alerts/announcements, not music.",
+  "AI alerts depend on Protect cameras/console (app requirement not stated in specs)."
+ ],
+ "best_for": [
+  "deterrence/voice-down alerts indoors"
+ ],
+ "not_for": [
+  "outdoor sirens",
+  "background music"
+ ],
+ "confidence": "medium",
+ "in_store": true,
+ "status": "Available"
+}

@@ -1,0 +1,77 @@
+{
+ "id": "us-24",
+ "name": "US-24",
+ "title": "Switch 24",
+ "price": null,
+ "line": "US gen1 switch (legacy)",
+ "legacy": true,
+ "summary": "First-generation UniFi 24x 1GbE L2 switch with 2x 1G SFP; not sold, no PoE.",
+ "jobs": [
+  {
+   "job": "switch_edge",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "rack_1u",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "ac"
+  ],
+  "power_draw_w": null,
+  "uplink": "1G SFP",
+  "ports": {
+   "rj45_1g": 24,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 2,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": "L2",
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [],
+  "requires": [
+   "UniFi OS console / gateway running UniFi Network"
+  ],
+  "extra": {
+   "thin_data": "no performance, power draw or form-factor fields; rack_1u inferred from rack-depth spec"
+  }
+ },
+ "gotchas": [
+  "Legacy/not in store — modern replacements are the USW-24 (gen2) or USW-Pro-Max-24.",
+  "No PoE (that was the US-24-250W/500W variants).",
+  "1G SFP uplinks only, no 2.5/10G anywhere.",
+  "Spec sheet is thin (no power or switching figures) — expect gen1 limits on firmware features."
+ ],
+ "best_for": [
+  "reusing existing gear"
+ ],
+ "not_for": [
+  "new purchases"
+ ],
+ "confidence": "medium",
+ "in_store": false,
+ "status": null
+}

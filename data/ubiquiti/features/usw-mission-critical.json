@@ -1,0 +1,98 @@
+{
+ "id": "usw-mission-critical",
+ "name": "USW-Mission-Critical",
+ "title": "UPS PoE Switch Mission Critical",
+ "price": 999.0,
+ "line": "UPS switch",
+ "legacy": false,
+ "summary": "9-port GbE L3 switch with built-in 368 Wh battery giving uninterruptible PoE to 8 devices (120 W).",
+ "jobs": [
+  {
+   "job": "switch_poe_edge",
+   "role": "primary"
+  },
+  {
+   "job": "power_backup",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "rack_1u",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "ac",
+   "battery",
+   "dc"
+  ],
+  "power_draw_w": 50,
+  "uplink": "1GbE",
+  "ports": {
+   "rj45_1g": 9,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 8,
+  "poe_out_types": [
+   "poe+",
+   "poe++"
+  ],
+  "poe_budget_w": 120,
+  "layer": "L3",
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [
+   "battery_backup"
+  ],
+  "special": [
+   "UPS",
+   "integrated 368Wh Li-ion battery",
+   "1.3\" touchscreen"
+  ],
+  "requires": [
+   "UniFi Network 6.2.26+",
+   "4-post rack (480 mm deep)"
+  ],
+  "extra": {
+   "poe_split": "4x PoE+ (32W) + 4x PoE++ (60W)",
+   "max_power_incl_poe_and_ac_out_w": 240,
+   "conflict": "Layer 3=yes but no L3 feature section listed",
+   "external_battery_input": "48V DC"
+  }
+ },
+ "gotchas": [
+  "All ports are 1 GbE and no SFP - 1G uplink; can't feed multi-gig WiFi 7 APs at full speed.",
+  "Only 120 W PoE across 8 ports (4 PoE+ / 4 PoE++) - runtime/budget sized for a few critical APs/cameras, not a closet.",
+  "Heavy (9 kg) and 480 mm deep - needs a 4-post rack.",
+  "Costs ~$999 for 9 ports; a regular PoE switch + USP-RPS or a real UPS may fit better."
+ ],
+ "best_for": [
+  "keeping a few cameras/APs/door hubs alive through outages",
+  "small critical closets"
+ ],
+ "not_for": [
+  "multi-gig networks",
+  "high port counts"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

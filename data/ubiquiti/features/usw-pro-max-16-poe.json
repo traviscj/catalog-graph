@@ -1,0 +1,94 @@
+{
+ "id": "usw-pro-max-16-poe",
+ "name": "USW-Pro-Max-16-PoE",
+ "title": "Switch Pro Max 16 PoE",
+ "price": 399.0,
+ "line": "Pro Max switch",
+ "legacy": false,
+ "summary": "Compact L3 Etherlighting switch: 12x 1G PoE+, 4x 2.5G PoE++, 2x SFP+, 180 W.",
+ "jobs": [
+  {
+   "job": "switch_poe_edge",
+   "role": "primary"
+  },
+  {
+   "job": "switch_compact",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "rack_mountable_desktop",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "ac"
+  ],
+  "power_draw_w": 210,
+  "uplink": "10G SFP+",
+  "ports": {
+   "rj45_1g": 12,
+   "rj45_2_5g": 4,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 2,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 16,
+  "poe_out_types": [
+   "poe",
+   "poe+",
+   "poe++"
+  ],
+  "poe_budget_w": 180,
+  "layer": "L3 lite",
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "etherlighting",
+   "1.3\" touchscreen",
+   "Pro AV profiles"
+  ],
+  "requires": [
+   "UniFi console/gateway",
+   "rack mount accessory for 1U"
+  ],
+  "extra": {
+   "power_supply": "external 210W AC/DC brick (50–54V DC input)",
+   "poe_plus_per_port_w": 32
+  }
+ },
+ "gotchas": [
+  "Only 4 ports are 2.5G — the 12 others are 1 GbE; WiFi 7 APs beyond 4 get bottlenecked.",
+  "180 W budget across 16 PoE ports (~11 W avg) — fine for APs/cameras, not 16x PoE+ loads.",
+  "1U rack mounting needs the separate Rack Mount accessory.",
+  "External power brick, no RPS/redundant input.",
+  "SFP+ ports need modules/DACs; requires a UniFi console to adopt."
+ ],
+ "best_for": [
+  "home/SMB core with a few WiFi 7 APs",
+  "rack or desktop closets"
+ ],
+ "not_for": [
+  "more than 4 multi-gig devices",
+  "high-power PoE++ fleets"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

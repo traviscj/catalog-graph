@@ -1,0 +1,120 @@
+{
+ "id": "udr-5g-max",
+ "name": "UDR-5G-Max",
+ "title": "Dream Router 5G Max",
+ "price": 499.0,
+ "line": "Cloud Gateway (Dream Router)",
+ "legacy": false,
+ "summary": "Desktop all-in-one: WiFi 7 router with full 5G NR modem, 10G SFP+, 4x 2.5GbE, microSD NVR.",
+ "jobs": [
+  {
+   "job": "gateway_allinone",
+   "role": "primary"
+  },
+  {
+   "job": "internet_backup",
+   "role": "primary"
+  },
+  {
+   "job": "console_host",
+   "role": "secondary"
+  },
+  {
+   "job": "wifi_ceiling",
+   "role": "secondary"
+  },
+  {
+   "job": "nvr_recording",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "desktop",
+  "requires_console": false,
+  "hosts_apps": [
+   "network",
+   "protect",
+   "access",
+   "talk",
+   "connect"
+  ],
+  "managed_by": "network",
+  "power_in": [
+   "dc"
+  ],
+  "power_draw_w": 34.5,
+  "uplink": "10G SFP+",
+  "ports": {
+   "rj45_1g": 0,
+   "rj45_2_5g": 4,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 1,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 1,
+  "poe_out_types": [
+   "poe"
+  ],
+  "poe_budget_w": 15.4,
+  "layer": null,
+  "wan_ports_max": 4,
+  "ips_throughput_gbps": 2.3,
+  "routing_throughput_gbps": null,
+  "max_devices": 30,
+  "max_clients": 300,
+  "wifi_std": "WiFi 7",
+  "bands": [
+   "2.4",
+   "5",
+   "6"
+  ],
+  "streams": 6,
+  "coverage_m2": 160,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": "64 GB microSD (pre-installed)",
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "built-in 5G NR Sub-6 modem (3.4 Gbps NSA peak)",
+   "dual Nano-SIM / eSIM",
+   "built-in WiFi 7",
+   "4.7\" touchscreen"
+  ],
+  "requires": [
+   "carrier SIM/eSIM data plan for cellular WAN"
+  ],
+  "extra": {
+   "managed_cameras": "(5) HD / (2) 2K / (1) 4K",
+   "5g_peak": {
+    "nsa_dl_gbps": 3.4,
+    "sa_dl_gbps": 1.8,
+    "lte_dl_gbps": 1.6
+   },
+   "sim_note": "Nano-SIM 2 unusable while eSIM active"
+  }
+ },
+ "gotchas": [
+  "Only one PoE port and it is 802.3af (15.4W) — cannot power a PoE+ AP like the U7 Pro (21W); plan a PoE switch or injector.",
+  "microSD NVR handles just (1) 4K / (2) 2K / (5) HD cameras — use a UNVR or UDM-SE-class gateway for real Protect deployments.",
+  "Integrated radio is 2x2 per band, 160 m² coverage — add APs for anything bigger than an apartment/small office.",
+  "Capped at ~30 UniFi devices and 2.3 Gbps IPS; for multi-gig wired sites a UDM-SE/Pro Max class gateway scales further.",
+  "5G needs your own carrier plan; for wired-primary sites wanting only failover, a U5G backup antenna + any gateway is cheaper."
+ ],
+ "best_for": [
+  "cellular-primary sites (pop-ups, rural, construction trailers)",
+  "small office wanting 5G + WiFi 7 in one box"
+ ],
+ "not_for": [
+  "sites with many PoE devices",
+  "Protect beyond 1-2 cameras",
+  "large floor plans"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

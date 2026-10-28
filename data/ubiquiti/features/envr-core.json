@@ -1,0 +1,101 @@
+{
+ "id": "envr-core",
+ "name": "ENVR-Core",
+ "title": "Enterprise NVR Core",
+ "price": 4999.0,
+ "line": "NVR (Enterprise)",
+ "legacy": false,
+ "summary": "3U enterprise Protect NVR: 16 bays (48 with expansion), 2x 25G SFP28, dual hot-swap PSUs, 300 4K cameras.",
+ "jobs": [
+  {
+   "job": "nvr_recording",
+   "role": "primary"
+  },
+  {
+   "job": "console_host",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "other",
+  "requires_console": false,
+  "hosts_apps": [
+   "protect",
+   "access",
+   "connect"
+  ],
+  "managed_by": "protect",
+  "power_in": [
+   "ac",
+   "redundant_psu"
+  ],
+  "power_draw_w": 237,
+  "uplink": "25G SFP28",
+  "ports": {
+   "rj45_1g": 1,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 2,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": "16x 2.5/3.5\" HDD/SSD bays",
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [
+   "redundant_psu"
+  ],
+  "special": [
+   "2x SFF-8644 expansion (to 48 drives)",
+   "128-core Arm, 64 GB RAM"
+  ],
+  "requires": [
+   "4-post rack (600–1066 mm, square hole)",
+   "SFP28/SFP+ modules or DACs"
+  ],
+  "extra": {
+   "form_factor_actual": "rack 3U",
+   "managed_cameras": "(500) HD (400) 2K (300) 4K",
+   "managed_access_hubs": "300+",
+   "expansion": "UACC-ESE-16 (coming soon)",
+   "mixed_speed": "10G/25G mixed across ports not supported",
+   "power_draw_note": "237W excl drives; 313W drive budget",
+   "operating_temp": "10–35°C"
+  }
+ },
+ "gotchas": [
+  "Hosts Protect/Access/Connect only — no UniFi Network; you still need a gateway/console for the network.",
+  "Networking is 2x 25G SFP28 (+1G mgmt) — needs modules/DACs and a 10/25G switch; no 10G+25G mixing across ports.",
+  "3U, 23 kg on rails: 4-post square-hole rack required; 10–35°C operating range (server-room only).",
+  "Growth beyond 16 drives needs UACC-ESE-16 expansion units listed as 'coming soon'.",
+  "Massive overkill under ~60 cameras — UNVR / UNVR-Pro cover small-to-mid sites."
+ ],
+ "best_for": [
+  "hundreds of cameras",
+  "enterprise Protect with redundancy"
+ ],
+ "not_for": [
+  "small sites",
+  "network controller role"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

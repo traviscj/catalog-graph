@@ -1,0 +1,91 @@
+{
+ "id": "ecs-core",
+ "name": "ECS-Core",
+ "title": "Enterprise Campus Switch Core",
+ "price": 4999.0,
+ "line": "Enterprise Campus switch",
+ "legacy": false,
+ "summary": "1U full-depth 32x 100G QSFP28 L3 core switch (3.2 Tbps) with MC-LAG and hot-swap PSUs/fans.",
+ "jobs": [
+  {
+   "job": "switch_core_agg",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "rack_1u",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "ac",
+   "redundant_psu"
+  ],
+  "power_draw_w": 360,
+  "uplink": "100G QSFP28",
+  "ports": {
+   "rj45_1g": 0,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 32
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": "L3 lite",
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [
+   "redundant_psu",
+   "hot_swap_fans",
+   "mc_lag"
+  ],
+  "special": [
+   "etherlighting",
+   "OOB mgmt port",
+   "serial console",
+   "3.2 Tbps"
+  ],
+  "requires": [
+   "UniFi OS console / gateway running UniFi Network (10.6.101+)",
+   "QSFP28 optics/DACs",
+   "4-post rack (full depth)"
+  ],
+  "extra": {
+   "oob_mgmt_rj45_1g": 1,
+   "breakout": "QSFP28 breakout NOT supported",
+   "routing": "only static/inter-VLAN routing listed"
+  }
+ },
+ "gotchas": [
+  "Breakout not supported — 25G/10G devices can't hang off it directly; pair with ECS-Aggregation for 25G fan-out.",
+  "MC-LAG requires a second ECS-Core; a single unit is a single point of failure for the whole campus.",
+  "100G-only optics on every port; budget QSFP28 transceivers/DACs on top of the switch price.",
+  "No dynamic routing listed despite 'core' positioning — static/inter-VLAN only."
+ ],
+ "best_for": [
+  "campus core interconnecting ECS-Aggregation pairs"
+ ],
+ "not_for": [
+  "anything without a 100G fiber plant"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

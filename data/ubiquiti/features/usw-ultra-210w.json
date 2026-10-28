@@ -1,0 +1,92 @@
+{
+ "id": "usw-ultra-210w",
+ "name": "USW-Ultra-210W",
+ "title": "Switch Ultra 210W",
+ "price": 199.0,
+ "line": "Ultra switch",
+ "legacy": false,
+ "summary": "Compact 8-port 1G L2 switch: 7 PoE+ out, PoE++ or AC input; 202 W with included 210 W brick.",
+ "jobs": [
+  {
+   "job": "switch_compact",
+   "role": "primary"
+  },
+  {
+   "job": "switch_poe_edge",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "mini",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "dc",
+   "poe++",
+   "poe+"
+  ],
+  "power_draw_w": 210,
+  "uplink": "1GbE",
+  "ports": {
+   "rj45_1g": 8,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 7,
+  "poe_out_types": [
+   "poe",
+   "poe+"
+  ],
+  "poe_budget_w": 202,
+  "layer": "L2",
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "PoE++ input powering",
+   "magnetic/wall mount"
+  ],
+  "requires": [
+   "UniFi console/gateway"
+  ],
+  "extra": {
+   "poe_budget_by_input": "PoE++ in 42W; PoE+ in 16W; 60W PoE adapter 42W; 60W AC adapter 52W; 210W AC adapter 202W (at 45°C; 161W/121W at 60°C)"
+  }
+ },
+ "gotchas": [
+  "PoE budget depends on power source: 202 W only with the included 210 W brick; PoE++ upstream gives just 42 W, PoE+ 16 W.",
+  "All ports are 1 GbE, no SFP — uplink caps at 1 Gbps.",
+  "PoE+ max per port (30 W) — no PoE++ output for E7/PTZ/AI Key.",
+  "L2 only, reduced feature set (256 VLANs, no LACP/802.1X listed).",
+  "Requires a UniFi console/gateway to adopt."
+ ],
+ "best_for": [
+  "remote camera/AP cluster fed by one PoE++ run",
+  "small closets"
+ ],
+ "not_for": [
+  "multi-gig",
+  "PoE++ endpoints"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

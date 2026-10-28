@@ -1,0 +1,84 @@
+{
+ "id": "ua-ultra",
+ "name": "UA-Ultra",
+ "title": "Access Ultra",
+ "price": 129.0,
+ "line": "Access",
+ "legacy": false,
+ "summary": "Access reader with built-in hub: one-device single-door control, 12V 1A lock output, PoE+, IP55.",
+ "jobs": [
+  {
+   "job": "access_reader",
+   "role": "primary"
+  },
+  {
+   "job": "access_hub_lock",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "reader",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "access",
+  "power_in": [
+   "poe+"
+  ],
+  "power_draw_w": 18,
+  "uplink": "100MbE",
+  "ports": null,
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": true,
+  "ip_rating": "IP55",
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [
+   "tamper"
+  ],
+  "redundancy": [],
+  "special": [
+   "NFC reader",
+   "mobile unlock",
+   "built-in hub",
+   "12V lock output"
+  ],
+  "requires": [
+   "PoE+ source",
+   "UniFi Access on a console"
+  ],
+  "extra": {
+   "max_users": 3000,
+   "lock_output": "12V DC 1A"
+  }
+ },
+ "gotchas": [
+  "Needs PoE+ (18 W incl. lock) - plain PoE won't drive the lock.",
+  "Lock output is 12 V / 1 A only - 24 V locks or multi-door setups need a Door Hub / Retrofit Hub.",
+  "Hub electronics sit in the outside-mounted reader; one door only.",
+  "Requires UniFi Access on a console; 3,000-user limit."
+ ],
+ "best_for": [
+  "single doors on a budget",
+  "small offices/garages"
+ ],
+ "not_for": [
+  "multi-door sites",
+  "24V locks"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

@@ -1,0 +1,75 @@
+{
+ "id": "ua-g3-fingerprint",
+ "name": "UA-G3-Fingerprint",
+ "title": "Access G3 Reader Fingerprint",
+ "price": 159.0,
+ "line": "Access G3",
+ "legacy": false,
+ "summary": "Indoor/outdoor NFC + PIN + fingerprint reader (300 prints), Touch Pass/Wallet.",
+ "jobs": [
+  {
+   "job": "access_reader",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "reader",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "access",
+  "power_in": [
+   "poe"
+  ],
+  "power_draw_w": 5,
+  "uplink": "100MbE",
+  "ports": null,
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": true,
+  "ip_rating": "IP55",
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [
+   "fingerprint"
+  ],
+  "redundancy": [],
+  "special": [
+   "NFC",
+   "PIN",
+   "fingerprint (300)",
+   "Apple/Google Wallet",
+   "Touch Pass"
+  ],
+  "requires": [
+   "UniFi Access on a console",
+   "UniFi Access Hub to drive the lock"
+  ],
+  "extra": {}
+ },
+ "gotchas": [
+  "Fingerprint capacity is 300 users.",
+  "No camera/intercom — choose G3 Pro or G6 Pro Entry for video entry.",
+  "Needs an Access hub for lock control and UniFi Access on a console."
+ ],
+ "best_for": [
+  "interior/staff doors with biometric"
+ ],
+ "not_for": [
+  "visitor intercom"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

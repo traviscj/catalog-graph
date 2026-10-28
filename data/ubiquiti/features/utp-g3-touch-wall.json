@@ -1,0 +1,79 @@
+{
+ "id": "utp-g3-touch-wall",
+ "name": "UTP-G3-Touch-Wall",
+ "title": "Phone G3 Touch Wall",
+ "price": 399.0,
+ "line": "Talk",
+ "legacy": false,
+ "summary": "Wall-mounted 7in touchscreen smartphone-style desk phone for UniFi Talk with camera and NFC.",
+ "jobs": [
+  {
+   "job": "voip_phone",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "wall",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "talk",
+  "power_in": [
+   "poe",
+   "usb_c"
+  ],
+  "power_draw_w": 11,
+  "uplink": "1GbE",
+  "ports": {
+   "rj45_1g": 2,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": "WiFi 5",
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "7\" touch display",
+   "5MP camera w/ privacy shutter",
+   "NFC",
+   "Bluetooth handset"
+  ],
+  "requires": [
+   "UniFi Talk on a console"
+  ],
+  "extra": {}
+ },
+ "gotchas": [
+  "Requires UniFi Talk running on a UniFi console.",
+  "Wall mount only; indoor 0-40°C."
+ ],
+ "best_for": [
+  "UniFi Talk offices wanting video-capable wall phones"
+ ],
+ "not_for": [
+  "non-Talk SIP systems"
+ ],
+ "confidence": "medium",
+ "in_store": true,
+ "status": "Available"
+}

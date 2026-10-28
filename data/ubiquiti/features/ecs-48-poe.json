@@ -1,0 +1,100 @@
+{
+ "id": "ecs-48-poe",
+ "name": "ECS-48-PoE",
+ "title": "Switch Enterprise Campus 48 PoE",
+ "price": 3499.0,
+ "line": "Enterprise Campus switch",
+ "legacy": false,
+ "summary": "48-port L3 Etherlighting campus switch: 32x10GbE + 16x2.5GbE all 90W PoE+++, 4x25G SFP28, hot-swap PSU/fans.",
+ "jobs": [
+  {
+   "job": "switch_poe_edge",
+   "role": "primary"
+  },
+  {
+   "job": "switch_core_agg",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "rack_1u",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "ac",
+   "redundant_psu"
+  ],
+  "power_draw_w": 250,
+  "uplink": "25G SFP28",
+  "ports": {
+   "rj45_1g": 0,
+   "rj45_2_5g": 16,
+   "rj45_10g": 32,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 4,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 48,
+  "poe_out_types": [
+   "poe",
+   "poe+",
+   "poe++",
+   "poe_bt_90w"
+  ],
+  "poe_budget_w": 2150,
+  "layer": "L3",
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [
+   "redundant_psu",
+   "hot_swap_psu",
+   "hot_swap_fans_3+1"
+  ],
+  "special": [
+   "etherlighting",
+   "1.3\" touchscreen",
+   "Pro AV profiles",
+   "full-depth"
+  ],
+  "requires": [],
+  "extra": {
+   "poe_budget_detail": "Shared 2150W @200-240V / 1750W @100-120V; Redundant 950W @200-240V / 750W @100-120V",
+   "switching_capacity_gbps": 920,
+   "no_half_duplex_10_100": true
+  }
+ },
+ "gotchas": [
+  "Full-depth 1U (496 mm, 9.5 kg) — needs a 4-post rack or shelf; won't fit a shallow wall cabinet.",
+  "2,150W PoE only at 200-240V in shared mode; on 120V it's 1,750W, and with PSU redundancy just 750W — far below 48x90W.",
+  "Uplinks are 25G SFP28 only (no 100G) — aggregating several of these needs a 25G-capable aggregation switch.",
+  "4 hot-swap fans in a 2,400W-capable chassis: loud; not for offices without a closet.",
+  "Requires a UniFi console/gateway running Network 9.0.114+ to adopt."
+ ],
+ "best_for": [
+  "campus/enterprise closets with dense WiFi 7 APs and PoE++ devices",
+  "Pro AV over 10GbE copper"
+ ],
+ "not_for": [
+  "home labs",
+  "shallow racks",
+  "quiet spaces"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

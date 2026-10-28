@@ -1,0 +1,89 @@
+{
+ "id": "up-sense",
+ "name": "UP-Sense",
+ "title": "Protect All-In-One Sensor",
+ "price": 59.0,
+ "line": "Protect sensor",
+ "legacy": false,
+ "summary": "Battery BLE multi-sensor: motion, door/window, garage tilt, temp, humidity, light, alarm-sound, leak (adapter).",
+ "jobs": [
+  {
+   "job": "alarm_sensor",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "mini",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "protect",
+  "power_in": [
+   "battery"
+  ],
+  "power_draw_w": null,
+  "uplink": null,
+  "ports": {
+   "rj45_1g": 0,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [
+   "motion",
+   "contact",
+   "accelerometer",
+   "temp",
+   "humidity",
+   "light",
+   "alarm_sound",
+   "leak"
+  ],
+  "redundancy": [],
+  "special": [],
+  "requires": [
+   "Bluetooth-capable UniFi AP or SuperLink",
+   "UniFi Protect"
+  ],
+  "extra": {
+   "radio": "BLE 5.0",
+   "leak": "water adapter only in 3-pack",
+   "status": "SoldOut"
+  }
+ },
+ "gotchas": [
+  "BLE only — needs an up-to-date Bluetooth-capable UniFi AP or SuperLink nearby.",
+  "Leak sensing needs the water adapter, only shipped in the 3-pack.",
+  "Motion range just 5 m; indoor only (0–45°C)."
+ ],
+ "best_for": [
+  "cheap door/temp/leak sensing in a UniFi home"
+ ],
+ "not_for": [
+  "outdoor",
+  "non-UniFi networks"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "SoldOut"
+}

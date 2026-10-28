@@ -1,0 +1,96 @@
+{
+ "id": "unvr-g2",
+ "name": "UNVR-G2",
+ "title": "Network Video Recorder G2",
+ "price": 699.0,
+ "line": "NVR",
+ "legacy": false,
+ "summary": "1U Protect NVR G2: 4 bays, AI analytics, HDMI viewport, 10G SFP+, up to 30x 4K cameras.",
+ "jobs": [
+  {
+   "job": "nvr_recording",
+   "role": "primary"
+  },
+  {
+   "job": "console_host",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "rack_1u",
+  "requires_console": false,
+  "hosts_apps": [
+   "protect",
+   "access",
+   "connect"
+  ],
+  "managed_by": "protect",
+  "power_in": [
+   "ac",
+   "dc"
+  ],
+  "power_draw_w": 100,
+  "uplink": "10G SFP+",
+  "ports": {
+   "rj45_1g": 0,
+   "rj45_2_5g": 1,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 1,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": "4x 2.5/3.5\" bays",
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [
+   "dc_backup_rps"
+  ],
+  "special": [
+   "HDMI viewport",
+   "AI event analytics"
+  ],
+  "requires": [
+   "HDDs (not included)"
+  ],
+  "extra": {
+   "managed_cameras": "60 HD / 50 2K / 30 4K (20 4K with HDMI viewport in use)",
+   "sfp_note": "SFP+ does not support 1G",
+   "status": "SoldOut",
+   "managed_access_hubs": "150+"
+  }
+ },
+ "gotchas": [
+  "Camera count drops to 20x 4K when the built-in HDMI viewport is used.",
+  "SFP+ port is 10G-only — 1G SFP modules won't link.",
+  "Doesn't run UniFi Network — still needs a gateway; drives sold separately.",
+  "Sold out at time of capture; UNVR-G2-Pro doubles bays."
+ ],
+ "best_for": [
+  "Protect sites 10-30 4K cameras",
+  "adding NVR capacity alongside a gateway"
+ ],
+ "not_for": [
+  "routing",
+  "50+ 4K cameras"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "SoldOut"
+}

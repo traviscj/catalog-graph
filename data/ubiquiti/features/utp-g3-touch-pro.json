@@ -1,0 +1,80 @@
+{
+ "id": "utp-g3-touch-pro",
+ "name": "UTP-G3-Touch-Pro",
+ "title": "Phone G3 Touch Pro",
+ "price": 199.0,
+ "line": "Talk",
+ "legacy": false,
+ "summary": "UniFi Talk desk phone with 5\" touchscreen, 5MP camera, dual GbE, WiFi; PoE powered.",
+ "jobs": [
+  {
+   "job": "voip_phone",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "desktop",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "talk",
+  "power_in": [
+   "poe"
+  ],
+  "power_draw_w": 10,
+  "uplink": "1GbE",
+  "ports": {
+   "rj45_1g": 2,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "5in touchscreen",
+   "5MP camera w/ privacy shutter",
+   "WiFi + Bluetooth",
+   "PC passthrough port",
+   "3.5mm headset"
+  ],
+  "requires": [
+   "console running UniFi Talk"
+  ],
+  "extra": {}
+ },
+ "gotchas": [
+  "Only works with UniFi Talk — needs a console running Talk (e.g. UCG-Max); not a generic SIP phone per spec.",
+  "UniFi Talk service/number plans are separate from the hardware.",
+  "PoE (10 W) required unless otherwise powered — no AC adapter listed."
+ ],
+ "best_for": [
+  "UniFi-native offices"
+ ],
+ "not_for": [
+  "third-party PBX"
+ ],
+ "confidence": "medium",
+ "in_store": true,
+ "status": "Available"
+}

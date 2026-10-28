@@ -1,0 +1,86 @@
+{
+ "id": "usw-wan-rj45",
+ "name": "USW-WAN-RJ45",
+ "title": "UniFi WAN Switch RJ45",
+ "price": 249.0,
+ "line": "WAN switch",
+ "legacy": false,
+ "summary": "1U 10GbE WAN switch (3x 10G + 1x 1G) splitting one ISP handoff to two Shadow Mode HA gateways.",
+ "jobs": [
+  {
+   "job": "new:wan_ha_switch",
+   "role": "primary"
+  },
+  {
+   "job": "gateway_router",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "rack_1u",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "ac",
+   "redundant_psu"
+  ],
+  "power_draw_w": 18,
+  "uplink": "10GbE",
+  "ports": {
+   "rj45_1g": 1,
+   "rj45_2_5g": 0,
+   "rj45_10g": 3,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [
+   "dual_ac_inputs"
+  ],
+  "special": [],
+  "requires": [
+   "2x Shadow Mode (VRRP) capable UniFi gateways"
+  ],
+  "extra": {
+   "non_blocking": "10 Gbps total",
+   "10g_ports_speeds": "10G/5G/2.5G/1G/100M"
+  }
+ },
+ "gotchas": [
+  "Purpose-built: only for linking two Shadow Mode HA gateways to one ISP — not a general-purpose LAN switch.",
+  "Useless without a pair of HA-capable gateways (e.g. two UDM-Pro / EFG) — budget both.",
+  "10GbE RJ45 only, no SFP+ — fiber ONT/SFP handoffs need a media converter.",
+  "10 Gbps non-blocking total; requires UniFi Network 9.1.120+."
+ ],
+ "best_for": [
+  "high-availability gateway pairs on a single ISP circuit"
+ ],
+ "not_for": [
+  "anyone without Shadow Mode HA",
+  "general switching"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

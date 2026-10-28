@@ -1,0 +1,86 @@
+{
+ "id": "usw-pro-hd-24",
+ "name": "USW-Pro-HD-24",
+ "title": "Switch Pro HD 24",
+ "price": 599.0,
+ "line": "Pro Max switch",
+ "legacy": false,
+ "summary": "24-port L3 Etherlighting switch: 22x2.5G + 2x10GbE RJ45, 4x10G SFP+, no PoE.",
+ "jobs": [
+  {
+   "job": "switch_edge",
+   "role": "primary"
+  },
+  {
+   "job": "switch_core_agg",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "rack_1u",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "ac",
+   "dc"
+  ],
+  "power_draw_w": 60,
+  "uplink": "10G SFP+ / 10GbE",
+  "ports": {
+   "rj45_1g": 0,
+   "rj45_2_5g": 22,
+   "rj45_10g": 2,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 4,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": "L3",
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [
+   "dc_backup_rps"
+  ],
+  "special": [
+   "etherlighting",
+   "1.3\" touchscreen",
+   "Pro AV profiles"
+  ],
+  "requires": [],
+  "extra": {}
+ },
+ "gotchas": [
+  "No PoE — APs and cameras need a PoE sibling (USW-Pro-HD-24-PoE) or injectors.",
+  "Only 2x 10GbE RJ45; the rest of copper is 2.5GbE, so it's not a 10G copper access switch.",
+  "Per-port cost is high vs USW-Pro-Max-24 if you don't need 2.5G everywhere.",
+  "Requires Network 9.0.114+ on a UniFi console."
+ ],
+ "best_for": [
+  "all-2.5G wired desks/workstations with 10G uplinks",
+  "small 10G server cluster plus 2.5G edge"
+ ],
+ "not_for": [
+  "PoE devices",
+  "budget 1G desk drops"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

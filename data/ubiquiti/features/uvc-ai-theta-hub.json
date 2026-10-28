@@ -1,0 +1,85 @@
+{
+ "id": "uvc-ai-theta-hub",
+ "name": "UVC-AI-Theta-Hub",
+ "title": "AI Theta Hub",
+ "price": 199.0,
+ "line": "AI camera",
+ "legacy": false,
+ "summary": "Remote PoE processing hub for AI Theta modular lens and audio modules.",
+ "jobs": [
+  {
+   "job": "camera_indoor",
+   "role": "primary"
+  },
+  {
+   "job": "accessory",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "module",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "protect",
+  "power_in": [
+   "poe"
+  ],
+  "power_draw_w": 12.5,
+  "uplink": "1GbE",
+  "ports": {
+   "rj45_1g": 1,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "0.96\" display",
+   "powers Theta lens + audio ports (5V 1A)"
+  ],
+  "requires": [
+   "AI Theta Lens (sold separately)",
+   "UniFi Protect NVR/console with storage"
+  ],
+  "extra": {
+   "status": "SoldOut",
+   "thin_specs": "no resolution/fps; depends on attached lens"
+  }
+ },
+ "gotchas": [
+  "Hub only — no image sensor; you must buy an AI Theta Lens (and optional Theta Audio).",
+  "Requires Protect on a console/NVR with storage.",
+  "Sold out at capture; resolution/AI capabilities depend on the attached lens."
+ ],
+ "best_for": [
+  "covert/pinhole installs where the lens must be tiny and remote from electronics"
+ ],
+ "not_for": [
+  "standalone camera purchase"
+ ],
+ "confidence": "medium",
+ "in_store": true,
+ "status": "SoldOut"
+}

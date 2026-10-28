@@ -1,0 +1,92 @@
+{
+ "id": "umr-ultra-us",
+ "name": "UMR-Ultra-US",
+ "title": "Mobile Router Ultra",
+ "price": 129.0,
+ "line": "Mobile Router",
+ "legacy": false,
+ "summary": "Tiny LTE Cat 4 router with wired WAN failover, WiFi 4, 2x FE, DIN/wall mount.",
+ "jobs": [
+  {
+   "job": "internet_backup",
+   "role": "primary"
+  },
+  {
+   "job": "gateway_router",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "mini",
+  "requires_console": null,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "usb_c",
+   "dc"
+  ],
+  "power_draw_w": 5.7,
+  "uplink": "LTE Cat 4",
+  "ports": {
+   "rj45_1g": 0,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [
+   "2.4"
+  ],
+  "streams": 1,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "LTE Cat 4 (150/50 Mbps)",
+   "WAN failover",
+   "WireGuard/OpenVPN client",
+   "LTE passthrough"
+  ],
+  "requires": [
+   "Nano SIM / carrier plan"
+  ],
+  "extra": {
+   "ports_raw": "(2) FE RJ45",
+   "wifi_raw": "WiFi 4 1x1",
+   "lte_bands": "B2,4,5,12,13,14,25,26,66,71 (US)"
+  }
+ },
+ "gotchas": [
+  "LTE Cat 4 tops out ~150/50 Mbps and ports are 10/100 — backup or IoT only.",
+  "US band set only (-US SKU); bring your own SIM.",
+  "WiFi 4 1x1 — not a real AP.",
+  "For a full UniFi gateway failover, the U-LTE / 5G Max integrate more natively."
+ ],
+ "best_for": [
+  "remote IoT/kiosk sites",
+  "cheap LTE failover"
+ ],
+ "not_for": [
+  "primary broadband"
+ ],
+ "confidence": "medium",
+ "in_store": true,
+ "status": "Available"
+}

@@ -1,0 +1,83 @@
+{
+ "id": "u5g-max-outdoor",
+ "name": "U5G-Max-Outdoor-US",
+ "title": "UniFi 5G Max Outdoor",
+ "price": 399.0,
+ "line": "Internet backup",
+ "legacy": false,
+ "summary": "Outdoor IP67 5G NR modem (3.4 Gbps peak) with directional antennas, dual SIM/eSIM, 2.5GbE PoE.",
+ "jobs": [
+  {
+   "job": "internet_backup",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "outdoor",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "poe"
+  ],
+  "power_draw_w": 14.5,
+  "uplink": "2.5GbE",
+  "ports": {
+   "rj45_1g": 0,
+   "rj45_2_5g": 1,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": true,
+  "ip_rating": "IPX6 / IP67 (with door kit)",
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "5G NR SA/NSA",
+   "dual SIM / eSIM",
+   "directional 9 dBi antennas"
+  ],
+  "requires": [
+   "UniFi console / Cloud Gateway",
+   "carrier SIM/data plan"
+  ],
+  "extra": {
+   "peak_dl_gbps": 3.4,
+   "sim_note": "SIM 2 disabled when eSIM active"
+  }
+ },
+ "gotchas": [
+  "Modem only — requires a UniFi Cloud Gateway/console to act as WAN/failover.",
+  "Directional antennas: must be aimed at the tower.",
+  "Needs a carrier plan; nano-SIM 2 unusable when eSIM active.",
+  "PoE class not specified beyond 'PoE' (14.5W, so 802.3at recommended)."
+ ],
+ "best_for": [
+  "primary or failover WAN where fixed broadband is poor"
+ ],
+ "not_for": [
+  "indoor-only installs without a UniFi gateway"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

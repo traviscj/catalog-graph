@@ -1,0 +1,80 @@
+{
+ "id": "ua-retrofit-reader-fingerprint",
+ "name": "UA-Retrofit-Reader-Fingerprint",
+ "title": "Access Retrofit Reader Fingerprint",
+ "price": 159.0,
+ "line": "Access (Retrofit)",
+ "legacy": false,
+ "summary": "OSDP RS-485 reader with fingerprint (300), keypad, NFC and Touch Pass; reuses legacy reader wiring.",
+ "jobs": [
+  {
+   "job": "access_reader",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "reader",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "access",
+  "power_in": [
+   "dc"
+  ],
+  "power_draw_w": 3.5,
+  "uplink": null,
+  "ports": null,
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": true,
+  "ip_rating": "IP55",
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [
+   "fingerprint"
+  ],
+  "redundancy": [],
+  "special": [
+   "fingerprint (300)",
+   "PIN",
+   "NFC",
+   "Apple/Google Wallet",
+   "OSDP v2"
+  ],
+  "requires": [
+   "UniFi Retrofit Hub",
+   "UniFi OS console running Access"
+  ],
+  "extra": {
+   "power": "12V DC from hub",
+   "interface": "RS-485 OSDP v2 (no Ethernet)"
+  }
+ },
+ "gotchas": [
+  "Not PoE/Ethernet — 12V + RS-485 only; requires the UniFi Retrofit Hub.",
+  "Fingerprint capacity is just 300 users.",
+  "No camera or intercom — G3 Reader Pro / G6 Entry for video entry.",
+  "Needs Access on a UniFi OS console."
+ ],
+ "best_for": [
+  "replacing legacy Wiegand/OSDP readers on existing cabling"
+ ],
+ "not_for": [
+  "new PoE-cabled doors",
+  "large user bases with biometrics"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

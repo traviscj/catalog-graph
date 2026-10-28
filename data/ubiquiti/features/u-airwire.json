@@ -1,0 +1,85 @@
+{
+ "id": "u-airwire",
+ "name": "U-AirWire",
+ "title": "AirWire",
+ "price": 199.0,
+ "line": "WiFi 7 client",
+ "legacy": false,
+ "summary": "USB-C WiFi 7 client adapter (5/6 GHz, MLO) giving a wired device multi-gig wireless connectivity.",
+ "jobs": [
+  {
+   "job": "wifi_mesh_extend",
+   "role": "primary"
+  },
+  {
+   "job": "wireless_bridge",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "desktop",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "usb_c"
+  ],
+  "power_draw_w": 18,
+  "uplink": "WiFi 7 (5/6 GHz)",
+  "ports": null,
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": "WiFi 7",
+  "bands": [
+   "5",
+   "6"
+  ],
+  "streams": 4,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "STR MLO",
+   "spectral analysis",
+   "0.96\" status display"
+  ],
+  "requires": [
+   "UniFi WiFi 7 AP",
+   "UniFi Network 10.2+"
+  ],
+  "extra": {
+   "networking_interface_raw": "(1) 5 GbE port (USB3.2 Gen2)",
+   "power": "USB PD 15W std / 20W enhanced",
+   "odd": "interface reads as a USB-C link presenting 5GbE, not an RJ45 jack"
+  }
+ },
+ "gotchas": [
+  "It's a client adapter, not an AP - it adds no WiFi coverage.",
+  "Wired side is USB-C (USB 3.2 Gen2, 5GbE class), not an RJ45 port - check your device's USB support.",
+  "No 2.4 GHz; needs a WiFi 7 UniFi AP to reach multi-gig speeds.",
+  "Requires USB-PD 15-20 W power."
+ ],
+ "best_for": [
+  "desktops/consoles/TVs without Ethernet",
+  "low-latency gaming over WiFi 7"
+ ],
+ "not_for": [
+  "extending coverage",
+  "RJ45-only devices"
+ ],
+ "confidence": "medium",
+ "in_store": true,
+ "status": "Available"
+}

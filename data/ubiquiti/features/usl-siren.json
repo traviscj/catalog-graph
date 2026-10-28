@@ -1,0 +1,82 @@
+{
+ "id": "usl-siren",
+ "name": "USL-Siren",
+ "title": "Siren",
+ "price": 109.0,
+ "line": "SuperLink",
+ "legacy": false,
+ "summary": "IP56 110 dB SuperLink siren with LED ring, CR123A battery or 12–24 V DC.",
+ "jobs": [
+  {
+   "job": "alarm_sensor",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "wall",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "protect",
+  "power_in": [
+   "battery",
+   "dc"
+  ],
+  "power_draw_w": 5,
+  "uplink": null,
+  "ports": {
+   "rj45_1g": 0,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": true,
+  "ip_rating": "IP56",
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "110 dB siren",
+   "emergency LED ring",
+   "signal input terminal"
+  ],
+  "requires": [
+   "UniFi SuperLink hub/gateway",
+   "UniFi Protect"
+  ],
+  "extra": {
+   "radio": "SuperLink proprietary"
+  }
+ },
+ "gotchas": [
+  "SuperLink device — requires a SuperLink hub/gateway; won't pair to WiFi.",
+  "Uses 4x CR123A if not hard-wired to 12–24 V DC.",
+  "Managed via Protect — needs a Protect console."
+ ],
+ "best_for": [
+  "outdoor deterrent tied to Protect alarms"
+ ],
+ "not_for": [
+  "standalone alarm systems"
+ ],
+ "confidence": "medium",
+ "in_store": true,
+ "status": "Available"
+}

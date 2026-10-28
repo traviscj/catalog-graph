@@ -1,0 +1,76 @@
+{
+ "id": "uacc-usl-ant-hg",
+ "name": "UACC-USL-ANT-HG",
+ "title": "SuperLink High-Gain Antenna",
+ "price": 49.0,
+ "line": "Protect accessory",
+ "legacy": false,
+ "summary": "IP67 outdoor high-gain omni antenna (7 dBi SuperLink 860-930 MHz + BT) to extend SuperLink range to 5 km LOS.",
+ "jobs": [
+  {
+   "job": "accessory",
+   "role": "primary"
+  },
+  {
+   "job": "alarm_sensor",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "pole",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "protect",
+  "power_in": [],
+  "power_draw_w": null,
+  "uplink": null,
+  "ports": null,
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": true,
+  "ip_rating": "IP67",
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [],
+  "requires": [
+   "UniFi SuperLink gateway with RP-SMA antenna port"
+  ],
+  "extra": {
+   "connector": "RP-N female; cable RP-SMA male to RP-N male, 1 m",
+   "gain_dbi": {
+    "superlink": 7,
+    "bluetooth": 4
+   },
+   "range": "SuperLink 5 km LOS, BT 100 m",
+   "certs": "CE only"
+  }
+ },
+ "gotchas": [
+  "Passive antenna only - requires a UniFi SuperLink gateway.",
+  "Only a 1 m cable - the SuperLink gateway must be close to the mast.",
+  "5 km is line-of-sight best case; certifications list CE only."
+ ],
+ "best_for": [
+  "extending SuperLink sensors across large properties"
+ ],
+ "not_for": [
+  "anyone without SuperLink"
+ ],
+ "confidence": "medium",
+ "in_store": true,
+ "status": "Available"
+}

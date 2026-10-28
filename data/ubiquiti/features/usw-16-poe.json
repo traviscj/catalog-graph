@@ -1,0 +1,89 @@
+{
+ "id": "usw-16-poe",
+ "name": "USW-16-POE",
+ "title": "Switch 16 PoE",
+ "price": 299.0,
+ "line": "Standard switch",
+ "legacy": false,
+ "summary": "Fanless 1U L2 16x 1GbE switch, 8 PoE+ ports sharing a tiny 42W budget, 2x 1G SFP.",
+ "jobs": [
+  {
+   "job": "switch_poe_edge",
+   "role": "primary"
+  },
+  {
+   "job": "switch_edge",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "rack_1u",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "ac"
+  ],
+  "power_draw_w": 18,
+  "uplink": "1G SFP",
+  "ports": {
+   "rj45_1g": 16,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 2,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 8,
+  "poe_out_types": [
+   "poe",
+   "poe+"
+  ],
+  "poe_budget_w": 42,
+  "layer": "L2",
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "fanless",
+   "1.3\" touchscreen"
+  ],
+  "requires": [
+   "UniFi OS console / gateway running UniFi Network (7.2.94+)"
+  ],
+  "extra": {
+   "max_power_incl_poe_w": 60
+  }
+ },
+ "gotchas": [
+  "42W total PoE across 8 PoE+ ports — roughly two U7 Pros (21W each) and nothing else.",
+  "Only 8 of 16 ports supply PoE.",
+  "1G SFP uplinks only, no 10G — the whole switch shares a 1G pipe to the core.",
+  "Layer 2 only; no inter-VLAN routing.",
+  "Upside: fanless/silent."
+ ],
+ "best_for": [
+  "quiet 1G closet with a handful of low-power PoE devices"
+ ],
+ "not_for": [
+  "camera/AP-heavy installs",
+  "multi-gig"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

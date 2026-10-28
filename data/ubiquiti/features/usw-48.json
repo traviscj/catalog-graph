@@ -1,0 +1,81 @@
+{
+ "id": "usw-48",
+ "name": "USW-48",
+ "title": "Switch 48",
+ "price": 399.0,
+ "line": "Standard switch",
+ "legacy": false,
+ "summary": "Fanless 48-port GbE L2 switch with 4x 1G SFP uplinks; no PoE.",
+ "jobs": [
+  {
+   "job": "switch_edge",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "rack_1u",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "ac"
+  ],
+  "power_draw_w": 40,
+  "uplink": "1G SFP",
+  "ports": {
+   "rj45_1g": 48,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 4,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": "L2",
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "fanless",
+   "1.3\" touchscreen"
+  ],
+  "requires": [
+   "UniFi Network 7.2.94+"
+  ],
+  "extra": {}
+ },
+ "gotchas": [
+  "Uplinks are 1G SFP only - 48 GbE clients share at most 4 Gbps (LACP) to the core; get USW-Pro-Max-48 for 10G SFP+.",
+  "No PoE - for APs/cameras use a PoE model.",
+  "Layer 2 only - inter-VLAN routing stays on the gateway.",
+  "No multi-gig ports."
+ ],
+ "best_for": [
+  "silent racks in offices",
+  "cheap 1G desk drops"
+ ],
+ "not_for": [
+  "PoE devices",
+  "10G uplinks",
+  "multi-gig clients"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

@@ -1,0 +1,85 @@
+{
+ "id": "u6-enterprise",
+ "name": "U6-Enterprise",
+ "title": "Access Point U6 Enterprise",
+ "price": 279.0,
+ "line": "WiFi 6E",
+ "legacy": false,
+ "summary": "Ceiling WiFi 6E AP: 10 streams, tri-band incl. 6 GHz 4x4, 2.5GbE uplink, PoE+.",
+ "jobs": [
+  {
+   "job": "wifi_ceiling",
+   "role": "primary"
+  },
+  {
+   "job": "wifi_highdensity",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "ceiling",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "poe+"
+  ],
+  "power_draw_w": 22,
+  "uplink": "2.5GbE",
+  "ports": {
+   "rj45_1g": 0,
+   "rj45_2_5g": 1,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": 600,
+  "wifi_std": "WiFi 6E",
+  "bands": [
+   "2.4",
+   "5",
+   "6"
+  ],
+  "streams": 10,
+  "coverage_m2": 140,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [],
+  "requires": [
+   "PoE+ source"
+  ],
+  "extra": {}
+ },
+ "gotchas": [
+  "Needs PoE+ (22 W) - 802.3af ports (e.g. UDR) won't run it.",
+  "2.5GbE uplink - a 1G switch port caps it; pair with a 2.5G PoE+ switch.",
+  "WiFi 6E, not WiFi 7 - for new installs U7 Pro / U7 Pro Max add MLO and 320 MHz at similar cost.",
+  "2.4 GHz is only 2x2."
+ ],
+ "best_for": [
+  "dense offices on WiFi 6E clients",
+  "6 GHz without WiFi 7 price"
+ ],
+ "not_for": [
+  "PoE (af) only switches",
+  "1G-only networks expecting full speed"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

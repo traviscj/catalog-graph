@@ -1,0 +1,91 @@
+{
+ "id": "uvc-g6-pro-turret",
+ "name": "UVC-G6-Pro-Turret",
+ "title": "Camera G6 Pro Turret",
+ "price": 479.0,
+ "line": "G6 camera",
+ "legacy": false,
+ "summary": "4K turret, 1/1.2\" sensor, 2.36x optical zoom, face/LPR AI, two-way audio; PoE+.",
+ "jobs": [
+  {
+   "job": "camera_outdoor",
+   "role": "primary"
+  },
+  {
+   "job": "camera_indoor",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "camera_turret",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "protect",
+  "power_in": [
+   "poe+"
+  ],
+  "power_draw_w": 15,
+  "uplink": "1GbE",
+  "ports": {
+   "rj45_1g": 1,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": true,
+  "ip_rating": "IP66",
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": {
+   "res": "4K",
+   "fps": 30,
+   "night": "IR 40m",
+   "ai": "person/vehicle/animal, face, LPR",
+   "lens": "5.85-13.8mm f/1.5-2.9, 2.36x optical",
+   "audio": "two-way",
+   "sensor": "1/1.2\" 8MP",
+   "ik": "IK04"
+  },
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "microSD edge recording",
+   "optical zoom"
+  ],
+  "requires": [
+   "UniFi Protect on a console/NVR with storage (e.g. UCG-Max w/ SSD, UNVR-Instant, ENVR)"
+  ],
+  "extra": {}
+ },
+ "gotchas": [
+  "Needs PoE+ (802.3at); won't run off UNVR-Instant's 802.3af ports.",
+  "Only IK04 — not vandal resistant; pick the G6 Pro Dome (IK10) for reachable mounts.",
+  "Requires UniFi Protect on a console/NVR with storage."
+ ],
+ "best_for": [
+  "eaves/soffits",
+  "two-way audio deterrence"
+ ],
+ "not_for": [
+  "vandal-exposed mounts"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

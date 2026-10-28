@@ -1,0 +1,93 @@
+{
+ "id": "uvc-ai-dslr",
+ "name": "UVC-AI-DSLR",
+ "title": "Camera AI DSLR",
+ "price": 1499.0,
+ "line": "AI camera",
+ "legacy": false,
+ "summary": "4K PoE+ camera with 4/3\" sensor and interchangeable M.Zuiko f/1.2 lenses; outdoor via case.",
+ "jobs": [
+  {
+   "job": "camera_outdoor",
+   "role": "primary"
+  },
+  {
+   "job": "camera_indoor",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "camera_bullet",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "protect",
+  "power_in": [
+   "poe+"
+  ],
+  "power_draw_w": 17.77,
+  "uplink": "GbE",
+  "ports": {
+   "rj45_1g": 1,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": true,
+  "ip_rating": "IPX5",
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": {
+   "res": "4K",
+   "fps": 30,
+   "night": null,
+   "ai": "person/vehicle/animal, face, LPR",
+   "lens": "M.Zuiko 17mm or 45mm f/1.2 PRO (interchangeable)",
+   "audio": "two-way"
+  },
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "4/3\" 10MP sensor",
+   "interchangeable lens"
+  ],
+  "requires": [
+   "UniFi Protect console/NVR with storage",
+   "outdoor case for IPX5"
+  ],
+  "extra": {
+   "night": "no IR listed — relies on sensor low-light",
+   "status": "SoldOut"
+  }
+ },
+ "gotchas": [
+  "No IR illuminator listed — night performance relies on ambient light and the f/1.2 lens.",
+  "IPX5 only with the outdoor case.",
+  "$1,499 — G6 Edge models give zoom + IR for $699.",
+  "Requires a Protect console/NVR with storage."
+ ],
+ "best_for": [
+  "image-quality-critical scenes, lobbies, lit lots"
+ ],
+ "not_for": [
+  "dark perimeters"
+ ],
+ "confidence": "medium",
+ "in_store": true,
+ "status": "SoldOut"
+}

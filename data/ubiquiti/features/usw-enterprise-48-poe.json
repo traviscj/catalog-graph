@@ -1,0 +1,86 @@
+{
+ "id": "usw-enterprise-48-poe",
+ "name": "USW-Enterprise-48-PoE",
+ "title": "Switch Enterprise 48 PoE (Vintage)",
+ "price": null,
+ "line": "Enterprise switch",
+ "legacy": true,
+ "summary": "Vintage 1U L3 switch: 48x 2.5G PoE+ ports, 4x SFP+, 720 W budget.",
+ "jobs": [
+  {
+   "job": "switch_poe_edge",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "rack_1u",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "ac"
+  ],
+  "power_draw_w": 870,
+  "uplink": "10G SFP+",
+  "ports": {
+   "rj45_1g": 0,
+   "rj45_2_5g": 48,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 4,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 48,
+  "poe_out_types": [
+   "poe+"
+  ],
+  "poe_budget_w": 720,
+  "layer": "L3 lite",
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [
+   "DC backup via USP-RPS"
+  ],
+  "special": [
+   "1.3\" touchscreen",
+   "Pro AV profiles"
+  ],
+  "requires": [
+   "UniFi console/gateway"
+  ],
+  "extra": {
+   "title_flag": "(Vintage)",
+   "price_null": "not in store"
+  }
+ },
+ "gotchas": [
+  "Marked Vintage and not in store — current replacement is the USW-Pro-Max-48-PoE family.",
+  "PoE+ only (32 W max/port) — no PoE++/802.3bt for U7 Pro XG / E7 / PTZs.",
+  "48x 2.5G into 4x 10G SFP+ = 3:1 oversubscription at line rate.",
+  "Single PSU; redundancy only via USP-RPS."
+ ],
+ "best_for": [
+  "dense 2.5G PoE+ AP/camera closets (used market)"
+ ],
+ "not_for": [
+  "PoE++ devices",
+  "new purchases"
+ ],
+ "confidence": "high",
+ "in_store": false,
+ "status": null
+}

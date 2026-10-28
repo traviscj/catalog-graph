@@ -1,0 +1,95 @@
+{
+ "id": "uvc-g6-entry",
+ "name": "UVC-G6-Entry",
+ "title": "Reader G6 Entry",
+ "price": 249.0,
+ "line": "Access / G6 Entry",
+ "legacy": false,
+ "summary": "PoE+ door entry station: 5MP + 8MP package camera, face unlock, wallet/mobile unlock, intercom, IP55.",
+ "jobs": [
+  {
+   "job": "intercom",
+   "role": "primary"
+  },
+  {
+   "job": "camera_doorbell",
+   "role": "secondary"
+  },
+  {
+   "job": "access_reader",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "reader",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "protect",
+  "power_in": [
+   "poe+"
+  ],
+  "power_draw_w": 16,
+  "uplink": "1GbE",
+  "ports": null,
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": true,
+  "ip_rating": "IP55",
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": {
+   "res": "5MP main (1920x2560) + 8MP package",
+   "fps": 30,
+   "night": "IR 5m",
+   "ai": "people/vehicle, face",
+   "lens": "main 180°D, package 78°D",
+   "audio": "two-way, beamforming/noise cancel"
+  },
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "face unlock",
+   "Apple/Google Wallet",
+   "mobile unlock",
+   "Touch Pass",
+   "UL 294"
+  ],
+  "requires": [
+   "UniFi Protect + UniFi Access on console",
+   "UniFi Access Hub / Hub Mini (for NFC & door control)",
+   "PoE+ source"
+  ],
+  "extra": {
+   "tamper": "IK07",
+   "package_cam_fps": 3
+  }
+ },
+ "gotchas": [
+  "Requires PoE+ (16W).",
+  "NFC and door-release need a UniFi Access Hub / Hub Mini, and both Protect and Access installed on the console.",
+  "Package camera runs at 3 FPS — stills, not video.",
+  "IR only 5m; IP55 (sheltered entry recommended)."
+ ],
+ "best_for": [
+  "front doors/gates wanting video + access in one",
+  "replacing G4 Doorbell Pro"
+ ],
+ "not_for": [
+  "sites without a console",
+  "PoE-af only switches"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

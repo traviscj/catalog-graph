@@ -1,0 +1,94 @@
+{
+ "id": "u7-pro-xgs",
+ "name": "U7-Pro-XGS",
+ "title": "Access Point U7 Pro XGS",
+ "price": 299.0,
+ "line": "WiFi 7",
+ "legacy": false,
+ "summary": "Flagship ceiling WiFi 7 AP: tri-band 6 GHz, 8 streams, 10GbE uplink, dedicated spectral-scan radio.",
+ "jobs": [
+  {
+   "job": "wifi_ceiling",
+   "role": "primary"
+  },
+  {
+   "job": "wifi_highdensity",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "ceiling",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "poe++"
+  ],
+  "power_draw_w": 29,
+  "uplink": "10GbE",
+  "ports": {
+   "rj45_1g": 0,
+   "rj45_2_5g": 0,
+   "rj45_10g": 1,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": 500,
+  "wifi_std": "WiFi 7",
+  "bands": [
+   "2.4",
+   "5",
+   "6"
+  ],
+  "streams": 8,
+  "coverage_m2": 160,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "spectral scanning radio",
+   "zero-wait DFS",
+   "mesh",
+   "320 MHz on 6 GHz"
+  ],
+  "requires": [
+   "PoE++ source (802.3bt, ~29W)",
+   "10GbE/2.5GbE switch port to use the bandwidth",
+   "UniFi Network controller/console"
+  ],
+  "extra": {
+   "radios": "6G 2x2 5.8Gbps, 5G 4x4 8.6Gbps, 2.4G 2x2"
+  }
+ },
+ "gotchas": [
+  "Needs PoE++ (802.3bt) — standard PoE+ ports won't power it; check switch (e.g. USW-Pro-Max-24-PoE PoE++ ports).",
+  "10GbE uplink only pays off on a 10GbE switch port (USW-Pro-XG-24-PoE); on 1G ports it's throttled.",
+  "Requires a UniFi console/gateway to adopt; not standalone.",
+  "Same 160 m² coverage as the cheaper U7-LR — you're buying capacity, not range."
+ ],
+ "best_for": [
+  "high-client offices",
+  "multi-gig WiFi 7 backhaul"
+ ],
+ "not_for": [
+  "PoE+ only switches",
+  "budget homes"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

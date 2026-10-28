@@ -1,0 +1,83 @@
+{
+ "id": "usw-pro-24",
+ "name": "USW-Pro-24",
+ "title": "Switch Pro 24",
+ "price": null,
+ "line": "Pro switch (legacy)",
+ "legacy": true,
+ "summary": "24-port 1GbE L3 non-PoE fanless rack switch with 2x10G SFP+; no longer in store.",
+ "jobs": [
+  {
+   "job": "switch_edge",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "rack_1u",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "ac"
+  ],
+  "power_draw_w": 30,
+  "uplink": "10G SFP+",
+  "ports": {
+   "rj45_1g": 24,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 2,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": "L3",
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [
+   "rps_dc_backup"
+  ],
+  "special": [
+   "fanless",
+   "Pro AV profiles",
+   "1.3in touchscreen"
+  ],
+  "requires": [
+   "SFP+ modules/DACs"
+  ],
+  "extra": {
+   "odd": "IPv4 Static Routes = 2 (vs 256 on siblings) — likely a data error or very limited L3"
+  }
+ },
+ "gotchas": [
+  "Not sold in the store anymore (legacy) — look at the current Pro Max 24 non-PoE for a new build.",
+  "No PoE at all — APs/cameras need a separate PoE switch or injectors.",
+  "1GbE-only copper; static-route table listed as only 2 entries, so L3 is minimal."
+ ],
+ "best_for": [
+  "silent 1G rack distribution (used market)"
+ ],
+ "not_for": [
+  "PoE",
+  "multi-gig"
+ ],
+ "confidence": "medium",
+ "in_store": false,
+ "status": null
+}

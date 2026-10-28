@@ -1,0 +1,97 @@
+{
+ "id": "usw-pro-xg-24-poe",
+ "name": "USW-Pro-XG-24-PoE",
+ "title": "Switch Pro XG 24 PoE",
+ "price": 1799.0,
+ "line": "Pro XG switch",
+ "legacy": false,
+ "summary": "24-port L3 PoE++++ (90 W) switch: 16x10GbE + 8x2.5GbE all 802.3bt, 2x25G SFP28, 720 W budget.",
+ "jobs": [
+  {
+   "job": "switch_poe_edge",
+   "role": "primary"
+  },
+  {
+   "job": "switch_core_agg",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "rack_1u",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "ac"
+  ],
+  "power_draw_w": 870,
+  "uplink": "25G SFP28",
+  "ports": {
+   "rj45_1g": 0,
+   "rj45_2_5g": 8,
+   "rj45_10g": 16,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 2,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 24,
+  "poe_out_types": [
+   "poe",
+   "poe+",
+   "poe++",
+   "poe_bt_90w"
+  ],
+  "poe_budget_w": 720,
+  "layer": "L3",
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [
+   "rps_dc_backup"
+  ],
+  "special": [
+   "etherlighting",
+   "Pro AV profiles",
+   "1.3in touchscreen"
+  ],
+  "requires": [
+   "4-post rack",
+   "SFP28 optics/DACs",
+   "USP-RPS for power redundancy"
+  ],
+  "extra": {
+   "power_draw_note": "150W excl. PoE / 870W incl. PoE"
+  }
+ },
+ "gotchas": [
+  "720 W budget vs 24 ports x 90 W (2,160 W): only ~8 ports can run at full 90 W simultaneously.",
+  "Just 2 SFP28 uplinks — no SFP+ beyond those; 16 10GbE PoE ports can oversubscribe a single 25G uplink.",
+  "Single internal PSU; redundancy requires the separate USP-RPS.",
+  "Deep chassis (480 mm) on 4-post racks; at full PoE load it is hot and fan-cooled.",
+  "Overkill if your APs are 2.5GbE — USW-Pro-Max-24-PoE costs less than half."
+ ],
+ "best_for": [
+  "WiFi 7 10GbE APs (U7-Pro-XGS) and 90 W devices at scale",
+  "Pro AV"
+ ],
+ "not_for": [
+  "budget builds",
+  "1G-only devices"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

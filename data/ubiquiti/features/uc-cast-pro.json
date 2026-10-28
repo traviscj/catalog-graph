@@ -1,0 +1,86 @@
+{
+ "id": "uc-cast-pro",
+ "name": "UC-Cast-Pro",
+ "title": "Display Cast Pro",
+ "price": 279.0,
+ "line": "Connect",
+ "legacy": false,
+ "summary": "Managed HDMI digital-signage player (4K, 8GB RAM) for UniFi Connect; PoE or USB-C powered.",
+ "jobs": [
+  {
+   "job": "iot_premium",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "mini",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "connect",
+  "power_in": [
+   "poe",
+   "usb_c"
+  ],
+  "power_draw_w": null,
+  "uplink": "1GbE",
+  "ports": {
+   "rj45_1g": 1,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": "WiFi 6",
+  "bands": [
+   "2.4",
+   "5"
+  ],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "HDMI out 4K",
+   "web mode",
+   "USB-C peripherals"
+  ],
+  "requires": [
+   "HDMI display",
+   "console running UniFi Connect"
+  ],
+  "extra": {
+   "ram_gb": 8,
+   "storage_gb": 32
+  }
+ },
+ "gotchas": [
+  "Requires a console running UniFi Connect; no standalone signage mode per spec.",
+  "Display not included — it's an HDMI player only.",
+  "PoE input is 48 V 0.35 A (~17 W class) — plan PoE+ budget or use USB-C."
+ ],
+ "best_for": [
+  "lobby/menu-board signage"
+ ],
+ "not_for": [
+  "consumer streaming"
+ ],
+ "confidence": "medium",
+ "in_store": true,
+ "status": "Available"
+}

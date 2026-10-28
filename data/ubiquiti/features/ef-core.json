@@ -1,0 +1,108 @@
+{
+ "id": "ef-core",
+ "name": "EF-Core",
+ "title": "Enterprise Firewall Core",
+ "price": 3499.0,
+ "line": "Enterprise Fortress Gateway",
+ "legacy": false,
+ "summary": "1U enterprise firewall/gateway: 100G QSFP28, 79 Gbps IPS, 22,500 clients, dual hot-swap PSUs.",
+ "jobs": [
+  {
+   "job": "gateway_router",
+   "role": "primary"
+  },
+  {
+   "job": "console_host",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "rack_1u",
+  "requires_console": false,
+  "hosts_apps": [
+   "network"
+  ],
+  "managed_by": "network",
+  "power_in": [
+   "ac",
+   "redundant_psu"
+  ],
+  "power_draw_w": 171,
+  "uplink": "100G QSFP28",
+  "ports": {
+   "rj45_1g": 2,
+   "rj45_2_5g": 0,
+   "rj45_10g": 8,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 4,
+   "qsfp28_100g": 4
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": "L3",
+  "wan_ports_max": 8,
+  "ips_throughput_gbps": 79,
+  "routing_throughput_gbps": 100,
+  "max_devices": 2250,
+  "max_clients": 22500,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": "128GB SSD (integrated)",
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [
+   "redundant_psu",
+   "shadow_mode_ha",
+   "swappable_fan"
+  ],
+  "special": [
+   "IDS/IPS",
+   "zone-based firewall",
+   "SD-WAN/Site Magic",
+   "WireGuard/OpenVPN/IPsec",
+   "Teleport VPN",
+   "SSL/TLS inspection",
+   "BGP/OSPF",
+   "1.3in touchscreen",
+   "OOB MGMT port",
+   "5,000+ IPsec tunnels"
+  ],
+  "requires": [
+   "SFP28/QSFP28 optics or DACs for fiber ports"
+  ],
+  "extra": {
+   "mgmt_port": "1x 1GbE MGMT (not counted in ports)",
+   "routing_throughput_note": "100 Gbps from desc headline, not a spec field",
+   "default_wan": "(1) 100G QSFP28 (1) 25G SFP28 (1) 10GbE RJ45",
+   "ram_gb": 32,
+   "cpu": "24-core ARM v9 2.5GHz",
+   "ids_signatures": "95,000+ with CyberSecure Enterprise"
+  }
+ },
+ "gotchas": [
+  "Hosts only UniFi Network — no Protect/Access/Talk; cameras need a separate ENVR/UNVR or console.",
+  "Shadow Mode HA requires a second EF-Core plus a USW-WAN to split one ISP handoff to both gateways.",
+  "Fiber ports (25G SFP28 / 100G QSFP28) ship empty — budget for optics or DACs.",
+  "Rack gear with swappable fans and 171 W draw / 585 BTU/hr — loud and hot for a closet; 400 mm deep chassis.",
+  "Massive overkill below multi-gig WAN or a few hundred clients — a UCG-Max/UCG-class gateway covers small sites."
+ ],
+ "best_for": [
+  "campus/enterprise edge with 10–100G WAN",
+  "HA gateway pairs",
+  "large multi-site SD-WAN hubs"
+ ],
+ "not_for": [
+  "homes / small offices",
+  "anyone wanting cameras on the same box"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

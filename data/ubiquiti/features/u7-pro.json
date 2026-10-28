@@ -1,0 +1,84 @@
+{
+ "id": "u7-pro",
+ "name": "U7-Pro",
+ "title": "Access Point U7 Pro",
+ "price": 189.0,
+ "line": "WiFi 7",
+ "legacy": false,
+ "summary": "Ceiling WiFi 7 tri-band 6-stream AP with 2.5GbE uplink; mainstream UniFi workhorse.",
+ "jobs": [
+  {
+   "job": "wifi_ceiling",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "ceiling",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "poe+"
+  ],
+  "power_draw_w": 21,
+  "uplink": "2.5GbE",
+  "ports": {
+   "rj45_1g": 0,
+   "rj45_2_5g": 1,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": 300,
+  "wifi_std": "WiFi 7",
+  "bands": [
+   "2.4",
+   "5",
+   "6"
+  ],
+  "streams": 6,
+  "coverage_m2": 140,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "meshing",
+   "320 MHz 6 GHz"
+  ],
+  "requires": [
+   "PoE+ source (21W)",
+   "UniFi OS console / gateway running UniFi Network (8.0.28+)"
+  ],
+  "extra": {}
+ },
+ "gotchas": [
+  "Needs PoE+ (21W) — 802.3af ports (US-8-60W, UDR-5G-Max's single PoE port) won't power it.",
+  "2.5GbE uplink is wasted on 1GbE switches (USW-16-PoE, USW-Pro-24-PoE); pair with a 2.5G PoE switch.",
+  "2x2 per band; for denser rooms/spectral scanning step up to U7 Pro Max or E7.",
+  "6 GHz only helps WiFi 6E/7 clients; requires a UniFi console to adopt."
+ ],
+ "best_for": [
+  "homes/offices wanting WiFi 7 at modest cost"
+ ],
+ "not_for": [
+  "outdoor",
+  "stadium density"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

@@ -1,0 +1,77 @@
+{
+ "id": "us-48",
+ "name": "US-48",
+ "title": "Switch 48",
+ "price": null,
+ "line": "Standard switch (legacy)",
+ "legacy": true,
+ "summary": "Legacy fully-managed 48x1GbE switch with 2x1G SFP and 2x10G SFP+, no PoE.",
+ "jobs": [
+  {
+   "job": "switch_edge",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "rack_1u",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "ac"
+  ],
+  "power_draw_w": null,
+  "uplink": "10G SFP+",
+  "ports": {
+   "rj45_1g": 48,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 2,
+   "sfp_plus_10g": 2,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": "L2",
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [],
+  "requires": [],
+  "extra": {
+   "thin_specs": "no performance/power/weight data in source",
+   "layer_inferred": "only L2 feature section present"
+  }
+ },
+ "gotchas": [
+  "Legacy US-series, not in store — current equivalents are USW-48 / USW-Pro-Max-48.",
+  "No PoE — APs/cameras need a PoE switch or injectors.",
+  "All copper ports are 1GbE.",
+  "Spec sheet is thin (power draw/fan not listed) — verify noise before putting in an office."
+ ],
+ "best_for": [
+  "existing US-series racks"
+ ],
+ "not_for": [
+  "new builds",
+  "PoE"
+ ],
+ "confidence": "medium",
+ "in_store": false,
+ "status": null
+}

@@ -1,0 +1,77 @@
+{
+ "id": "u7-lite",
+ "name": "U7-Lite",
+ "title": "Access Point U7 Lite",
+ "price": 99.0,
+ "line": "WiFi 7",
+ "legacy": false,
+ "summary": "Compact dual-band 4-stream WiFi 7 ceiling AP with 2.5GbE uplink, plain PoE.",
+ "jobs": [
+  {
+   "job": "wifi_ceiling",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "ceiling",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "poe"
+  ],
+  "power_draw_w": 13,
+  "uplink": "2.5GbE",
+  "ports": {
+   "rj45_1g": 0,
+   "rj45_2_5g": 1,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": 200,
+  "wifi_std": "WiFi 7",
+  "bands": [
+   "2.4",
+   "5"
+  ],
+  "streams": 4,
+  "coverage_m2": 115,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [],
+  "requires": [],
+  "extra": {}
+ },
+ "gotchas": [
+  "No 6 GHz — WiFi 7 on 2.4/5 GHz only; for 6 GHz/320 MHz pick U7 Pro / U7 Pro XG.",
+  "2x2 per band and 200 clients — not for dense rooms.",
+  "Requires a UniFi console/gateway to adopt."
+ ],
+ "best_for": [
+  "budget whole-home WiFi 7 on 802.3af PoE",
+  "bedrooms/small offices"
+ ],
+ "not_for": [
+  "6 GHz clients",
+  "high density"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

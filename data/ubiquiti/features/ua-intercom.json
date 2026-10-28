@@ -1,0 +1,99 @@
+{
+ "id": "ua-intercom",
+ "name": "UA-Intercom",
+ "title": "Access Intercom",
+ "price": 399.0,
+ "line": "Access",
+ "legacy": false,
+ "summary": "IP65 intercom terminal: 7\" touchscreen, camera, NFC, PIN, face unlock, two-way calling.",
+ "jobs": [
+  {
+   "job": "intercom",
+   "role": "primary"
+  },
+  {
+   "job": "access_reader",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "wall",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "access",
+  "power_in": [
+   "poe"
+  ],
+  "power_draw_w": 13,
+  "uplink": "GbE",
+  "ports": {
+   "rj45_1g": 1,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": true,
+  "ip_rating": "IP65",
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": {
+   "res": "2MP 1200x1600",
+   "fps": 30,
+   "night": null,
+   "ai": "face unlock",
+   "lens": "118.2° D",
+   "audio": "two-way"
+  },
+  "sensors": [
+   "proximity",
+   "light"
+  ],
+  "redundancy": [],
+  "special": [
+   "7\" 1000-nit touchscreen",
+   "NFC",
+   "PIN",
+   "face unlock",
+   "mobile unlock"
+  ],
+  "requires": [
+   "UniFi Access Hub",
+   "UniFi Access console"
+  ],
+  "extra": {
+   "display_temp": "display turns off outside -25..60°C",
+   "status": "SoldOut"
+  }
+ },
+ "gotchas": [
+  "Still needs an Access Hub/Gate Hub to actuate locks.",
+  "Indoor answering needs the Intercom Viewer or the app.",
+  "Requires a console running UniFi Access.",
+  "Display shuts off below -25°C."
+ ],
+ "best_for": [
+  "apartment/commercial lobbies"
+ ],
+ "not_for": [
+  "single interior doors"
+ ],
+ "confidence": "medium",
+ "in_store": true,
+ "status": "SoldOut"
+}

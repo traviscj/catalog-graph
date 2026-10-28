@@ -1,0 +1,78 @@
+{
+ "id": "u5g-us",
+ "name": "U5G",
+ "title": "UniFi 5G Backup",
+ "price": 99.0,
+ "line": "Internet Backup",
+ "legacy": false,
+ "summary": "PoE-powered 5G RedCap/LTE backup modem for automatic failover on UniFi gateways.",
+ "jobs": [
+  {
+   "job": "internet_backup",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "other",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "poe"
+  ],
+  "power_draw_w": null,
+  "uplink": "1GbE",
+  "ports": null,
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "5G RedCap SA + LTE",
+   "Nano-SIM + eSIM",
+   "status display",
+   "window mount"
+  ],
+  "requires": [
+   "UniFi gateway (Network 10.4.57+)",
+   "carrier SIM/eSIM data plan"
+  ],
+  "extra": {
+   "peak_dl_mbps": {
+    "5g_sa": 220,
+    "lte": 195
+   },
+   "nsa": "5G NSA not supported"
+  }
+ },
+ "gotchas": [
+  "5G RedCap SA only (no NSA) — peak ~220 Mbps down; a backup link, not a fiber replacement (UDR-5G-Max has full 5G at 3.4 Gbps).",
+  "Needs a carrier data plan and a UniFi gateway to fail over.",
+  "Indoor (0-40°C) — place near a window for signal."
+ ],
+ "best_for": [
+  "automatic WAN failover for small sites"
+ ],
+ "not_for": [
+  "primary high-speed WAN"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

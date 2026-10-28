@@ -1,0 +1,90 @@
+{
+ "id": "u5g-max",
+ "name": "U5G-Max-US",
+ "title": "UniFi 5G Max",
+ "price": 399.0,
+ "line": "Internet Solutions",
+ "legacy": false,
+ "summary": "PoE-powered 5G NR modem (3.4 Gbps), dual SIM/eSIM, 2.5GbE, auto-adopts for UniFi WAN failover.",
+ "jobs": [
+  {
+   "job": "internet_backup",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "desktop",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "poe"
+  ],
+  "power_draw_w": 14.5,
+  "uplink": "2.5GbE",
+  "ports": {
+   "rj45_1g": 0,
+   "rj45_2_5g": 1,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "dual SIM / eSIM",
+   "1.3\" touchscreen",
+   "window/wall/desk mount"
+  ],
+  "requires": [
+   "UniFi gateway/console",
+   "PoE source",
+   "carrier SIM/plan",
+   "UniFi Network 10.0.162+"
+  ],
+  "extra": {
+   "carriers": "AT&T, T-Mobile, Verizon certified",
+   "peak": "5G NSA 3.4/0.56 Gbps, SA 1.8/0.65, LTE 1.6/0.21",
+   "sim_note": "SIM 2 unusable when eSIM active",
+   "adoption_note": "console must be updated via another WAN before adoption",
+   "indoor": "0-40 C, no IP rating",
+   "sku_region": "US"
+  }
+ },
+ "gotchas": [
+  "Needs a UniFi gateway - it's a modem, not a router; console must be updated over another WAN before adopting.",
+  "Indoor only (0-40 C, no IP rating) - window mount, not mast-mounted.",
+  "Data plan/SIM not stated as included; eSIM disables SIM slot 2.",
+  "US SKU (band/carrier certs AT&T/T-Mobile/Verizon)."
+ ],
+ "best_for": [
+  "5G failover or primary WAN for UniFi sites"
+ ],
+ "not_for": [
+  "non-UniFi routers",
+  "outdoor mounting"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

@@ -1,0 +1,6356 @@
+{
+ "ai-key": [
+  {
+   "id": "uck-g2-ssd",
+   "why": "Requires a Protect console/NVR",
+   "req": true
+  },
+  {
+   "id": "u-poe-plus-plus",
+   "why": "Needs PoE++ (45W); PoE+ ports will not run it",
+   "req": true
+  },
+  {
+   "id": "uvc-g6-turret",
+   "why": "Cameras whose footage it indexes",
+   "req": false
+  },
+  {
+   "id": "uacc-ai-key-rm",
+   "why": "Vendor-listed rack mount",
+   "req": false
+  }
+ ],
+ "e7": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "uacc-poe-plus-plus-10g",
+   "why": "Needs PoE++ (802.3bt); will not run on PoE+ switch ports",
+   "req": true
+  },
+  {
+   "id": "usw-pro-xg-8-poe",
+   "why": "PoE++-capable switch ports at 10GbE",
+   "req": false
+  },
+  {
+   "id": "unifi-professional-mounting-system",
+   "why": "Vendor-listed fit: Flagship AP Replacement Mounting System",
+   "req": false
+  }
+ ],
+ "e7-audience-indoor": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "uacc-poe-plus-plus-10g",
+   "why": "Needs PoE++ (802.3bt); will not run on PoE+ switch ports",
+   "req": true
+  },
+  {
+   "id": "usw-pro-xg-8-poe",
+   "why": "PoE++-capable switch ports at 10GbE",
+   "req": false
+  }
+ ],
+ "e7-audience-us": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "uacc-poe-plus-plus-10g",
+   "why": "Needs PoE++ (802.3bt); will not run on PoE+ switch ports",
+   "req": true
+  },
+  {
+   "id": "usw-pro-xg-8-poe",
+   "why": "PoE++-capable switch ports at 10GbE",
+   "req": false
+  }
+ ],
+ "e7-campus-indoor": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "uacc-poe-plus-plus-10g",
+   "why": "Needs PoE++ (802.3bt); will not run on PoE+ switch ports",
+   "req": true
+  },
+  {
+   "id": "usw-pro-xg-8-poe",
+   "why": "PoE++-capable switch ports at 10GbE",
+   "req": false
+  }
+ ],
+ "e7-campus-us": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "uacc-poe-plus-plus-10g",
+   "why": "Needs PoE++ (802.3bt); will not run on PoE+ switch ports",
+   "req": true
+  },
+  {
+   "id": "usw-pro-xg-8-poe",
+   "why": "PoE++-capable switch ports at 10GbE",
+   "req": false
+  }
+ ],
+ "eah-8": [
+  {
+   "id": "ucg-max",
+   "why": "Requires console running Access",
+   "req": true
+  },
+  {
+   "id": "ua-g3",
+   "why": "Readers powered from hub",
+   "req": true
+  },
+  {
+   "id": "uacc-lock-strike-safe-15mm",
+   "why": "Electric locks per door",
+   "req": true
+  },
+  {
+   "id": "ua-button",
+   "why": "Request-to-exit buttons",
+   "req": false
+  },
+  {
+   "id": "ua-card",
+   "why": "NFC credentials",
+   "req": false
+  }
+ ],
+ "eav-bridge": [
+  {
+   "id": "u-poe-plus",
+   "why": "Needs PoE+ source",
+   "req": true
+  },
+  {
+   "id": "uacc-cable-ir-blaster",
+   "why": "Vendor-listed IR blaster",
+   "req": false
+  }
+ ],
+ "eav-fiber": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "10gbps-direct-attach-cable",
+   "why": "SFP+ ports need DACs/modules",
+   "req": true
+  },
+  {
+   "id": "uacc-dac-qsfp28",
+   "why": "QSFP28 100G uplinks need DAC/optic",
+   "req": false
+  },
+  {
+   "id": "eav-xg-24-poe",
+   "why": "AV PoE edge switch",
+   "req": false
+  },
+  {
+   "id": "uacc-psu-12v-150w",
+   "why": "Vendor-listed redundant PSU",
+   "req": false
+  }
+ ],
+ "eav-xg-24-poe": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "uacc-dac-qsfp28",
+   "why": "QSFP28 uplinks need DAC/optic",
+   "req": true
+  },
+  {
+   "id": "eav-fiber",
+   "why": "AV aggregation switch",
+   "req": false
+  },
+  {
+   "id": "uacc-psu-54v-1200w",
+   "why": "Vendor-listed redundant PSU",
+   "req": false
+  },
+  {
+   "id": "ups-2u-pro-us",
+   "why": "Rack UPS",
+   "req": false
+  }
+ ],
+ "ecs-24-poe": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "25gbps-direct-attach-cable",
+   "why": "SFP28 ports need DAC or optic",
+   "req": false
+  },
+  {
+   "id": "u7-pro-xgs",
+   "why": "AP powered by its PoE ports",
+   "req": false
+  },
+  {
+   "id": "uvc-g6-turret",
+   "why": "PoE camera powered by its ports",
+   "req": false
+  },
+  {
+   "id": "ecs-aggregation",
+   "why": "25/100G campus aggregation layer",
+   "req": false
+  },
+  {
+   "id": "uacc-fan-4020",
+   "why": "Vendor-listed fit: Hot-Swappable Fan Module",
+   "req": false
+  },
+  {
+   "id": "ups-2u-us",
+   "why": "Battery backup",
+   "req": false
+  }
+ ],
+ "ecs-24s": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "25gbps-direct-attach-cable",
+   "why": "SFP28 ports need DAC or optic",
+   "req": true
+  },
+  {
+   "id": "uacc-dac-qsfp28",
+   "why": "QSFP28 100G ports need DAC or optic",
+   "req": true
+  },
+  {
+   "id": "ecs-aggregation",
+   "why": "25/100G campus aggregation layer",
+   "req": false
+  },
+  {
+   "id": "ups-2u-us",
+   "why": "Battery backup",
+   "req": false
+  }
+ ],
+ "ecs-24s-poe": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "25gbps-direct-attach-cable",
+   "why": "SFP28 ports need DAC or optic",
+   "req": false
+  },
+  {
+   "id": "uacc-dac-qsfp28",
+   "why": "QSFP28 100G ports need DAC or optic",
+   "req": false
+  },
+  {
+   "id": "u7-pro-xgs",
+   "why": "AP powered by its PoE ports",
+   "req": false
+  },
+  {
+   "id": "uvc-g6-turret",
+   "why": "PoE camera powered by its ports",
+   "req": false
+  },
+  {
+   "id": "ecs-aggregation",
+   "why": "25/100G campus aggregation layer",
+   "req": false
+  },
+  {
+   "id": "uacc-fan-4020",
+   "why": "Vendor-listed fit: Hot-Swappable Fan Module",
+   "req": false
+  }
+ ],
+ "ecs-48-poe": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "25gbps-direct-attach-cable",
+   "why": "SFP28 ports need DAC or optic",
+   "req": false
+  },
+  {
+   "id": "u7-pro-xgs",
+   "why": "AP powered by its PoE ports",
+   "req": false
+  },
+  {
+   "id": "uvc-g6-turret",
+   "why": "PoE camera powered by its ports",
+   "req": false
+  },
+  {
+   "id": "ecs-aggregation",
+   "why": "25/100G campus aggregation layer",
+   "req": false
+  },
+  {
+   "id": "uacc-fan-4020",
+   "why": "Vendor-listed fit: Hot-Swappable Fan Module",
+   "req": false
+  },
+  {
+   "id": "ups-2u-us",
+   "why": "Battery backup",
+   "req": false
+  }
+ ],
+ "ecs-48s": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "25gbps-direct-attach-cable",
+   "why": "SFP28 ports need DAC or optic",
+   "req": false
+  },
+  {
+   "id": "uacc-dac-qsfp28",
+   "why": "QSFP28 100G ports need DAC or optic",
+   "req": false
+  },
+  {
+   "id": "ecs-aggregation",
+   "why": "25/100G campus aggregation layer",
+   "req": false
+  },
+  {
+   "id": "ups-2u-us",
+   "why": "Battery backup",
+   "req": false
+  }
+ ],
+ "ecs-48s-poe": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "25gbps-direct-attach-cable",
+   "why": "SFP28 ports need DAC or optic",
+   "req": true
+  },
+  {
+   "id": "uacc-dac-qsfp28",
+   "why": "QSFP28 100G ports need DAC or optic",
+   "req": true
+  },
+  {
+   "id": "u7-pro-xgs",
+   "why": "AP powered by its PoE ports",
+   "req": false
+  },
+  {
+   "id": "uvc-g6-turret",
+   "why": "PoE camera powered by its ports",
+   "req": false
+  },
+  {
+   "id": "ecs-aggregation",
+   "why": "25/100G campus aggregation layer",
+   "req": false
+  },
+  {
+   "id": "uacc-fan-4020",
+   "why": "Vendor-listed fit: Hot-Swappable Fan Module",
+   "req": false
+  }
+ ],
+ "ecs-aggregation": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "25gbps-direct-attach-cable",
+   "why": "SFP28 ports need DAC or optic",
+   "req": true
+  },
+  {
+   "id": "uacc-dac-qsfp28",
+   "why": "QSFP28 100G ports need DAC or optic",
+   "req": true
+  },
+  {
+   "id": "ecs-48-poe",
+   "why": "25/100G-uplinked campus PoE switch",
+   "req": false
+  },
+  {
+   "id": "uacc-fan-4020",
+   "why": "Vendor-listed fit: Hot-Swappable Fan Module",
+   "req": false
+  },
+  {
+   "id": "ups-2u-us",
+   "why": "Battery backup",
+   "req": false
+  }
+ ],
+ "ecs-core": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "uacc-dac-qsfp28",
+   "why": "QSFP28 100G ports need DAC or optic",
+   "req": true
+  },
+  {
+   "id": "ecs-48-poe",
+   "why": "25/100G-uplinked campus PoE switch",
+   "req": false
+  },
+  {
+   "id": "ecs-aggregation",
+   "why": "Aggregation layer",
+   "req": false
+  },
+  {
+   "id": "ups-2u-us",
+   "why": "Battery backup",
+   "req": false
+  }
+ ],
+ "ef-core": [
+  {
+   "id": "25gbps-direct-attach-cable",
+   "why": "SFP28 ports need DAC or module",
+   "req": true
+  },
+  {
+   "id": "uacc-dac-qsfp28",
+   "why": "QSFP28 100G ports need DAC or optic",
+   "req": true
+  },
+  {
+   "id": "ecs-aggregation",
+   "why": "25/100G aggregation layer below gateway",
+   "req": false
+  },
+  {
+   "id": "envr-core",
+   "why": "Protect not hosted; enterprise NVR",
+   "req": false
+  },
+  {
+   "id": "ups-2u-pro-us",
+   "why": "Rack UPS",
+   "req": false
+  },
+  {
+   "id": "uacc-psu-12v-550w",
+   "why": "Vendor-listed redundant PSU",
+   "req": false
+  }
+ ],
+ "efg": [
+  {
+   "id": "25gbps-direct-attach-cable",
+   "why": "SFP28 ports need DAC or module",
+   "req": true
+  },
+  {
+   "id": "usw-pro-aggregation",
+   "why": "25G uplink to aggregation layer",
+   "req": false
+  },
+  {
+   "id": "envr",
+   "why": "Protect not hosted; separate NVR",
+   "req": false
+  },
+  {
+   "id": "u5g-max",
+   "why": "Cellular WAN failover",
+   "req": false
+  },
+  {
+   "id": "ups-2u-us",
+   "why": "Rack UPS",
+   "req": false
+  },
+  {
+   "id": "uacc-psu-12v-150w",
+   "why": "Vendor-listed redundant PSU",
+   "req": false
+  }
+ ],
+ "enas": [
+  {
+   "id": "uacc-hdd-e-16tb",
+   "why": "16 bays ship empty",
+   "req": true
+  },
+  {
+   "id": "25gbps-direct-attach-cable",
+   "why": "SFP28 25G link needs DAC or module",
+   "req": false
+  },
+  {
+   "id": "usw-pro-xg-24",
+   "why": "Switch with SFP28 for 25G NAS link",
+   "req": false
+  },
+  {
+   "id": "uacc-ese-16",
+   "why": "Vendor-listed storage expansion",
+   "req": false
+  },
+  {
+   "id": "uacc-psu-12v-550w",
+   "why": "Vendor-listed redundant PSU",
+   "req": false
+  },
+  {
+   "id": "ups-2u-pro-us",
+   "why": "Rack UPS",
+   "req": false
+  }
+ ],
+ "envr": [
+  {
+   "id": "uacc-hdd-e-8tb",
+   "why": "16 bays ship empty; needed to record",
+   "req": true
+  },
+  {
+   "id": "10gbps-direct-attach-cable",
+   "why": "SFP+ uplink needs DAC or module",
+   "req": false
+  },
+  {
+   "id": "ucg-fiber",
+   "why": "NVR does not route; needs gateway",
+   "req": true
+  },
+  {
+   "id": "usw-pro-max-48-poe",
+   "why": "PoE switch for camera fleet",
+   "req": false
+  },
+  {
+   "id": "uacc-envr-bezel",
+   "why": "Vendor-listed bezel",
+   "req": false
+  },
+  {
+   "id": "ups-2u-pro-us",
+   "why": "Rack UPS",
+   "req": false
+  }
+ ],
+ "envr-core": [
+  {
+   "id": "uacc-hdd-e-16tb",
+   "why": "16 bays; drives required to record",
+   "req": true
+  },
+  {
+   "id": "25gbps-direct-attach-cable",
+   "why": "SFP28 uplink needs DAC or module",
+   "req": true
+  },
+  {
+   "id": "efg",
+   "why": "NVR does not route; needs gateway",
+   "req": true
+  },
+  {
+   "id": "uacc-ese-16",
+   "why": "Vendor-listed storage expansion",
+   "req": false
+  },
+  {
+   "id": "ecs-48-poe",
+   "why": "PoE++ campus switch for camera fleet",
+   "req": false
+  },
+  {
+   "id": "ups-2u-pro-us",
+   "why": "Rack UPS",
+   "req": false
+  }
+ ],
+ "u-airwire": [
+  {
+   "id": "u7-pro",
+   "why": "Requires a UniFi WiFi 7 AP",
+   "req": true
+  },
+  {
+   "id": "ucg-ultra",
+   "why": "Network 10.2+ console",
+   "req": false
+  }
+ ],
+ "u-lte": [
+  {
+   "id": "u5g-us",
+   "why": "Current-gen replacement for cellular backup",
+   "req": false
+  },
+  {
+   "id": "ucg-ultra",
+   "why": "Requires UniFi gateway for failover",
+   "req": true
+  }
+ ],
+ "u-lte-backup-pro": [
+  {
+   "id": "ucg-ultra",
+   "why": "Requires UniFi gateway for failover",
+   "req": true
+  },
+  {
+   "id": "ups-tower-us",
+   "why": "Keep gateway up during outage",
+   "req": false
+  }
+ ],
+ "u5g-max": [
+  {
+   "id": "ucg-ultra",
+   "why": "Requires UniFi gateway for failover",
+   "req": true
+  },
+  {
+   "id": "u-poe-af",
+   "why": "PoE source (802.3af) for indoor install",
+   "req": true
+  },
+  {
+   "id": "ups-tower-us",
+   "why": "Keep gateway up during outage",
+   "req": false
+  }
+ ],
+ "u5g-max-outdoor": [
+  {
+   "id": "ucg-ultra",
+   "why": "Requires UniFi gateway for failover",
+   "req": true
+  },
+  {
+   "id": "u-poe-af",
+   "why": "PoE source for the outdoor unit",
+   "req": true
+  },
+  {
+   "id": "uacc-eth-sp-pro",
+   "why": "Surge protection on outdoor run",
+   "req": false
+  },
+  {
+   "id": "ups-tower-us",
+   "why": "Keep gateway up during outage",
+   "req": false
+  }
+ ],
+ "u5g-us": [
+  {
+   "id": "ucg-ultra",
+   "why": "Requires UniFi gateway (Network 10.4.57+)",
+   "req": true
+  },
+  {
+   "id": "u-poe-af",
+   "why": "PoE source, cheapest injector",
+   "req": true
+  },
+  {
+   "id": "ups-tower-us",
+   "why": "Keep gateway up during outage",
+   "req": false
+  }
+ ],
+ "u6-enterprise": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "uacc-poe-plus-2-5g",
+   "why": "Needs PoE+ (802.3at); 802.3af ports will not run it",
+   "req": true
+  },
+  {
+   "id": "usw-lite-8-poe",
+   "why": "PoE+ switch (4x PoE+, 52W) for multiple units",
+   "req": false
+  },
+  {
+   "id": "uacc-ap-am",
+   "why": "Vendor-listed fit: AP Arm Mount",
+   "req": false
+  }
+ ],
+ "u6-enterprise-iw": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "uacc-poe-plus-2-5g",
+   "why": "Needs PoE+ (802.3at); 802.3af ports will not run it",
+   "req": true
+  },
+  {
+   "id": "usw-lite-8-poe",
+   "why": "PoE+ switch (4x PoE+, 52W) for multiple units",
+   "req": false
+  }
+ ],
+ "u6-extender": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "cover-for-unifi-access-point-beaconhd-3-pack",
+   "why": "Vendor-listed fit: U6 Extender Cover",
+   "req": false
+  }
+ ],
+ "u6-iw": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "u-poe-af",
+   "why": "802.3af power; cheapest injector",
+   "req": true
+  },
+  {
+   "id": "usw-lite-8-poe",
+   "why": "Small PoE switch to power several of these",
+   "req": false
+  }
+ ],
+ "u6-lr": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "u-poe-plus",
+   "why": "Needs PoE+ (802.3at); 802.3af ports will not run it",
+   "req": true
+  },
+  {
+   "id": "usw-lite-8-poe",
+   "why": "PoE+ switch (4x PoE+, 52W) for multiple units",
+   "req": false
+  },
+  {
+   "id": "uacc-ap-am",
+   "why": "Vendor-listed fit: AP Arm Mount",
+   "req": false
+  }
+ ],
+ "u6-mesh": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "u-poe-af",
+   "why": "802.3af power; cheapest injector",
+   "req": true
+  },
+  {
+   "id": "usw-lite-8-poe",
+   "why": "Small PoE switch to power several of these",
+   "req": false
+  },
+  {
+   "id": "flexhd-cm-3",
+   "why": "Vendor-listed fit: Mesh AP In-Ceiling Mount",
+   "req": false
+  }
+ ],
+ "u6-mesh-pro": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "u-poe-af",
+   "why": "802.3af power; cheapest injector",
+   "req": true
+  },
+  {
+   "id": "usw-lite-8-poe",
+   "why": "Small PoE switch to power several of these",
+   "req": false
+  }
+ ],
+ "u6-plus": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "u-poe-af",
+   "why": "802.3af power; cheapest injector",
+   "req": true
+  },
+  {
+   "id": "usw-lite-8-poe",
+   "why": "Small PoE switch to power several of these",
+   "req": false
+  },
+  {
+   "id": "nanohd-rcm-3",
+   "why": "Vendor-listed fit: Compact Flagship AP Recessed Ceiling Mount",
+   "req": false
+  }
+ ],
+ "u6-pro": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "u-poe-af",
+   "why": "802.3af power; cheapest injector",
+   "req": true
+  },
+  {
+   "id": "usw-lite-8-poe",
+   "why": "Small PoE switch to power several of these",
+   "req": false
+  },
+  {
+   "id": "uacc-ap-am",
+   "why": "Vendor-listed fit: AP Arm Mount",
+   "req": false
+  }
+ ],
+ "u7-industrial": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "uacc-poe-plus-2-5g",
+   "why": "802.3af power at 2.5GbE; cheapest injector",
+   "req": true
+  },
+  {
+   "id": "usw-lite-8-poe",
+   "why": "Small PoE switch to power several of these",
+   "req": false
+  }
+ ],
+ "u7-iw": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "uacc-poe-plus-2-5g",
+   "why": "802.3af power at 2.5GbE; cheapest injector",
+   "req": true
+  },
+  {
+   "id": "usw-lite-8-poe",
+   "why": "Small PoE switch to power several of these",
+   "req": false
+  }
+ ],
+ "u7-lite": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "uacc-poe-plus-2-5g",
+   "why": "802.3af power at 2.5GbE; cheapest injector",
+   "req": true
+  },
+  {
+   "id": "usw-lite-8-poe",
+   "why": "Small PoE switch to power several of these",
+   "req": false
+  }
+ ],
+ "u7-lr": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "uacc-poe-plus-2-5g",
+   "why": "802.3af power at 2.5GbE; cheapest injector",
+   "req": true
+  },
+  {
+   "id": "usw-lite-8-poe",
+   "why": "Small PoE switch to power several of these",
+   "req": false
+  }
+ ],
+ "u7-mesh": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "uacc-poe-plus-2-5g",
+   "why": "802.3af power at 2.5GbE; cheapest injector",
+   "req": true
+  },
+  {
+   "id": "usw-lite-8-poe",
+   "why": "Small PoE switch to power several of these",
+   "req": false
+  }
+ ],
+ "u7-outdoor": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "uacc-poe-plus-2-5g",
+   "why": "Needs PoE+ (802.3at); 802.3af ports will not run it",
+   "req": true
+  },
+  {
+   "id": "usw-lite-8-poe",
+   "why": "PoE+ switch (4x PoE+, 52W) for multiple units",
+   "req": false
+  }
+ ],
+ "u7-pro": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "uacc-poe-plus-2-5g",
+   "why": "Needs PoE+ (802.3at); 802.3af ports will not run it",
+   "req": true
+  },
+  {
+   "id": "usw-lite-8-poe",
+   "why": "PoE+ switch (4x PoE+, 52W) for multiple units",
+   "req": false
+  },
+  {
+   "id": "uacc-ap-am",
+   "why": "Vendor-listed fit: AP Arm Mount",
+   "req": false
+  }
+ ],
+ "u7-pro-max": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "uacc-poe-plus-2-5g",
+   "why": "Needs PoE+ (802.3at); 802.3af ports will not run it",
+   "req": true
+  },
+  {
+   "id": "usw-lite-8-poe",
+   "why": "PoE+ switch (4x PoE+, 52W) for multiple units",
+   "req": false
+  },
+  {
+   "id": "uacc-ap-am",
+   "why": "Vendor-listed fit: AP Arm Mount",
+   "req": false
+  }
+ ],
+ "u7-pro-outdoor-us": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "uacc-poe-plus-2-5g",
+   "why": "Needs PoE+ (802.3at); 802.3af ports will not run it",
+   "req": true
+  },
+  {
+   "id": "usw-lite-8-poe",
+   "why": "PoE+ switch (4x PoE+, 52W) for multiple units",
+   "req": false
+  }
+ ],
+ "u7-pro-wall": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "uacc-poe-plus-2-5g",
+   "why": "Needs PoE+ (802.3at); 802.3af ports will not run it",
+   "req": true
+  },
+  {
+   "id": "usw-lite-8-poe",
+   "why": "PoE+ switch (4x PoE+, 52W) for multiple units",
+   "req": false
+  },
+  {
+   "id": "uacc-u7-pro-wall-cover",
+   "why": "Vendor-listed fit: U7 Pro Wall Paintable Cover",
+   "req": false
+  }
+ ],
+ "u7-pro-xg": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "uacc-poe-plus-plus-10g",
+   "why": "Needs PoE+ (802.3at); 802.3af ports will not run it",
+   "req": true
+  },
+  {
+   "id": "usw-lite-8-poe",
+   "why": "PoE+ switch (4x PoE+, 52W) for multiple units",
+   "req": false
+  }
+ ],
+ "u7-pro-xg-wall": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "uacc-poe-plus-plus-10g",
+   "why": "Needs PoE+ (802.3at); 802.3af ports will not run it",
+   "req": true
+  },
+  {
+   "id": "usw-lite-8-poe",
+   "why": "PoE+ switch (4x PoE+, 52W) for multiple units",
+   "req": false
+  },
+  {
+   "id": "uacc-u7-pro-xg-wall-cover",
+   "why": "Vendor-listed fit: U7 Pro XG Wall Paintable Cover",
+   "req": false
+  }
+ ],
+ "u7-pro-xgs": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "uacc-poe-plus-plus-10g",
+   "why": "Needs PoE++ (802.3bt); will not run on PoE+ switch ports",
+   "req": true
+  },
+  {
+   "id": "usw-pro-xg-8-poe",
+   "why": "PoE++-capable switch ports at 10GbE",
+   "req": false
+  }
+ ],
+ "ua-g2": [
+  {
+   "id": "ua-hub-door-mini",
+   "why": "Requires Access Hub to drive the lock",
+   "req": true
+  },
+  {
+   "id": "ucg-max",
+   "why": "Console running Access",
+   "req": true
+  },
+  {
+   "id": "ua-card",
+   "why": "NFC credentials",
+   "req": false
+  },
+  {
+   "id": "uacc-lock-strike-safe-15mm",
+   "why": "Electric lock for the door",
+   "req": false
+  },
+  {
+   "id": "uacc-reader-jb",
+   "why": "Vendor-listed fit: Reader Junction Box",
+   "req": false
+  }
+ ],
+ "ua-g2-pro": [
+  {
+   "id": "ua-hub-door-mini",
+   "why": "Requires Access Hub to drive the lock",
+   "req": true
+  },
+  {
+   "id": "ucg-max",
+   "why": "Console running Access",
+   "req": true
+  },
+  {
+   "id": "ua-card",
+   "why": "NFC credentials",
+   "req": false
+  },
+  {
+   "id": "uacc-lock-strike-safe-15mm",
+   "why": "Electric lock for the door",
+   "req": false
+  },
+  {
+   "id": "ua-intercom-viewer",
+   "why": "Indoor intercom viewer",
+   "req": false
+  },
+  {
+   "id": "uacc-chime-poe",
+   "why": "Vendor-listed fit: UACC-Chime-PoE",
+   "req": false
+  }
+ ],
+ "ua-g2-sk": [
+  {
+   "id": "ucg-max",
+   "why": "Requires console running Access",
+   "req": true
+  },
+  {
+   "id": "u-poe-plus-plus",
+   "why": "Hub needs PoE++; PoE+ ports will not run it",
+   "req": true
+  },
+  {
+   "id": "uacc-lock-strike-safe-15mm",
+   "why": "Electric lock not included",
+   "req": true
+  },
+  {
+   "id": "ua-button",
+   "why": "Request-to-exit button",
+   "req": false
+  },
+  {
+   "id": "ua-card",
+   "why": "Extra NFC credentials",
+   "req": false
+  }
+ ],
+ "ua-g2-sk-pro": [
+  {
+   "id": "ucg-max",
+   "why": "Requires console running Access",
+   "req": true
+  },
+  {
+   "id": "u-poe-plus-plus",
+   "why": "Hub needs PoE++; PoE+ ports will not run it",
+   "req": true
+  },
+  {
+   "id": "uacc-lock-strike-safe-15mm",
+   "why": "Electric lock not included",
+   "req": true
+  },
+  {
+   "id": "ua-button",
+   "why": "Request-to-exit button",
+   "req": false
+  },
+  {
+   "id": "ua-card",
+   "why": "Extra NFC credentials",
+   "req": false
+  },
+  {
+   "id": "uacc-chime-poe",
+   "why": "Chime for intercom calls",
+   "req": false
+  }
+ ],
+ "ua-g3": [
+  {
+   "id": "ua-hub-door-mini",
+   "why": "Requires Access Hub to drive the lock",
+   "req": true
+  },
+  {
+   "id": "ucg-max",
+   "why": "Console running Access",
+   "req": true
+  },
+  {
+   "id": "ua-card",
+   "why": "NFC credentials",
+   "req": false
+  },
+  {
+   "id": "uacc-lock-strike-safe-15mm",
+   "why": "Electric lock for the door",
+   "req": false
+  },
+  {
+   "id": "uacc-reader-jb",
+   "why": "Vendor-listed fit: Reader Junction Box",
+   "req": false
+  }
+ ],
+ "ua-g3-fingerprint": [
+  {
+   "id": "ua-hub-door-mini",
+   "why": "Requires Access Hub to drive the lock",
+   "req": true
+  },
+  {
+   "id": "ucg-max",
+   "why": "Console running Access",
+   "req": true
+  },
+  {
+   "id": "ua-card",
+   "why": "NFC credentials",
+   "req": false
+  },
+  {
+   "id": "uacc-lock-strike-safe-15mm",
+   "why": "Electric lock for the door",
+   "req": false
+  },
+  {
+   "id": "uacc-reader-jb",
+   "why": "Vendor-listed fit: Reader Junction Box",
+   "req": false
+  }
+ ],
+ "ua-g3-flex": [
+  {
+   "id": "ua-hub-door-mini",
+   "why": "Requires Access Hub to drive the lock",
+   "req": true
+  },
+  {
+   "id": "ucg-max",
+   "why": "Console running Access",
+   "req": true
+  },
+  {
+   "id": "ua-card",
+   "why": "NFC credentials",
+   "req": false
+  },
+  {
+   "id": "uacc-lock-strike-safe-15mm",
+   "why": "Electric lock for the door",
+   "req": false
+  },
+  {
+   "id": "uacc-reader-jb",
+   "why": "Vendor-listed fit: Reader Junction Box",
+   "req": false
+  }
+ ],
+ "ua-g3-intercom": [
+  {
+   "id": "ua-hub-door-mini",
+   "why": "Requires Access Hub to drive the lock",
+   "req": true
+  },
+  {
+   "id": "ucg-max",
+   "why": "Console running Access",
+   "req": true
+  },
+  {
+   "id": "ua-card",
+   "why": "NFC credentials",
+   "req": false
+  },
+  {
+   "id": "uacc-lock-strike-safe-15mm",
+   "why": "Electric lock for the door",
+   "req": false
+  },
+  {
+   "id": "ua-intercom-viewer",
+   "why": "Indoor intercom viewer",
+   "req": false
+  },
+  {
+   "id": "uacc-chime-poe",
+   "why": "Vendor-listed fit: UACC-Chime-PoE",
+   "req": false
+  }
+ ],
+ "ua-g3-pro": [
+  {
+   "id": "ua-hub-door-mini",
+   "why": "Requires Access Hub to drive the lock",
+   "req": true
+  },
+  {
+   "id": "ucg-max",
+   "why": "Console running Access",
+   "req": true
+  },
+  {
+   "id": "ua-card",
+   "why": "NFC credentials",
+   "req": false
+  },
+  {
+   "id": "uacc-lock-strike-safe-15mm",
+   "why": "Electric lock for the door",
+   "req": false
+  },
+  {
+   "id": "ua-intercom-viewer",
+   "why": "Indoor intercom viewer",
+   "req": false
+  },
+  {
+   "id": "uacc-chime-poe",
+   "why": "Vendor-listed fit: UACC-Chime-PoE",
+   "req": false
+  }
+ ],
+ "ua-g3-sk": [
+  {
+   "id": "ucg-max",
+   "why": "Requires console running Access",
+   "req": true
+  },
+  {
+   "id": "u-poe-plus-plus",
+   "why": "Hub needs PoE++; PoE+ ports will not run it",
+   "req": true
+  },
+  {
+   "id": "uacc-lock-strike-safe-15mm",
+   "why": "Electric lock not included",
+   "req": true
+  },
+  {
+   "id": "ua-button",
+   "why": "Request-to-exit button",
+   "req": false
+  },
+  {
+   "id": "ua-card",
+   "why": "Extra NFC credentials",
+   "req": false
+  }
+ ],
+ "ua-g3-sk-elevator": [
+  {
+   "id": "ucg-max",
+   "why": "Requires console running Access",
+   "req": true
+  },
+  {
+   "id": "u-poe-plus-plus",
+   "why": "Needs PoE++ source",
+   "req": true
+  },
+  {
+   "id": "ua-card",
+   "why": "NFC credentials",
+   "req": false
+  }
+ ],
+ "ua-g3-sk-gate": [
+  {
+   "id": "ucg-max",
+   "why": "Requires console running Access",
+   "req": true
+  },
+  {
+   "id": "u-poe-plus-plus",
+   "why": "Hub needs PoE++ source",
+   "req": true
+  },
+  {
+   "id": "uvc-ai-lpr",
+   "why": "LPR camera for plate unlock",
+   "req": false
+  },
+  {
+   "id": "ua-card",
+   "why": "NFC credentials",
+   "req": false
+  }
+ ],
+ "ua-g3-sk-pro": [
+  {
+   "id": "ucg-max",
+   "why": "Requires console running Access",
+   "req": true
+  },
+  {
+   "id": "u-poe-plus-plus",
+   "why": "Hub needs PoE++; PoE+ ports will not run it",
+   "req": true
+  },
+  {
+   "id": "uacc-lock-strike-safe-15mm",
+   "why": "Electric lock not included",
+   "req": true
+  },
+  {
+   "id": "ua-button",
+   "why": "Request-to-exit button",
+   "req": false
+  },
+  {
+   "id": "ua-card",
+   "why": "Extra NFC credentials",
+   "req": false
+  },
+  {
+   "id": "uacc-chime-poe",
+   "why": "Chime for intercom calls",
+   "req": false
+  }
+ ],
+ "ua-hub-door": [
+  {
+   "id": "ucg-max",
+   "why": "Requires console running Access",
+   "req": true
+  },
+  {
+   "id": "u-poe-plus-plus",
+   "why": "Needs PoE++; PoE+ ports will not run it",
+   "req": true
+  },
+  {
+   "id": "ua-g3",
+   "why": "Reader powered from hub; needed to unlock",
+   "req": true
+  },
+  {
+   "id": "uacc-lock-strike-safe-15mm",
+   "why": "Electric strike lock driven by hub",
+   "req": true
+  },
+  {
+   "id": "ua-button",
+   "why": "Request-to-exit button",
+   "req": false
+  },
+  {
+   "id": "ua-card",
+   "why": "NFC credentials",
+   "req": false
+  }
+ ],
+ "ua-hub-door-mini": [
+  {
+   "id": "ucg-max",
+   "why": "Requires console running Access",
+   "req": true
+  },
+  {
+   "id": "u-poe-plus-plus",
+   "why": "Needs PoE++; PoE+ ports will not run it",
+   "req": true
+  },
+  {
+   "id": "ua-g3",
+   "why": "Reader powered from hub; needed to unlock",
+   "req": true
+  },
+  {
+   "id": "uacc-lock-strike-safe-15mm",
+   "why": "Electric strike lock driven by hub",
+   "req": true
+  },
+  {
+   "id": "ua-button",
+   "why": "Request-to-exit button",
+   "req": false
+  },
+  {
+   "id": "ua-card",
+   "why": "NFC credentials",
+   "req": false
+  }
+ ],
+ "ua-hub-gate": [
+  {
+   "id": "ucg-max",
+   "why": "Requires console running Access",
+   "req": true
+  },
+  {
+   "id": "u-poe-plus-plus",
+   "why": "Needs PoE++; PoE+ ports will not run it",
+   "req": true
+  },
+  {
+   "id": "ua-g3",
+   "why": "Reader at the gate",
+   "req": true
+  },
+  {
+   "id": "uvc-ai-lpr",
+   "why": "LPR camera for plate-based unlock",
+   "req": false
+  },
+  {
+   "id": "ua-lock-magnetic",
+   "why": "Mag lock for pedestrian gates",
+   "req": false
+  }
+ ],
+ "ua-intercom": [
+  {
+   "id": "ua-hub-door-mini",
+   "why": "Requires Access Hub to drive the lock",
+   "req": true
+  },
+  {
+   "id": "ucg-max",
+   "why": "Console running Access",
+   "req": true
+  },
+  {
+   "id": "ua-card",
+   "why": "NFC credentials",
+   "req": false
+  },
+  {
+   "id": "uacc-lock-strike-safe-15mm",
+   "why": "Electric lock for the door",
+   "req": false
+  },
+  {
+   "id": "ua-intercom-viewer",
+   "why": "Indoor intercom viewer",
+   "req": false
+  },
+  {
+   "id": "uacc-chime-poe",
+   "why": "Vendor-listed fit: UACC-Chime-PoE",
+   "req": false
+  }
+ ],
+ "ua-intercom-viewer": [
+  {
+   "id": "ua-g3-intercom",
+   "why": "Requires Access Intercom or Reader Pro",
+   "req": true
+  },
+  {
+   "id": "ucg-max",
+   "why": "Console running Access",
+   "req": true
+  },
+  {
+   "id": "u-poe-af",
+   "why": "PoE source",
+   "req": true
+  },
+  {
+   "id": "uacc-intercom-viewer-ts",
+   "why": "Vendor-listed table stand",
+   "req": false
+  }
+ ],
+ "ua-reader-lite": [
+  {
+   "id": "ua-hub-door-mini",
+   "why": "Requires Access Hub to drive the lock",
+   "req": true
+  },
+  {
+   "id": "ucg-max",
+   "why": "Console running Access",
+   "req": true
+  },
+  {
+   "id": "ua-card",
+   "why": "NFC credentials",
+   "req": false
+  },
+  {
+   "id": "uacc-lock-strike-safe-15mm",
+   "why": "Electric lock for the door",
+   "req": false
+  }
+ ],
+ "ua-retrofit-hub-2": [
+  {
+   "id": "ucg-max",
+   "why": "Requires console running Access",
+   "req": true
+  },
+  {
+   "id": "uacc-retrofit-psu-12v",
+   "why": "12/24V DC supply required",
+   "req": true
+  },
+  {
+   "id": "ua-retrofit-reader",
+   "why": "OSDP reader",
+   "req": true
+  },
+  {
+   "id": "ua-lock-magnetic",
+   "why": "Lock driven by hub",
+   "req": false
+  }
+ ],
+ "ua-retrofit-reader": [
+  {
+   "id": "ua-retrofit-hub-2",
+   "why": "Requires Retrofit Hub (OSDP)",
+   "req": true
+  },
+  {
+   "id": "ucg-max",
+   "why": "Console running Access",
+   "req": true
+  },
+  {
+   "id": "ua-card",
+   "why": "NFC credentials",
+   "req": false
+  }
+ ],
+ "ua-retrofit-reader-fingerprint": [
+  {
+   "id": "ua-retrofit-hub-2",
+   "why": "Requires Retrofit Hub",
+   "req": true
+  },
+  {
+   "id": "ucg-max",
+   "why": "Console running Access",
+   "req": true
+  },
+  {
+   "id": "ua-card",
+   "why": "NFC credentials",
+   "req": false
+  }
+ ],
+ "ua-sk-elevator": [
+  {
+   "id": "ua-g3-sk-elevator",
+   "why": "Current-gen elevator kit",
+   "req": false
+  },
+  {
+   "id": "ucg-max",
+   "why": "Console running Access",
+   "req": true
+  },
+  {
+   "id": "u-poe-plus-plus",
+   "why": "Needs PoE++ source",
+   "req": true
+  }
+ ],
+ "ua-sk-gate": [
+  {
+   "id": "ucg-max",
+   "why": "Requires console running Access",
+   "req": true
+  },
+  {
+   "id": "u-poe-plus-plus",
+   "why": "Hub needs PoE++ source",
+   "req": true
+  },
+  {
+   "id": "uvc-ai-lpr",
+   "why": "Protect AI camera for license-plate unlock",
+   "req": true
+  },
+  {
+   "id": "ua-card",
+   "why": "NFC credentials",
+   "req": false
+  }
+ ],
+ "ua-ultra": [
+  {
+   "id": "ucg-max",
+   "why": "Requires console running Access",
+   "req": true
+  },
+  {
+   "id": "u-poe-plus",
+   "why": "Needs PoE+ source",
+   "req": true
+  },
+  {
+   "id": "uacc-lock-strike-safe-15mm",
+   "why": "Drives a lock directly (built-in relay)",
+   "req": true
+  },
+  {
+   "id": "ua-card",
+   "why": "NFC credentials",
+   "req": false
+  },
+  {
+   "id": "ua-button",
+   "why": "Request-to-exit button",
+   "req": false
+  }
+ ],
+ "uacc-chime-poe": [
+  {
+   "id": "uvc-g4-doorbell-pro-poe-kit",
+   "why": "Requires a UniFi doorbell or Access hub",
+   "req": true
+  },
+  {
+   "id": "uck-g2-ssd",
+   "why": "Protect host for doorbell",
+   "req": true
+  },
+  {
+   "id": "u-poe-af",
+   "why": "PoE source",
+   "req": true
+  }
+ ],
+ "uacc-flex-utility-pro": [
+  {
+   "id": "usw-flex-2-5g-8-poe",
+   "why": "Enclosure for Flex switch",
+   "req": false
+  },
+  {
+   "id": "uacc-poe-10g",
+   "why": "Power feed for enclosed switch",
+   "req": false
+  }
+ ],
+ "uacc-usl-ant-hg": [
+  {
+   "id": "usl-gateway",
+   "why": "Requires SuperLink gateway with RP-SMA port",
+   "req": true
+  }
+ ],
+ "uap-ac-iw": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "u-poe-af",
+   "why": "802.3af power; cheapest injector",
+   "req": true
+  },
+  {
+   "id": "usw-lite-8-poe",
+   "why": "Small PoE switch to power several of these",
+   "req": false
+  }
+ ],
+ "uap-ac-lite": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "u-poe-af",
+   "why": "802.3af power; cheapest injector",
+   "req": true
+  },
+  {
+   "id": "usw-lite-8-poe",
+   "why": "Small PoE switch to power several of these",
+   "req": false
+  },
+  {
+   "id": "nanohd-rcm-3",
+   "why": "Vendor-listed fit: Compact Flagship AP Recessed Ceiling Mount",
+   "req": false
+  }
+ ],
+ "uap-ac-mesh": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "u-poe-af",
+   "why": "802.3af power; cheapest injector",
+   "req": true
+  },
+  {
+   "id": "usw-lite-8-poe",
+   "why": "Small PoE switch to power several of these",
+   "req": false
+  },
+  {
+   "id": "uma-d",
+   "why": "Vendor-listed fit: AC Mesh Dual-Band Antenna",
+   "req": false
+  }
+ ],
+ "uap-ac-mesh-pro": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "u-poe-af",
+   "why": "802.3af power; cheapest injector",
+   "req": true
+  },
+  {
+   "id": "usw-lite-8-poe",
+   "why": "Small PoE switch to power several of these",
+   "req": false
+  }
+ ],
+ "uap-ac-pro": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "u-poe-af",
+   "why": "802.3af power; cheapest injector",
+   "req": true
+  },
+  {
+   "id": "usw-lite-8-poe",
+   "why": "Small PoE switch to power several of these",
+   "req": false
+  },
+  {
+   "id": "uacc-ap-am",
+   "why": "Vendor-listed fit: AP Arm Mount",
+   "req": false
+  }
+ ],
+ "uap-iw-hd": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "u-poe-af",
+   "why": "802.3af power; cheapest injector",
+   "req": true
+  },
+  {
+   "id": "usw-lite-8-poe",
+   "why": "Small PoE switch to power several of these",
+   "req": false
+  },
+  {
+   "id": "iw-hd-cover",
+   "why": "Vendor-listed fit: In-Wall HD Cover",
+   "req": false
+  }
+ ],
+ "ubb": [
+  {
+   "id": "u-poe-af",
+   "why": "PoE source (pair ships with injectors?)",
+   "req": false
+  },
+  {
+   "id": "uacc-eth-sp-pro",
+   "why": "Outdoor surge protection",
+   "req": false
+  }
+ ],
+ "ubb-xg": [
+  {
+   "id": "u-poe-plus-plus",
+   "why": "Needs PoE++ at each end",
+   "req": true
+  },
+  {
+   "id": "uacc-om-sm-10g-d",
+   "why": "SFP+ module for 10G link",
+   "req": false
+  },
+  {
+   "id": "uacc-eth-sp-pro",
+   "why": "Outdoor surge protection",
+   "req": false
+  }
+ ],
+ "uc-cast-lite": [
+  {
+   "id": "ucg-max",
+   "why": "Requires console running Connect",
+   "req": true
+  },
+  {
+   "id": "uacc-cable-uhs",
+   "why": "HDMI cable to display",
+   "req": false
+  }
+ ],
+ "uc-cast-pro": [
+  {
+   "id": "ucg-max",
+   "why": "Requires console running Connect",
+   "req": true
+  },
+  {
+   "id": "u-poe-af",
+   "why": "PoE source (or USB-C)",
+   "req": true
+  },
+  {
+   "id": "uacc-cable-uhs",
+   "why": "HDMI cable to display",
+   "req": false
+  }
+ ],
+ "uc-display21": [
+  {
+   "id": "ucg-max",
+   "why": "Requires console running Connect",
+   "req": true
+  },
+  {
+   "id": "u-poe-plus-plus",
+   "why": "Needs PoE++; PoE+ ports will not run it",
+   "req": true
+  },
+  {
+   "id": "uacc-display-ts",
+   "why": "Vendor-listed table stand",
+   "req": false
+  }
+ ],
+ "uc-ev-station-lite": [
+  {
+   "id": "ucg-max",
+   "why": "Requires console running Connect",
+   "req": true
+  },
+  {
+   "id": "uacc-evsl-stand-adapter",
+   "why": "Vendor-listed stand adapter",
+   "req": false
+  }
+ ],
+ "uc-ev-station-pro": [
+  {
+   "id": "ucg-max",
+   "why": "Requires console running Connect",
+   "req": true
+  },
+  {
+   "id": "uacc-ev-station-stand",
+   "why": "Vendor-listed stand",
+   "req": false
+  },
+  {
+   "id": "uacc-evsp-payment-terminal",
+   "why": "Vendor-listed payment terminal",
+   "req": false
+  }
+ ],
+ "ucg-fiber": [
+  {
+   "id": "10gbps-direct-attach-cable",
+   "why": "SFP+ ports need a DAC or module",
+   "req": true
+  },
+  {
+   "id": "usw-pro-max-16-poe",
+   "why": "10G SFP+ uplink to PoE switch for APs/cameras",
+   "req": false
+  },
+  {
+   "id": "u7-pro",
+   "why": "WiFi 7 AP for hosted Network",
+   "req": false
+  },
+  {
+   "id": "u5g-us",
+   "why": "Cellular WAN failover",
+   "req": false
+  },
+  {
+   "id": "ups-tower-us",
+   "why": "Battery backup for console",
+   "req": false
+  },
+  {
+   "id": "uacc-ssd-tray",
+   "why": "Vendor-listed SSD tray for Protect NVMe",
+   "req": false
+  }
+ ],
+ "ucg-industrial": [
+  {
+   "id": "u7-industrial",
+   "why": "Industrial WiFi 7 AP powered from its PoE ports",
+   "req": false
+  },
+  {
+   "id": "uvc-g6-bullet",
+   "why": "Camera for hosted Protect, PoE-powered",
+   "req": false
+  },
+  {
+   "id": "10gbps-direct-attach-cable",
+   "why": "SFP+ uplink cable",
+   "req": false
+  },
+  {
+   "id": "u5g-max-outdoor",
+   "why": "Cellular WAN backup",
+   "req": false
+  },
+  {
+   "id": "uacc-ucg-industrial-rm",
+   "why": "Vendor-listed rack mount",
+   "req": false
+  }
+ ],
+ "ucg-max": [
+  {
+   "id": "u7-pro",
+   "why": "WiFi 7 AP managed by hosted Network app",
+   "req": false
+  },
+  {
+   "id": "usw-lite-8-poe",
+   "why": "Adds PoE ports; UCG Max has none",
+   "req": false
+  },
+  {
+   "id": "uvc-g6-turret",
+   "why": "Camera for hosted Protect (needs NVMe SSD installed)",
+   "req": false
+  },
+  {
+   "id": "u5g-us",
+   "why": "Cellular WAN failover",
+   "req": false
+  },
+  {
+   "id": "ups-tower-us",
+   "why": "Battery backup for console",
+   "req": false
+  },
+  {
+   "id": "uacc-ssd-tray",
+   "why": "Vendor-listed M.2 SSD tray for Protect storage",
+   "req": false
+  }
+ ],
+ "ucg-ultra": [
+  {
+   "id": "u7-pro",
+   "why": "WiFi 7 AP adopted into the hosted Network app",
+   "req": false
+  },
+  {
+   "id": "usw-lite-8-poe",
+   "why": "Adds PoE ports; UCG Ultra has none",
+   "req": false
+  },
+  {
+   "id": "u5g-us",
+   "why": "Cellular WAN failover",
+   "req": false
+  },
+  {
+   "id": "ups-tower-us",
+   "why": "Battery backup for gateway + modem",
+   "req": false
+  },
+  {
+   "id": "uacc-uts",
+   "why": "Vendor-listed table stand",
+   "req": false
+  }
+ ],
+ "uck-g2-plus": [
+  {
+   "id": "ucg-ultra",
+   "why": "Cloud Key does not route; needs a gateway",
+   "req": true
+  },
+  {
+   "id": "uacc-ssd-2-5",
+   "why": "Swap HDD for 1TB SSD",
+   "req": false
+  },
+  {
+   "id": "uvc-g6-turret",
+   "why": "Camera recorded on its drive",
+   "req": false
+  },
+  {
+   "id": "ckg2-rack-mount",
+   "why": "Vendor-listed rack mount",
+   "req": false
+  }
+ ],
+ "uck-g2-ssd": [
+  {
+   "id": "ucg-ultra",
+   "why": "Cloud Key does not route; needs a gateway",
+   "req": true
+  },
+  {
+   "id": "u-poe-af",
+   "why": "PoE power option (or USB-C)",
+   "req": false
+  },
+  {
+   "id": "uvc-g6-turret",
+   "why": "Camera recorded on its 1TB SSD",
+   "req": false
+  },
+  {
+   "id": "u7-pro",
+   "why": "WiFi 7 AP managed by hosted Network",
+   "req": false
+  },
+  {
+   "id": "ckg2-rack-mount",
+   "why": "Vendor-listed rack mount",
+   "req": false
+  }
+ ],
+ "udb": [
+  {
+   "id": "u7-pro",
+   "why": "Requires UniFi WiFi AP to link to",
+   "req": true
+  },
+  {
+   "id": "ucg-ultra",
+   "why": "Network console",
+   "req": true
+  }
+ ],
+ "udb-iot": [
+  {
+   "id": "u7-pro",
+   "why": "Requires UniFi WiFi network",
+   "req": true
+  },
+  {
+   "id": "ucg-ultra",
+   "why": "Network 10.2+ console",
+   "req": false
+  }
+ ],
+ "udb-pro": [
+  {
+   "id": "udb-pro-sector",
+   "why": "PtMP sector base for multiple bridges",
+   "req": false
+  },
+  {
+   "id": "u-poe-plus",
+   "why": "PoE+ in enables PoE passthrough",
+   "req": false
+  }
+ ],
+ "udb-pro-sector": [
+  {
+   "id": "udb-pro",
+   "why": "Requires Device Bridge Pro clients",
+   "req": true
+  },
+  {
+   "id": "u-poe-af",
+   "why": "PoE source",
+   "req": true
+  }
+ ],
+ "udb-switch": [
+  {
+   "id": "u7-pro",
+   "why": "Requires UniFi WiFi AP to bridge to",
+   "req": true
+  },
+  {
+   "id": "ucg-ultra",
+   "why": "Network 10.0.156+ console",
+   "req": true
+  },
+  {
+   "id": "uacc-adapter-ac-210w",
+   "why": "Vendor-listed 210W AC adapter for PoE output",
+   "req": false
+  },
+  {
+   "id": "uacc-switch-din",
+   "why": "Vendor-listed DIN mount",
+   "req": false
+  }
+ ],
+ "udm-beast": [
+  {
+   "id": "uacc-hdd-e-8tb",
+   "why": "Empty HDD bays; required for Protect recording",
+   "req": false
+  },
+  {
+   "id": "25gbps-direct-attach-cable",
+   "why": "SFP28 ports need DAC or module",
+   "req": false
+  },
+  {
+   "id": "usw-pro-xg-24-poe",
+   "why": "25G-uplinked PoE switch for APs/cameras",
+   "req": false
+  },
+  {
+   "id": "u7-pro-xgs",
+   "why": "10G WiFi 7 AP for hosted Network",
+   "req": false
+  },
+  {
+   "id": "u5g-max",
+   "why": "Cellular WAN failover",
+   "req": false
+  },
+  {
+   "id": "ups-2u-us",
+   "why": "Rack UPS for gateway",
+   "req": false
+  }
+ ],
+ "udm-pro": [
+  {
+   "id": "uacc-hdd-s-4tb",
+   "why": "3.5\" drive bay empty; required for Protect recording",
+   "req": false
+  },
+  {
+   "id": "usw-pro-max-16-poe",
+   "why": "PoE switch; UDM Pro has no PoE",
+   "req": false
+  },
+  {
+   "id": "10gbps-direct-attach-cable",
+   "why": "SFP+ uplink to core switch",
+   "req": false
+  },
+  {
+   "id": "u7-pro",
+   "why": "WiFi 7 AP for hosted Network",
+   "req": false
+  },
+  {
+   "id": "u5g-us",
+   "why": "Cellular WAN failover",
+   "req": false
+  },
+  {
+   "id": "ups-2u-us",
+   "why": "Rack UPS for gateway",
+   "req": false
+  }
+ ],
+ "udm-pro-max": [
+  {
+   "id": "uacc-hdd-e-8tb",
+   "why": "Empty HDD bays; required for Protect recording",
+   "req": false
+  },
+  {
+   "id": "usw-pro-max-24-poe",
+   "why": "PoE switch; UDM Pro Max has no PoE",
+   "req": false
+  },
+  {
+   "id": "10gbps-direct-attach-cable",
+   "why": "SFP+ uplink to core switch",
+   "req": false
+  },
+  {
+   "id": "u7-pro-max",
+   "why": "WiFi 7 AP for hosted Network",
+   "req": false
+  },
+  {
+   "id": "u5g-max",
+   "why": "Cellular WAN failover",
+   "req": false
+  },
+  {
+   "id": "ups-2u-us",
+   "why": "Rack UPS for gateway",
+   "req": false
+  }
+ ],
+ "udm-se": [
+  {
+   "id": "uacc-hdd-s-4tb",
+   "why": "Empty HDD bay; required for Protect recording",
+   "req": false
+  },
+  {
+   "id": "u7-pro",
+   "why": "WiFi 7 AP powered from built-in PoE+ ports",
+   "req": false
+  },
+  {
+   "id": "uvc-g6-turret",
+   "why": "Camera recorded by hosted Protect",
+   "req": false
+  },
+  {
+   "id": "10gbps-direct-attach-cable",
+   "why": "SFP+ uplink to aggregation switch",
+   "req": false
+  },
+  {
+   "id": "u5g-us",
+   "why": "Cellular WAN failover",
+   "req": false
+  },
+  {
+   "id": "ups-2u-us",
+   "why": "Rack UPS for gateway",
+   "req": false
+  }
+ ],
+ "udr": [
+  {
+   "id": "u7-lite",
+   "why": "Wired AP to extend coverage (legacy console)",
+   "req": false
+  },
+  {
+   "id": "uacc-msd",
+   "why": "microSD for Protect recording",
+   "req": false
+  },
+  {
+   "id": "u5g-us",
+   "why": "Cellular WAN failover",
+   "req": false
+  },
+  {
+   "id": "ups-tower-us",
+   "why": "Battery backup",
+   "req": false
+  }
+ ],
+ "udr-5g-max": [
+  {
+   "id": "uacc-msd",
+   "why": "Larger microSD for Protect recording",
+   "req": false
+  },
+  {
+   "id": "u7-lite",
+   "why": "Wired AP to extend WiFi coverage",
+   "req": false
+  },
+  {
+   "id": "usw-flex-mini",
+   "why": "More wired ports",
+   "req": false
+  },
+  {
+   "id": "10gbps-direct-attach-cable",
+   "why": "SFP+ WAN/LAN cable",
+   "req": false
+  },
+  {
+   "id": "ups-tower-us",
+   "why": "Battery backup",
+   "req": false
+  }
+ ],
+ "udr7": [
+  {
+   "id": "uacc-msd",
+   "why": "Larger microSD for Protect recording",
+   "req": false
+  },
+  {
+   "id": "u7-lite",
+   "why": "Wired AP to extend WiFi coverage",
+   "req": false
+  },
+  {
+   "id": "uvc-g6-ins",
+   "why": "Camera for hosted Protect",
+   "req": false
+  },
+  {
+   "id": "usw-flex-mini",
+   "why": "More wired ports",
+   "req": false
+  },
+  {
+   "id": "u5g-us",
+   "why": "Cellular WAN failover",
+   "req": false
+  },
+  {
+   "id": "ups-tower-us",
+   "why": "Battery backup",
+   "req": false
+  }
+ ],
+ "udw": [
+  {
+   "id": "uacc-msd",
+   "why": "Larger microSD (to 1TB) for Protect recording",
+   "req": false
+  },
+  {
+   "id": "u7-pro",
+   "why": "WiFi 7 AP powered from built-in PoE",
+   "req": false
+  },
+  {
+   "id": "uvc-g6-turret",
+   "why": "Camera recorded by hosted Protect",
+   "req": false
+  },
+  {
+   "id": "10gbps-direct-attach-cable",
+   "why": "SFP+ uplink",
+   "req": false
+  },
+  {
+   "id": "uacc-psu-udw",
+   "why": "Vendor-listed redundant power module",
+   "req": false
+  },
+  {
+   "id": "u5g-us",
+   "why": "Cellular WAN failover",
+   "req": false
+  }
+ ],
+ "ufp-viewport": [
+  {
+   "id": "uck-g2-ssd",
+   "why": "Requires Protect console/NVR",
+   "req": true
+  },
+  {
+   "id": "u-poe-af",
+   "why": "PoE source",
+   "req": true
+  },
+  {
+   "id": "uacc-cable-uhs",
+   "why": "HDMI cable to display",
+   "req": false
+  }
+ ],
+ "uk-ultra": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "u-poe-af",
+   "why": "802.3af power; cheapest injector",
+   "req": true
+  },
+  {
+   "id": "usw-lite-8-poe",
+   "why": "Small PoE switch to power several of these",
+   "req": false
+  },
+  {
+   "id": "uacc-uk-ultra-omni-antenna",
+   "why": "Vendor-listed fit: Omni Antenna & Desktop Stand Kit",
+   "req": false
+  }
+ ],
+ "umr-industrial-us": [
+  {
+   "id": "u-poe-plus",
+   "why": "PoE+ in enables PoE passthrough",
+   "req": false
+  },
+  {
+   "id": "uacc-gnss-antenna",
+   "why": "External antenna for remote installs",
+   "req": false
+  }
+ ],
+ "umr-ultra-us": [
+  {
+   "id": "ucg-ultra",
+   "why": "Pairs as cellular failover for UniFi gateway",
+   "req": false
+  }
+ ],
+ "umr-us": [
+  {
+   "id": "uacc-umr-ts",
+   "why": "Vendor-listed table stand",
+   "req": false
+  },
+  {
+   "id": "u-poe-plus",
+   "why": "PoE+ in enables PoE passthrough",
+   "req": false
+  }
+ ],
+ "unas-2": [
+  {
+   "id": "uacc-hdd-s-4tb",
+   "why": "Drive bays empty",
+   "req": true
+  },
+  {
+   "id": "u-poe-plus-plus",
+   "why": "Needs PoE++ (802.3bt) source; PoE+ insufficient",
+   "req": true
+  },
+  {
+   "id": "usw-pro-max-16-poe",
+   "why": "PoE++ switch port at 2.5GbE",
+   "req": false
+  },
+  {
+   "id": "ups-tower-us",
+   "why": "Battery backup",
+   "req": false
+  }
+ ],
+ "unas-4": [
+  {
+   "id": "uacc-hdd-e-8tb",
+   "why": "Drive bays empty",
+   "req": true
+  },
+  {
+   "id": "usw-pro-xg-10-poe",
+   "why": "90W 802.3bt switch port (adapter included otherwise)",
+   "req": false
+  },
+  {
+   "id": "uacc-ssd-tray",
+   "why": "Vendor-listed M.2 cache tray",
+   "req": false
+  },
+  {
+   "id": "ups-tower-us",
+   "why": "Battery backup",
+   "req": false
+  }
+ ],
+ "unas-pro": [
+  {
+   "id": "uacc-hdd-e-8tb",
+   "why": "Drive bays empty",
+   "req": true
+  },
+  {
+   "id": "10gbps-direct-attach-cable",
+   "why": "SFP+ 10G link needs DAC or module",
+   "req": false
+  },
+  {
+   "id": "usw-pro-max-16",
+   "why": "Switch with SFP+ for 10G NAS link",
+   "req": false
+  },
+  {
+   "id": "ups-2u-us",
+   "why": "Rack UPS",
+   "req": false
+  },
+  {
+   "id": "uacc-hdd-tray",
+   "why": "Vendor-listed spare HDD tray",
+   "req": false
+  }
+ ],
+ "unas-pro-4": [
+  {
+   "id": "uacc-hdd-e-8tb",
+   "why": "Drive bays empty",
+   "req": true
+  },
+  {
+   "id": "10gbps-direct-attach-cable",
+   "why": "SFP+ 10G link needs DAC or module",
+   "req": false
+  },
+  {
+   "id": "usw-pro-max-16",
+   "why": "Switch with SFP+ for 10G NAS link",
+   "req": false
+  },
+  {
+   "id": "ups-2u-us",
+   "why": "Rack UPS",
+   "req": false
+  },
+  {
+   "id": "uacc-rack-rails-slide",
+   "why": "Vendor-listed sliding rails",
+   "req": false
+  }
+ ],
+ "unas-pro-8": [
+  {
+   "id": "uacc-hdd-e-8tb",
+   "why": "Drive bays empty",
+   "req": true
+  },
+  {
+   "id": "ucg-ultra",
+   "why": "Requires a UniFi console for management",
+   "req": true
+  },
+  {
+   "id": "10gbps-direct-attach-cable",
+   "why": "SFP+ 10G link needs DAC or module",
+   "req": false
+  },
+  {
+   "id": "usw-pro-hd-24",
+   "why": "Switch with 10G ports for NAS link",
+   "req": false
+  },
+  {
+   "id": "uacc-psu-12v-550w",
+   "why": "Vendor-listed redundant PSU",
+   "req": false
+  },
+  {
+   "id": "ups-2u-us",
+   "why": "Rack UPS",
+   "req": false
+  }
+ ],
+ "unifi-ac-lr": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "u-poe-af",
+   "why": "802.3af power; cheapest injector",
+   "req": true
+  },
+  {
+   "id": "usw-lite-8-poe",
+   "why": "Small PoE switch to power several of these",
+   "req": false
+  }
+ ],
+ "unvr": [
+  {
+   "id": "uacc-hdd-s-4tb",
+   "why": "Drive bays empty; needed to record",
+   "req": true
+  },
+  {
+   "id": "ucg-ultra",
+   "why": "NVR does not route; needs gateway/Network host",
+   "req": true
+  },
+  {
+   "id": "usw-pro-max-16-poe",
+   "why": "PoE switch to power cameras",
+   "req": false
+  },
+  {
+   "id": "uvc-g6-turret",
+   "why": "Camera to record",
+   "req": false
+  },
+  {
+   "id": "10gbps-direct-attach-cable",
+   "why": "SFP+ uplink",
+   "req": false
+  },
+  {
+   "id": "ups-2u-us",
+   "why": "Rack UPS",
+   "req": false
+  }
+ ],
+ "unvr-g2": [
+  {
+   "id": "uacc-hdd-s-4tb",
+   "why": "Drive bays empty; needed to record",
+   "req": true
+  },
+  {
+   "id": "ucg-ultra",
+   "why": "NVR does not route; needs gateway/Network host",
+   "req": true
+  },
+  {
+   "id": "usw-pro-max-16-poe",
+   "why": "PoE switch to power cameras",
+   "req": false
+  },
+  {
+   "id": "uvc-g6-turret",
+   "why": "Camera to record",
+   "req": false
+  },
+  {
+   "id": "10gbps-direct-attach-cable",
+   "why": "SFP+ uplink",
+   "req": false
+  },
+  {
+   "id": "ups-2u-us",
+   "why": "Rack UPS",
+   "req": false
+  }
+ ],
+ "unvr-g2-pro": [
+  {
+   "id": "uacc-hdd-e-8tb",
+   "why": "Drive bays empty; needed to record",
+   "req": true
+  },
+  {
+   "id": "ucg-ultra",
+   "why": "NVR does not route; needs gateway/Network host",
+   "req": true
+  },
+  {
+   "id": "usw-pro-max-24-poe",
+   "why": "PoE switch to power cameras",
+   "req": false
+  },
+  {
+   "id": "uvc-g6-pro-turret",
+   "why": "Camera to record",
+   "req": false
+  },
+  {
+   "id": "10gbps-direct-attach-cable",
+   "why": "SFP+ uplink",
+   "req": false
+  },
+  {
+   "id": "ups-2u-us",
+   "why": "Rack UPS",
+   "req": false
+  }
+ ],
+ "unvr-instant": [
+  {
+   "id": "uacc-hdd-s-4tb",
+   "why": "3.5\" bay empty; needed to record",
+   "req": true
+  },
+  {
+   "id": "ucg-ultra",
+   "why": "NVR does not route; needs gateway",
+   "req": true
+  },
+  {
+   "id": "uvc-g6-turret",
+   "why": "PoE camera powered from its 6 ports",
+   "req": false
+  },
+  {
+   "id": "uvc-g5-dome-ultra",
+   "why": "Budget PoE camera for built-in ports",
+   "req": false
+  },
+  {
+   "id": "ups-tower-us",
+   "why": "Battery backup",
+   "req": false
+  }
+ ],
+ "unvr-instant-kit": [
+  {
+   "id": "ucg-ultra",
+   "why": "NVR does not route; needs gateway",
+   "req": true
+  },
+  {
+   "id": "uacc-hdd-s-4tb",
+   "why": "Upgrade the included 1TB drive",
+   "req": false
+  },
+  {
+   "id": "uvc-g6-turret",
+   "why": "Add cameras on remaining PoE ports",
+   "req": false
+  },
+  {
+   "id": "ups-tower-us",
+   "why": "Battery backup",
+   "req": false
+  }
+ ],
+ "unvr-pro": [
+  {
+   "id": "uacc-hdd-e-8tb",
+   "why": "Drive bays empty; needed to record",
+   "req": true
+  },
+  {
+   "id": "ucg-ultra",
+   "why": "NVR does not route; needs gateway/Network host",
+   "req": true
+  },
+  {
+   "id": "usw-pro-max-24-poe",
+   "why": "PoE switch for cameras (listed requirement)",
+   "req": true
+  },
+  {
+   "id": "uvc-g6-pro-turret",
+   "why": "Camera to record",
+   "req": false
+  },
+  {
+   "id": "10gbps-direct-attach-cable",
+   "why": "SFP+ uplink",
+   "req": false
+  },
+  {
+   "id": "ups-2u-us",
+   "why": "Rack UPS",
+   "req": false
+  }
+ ],
+ "up-ai-horn-speaker": [
+  {
+   "id": "uck-g2-ssd",
+   "why": "Requires Protect",
+   "req": true
+  },
+  {
+   "id": "u-poe-plus",
+   "why": "Needs PoE+ source",
+   "req": true
+  },
+  {
+   "id": "uvc-g6-bullet",
+   "why": "Camera to trigger audio deterrent",
+   "req": false
+  }
+ ],
+ "up-ai-port": [
+  {
+   "id": "uck-g2-ssd",
+   "why": "Requires Protect 5.1+ console/NVR",
+   "req": true
+  },
+  {
+   "id": "u-poe-plus-plus",
+   "why": "PoE++ in powers it plus passthrough camera",
+   "req": false
+  },
+  {
+   "id": "uacc-ai-port-rm",
+   "why": "Vendor-listed rack mount",
+   "req": false
+  }
+ ],
+ "up-ai-speaker": [
+  {
+   "id": "u-poe-plus-plus",
+   "why": "Needs PoE++; PoE+ ports will not run it",
+   "req": true
+  },
+  {
+   "id": "uck-g2-ssd",
+   "why": "Protect host for alarm triggers",
+   "req": false
+  },
+  {
+   "id": "uacc-ai-speaker-fm",
+   "why": "Vendor-listed flush mount",
+   "req": false
+  }
+ ],
+ "up-airquality": [
+  {
+   "id": "uck-g2-ssd",
+   "why": "Requires Protect 7.1+ console",
+   "req": true
+  },
+  {
+   "id": "u-poe-af",
+   "why": "PoE source",
+   "req": true
+  }
+ ],
+ "up-alarmhub-kit": [
+  {
+   "id": "uck-g2-ssd",
+   "why": "Requires Protect 7.0.88+ console",
+   "req": true
+  },
+  {
+   "id": "u-poe-plus-plus",
+   "why": "Needs 60W PoE++ (or 90W); PoE+ insufficient",
+   "req": true
+  },
+  {
+   "id": "usl-motion",
+   "why": "SuperLink sensors for the alarm",
+   "req": false
+  },
+  {
+   "id": "uacc-cable-doorlockrelay",
+   "why": "Vendor-listed relay cable",
+   "req": false
+  }
+ ],
+ "up-chime-us": [
+  {
+   "id": "uvc-doorbell-lite",
+   "why": "Requires a UniFi Protect doorbell",
+   "req": true
+  },
+  {
+   "id": "uck-g2-ssd",
+   "why": "Protect console",
+   "req": true
+  }
+ ],
+ "up-sense": [
+  {
+   "id": "usl-gateway",
+   "why": "Needs SuperLink or Bluetooth-capable AP",
+   "req": true
+  },
+  {
+   "id": "uck-g2-ssd",
+   "why": "Requires Protect host",
+   "req": true
+  }
+ ],
+ "up-siren-poe": [
+  {
+   "id": "uck-g2-ssd",
+   "why": "Requires Protect host",
+   "req": true
+  },
+  {
+   "id": "u-poe-af",
+   "why": "PoE source",
+   "req": true
+  },
+  {
+   "id": "uvc-g6-turret",
+   "why": "Camera detections trigger siren",
+   "req": false
+  }
+ ],
+ "upl-amp": [
+  {
+   "id": "uacc-in-ceiling-speaker",
+   "why": "Passive speakers driven by amp",
+   "req": true
+  },
+  {
+   "id": "uacc-cable-speaker-150m",
+   "why": "Speaker wire",
+   "req": false
+  },
+  {
+   "id": "upl-port",
+   "why": "Streams sources into the system",
+   "req": false
+  }
+ ],
+ "upl-port": [
+  {
+   "id": "upl-amp",
+   "why": "Needs amplifier or powered speakers",
+   "req": true
+  },
+  {
+   "id": "u-poe-af",
+   "why": "PoE power option",
+   "req": false
+  }
+ ],
+ "ups-2u-pro-us": [
+  {
+   "id": "ucg-ultra",
+   "why": "Requires UniFi console for management",
+   "req": true
+  },
+  {
+   "id": "uacc-ups-2u-battery",
+   "why": "Extra battery",
+   "req": false
+  },
+  {
+   "id": "uacc-rack-rails-slide",
+   "why": "Sliding rails",
+   "req": false
+  }
+ ],
+ "ups-2u-us": [
+  {
+   "id": "uacc-ups-2u-battery",
+   "why": "Vendor-listed replacement battery",
+   "req": false
+  },
+  {
+   "id": "uacc-rack-rails-slide",
+   "why": "Vendor-listed sliding rails",
+   "req": false
+  },
+  {
+   "id": "udm-pro-max",
+   "why": "Rack gateway to protect",
+   "req": false
+  }
+ ],
+ "ups-tower-us": [
+  {
+   "id": "ucg-ultra",
+   "why": "Console that monitors the UPS",
+   "req": false
+  },
+  {
+   "id": "uacc-ups-tower-battery",
+   "why": "Vendor-listed replacement battery",
+   "req": false
+  }
+ ],
+ "us-24": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "1-gbps-multi-mode-optical-module",
+   "why": "1G SFP module for fiber uplink",
+   "req": false
+  },
+  {
+   "id": "ups-2u-us",
+   "why": "Battery backup",
+   "req": false
+  }
+ ],
+ "us-24-500w": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "1-gbps-multi-mode-optical-module",
+   "why": "1G SFP module for fiber uplink",
+   "req": false
+  },
+  {
+   "id": "u7-pro",
+   "why": "PoE+ AP powered by its ports",
+   "req": false
+  },
+  {
+   "id": "uvc-g6-turret",
+   "why": "PoE camera powered by its ports",
+   "req": false
+  },
+  {
+   "id": "ups-2u-us",
+   "why": "Battery backup",
+   "req": false
+  }
+ ],
+ "us-48": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "10gbps-direct-attach-cable",
+   "why": "SFP+ uplink needs DAC or module",
+   "req": false
+  },
+  {
+   "id": "uacc-om-sm-10g-d",
+   "why": "Fiber SFP+ module for longer runs",
+   "req": false
+  },
+  {
+   "id": "usw-aggregation",
+   "why": "10G SFP+ aggregation for multiple switches",
+   "req": false
+  },
+  {
+   "id": "ups-2u-us",
+   "why": "Battery backup",
+   "req": false
+  }
+ ],
+ "us-48-500w": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "10gbps-direct-attach-cable",
+   "why": "SFP+ uplink needs DAC or module",
+   "req": false
+  },
+  {
+   "id": "uacc-om-sm-10g-d",
+   "why": "Fiber SFP+ module for longer runs",
+   "req": false
+  },
+  {
+   "id": "u7-pro",
+   "why": "PoE+ AP powered by its ports",
+   "req": false
+  },
+  {
+   "id": "uvc-g6-turret",
+   "why": "PoE camera powered by its ports",
+   "req": false
+  },
+  {
+   "id": "usw-aggregation",
+   "why": "10G SFP+ aggregation for multiple switches",
+   "req": false
+  },
+  {
+   "id": "ups-2u-us",
+   "why": "Battery backup",
+   "req": false
+  }
+ ],
+ "us-48-750w": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "10gbps-direct-attach-cable",
+   "why": "SFP+ uplink needs DAC or module",
+   "req": true
+  },
+  {
+   "id": "uacc-om-sm-10g-d",
+   "why": "Fiber SFP+ module for longer runs",
+   "req": false
+  },
+  {
+   "id": "u7-pro",
+   "why": "PoE+ AP powered by its ports",
+   "req": false
+  },
+  {
+   "id": "uvc-g6-turret",
+   "why": "PoE camera powered by its ports",
+   "req": false
+  },
+  {
+   "id": "usw-aggregation",
+   "why": "10G SFP+ aggregation for multiple switches",
+   "req": false
+  },
+  {
+   "id": "ups-2u-us",
+   "why": "Battery backup",
+   "req": false
+  }
+ ],
+ "us-8": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "u7-pro",
+   "why": "PoE+ AP powered by its ports",
+   "req": false
+  },
+  {
+   "id": "uvc-g6-turret",
+   "why": "PoE camera powered by its ports",
+   "req": false
+  },
+  {
+   "id": "ups-tower-us",
+   "why": "Battery backup",
+   "req": false
+  }
+ ],
+ "us-8-150w": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "1-gbps-multi-mode-optical-module",
+   "why": "1G SFP module for fiber uplink",
+   "req": false
+  },
+  {
+   "id": "u7-pro",
+   "why": "PoE+ AP powered by its ports",
+   "req": false
+  },
+  {
+   "id": "uvc-g6-turret",
+   "why": "PoE camera powered by its ports",
+   "req": false
+  },
+  {
+   "id": "ups-tower-us",
+   "why": "Battery backup",
+   "req": false
+  }
+ ],
+ "us-8-60w": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "u7-pro",
+   "why": "PoE+ AP powered by its ports",
+   "req": false
+  },
+  {
+   "id": "uvc-g6-turret",
+   "why": "PoE camera powered by its ports",
+   "req": false
+  },
+  {
+   "id": "ups-tower-us",
+   "why": "Battery backup",
+   "req": false
+  }
+ ],
+ "us-xg-6poe": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "10gbps-direct-attach-cable",
+   "why": "SFP+ uplink needs DAC or module",
+   "req": false
+  },
+  {
+   "id": "uacc-om-sm-10g-d",
+   "why": "Fiber SFP+ module for longer runs",
+   "req": false
+  },
+  {
+   "id": "u7-pro-xgs",
+   "why": "AP powered by its PoE ports",
+   "req": false
+  },
+  {
+   "id": "uvc-g6-turret",
+   "why": "PoE camera powered by its ports",
+   "req": false
+  },
+  {
+   "id": "ups-tower-us",
+   "why": "Battery backup",
+   "req": false
+  }
+ ],
+ "usl-entry": [
+  {
+   "id": "usl-gateway",
+   "why": "Requires SuperLink gateway",
+   "req": true
+  },
+  {
+   "id": "uck-g2-ssd",
+   "why": "Protect host with storage",
+   "req": true
+  },
+  {
+   "id": "usl-siren",
+   "why": "Completes the alarm system",
+   "req": false
+  }
+ ],
+ "usl-entry-r": [
+  {
+   "id": "usl-gateway",
+   "why": "Requires SuperLink gateway",
+   "req": true
+  },
+  {
+   "id": "uck-g2-ssd",
+   "why": "Protect host with storage",
+   "req": true
+  },
+  {
+   "id": "usl-siren",
+   "why": "Completes the alarm system",
+   "req": false
+  }
+ ],
+ "usl-environmental": [
+  {
+   "id": "usl-gateway",
+   "why": "Requires SuperLink gateway",
+   "req": true
+  },
+  {
+   "id": "uck-g2-ssd",
+   "why": "Protect host with storage",
+   "req": true
+  },
+  {
+   "id": "usl-siren",
+   "why": "Completes the alarm system",
+   "req": false
+  }
+ ],
+ "usl-fob": [
+  {
+   "id": "usl-gateway",
+   "why": "Requires SuperLink gateway",
+   "req": true
+  },
+  {
+   "id": "uck-g2-ssd",
+   "why": "Protect host with storage",
+   "req": true
+  },
+  {
+   "id": "usl-siren",
+   "why": "Completes the alarm system",
+   "req": false
+  }
+ ],
+ "usl-g2-gateway-ha": [
+  {
+   "id": "uck-g2-ssd",
+   "why": "Requires Protect console",
+   "req": true
+  },
+  {
+   "id": "u-poe-af",
+   "why": "PoE power option",
+   "req": false
+  },
+  {
+   "id": "usl-entry",
+   "why": "Door/window sensors",
+   "req": false
+  },
+  {
+   "id": "usl-motion",
+   "why": "Motion sensors",
+   "req": false
+  },
+  {
+   "id": "uacc-usl-ant-hg",
+   "why": "Vendor-listed antenna",
+   "req": false
+  }
+ ],
+ "usl-gateway": [
+  {
+   "id": "uck-g2-ssd",
+   "why": "Requires Protect host with storage",
+   "req": true
+  },
+  {
+   "id": "u-poe-af",
+   "why": "PoE power (or USB-C)",
+   "req": true
+  },
+  {
+   "id": "usl-entry",
+   "why": "Door/window sensors",
+   "req": false
+  },
+  {
+   "id": "usl-motion",
+   "why": "Motion sensors",
+   "req": false
+  },
+  {
+   "id": "usl-siren",
+   "why": "Siren",
+   "req": false
+  },
+  {
+   "id": "uacc-usl-ant-hg",
+   "why": "Vendor-listed high-gain antenna",
+   "req": false
+  }
+ ],
+ "usl-glassbreak": [
+  {
+   "id": "usl-gateway",
+   "why": "Requires SuperLink gateway",
+   "req": true
+  },
+  {
+   "id": "uck-g2-ssd",
+   "why": "Protect host with storage",
+   "req": true
+  },
+  {
+   "id": "usl-siren",
+   "why": "Completes the alarm system",
+   "req": false
+  }
+ ],
+ "usl-motion": [
+  {
+   "id": "usl-gateway",
+   "why": "Requires SuperLink gateway",
+   "req": true
+  },
+  {
+   "id": "uck-g2-ssd",
+   "why": "Protect host with storage",
+   "req": true
+  },
+  {
+   "id": "usl-siren",
+   "why": "Completes the alarm system",
+   "req": false
+  }
+ ],
+ "usl-relay": [
+  {
+   "id": "usl-gateway",
+   "why": "Requires SuperLink gateway",
+   "req": true
+  },
+  {
+   "id": "uck-g2-ssd",
+   "why": "Protect host with storage",
+   "req": true
+  },
+  {
+   "id": "uacc-retrofit-psu-12v",
+   "why": "12-48V DC supply required",
+   "req": true
+  },
+  {
+   "id": "usl-siren",
+   "why": "Completes the alarm system",
+   "req": false
+  }
+ ],
+ "usl-siren": [
+  {
+   "id": "usl-gateway",
+   "why": "Requires SuperLink gateway",
+   "req": true
+  },
+  {
+   "id": "uck-g2-ssd",
+   "why": "Protect host with storage",
+   "req": true
+  },
+  {
+   "id": "usl-motion",
+   "why": "Completes the alarm system",
+   "req": false
+  }
+ ],
+ "usl-smoke": [
+  {
+   "id": "usl-gateway",
+   "why": "Requires SuperLink gateway",
+   "req": true
+  },
+  {
+   "id": "uck-g2-ssd",
+   "why": "Protect host with storage",
+   "req": true
+  },
+  {
+   "id": "usl-siren",
+   "why": "Completes the alarm system",
+   "req": false
+  }
+ ],
+ "usp-pdu-hd": [
+  {
+   "id": "ucg-ultra",
+   "why": "Requires UniFi console for outlet control",
+   "req": true
+  },
+  {
+   "id": "ups-2u-pro-us",
+   "why": "UPS upstream of PDU",
+   "req": false
+  }
+ ],
+ "usp-pdu-pro": [
+  {
+   "id": "ucg-ultra",
+   "why": "Requires UniFi console for outlet control",
+   "req": true
+  },
+  {
+   "id": "ups-2u-us",
+   "why": "UPS upstream of PDU",
+   "req": false
+  }
+ ],
+ "usp-rps": [
+  {
+   "id": "ucg-ultra",
+   "why": "Requires UniFi console",
+   "req": true
+  },
+  {
+   "id": "usw-pro-xg-24-poe",
+   "why": "RPS-capable switch to back up",
+   "req": false
+  },
+  {
+   "id": "ups-2u-us",
+   "why": "UPS upstream",
+   "req": false
+  }
+ ],
+ "usw-16-poe": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "1-gbps-multi-mode-optical-module",
+   "why": "1G SFP module for fiber uplink",
+   "req": false
+  },
+  {
+   "id": "u7-pro",
+   "why": "PoE+ AP powered by its ports",
+   "req": false
+  },
+  {
+   "id": "uvc-g6-turret",
+   "why": "PoE camera powered by its ports",
+   "req": false
+  },
+  {
+   "id": "ups-2u-us",
+   "why": "Battery backup",
+   "req": false
+  }
+ ],
+ "usw-24": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "1-gbps-multi-mode-optical-module",
+   "why": "1G SFP module for fiber uplink",
+   "req": false
+  },
+  {
+   "id": "ups-2u-us",
+   "why": "Battery backup",
+   "req": false
+  }
+ ],
+ "usw-24-poe": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "1-gbps-multi-mode-optical-module",
+   "why": "1G SFP module for fiber uplink",
+   "req": false
+  },
+  {
+   "id": "u7-pro",
+   "why": "PoE+ AP powered by its ports",
+   "req": false
+  },
+  {
+   "id": "uvc-g6-turret",
+   "why": "PoE camera powered by its ports",
+   "req": false
+  },
+  {
+   "id": "ups-2u-us",
+   "why": "Battery backup",
+   "req": false
+  }
+ ],
+ "usw-48": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "1-gbps-multi-mode-optical-module",
+   "why": "1G SFP module for fiber uplink",
+   "req": false
+  },
+  {
+   "id": "ups-2u-us",
+   "why": "Battery backup",
+   "req": false
+  }
+ ],
+ "usw-48-poe": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "1-gbps-multi-mode-optical-module",
+   "why": "1G SFP module for fiber uplink",
+   "req": false
+  },
+  {
+   "id": "u7-pro",
+   "why": "PoE+ AP powered by its ports",
+   "req": false
+  },
+  {
+   "id": "uvc-g6-turret",
+   "why": "PoE camera powered by its ports",
+   "req": false
+  },
+  {
+   "id": "ups-2u-us",
+   "why": "Battery backup",
+   "req": false
+  }
+ ],
+ "usw-aggregation": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "10gbps-direct-attach-cable",
+   "why": "SFP+ uplink needs DAC or module",
+   "req": true
+  },
+  {
+   "id": "uacc-om-sm-10g-d",
+   "why": "Fiber SFP+ module for longer runs",
+   "req": false
+  },
+  {
+   "id": "usw-pro-max-24-poe",
+   "why": "10G SFP+-uplinked PoE edge switch",
+   "req": false
+  },
+  {
+   "id": "usw-pro-max-48",
+   "why": "10G SFP+-uplinked edge switch",
+   "req": false
+  },
+  {
+   "id": "uacc-cwdm-4",
+   "why": "Vendor-listed fit: CWDM Mux Demux 4",
+   "req": false
+  },
+  {
+   "id": "ups-2u-us",
+   "why": "Battery backup",
+   "req": false
+  }
+ ],
+ "usw-enterprise-24-poe": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "10gbps-direct-attach-cable",
+   "why": "SFP+ uplink needs DAC or module",
+   "req": false
+  },
+  {
+   "id": "uacc-om-sm-10g-d",
+   "why": "Fiber SFP+ module for longer runs",
+   "req": false
+  },
+  {
+   "id": "u7-pro",
+   "why": "PoE+ AP powered by its ports",
+   "req": false
+  },
+  {
+   "id": "uvc-g6-turret",
+   "why": "PoE camera powered by its ports",
+   "req": false
+  },
+  {
+   "id": "usw-aggregation",
+   "why": "10G SFP+ aggregation for multiple switches",
+   "req": false
+  },
+  {
+   "id": "ups-2u-us",
+   "why": "Battery backup",
+   "req": false
+  }
+ ],
+ "usw-enterprise-48-poe": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "10gbps-direct-attach-cable",
+   "why": "SFP+ uplink needs DAC or module",
+   "req": false
+  },
+  {
+   "id": "uacc-om-sm-10g-d",
+   "why": "Fiber SFP+ module for longer runs",
+   "req": false
+  },
+  {
+   "id": "u7-pro",
+   "why": "PoE+ AP powered by its ports",
+   "req": false
+  },
+  {
+   "id": "uvc-g6-turret",
+   "why": "PoE camera powered by its ports",
+   "req": false
+  },
+  {
+   "id": "usw-aggregation",
+   "why": "10G SFP+ aggregation for multiple switches",
+   "req": false
+  },
+  {
+   "id": "ups-2u-us",
+   "why": "Battery backup",
+   "req": false
+  }
+ ],
+ "usw-enterprise-8-poe": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "10gbps-direct-attach-cable",
+   "why": "SFP+ uplink needs DAC or module",
+   "req": false
+  },
+  {
+   "id": "uacc-om-sm-10g-d",
+   "why": "Fiber SFP+ module for longer runs",
+   "req": false
+  },
+  {
+   "id": "u7-pro",
+   "why": "PoE+ AP powered by its ports",
+   "req": false
+  },
+  {
+   "id": "uvc-g6-turret",
+   "why": "PoE camera powered by its ports",
+   "req": false
+  },
+  {
+   "id": "ups-tower-us",
+   "why": "Battery backup",
+   "req": false
+  }
+ ],
+ "usw-flex": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "u7-pro",
+   "why": "PoE+ AP powered by its ports",
+   "req": false
+  },
+  {
+   "id": "uvc-g6-turret",
+   "why": "PoE camera powered by its ports",
+   "req": false
+  },
+  {
+   "id": "u-poe-af",
+   "why": "802.3af power; cheapest injector",
+   "req": true
+  },
+  {
+   "id": "u-poe-plus-plus",
+   "why": "PoE++ input for full PoE output budget",
+   "req": false
+  },
+  {
+   "id": "uacc-flex-utility-pro",
+   "why": "Vendor-listed fit: UACC-Flex-Utility-Pro",
+   "req": false
+  },
+  {
+   "id": "ups-tower-us",
+   "why": "Battery backup",
+   "req": false
+  }
+ ],
+ "usw-flex-2-5g-5": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "uacc-flex-utility-pro",
+   "why": "Vendor-listed fit: UACC-Flex-Utility-Pro",
+   "req": false
+  },
+  {
+   "id": "ups-tower-us",
+   "why": "Battery backup",
+   "req": false
+  }
+ ],
+ "usw-flex-2-5g-8": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "10gbps-direct-attach-cable",
+   "why": "SFP+ uplink needs DAC or module",
+   "req": false
+  },
+  {
+   "id": "uacc-om-sm-10g-d",
+   "why": "Fiber SFP+ module for longer runs",
+   "req": false
+  },
+  {
+   "id": "uacc-flex-utility-pro",
+   "why": "Vendor-listed fit: UACC-Flex-Utility-Pro",
+   "req": false
+  },
+  {
+   "id": "ups-tower-us",
+   "why": "Battery backup",
+   "req": false
+  }
+ ],
+ "usw-flex-2-5g-8-poe": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "10gbps-direct-attach-cable",
+   "why": "SFP+ uplink needs DAC or module",
+   "req": false
+  },
+  {
+   "id": "uacc-om-sm-10g-d",
+   "why": "Fiber SFP+ module for longer runs",
+   "req": false
+  },
+  {
+   "id": "u7-pro-xgs",
+   "why": "AP powered by its PoE ports",
+   "req": false
+  },
+  {
+   "id": "uvc-g6-turret",
+   "why": "PoE camera powered by its ports",
+   "req": false
+  },
+  {
+   "id": "uacc-poe-10g",
+   "why": "90W PoE+++ input (or DC adapter)",
+   "req": true
+  },
+  {
+   "id": "uacc-adapter-ac-210w",
+   "why": "Vendor-listed fit: AC Adapter 210W",
+   "req": false
+  }
+ ],
+ "usw-flex-mini": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "uacc-uts",
+   "why": "Vendor-listed fit: Universal Table Stand",
+   "req": false
+  },
+  {
+   "id": "ups-tower-us",
+   "why": "Battery backup",
+   "req": false
+  }
+ ],
+ "usw-flex-xg": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "uacc-uts",
+   "why": "Vendor-listed fit: Universal Table Stand",
+   "req": false
+  },
+  {
+   "id": "ups-tower-us",
+   "why": "Battery backup",
+   "req": false
+  }
+ ],
+ "usw-flexutility": [
+  {
+   "id": "usw-flex",
+   "why": "Requires a Switch Flex",
+   "req": true
+  },
+  {
+   "id": "u7-outdoor",
+   "why": "Outdoor AP fed from enclosure",
+   "req": false
+  }
+ ],
+ "usw-industrial": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "u7-pro-max",
+   "why": "AP powered by its PoE ports",
+   "req": false
+  },
+  {
+   "id": "uvc-g6-turret",
+   "why": "PoE camera powered by its ports",
+   "req": false
+  },
+  {
+   "id": "ups-tower-us",
+   "why": "Battery backup",
+   "req": false
+  }
+ ],
+ "usw-industrial-din-2-5g-8-poe": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "10gbps-direct-attach-cable",
+   "why": "SFP+ uplink needs DAC or module",
+   "req": false
+  },
+  {
+   "id": "uacc-om-sm-10g-d",
+   "why": "Fiber SFP+ module for longer runs",
+   "req": false
+  },
+  {
+   "id": "u7-pro-max",
+   "why": "AP powered by its PoE ports",
+   "req": false
+  },
+  {
+   "id": "uvc-g6-turret",
+   "why": "PoE camera powered by its ports",
+   "req": false
+  },
+  {
+   "id": "ups-tower-us",
+   "why": "Battery backup",
+   "req": false
+  }
+ ],
+ "usw-industrial-din-8": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "1-gbps-multi-mode-optical-module",
+   "why": "1G SFP module for fiber uplink",
+   "req": false
+  },
+  {
+   "id": "ups-tower-us",
+   "why": "Battery backup",
+   "req": false
+  }
+ ],
+ "usw-industrial-din-8-poe": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "1-gbps-multi-mode-optical-module",
+   "why": "1G SFP module for fiber uplink",
+   "req": false
+  },
+  {
+   "id": "u7-pro-max",
+   "why": "AP powered by its PoE ports",
+   "req": false
+  },
+  {
+   "id": "uvc-g6-turret",
+   "why": "PoE camera powered by its ports",
+   "req": false
+  },
+  {
+   "id": "ups-tower-us",
+   "why": "Battery backup",
+   "req": false
+  }
+ ],
+ "usw-lite-16-poe": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "u7-pro",
+   "why": "PoE+ AP powered by its ports",
+   "req": false
+  },
+  {
+   "id": "uvc-g6-turret",
+   "why": "PoE camera powered by its ports",
+   "req": false
+  },
+  {
+   "id": "ups-2u-us",
+   "why": "Battery backup",
+   "req": false
+  }
+ ],
+ "usw-lite-8-poe": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "u7-pro",
+   "why": "PoE+ AP powered by its ports",
+   "req": false
+  },
+  {
+   "id": "uvc-g6-turret",
+   "why": "PoE camera powered by its ports",
+   "req": false
+  },
+  {
+   "id": "ups-tower-us",
+   "why": "Battery backup",
+   "req": false
+  }
+ ],
+ "usw-mission-critical": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "u7-pro-max",
+   "why": "AP powered by its PoE ports",
+   "req": false
+  },
+  {
+   "id": "uvc-g6-turret",
+   "why": "PoE camera powered by its ports",
+   "req": false
+  },
+  {
+   "id": "ups-2u-us",
+   "why": "Battery backup",
+   "req": false
+  }
+ ],
+ "usw-pro-24": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "10gbps-direct-attach-cable",
+   "why": "SFP+ uplink needs DAC or module",
+   "req": true
+  },
+  {
+   "id": "uacc-om-sm-10g-d",
+   "why": "Fiber SFP+ module for longer runs",
+   "req": false
+  },
+  {
+   "id": "usw-aggregation",
+   "why": "10G SFP+ aggregation for multiple switches",
+   "req": false
+  },
+  {
+   "id": "ups-2u-us",
+   "why": "Battery backup",
+   "req": false
+  }
+ ],
+ "usw-pro-24-poe": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "10gbps-direct-attach-cable",
+   "why": "SFP+ uplink needs DAC or module",
+   "req": false
+  },
+  {
+   "id": "uacc-om-sm-10g-d",
+   "why": "Fiber SFP+ module for longer runs",
+   "req": false
+  },
+  {
+   "id": "u7-pro-max",
+   "why": "AP powered by its PoE ports",
+   "req": false
+  },
+  {
+   "id": "uvc-g6-turret",
+   "why": "PoE camera powered by its ports",
+   "req": false
+  },
+  {
+   "id": "usw-aggregation",
+   "why": "10G SFP+ aggregation for multiple switches",
+   "req": false
+  },
+  {
+   "id": "ups-2u-us",
+   "why": "Battery backup",
+   "req": false
+  }
+ ],
+ "usw-pro-48": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "10gbps-direct-attach-cable",
+   "why": "SFP+ uplink needs DAC or module",
+   "req": false
+  },
+  {
+   "id": "uacc-om-sm-10g-d",
+   "why": "Fiber SFP+ module for longer runs",
+   "req": false
+  },
+  {
+   "id": "usw-aggregation",
+   "why": "10G SFP+ aggregation for multiple switches",
+   "req": false
+  },
+  {
+   "id": "ups-2u-us",
+   "why": "Battery backup",
+   "req": false
+  }
+ ],
+ "usw-pro-48-poe": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "10gbps-direct-attach-cable",
+   "why": "SFP+ uplink needs DAC or module",
+   "req": true
+  },
+  {
+   "id": "uacc-om-sm-10g-d",
+   "why": "Fiber SFP+ module for longer runs",
+   "req": false
+  },
+  {
+   "id": "u7-pro-max",
+   "why": "AP powered by its PoE ports",
+   "req": false
+  },
+  {
+   "id": "uvc-g6-turret",
+   "why": "PoE camera powered by its ports",
+   "req": false
+  },
+  {
+   "id": "usw-aggregation",
+   "why": "10G SFP+ aggregation for multiple switches",
+   "req": false
+  },
+  {
+   "id": "ups-2u-us",
+   "why": "Battery backup",
+   "req": false
+  }
+ ],
+ "usw-pro-8-poe": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "10gbps-direct-attach-cable",
+   "why": "SFP+ uplink needs DAC or module",
+   "req": false
+  },
+  {
+   "id": "uacc-om-sm-10g-d",
+   "why": "Fiber SFP+ module for longer runs",
+   "req": false
+  },
+  {
+   "id": "u7-pro-max",
+   "why": "AP powered by its PoE ports",
+   "req": false
+  },
+  {
+   "id": "uvc-g6-turret",
+   "why": "PoE camera powered by its ports",
+   "req": false
+  },
+  {
+   "id": "ups-tower-us",
+   "why": "Battery backup",
+   "req": false
+  }
+ ],
+ "usw-pro-aggregation": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "25gbps-direct-attach-cable",
+   "why": "SFP28 ports need DAC or optic",
+   "req": true
+  },
+  {
+   "id": "10gbps-direct-attach-cable",
+   "why": "SFP+ uplink needs DAC or module",
+   "req": true
+  },
+  {
+   "id": "usw-pro-xg-24-poe",
+   "why": "25G-uplinked PoE edge switch",
+   "req": false
+  },
+  {
+   "id": "usw-pro-xg-48",
+   "why": "25G-uplinked edge switch",
+   "req": false
+  },
+  {
+   "id": "uacc-cwdm-4",
+   "why": "Vendor-listed fit: CWDM Mux Demux 4",
+   "req": false
+  },
+  {
+   "id": "ups-2u-us",
+   "why": "Battery backup",
+   "req": false
+  }
+ ],
+ "usw-pro-hd-24": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "10gbps-direct-attach-cable",
+   "why": "SFP+ uplink needs DAC or module",
+   "req": false
+  },
+  {
+   "id": "uacc-om-sm-10g-d",
+   "why": "Fiber SFP+ module for longer runs",
+   "req": false
+  },
+  {
+   "id": "usw-pro-max-24-poe",
+   "why": "PoE edge switch to uplink",
+   "req": false
+  },
+  {
+   "id": "usw-aggregation",
+   "why": "10G SFP+ aggregation for multiple switches",
+   "req": false
+  },
+  {
+   "id": "uacc-rack-rails-slide",
+   "why": "Vendor-listed fit: UniFi Sliding Rack Rails",
+   "req": false
+  },
+  {
+   "id": "ups-2u-us",
+   "why": "Battery backup",
+   "req": false
+  }
+ ],
+ "usw-pro-hd-24-poe": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "10gbps-direct-attach-cable",
+   "why": "SFP+ uplink needs DAC or module",
+   "req": false
+  },
+  {
+   "id": "uacc-om-sm-10g-d",
+   "why": "Fiber SFP+ module for longer runs",
+   "req": false
+  },
+  {
+   "id": "u7-pro-xgs",
+   "why": "AP powered by its PoE ports",
+   "req": false
+  },
+  {
+   "id": "uvc-g6-turret",
+   "why": "PoE camera powered by its ports",
+   "req": false
+  },
+  {
+   "id": "usw-aggregation",
+   "why": "10G SFP+ aggregation for multiple switches",
+   "req": false
+  },
+  {
+   "id": "uacc-rack-rails-slide",
+   "why": "Vendor-listed fit: UniFi Sliding Rack Rails",
+   "req": false
+  }
+ ],
+ "usw-pro-max-16": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "10gbps-direct-attach-cable",
+   "why": "SFP+ uplink needs DAC or module",
+   "req": false
+  },
+  {
+   "id": "uacc-om-sm-10g-d",
+   "why": "Fiber SFP+ module for longer runs",
+   "req": false
+  },
+  {
+   "id": "usw-aggregation",
+   "why": "10G SFP+ aggregation for multiple switches",
+   "req": false
+  },
+  {
+   "id": "uacc-pro-max-16-rm",
+   "why": "Vendor-listed fit: Pro Max 16 Rack Mount",
+   "req": false
+  },
+  {
+   "id": "ups-2u-us",
+   "why": "Battery backup",
+   "req": false
+  }
+ ],
+ "usw-pro-max-16-poe": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "10gbps-direct-attach-cable",
+   "why": "SFP+ uplink needs DAC or module",
+   "req": false
+  },
+  {
+   "id": "uacc-om-sm-10g-d",
+   "why": "Fiber SFP+ module for longer runs",
+   "req": false
+  },
+  {
+   "id": "u7-pro-max",
+   "why": "AP powered by its PoE ports",
+   "req": false
+  },
+  {
+   "id": "uvc-g6-turret",
+   "why": "PoE camera powered by its ports",
+   "req": false
+  },
+  {
+   "id": "usw-aggregation",
+   "why": "10G SFP+ aggregation for multiple switches",
+   "req": false
+  },
+  {
+   "id": "uacc-adapter-ac-210w",
+   "why": "Vendor-listed fit: AC Adapter 210W",
+   "req": false
+  }
+ ],
+ "usw-pro-max-24": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "10gbps-direct-attach-cable",
+   "why": "SFP+ uplink needs DAC or module",
+   "req": false
+  },
+  {
+   "id": "uacc-om-sm-10g-d",
+   "why": "Fiber SFP+ module for longer runs",
+   "req": false
+  },
+  {
+   "id": "usw-pro-max-24-poe",
+   "why": "PoE edge switch to uplink",
+   "req": false
+  },
+  {
+   "id": "usw-aggregation",
+   "why": "10G SFP+ aggregation for multiple switches",
+   "req": false
+  },
+  {
+   "id": "ups-2u-us",
+   "why": "Battery backup",
+   "req": false
+  }
+ ],
+ "usw-pro-max-24-poe": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "10gbps-direct-attach-cable",
+   "why": "SFP+ uplink needs DAC or module",
+   "req": true
+  },
+  {
+   "id": "uacc-om-sm-10g-d",
+   "why": "Fiber SFP+ module for longer runs",
+   "req": false
+  },
+  {
+   "id": "u7-pro-max",
+   "why": "AP powered by its PoE ports",
+   "req": false
+  },
+  {
+   "id": "uvc-g6-turret",
+   "why": "PoE camera powered by its ports",
+   "req": false
+  },
+  {
+   "id": "usw-aggregation",
+   "why": "10G SFP+ aggregation for multiple switches",
+   "req": false
+  },
+  {
+   "id": "usp-rps",
+   "why": "Redundant power supply backup",
+   "req": false
+  }
+ ],
+ "usw-pro-max-48": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "10gbps-direct-attach-cable",
+   "why": "SFP+ uplink needs DAC or module",
+   "req": false
+  },
+  {
+   "id": "uacc-om-sm-10g-d",
+   "why": "Fiber SFP+ module for longer runs",
+   "req": false
+  },
+  {
+   "id": "usw-aggregation",
+   "why": "10G SFP+ aggregation for multiple switches",
+   "req": false
+  },
+  {
+   "id": "ups-2u-us",
+   "why": "Battery backup",
+   "req": false
+  }
+ ],
+ "usw-pro-max-48-poe": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "10gbps-direct-attach-cable",
+   "why": "SFP+ uplink needs DAC or module",
+   "req": false
+  },
+  {
+   "id": "uacc-om-sm-10g-d",
+   "why": "Fiber SFP+ module for longer runs",
+   "req": false
+  },
+  {
+   "id": "u7-pro-max",
+   "why": "AP powered by its PoE ports",
+   "req": false
+  },
+  {
+   "id": "uvc-g6-turret",
+   "why": "PoE camera powered by its ports",
+   "req": false
+  },
+  {
+   "id": "usw-aggregation",
+   "why": "10G SFP+ aggregation for multiple switches",
+   "req": false
+  },
+  {
+   "id": "ups-2u-us",
+   "why": "Battery backup",
+   "req": false
+  }
+ ],
+ "usw-pro-xg-10-poe": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "10gbps-direct-attach-cable",
+   "why": "SFP+ uplink needs DAC or module",
+   "req": false
+  },
+  {
+   "id": "uacc-om-sm-10g-d",
+   "why": "Fiber SFP+ module for longer runs",
+   "req": false
+  },
+  {
+   "id": "u7-pro-xgs",
+   "why": "AP powered by its PoE ports",
+   "req": false
+  },
+  {
+   "id": "uvc-g6-turret",
+   "why": "PoE camera powered by its ports",
+   "req": false
+  },
+  {
+   "id": "uacc-rack-rails-slide",
+   "why": "Vendor-listed fit: UniFi Sliding Rack Rails",
+   "req": false
+  },
+  {
+   "id": "ups-2u-us",
+   "why": "Battery backup",
+   "req": false
+  }
+ ],
+ "usw-pro-xg-24": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "25gbps-direct-attach-cable",
+   "why": "SFP28 ports need DAC or optic",
+   "req": true
+  },
+  {
+   "id": "usw-pro-xg-aggregation",
+   "why": "25G SFP28 aggregation layer",
+   "req": false
+  },
+  {
+   "id": "uacc-rack-rails-slide",
+   "why": "Vendor-listed fit: UniFi Sliding Rack Rails",
+   "req": false
+  },
+  {
+   "id": "ups-2u-us",
+   "why": "Battery backup",
+   "req": false
+  }
+ ],
+ "usw-pro-xg-24-poe": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "25gbps-direct-attach-cable",
+   "why": "SFP28 ports need DAC or optic",
+   "req": true
+  },
+  {
+   "id": "u7-pro-xgs",
+   "why": "AP powered by its PoE ports",
+   "req": false
+  },
+  {
+   "id": "uvc-g6-turret",
+   "why": "PoE camera powered by its ports",
+   "req": false
+  },
+  {
+   "id": "usw-pro-xg-aggregation",
+   "why": "25G SFP28 aggregation layer",
+   "req": false
+  },
+  {
+   "id": "uacc-rack-rails-slide",
+   "why": "Vendor-listed fit: UniFi Sliding Rack Rails",
+   "req": false
+  },
+  {
+   "id": "ups-2u-us",
+   "why": "Battery backup",
+   "req": false
+  }
+ ],
+ "usw-pro-xg-48": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "25gbps-direct-attach-cable",
+   "why": "SFP28 ports need DAC or optic",
+   "req": false
+  },
+  {
+   "id": "usw-pro-xg-aggregation",
+   "why": "25G SFP28 aggregation layer",
+   "req": false
+  },
+  {
+   "id": "uacc-rack-rails-slide",
+   "why": "Vendor-listed fit: UniFi Sliding Rack Rails",
+   "req": false
+  },
+  {
+   "id": "ups-2u-us",
+   "why": "Battery backup",
+   "req": false
+  }
+ ],
+ "usw-pro-xg-48-poe": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "25gbps-direct-attach-cable",
+   "why": "SFP28 ports need DAC or optic",
+   "req": false
+  },
+  {
+   "id": "u7-pro-xgs",
+   "why": "AP powered by its PoE ports",
+   "req": false
+  },
+  {
+   "id": "uvc-g6-turret",
+   "why": "PoE camera powered by its ports",
+   "req": false
+  },
+  {
+   "id": "usw-pro-xg-aggregation",
+   "why": "25G SFP28 aggregation layer",
+   "req": false
+  },
+  {
+   "id": "uacc-rack-rails-slide",
+   "why": "Vendor-listed fit: UniFi Sliding Rack Rails",
+   "req": false
+  },
+  {
+   "id": "ups-2u-us",
+   "why": "Battery backup",
+   "req": false
+  }
+ ],
+ "usw-pro-xg-8-poe": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "10gbps-direct-attach-cable",
+   "why": "SFP+ uplink needs DAC or module",
+   "req": false
+  },
+  {
+   "id": "uacc-om-sm-10g-d",
+   "why": "Fiber SFP+ module for longer runs",
+   "req": false
+  },
+  {
+   "id": "u7-pro-xgs",
+   "why": "AP powered by its PoE ports",
+   "req": false
+  },
+  {
+   "id": "uvc-g6-turret",
+   "why": "PoE camera powered by its ports",
+   "req": false
+  },
+  {
+   "id": "ups-tower-us",
+   "why": "Battery backup",
+   "req": false
+  }
+ ],
+ "usw-pro-xg-aggregation": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "25gbps-direct-attach-cable",
+   "why": "SFP28 ports need DAC or optic",
+   "req": true
+  },
+  {
+   "id": "usw-pro-xg-24-poe",
+   "why": "25G-uplinked PoE edge switch",
+   "req": false
+  },
+  {
+   "id": "usw-pro-xg-48",
+   "why": "25G-uplinked edge switch",
+   "req": false
+  },
+  {
+   "id": "uacc-rack-rails-slide",
+   "why": "Vendor-listed fit: UniFi Sliding Rack Rails",
+   "req": false
+  },
+  {
+   "id": "ups-2u-us",
+   "why": "Battery backup",
+   "req": false
+  }
+ ],
+ "usw-ultra": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "u7-pro",
+   "why": "PoE+ AP powered by its ports",
+   "req": false
+  },
+  {
+   "id": "uvc-g6-turret",
+   "why": "PoE camera powered by its ports",
+   "req": false
+  },
+  {
+   "id": "u-poe-plus-plus",
+   "why": "PoE++ input powers switch and passthrough PoE",
+   "req": false
+  },
+  {
+   "id": "uacc-adapter-ac-210w",
+   "why": "Vendor-listed fit: AC Adapter 210W",
+   "req": false
+  },
+  {
+   "id": "ups-tower-us",
+   "why": "Battery backup",
+   "req": false
+  }
+ ],
+ "usw-ultra-210w": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "u7-pro",
+   "why": "PoE+ AP powered by its ports",
+   "req": false
+  },
+  {
+   "id": "uvc-g6-turret",
+   "why": "PoE camera powered by its ports",
+   "req": false
+  },
+  {
+   "id": "u-poe-plus-plus",
+   "why": "PoE++ input powers switch and passthrough PoE",
+   "req": false
+  },
+  {
+   "id": "uacc-adapter-ac-210w",
+   "why": "Vendor-listed fit: AC Adapter 210W",
+   "req": false
+  },
+  {
+   "id": "ups-tower-us",
+   "why": "Battery backup",
+   "req": false
+  }
+ ],
+ "usw-ultra-60w": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "u7-pro",
+   "why": "PoE+ AP powered by its ports",
+   "req": false
+  },
+  {
+   "id": "uvc-g6-turret",
+   "why": "PoE camera powered by its ports",
+   "req": false
+  },
+  {
+   "id": "u-poe-plus-plus",
+   "why": "PoE++ input powers switch and passthrough PoE",
+   "req": false
+  },
+  {
+   "id": "uacc-adapter-ac-210w",
+   "why": "Vendor-listed fit: AC Adapter 210W",
+   "req": false
+  },
+  {
+   "id": "ups-tower-us",
+   "why": "Battery backup",
+   "req": false
+  }
+ ],
+ "usw-wan": [
+  {
+   "id": "10gbps-direct-attach-cable",
+   "why": "SFP+ ports need DACs/modules",
+   "req": true
+  },
+  {
+   "id": "efg",
+   "why": "Two Shadow-Mode gateways required",
+   "req": true
+  },
+  {
+   "id": "ups-2u-us",
+   "why": "Rack UPS",
+   "req": false
+  }
+ ],
+ "usw-wan-rj45": [
+  {
+   "id": "udm-pro-max",
+   "why": "Two Shadow-Mode (VRRP) gateways required",
+   "req": true
+  },
+  {
+   "id": "ups-2u-us",
+   "why": "Rack UPS",
+   "req": false
+  }
+ ],
+ "ut-ata": [
+  {
+   "id": "ucg-max",
+   "why": "Console running UniFi Talk",
+   "req": true
+  },
+  {
+   "id": "u-poe-af",
+   "why": "802.3af power; cheapest injector",
+   "req": true
+  }
+ ],
+ "ut-g3-handset": [
+  {
+   "id": "utp-g3-touch-pro",
+   "why": "Requires a G3 Touch phone",
+   "req": true
+  },
+  {
+   "id": "ucg-max",
+   "why": "Console running Talk",
+   "req": true
+  }
+ ],
+ "utp-g3-touch-enterprise": [
+  {
+   "id": "ucg-max",
+   "why": "Console running UniFi Talk",
+   "req": true
+  },
+  {
+   "id": "u-poe-plus",
+   "why": "Needs PoE+ (802.3at); 802.3af ports will not run it",
+   "req": true
+  },
+  {
+   "id": "ut-g3-handset",
+   "why": "Optional cordless handset",
+   "req": false
+  }
+ ],
+ "utp-g3-touch-pro": [
+  {
+   "id": "ucg-max",
+   "why": "Console running UniFi Talk",
+   "req": true
+  },
+  {
+   "id": "u-poe-af",
+   "why": "802.3af power; cheapest injector",
+   "req": true
+  },
+  {
+   "id": "ut-g3-handset",
+   "why": "Optional cordless handset",
+   "req": false
+  }
+ ],
+ "utp-g3-touch-wall": [
+  {
+   "id": "ucg-max",
+   "why": "Console running UniFi Talk",
+   "req": true
+  },
+  {
+   "id": "u-poe-af",
+   "why": "802.3af power; cheapest injector",
+   "req": true
+  },
+  {
+   "id": "ut-g3-handset",
+   "why": "Optional cordless handset",
+   "req": false
+  }
+ ],
+ "utp-touch": [
+  {
+   "id": "ucg-max",
+   "why": "Console running UniFi Talk",
+   "req": true
+  },
+  {
+   "id": "u-poe-af",
+   "why": "802.3af power; cheapest injector",
+   "req": true
+  }
+ ],
+ "utp-touchmax-u": [
+  {
+   "id": "ucg-max",
+   "why": "Console running UniFi Talk",
+   "req": true
+  },
+  {
+   "id": "u-poe-plus",
+   "why": "Needs PoE+ (802.3at); 802.3af ports will not run it",
+   "req": true
+  }
+ ],
+ "utr": [
+  {
+   "id": "uacc-cable-usb-100w",
+   "why": "USB-C power cable (adapter not included)",
+   "req": false
+  },
+  {
+   "id": "ucg-ultra",
+   "why": "Home gateway for Teleport/VPN back",
+   "req": false
+  }
+ ],
+ "utr-lr": [
+  {
+   "id": "ucg-ultra",
+   "why": "Home gateway for Teleport/VPN back",
+   "req": false
+  },
+  {
+   "id": "uacc-cable-usb-100w",
+   "why": "USB-C power cable",
+   "req": false
+  }
+ ],
+ "uvc-ai-360": [
+  {
+   "id": "unvr-instant",
+   "why": "Protect NVR whose PoE ports power this camera",
+   "req": true
+  },
+  {
+   "id": "uacc-ai-360-jb",
+   "why": "Vendor-listed fit: AI 360 Junction Box",
+   "req": false
+  }
+ ],
+ "uvc-ai-dome": [
+  {
+   "id": "unvr-instant",
+   "why": "Protect NVR whose PoE ports power this camera",
+   "req": true
+  },
+  {
+   "id": "uacc-camera-am",
+   "why": "Vendor-listed fit: Camera Arm Mount",
+   "req": false
+  },
+  {
+   "id": "uacc-camera-dm",
+   "why": "Vendor-listed fit: Camera Dual Mount",
+   "req": false
+  }
+ ],
+ "uvc-ai-dslr": [
+  {
+   "id": "uck-g2-ssd",
+   "why": "Requires Protect host with storage",
+   "req": true
+  },
+  {
+   "id": "u-poe-plus",
+   "why": "Needs PoE+; 802.3af ports will not run it",
+   "req": true
+  },
+  {
+   "id": "usw-lite-8-poe",
+   "why": "PoE+ switch for several cameras",
+   "req": false
+  },
+  {
+   "id": "uacc-bullet-ab",
+   "why": "Vendor-listed fit: Bullet Camera Angled Base",
+   "req": false
+  },
+  {
+   "id": "uacc-camera-dm",
+   "why": "Vendor-listed fit: Camera Dual Mount",
+   "req": false
+  }
+ ],
+ "uvc-ai-lpr": [
+  {
+   "id": "uck-g2-ssd",
+   "why": "Requires Protect host with storage",
+   "req": true
+  },
+  {
+   "id": "u-poe-plus",
+   "why": "Needs PoE+; 802.3af ports will not run it",
+   "req": true
+  },
+  {
+   "id": "usw-lite-8-poe",
+   "why": "PoE+ switch for several cameras",
+   "req": false
+  },
+  {
+   "id": "uacc-camera-r2-cjb",
+   "why": "Vendor-listed fit: Camera Compact Junction Box",
+   "req": false
+  },
+  {
+   "id": "uacc-camera-r2-jb",
+   "why": "Vendor-listed fit: Camera Junction Box",
+   "req": false
+  }
+ ],
+ "uvc-ai-ms-2": [
+  {
+   "id": "uck-g2-ssd",
+   "why": "Requires Protect host with storage",
+   "req": true
+  },
+  {
+   "id": "u-poe-plus",
+   "why": "Needs PoE+; 802.3af ports will not run it",
+   "req": true
+  },
+  {
+   "id": "usw-lite-8-poe",
+   "why": "PoE+ switch for several cameras",
+   "req": false
+  },
+  {
+   "id": "uacc-ai-ms-2-am",
+   "why": "Vendor-listed fit: AI Multi Sensor 2 Camera Arm Mount",
+   "req": false
+  },
+  {
+   "id": "uacc-ai-ms-2-pm",
+   "why": "Vendor-listed fit: AI Multi Sensor 2 Camera Pendant Mount",
+   "req": false
+  }
+ ],
+ "uvc-ai-ms-4": [
+  {
+   "id": "uck-g2-ssd",
+   "why": "Requires Protect host with storage",
+   "req": true
+  },
+  {
+   "id": "u-poe-plus-plus",
+   "why": "Needs PoE++; will not run on PoE+ ports",
+   "req": true
+  },
+  {
+   "id": "usw-pro-max-16-poe",
+   "why": "PoE++ switch ports",
+   "req": false
+  },
+  {
+   "id": "uacc-ai-ms-4-am",
+   "why": "Vendor-listed fit: AI Multi Sensor 4 Camera Arm Mount",
+   "req": false
+  },
+  {
+   "id": "uacc-ai-ms-4-pm",
+   "why": "Vendor-listed fit: AI Multi Sensor 4 Camera Pendant Mount",
+   "req": false
+  }
+ ],
+ "uvc-ai-pro": [
+  {
+   "id": "unvr-instant",
+   "why": "Protect NVR whose PoE ports power this camera",
+   "req": true
+  },
+  {
+   "id": "uacc-ai-pro-enhancer",
+   "why": "Vendor-listed fit: AI Enhancer",
+   "req": false
+  },
+  {
+   "id": "uacc-bullet-ab",
+   "why": "Vendor-listed fit: Bullet Camera Angled Base",
+   "req": false
+  }
+ ],
+ "uvc-ai-ptz": [
+  {
+   "id": "uck-g2-ssd",
+   "why": "Requires Protect host with storage",
+   "req": true
+  },
+  {
+   "id": "u-poe-plus-plus",
+   "why": "Needs PoE++; will not run on PoE+ ports",
+   "req": true
+  },
+  {
+   "id": "usw-pro-max-16-poe",
+   "why": "PoE++ switch ports",
+   "req": false
+  }
+ ],
+ "uvc-ai-ptz-precision": [
+  {
+   "id": "uck-g2-ssd",
+   "why": "Requires Protect host with storage",
+   "req": true
+  },
+  {
+   "id": "u-poe-plus-plus",
+   "why": "Needs PoE++; will not run on PoE+ ports",
+   "req": true
+  },
+  {
+   "id": "usw-pro-max-16-poe",
+   "why": "PoE++ switch ports",
+   "req": false
+  },
+  {
+   "id": "uacc-ai-ptz-precision-cm",
+   "why": "Vendor-listed fit: AI PTZ Precision Corner Mount",
+   "req": false
+  },
+  {
+   "id": "uacc-ai-ptz-precision-pm",
+   "why": "Vendor-listed fit: AI PTZ Precision Pendant Mount",
+   "req": false
+  }
+ ],
+ "uvc-ai-theta": [
+  {
+   "id": "uck-g2-ssd",
+   "why": "Protect host with storage",
+   "req": true
+  },
+  {
+   "id": "u-poe-af",
+   "why": "PoE source",
+   "req": true
+  },
+  {
+   "id": "uvc-ai-theta-audio",
+   "why": "Optional audio module",
+   "req": false
+  },
+  {
+   "id": "uacc-ai-theta-cms",
+   "why": "Vendor-listed ceiling mount",
+   "req": false
+  }
+ ],
+ "uvc-ai-theta-audio": [
+  {
+   "id": "uvc-ai-theta-hub",
+   "why": "Requires AI Theta Hub",
+   "req": true
+  },
+  {
+   "id": "uck-g2-ssd",
+   "why": "Protect host with storage",
+   "req": true
+  },
+  {
+   "id": "uacc-ai-theta-audio-cable-ext-10m",
+   "why": "Longer audio cable",
+   "req": false
+  }
+ ],
+ "uvc-ai-theta-hub": [
+  {
+   "id": "uvc-ai-theta-lens",
+   "why": "Lens sold separately; required",
+   "req": true
+  },
+  {
+   "id": "uck-g2-ssd",
+   "why": "Protect host with storage",
+   "req": true
+  },
+  {
+   "id": "u-poe-af",
+   "why": "PoE source",
+   "req": true
+  },
+  {
+   "id": "uvc-ai-theta-audio",
+   "why": "Optional audio module",
+   "req": false
+  },
+  {
+   "id": "uacc-ai-theta-cms",
+   "why": "Vendor-listed ceiling mount",
+   "req": false
+  }
+ ],
+ "uvc-ai-theta-lens": [
+  {
+   "id": "uvc-ai-theta-hub",
+   "why": "Requires AI Theta Hub",
+   "req": true
+  },
+  {
+   "id": "uck-g2-ssd",
+   "why": "Protect host with storage",
+   "req": true
+  },
+  {
+   "id": "uacc-ai-theta-video-cable-ext-5m",
+   "why": "Longer lens-to-hub cable",
+   "req": false
+  },
+  {
+   "id": "uacc-ai-theta-angle-mount-camera",
+   "why": "Vendor-listed fit: AI Theta Angle Mount",
+   "req": false
+  }
+ ],
+ "uvc-ai-theta-lens-360": [
+  {
+   "id": "uvc-ai-theta-hub",
+   "why": "Requires AI Theta Hub",
+   "req": true
+  },
+  {
+   "id": "uck-g2-ssd",
+   "why": "Protect host with storage",
+   "req": true
+  },
+  {
+   "id": "uacc-ai-theta-video-cable-ext-5m",
+   "why": "Longer lens-to-hub cable",
+   "req": false
+  }
+ ],
+ "uvc-ai-theta-lens-ld": [
+  {
+   "id": "uvc-ai-theta-hub",
+   "why": "Requires AI Theta Hub",
+   "req": true
+  },
+  {
+   "id": "uck-g2-ssd",
+   "why": "Protect host with storage",
+   "req": true
+  },
+  {
+   "id": "uacc-ai-theta-video-cable-ext-5m",
+   "why": "Longer lens-to-hub cable",
+   "req": false
+  },
+  {
+   "id": "uacc-ai-theta-angle-mount-camera",
+   "why": "Vendor-listed fit: AI Theta Angle Mount",
+   "req": false
+  }
+ ],
+ "uvc-ai-theta-pro": [
+  {
+   "id": "uck-g2-ssd",
+   "why": "Protect host with storage",
+   "req": true
+  },
+  {
+   "id": "u-poe-af",
+   "why": "PoE source",
+   "req": true
+  },
+  {
+   "id": "uvc-ai-theta-audio",
+   "why": "Optional audio module",
+   "req": false
+  },
+  {
+   "id": "uacc-ai-theta-cms",
+   "why": "Vendor-listed ceiling mount",
+   "req": false
+  }
+ ],
+ "uvc-ai-theta-prolens110": [
+  {
+   "id": "uvc-ai-theta-hub",
+   "why": "Requires AI Theta Hub",
+   "req": true
+  },
+  {
+   "id": "uck-g2-ssd",
+   "why": "Protect host with storage",
+   "req": true
+  },
+  {
+   "id": "uacc-ai-theta-video-cable-ext-5m",
+   "why": "Longer lens-to-hub cable",
+   "req": false
+  },
+  {
+   "id": "uacc-ai-theta-pro-angle-mount-camera",
+   "why": "Vendor-listed fit: AI Theta Pro Angle Mount",
+   "req": false
+  }
+ ],
+ "uvc-ai-theta-prolens360": [
+  {
+   "id": "uvc-ai-theta-hub",
+   "why": "Requires AI Theta Hub",
+   "req": true
+  },
+  {
+   "id": "uck-g2-ssd",
+   "why": "Protect host with storage",
+   "req": true
+  },
+  {
+   "id": "uacc-ai-theta-video-cable-ext-5m",
+   "why": "Longer lens-to-hub cable",
+   "req": false
+  },
+  {
+   "id": "uacc-ai-theta-pro-pfm-camera",
+   "why": "Vendor-listed fit: AI Theta Pro Flush Mount",
+   "req": false
+  }
+ ],
+ "uvc-ai-theta-prolens50": [
+  {
+   "id": "uvc-ai-theta-hub",
+   "why": "Requires AI Theta Hub",
+   "req": true
+  },
+  {
+   "id": "uck-g2-ssd",
+   "why": "Protect host with storage",
+   "req": true
+  },
+  {
+   "id": "uacc-ai-theta-video-cable-ext-5m",
+   "why": "Longer lens-to-hub cable",
+   "req": false
+  },
+  {
+   "id": "uacc-ai-theta-pro-angle-mount-camera",
+   "why": "Vendor-listed fit: AI Theta Pro Angle Mount",
+   "req": false
+  }
+ ],
+ "uvc-ai-turret": [
+  {
+   "id": "uck-g2-ssd",
+   "why": "Requires Protect host with storage",
+   "req": true
+  },
+  {
+   "id": "u-poe-plus",
+   "why": "Needs PoE+; 802.3af ports will not run it",
+   "req": true
+  },
+  {
+   "id": "usw-lite-8-poe",
+   "why": "PoE+ switch for several cameras",
+   "req": false
+  },
+  {
+   "id": "uacc-camera-am",
+   "why": "Vendor-listed fit: Camera Arm Mount",
+   "req": false
+  },
+  {
+   "id": "uacc-camera-dm",
+   "why": "Vendor-listed fit: Camera Dual Mount",
+   "req": false
+  }
+ ],
+ "uvc-doorbell-lite": [
+  {
+   "id": "unvr-instant",
+   "why": "Protect NVR with PoE port to power it",
+   "req": true
+  },
+  {
+   "id": "up-chime-us",
+   "why": "Indoor chime",
+   "req": false
+  },
+  {
+   "id": "uacc-db-gb-plate",
+   "why": "Vendor-listed gang box plate",
+   "req": false
+  }
+ ],
+ "uvc-g3-flex": [
+  {
+   "id": "unvr-instant",
+   "why": "Protect NVR whose PoE ports power this camera",
+   "req": true
+  },
+  {
+   "id": "uacc-flex-cam-pwm",
+   "why": "Vendor-listed fit: Flex Pro Mount",
+   "req": false
+  },
+  {
+   "id": "uvc-g3-f-c",
+   "why": "Vendor-listed fit: Flex In-Ceiling Mount",
+   "req": false
+  }
+ ],
+ "uvc-g3-ins": [
+  {
+   "id": "uck-g2-ssd",
+   "why": "Requires Protect host with storage",
+   "req": true
+  },
+  {
+   "id": "uacc-adapter-poe-usbc",
+   "why": "Wired PoE power/data instead of WiFi",
+   "req": false
+  },
+  {
+   "id": "unifi-g3-instant-cover",
+   "why": "Vendor-listed fit: G3 Instant Cover",
+   "req": false
+  }
+ ],
+ "uvc-g4-bullet": [
+  {
+   "id": "unvr-instant",
+   "why": "Protect NVR whose PoE ports power this camera",
+   "req": true
+  },
+  {
+   "id": "uacc-camera-dm",
+   "why": "Vendor-listed fit: Camera Dual Mount",
+   "req": false
+  },
+  {
+   "id": "uacc-camera-jb",
+   "why": "Vendor-listed fit: Camera Junction Box (Vintage)",
+   "req": false
+  }
+ ],
+ "uvc-g4-dome": [
+  {
+   "id": "unvr-instant",
+   "why": "Protect NVR whose PoE ports power this camera",
+   "req": true
+  },
+  {
+   "id": "g4-dome-arm-mount",
+   "why": "Vendor-listed fit: Dome Camera Arm Mount",
+   "req": false
+  },
+  {
+   "id": "uacc-camera-jb",
+   "why": "Vendor-listed fit: Camera Junction Box (Vintage)",
+   "req": false
+  }
+ ],
+ "uvc-g4-doorbell-pro": [
+  {
+   "id": "uck-g2-ssd",
+   "why": "Requires Protect host with storage",
+   "req": true
+  },
+  {
+   "id": "uacc-adapter-dbac-us",
+   "why": "Power via doorbell transformer adapter",
+   "req": false
+  },
+  {
+   "id": "uacc-adapter-poe-usbc",
+   "why": "Wired PoE instead of WiFi",
+   "req": false
+  },
+  {
+   "id": "up-chime-us",
+   "why": "Indoor chime",
+   "req": false
+  },
+  {
+   "id": "ua-card",
+   "why": "NFC cards for door entry",
+   "req": false
+  }
+ ],
+ "uvc-g4-doorbell-pro-poe-kit": [
+  {
+   "id": "uck-g2-ssd",
+   "why": "Requires Protect host with storage",
+   "req": true
+  },
+  {
+   "id": "u-poe-af",
+   "why": "PoE source (needs 2 ports with chime)",
+   "req": true
+  },
+  {
+   "id": "uacc-chime-poe",
+   "why": "PoE chime",
+   "req": false
+  },
+  {
+   "id": "ua-card",
+   "why": "NFC cards for door entry",
+   "req": false
+  },
+  {
+   "id": "uacc-g4-doorbell-pro-poe-gang-box",
+   "why": "Vendor-listed gang box mount",
+   "req": false
+  }
+ ],
+ "uvc-g4-ins": [
+  {
+   "id": "uck-g2-ssd",
+   "why": "Requires Protect host with storage",
+   "req": true
+  },
+  {
+   "id": "uacc-adapter-poe-usbc",
+   "why": "Wired PoE power/data instead of WiFi",
+   "req": false
+  },
+  {
+   "id": "uacc-g4-ins-cable-usb-4-5m",
+   "why": "Vendor-listed fit: Instant Camera PoE to USB-C Cable",
+   "req": false
+  }
+ ],
+ "uvc-g4-pro": [
+  {
+   "id": "unvr-instant",
+   "why": "Protect NVR whose PoE ports power this camera",
+   "req": true
+  },
+  {
+   "id": "uacc-bullet-ab",
+   "why": "Vendor-listed fit: Bullet Camera Angled Base",
+   "req": false
+  },
+  {
+   "id": "uacc-camera-dm",
+   "why": "Vendor-listed fit: Camera Dual Mount",
+   "req": false
+  }
+ ],
+ "uvc-g5-bullet": [
+  {
+   "id": "unvr-instant",
+   "why": "Protect NVR whose PoE ports power this camera",
+   "req": true
+  },
+  {
+   "id": "uacc-camera-dm",
+   "why": "Vendor-listed fit: Camera Dual Mount",
+   "req": false
+  },
+  {
+   "id": "uacc-camera-jb",
+   "why": "Vendor-listed fit: Camera Junction Box (Vintage)",
+   "req": false
+  }
+ ],
+ "uvc-g5-dome": [
+  {
+   "id": "unvr-instant",
+   "why": "Protect NVR whose PoE ports power this camera",
+   "req": true
+  },
+  {
+   "id": "g4-dome-arm-mount",
+   "why": "Vendor-listed fit: Dome Camera Arm Mount",
+   "req": false
+  },
+  {
+   "id": "uacc-camera-jb",
+   "why": "Vendor-listed fit: Camera Junction Box (Vintage)",
+   "req": false
+  }
+ ],
+ "uvc-g5-dome-ultra": [
+  {
+   "id": "unvr-instant",
+   "why": "Protect NVR whose PoE ports power this camera",
+   "req": true
+  },
+  {
+   "id": "uacc-camera-cjb",
+   "why": "Vendor-listed fit: Camera Compact Junction Box (Vintage)",
+   "req": false
+  },
+  {
+   "id": "uacc-camera-dm",
+   "why": "Vendor-listed fit: Camera Dual Mount",
+   "req": false
+  }
+ ],
+ "uvc-g5-flex": [
+  {
+   "id": "unvr-instant",
+   "why": "Protect NVR whose PoE ports power this camera",
+   "req": true
+  },
+  {
+   "id": "uacc-flex-cam-pwm",
+   "why": "Vendor-listed fit: Flex Pro Mount",
+   "req": false
+  },
+  {
+   "id": "uvc-g3-f-c",
+   "why": "Vendor-listed fit: Flex In-Ceiling Mount",
+   "req": false
+  }
+ ],
+ "uvc-g5-pro": [
+  {
+   "id": "unvr-instant",
+   "why": "Protect NVR whose PoE ports power this camera",
+   "req": true
+  },
+  {
+   "id": "uacc-bullet-ab",
+   "why": "Vendor-listed fit: Bullet Camera Angled Base",
+   "req": false
+  },
+  {
+   "id": "uacc-camera-dm",
+   "why": "Vendor-listed fit: Camera Dual Mount",
+   "req": false
+  }
+ ],
+ "uvc-g5-ptz": [
+  {
+   "id": "uck-g2-ssd",
+   "why": "Requires Protect host with storage",
+   "req": true
+  },
+  {
+   "id": "u-poe-plus",
+   "why": "Needs PoE+; 802.3af ports will not run it",
+   "req": true
+  },
+  {
+   "id": "usw-lite-8-poe",
+   "why": "PoE+ switch for several cameras",
+   "req": false
+  },
+  {
+   "id": "uacc-g5-ptz-ca",
+   "why": "Vendor-listed fit: G6/G5 PTZ Conduit Adapter",
+   "req": false
+  },
+  {
+   "id": "uacc-g5-ptz-cm",
+   "why": "Vendor-listed fit: G6/G5 PTZ Corner Mount",
+   "req": false
+  }
+ ],
+ "uvc-g5-turret-ultra": [
+  {
+   "id": "unvr-instant",
+   "why": "Protect NVR whose PoE ports power this camera",
+   "req": true
+  },
+  {
+   "id": "uacc-camera-am",
+   "why": "Vendor-listed fit: Camera Arm Mount",
+   "req": false
+  },
+  {
+   "id": "uacc-camera-cjb",
+   "why": "Vendor-listed fit: Camera Compact Junction Box (Vintage)",
+   "req": false
+  }
+ ],
+ "uvc-g6-180": [
+  {
+   "id": "uck-g2-ssd",
+   "why": "Requires Protect host with storage",
+   "req": true
+  },
+  {
+   "id": "u-poe-plus",
+   "why": "Needs PoE+; 802.3af ports will not run it",
+   "req": true
+  },
+  {
+   "id": "usw-lite-8-poe",
+   "why": "PoE+ switch for several cameras",
+   "req": false
+  },
+  {
+   "id": "uacc-camera-am",
+   "why": "Vendor-listed fit: Camera Arm Mount",
+   "req": false
+  },
+  {
+   "id": "uacc-camera-dm",
+   "why": "Vendor-listed fit: Camera Dual Mount",
+   "req": false
+  }
+ ],
+ "uvc-g6-bullet": [
+  {
+   "id": "unvr-instant",
+   "why": "Protect NVR whose PoE ports power this camera",
+   "req": true
+  },
+  {
+   "id": "uacc-bullet-ab",
+   "why": "Vendor-listed fit: Bullet Camera Angled Base",
+   "req": false
+  },
+  {
+   "id": "uacc-camera-cjb",
+   "why": "Vendor-listed fit: Camera Compact Junction Box (Vintage)",
+   "req": false
+  }
+ ],
+ "uvc-g6-dome": [
+  {
+   "id": "unvr-instant",
+   "why": "Protect NVR whose PoE ports power this camera",
+   "req": true
+  },
+  {
+   "id": "uacc-camera-am",
+   "why": "Vendor-listed fit: Camera Arm Mount",
+   "req": false
+  },
+  {
+   "id": "uacc-camera-dm",
+   "why": "Vendor-listed fit: Camera Dual Mount",
+   "req": false
+  }
+ ],
+ "uvc-g6-edge-bullet": [
+  {
+   "id": "u-poe-plus",
+   "why": "Needs PoE+ source (25W)",
+   "req": true
+  },
+  {
+   "id": "uck-g2-ssd",
+   "why": "Optional Protect host for central management",
+   "req": false
+  },
+  {
+   "id": "uacc-camera-dm",
+   "why": "Vendor-listed fit: Camera Dual Mount",
+   "req": false
+  },
+  {
+   "id": "uacc-camera-jb",
+   "why": "Vendor-listed fit: Camera Junction Box (Vintage)",
+   "req": false
+  },
+  {
+   "id": "uacc-msd",
+   "why": "Larger microSD for on-camera recording",
+   "req": false
+  }
+ ],
+ "uvc-g6-edge-dome": [
+  {
+   "id": "u-poe-plus",
+   "why": "Needs PoE+ source (25W)",
+   "req": true
+  },
+  {
+   "id": "uck-g2-ssd",
+   "why": "Optional Protect host for central management",
+   "req": false
+  },
+  {
+   "id": "uacc-camera-am",
+   "why": "Vendor-listed fit: Camera Arm Mount",
+   "req": false
+  },
+  {
+   "id": "uacc-camera-dm",
+   "why": "Vendor-listed fit: Camera Dual Mount",
+   "req": false
+  },
+  {
+   "id": "uacc-msd",
+   "why": "Larger microSD for on-camera recording",
+   "req": false
+  }
+ ],
+ "uvc-g6-edge-turret": [
+  {
+   "id": "u-poe-plus",
+   "why": "Needs PoE+ source (25W)",
+   "req": true
+  },
+  {
+   "id": "uck-g2-ssd",
+   "why": "Optional Protect host for central management",
+   "req": false
+  },
+  {
+   "id": "uacc-camera-am",
+   "why": "Vendor-listed fit: Camera Arm Mount",
+   "req": false
+  },
+  {
+   "id": "uacc-camera-dm",
+   "why": "Vendor-listed fit: Camera Dual Mount",
+   "req": false
+  },
+  {
+   "id": "uacc-msd",
+   "why": "Larger microSD for on-camera recording",
+   "req": false
+  }
+ ],
+ "uvc-g6-entry": [
+  {
+   "id": "ucg-max",
+   "why": "Console running Protect AND Access",
+   "req": true
+  },
+  {
+   "id": "ua-hub-door-mini",
+   "why": "Access Hub Mini for NFC & lock control",
+   "req": true
+  },
+  {
+   "id": "u-poe-plus",
+   "why": "Needs PoE+ source",
+   "req": true
+  },
+  {
+   "id": "ua-intercom-viewer",
+   "why": "Indoor intercom viewer",
+   "req": false
+  },
+  {
+   "id": "uacc-chime-poe",
+   "why": "PoE chime",
+   "req": false
+  },
+  {
+   "id": "ua-card",
+   "why": "NFC credentials",
+   "req": false
+  }
+ ],
+ "uvc-g6-ins": [
+  {
+   "id": "uck-g2-ssd",
+   "why": "Requires Protect host with storage",
+   "req": true
+  },
+  {
+   "id": "uacc-adapter-poe-usbc",
+   "why": "Wired PoE power/data instead of WiFi",
+   "req": false
+  },
+  {
+   "id": "uacc-g4-ins-cable-usb-4-5m",
+   "why": "Vendor-listed fit: Instant Camera PoE to USB-C Cable",
+   "req": false
+  }
+ ],
+ "uvc-g6-mini-dome": [
+  {
+   "id": "unvr-instant",
+   "why": "Protect NVR whose PoE ports power this camera",
+   "req": true
+  },
+  {
+   "id": "uacc-camera-am",
+   "why": "Vendor-listed fit: Camera Arm Mount",
+   "req": false
+  },
+  {
+   "id": "uacc-camera-cjb",
+   "why": "Vendor-listed fit: Camera Compact Junction Box (Vintage)",
+   "req": false
+  }
+ ],
+ "uvc-g6-pro-360": [
+  {
+   "id": "uck-g2-ssd",
+   "why": "Requires Protect host with storage",
+   "req": true
+  },
+  {
+   "id": "u-poe-plus",
+   "why": "Needs PoE+; 802.3af ports will not run it",
+   "req": true
+  },
+  {
+   "id": "usw-lite-8-poe",
+   "why": "PoE+ switch for several cameras",
+   "req": false
+  },
+  {
+   "id": "uacc-ai-360-jb",
+   "why": "Vendor-listed fit: AI 360 Junction Box",
+   "req": false
+  },
+  {
+   "id": "uacc-camera-am",
+   "why": "Vendor-listed fit: Camera Arm Mount",
+   "req": false
+  }
+ ],
+ "uvc-g6-pro-bullet": [
+  {
+   "id": "uck-g2-ssd",
+   "why": "Requires Protect host with storage",
+   "req": true
+  },
+  {
+   "id": "u-poe-plus",
+   "why": "Needs PoE+; 802.3af ports will not run it",
+   "req": true
+  },
+  {
+   "id": "usw-lite-8-poe",
+   "why": "PoE+ switch for several cameras",
+   "req": false
+  },
+  {
+   "id": "uacc-camera-dm",
+   "why": "Vendor-listed fit: Camera Dual Mount",
+   "req": false
+  },
+  {
+   "id": "uacc-camera-jb",
+   "why": "Vendor-listed fit: Camera Junction Box (Vintage)",
+   "req": false
+  }
+ ],
+ "uvc-g6-pro-dome": [
+  {
+   "id": "uck-g2-ssd",
+   "why": "Requires Protect host with storage",
+   "req": true
+  },
+  {
+   "id": "u-poe-plus",
+   "why": "Needs PoE+; 802.3af ports will not run it",
+   "req": true
+  },
+  {
+   "id": "usw-lite-8-poe",
+   "why": "PoE+ switch for several cameras",
+   "req": false
+  },
+  {
+   "id": "uacc-camera-am",
+   "why": "Vendor-listed fit: Camera Arm Mount",
+   "req": false
+  },
+  {
+   "id": "uacc-camera-dm",
+   "why": "Vendor-listed fit: Camera Dual Mount",
+   "req": false
+  }
+ ],
+ "uvc-g6-pro-entry": [
+  {
+   "id": "ucg-max",
+   "why": "Console running Protect AND Access",
+   "req": true
+  },
+  {
+   "id": "ua-hub-door-mini",
+   "why": "Access Hub Mini for NFC & lock control",
+   "req": true
+  },
+  {
+   "id": "u-poe-plus",
+   "why": "Needs PoE+ source",
+   "req": true
+  },
+  {
+   "id": "ua-intercom-viewer",
+   "why": "Indoor intercom viewer",
+   "req": false
+  },
+  {
+   "id": "uacc-chime-poe",
+   "why": "PoE chime",
+   "req": false
+  },
+  {
+   "id": "ua-card",
+   "why": "NFC credentials",
+   "req": false
+  }
+ ],
+ "uvc-g6-pro-turret": [
+  {
+   "id": "uck-g2-ssd",
+   "why": "Requires Protect host with storage",
+   "req": true
+  },
+  {
+   "id": "u-poe-plus",
+   "why": "Needs PoE+; 802.3af ports will not run it",
+   "req": true
+  },
+  {
+   "id": "usw-lite-8-poe",
+   "why": "PoE+ switch for several cameras",
+   "req": false
+  },
+  {
+   "id": "uacc-camera-am",
+   "why": "Vendor-listed fit: Camera Arm Mount",
+   "req": false
+  },
+  {
+   "id": "uacc-camera-dm",
+   "why": "Vendor-listed fit: Camera Dual Mount",
+   "req": false
+  }
+ ],
+ "uvc-g6-ptz": [
+  {
+   "id": "uck-g2-ssd",
+   "why": "Requires Protect host with storage",
+   "req": true
+  },
+  {
+   "id": "u-poe-plus",
+   "why": "Needs PoE+; 802.3af ports will not run it",
+   "req": true
+  },
+  {
+   "id": "usw-lite-8-poe",
+   "why": "PoE+ switch for several cameras",
+   "req": false
+  },
+  {
+   "id": "uacc-g5-ptz-ca",
+   "why": "Vendor-listed fit: G6/G5 PTZ Conduit Adapter",
+   "req": false
+  },
+  {
+   "id": "uacc-g5-ptz-cm",
+   "why": "Vendor-listed fit: G6/G5 PTZ Corner Mount",
+   "req": false
+  }
+ ],
+ "uvc-g6-turret": [
+  {
+   "id": "unvr-instant",
+   "why": "Protect NVR whose PoE ports power this camera",
+   "req": true
+  },
+  {
+   "id": "uacc-camera-am",
+   "why": "Vendor-listed fit: Camera Arm Mount",
+   "req": false
+  },
+  {
+   "id": "uacc-camera-dm",
+   "why": "Vendor-listed fit: Camera Dual Mount",
+   "req": false
+  }
+ ],
+ "uwb-xg": [
+  {
+   "id": "ucg-ultra",
+   "why": "Managed by UniFi Network console",
+   "req": true
+  },
+  {
+   "id": "uacc-poe-plus-plus-10g",
+   "why": "Needs PoE++ (802.3bt); will not run on PoE+ switch ports",
+   "req": true
+  },
+  {
+   "id": "usw-pro-xg-8-poe",
+   "why": "PoE++-capable switch ports at 10GbE",
+   "req": false
+  }
+ ],
+ "ux": [
+  {
+   "id": "u7-lite",
+   "why": "Wired AP to extend coverage (legacy console)",
+   "req": false
+  },
+  {
+   "id": "usw-flex-mini",
+   "why": "More wired ports",
+   "req": false
+  },
+  {
+   "id": "uacc-fm",
+   "why": "Vendor-listed floating mount",
+   "req": false
+  }
+ ],
+ "ux7": [
+  {
+   "id": "u7-lite",
+   "why": "Wired AP to extend coverage beyond the UX7",
+   "req": false
+  },
+  {
+   "id": "usw-flex-mini",
+   "why": "More wired ports; UX7 has one LAN",
+   "req": false
+  },
+  {
+   "id": "u5g-us",
+   "why": "Cellular WAN failover",
+   "req": false
+  },
+  {
+   "id": "ups-tower-us",
+   "why": "Battery backup",
+   "req": false
+  },
+  {
+   "id": "uacc-fm-16cm",
+   "why": "Vendor-listed floating mount",
+   "req": false
+  }
+ ]
+}

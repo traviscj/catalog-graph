@@ -1,0 +1,85 @@
+{
+ "id": "u6-mesh",
+ "name": "U6-Mesh",
+ "title": "Access Point U6 Mesh",
+ "price": 179.0,
+ "line": "WiFi 6",
+ "legacy": false,
+ "summary": "Slim indoor/outdoor IPX5 WiFi 6 AP (6 streams) for mesh, wall/pole mount, PoE (adapter included).",
+ "jobs": [
+  {
+   "job": "wifi_outdoor",
+   "role": "primary"
+  },
+  {
+   "job": "wifi_mesh_extend",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "outdoor",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "poe"
+  ],
+  "power_draw_w": 13,
+  "uplink": "1GbE",
+  "ports": {
+   "rj45_1g": 1,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": 250,
+  "wifi_std": "WiFi 6",
+  "bands": [
+   "2.4",
+   "5"
+  ],
+  "streams": 6,
+  "coverage_m2": 140,
+  "outdoor_rated": true,
+  "ip_rating": "IPX5",
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "PoE adapter included",
+   "wireless meshing"
+  ],
+  "requires": [],
+  "extra": {}
+ },
+ "gotchas": [
+  "IPX5 only (water jets, no dust rating) - for exposed sites check against IP66/67 outdoor APs.",
+  "No 6 GHz; WiFi 6 only.",
+  "Wireless mesh halves backhaul - meshed units still need power at the site (PoE adapter).",
+  "Single 1 GbE port - no downstream wired device."
+ ],
+ "best_for": [
+  "patios/yards",
+  "meshing to spots without Ethernet"
+ ],
+ "not_for": [
+  "6 GHz",
+  "harsh dusty environments"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

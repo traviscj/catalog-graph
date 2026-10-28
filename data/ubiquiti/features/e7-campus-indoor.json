@@ -1,0 +1,98 @@
+{
+ "id": "e7-campus-indoor",
+ "name": "E7-Campus-Indoor",
+ "title": "Access Point E7 Campus Indoor",
+ "price": 799.0,
+ "line": "Enterprise WiFi 7 (E7)",
+ "legacy": false,
+ "summary": "Directional 10-stream WiFi 7 AP for wall/pole mounting in large indoor venues; 10GbE + redundant 1GbE.",
+ "jobs": [
+  {
+   "job": "wifi_highdensity",
+   "role": "primary"
+  },
+  {
+   "job": "wifi_wall",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "wall",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "poe++"
+  ],
+  "power_draw_w": 44,
+  "uplink": "10GbE",
+  "ports": {
+   "rj45_1g": 1,
+   "rj45_2_5g": 0,
+   "rj45_10g": 1,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": 1000,
+  "wifi_std": "WiFi 7",
+  "bands": [
+   "2.4",
+   "5",
+   "6"
+  ],
+  "streams": 10,
+  "coverage_m2": 465,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [
+   "redundant_uplink"
+  ],
+  "special": [
+   "directional antenna (90x50 deg @6GHz)",
+   "real-time spectral analysis",
+   "zero-wait DFS",
+   "6 GHz extended range (FCC/IC)",
+   "PRISM RF filtering"
+  ],
+  "requires": [
+   "PoE++ source (44W)",
+   "10GbE switch port to use full throughput",
+   "UniFi OS console / gateway running UniFi Network (10.0.162+)"
+  ],
+  "extra": {
+   "temp_range": "-40 to 60C despite Indoor name",
+   "certifications": "FCC, IC only"
+  }
+ },
+ "gotchas": [
+  "Needs PoE++ (44W max) — PoE+ switches like USW-Pro-8/24-PoE PoE+ ports won't run it; use PoE++ ports or a USW-Pro-Max/ECS PoE++ switch.",
+  "Antenna is directional (90°x50°) for wall/pole aiming at a seating area — for normal ceiling omni coverage pick U7 Pro / U7 Pro Max.",
+  "To use its 11.5 Gbps 6 GHz radio you need a 10GbE switch port (e.g. USW-Pro-XG-24 class); on 1GbE it's starved.",
+  "Indoor-rated (no IP rating) despite pole mounts — outdoor venues need the outdoor E7 Campus variant.",
+  "FCC/IC certified only; 6 GHz Extended Range is North America only."
+ ],
+ "best_for": [
+  "auditoriums, gyms, lecture halls, warehouses"
+ ],
+ "not_for": [
+  "homes",
+  "standard office ceilings"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

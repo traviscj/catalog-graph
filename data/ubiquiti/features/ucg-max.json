@@ -1,0 +1,105 @@
+{
+ "id": "ucg-max",
+ "name": "UCG-Max",
+ "title": "Cloud Gateway Max",
+ "price": 279.0,
+ "line": "Cloud Gateway",
+ "legacy": false,
+ "summary": "Compact 5x2.5GbE cloud gateway + full UniFi OS console (Network/Protect/Access/Talk/Connect) with optional NVMe.",
+ "jobs": [
+  {
+   "job": "gateway_router",
+   "role": "primary"
+  },
+  {
+   "job": "console_host",
+   "role": "primary"
+  },
+  {
+   "job": "nvr_recording",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "desktop",
+  "requires_console": false,
+  "hosts_apps": [
+   "network",
+   "protect",
+   "access",
+   "talk",
+   "connect"
+  ],
+  "managed_by": "network",
+  "power_in": [
+   "usb_c"
+  ],
+  "power_draw_w": 16.1,
+  "uplink": "2.5GbE",
+  "ports": {
+   "rj45_1g": 0,
+   "rj45_2_5g": 5,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": 4,
+  "ips_throughput_gbps": 2.3,
+  "routing_throughput_gbps": null,
+  "max_devices": 30,
+  "max_clients": 300,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": "1x M.2 NVMe slot (optional SSD, up to 2TB)",
+  "max_storage_tb": 2,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "IDS/IPS",
+   "zone-based firewall",
+   "SD-WAN/Site Magic",
+   "WireGuard/OpenVPN/IPsec",
+   "Teleport VPN",
+   "0.96in status display",
+   "multi-WAN",
+   "BGP/OSPF"
+  ],
+  "requires": [],
+  "extra": {
+   "managed_cameras": "(15) HD (8) 2K (5) 4K",
+   "managed_access_hubs": 50,
+   "storage_note": "No-Storage SKU ships without SSD and without the tray accessory needed for third-party NVMe",
+   "ips_note": "2.3 Gbps requires UniFi OS 4.1+"
+  }
+ },
+ "gotchas": [
+  "No SFP/SFP+ port — fiber ONTs need a media converter; for a 10G SFP+ WAN look at UCG-Fiber.",
+  "IDS/IPS tops out at 2.3 Gbps, so a >2 Gbps plan is throttled with IPS enabled.",
+  "No PoE output — APs/cameras need a PoE switch (e.g. USW-Lite-8-PoE) or injectors.",
+  "'No Storage' SKU lacks both the NVMe SSD and the drive tray; Protect recording needs the 512GB/1–2TB SKU or the tray accessory.",
+  "Camera capacity is small (5x 4K / 15x HD) and 30-device ceiling — larger Protect sites need a UNVR/ENVR."
+ ],
+ "best_for": [
+  "homes and small offices up to ~2 Gbps WAN",
+  "one box for gateway + a few cameras + Access"
+ ],
+ "not_for": [
+  "10G fiber WAN",
+  "large camera counts",
+  "rack installs"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

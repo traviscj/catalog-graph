@@ -1,0 +1,87 @@
+{
+ "id": "uvc-g6-mini-dome",
+ "name": "UVC-G6-Mini-Dome",
+ "title": "Camera G6 Mini Dome",
+ "price": 299.0,
+ "line": "G6 camera",
+ "legacy": false,
+ "summary": "Compact indoor 4K dome, 1/1.8\" sensor, AI face/LPR, two-way audio, 20 m IR.",
+ "jobs": [
+  {
+   "job": "camera_indoor",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "camera_dome",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "protect",
+  "power_in": [
+   "poe"
+  ],
+  "power_draw_w": 9,
+  "uplink": "100MbE",
+  "ports": {
+   "rj45_1g": 0,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": {
+   "res": "4K",
+   "fps": 30,
+   "night": "IR 20m",
+   "ai": "person/vehicle/animal/face/LPR",
+   "lens": "fixed, 110°H",
+   "audio": "two-way"
+  },
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "IK08"
+  ],
+  "requires": [
+   "UniFi Protect NVR/console with storage"
+  ],
+  "extra": {
+   "network_port": "10/100 RJ45",
+   "indoor": "no IP rating; desc says indoor"
+  }
+ },
+ "gotchas": [
+  "Indoor only (no IP rating) — outdoors use G6 Turret/Dome or G5 Bullet.",
+  "Needs Protect on a console/NVR with storage; no onboard SD listed.",
+  "Fixed lens — no zoom; LPR range limited."
+ ],
+ "best_for": [
+  "discreet indoor 4K coverage of lobbies/retail"
+ ],
+ "not_for": [
+  "outdoor",
+  "long-range plates"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

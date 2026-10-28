@@ -1,0 +1,109 @@
+{
+ "id": "udm-beast",
+ "name": "UDM-Beast",
+ "title": "Dream Machine Beast",
+ "price": 1499.0,
+ "line": "Cloud Gateway",
+ "legacy": false,
+ "summary": "Flagship 1U Cloud Gateway: 25 Gbps IPS, 25G SFP28 WAN/LAN, 8x 10GbE, 2 NVR bays, full app suite.",
+ "jobs": [
+  {
+   "job": "gateway_router",
+   "role": "primary"
+  },
+  {
+   "job": "console_host",
+   "role": "secondary"
+  },
+  {
+   "job": "nvr_recording",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "rack_1u",
+  "requires_console": false,
+  "hosts_apps": [
+   "network",
+   "protect",
+   "access",
+   "talk",
+   "connect"
+  ],
+  "managed_by": "network",
+  "power_in": [
+   "ac",
+   "dc"
+  ],
+  "power_draw_w": 100,
+  "uplink": "25G SFP28",
+  "ports": {
+   "rj45_1g": 2,
+   "rj45_2_5g": 0,
+   "rj45_10g": 8,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 2,
+   "sfp28_25g": 2,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": 8,
+  "ips_throughput_gbps": 25,
+  "routing_throughput_gbps": null,
+  "max_devices": 750,
+  "max_clients": 7500,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": "2x 3.5\" NVR HDD bays + 128 GB SSD",
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [
+   "shadow_mode_ha",
+   "rps_dc_backup"
+  ],
+  "special": [
+   "1.3\" touchscreen",
+   "BGP/OSPF",
+   "multi-WAN load balancing",
+   "SD-WAN"
+  ],
+  "requires": [],
+  "extra": {
+   "managed_cameras": "(100) HD (60) 2K (40) 4K",
+   "managed_access_hubs": 200,
+   "default_wan": "(1) 25G SFP28 (1) 10GbE RJ45",
+   "ram_gb": 16,
+   "cpu": "Octa-core ARM v9 2.1 GHz",
+   "power_supply": "single internal 150W AC + USP-RPS DC input",
+   "tag_redundant_power_means": "RPS DC input, not dual AC PSUs"
+  }
+ },
+ "gotchas": [
+  "No PoE output on any port - every AP/camera needs a separate PoE switch (e.g. USW-Pro-HD-24-PoE / ECS-24-PoE).",
+  "Single internal AC PSU; 'redundant power' = DC backup via a separately bought USP-RPS ($399), not hot-swap dual PSUs.",
+  "Only 2x 3.5\" bays: rated for 40x 4K cameras but long retention at that scale needs a dedicated NVR.",
+  "Massive overkill for homes/small offices (IPS 25 Gbps, 7,500 clients) - a UCG-class gateway does a <1 Gbps WAN fine.",
+  "25G SFP28/10G SFP+ ports need modules or DACs, not included."
+ ],
+ "best_for": [
+  "multi-gig/10G-25G WAN sites",
+  "large campuses needing HA (Shadow Mode)",
+  "consolidating Network+Protect+Access on one box"
+ ],
+ "not_for": [
+  "homes",
+  "sites wanting PoE from the gateway",
+  "large camera fleets with long retention"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

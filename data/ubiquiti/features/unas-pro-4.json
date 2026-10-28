@@ -1,0 +1,85 @@
+{
+ "id": "unas-pro-4",
+ "name": "UNAS-Pro-4",
+ "title": "UNAS Pro 4",
+ "price": 499.0,
+ "line": "UNAS",
+ "legacy": false,
+ "summary": "1U NAS: 4 HDD bays + 2 M.2 NVMe cache, dual 10G SFP+, RAID 5/6/10, SMB/NFS via UniFi Drive.",
+ "jobs": [
+  {
+   "job": "storage_nas",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "rack_1u",
+  "requires_console": null,
+  "hosts_apps": [],
+  "managed_by": "drive",
+  "power_in": [
+   "ac",
+   "dc"
+  ],
+  "power_draw_w": 150,
+  "uplink": "10G SFP+",
+  "ports": {
+   "rj45_1g": 1,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 2,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": "4x 2.5/3.5\" bays + 2x M.2 NVMe",
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [
+   "rps_dc_backup"
+  ],
+  "special": [
+   "SMB/NFS",
+   "NVMe cache"
+  ],
+  "requires": [],
+  "extra": {
+   "raid": "RAID 5/6/10, single RAID group",
+   "nvme_max": "4 TiB",
+   "sfp_note": "SFP+ 10G only (no 1G)",
+   "management": "unifi.ui.com"
+  }
+ },
+ "gotchas": [
+  "SFP+ ports are 10G-only — no 1G SFP modules; copper is just one 1 GbE port (no 2.5/10G RJ45).",
+  "Single RAID group across 4 bays (RAID 5/6/10) — no mixing pools.",
+  "NVMe slots are cache (max 4 TiB), not extra storage pool.",
+  "Single PSU; DC backup requires UniFi RPS. Rack rails need 600 mm 4-post."
+ ],
+ "best_for": [
+  "UniFi-native file share/backup target on a 10G rack"
+ ],
+ "not_for": [
+  "1G-only copper networks",
+  "large multi-pool storage"
+ ],
+ "confidence": "medium",
+ "in_store": true,
+ "status": "Available"
+}

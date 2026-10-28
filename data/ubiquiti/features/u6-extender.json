@@ -1,0 +1,86 @@
+{
+ "id": "u6-extender",
+ "name": "U6-Extender-US",
+ "title": "Access Point U6 Extender",
+ "price": null,
+ "line": "WiFi 6 (legacy)",
+ "legacy": true,
+ "summary": "Wall-plug WiFi 6 mesh extender (5 GHz 4x4, 2.4 GHz 2x2), no Ethernet; discontinued.",
+ "jobs": [
+  {
+   "job": "wifi_mesh_extend",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "wall",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "ac"
+  ],
+  "power_draw_w": 11,
+  "uplink": null,
+  "ports": {
+   "rj45_1g": 0,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": 250,
+  "wifi_std": "WiFi 6",
+  "bands": [
+   "2.4",
+   "5"
+  ],
+  "streams": 6,
+  "coverage_m2": 115,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "plugs into wall outlet",
+   "wireless mesh only"
+  ],
+  "requires": [
+   "an existing wired UniFi AP to mesh from",
+   "UniFi Network controller/console"
+  ],
+  "extra": {
+   "region_variant": "US plug variant (U6-Extender-US)",
+   "ethernet": "no RJ45 listed"
+  }
+ },
+ "gotchas": [
+  "Legacy, not in store; current WiFi 7 mesh options are UX7 nodes or the U7-Mesh.",
+  "No Ethernet port — wireless backhaul only, so throughput is roughly halved vs. a wired AP.",
+  "Needs a wired UniFi AP + console to mesh from; no 6 GHz.",
+  "Region-specific plug (US SKU)."
+ ],
+ "best_for": [
+  "filling a dead spot where no cable can run"
+ ],
+ "not_for": [
+  "primary coverage",
+  "wired clients"
+ ],
+ "confidence": "high",
+ "in_store": false,
+ "status": null
+}

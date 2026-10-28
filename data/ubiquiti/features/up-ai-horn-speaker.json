@@ -1,0 +1,72 @@
+{
+ "id": "up-ai-horn-speaker",
+ "name": "UP-AI-Horn-Speaker",
+ "title": "AI Horn Speaker",
+ "price": 299.0,
+ "line": "Protect sensor",
+ "legacy": false,
+ "summary": "All-weather IP66 120 dB PoE+ horn speaker for AI-triggered deterrence/announcements via Protect.",
+ "jobs": [
+  {
+   "job": "alarm_sensor",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "outdoor",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "protect",
+  "power_in": [
+   "poe+"
+  ],
+  "power_draw_w": 14.3,
+  "uplink": "100MbE",
+  "ports": null,
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": true,
+  "ip_rating": "IP66",
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "120 dB speaker"
+  ],
+  "requires": [
+   "PoE+ source",
+   "UniFi Protect"
+  ],
+  "extra": {
+   "temp_c": "-40 to 60"
+  }
+ },
+ "gotchas": [
+  "Needs PoE+ (14.3 W) - 802.3af ports aren't enough.",
+  "Requires UniFi Protect; AI triggers come from Protect cameras.",
+  "Specs give no frequency response/intelligibility data - deterrence, not PA music."
+ ],
+ "best_for": [
+  "perimeter deterrence with Protect AI",
+  "outdoor announcements"
+ ],
+ "not_for": [
+  "background music"
+ ],
+ "confidence": "medium",
+ "in_store": true,
+ "status": "Available"
+}

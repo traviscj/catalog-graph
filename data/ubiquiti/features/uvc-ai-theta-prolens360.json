@@ -1,0 +1,86 @@
+{
+ "id": "uvc-ai-theta-prolens360",
+ "name": "UVC-AI-Theta-ProLens360",
+ "title": "AI Theta Pro 360 Lens",
+ "price": 129.0,
+ "line": "AI Theta",
+ "legacy": false,
+ "summary": "Indoor 360° fisheye lens module for the AI Theta Hub with improved low light.",
+ "jobs": [
+  {
+   "job": "camera_indoor",
+   "role": "primary"
+  },
+  {
+   "job": "camera_ptz_wide",
+   "role": "secondary"
+  },
+  {
+   "job": "accessory",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "module",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "protect",
+  "power_in": [],
+  "power_draw_w": 2.5,
+  "uplink": null,
+  "ports": null,
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": {
+   "res": "4MP (2160x2160), marketed 4K",
+   "fps": 24,
+   "night": null,
+   "ai": null,
+   "lens": "fisheye 180°",
+   "audio": null
+  },
+  "sensors": [],
+  "redundancy": [],
+  "special": [],
+  "requires": [
+   "UniFi AI Theta Hub (UVC-AI-Theta)",
+   "UniFi Protect host (Cloud Gateway/UNVR/CloudKey) with storage"
+  ],
+  "extra": {
+   "res_conflict": "Resolution field says 4K but video is 2160x2160 (4MP)",
+   "power": "Theta proprietary 5V 0.5A",
+   "ir": "none listed",
+   "store_status": "SoldOut"
+  }
+ },
+ "gotchas": [
+  "Lens module only — needs an AI Theta Hub.",
+  "'4K' label vs 2160x2160 (4MP) actual stream.",
+  "Indoor only (0-40°C), no IR listed. Currently sold out."
+ ],
+ "best_for": [
+  "discreet ceiling 360 overview"
+ ],
+ "not_for": [
+  "outdoor",
+  "night"
+ ],
+ "confidence": "medium",
+ "in_store": true,
+ "status": "SoldOut"
+}

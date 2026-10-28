@@ -1,0 +1,90 @@
+{
+ "id": "u7-mesh",
+ "name": "U7-Mesh",
+ "title": "Access Point U7 Mesh",
+ "price": 199.0,
+ "line": "WiFi 7",
+ "legacy": false,
+ "summary": "Compact indoor/outdoor WiFi 7 mesh AP (IPX6), dual-band 2x2, 2.5GbE, omni/directional antenna.",
+ "jobs": [
+  {
+   "job": "wifi_outdoor",
+   "role": "primary"
+  },
+  {
+   "job": "wifi_mesh_extend",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "outdoor",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "poe"
+  ],
+  "power_draw_w": 13,
+  "uplink": "2.5GbE",
+  "ports": {
+   "rj45_1g": 0,
+   "rj45_2_5g": 1,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": 200,
+  "wifi_std": "WiFi 7",
+  "bands": [
+   "2.4",
+   "5"
+  ],
+  "streams": 4,
+  "coverage_m2": 140,
+  "outdoor_rated": true,
+  "ip_rating": "IPX6",
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "selectable omni/directional 5 GHz antenna",
+   "PoE adapter included",
+   "mesh"
+  ],
+  "requires": [
+   "UniFi Network controller/console"
+  ],
+  "extra": {
+   "ip_note": "IPX6 only when installed with the outdoor mount",
+   "boot_note": "shorter-boot cables recommended"
+  }
+ },
+ "gotchas": [
+  "No 6 GHz — 5/2.4 GHz only.",
+  "IPX6 only with the outdoor mount; short-boot cables recommended for the port.",
+  "Only 2x2 per band — modest capacity; mesh backhaul halves client throughput.",
+  "Needs a UniFi console/gateway to adopt."
+ ],
+ "best_for": [
+  "patios/yards, outbuildings",
+  "wireless mesh links"
+ ],
+ "not_for": [
+  "high-density outdoor venues"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

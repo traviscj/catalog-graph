@@ -1,0 +1,87 @@
+{
+ "id": "uvc-ai-theta-pro",
+ "name": "UVC-AI-Theta-Pro",
+ "title": "Camera AI Theta Pro",
+ "price": 329.0,
+ "line": "AI Theta",
+ "legacy": false,
+ "summary": "Discreet 360-degree ceiling camera system: AI Theta Hub + 4K ProLens360 fisheye, PoE.",
+ "jobs": [
+  {
+   "job": "camera_ptz_wide",
+   "role": "primary"
+  },
+  {
+   "job": "camera_indoor",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "camera_dome",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "protect",
+  "power_in": [
+   "poe"
+  ],
+  "power_draw_w": 12.5,
+  "uplink": "1GbE",
+  "ports": null,
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": {
+   "res": "4MP 2160x2160 (360 fisheye)",
+   "fps": 24,
+   "night": null,
+   "ai": "person/vehicle/animal; face/LPR only with wide-angle/long-distance lens",
+   "lens": "fixed 180x180 fisheye",
+   "audio": "two-way with optional AI Theta Audio"
+  },
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "flush mount",
+   "split hub+lens"
+  ],
+  "requires": [
+   "UniFi Protect on a console/NVR with storage"
+  ],
+  "extra": {
+   "res_conflict": "Overview says 4k; video resolution 4MP 2160x2160",
+   "status": "SoldOut",
+   "no_ip_rating": true
+  }
+ },
+ "gotchas": [
+  "Face/LPR only work with the separate Wide-Angle or Long-Distance lens (e.g. ProLens110) - not the included 360 lens.",
+  "Marketed '4K' but the 360 stream is 2160x2160 (4MP) at 24 fps.",
+  "No IR night vision listed; audio needs the optional AI Theta Audio.",
+  "Requires Protect on a console/NVR; sold out at scrape time."
+ ],
+ "best_for": [
+  "retail floors, lobbies, open offices",
+  "discreet ceiling installs"
+ ],
+ "not_for": [
+  "outdoor",
+  "dark spaces"
+ ],
+ "confidence": "medium",
+ "in_store": true,
+ "status": "SoldOut"
+}

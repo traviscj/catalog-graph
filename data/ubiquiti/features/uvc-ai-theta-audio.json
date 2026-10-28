@@ -1,0 +1,74 @@
+{
+ "id": "uvc-ai-theta-audio",
+ "name": "UVC-AI-Theta-Audio",
+ "title": "AI Theta Audio",
+ "price": 69.0,
+ "line": "AI Theta",
+ "legacy": false,
+ "summary": "Two-way audio module (speaker + mic) for the AI Theta Hub, flush mount, proprietary cable.",
+ "jobs": [
+  {
+   "job": "accessory",
+   "role": "primary"
+  },
+  {
+   "job": "camera_indoor",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "module",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "protect",
+  "power_in": [
+   "usb_c"
+  ],
+  "power_draw_w": 4.5,
+  "uplink": null,
+  "ports": null,
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [],
+  "requires": [
+   "UniFi AI Theta Hub (UVC-AI-Theta)",
+   "UniFi Protect host (Cloud Gateway/UNVR/CloudKey) with storage"
+  ],
+  "extra": {
+   "cable": "1 m Theta proprietary cable",
+   "power_note": "listed as USB-C 5V 0.9A"
+  }
+ },
+ "gotchas": [
+  "Not standalone — only works attached to an AI Theta Hub.",
+  "1 m proprietary cable limits placement relative to the hub.",
+  "Indoor temps only (-20 to 40°C, no IP rating)."
+ ],
+ "best_for": [
+  "adding talk-back to AI Theta"
+ ],
+ "not_for": [
+  "any other camera"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

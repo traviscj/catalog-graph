@@ -1,0 +1,96 @@
+{
+ "id": "unvr-pro",
+ "name": "UNVR-Pro",
+ "title": "Network Video Recorder Pro",
+ "price": 499.0,
+ "line": "NVR",
+ "legacy": false,
+ "summary": "2U 7-bay NVR running Protect/Access/Connect; up to 24 4K cameras, 10G SFP+.",
+ "jobs": [
+  {
+   "job": "nvr_recording",
+   "role": "primary"
+  },
+  {
+   "job": "console_host",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "rack_2u",
+  "requires_console": false,
+  "hosts_apps": [
+   "protect",
+   "access",
+   "connect"
+  ],
+  "managed_by": "protect",
+  "power_in": [
+   "ac",
+   "dc"
+  ],
+  "power_draw_w": 160,
+  "uplink": "10G SFP+",
+  "ports": {
+   "rj45_1g": 1,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 1,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": "7x 2.5/3.5\" bays (HDD/SSD)",
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [
+   "dc_power_backup_rps",
+   "data_protection_raid"
+  ],
+  "special": [
+   "1.3\" touchscreen",
+   "Vantage Point"
+  ],
+  "requires": [
+   "hard drives (not included)",
+   "PoE switch for cameras"
+  ],
+  "extra": {
+   "managed_cameras": "(70) HD / (35) 2K / (24) 4K",
+   "managed_access_hubs": 150,
+   "drive_power_w": 135,
+   "ram_gb": 8
+  }
+ },
+ "gotchas": [
+  "Drives not included — factor in 7x HDD cost.",
+  "Doesn't host UniFi Network — you still need a UniFi gateway/console for the network side.",
+  "No PoE and only 1x SFP+ + 1x GbE — cameras need a separate PoE switch.",
+  "Redundant power only with a USP-RPS."
+ ],
+ "best_for": [
+  "24+ camera Protect sites"
+ ],
+ "not_for": [
+  "single-box home setups (use a Cloud Gateway)"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

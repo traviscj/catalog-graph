@@ -1,0 +1,85 @@
+{
+ "id": "uvc-g5-pro",
+ "name": "UVC-G5-Pro",
+ "title": "Camera G5 Pro",
+ "price": 299.0,
+ "line": "G5 camera",
+ "legacy": false,
+ "summary": "4K indoor/outdoor bullet with 3x optical zoom, 25-40m IR, AI detections.",
+ "jobs": [
+  {
+   "job": "camera_outdoor",
+   "role": "primary"
+  },
+  {
+   "job": "camera_indoor",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "camera_bullet",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "protect",
+  "power_in": [
+   "poe",
+   "poe+"
+  ],
+  "power_draw_w": 10,
+  "uplink": "100MbE",
+  "ports": null,
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": true,
+  "ip_rating": "IP65",
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": {
+   "res": "4K (3840x2160)",
+   "fps": 30,
+   "night": "IR 25m (40m w/ Vision Enhancer)",
+   "ai": "people/vehicles/animals",
+   "lens": "4.1-12.3mm, 3x optical",
+   "audio": "microphone"
+  },
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "IK04"
+  ],
+  "requires": [
+   "UniFi Protect host (Cloud Gateway/UNVR/CloudKey) with storage"
+  ],
+  "extra": {
+   "power_note": "PoE alone; PoE+ with Vision Enhancer (12.95W)",
+   "nic": "10/100 MbE"
+  }
+ },
+ "gotchas": [
+  "Vision Enhancer (40m IR) bumps it to PoE+.",
+  "IK04 — low vandal resistance; G6/AI line for IK10.",
+  "No face/LPR — AI-series cameras for recognition.",
+  "Needs Protect host with storage."
+ ],
+ "best_for": [
+  "driveways/yards needing zoom"
+ ],
+ "not_for": [
+  "vandal-prone spots",
+  "LPR"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

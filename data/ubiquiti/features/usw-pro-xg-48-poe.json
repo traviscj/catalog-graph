@@ -1,0 +1,96 @@
+{
+ "id": "usw-pro-xg-48-poe",
+ "name": "USW-Pro-XG-48-PoE",
+ "title": "Switch Pro XG 48 PoE",
+ "price": 2499.0,
+ "line": "Pro XG switch",
+ "legacy": false,
+ "summary": "1U L3 48-port switch: 32x 10GbE + 16x 2.5GbE, all 802.3bt 90W PoE, 4x 25G SFP28 uplinks.",
+ "jobs": [
+  {
+   "job": "switch_poe_edge",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "rack_1u",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "ac",
+   "dc"
+  ],
+  "power_draw_w": 200,
+  "uplink": "25G SFP28",
+  "ports": {
+   "rj45_1g": 0,
+   "rj45_2_5g": 16,
+   "rj45_10g": 32,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 4,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 48,
+  "poe_out_types": [
+   "poe",
+   "poe+",
+   "poe++",
+   "poe_bt_90w"
+  ],
+  "poe_budget_w": 1080,
+  "layer": "L3",
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [
+   "rps_dc_backup"
+  ],
+  "special": [
+   "etherlighting",
+   "Pro AV profiles",
+   "1.3\" touchscreen"
+  ],
+  "requires": [
+   "4-post rack (600–1066 mm)"
+  ],
+  "extra": {
+   "poe_budget_by_voltage": {
+    "200-240V": 1080,
+    "100-120V": 972
+   },
+   "power_draw_note": "200W excl PoE; 1,280W (240V)/1,172W (120V) incl",
+   "half_duplex": "10/100M half-duplex not supported"
+  }
+ },
+ "gotchas": [
+  "PoE budget is 1,080W at 240V but only 972W on a US 120V circuit — 48 ports x 90W (4,320W) is far beyond it.",
+  "Pulls ~1.2 kW at full PoE: plan a dedicated 15/20A circuit and UPS sizing accordingly.",
+  "Single internal PSU; redundancy only via external UniFi RPS (ECS-24S-PoE has hot-swap dual PSUs).",
+  "4x 25G SFP28 uplinks need modules/DACs; requires a 4-post rack and a UniFi console to adopt."
+ ],
+ "best_for": [
+  "dense WiFi 7 / E7 deployments needing 10G PoE",
+  "multi-gig office access layer"
+ ],
+ "not_for": [
+  "home closets",
+  "non-PoE needs (use USW-Pro-XG-48)"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

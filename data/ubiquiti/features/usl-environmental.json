@@ -1,0 +1,78 @@
+{
+ "id": "usl-environmental",
+ "name": "USL-Environmental",
+ "title": "Environmental Sensor",
+ "price": 49.0,
+ "line": "SuperLink sensor",
+ "legacy": false,
+ "summary": "Battery SuperLink sensor for leak, temperature and ambient light (humidity per description), 6-year battery.",
+ "jobs": [
+  {
+   "job": "alarm_sensor",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "other",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "protect",
+  "power_in": [
+   "battery"
+  ],
+  "power_draw_w": 0.0349,
+  "uplink": null,
+  "ports": null,
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": true,
+  "ip_rating": "IPX5",
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [
+   "leak",
+   "temp",
+   "light",
+   "humidity"
+  ],
+  "redundancy": [],
+  "special": [
+   "SuperLink 2 km LOS",
+   "3.5mm leak-probe jack",
+   "6-year CR123A"
+  ],
+  "requires": [
+   "SuperLink receiver on a UniFi Protect host"
+  ],
+  "extra": {
+   "humidity_conflict": "desc says humidity; spec sensor list has only temp, light, water",
+   "connectivity": "SuperLink (proprietary)"
+  }
+ },
+ "gotchas": [
+  "SuperLink is proprietary — won't pair with Zigbee/Z-Wave/Home Assistant hubs; needs UniFi Protect with SuperLink support.",
+  "Humidity is claimed in the description but missing from the spec sensor list.",
+  "External leak probe connects via 3.5mm jack (probe not listed as included)."
+ ],
+ "best_for": [
+  "leak/temperature alerts in Protect"
+ ],
+ "not_for": [
+  "non-UniFi smart homes"
+ ],
+ "confidence": "medium",
+ "in_store": true,
+ "status": "Available"
+}

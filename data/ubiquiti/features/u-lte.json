@@ -1,0 +1,68 @@
+{
+ "id": "u-lte",
+ "name": "U-LTE",
+ "title": "UniFi LTE Backup",
+ "price": null,
+ "line": "Internet Solutions (legacy)",
+ "legacy": true,
+ "summary": "Legacy UniFi LTE Backup: plug-and-play LTE failover for UniFi gateways with bundled AT&T SIM/plan.",
+ "jobs": [
+  {
+   "job": "internet_backup",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": null,
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [],
+  "power_draw_w": null,
+  "uplink": null,
+  "ports": null,
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [],
+  "requires": [
+   "UniFi gateway",
+   "AT&T plan (included)"
+  ],
+  "extra": {
+   "thin_data": "no specs; desc only",
+   "carrier": "AT&T"
+  }
+ },
+ "gotchas": [
+  "Not sold in store anymore - current option is U5G-Max (5G, multi-carrier, dual SIM/eSIM).",
+  "LTE only and tied to an AT&T SIM/plan per desc.",
+  "Needs a UniFi gateway; no specs available in data."
+ ],
+ "best_for": [
+  "existing installs"
+ ],
+ "not_for": [
+  "new failover deployments"
+ ],
+ "confidence": "low",
+ "in_store": false,
+ "status": null
+}

@@ -1,0 +1,83 @@
+{
+ "id": "us-48-500w",
+ "name": "US-48-500W",
+ "title": "Switch 48 PoE (500W)",
+ "price": null,
+ "line": "Legacy US switch",
+ "legacy": true,
+ "summary": "Legacy 1U L2 switch: 48x 1G PoE+ (also 24V passive), 2x SFP, 2x SFP+, 500 W.",
+ "jobs": [
+  {
+   "job": "switch_poe_edge",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "rack_1u",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "ac"
+  ],
+  "power_draw_w": null,
+  "uplink": "10G SFP+",
+  "ports": {
+   "rj45_1g": 48,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 2,
+   "sfp_plus_10g": 2,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 48,
+  "poe_out_types": [
+   "poe",
+   "poe+"
+  ],
+  "poe_budget_w": 500,
+  "layer": "L2",
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "24V passive PoE output"
+  ],
+  "requires": [
+   "UniFi console/gateway"
+  ],
+  "extra": {
+   "price_null": "not in store",
+   "specs_thin": "performance section nearly empty; max power draw not listed"
+  }
+ },
+ "gotchas": [
+  "Previous-gen US-series, not in store — replaced by USW-Pro-Max-48-PoE / USW-48-PoE.",
+  "1 GbE copper only — no 2.5G for modern APs.",
+  "PoE+ max (no PoE++/bt).",
+  "Only 2x SFP+ for uplink/aggregation."
+ ],
+ "best_for": [
+  "legacy installs needing 24V passive PoE (old airMAX/AC gear)"
+ ],
+ "not_for": [
+  "new builds"
+ ],
+ "confidence": "medium",
+ "in_store": false,
+ "status": null
+}

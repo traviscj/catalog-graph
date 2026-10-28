@@ -1,0 +1,90 @@
+{
+ "id": "udb",
+ "name": "UDB",
+ "title": "UniFi Device Bridge",
+ "price": 99.0,
+ "line": "Device Bridge",
+ "legacy": false,
+ "summary": "Plug-in 5 GHz WiFi 5 bridge that links a wired/PoE device to UniFi WiFi via Auto-Link.",
+ "jobs": [
+  {
+   "job": "wireless_bridge",
+   "role": "primary"
+  },
+  {
+   "job": "accessory",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "wall",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "ac"
+  ],
+  "power_draw_w": 25,
+  "uplink": "WiFi 5 (5 GHz)",
+  "ports": {
+   "rj45_1g": 1,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 1,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": "WiFi 5",
+  "bands": [
+   "5"
+  ],
+  "streams": 2,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "PoE output to bridged device",
+   "RP-SMA external antenna option",
+   "Auto-Link"
+  ],
+  "requires": [
+   "UniFi WiFi network/AP to link to",
+   "UniFi Network controller/console"
+  ],
+  "extra": {
+   "poe_out_note": "PoE wattage/class not specified; 25W AC input vs 10W excl. PoE implies ~15W",
+   "security": "WPA2 AES only"
+  }
+ },
+ "gotchas": [
+  "Only 866 Mbps 5 GHz WiFi 5 link — fine for a camera, not a multi-gig backhaul.",
+  "Single RJ45 — bridge one device (or add a switch); PoE output class unspecified (~15 W implied).",
+  "Needs AC outlet at the device end and an existing UniFi WiFi network to join.",
+  "For building-to-building links use a dedicated point-to-point bridge instead."
+ ],
+ "best_for": [
+  "putting a PoE camera/AP where only power and WiFi exist"
+ ],
+ "not_for": [
+  "long-distance PtP",
+  "high throughput"
+ ],
+ "confidence": "medium",
+ "in_store": true,
+ "status": "Available"
+}

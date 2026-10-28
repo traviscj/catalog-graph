@@ -1,0 +1,86 @@
+{
+ "id": "uap-ac-pro",
+ "name": "UAP-AC-PRO",
+ "title": "Access Point AC Pro",
+ "price": 149.0,
+ "line": "WiFi 5 (legacy)",
+ "legacy": true,
+ "summary": "Legacy WiFi 5 ceiling AP, 3x3 dual-band, GbE, PoE adapter included.",
+ "jobs": [
+  {
+   "job": "wifi_ceiling",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "ceiling",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "poe"
+  ],
+  "power_draw_w": 9,
+  "uplink": "GbE",
+  "ports": {
+   "rj45_1g": 2,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": 250,
+  "wifi_std": "WiFi 5",
+  "bands": [
+   "2.4",
+   "5"
+  ],
+  "streams": 6,
+  "coverage_m2": 140,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "2nd GbE port (bridge)",
+   "supports 48V passive"
+  ],
+  "requires": [
+   "UniFi console/gateway"
+  ],
+  "extra": {
+   "poe_adapter": "included (not in 5-pack)",
+   "listed_category": "wifi-flagship despite WiFi 5"
+  }
+ },
+ "gotchas": [
+  "WiFi 5 (802.11ac) — no WiFi 6/7, no 6 GHz; at $149 a U7 Pro / U6+ is a better buy.",
+  "Downlink-only MU-MIMO, max 80 MHz channels, 1.3 Gbps 5 GHz PHY.",
+  "Store lists it under 'flagship' but it's old-generation.",
+  "Requires a UniFi console/gateway to adopt."
+ ],
+ "best_for": [
+  "matching existing AC deployments",
+  "cheap PoE-af-powered coverage"
+ ],
+ "not_for": [
+  "new builds",
+  "6 GHz clients"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

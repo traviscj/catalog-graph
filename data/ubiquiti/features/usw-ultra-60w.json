@@ -1,0 +1,94 @@
+{
+ "id": "usw-ultra-60w",
+ "name": "USW-Ultra-60W",
+ "title": "Switch Ultra 60W",
+ "price": 159.0,
+ "line": "Ultra switch",
+ "legacy": false,
+ "summary": "Compact 8x1GbE L2 switch, 7 PoE+ out, powered by PoE++ in or 60W/210W adapter.",
+ "jobs": [
+  {
+   "job": "switch_compact",
+   "role": "primary"
+  },
+  {
+   "job": "switch_poe_edge",
+   "role": "primary"
+  },
+  {
+   "job": "switch_industrial",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "mini",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "poe++",
+   "poe+",
+   "dc"
+  ],
+  "power_draw_w": 9,
+  "uplink": "1GbE",
+  "ports": {
+   "rj45_1g": 8,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 7,
+  "poe_out_types": [
+   "poe+"
+  ],
+  "poe_budget_w": 52,
+  "layer": "L2",
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "PoE passthrough",
+   "magnetic/wall mount",
+   "-30..60°C on PoE++ input"
+  ],
+  "requires": [],
+  "extra": {
+   "poe_budget_by_input": "PoE++ in 42W; PoE+ in 16W; 60W PoE adapter 42W; 60W AC adapter 52W (included); 210W AC adapter 202W",
+   "poe_budget_w_basis": "52W with included 60W AC adapter"
+  }
+ },
+ "gotchas": [
+  "PoE budget depends on what powers it: 52W on the included 60W adapter, 42W on PoE++ input, only 16W on PoE+ — 7 ports won't all get 30W.",
+  "Needs the optional 210W adapter to approach full 7x PoE+ (202W, derated at 60°C).",
+  "All 1GbE, 1G uplink — not for WiFi 7 APs wanting 2.5G (see USW-Ultra-2.5G / Flex 2.5G PoE).",
+  "Minimal L2 feature set (no LACP/802.1X/IGMP listed) and 256 VLANs."
+ ],
+ "best_for": [
+  "powering a few cameras/APs at a remote spot from one PoE++ run",
+  "small cabinets"
+ ],
+ "not_for": [
+  "multi-gig",
+  "high PoE draw without the 210W adapter"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

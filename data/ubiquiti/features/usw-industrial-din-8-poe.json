@@ -1,0 +1,96 @@
+{
+ "id": "usw-industrial-din-8-poe",
+ "name": "USW-Industrial-DIN-8-PoE",
+ "title": "Switch Industrial DIN 8 PoE",
+ "price": 329.0,
+ "line": "Industrial switch",
+ "legacy": false,
+ "summary": "Hardened DIN-rail 8x 1G PoE++ (60 W) switch, 2x 1G SFP, dual DC inputs, up to 480 W.",
+ "jobs": [
+  {
+   "job": "switch_industrial",
+   "role": "primary"
+  },
+  {
+   "job": "switch_poe_edge",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "din",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "dc"
+  ],
+  "power_draw_w": 492,
+  "uplink": "1G SFP",
+  "ports": {
+   "rj45_1g": 8,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 2,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 8,
+  "poe_out_types": [
+   "poe",
+   "poe+",
+   "poe++"
+  ],
+  "poe_budget_w": 480,
+  "layer": "L2",
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [
+   "dual DC inputs"
+  ],
+  "special": [
+   "alarm relay (dry contact)",
+   "serial console",
+   "-30 to 70°C"
+  ],
+  "requires": [
+   "44–57V DC PSU(s) (not included; 50–57V for PoE+/++)",
+   "UniFi console/gateway"
+  ],
+  "extra": {
+   "budget_note": "Max 480W, based on power supply capability",
+   "status": "ComingSoon",
+   "tags": "no feature tags in source"
+  }
+ },
+ "gotchas": [
+  "Power supply NOT included — the 480 W budget only materializes with a 50–57 V DC supply big enough to deliver it.",
+  "Uplinks are 1G SFP only (no SFP+).",
+  "All copper 1 GbE — no multi-gig.",
+  "Status ComingSoon at time of scrape.",
+  "Requires a UniFi console/gateway to adopt."
+ ],
+ "best_for": [
+  "industrial cabinets, extreme temps, DIN-rail panels"
+ ],
+ "not_for": [
+  "office closets (needs DC PSU)",
+  "10G uplinks"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "ComingSoon"
+}

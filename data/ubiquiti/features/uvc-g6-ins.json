@@ -1,0 +1,84 @@
+{
+ "id": "uvc-g6-ins",
+ "name": "UVC-G6-INS",
+ "title": "Camera G6 Instant",
+ "price": 179.0,
+ "line": "G6 camera",
+ "legacy": false,
+ "summary": "4K WiFi Instant camera with 8MP 1/1.8\" sensor, AI face/LPR, USB-C power, IPX5.",
+ "jobs": [
+  {
+   "job": "camera_indoor",
+   "role": "primary"
+  },
+  {
+   "job": "camera_outdoor",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "camera_compact",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "protect",
+  "power_in": [
+   "usb_c"
+  ],
+  "power_draw_w": 7,
+  "uplink": "WiFi 5",
+  "ports": null,
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": "WiFi 5",
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": true,
+  "ip_rating": "IPX5",
+  "storage": "microSD slot",
+  "max_storage_tb": null,
+  "camera": {
+   "res": "4K 8MP",
+   "fps": 30,
+   "night": "IR 6m",
+   "ai": "people/vehicle, face, LPR",
+   "lens": "fixed, 109.9°H",
+   "audio": "two-way"
+  },
+  "sensors": [],
+  "redundancy": [],
+  "special": [],
+  "requires": [
+   "UniFi Protect console/NVR with storage",
+   "strong 2.4/5 GHz WiFi or PoE-to-USB-C adapter"
+  ],
+  "extra": {
+   "net": "802.11ac WiFi + Bluetooth; no Ethernet port",
+   "tamper": "IK04"
+  }
+ },
+ "gotchas": [
+  "WiFi-only (802.11ac) — 4K streams need a strong AP signal; no RJ45.",
+  "Powered by 5V/2A USB-C; PoE requires the PoE-to-USB-C adapter (not included).",
+  "Still requires Protect on a console/NVR — it is not a cloud camera.",
+  "IR only 6m — short-range night vision."
+ ],
+ "best_for": [
+  "renters/quick installs indoors",
+  "porches with power nearby"
+ ],
+ "not_for": [
+  "long-range night coverage",
+  "weak-WiFi locations"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

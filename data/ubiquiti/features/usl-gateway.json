@@ -1,0 +1,91 @@
+{
+ "id": "usl-gateway",
+ "name": "USL-Gateway",
+ "title": "SuperLink Gateway",
+ "price": 129.0,
+ "line": "SuperLink",
+ "legacy": false,
+ "summary": "Bridge for UniFi SuperLink (sub-GHz, 2 km LOS) and Bluetooth Protect sensors; up to 96 sensors.",
+ "jobs": [
+  {
+   "job": "alarm_sensor",
+   "role": "primary"
+  },
+  {
+   "job": "accessory",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "wall",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "protect",
+  "power_in": [
+   "poe",
+   "usb_c"
+  ],
+  "power_draw_w": 3.4,
+  "uplink": "100MbE",
+  "ports": {
+   "rj45_1g": 0,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "SuperLink 915 MHz (US)",
+   "Bluetooth 5.2",
+   "RP-SMA antenna",
+   "DIN/wall mount"
+  ],
+  "requires": [
+   "UniFi Protect on a console/NVR with storage (e.g. UCG-Max w/ SSD, UNVR-Instant, ENVR)"
+  ],
+  "extra": {
+   "status": "SoldOut",
+   "max_clients_superlink": 96,
+   "max_clients_bluetooth": 7,
+   "range": "SuperLink 2 km LOS, BT 100 m",
+   "ports_note": "single 10/100 RJ45"
+  }
+ },
+ "gotchas": [
+  "Required hub for SuperLink sensors (USL-Motion etc.) — sensors don't talk to consoles directly.",
+  "Managed by Protect: needs a console running UniFi Protect.",
+  "Region-specific sub-GHz radio (US 915 / EU 868 / JP 920) — buy the right region.",
+  "Currently sold out."
+ ],
+ "best_for": [
+  "whole-property wireless sensor networks"
+ ],
+ "not_for": [
+  "sites without Protect"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "SoldOut"
+}

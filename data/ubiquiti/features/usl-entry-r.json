@@ -1,0 +1,79 @@
+{
+ "id": "usl-entry-r",
+ "name": "USL-Entry-R",
+ "title": "Recessed Entry Sensor",
+ "price": 39.0,
+ "line": "SuperLink",
+ "legacy": false,
+ "summary": "Recessed SuperLink door contact (reed) sensor, CR2 battery up to 3 years.",
+ "jobs": [
+  {
+   "job": "alarm_sensor",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "in_wall",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "protect",
+  "power_in": [
+   "battery"
+  ],
+  "power_draw_w": 0.015,
+  "uplink": "SuperLink (sub-GHz)",
+  "ports": {
+   "rj45_1g": 0,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [
+   "contact"
+  ],
+  "redundancy": [],
+  "special": [
+   "recessed install",
+   "tamper switch"
+  ],
+  "requires": [
+   "UniFi Protect console with SuperLink support"
+  ],
+  "extra": {}
+ },
+ "gotchas": [
+  "Recessed install means drilling the door/frame (20 mm detection gap).",
+  "Requires a SuperLink-capable Protect console.",
+  "Indoor temp range only (0-40°C)."
+ ],
+ "best_for": [
+  "invisible door open/close monitoring in Protect alarm"
+ ],
+ "not_for": [
+  "non-UniFi alarm systems"
+ ],
+ "confidence": "medium",
+ "in_store": true,
+ "status": "Available"
+}

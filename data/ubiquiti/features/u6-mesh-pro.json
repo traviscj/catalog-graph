@@ -1,0 +1,89 @@
+{
+ "id": "u6-mesh-pro",
+ "name": "U6-Mesh-Pro",
+ "title": "Access Point U6 Mesh Pro",
+ "price": 199.0,
+ "line": "WiFi 6",
+ "legacy": false,
+ "summary": "Indoor/outdoor IPX6 WiFi 6 AP with high-gain antenna, GbE passthrough, PoE adapter included.",
+ "jobs": [
+  {
+   "job": "wifi_outdoor",
+   "role": "primary"
+  },
+  {
+   "job": "wifi_mesh_extend",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "outdoor",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "poe"
+  ],
+  "power_draw_w": 9,
+  "uplink": "GbE",
+  "ports": {
+   "rj45_1g": 2,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": 250,
+  "wifi_std": "WiFi 6",
+  "bands": [
+   "2.4",
+   "5"
+  ],
+  "streams": 4,
+  "coverage_m2": 185,
+  "outdoor_rated": true,
+  "ip_rating": "IPX6",
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "8 dBi super antenna",
+   "GbE passthrough port",
+   "wireless meshing"
+  ],
+  "requires": [
+   "UniFi console/gateway"
+  ],
+  "extra": {
+   "poe_adapter": "included"
+  }
+ },
+ "gotchas": [
+  "Only 4 streams (2x2 per band) and GbE uplink — capacity is modest despite the 'Pro' name.",
+  "No 6 GHz; outdoor WiFi 7 needs the E7/U7 Outdoor line.",
+  "IPX6 (water) rating — no dust rating digit.",
+  "Passthrough port: data only per spec (no PoE out stated).",
+  "Requires a UniFi console/gateway to adopt."
+ ],
+ "best_for": [
+  "backyards, patios, meshing to outbuildings"
+ ],
+ "not_for": [
+  "high-density outdoor venues"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

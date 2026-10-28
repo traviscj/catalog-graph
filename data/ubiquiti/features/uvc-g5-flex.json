@@ -1,0 +1,90 @@
+{
+ "id": "uvc-g5-flex",
+ "name": "UVC-G5-Flex",
+ "title": "Camera G5 Flex",
+ "price": 129.0,
+ "line": "G5 camera",
+ "legacy": false,
+ "summary": "Small 2K PoE camera for indoor or covered outdoor use with basic AI detections.",
+ "jobs": [
+  {
+   "job": "camera_indoor",
+   "role": "primary"
+  },
+  {
+   "job": "camera_outdoor",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "camera_mini",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "protect",
+  "power_in": [
+   "poe"
+  ],
+  "power_draw_w": 4,
+  "uplink": "100MbE",
+  "ports": {
+   "rj45_1g": 0,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": true,
+  "ip_rating": "IPX4",
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": {
+   "res": "2K (4MP)",
+   "fps": 30,
+   "night": "IR 6m",
+   "ai": "person/vehicle/animal",
+   "lens": "fixed",
+   "audio": "microphone"
+  },
+  "sensors": [],
+  "redundancy": [],
+  "special": [],
+  "requires": [
+   "UniFi Protect on a console/NVR with storage (e.g. UCG-Max w/ SSD, UNVR-Instant, ENVR)"
+  ],
+  "extra": {
+   "ports_note": "single 10/100 RJ45 (not representable in ports schema)"
+  }
+ },
+ "gotchas": [
+  "10/100 Ethernet only and 2K resolution — budget camera, not 4K.",
+  "IPX4 only while covered — not for exposed outdoor spots (pick AI Dome/G6).",
+  "Only 6 m IR; no LPR/face recognition.",
+  "Requires UniFi Protect on a console/NVR with storage."
+ ],
+ "best_for": [
+  "indoor rooms, porches under cover",
+  "cheap camera count"
+ ],
+ "not_for": [
+  "exposed outdoor",
+  "long-range night"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

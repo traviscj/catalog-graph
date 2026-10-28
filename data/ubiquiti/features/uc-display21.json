@@ -1,0 +1,74 @@
+{
+ "id": "uc-display21",
+ "name": "UC-Display",
+ "title": "Connect Display",
+ "price": null,
+ "line": "Connect",
+ "legacy": true,
+ "summary": "21.5in 1080p PoE++ touchscreen for UniFi Connect digital signage; not in store.",
+ "jobs": [
+  {
+   "job": "iot_premium",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "wall",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "connect",
+  "power_in": [
+   "poe++"
+  ],
+  "power_draw_w": 27,
+  "uplink": "1GbE",
+  "ports": null,
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "21.5\" FHD capacitive touch",
+   "mic + speaker",
+   "VESA"
+  ],
+  "requires": [
+   "PoE++ source",
+   "UniFi Connect on a console"
+  ],
+  "extra": {
+   "usb_c": "reserved for future function",
+   "brightness_nits": 250
+  }
+ },
+ "gotchas": [
+  "Not in store (legacy listing).",
+  "PoE++ required (27W) — PoE+ ports won't run it.",
+  "250 nits — indoor only, not sunlit windows; needs UniFi Connect on a console."
+ ],
+ "best_for": [
+  "indoor interactive signage/kiosks"
+ ],
+ "not_for": [
+  "sunlit or outdoor displays"
+ ],
+ "confidence": "high",
+ "in_store": false,
+ "status": null
+}

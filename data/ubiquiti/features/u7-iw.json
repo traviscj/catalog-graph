@@ -1,0 +1,92 @@
+{
+ "id": "u7-iw",
+ "name": "U7-IW",
+ "title": "Access Point U7 In-Wall",
+ "price": 149.0,
+ "line": "WiFi 7 in-wall",
+ "legacy": false,
+ "summary": "In-wall WiFi 7 AP (2.4/5 GHz only), 4 streams, 3x 2.5GbE with one PoE passthrough; hospitality.",
+ "jobs": [
+  {
+   "job": "wifi_wall",
+   "role": "primary"
+  },
+  {
+   "job": "switch_compact",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "in_wall",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "poe",
+   "poe+"
+  ],
+  "power_draw_w": 13,
+  "uplink": "2.5GbE",
+  "ports": {
+   "rj45_1g": 0,
+   "rj45_2_5g": 3,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 1,
+  "poe_out_types": [
+   "poe"
+  ],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": 200,
+  "wifi_std": "WiFi 7",
+  "bands": [
+   "2.4",
+   "5"
+  ],
+  "streams": 4,
+  "coverage_m2": 115,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "built-in switch",
+   "PoE passthrough"
+  ],
+  "requires": [],
+  "extra": {
+   "built_in_switch": "(1) PoE+ input, (1) PoE output",
+   "port_count_note": "3x 2.5GbE total incl. uplink",
+   "max_5g_bw": "240 MHz"
+  }
+ },
+ "gotchas": [
+  "No 6 GHz radio — WiFi 7 on 2.4/5 GHz only; ceiling U7 Pro if you need 6 GHz.",
+  "PoE passthrough output requires a PoE+ (802.3at) feed; on plain PoE it powers itself only.",
+  "Only 1 of the 2 downstream ports supplies PoE (watts not specified).",
+  "2x2 per band, 115 m² — sized for one room/suite, not open floors."
+ ],
+ "best_for": [
+  "hotel rooms, dorms, apartments with a wired TV/console",
+  "replacing a wall jack"
+ ],
+ "not_for": [
+  "6 GHz needs",
+  "large open areas"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

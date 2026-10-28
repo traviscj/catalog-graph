@@ -1,0 +1,99 @@
+{
+ "id": "unvr-instant",
+ "name": "UNVR-Instant",
+ "title": "Network Video Recorder Instant",
+ "price": 199.0,
+ "line": "NVR",
+ "legacy": false,
+ "summary": "Compact Protect NVR with 1x 3.5\" bay, 6-port PoE switch (40 W), HDMI viewport; 6x 4K cameras.",
+ "jobs": [
+  {
+   "job": "nvr_recording",
+   "role": "primary"
+  },
+  {
+   "job": "console_host",
+   "role": "secondary"
+  },
+  {
+   "job": "switch_poe_edge",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "desktop",
+  "requires_console": false,
+  "hosts_apps": [
+   "protect",
+   "access",
+   "connect"
+  ],
+  "managed_by": "protect",
+  "power_in": [
+   "ac"
+  ],
+  "power_draw_w": null,
+  "uplink": "1GbE",
+  "ports": {
+   "rj45_1g": 7,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 6,
+  "poe_out_types": [
+   "poe"
+  ],
+  "poe_budget_w": 40,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": "1x 3.5\" HDD bay",
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "HDMI viewport",
+   "1.14in screen",
+   "wall/DIN mount"
+  ],
+  "requires": [
+   "3.5in HDD"
+  ],
+  "extra": {
+   "power_note": "9W excl. PoE & HDD; 60W internal PSU",
+   "managed_cameras": "(15) HD (8) 2K (6) 4K",
+   "ports_note": "1 uplink + 6 PoE downlinks"
+  }
+ },
+ "gotchas": [
+  "PoE ports are 802.3af only (15.4 W) with a 40 W total — fine for G5 Flex/AI Dome, NOT for PoE+ cameras like G6 Pro or AI LPR.",
+  "Single drive bay = no RAID redundancy; one disk failure loses footage.",
+  "Only 6x 4K / 15x HD cameras; 1GbE uplink.",
+  "Doesn't host UniFi Network — needs a separate gateway."
+ ],
+ "best_for": [
+  "small camera systems (≤6)",
+  "cabin/shop installs"
+ ],
+ "not_for": [
+  "PoE+ cameras",
+  "redundant storage"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

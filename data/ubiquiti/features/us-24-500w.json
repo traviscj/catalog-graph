@@ -1,0 +1,86 @@
+{
+ "id": "us-24-500w",
+ "name": "US-24-500W",
+ "title": "Switch 24 (500W)",
+ "price": null,
+ "line": "Gen1 switch (legacy)",
+ "legacy": true,
+ "summary": "Legacy gen-1 24-port GbE PoE+ switch (500 W, 24V passive capable) with 2x 1G SFP.",
+ "jobs": [
+  {
+   "job": "switch_poe_edge",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "rack_1u",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "ac",
+   "dc"
+  ],
+  "power_draw_w": 30,
+  "uplink": "1G SFP",
+  "ports": {
+   "rj45_1g": 24,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 2,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 24,
+  "poe_out_types": [
+   "poe",
+   "poe+"
+  ],
+  "poe_budget_w": 500,
+  "layer": "L2",
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [
+   "rps_dc_backup"
+  ],
+  "special": [
+   "24V passive PoE"
+  ],
+  "requires": [],
+  "extra": {
+   "passive_24v": "per desc; spec Port Layout says All PoE+",
+   "form_factor_not_in_specs": "485 mm wide rack chassis"
+  }
+ },
+ "gotchas": [
+  "Discontinued (not in store) - replacement is the USW-Pro-24-PoE / USW-Pro-Max-24-PoE generation.",
+  "1 GbE ports + 1G SFP uplinks - no multi-gig for WiFi 6/7 APs and a 2 Gbps uplink ceiling.",
+  "PoE+ max (30 W) - no PoE++ for U7 Pro Max / PTZ class devices.",
+  "Gen-1 hardware: fans and older firmware track."
+ ],
+ "best_for": [
+  "existing deployments",
+  "legacy airMAX 24V passive gear"
+ ],
+ "not_for": [
+  "new builds",
+  "multi-gig APs"
+ ],
+ "confidence": "high",
+ "in_store": false,
+ "status": null
+}

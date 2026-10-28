@@ -1,0 +1,108 @@
+{
+ "id": "unvr-instant-kit",
+ "name": "UNVR-Instant-Kit",
+ "title": "Network Video Recorder Instant Kit",
+ "price": 699.0,
+ "line": "NVR",
+ "legacy": false,
+ "summary": "Protect starter kit: compact NVR Instant (1 bay, 6 PoE ports) + 4x G5 Turret Ultra + 1 TB HDD.",
+ "jobs": [
+  {
+   "job": "nvr_recording",
+   "role": "primary"
+  },
+  {
+   "job": "camera_outdoor",
+   "role": "secondary"
+  },
+  {
+   "job": "console_host",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "desktop",
+  "requires_console": false,
+  "hosts_apps": [
+   "protect",
+   "access",
+   "connect"
+  ],
+  "managed_by": "protect",
+  "power_in": [
+   "ac"
+  ],
+  "power_draw_w": 9,
+  "uplink": "1GbE",
+  "ports": {
+   "rj45_1g": 7,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 6,
+  "poe_out_types": [
+   "poe"
+  ],
+  "poe_budget_w": 40,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": "1x 3.5\" bay (1 TB HDD included)",
+  "max_storage_tb": null,
+  "camera": {
+   "res": "2K (4MP)",
+   "fps": 30,
+   "night": "IR 30m",
+   "ai": "person/vehicle/animal",
+   "lens": "fixed 102deg H",
+   "audio": "mic"
+  },
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "HDMI Viewport output",
+   "1.14\" screen",
+   "wall/DIN mount"
+  ],
+  "requires": [],
+  "extra": {
+   "managed_cameras": "(15) HD (8) 2K (6) 4K",
+   "managed_access_hubs": 50,
+   "cameras_included": "4x UVC-G5-Turret-Ultra (IP66, 10/100)",
+   "hdd": "1TB 5400rpm",
+   "no_network_app_listed": true,
+   "max_drive_power_w": 11
+  }
+ },
+ "gotchas": [
+  "Not a gateway - doesn't run UniFi Network; you still need a router/gateway for internet.",
+  "6 PoE ports at 802.3af with only 40 W total; PoE+ cameras need an external switch.",
+  "Single drive bay, no RAID; included 1 TB HDD gives little retention for 4 cameras - plan a larger drive.",
+  "Caps at 15 HD / 6 4K cameras - bigger fleets need UNVR / UNVR Pro.",
+  "Bundled G5 Turret Ultras are 2K, 10/100, mic-only (no LPR/face)."
+ ],
+ "best_for": [
+  "small homes/shops wanting turnkey cameras",
+  "no-existing-UniFi sites"
+ ],
+ "not_for": [
+  "large camera counts",
+  "redundant storage"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

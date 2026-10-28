@@ -1,0 +1,90 @@
+{
+ "id": "udb-iot",
+ "name": "UDB-IoT",
+ "title": "Device Bridge IoT",
+ "price": 49.0,
+ "line": "Device bridge",
+ "legacy": false,
+ "summary": "Tiny WiFi 4 client bridge: puts one 10/100 wired IoT device onto UniFi WiFi via Auto-Link.",
+ "jobs": [
+  {
+   "job": "wifi_mesh_extend",
+   "role": "primary"
+  },
+  {
+   "job": "accessory",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "mini",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "usb_c",
+   "dc"
+  ],
+  "power_draw_w": 2.3,
+  "uplink": "WiFi 4 (2.4 GHz)",
+  "ports": {
+   "rj45_1g": 0,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [
+   "2.4"
+  ],
+  "streams": 2,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "UniFi WiFi Auto-Link",
+   "RP-SMA external antenna",
+   "DIN rail mount"
+  ],
+  "requires": [
+   "UniFi WiFi network (Network 10.2+)"
+  ],
+  "extra": {
+   "wired_port": "(1) 10/100M RJ45",
+   "wifi_std_raw": "WiFi 4",
+   "status": "SoldOut",
+   "tags": "none"
+  }
+ },
+ "gotchas": [
+  "WiFi 4, 2.4 GHz only and a 10/100 port — strictly for low-bandwidth IoT, not a mesh extender for PCs/TVs.",
+  "Auto-Link requires a UniFi WiFi network running Network 10.2+.",
+  "Single wired port — one device per bridge."
+ ],
+ "best_for": [
+  "PLCs, printers, sensors with only Ethernet"
+ ],
+ "not_for": [
+  "high-bandwidth clients"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "SoldOut"
+}

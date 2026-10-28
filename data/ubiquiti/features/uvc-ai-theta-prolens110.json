@@ -1,0 +1,82 @@
+{
+ "id": "uvc-ai-theta-prolens110",
+ "name": "UVC-AI-Theta-ProLens110",
+ "title": "AI Theta Pro Wide-Angle Lens",
+ "price": 129.0,
+ "line": "AI Theta",
+ "legacy": false,
+ "summary": "Indoor 4K 110-degree wide-angle lens module for the AI Theta Hub; no standalone function.",
+ "jobs": [
+  {
+   "job": "accessory",
+   "role": "primary"
+  },
+  {
+   "job": "camera_indoor",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "module",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "protect",
+  "power_in": [
+   "dc"
+  ],
+  "power_draw_w": 2.5,
+  "uplink": null,
+  "ports": null,
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": {
+   "res": "4K (8MP)",
+   "fps": 24,
+   "night": null,
+   "ai": null,
+   "lens": "fixed, 110.4deg H",
+   "audio": null
+  },
+  "sensors": [],
+  "redundancy": [],
+  "special": [],
+  "requires": [
+   "UniFi AI Theta Hub",
+   "UniFi Protect"
+  ],
+  "extra": {
+   "power": "Theta proprietary 5V DC 0.5A",
+   "indoor_only": true
+  }
+ },
+ "gotchas": [
+  "Lens only - needs an AI Theta Hub (sold in UVC-AI-Theta-Pro kit) to work.",
+  "Indoor only; 24 fps max; no IR night vision listed.",
+  "Proprietary Theta cable/power - not PoE, not reusable with other cameras."
+ ],
+ "best_for": [
+  "adding face/LPR-capable wide view to an AI Theta Hub"
+ ],
+ "not_for": [
+  "standalone cameras",
+  "outdoor"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

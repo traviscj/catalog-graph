@@ -1,0 +1,78 @@
+{
+ "id": "uvc-ai-theta",
+ "name": "UVC-AI-Theta",
+ "title": "Camera AI Theta",
+ "price": 299.0,
+ "line": "AI Theta",
+ "legacy": false,
+ "summary": "Discreet modular AI Theta system: hub plus tiny lens, 4K, face/LPR with suitable lens, optional audio.",
+ "jobs": [
+  {
+   "job": "camera_indoor",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "camera_modular",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "protect",
+  "power_in": [
+   "poe"
+  ],
+  "power_draw_w": 12.5,
+  "uplink": "1GbE",
+  "ports": null,
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": {
+   "res": "4K (8MP 3264x2448 standard lens; 6MP 2560x2560 360 lens)",
+   "fps": 24,
+   "night": null,
+   "ai": "people/vehicles/animals; face & LPR with wide-angle/long-distance lens",
+   "lens": "fixed focal, modular",
+   "audio": "optional via AI Theta Audio"
+  },
+  "sensors": [],
+  "redundancy": [],
+  "special": [],
+  "requires": [
+   "UniFi Protect host (Cloud Gateway/UNVR/CloudKey) with storage"
+  ],
+  "extra": {
+   "spec_mix": "specs describe two lens variants (UVC-AI-Theta-Lens and -Lens-360); bundle contents unclear",
+   "ir": "no IR night vision listed"
+  }
+ },
+ "gotchas": [
+  "Indoor only (no IP rating) and no IR night vision listed.",
+  "Audio is an add-on (AI Theta Audio, $69); 360 view needs the separate AI Theta Pro 360 Lens.",
+  "Specs blend two lens variants — confirm which lens ships in the kit.",
+  "Needs Protect host with storage."
+ ],
+ "best_for": [
+  "retail/hospitality/homes wanting hidden cameras"
+ ],
+ "not_for": [
+  "outdoor",
+  "dark areas"
+ ],
+ "confidence": "medium",
+ "in_store": true,
+ "status": "Available"
+}

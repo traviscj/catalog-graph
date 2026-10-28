@@ -1,0 +1,90 @@
+{
+ "id": "uvc-g6-ptz",
+ "name": "UVC-G6-PTZ",
+ "title": "Camera G6 PTZ",
+ "price": 399.0,
+ "line": "G6 camera",
+ "legacy": false,
+ "summary": "Outdoor 4K dual-lens PTZ, 10x hybrid zoom, AI face/LPR tracking, 30 m IR, PoE+.",
+ "jobs": [
+  {
+   "job": "camera_ptz_wide",
+   "role": "primary"
+  },
+  {
+   "job": "camera_outdoor",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "camera_ptz",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "protect",
+  "power_in": [
+   "poe+"
+  ],
+  "power_draw_w": 24.5,
+  "uplink": "100MbE",
+  "ports": {
+   "rj45_1g": 0,
+   "rj45_2_5g": 0,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": true,
+  "ip_rating": "IP66",
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": {
+   "res": "4K",
+   "fps": 30,
+   "night": "IR 30m",
+   "ai": "person/vehicle/animal/face/LPR, auto-tracking",
+   "lens": "dual: wide 4.46mm + tele 16.3mm, 10x hybrid (5x optical)",
+   "audio": "two-way"
+  },
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "microSD edge recording",
+   "pan 350° / tilt 100°"
+  ],
+  "requires": [
+   "UniFi Protect NVR/console with storage",
+   "PoE+ source (25W)"
+  ],
+  "extra": {}
+ },
+ "gotchas": [
+  "Needs PoE+ (24.5W) — 802.3af won't power it.",
+  "'10x' is hybrid: 5x optical + 2x digital.",
+  "Pan is 350°, not continuous 360°; IK04 not vandal-rated.",
+  "Requires Protect on a console/NVR."
+ ],
+ "best_for": [
+  "yards, parking lots, auto-tracking people/vehicles"
+ ],
+ "not_for": [
+  "vandal-prone low mounts"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

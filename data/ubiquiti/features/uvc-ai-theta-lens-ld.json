@@ -1,0 +1,84 @@
+{
+ "id": "uvc-ai-theta-lens-ld",
+ "name": "UVC-AI-Theta-Lens-LD",
+ "title": "AI Theta Long-Distance Lens",
+ "price": 59.0,
+ "line": "AI Theta",
+ "legacy": false,
+ "summary": "Pinhole-sized long-distance 4K lens module (36° HFOV) for the AI Theta Hub; indoor only.",
+ "jobs": [
+  {
+   "job": "accessory",
+   "role": "primary"
+  },
+  {
+   "job": "camera_indoor",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "module",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "protect",
+  "power_in": [
+   "dc"
+  ],
+  "power_draw_w": 2.5,
+  "uplink": null,
+  "ports": null,
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": {
+   "res": "8MP (3264x2448, 4:3)",
+   "fps": 24,
+   "night": null,
+   "ai": null,
+   "lens": "fixed, 36.2°H",
+   "audio": null
+  },
+  "sensors": [],
+  "redundancy": [],
+  "special": [],
+  "requires": [
+   "AI Theta Hub",
+   "UniFi Protect console/NVR"
+  ],
+  "extra": {
+   "power": "Theta proprietary 5V 0.5A from hub",
+   "environment": "indoor only",
+   "thin_data": "no IR/audio/AI specs; AI resides in hub"
+  }
+ },
+ "gotchas": [
+  "Not a camera by itself — requires the AI Theta Hub (sold separately) for power, AI and network.",
+  "Indoor only; no IR night vision listed.",
+  "Narrow 36° field of view — pick the standard/wide Theta lens for room coverage.",
+  "24 FPS; recording still needs Protect on a console/NVR."
+ ],
+ "best_for": [
+  "discreet long-distance indoor views (retail, lobbies)"
+ ],
+ "not_for": [
+  "outdoor",
+  "standalone use"
+ ],
+ "confidence": "medium",
+ "in_store": true,
+ "status": "Available"
+}

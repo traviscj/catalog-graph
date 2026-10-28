@@ -1,0 +1,106 @@
+{
+ "id": "ux7",
+ "name": "UX7",
+ "title": "UniFi Express 7",
+ "price": 199.0,
+ "line": "Cloud Gateway (WiFi-integrated)",
+ "legacy": false,
+ "summary": "Puck-sized gateway with integrated tri-band WiFi 7 AP, 10GbE WAN, 2.5GbE LAN; meshes with more UX7 nodes.",
+ "jobs": [
+  {
+   "job": "gateway_allinone",
+   "role": "primary"
+  },
+  {
+   "job": "wifi_mesh_extend",
+   "role": "secondary"
+  },
+  {
+   "job": "console_host",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "desktop",
+  "requires_console": false,
+  "hosts_apps": [
+   "network"
+  ],
+  "managed_by": "network",
+  "power_in": [
+   "usb_c"
+  ],
+  "power_draw_w": 22,
+  "uplink": "10GbE",
+  "ports": {
+   "rj45_1g": 0,
+   "rj45_2_5g": 1,
+   "rj45_10g": 1,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 0,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 0,
+  "poe_out_types": [],
+  "poe_budget_w": null,
+  "layer": null,
+  "wan_ports_max": 1,
+  "ips_throughput_gbps": 2.3,
+  "routing_throughput_gbps": null,
+  "max_devices": 30,
+  "max_clients": 300,
+  "wifi_std": "WiFi 7",
+  "bands": [
+   "2.4",
+   "5",
+   "6"
+  ],
+  "streams": 6,
+  "coverage_m2": 160,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "IDS/IPS",
+   "zone-based firewall",
+   "SD-WAN/Site Magic",
+   "WireGuard/OpenVPN/IPsec",
+   "Teleport VPN",
+   "built-in WiFi 7",
+   "MLO",
+   "mesh expansion",
+   "AP mode",
+   "0.96in status display"
+  ],
+  "requires": [],
+  "extra": {
+   "max_bssids": "4 per radio",
+   "default_wan": "(1) 10GbE RJ45",
+   "phy_rates": "6G 5.7 Gbps / 5G 4.3 Gbps / 2.4G 688 Mbps"
+  }
+ },
+ "gotchas": [
+  "Only one WAN port (Max WAN = 1): no dual-ISP failover except via UniFi LTE Backup — UCG-Max supports 4 WANs.",
+  "Single 2.5GbE LAN port — anything more than one wired device needs a switch.",
+  "10G WAN port, but IDS/IPS is 2.3 Gbps; multi-gig plans lose speed with IPS on.",
+  "Hosts Network only: no Protect/Access/Talk, so cameras need a UCG-Max/UNVR.",
+  "Only 4 SSIDs per radio and 2x2 radios; USB-C powered (no PoE in or out)."
+ ],
+ "best_for": [
+  "apartments / small homes wanting gateway + WiFi 7 in one puck",
+  "10G-WAN-curious users on a budget"
+ ],
+ "not_for": [
+  "multi-WAN",
+  "camera systems",
+  "wired-heavy homes"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

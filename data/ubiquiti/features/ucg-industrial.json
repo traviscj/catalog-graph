@@ -1,0 +1,116 @@
+{
+ "id": "ucg-industrial",
+ "name": "UCG-Industrial",
+ "title": "Cloud Gateway Industrial",
+ "price": 579.0,
+ "line": "Cloud Gateway",
+ "legacy": false,
+ "summary": "Ruggedized fanless 10GbE Cloud Gateway with WiFi 7, PoE+++ ports and 270W PoE budget, -30..50°C.",
+ "jobs": [
+  {
+   "job": "gateway_allinone",
+   "role": "primary"
+  },
+  {
+   "job": "gateway_router",
+   "role": "primary"
+  },
+  {
+   "job": "console_host",
+   "role": "secondary"
+  },
+  {
+   "job": "switch_industrial",
+   "role": "secondary"
+  },
+  {
+   "job": "wifi_wall",
+   "role": "secondary"
+  }
+ ],
+ "f": {
+  "form_factor": "wall",
+  "requires_console": false,
+  "hosts_apps": [
+   "network",
+   "protect",
+   "access",
+   "talk",
+   "connect"
+  ],
+  "managed_by": "network",
+  "power_in": [
+   "dc"
+  ],
+  "power_draw_w": 28,
+  "uplink": "10GbE / 10G SFP+",
+  "ports": {
+   "rj45_1g": 0,
+   "rj45_2_5g": 4,
+   "rj45_10g": 1,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 1,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 5,
+  "poe_out_types": [
+   "poe+",
+   "poe_bt_90w"
+  ],
+  "poe_budget_w": 270,
+  "layer": null,
+  "wan_ports_max": 5,
+  "ips_throughput_gbps": 5,
+  "routing_throughput_gbps": null,
+  "max_devices": 50,
+  "max_clients": 500,
+  "wifi_std": "WiFi 7",
+  "bands": [
+   "2.4",
+   "5"
+  ],
+  "streams": 4,
+  "coverage_m2": 115,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": "128GB microSD (pre-installed)",
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "fanless",
+   "built-in WiFi",
+   "extended temp -30..50°C",
+   "ATX 48V power input"
+  ],
+  "requires": [],
+  "extra": {
+   "poe_split": "3x PoE+++ (90W: 2x 2.5G + 1x 10G), 2x PoE+ 30W",
+   "poe_budget_note": "DC input 270W; ATX power 75W",
+   "managed_cameras": "15 HD / 8 2K / 5 4K",
+   "form_factor_options": "wall, desktop stand incl., rack accessory sold separately",
+   "no_ip_rating": "rugged temp range but no IP rating listed"
+  }
+ },
+ "gotchas": [
+  "Integrated WiFi is 2x2 WiFi 7 on 2.4/5 GHz only — no 6 GHz; add a U7 Pro/U7 Pro XG for 6 GHz clients.",
+  "'Industrial' = temperature-hardened and fanless, but no IP rating is listed — it's not an outdoor enclosure.",
+  "Only 5 copper LAN/WAN ports; PoE budget drops to 75W when fed from ATX 48V instead of the 350W DC brick.",
+  "NVR storage is just a 128GB microSD — fine for a handful of cameras (5x 4K max), not a real Protect NVR.",
+  "Only 50 managed UniFi devices; larger sites want UDM-Pro-Max."
+ ],
+ "best_for": [
+  "harsh/hot closets, kiosks, small industrial sites needing gateway+PoE+WiFi in one box",
+  "powering 90W PoE devices from the gateway"
+ ],
+ "not_for": [
+  "outdoor exposed mounting",
+  "6 GHz WiFi",
+  "large camera recording"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}

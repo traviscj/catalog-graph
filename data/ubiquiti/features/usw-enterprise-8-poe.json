@@ -1,0 +1,86 @@
+{
+ "id": "usw-enterprise-8-poe",
+ "name": "USW-Enterprise-8-PoE",
+ "title": "Switch Enterprise 8 PoE (Vintage)",
+ "price": 479.0,
+ "line": "Enterprise switch (legacy)",
+ "legacy": true,
+ "summary": "Compact L3 switch: 8x2.5GbE all PoE+ (120W) with 2x10G SFP+ uplinks.",
+ "jobs": [
+  {
+   "job": "switch_compact",
+   "role": "primary"
+  },
+  {
+   "job": "switch_poe_edge",
+   "role": "primary"
+  }
+ ],
+ "f": {
+  "form_factor": "desktop",
+  "requires_console": true,
+  "hosts_apps": [],
+  "managed_by": "network",
+  "power_in": [
+   "ac"
+  ],
+  "power_draw_w": 30,
+  "uplink": "10G SFP+",
+  "ports": {
+   "rj45_1g": 0,
+   "rj45_2_5g": 8,
+   "rj45_10g": 0,
+   "sfp_1g": 0,
+   "sfp_plus_10g": 2,
+   "sfp28_25g": 0,
+   "qsfp28_100g": 0
+  },
+  "poe_out_ports": 8,
+  "poe_out_types": [
+   "poe+"
+  ],
+  "poe_budget_w": 120,
+  "layer": "L3",
+  "wan_ports_max": null,
+  "ips_throughput_gbps": null,
+  "routing_throughput_gbps": null,
+  "max_devices": null,
+  "max_clients": null,
+  "wifi_std": null,
+  "bands": [],
+  "streams": null,
+  "coverage_m2": null,
+  "outdoor_rated": false,
+  "ip_rating": null,
+  "storage": null,
+  "max_storage_tb": null,
+  "camera": null,
+  "sensors": [],
+  "redundancy": [],
+  "special": [
+   "1.3\" touchscreen"
+  ],
+  "requires": [],
+  "extra": {
+   "vintage": "titled '(Vintage)' but still priced in store",
+   "acl_limits": "IPv4 ACL 12, MAC ACL 10 (much lower than rack models)",
+   "stacking": "do not physically stack"
+  }
+ },
+ "gotchas": [
+  "Marked 'Vintage' — superseded by the Pro Max 16 PoE / Pro HD line; expect no new features.",
+  "120W for 8 PoE+ ports = 15W/port average; PoE+ only, no PoE++.",
+  "SFP+ uplinks need modules/DACs; no 10GbE RJ45.",
+  "Very small ACL tables (12 IPv4 / 10 MAC) vs 128 on rack siblings."
+ ],
+ "best_for": [
+  "small office/desk multi-gig PoE for 2.5G APs with 10G fiber uplink"
+ ],
+ "not_for": [
+  "PoE++ APs",
+  "large ACL policies"
+ ],
+ "confidence": "high",
+ "in_store": true,
+ "status": "Available"
+}
