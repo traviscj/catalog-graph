@@ -1,0 +1,290 @@
+<title>__TITLE__</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<style>
+/* layout: terminal-style single column; top status bar, dense tables, 3-col edge panes on product pages */
+:root{
+  --bg:#f6f7f4;--panel:#eceee8;--fg:#1d2320;--dim:#6b736d;--rule:#d3d7cf;
+  --acc:#0a6b8a;--up:#1f7a3a;--down:#a3591c;--side:#5b4fa8;--bad:#b42318;--warn:#946200;
+  --mono:"JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+  --sans:"IBM Plex Sans",system-ui,sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0c0f0e;--panel:#141917;--fg:#d5ddd8;--dim:#7d8a83;--rule:#26302b;
+  --acc:#4cc2e6;--up:#4fcf74;--down:#e39a52;--side:#a99cf5;--bad:#ff6b5e;--warn:#e0b341;color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0c0f0e;--panel:#141917;--fg:#d5ddd8;--dim:#7d8a83;--rule:#26302b;
+  --acc:#4cc2e6;--up:#4fcf74;--down:#e39a52;--side:#a99cf5;--bad:#ff6b5e;--warn:#e0b341;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font:12px/1.3 var(--mono);
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 24px}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--panel)}
+a{color:var(--acc);text-decoration:none}a:hover{text-decoration:underline}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid var(--acc);outline-offset:1px}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--panel);border-bottom:1px solid var(--rule);
+  margin:0 calc(-1 * max(16px,env(safe-area-inset-left,0px)));padding:4px max(16px,env(safe-area-inset-left,0px));
+  display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+header b{font-family:var(--sans);font-weight:700;letter-spacing:.02em}
+header nav{display:flex;gap:8px}
+input,select,button{font:inherit;background:var(--bg);color:var(--fg);border:1px solid var(--rule);padding:1px 4px}
+button{cursor:pointer}
+.wrap{overflow-x:auto;min-width:0}
+table{border-collapse:collapse;width:100%}
+th,td{padding:1px 5px;text-align:left;white-space:nowrap;vertical-align:top}
+th{color:var(--dim);font-weight:400;border-bottom:1px solid var(--rule);cursor:pointer;user-select:none;position:sticky;top:0;background:var(--bg)}
+td.n,th.n{text-align:right;font-variant-numeric:tabular-nums}
+tbody tr:nth-child(even){background:color-mix(in srgb,var(--fg) 4%,transparent)}
+tbody tr:hover{background:color-mix(in srgb,var(--acc) 10%,transparent)}
+.dim{color:var(--dim)}.up{color:var(--up)}.down{color:var(--down)}.side{color:var(--side)}.bad{color:var(--bad)}.warn{color:var(--warn)}
+.y{color:var(--up)}.no{color:var(--dim)}
+h1{font:600 16px/1.2 var(--sans);margin:8px 0 2px;text-wrap:balance}
+h2{font:600 11px/1.2 var(--mono);text-transform:uppercase;letter-spacing:.08em;color:var(--dim);margin:10px 0 2px;border-bottom:1px solid var(--rule);padding-bottom:1px}
+.kv{display:flex;flex-wrap:wrap;gap:2px 14px}.kv span b{font-weight:600}
+.cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:4px 18px}
+.cols>div{min-width:0}
+ul.t{margin:0;padding:0;list-style:none}ul.t li{padding:1px 0;white-space:normal}
+ul.t li::before{content:"› ";color:var(--dim)}
+ul.g li::before{content:"⚠ ";color:var(--warn)}
+.chips{display:flex;flex-wrap:wrap;gap:3px;margin:4px 0}
+.chip{border:1px solid var(--rule);padding:0 4px;cursor:pointer;background:var(--bg);color:var(--fg)}
+.chip.on{background:var(--acc);color:var(--bg);border-color:var(--acc)}
+.chip i{font-style:normal;color:var(--dim)}.chip.on i{color:var(--bg)}
+.tag{display:inline-block;padding:0 3px;border:1px solid var(--rule);color:var(--dim);font-size:11px}
+.diff td.ch{background:color-mix(in srgb,var(--warn) 14%,transparent)}
+.diff td.win{color:var(--up);font-weight:700}
+.need{white-space:normal}
+.small{font-size:11px}
+.jm td{white-space:normal}
+.jm td a{white-space:nowrap}
+.raw td:first-child{color:var(--dim)}
+.raw td{white-space:normal}
+td input,td select{padding:0 2px}
+tr.spec td{background:color-mix(in srgb,var(--acc) 6%,transparent);white-space:normal}
+h1 .small{font-family:var(--mono);font-weight:400}
+h1 select{font:inherit;font-size:14px}
+tr.sel td{background:color-mix(in srgb,var(--acc) 14%,transparent)}
+.nowrap{white-space:nowrap}
+.tag.cap-band,.tag.cap-antenna{color:var(--acc)}.tag.cap-dv,.tag.cap-job,.tag.cap-console{color:var(--up)}.tag.cap-power,.tag.cap-poe{color:var(--warn)}.tag.cap-form{color:var(--side)}
+</style>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600;700&family=JetBrains+Mono:wght@400;600;700&display=swap">
+
+<header>
+  <b id="brand">graph</b>
+  <nav><a href="#all">catalog</a><a href="#jobs">by job</a><a href="#edges">edges</a><a href="#inv" id="invnav" hidden>inventory</a><a href="#add.*" id="addnav" hidden>adds</a><a href="#price.all" id="pricenav" hidden>prices</a></nav>
+  <input id="q" placeholder="filter…  (e.g. din metering, zwave, dim)" size="34">
+  <span id="stat" class="dim small"></span>
+</header>
+<main id="app"></main>
+
+<script id="data" type="application/json">__DATA__</script>
+<script>
+const D = JSON.parse(document.getElementById('data').textContent);
+const P = D.products, E = D.edges, PAIRS = D.pairs || {}, RAW = D.raw || {}, JOBS = D.jobs || {};
+const ids = Object.keys(P).sort((a,b)=>(P[a].price||0)-(P[b].price||0));
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const f = (p,k) => (p.f||{})[k];
+const money = v => v==null ? '' : '$'+Number(v).toFixed(2);
+const dmoney = v => v==null ? '' : (v>0?'+':v<0?'−':'±')+'$'+Math.abs(v).toFixed(0);
+const anylink = id => P[id] ? plink(id)+` <span class="dim">${money(P[id].price)}</span>` : ACC[id] ? `${esc(ACC[id].name)} <span class="dim">${money(ACC[id].price)} · ${esc(ACC[id].sub)}</span>` : esc(id);
+const plink = id => P[id] ? `<a href="#p.${id}">${esc(P[id].name)}</a>` : esc(id);
+const yn = v => v===true ? '<span class="y">yes</span>' : v===false ? '<span class="no">no</span>' : '<span class="dim">?</span>';
+const primary = p => (p.jobs||[]).filter(j=>j.role==='primary').map(j=>j.job);
+const allJobs = p => (p.jobs||[]).map(j=>j.job);
+const CFG = D.config, ACC = D.acc || {}, HAS_INV = !!CFG.inventory, HAS_PRICE = !!CFG.pricing;
+const get = (p,path) => path.split('.').reduce((o,k)=>o==null?o:o[k], p);
+// multi-kind catalogs (e.g. radios + antennas): CFG.kinds[kind] overrides cols/header/feats/better/legend per kind
+const kindOf = p => p?.kind || 'radio';
+const KINDS = CFG.kinds ? Object.keys(CFG.kinds) : null;
+const KC = k => (CFG.kinds && CFG.kinds[k]) || CFG;
+let kindSel = KINDS ? KINDS[0] : null;
+// column renderers by type; config columns: {k,label,path,t,map?}
+const RENDER = {
+  str: v => esc(v ?? ''),
+  num: v => v==null ? '' : esc(v),
+  money: v => money(v),
+  yn: v => yn(v),
+  list: v => esc((v||[]).join(' ')),
+  abbr: (v,c) => (v||[]).map(x=>c.map[x]||x).join(' '),
+  pos: (v,c) => (v==null||v==='none'||v===false||v===0||(Array.isArray(v)&&!v.length)) ? '<span class="dim">—</span>' : `<span class="up">${esc(c.map?.[v]??(Array.isArray(v)?v.join(' '):v))}</span>`,
+  ports: v => Object.entries(v||{}).filter(([k,n])=>n).map(([k,n])=>`${n}×${CFG.portAbbr?.[k]||k}`).join(' '),
+  legacy: v => v ? '<span class="bad">legacy</span>' : '',
+  count: v => (v||[]).length || '',
+  rating: v => v ? `<span class="${v.avg>=4.6?'up':v.avg<4?'warn':''}">${v.avg.toFixed(1)}</span><span class="dim small">·${v.n}</span>` : '',
+  tuner: v => v===false ? '<span class="warn">needs</span>' : v===true ? '<span class="dim">no</span>' : '<span class="dim">?</span>',
+  has: v => (v==null||v===''||v===false) ? '<span class="dim">—</span>' : '<span class="y" title="'+esc(v)+'">✓</span>',
+  // ham band list → "160–10m 6m 2m 70cm": collapse the contiguous HF run
+  bands: v => { const HF=['160m','80m','60m','40m','30m','20m','17m','15m','12m','10m']; const b=v||[]; const h=HF.filter(x=>b.includes(x));
+    const rest=b.filter(x=>!HF.includes(x)); return esc([h.length>2?`${h[0].replace('m','')}–${h.at(-1)}`:h.join(' '),...rest].filter(Boolean).join(' ')); },
+};
+const SORTV = (v) => Array.isArray(v) ? v.join() : (v && typeof v==='object') ? Object.values(v).reduce((a,b)=>a+(+b||0),0) : (v ?? '');
+const colsFor = k => [
+  ['name','product',p=>plink(p.id)+(p.legacy?' <span class="bad small">legacy</span>':''),p=>p.name],
+  ['price','$',p=>money(p.price),p=>p.price||0,'n'],
+  ...KC(k).cols.map(c=>[c.k,c.label,p=>RENDER[c.t](get(p,c.path),c),p=>{const v=get(p,c.path);return c.t==='num'?(+v||0):c.t==='rating'?(v?.avg||0):SORTV(v)},c.t==='num'?'n':'']),
+  ['gotcha','⚠',p=>{const n=(p.gotchas||[]).length;return n?`<span class="warn">${n}</span>`:''},p=>(p.gotchas||[]).length,'n'],
+  ['jobs','primary job',p=>primary(p).map(j=>`<a href="#j.${j}" class="dim">${j}</a>`).join(' '),p=>primary(p).join()],
+  ...(HAS_INV?[['own','own',p=>{const n=ownCount(p.id);return n?`<b class="up">${n}</b>`:''},p=>ownCount(p.id),'n']]:[]),
+];
+const COLS_BY = {}; const colsOf = k => COLS_BY[k] || (COLS_BY[k]=colsFor(k));
+const inKind = id => !KINDS || kindOf(P[id])===kindSel;
+let sortKey='price', sortDir=1, jobFilter=null;
+
+function matches(p, q){
+  if(!q) return true;
+  const hay = (p.name+' '+p.line+' '+JSON.stringify(p.f)+' '+allJobs(p).join(' ')+' '+(p.summary||'')).toLowerCase();
+  return q.toLowerCase().split(/\s+/).every(t=>hay.includes(t.replace('metering','meter')) || hay.includes(t));
+}
+function table(list, cols=colsOf(KINDS&&list.length?kindOf(P[list[0]]):kindSel)){
+  const rows = list.slice().sort((a,b)=>{const c=cols.find(c=>c[0]===sortKey)||cols[1];const x=c[3](P[a]),y=c[3](P[b]);return (x>y?1:x<y?-1:0)*sortDir});
+  return `<div class="wrap"><table><thead><tr>${cols.map(c=>`<th class="${c[4]||''}" data-k="${c[0]}">${c[1]}${sortKey===c[0]?(sortDir>0?' ▲':' ▼'):''}</th>`).join('')}</tr></thead><tbody>${
+    rows.map(id=>`<tr>${cols.map(c=>`<td class="${c[4]||''}">${c[2](P[id])}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;
+}
+function jobCounts(){const c={};ids.filter(inKind).forEach(id=>primary(P[id]).forEach(j=>c[j]=(c[j]||0)+1));return Object.entries(c).sort((a,b)=>b[1]-a[1]);}
+
+function viewAll(){
+  const q=$('#q').value.trim();
+  const list=ids.filter(id=>inKind(id)&&matches(P[id],q)&&(!jobFilter||allJobs(P[id]).includes(jobFilter)));
+  $('#stat').textContent=`${list.length}/${ids.length} products · ${E.length} edges`;
+  return kindTabs()+`<div class="chips">${jobCounts().map(([j,n])=>`<span class="chip ${jobFilter===j?'on':''}" data-job="${j}">${j} <i>${n}</i></span>`).join('')}</div>`+table(list)+
+    `<p class="dim small">${esc(KC(kindSel).legend||CFG.legend||'')} click a column to sort.</p>`;
+}
+const kindTabs = () => KINDS ? `<div class="chips">${KINDS.map(k=>`<span class="chip ${k===kindSel?'on':''}" data-kind="${k}">${esc(KC(k).label||k)} <i>${ids.filter(id=>kindOf(P[id])===k).length}</i></span>`).join('')}</div>` : '';
+
+function viewJobs(){
+  // job-first entry: each job row lists the products that do it, cheapest first, with the one thing that distinguishes them
+  return kindTabs()+`<h1>What are you trying to do?</h1><div class="wrap"><table class="jm"><thead><tr><th>job</th><th>what it means</th><th class="n">#</th><th>cheapest → priciest (primary)</th></tr></thead><tbody>${
+    jobCounts().map(([j,n])=>{const l=ids.filter(id=>primary(P[id]).includes(j));
+      return `<tr><td><a href="#j.${j}">${j}</a></td><td class="dim">${esc(JOBS[j]||'')}</td><td class="n">${n}</td><td>${l.slice(0,14).map(id=>`${plink(id)} <span class="dim">${money(P[id].price)}</span>`).join(' · ')}${l.length>14?` <span class="dim">+${l.length-14}</span>`:''}</td></tr>`}).join('')}</tbody></table></div>`;
+}
+
+function viewJob(j){
+  const list=ids.filter(id=>allJobs(P[id]).includes(j));
+  const prim=list.filter(id=>primary(P[id]).includes(j));
+  // decision ladder: edges among the job's primary products
+  const inJob=new Set(prim);
+  const ladder=E.filter(e=>inJob.has(e.src)&&inJob.has(e.dst)&&e.kind==='upgrade');
+  const needs={};ladder.forEach(e=>{(needs[e.need]=needs[e.need]||[]).push(e)});
+  return `<h1>${esc(j)}</h1><p class="dim">${esc(JOBS[j]||'')} · ${prim.length} primary · ${list.length-prim.length} secondary</p>`+
+    table(prim)+
+    `<h2>decision ladder — what pushes you up</h2><div class="cols">${Object.entries(needs).sort((a,b)=>b[1].length-a[1].length).map(([n,es])=>
+      `<div><b>${esc(n)}</b><ul class="t small">${es.slice(0,8).map(e=>`<li>${plink(e.src)} → ${plink(e.dst)} <span class="dim">${dmoney(e.dprice)}</span></li>`).join('')}</ul></div>`).join('')}</div>`+
+    (list.length>prim.length?`<h2>also does this (secondary)</h2>`+table(list.filter(id=>!inJob.has(id))):'');
+}
+
+function edgeList(es, cls){
+  if(!es.length) return '<span class="dim">none</span>';
+  // one line per destination: the needs that lead there, then whatever else changes along the way
+  const by={};es.forEach(e=>{(by[e.dst]=by[e.dst]||{e,needs:[]}).needs.push(e.need)});
+  return `<ul class="t">${Object.values(by).sort((a,b)=>a.e.dprice-b.e.dprice).map(({e,needs})=>{
+    const rest=e.deltas.filter(d=>!needs.includes(d.label));
+    return `<li class="need"><span class="${cls}">${needs.map(esc).join(' · ')}</span> → ${plink(e.dst)} <span class="dim">${dmoney(e.dprice)}</span> <a class="dim small" href="#d.${e.src}~${e.dst}">diff</a>${
+    rest.length?`<br><span class="dim small">&nbsp;&nbsp;also: ${rest.map(d=>esc(d.label.replace(/^if (you )?/,''))).join('; ')}</span>`:''}</li>`}).join('')}</ul>`;
+}
+
+const FEATS=CFG.feats; const featsOf = p => KC(kindOf(p)).feats || FEATS;
+const fmt = v => v==null ? '<span class="dim">?</span>' : v===true ? '<span class="y">yes</span>' : v===false ? '<span class="no">no</span>' : Array.isArray(v) ? (v.length?esc(v.join(', ')):'<span class="dim">—</span>') : typeof v==='object' ? esc(JSON.stringify(v)) : esc(v);
+
+function viewProduct(id){
+  const p=P[id]; if(!p) return `<p>unknown product ${esc(id)}</p>`;
+  const out=E.filter(e=>e.src===id), inn=E.filter(e=>e.dst===id);
+  const pairs=PAIRS[id]||[];
+  const raw=RAW[id]||{};
+  return `<h1>${esc(p.name)} <span class="dim">${money(p.price)}</span></h1>
+  <div class="kv small"><span>${esc(p.line)}</span>${p.legacy?'<span class="bad">legacy / not in store</span>':''}${(KC(kindOf(p)).header||CFG.header).map(c=>{const v=get(p,c.path);return v==null||v===''||(Array.isArray(v)&&!v.length)?'':`<span>${esc(c.label)} <b>${c.t?RENDER[c.t](v,c):fmt(v)}</b></span>`}).join('')}<span class="dim">conf ${esc(p.confidence)}</span>${p.rating?`<a href="https://www.eham.net/reviews/view-product/${esc(p.rating.pid)}" title="${esc(p.rating.name)} · last review ${esc(p.rating.last)}">eHam ${p.rating.avg.toFixed(1)} (${p.rating.n}) ↗</a>`:''}${(raw.links||[]).map(l=>`<a href="${esc(l[1])}">${esc(l[0])} ↗</a>`).join('')}</div>
+  ${HAS_INV?ownLine(id):''}${HAS_PRICE?priceLine(id):''}<p>${esc(p.summary)} <span class="dim">· jobs: ${(p.jobs||[]).map(j=>`<a href="#j.${j.job}" class="${j.role==='primary'?'':'dim'}">${j.job}</a>`).join(' ')}</span></p>
+  <div class="cols">
+    <div><h2>gotchas</h2><ul class="t g">${(p.gotchas||[]).map(g=>`<li>${esc(g)}</li>`).join('')||'<li class="dim">none recorded</li>'}</ul></div>
+    <div><h2>best for / not for</h2><ul class="t">${(p.best_for||[]).map(g=>`<li class="up">${esc(g)}</li>`).join('')}${(p.not_for||[]).map(g=>`<li class="bad">${esc(g)}</li>`).join('')}</ul></div>
+    <div><h2>needs / pairs well with</h2>${pairs.length?`<ul class="t">${pairs.slice().sort((a,b)=>(b.req?1:0)-(a.req?1:0)).map(x=>`<li class="need">${x.req?'<b class="warn">needs</b> ':''}${anylink(x.id)} <span class="dim">${esc(x.why)}</span></li>`).join('')}</ul>`:'<span class="dim">—</span>'}${(raw.compat||[]).length?`<div class="small dim">vendor-listed compatible:</div><ul class="t small">${raw.compat.map(c=>`<li>${anylink(c)}</li>`).join('')}</ul>`:''}</div>
+  </div>
+  <div class="cols">
+    <div><h2 class="up">upgrade if…</h2>${edgeList(out.filter(e=>e.kind==='upgrade'),'up')}</div>
+    <div><h2 class="down">downgrade / save if…</h2>${edgeList(out.filter(e=>e.kind==='downgrade'),'down')}</div>
+    <div><h2 class="side">sidegrade if…</h2>${edgeList(out.filter(e=>e.kind==='sidegrade'),'side')}</div>
+  </div>
+  <h2>points here from (${inn.length})</h2><div class="small">${[...new Set(inn.map(e=>e.src))].map(s=>plink(s)).join(' · ')||'<span class="dim">—</span>'}</div>
+  <h2>compare</h2><select id="cmp"><option value="">diff against…</option>${ids.filter(x=>x!==id&&kindOf(P[x])===kindOf(p)).map(x=>`<option value="${x}">${esc(P[x].name)} (${money(P[x].price)})</option>`).join('')}</select>
+  <div class="cols"><div><h2>normalized</h2><table class="raw small"><tbody>${featsOf(p).map(k=>`<tr><td>${k}</td><td>${fmt(f(p,k))}</td></tr>`).join('')}${Object.entries(f(p,'extra')||{}).map(([k,v])=>`<tr><td>extra.${esc(k)}</td><td>${fmt(v)}</td></tr>`).join('')}</tbody></table></div>
+  <div><h2>raw KB spec table</h2><table class="raw small"><tbody>${Object.entries(raw.specs||{}).map(([s,d])=>`<tr><td colspan="2"><b>${esc(s)}</b></td></tr>`+Object.entries(d).map(([k,v])=>`<tr><td>${esc(k)}</td><td>${esc(v)}</td></tr>`).join('')).join('')||'<tr><td class="dim">no KB specs scraped</td></tr>'}</tbody></table></div></div>`;
+}
+
+// which side wins a feature, for diff highlighting: returns 'a'|'b'|null
+// which side wins a feature, for diff highlighting. CFG.better: {feature: higher|lower|true|false|nonempty|longer|ports}
+const BR = {
+  higher:(x,y)=>+x>+y, lower:(x,y)=>+x<+y, true:(x,y)=>x===true&&y!==true, false:(x,y)=>x===false&&y===true,
+  nonempty:(x,y)=>(x&&x!=='none'&&!(Array.isArray(x)&&!x.length))&&(!y||y==='none'||(Array.isArray(y)&&!y.length)),
+  longer:(x,y)=>(x||[]).length>(y||[]).length, ports:(x,y)=>SORTV(x)>SORTV(y),
+};
+const BETTER = Object.fromEntries([CFG.better||{}, ...Object.values(CFG.kinds||{}).map(k=>k.better||{})].flatMap(o=>Object.entries(o)).map(([k,v])=>[k,BR[v]]));
+const pv = v => Array.isArray(v) ? v.join(',') : (v && typeof v==='object') ? Object.entries(v).filter(([k,n])=>n).map(([k,n])=>`${n}×${CFG.portAbbr?.[k]||k}`).join(' ') : v;
+function whenBetter(a,b){
+  // reasons to buy a over b: deltas from b→a that are gains, plus price
+  const r=[];const e=E.find(e=>e.src===b.id&&e.dst===a.id);
+  const ds=e?e.deltas:[];
+  ds.filter(d=>d.d>=0).forEach(d=>r.push(d.label));
+  if((a.price||0)<(b.price||0)) r.push(`you want to save $${((b.price||0)-(a.price||0)).toFixed(0)}`);
+  featsOf(a).forEach(k=>{const x=f(a,k),y=f(b,k);if(BETTER[k]&&x!=null&&y!=null&&BETTER[k](x,y)&&!ds.some(d=>d.k===k||d.k.startsWith(k.slice(0,4))))r.push(`${k.replace(/_/g,' ')}: ${pv(x)} vs ${pv(y)}`)});
+  return [...new Set(r)];
+}
+function viewDiff(x,y){
+  const a=P[x],b=P[y]; if(!a||!b) return '<p>unknown pair</p>';
+  const rows=featsOf(a).map(k=>{const va=f(a,k),vb=f(b,k);const ch=JSON.stringify(va)!==JSON.stringify(vb);
+    const wa=BETTER[k]&&va!=null&&vb!=null&&BETTER[k](va,vb), wb=BETTER[k]&&va!=null&&vb!=null&&BETTER[k](vb,va);
+    return `<tr><td class="dim">${k}</td><td class="${ch?'ch':''} ${wa?'win':''}">${fmt(va)}</td><td class="${ch?'ch':''} ${wb?'win':''}">${fmt(vb)}</td></tr>`}).join('');
+  const ga=whenBetter(a,b), gb=whenBetter(b,a);
+  return `<h1>${plink(x)} <span class="dim">vs</span> ${plink(y)} <a class="small" href="#d.${y}~${x}">⇄</a></h1>
+  <div class="cols">
+    <div><h2>buy ${esc(a.name)} ${money(a.price)} when…</h2><ul class="t">${ga.map(r=>`<li class="up">${esc(r)}</li>`).join('')||'<li class="dim">no clear advantage</li>'}</ul></div>
+    <div><h2>buy ${esc(b.name)} ${money(b.price)} when…</h2><ul class="t">${gb.map(r=>`<li class="up">${esc(r)}</li>`).join('')||'<li class="dim">no clear advantage</li>'}</ul></div>
+  </div>
+  <div class="cols">
+    <div><h2>gotchas: ${esc(a.name)}</h2><ul class="t g small">${(a.gotchas||[]).map(g=>`<li>${esc(g)}</li>`).join('')}</ul></div>
+    <div><h2>gotchas: ${esc(b.name)}</h2><ul class="t g small">${(b.gotchas||[]).map(g=>`<li>${esc(g)}</li>`).join('')}</ul></div>
+  </div>
+  <h2>feature by feature <span class="dim">(changed = amber, better = green bold)</span></h2>
+  <div class="wrap"><table class="diff"><thead><tr><th>feature</th><th>${esc(a.name)}</th><th>${esc(b.name)}</th></tr></thead><tbody>
+  <tr><td class="dim">price</td><td class="${a.price<b.price?'win':''}">${money(a.price)}</td><td class="${b.price<a.price?'win':''}">${money(b.price)}</td></tr>
+  <tr><td class="dim">line</td><td>${esc(a.line)}</td><td>${esc(b.line)}</td></tr>${rows}</tbody></table></div>`;
+}
+
+function viewEdges(){
+  const q=$('#q').value.trim().toLowerCase();
+  const l=E.filter(e=>!q||(e.need+' '+P[e.src].name+' '+P[e.dst].name).toLowerCase().includes(q));
+  $('#stat').textContent=`${l.length}/${E.length} edges`;
+  return `<div class="wrap"><table><thead><tr><th>from</th><th>kind</th><th>need</th><th>to</th><th class="n">Δ$</th><th></th></tr></thead><tbody>${
+    l.slice(0,1500).map(e=>`<tr><td>${plink(e.src)}</td><td class="${e.kind==='upgrade'?'up':e.kind==='downgrade'?'down':'side'}">${e.kind}</td><td>${esc(e.need)}</td><td>${plink(e.dst)}</td><td class="n">${dmoney(e.dprice)}</td><td><a class="dim" href="#d.${e.src}~${e.dst}">diff</a></td></tr>`).join('')}</tbody></table></div>`;
+}
+
+/*__INVENTORY__*/
+/*__PRICING__*/
+function route(){
+  const h=decodeURIComponent(location.hash.slice(1))||'all';
+  let html;
+  if(h==='all') html=viewAll();
+  else if(h==='jobs') html=viewJobs();
+  else if(h==='edges') html=viewEdges();
+  else if(h.startsWith('p.')) html=viewProduct(h.slice(2));
+  else if(h.startsWith('j.')) html=viewJob(h.slice(2));
+  else if(h.startsWith('d.')) {const [x,y]=h.slice(2).split('~');html=viewDiff(x,y);}
+  else if(HAS_INV&&h==='inv') html=viewInv();
+  else if(HAS_INV&&h.startsWith('s.')) html=viewSite(h.slice(2));
+  else if(HAS_INV&&(h==='add'||h.startsWith('add.'))) html=viewAdd(h.slice(4));
+  else if(HAS_PRICE&&(h==='price'||h.startsWith('price.'))) html=viewPrice(h.slice(6));
+  else html=viewAll();
+  if(!['all','edges'].includes(h)) $('#stat').textContent=`${ids.length} products · ${E.length} edges`;
+  $('#app').innerHTML=html;
+}
+document.addEventListener('click',ev=>{
+  if(HAS_PRICE){const b=ev.target.closest('[data-act]'); if(b&&priceClick(ev,b)) return;}
+  if(HAS_INV&&invClick(ev)) return;
+  const th=ev.target.closest('th[data-k]'); if(th){const k=th.dataset.k; sortDir = sortKey===k ? -sortDir : 1; sortKey=k; route(); return;}
+  const kc=ev.target.closest('.chip[data-kind]'); if(kc){kindSel=kc.dataset.kind; jobFilter=null; sortKey='price'; route(); return;}
+  const c=ev.target.closest('.chip[data-job]'); if(c){jobFilter = jobFilter===c.dataset.job ? null : c.dataset.job; route();}
+});
+document.addEventListener('change',ev=>{ if(HAS_PRICE&&priceChange(ev)) return; if(HAS_INV&&invChange(ev)) return; if(ev.target.id==='cmp'&&ev.target.value){ const cur=location.hash.slice(3); location.hash=`d.${cur}~${ev.target.value}`; }});
+let qt=null; $('#q').addEventListener('input',()=>{clearTimeout(qt);qt=setTimeout(()=>{const h=location.hash.slice(1);if(h!=='edges'&&h!=='all'&&h!==''&&!h.startsWith('add')&&!h.startsWith('price'))location.hash='all';else route();},120)});
+window.addEventListener('hashchange',()=>{route();window.scrollTo(0,0)});
+document.getElementById('brand').textContent=CFG.brand;
+if(HAS_PRICE) document.getElementById('pricenav').hidden=false;
+if(HAS_INV){document.getElementById('invnav').hidden=false;document.getElementById('addnav').hidden=false;invInit();}
+route();
+</script>
