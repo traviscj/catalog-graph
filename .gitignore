@@ -1,0 +1,17 @@
+# raw scrape caches / HTML + API dumps (re-fetchable, large)
+data/*/raw/
+data/ham/elecraft/
+# local backups
+.bak/
+# built single-file SPAs (regenerate with scripts/build_site.py)
+site/*.html
+!site/template.html
+# personal inventory lives in the artifact DB, never in this repo
+inventory*.json
+*.inventory.json
+# python / os
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+.env
