@@ -1,0 +1,86 @@
+{
+  "id": "shelly-wave-pro-3",
+  "name": "Shelly Wave Pro 3",
+  "price": 47.7,
+  "line": "Wave Pro",
+  "summary": "DIN-rail Z-Wave 3-channel 16A dry-contact relay (48A total), no metering.",
+  "jobs": [
+    {
+      "job": "zwave_mesh",
+      "role": "primary"
+    },
+    {
+      "job": "switch_load",
+      "role": "primary"
+    },
+    {
+      "job": "switch_low_voltage",
+      "role": "secondary"
+    },
+    {
+      "job": "switch_high_current",
+      "role": "secondary"
+    }
+  ],
+  "f": {
+    "form_factor": "din_rail",
+    "mains_powered": true,
+    "supply": "110-240VAC 50/60Hz",
+    "dc_supply": false,
+    "battery": null,
+    "neutral_required": null,
+    "channels": 3,
+    "output_type": "dry_relay",
+    "max_current_a": 16,
+    "max_power_w": null,
+    "dc_switching": "16A/30V per channel",
+    "power_metering": "none",
+    "metering_max_a": null,
+    "dimming": null,
+    "cover_control": false,
+    "color_light": null,
+    "inputs": null,
+    "input_count": null,
+    "sensors": [],
+    "radios": [
+      "zwave"
+    ],
+    "matter": false,
+    "ble_gateway": false,
+    "zwave_repeater": true,
+    "local_api": false,
+    "mqtt": false,
+    "scripting": false,
+    "ul_listed": null,
+    "protections": [
+      "overtemp"
+    ],
+    "temp_range_c": "-20..40",
+    "size_mm": "96x53x59",
+    "addon_port": false,
+    "requires": [
+      "Z-Wave controller/hub (e.g. Home Assistant + Z-Wave stick, Hubitat, SmartThings)"
+    ],
+    "extra": {
+      "total_current_a": 48,
+      "available": false,
+      "tags_conflict": "store tags list 'Bluetooth' and 'LAN' but KB shows Z-Wave only",
+      "kb_slug": "wave-pro-3-us (shared with Wave Pro 3 LR US)",
+      "dc_rating_note": "KB claims 16A/30VDC per channel — unusually high, verify"
+    }
+  },
+  "gotchas": [
+    "Z-Wave only — requires a Z-Wave hub (blurb: gateway required for configuration); store's Bluetooth/LAN tags are wrong",
+    "No power metering — see Shelly Wave Pro 1PM",
+    "Out of stock",
+    "3-module-wide DIN unit (53mm) needs DIN enclosure space"
+  ],
+  "best_for": [
+    "Three dry-contact circuits (pumps, contactors, HVAC calls) from a Z-Wave DIN panel"
+  ],
+  "not_for": [
+    "energy monitoring",
+    "Wi-Fi users"
+  ],
+  "confidence": "medium"
+}

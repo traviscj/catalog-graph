@@ -1,0 +1,92 @@
+{
+  "id": "shelly-pro-dimmer-0-1-10v-pm",
+  "name": "Shelly Pro Dimmer 0/1-10V PM",
+  "price": 99.99,
+  "line": "Pro",
+  "summary": "DIN-rail 0-10V/1-10V dimming controller with 16A metered relay for the driver supply, LAN/Wi-Fi/BLE.",
+  "jobs": [
+    {
+      "job": "dim_lowvolt_driver",
+      "role": "primary"
+    },
+    {
+      "job": "meter_circuit",
+      "role": "secondary"
+    },
+    {
+      "job": "switch_load",
+      "role": "secondary"
+    }
+  ],
+  "f": {
+    "form_factor": "din_rail",
+    "mains_powered": true,
+    "supply": "110-240VAC",
+    "dc_supply": false,
+    "battery": null,
+    "neutral_required": true,
+    "channels": 1,
+    "output_type": "0-10v",
+    "max_current_a": 16,
+    "max_power_w": null,
+    "dc_switching": null,
+    "power_metering": "per_channel",
+    "metering_max_a": null,
+    "dimming": "0-10v",
+    "cover_control": false,
+    "color_light": null,
+    "inputs": "2 switch/button inputs (SW1, SW2)",
+    "input_count": 2,
+    "sensors": [
+      "internal_temp"
+    ],
+    "radios": [
+      "ethernet",
+      "wifi",
+      "bluetooth"
+    ],
+    "matter": null,
+    "ble_gateway": true,
+    "zwave_repeater": null,
+    "local_api": true,
+    "mqtt": true,
+    "scripting": true,
+    "ul_listed": null,
+    "protections": [
+      "overtemp",
+      "overvoltage",
+      "overcurrent",
+      "overpower"
+    ],
+    "temp_range_c": "-20..40",
+    "size_mm": "94x19x69",
+    "addon_port": null,
+    "requires": [],
+    "extra": {
+      "dimming_supported": [
+        "0-10v",
+        "1-10v"
+      ],
+      "control_type": "current sourcing",
+      "relay": "16A relay with metering switches driver mains",
+      "kb_model": "SPCC-001PE10EU",
+      "kb_copy_note": "KB use-cases text refers to 'Dimmer 0/1-10V PM Gen3' (copy-paste)",
+      "wifi_range_extender": true,
+      "measurement_storage": false
+    }
+  },
+  "gotchas": [
+    "Only drives 0-10V/1-10V drivers — not a phase-cut dimmer for regular LED/incandescent bulbs (see Shelly Pro Dimmer 1PM)",
+    "0-10V output is current-sourcing — confirm your driver's dim-input type is compatible",
+    "Single dimming channel per unit",
+    "DIN-rail: needs a DIN enclosure; no UL listing stated"
+  ],
+  "best_for": [
+    "Commercial LED fixtures/high-bays/troffers with 0-10V drivers, with power metering of the driver feed"
+  ],
+  "not_for": [
+    "phase-cut dimming",
+    "in-wall retrofit"
+  ],
+  "confidence": "high"
+}

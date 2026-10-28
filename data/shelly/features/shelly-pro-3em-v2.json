@@ -1,0 +1,80 @@
+{
+  "id": "shelly-pro-3em-v2",
+  "name": "Shelly Pro 3EM V2",
+  "price": 154.99,
+  "line": "Pro",
+  "summary": "DIN-rail 3-phase CT energy meter (120A CTs, optional neutral CT) with LAN, Wi-Fi, BLE; Matter-ready.",
+  "jobs": [
+    {
+      "job": "meter_panel",
+      "role": "primary"
+    }
+  ],
+  "f": {
+    "form_factor": "din_rail",
+    "mains_powered": true,
+    "supply": "100-260VAC 50/60Hz",
+    "dc_supply": false,
+    "battery": null,
+    "neutral_required": true,
+    "channels": 3,
+    "output_type": "none",
+    "max_current_a": null,
+    "max_power_w": null,
+    "dc_switching": null,
+    "power_metering": "3ph_clamp",
+    "metering_max_a": 120,
+    "dimming": null,
+    "cover_control": false,
+    "color_light": null,
+    "inputs": "3 phase CT + 1 neutral CT inputs",
+    "input_count": 0,
+    "sensors": [
+      "internal_temp",
+      "voltage"
+    ],
+    "radios": [
+      "ethernet",
+      "wifi",
+      "bluetooth"
+    ],
+    "matter": true,
+    "ble_gateway": null,
+    "zwave_repeater": null,
+    "local_api": true,
+    "mqtt": true,
+    "scripting": true,
+    "ul_listed": null,
+    "protections": [
+      "overtemp"
+    ],
+    "temp_range_c": "-20..40",
+    "size_mm": "94x19x69",
+    "addon_port": true,
+    "requires": [],
+    "extra": {
+      "matter_note": "KB: 'Matter-ready', must be enabled",
+      "accuracy": "±1% 2-120A, Class B",
+      "data_log": "45 days @1 min",
+      "neutral_ct": "optional, not included",
+      "contactor_control": "requires Shelly Pro 3EM Switch Add-on",
+      "single_phase_mode": true,
+      "four_quadrant": true,
+      "pv_ready": true
+    }
+  },
+  "gotchas": [
+    "No built-in relay — load control needs the Shelly Pro 3EM Switch Add-on",
+    "DIN-rail: needs a DIN enclosure next to a US panel",
+    "Neutral CT is optional and not included",
+    "Meters only up to 120A per CT — check your service size; for 2-circuit split-phase see Shelly Pro EM-50"
+  ],
+  "best_for": [
+    "Whole-home or solar metering on 3-phase or US split-phase services up to 120A, with Ethernet"
+  ],
+  "not_for": [
+    "per-circuit control",
+    "services >120A per leg"
+  ],
+  "confidence": "high"
+}

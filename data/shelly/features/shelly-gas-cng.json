@@ -1,0 +1,78 @@
+{
+  "id": "shelly-gas-cng",
+  "name": "Shelly GAS (CNG)",
+  "price": 69.99,
+  "line": "Gen1",
+  "summary": "Mains-powered Wi-Fi natural-gas (CNG) leak detector with 70 dB siren and valve output.",
+  "jobs": [
+    {
+      "job": "sense_gas",
+      "role": "primary"
+    }
+  ],
+  "f": {
+    "form_factor": "wired_sensor",
+    "mains_powered": true,
+    "supply": "110-230VAC 50/60Hz",
+    "dc_supply": false,
+    "battery": null,
+    "neutral_required": null,
+    "channels": null,
+    "output_type": "none",
+    "max_current_a": null,
+    "max_power_w": null,
+    "dc_switching": null,
+    "power_metering": "none",
+    "metering_max_a": null,
+    "dimming": null,
+    "cover_control": false,
+    "color_light": null,
+    "inputs": null,
+    "input_count": 0,
+    "sensors": [
+      "gas"
+    ],
+    "radios": [
+      "wifi"
+    ],
+    "matter": null,
+    "ble_gateway": null,
+    "zwave_repeater": null,
+    "local_api": true,
+    "mqtt": true,
+    "scripting": null,
+    "ul_listed": null,
+    "protections": [],
+    "temp_range_c": "-10..50",
+    "size_mm": "89.5x89.5x38 (plug excluded)",
+    "addon_port": false,
+    "requires": [],
+    "extra": {
+      "gas_type": "CNG (natural gas) variant; LPG sold separately",
+      "alarm_sensitivity": "6% LEL",
+      "siren_db": 70,
+      "valve_jack_output": "11-13 V, 500 mA",
+      "shell": "flame resistant",
+      "protocols": [
+        "MQTT",
+        "CoAP",
+        "REST"
+      ],
+      "data_quality": "thin KB page (Gen1 marketing table only)"
+    }
+  },
+  "gotchas": [
+    "CNG/natural-gas version only — propane/LPG needs the LPG variant",
+    "Mains-powered with no battery backup listed — goes dark in a power outage",
+    "Gen1 platform: no scripting/BLE gateway/Matter listed",
+    "No UL or life-safety listing stated — supplement, not a code-required detector"
+  ],
+  "best_for": [
+    "Natural-gas appliance areas wanting phone alerts and optional valve shutoff"
+  ],
+  "not_for": [
+    "propane/LPG",
+    "code-compliance gas alarm"
+  ],
+  "confidence": "medium"
+}

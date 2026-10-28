@@ -1,0 +1,81 @@
+{
+  "id": "shelly-pro-3em-400",
+  "name": "Shelly Pro 3EM-400",
+  "price": 329.99,
+  "line": "Pro",
+  "summary": "DIN-rail 3-phase energy meter with 400A CTs, neutral CT input, LAN/Wi-Fi, 60-day logging; no relay.",
+  "jobs": [
+    {
+      "job": "meter_panel",
+      "role": "primary"
+    }
+  ],
+  "f": {
+    "form_factor": "din_rail",
+    "mains_powered": true,
+    "supply": "110-240VAC 50/60Hz",
+    "dc_supply": false,
+    "battery": null,
+    "neutral_required": true,
+    "channels": 3,
+    "output_type": "none",
+    "max_current_a": null,
+    "max_power_w": null,
+    "dc_switching": null,
+    "power_metering": "3ph_clamp",
+    "metering_max_a": 400,
+    "dimming": null,
+    "cover_control": false,
+    "color_light": null,
+    "inputs": "3 L + N voltage inputs, 4 CT inputs (A/B/C/N)",
+    "input_count": null,
+    "sensors": [
+      "internal_temp",
+      "voltage"
+    ],
+    "radios": [
+      "ethernet",
+      "wifi",
+      "bluetooth"
+    ],
+    "matter": null,
+    "ble_gateway": null,
+    "zwave_repeater": null,
+    "local_api": true,
+    "mqtt": true,
+    "scripting": true,
+    "ul_listed": null,
+    "protections": [],
+    "temp_range_c": "-20..40",
+    "size_mm": "94x19x69",
+    "addon_port": true,
+    "requires": [],
+    "extra": {
+      "compatible_ct": "CT-400A (neutral CT optional, not included)",
+      "accuracy": "±1% (5-400A), ±2% (0-5A), Class B",
+      "data_log": "≥60 days at 1-min resolution, CSV/JSON export",
+      "rtc": true,
+      "four_quadrant": true,
+      "no_load_threshold": "30 VA per channel — energy not accumulated below",
+      "calibration_min_load": "500 W per channel (spec table says 5000 W)",
+      "contactor": "requires Shelly Pro Addon (Switch Add-on) — no built-in relay",
+      "pv_ready": true,
+      "external_protection": "16A B/C breaker"
+    }
+  },
+  "gotchas": [
+    "No built-in relay — contactor control needs the Shelly Pro 3EM Switch Add-on",
+    "Loads under 30 VA/channel aren't accumulated into energy totals — poor for tiny circuits",
+    "Neutral CT is optional and not included; KB doesn't clearly say the 3 phase CTs ship in box",
+    "DIN-rail module — panel install by an electrician",
+    "Overkill/expensive for ≤120A legs — Shelly 3EM covers that range"
+  ],
+  "best_for": [
+    "200-400A services, solar/PV import-export, and commercial 3-phase sub-metering with LAN"
+  ],
+  "not_for": [
+    "switching loads",
+    "small single circuits"
+  ],
+  "confidence": "high"
+}

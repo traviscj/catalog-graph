@@ -1,0 +1,80 @@
+{
+  "id": "shelly-3em-63-gen3",
+  "name": "Shelly 3EM-63 Gen3",
+  "price": 114.99,
+  "line": "Gen3",
+  "summary": "On-breaker 3-phase (or 3×1-phase) energy meter with integrated 63A CTs, Wi-Fi/BLE, 7-day logs.",
+  "jobs": [
+    {
+      "job": "meter_panel",
+      "role": "primary"
+    }
+  ],
+  "f": {
+    "form_factor": "clamp_ct",
+    "mains_powered": true,
+    "supply": "220-240VAC 50/60Hz (LA–N)",
+    "dc_supply": false,
+    "battery": null,
+    "neutral_required": true,
+    "channels": 3,
+    "output_type": "none",
+    "max_current_a": null,
+    "max_power_w": null,
+    "dc_switching": null,
+    "power_metering": "3ph_clamp",
+    "metering_max_a": 63,
+    "dimming": null,
+    "cover_control": false,
+    "color_light": null,
+    "inputs": null,
+    "input_count": 0,
+    "sensors": [
+      "internal_temp",
+      "voltage"
+    ],
+    "radios": [
+      "wifi",
+      "bluetooth"
+    ],
+    "matter": null,
+    "ble_gateway": null,
+    "zwave_repeater": null,
+    "local_api": true,
+    "mqtt": true,
+    "scripting": true,
+    "ul_listed": null,
+    "protections": [],
+    "temp_range_c": "-20..40",
+    "size_mm": "21x54x42 (W) / 31x54x42 (T)",
+    "addon_port": false,
+    "requires": [],
+    "extra": {
+      "mounting": "clips above/below DIN-rail MCBs; Ø8mm conductor aperture",
+      "ct_saturation_a": 130,
+      "accuracy": "±1% 2-63A; Class B active energy",
+      "four_quadrant": true,
+      "pv_ready": true,
+      "data_log": "≥7 days @1-min, CSV/JSON export",
+      "rtc": true,
+      "variants": "3EM-63W (wire leads) / 3EM-63T (flat terminal)",
+      "phase_sequence_detection": "W model only",
+      "external_protection": "63A B/C"
+    }
+  },
+  "gotchas": [
+    "Powered from 220-240V L–N only — a US 120/240V split-phase panel has 120V L–N, so it won't run; see Shelly EM Gen3 (110-240V)",
+    "63A max per phase with Ø8mm aperture — EU MCB-style mounting; won't fit US 100-200A service conductors",
+    "Metering only — no relay output",
+    "EU-style form factor targets DIN-rail breaker panels"
+  ],
+  "best_for": [
+    "EU/230V 3-phase or 3 sub-circuit monitoring at the breaker, incl. solar export"
+  ],
+  "not_for": [
+    "US split-phase whole-home",
+    "loads >63A",
+    "switching"
+  ],
+  "confidence": "high"
+}

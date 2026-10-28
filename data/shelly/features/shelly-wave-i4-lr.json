@@ -1,0 +1,74 @@
+{
+  "id": "shelly-wave-i4-lr",
+  "name": "Shelly Wave i4 LR",
+  "price": 33.99,
+  "line": "Wave",
+  "summary": "Z-Wave in-wall 4-input scene controller (no relays, no metering); needs a Z-Wave hub.",
+  "jobs": [
+    {
+      "job": "input_trigger",
+      "role": "primary"
+    },
+    {
+      "job": "zwave_mesh",
+      "role": "primary"
+    }
+  ],
+  "f": {
+    "form_factor": "in_wall",
+    "mains_powered": true,
+    "supply": "110-240VAC 50/60Hz",
+    "dc_supply": false,
+    "battery": null,
+    "neutral_required": null,
+    "channels": 0,
+    "output_type": "none",
+    "max_current_a": null,
+    "max_power_w": null,
+    "dc_switching": null,
+    "power_metering": "none",
+    "metering_max_a": null,
+    "dimming": null,
+    "cover_control": false,
+    "color_light": null,
+    "inputs": "4 switch/push-button inputs",
+    "input_count": 4,
+    "sensors": [],
+    "radios": [
+      "zwave"
+    ],
+    "matter": null,
+    "ble_gateway": false,
+    "zwave_repeater": true,
+    "local_api": false,
+    "mqtt": false,
+    "scripting": false,
+    "ul_listed": null,
+    "protections": [],
+    "temp_range_c": "-20..40",
+    "size_mm": "37x42x16",
+    "addon_port": false,
+    "requires": [
+      "Z-Wave controller/gateway"
+    ],
+    "extra": {
+      "kb_mismatch": "kb_slug wave-i4-us is the non-LR Wave i4 US page: only 908.4 MHz listed, no LR band; KB text includes copy-pasted shutter boilerplate",
+      "overcurrent_protection": "No",
+      "dc_supply": "No"
+    }
+  },
+  "gotchas": [
+    "No relays — only sends scene/association commands; needs other Z-Wave devices to switch loads",
+    "Requires a Z-Wave controller",
+    "AC-powered only (no DC supply)",
+    "KB documents the non-LR US variant; LR support not documented"
+  ],
+  "best_for": [
+    "Z-Wave scene keypads behind multi-gang switch plates"
+  ],
+  "not_for": [
+    "switching loads",
+    "non-Z-Wave homes"
+  ],
+  "confidence": "low"
+}

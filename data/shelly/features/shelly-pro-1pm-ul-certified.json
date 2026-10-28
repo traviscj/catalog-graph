@@ -1,0 +1,95 @@
+{
+  "id": "shelly-pro-1pm-ul-certified",
+  "name": "Shelly Pro 1PM UL-Certified",
+  "price": 89.99,
+  "line": "Pro",
+  "summary": "UL-certified DIN-rail 16 A dry-contact relay with metering, Ethernet + Wi-Fi + BLE.",
+  "jobs": [
+    {
+      "job": "switch_high_current",
+      "role": "primary"
+    },
+    {
+      "job": "meter_circuit",
+      "role": "primary"
+    },
+    {
+      "job": "switch_load",
+      "role": "secondary"
+    },
+    {
+      "job": "ble_gateway_range",
+      "role": "secondary"
+    }
+  ],
+  "f": {
+    "form_factor": "din_rail",
+    "mains_powered": true,
+    "supply": "110-240VAC (90-264 V operating)",
+    "dc_supply": false,
+    "battery": null,
+    "neutral_required": true,
+    "channels": 1,
+    "output_type": "dry_relay",
+    "max_current_a": 16,
+    "max_power_w": null,
+    "dc_switching": null,
+    "power_metering": "per_channel",
+    "metering_max_a": null,
+    "dimming": null,
+    "cover_control": false,
+    "color_light": null,
+    "inputs": "2 switch/button inputs (SW1, SW2)",
+    "input_count": 2,
+    "sensors": [
+      "internal_temp",
+      "voltage"
+    ],
+    "radios": [
+      "ethernet",
+      "wifi",
+      "bluetooth"
+    ],
+    "matter": null,
+    "ble_gateway": true,
+    "zwave_repeater": null,
+    "local_api": true,
+    "mqtt": true,
+    "scripting": true,
+    "ul_listed": true,
+    "protections": [
+      "overtemp",
+      "overvoltage",
+      "overcurrent",
+      "overpower"
+    ],
+    "temp_range_c": "-20..50",
+    "size_mm": "94x19x69",
+    "addon_port": true,
+    "requires": [
+      "DIN rail in a panel or enclosure"
+    ],
+    "extra": {
+      "model_in_kb": "SPSW-201PE16EU (v1)",
+      "humidity": "10-90% RH",
+      "relay_terminals": "separate I/O (potential-free)",
+      "ble_gateway_source": "BLU device KBs list 'Shelly Plus / Gen3 / Gen4 / Pro series' as supported BLE gateways",
+      "lan_warning": "plug/unplug LAN only when powered off"
+    }
+  },
+  "gotchas": [
+    "DIN-rail form: needs a panel or DIN enclosure, not a wall box",
+    "No DC switching rating (AC only)",
+    "Inductive loads need an RC snubber per KB",
+    "KB spec is the EU v1 model (SPSW-201PE16EU); no Zigbee/Matter listed",
+    "Hot-plugging Ethernet is prohibited by KB — power down first"
+  ],
+  "best_for": [
+    "16 A loads in a sub-panel (pumps, heaters, contactor coils) with wired Ethernet"
+  ],
+  "not_for": [
+    "wall-box retrofits",
+    "DC loads"
+  ],
+  "confidence": "high"
+}

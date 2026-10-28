@@ -1,0 +1,89 @@
+{
+  "id": "shelly-wave-1pm-mini-lr",
+  "name": "Shelly Wave 1PM Mini LR",
+  "price": 29.99,
+  "line": "Wave",
+  "summary": "Mini in-wall Z-Wave Long Range relay, 8A/2000W with power metering (US 908 MHz).",
+  "jobs": [
+    {
+      "job": "zwave_mesh",
+      "role": "primary"
+    },
+    {
+      "job": "switch_load",
+      "role": "primary"
+    },
+    {
+      "job": "meter_circuit",
+      "role": "secondary"
+    },
+    {
+      "job": "retrofit_wall_switch",
+      "role": "secondary"
+    }
+  ],
+  "f": {
+    "form_factor": "in_wall_mini",
+    "mains_powered": true,
+    "supply": "110-240VAC 50/60Hz",
+    "dc_supply": false,
+    "battery": null,
+    "neutral_required": null,
+    "channels": 1,
+    "output_type": null,
+    "max_current_a": 8,
+    "max_power_w": 2000,
+    "dc_switching": null,
+    "power_metering": "per_channel",
+    "metering_max_a": null,
+    "dimming": null,
+    "cover_control": false,
+    "color_light": null,
+    "inputs": null,
+    "input_count": null,
+    "sensors": [],
+    "radios": [
+      "zwave",
+      "zwave_lr"
+    ],
+    "matter": false,
+    "ble_gateway": false,
+    "zwave_repeater": true,
+    "local_api": false,
+    "mqtt": false,
+    "scripting": false,
+    "ul_listed": null,
+    "protections": [
+      "overtemp",
+      "overcurrent",
+      "overvoltage"
+    ],
+    "temp_range_c": "-20..40",
+    "size_mm": "29x35x16",
+    "addon_port": false,
+    "requires": [
+      "Z-Wave controller (LR-capable for Long Range)"
+    ],
+    "extra": {
+      "zwave_freq": "908.4 MHz (US)",
+      "chip": "Z-Wave S800",
+      "range": "~40 m indoor mesh",
+      "external_protection": "10A B/C",
+      "thin_data": "KB spec only; no inputs/neutral/load-type sections scraped"
+    }
+  },
+  "gotchas": [
+    "Z-Wave only — needs a Z-Wave hub/controller; no Wi-Fi or app-direct control",
+    "8A / 2000W max — not for heaters; see Shelly Wave Pro 1 LR US (15A)",
+    "US 908 MHz — not usable on EU Z-Wave networks",
+    "Long Range needs an LR-capable controller (SmartStart QR inclusion)"
+  ],
+  "best_for": [
+    "metered lighting circuits in a Z-Wave home where box space is tight"
+  ],
+  "not_for": [
+    "Wi-Fi/Matter users",
+    "high-current loads"
+  ],
+  "confidence": "medium"
+}

@@ -1,0 +1,85 @@
+{
+  "id": "shelly-blu-button-tough-1",
+  "name": "Shelly BLU Button Tough 1",
+  "price": 23.99,
+  "line": "BLU",
+  "summary": "Rugged shock/water/dust-resistant single Bluetooth LE button, CR2032, multi-click.",
+  "jobs": [
+    {
+      "job": "remote_button",
+      "role": "primary"
+    },
+    {
+      "job": "input_trigger",
+      "role": "secondary"
+    },
+    {
+      "job": "sense_motion_presence",
+      "role": "secondary"
+    }
+  ],
+  "f": {
+    "form_factor": "battery_sensor",
+    "mains_powered": false,
+    "supply": "1x CR2032",
+    "dc_supply": false,
+    "battery": "CR2032",
+    "neutral_required": false,
+    "channels": 0,
+    "output_type": "none",
+    "max_current_a": null,
+    "max_power_w": null,
+    "dc_switching": null,
+    "power_metering": null,
+    "metering_max_a": null,
+    "dimming": null,
+    "cover_control": false,
+    "color_light": null,
+    "inputs": "1 push button (multi-click)",
+    "input_count": 1,
+    "sensors": [
+      "button"
+    ],
+    "radios": [
+      "bluetooth"
+    ],
+    "matter": false,
+    "ble_gateway": false,
+    "zwave_repeater": null,
+    "local_api": false,
+    "mqtt": false,
+    "scripting": false,
+    "ul_listed": null,
+    "protections": [],
+    "temp_range_c": "-20..60",
+    "size_mm": "42x42x13",
+    "addon_port": false,
+    "requires": [
+      "Shelly BLE gateway (Gen2+/Wi-Fi Shelly device) for app/remote/cloud use"
+    ],
+    "extra": {
+      "battery_life": "up to 2 years",
+      "encryption": "AES-CCM",
+      "beacon_mode": "presence via BLE beacon",
+      "bt": "4.2",
+      "colors": [
+        "Black",
+        "Mocha",
+        "Ivory"
+      ]
+    }
+  },
+  "gotchas": [
+    "BLE only — needs a Shelly BLE gateway or BLU-capable device in range to reach the network/automations",
+    "~10 m indoor Bluetooth range",
+    "Single button — for 4 buttons see Shelly BLU RC Button 4",
+    "CR2032, ~2-year battery life"
+  ],
+  "best_for": [
+    "wet/outdoor or rough-use scene trigger, garage door button, presence beacon"
+  ],
+  "not_for": [
+    "direct Wi-Fi/Matter control without a gateway"
+  ],
+  "confidence": "high"
+}

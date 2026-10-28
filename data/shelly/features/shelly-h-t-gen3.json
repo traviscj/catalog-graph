@@ -1,0 +1,76 @@
+{
+  "id": "shelly-h-t-gen3",
+  "name": "Shelly H&T Gen3",
+  "price": 40.99,
+  "line": "Gen3",
+  "summary": "Wi-Fi temperature/humidity sensor with e-paper display, 4xAA (~1 yr) or USB-C power.",
+  "jobs": [
+    {
+      "job": "sense_temp_humidity",
+      "role": "primary"
+    }
+  ],
+  "f": {
+    "form_factor": "battery_sensor",
+    "mains_powered": false,
+    "supply": "4x AA or 5V USB-C",
+    "dc_supply": false,
+    "battery": "4x AA (not included)",
+    "neutral_required": false,
+    "channels": null,
+    "output_type": "none",
+    "max_current_a": null,
+    "max_power_w": null,
+    "dc_switching": null,
+    "power_metering": "none",
+    "metering_max_a": null,
+    "dimming": null,
+    "cover_control": false,
+    "color_light": null,
+    "inputs": "reset button",
+    "input_count": 0,
+    "sensors": [
+      "temp",
+      "humidity"
+    ],
+    "radios": [
+      "wifi",
+      "bluetooth"
+    ],
+    "matter": null,
+    "ble_gateway": null,
+    "zwave_repeater": null,
+    "local_api": null,
+    "mqtt": true,
+    "scripting": false,
+    "ul_listed": null,
+    "protections": [],
+    "temp_range_c": "0..40",
+    "size_mm": "70x70x26",
+    "addon_port": false,
+    "requires": [],
+    "extra": {
+      "display": "e-paper with clock",
+      "battery_life": "~1 year",
+      "report_threshold": "0.5 °C / 5% RH, forced report every 2 h",
+      "usb_mode": "wakes/reports every 5 min; USB cannot charge batteries",
+      "webhooks": "10 x 2 URLs",
+      "tag_oddity": "tagged 'Accessory'"
+    }
+  },
+  "gotchas": [
+    "On batteries reports only on 0.5 °C / 5% RH change or every 2 h — not real-time",
+    "0-40 °C operating range — not for outdoors, freezers, attics or unheated garages",
+    "AA batteries not included; USB-C powers but won't charge them",
+    "No scripting/schedules on-device (sleepy Wi-Fi sensor)"
+  ],
+  "best_for": [
+    "Room temp/RH with a readable display",
+    "thermostat input for heating automations"
+  ],
+  "not_for": [
+    "outdoor/freezer monitoring",
+    "fast-response control loops"
+  ],
+  "confidence": "high"
+}

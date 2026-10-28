@@ -1,0 +1,92 @@
+{
+  "id": "shelly-1-mini-gen4",
+  "name": "Shelly 1 Mini Gen4",
+  "price": 24.99,
+  "line": "Gen4",
+  "summary": "Tiny 8 A dry-contact in-wall relay with Wi-Fi, Zigbee, Matter and BLE gateway; no metering.",
+  "jobs": [
+    {
+      "job": "switch_load",
+      "role": "primary"
+    },
+    {
+      "job": "retrofit_wall_switch",
+      "role": "primary"
+    },
+    {
+      "job": "switch_low_voltage",
+      "role": "secondary"
+    },
+    {
+      "job": "ble_gateway_range",
+      "role": "secondary"
+    }
+  ],
+  "f": {
+    "form_factor": "in_wall_mini",
+    "mains_powered": true,
+    "supply": "110-240VAC",
+    "dc_supply": false,
+    "battery": null,
+    "neutral_required": true,
+    "channels": 1,
+    "output_type": "dry_relay",
+    "max_current_a": 8,
+    "max_power_w": 2000,
+    "dc_switching": "5A/30V",
+    "power_metering": "none",
+    "metering_max_a": null,
+    "dimming": null,
+    "cover_control": false,
+    "color_light": null,
+    "inputs": "1 switch/button input (SW)",
+    "input_count": 1,
+    "sensors": [
+      "internal_temp"
+    ],
+    "radios": [
+      "wifi",
+      "bluetooth",
+      "zigbee",
+      "matter_over_wifi"
+    ],
+    "matter": true,
+    "ble_gateway": true,
+    "zwave_repeater": null,
+    "local_api": true,
+    "mqtt": true,
+    "scripting": true,
+    "ul_listed": null,
+    "protections": [
+      "overtemp"
+    ],
+    "temp_range_c": "-20..40",
+    "size_mm": "29x34x16",
+    "addon_port": null,
+    "requires": [],
+    "extra": {
+      "model": "S4SW-001X8EU",
+      "external_protection": "B/C breaker max 10 A",
+      "zigbee_router": true,
+      "wifi_extender": true,
+      "knx_ip": true,
+      "matter_default_profile": true
+    }
+  },
+  "gotchas": [
+    "No power metering — see Shelly 1PM Mini Gen4",
+    "8 A / 2000 W max: not for space heaters, water heaters or other >1900 W loads",
+    "Needs neutral at the box (N and L supply terminals)",
+    "KB spec is the EU model (S4SW-001X8EU) and calls for a ≤10 A breaker; no UL listing stated — see Shelly 2PM Gen4 UL-Certified",
+    "Ships in Matter mode; Zigbee requires a 5-press profile switch (one or the other, not both)"
+  ],
+  "best_for": [
+    "≤8 A lighting circuit behind a wall switch where box space is tight",
+    "dry-contact trigger for garage door/doorbell/boiler (5 A/30 V DC)"
+  ],
+  "not_for": [
+    "metering",
+    "high-current resistive loads"
+  ],
+  "confidence": "high"
+}

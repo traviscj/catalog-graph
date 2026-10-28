@@ -1,0 +1,100 @@
+{
+  "id": "shelly-dimmer-gen4-us-ul-certified",
+  "name": "Shelly Dimmer Gen4 US UL-Certified",
+  "price": 49.99,
+  "line": "Gen4",
+  "summary": "120V in-wall trailing-edge smart dimmer, 200W, Wi-Fi/Zigbee/BLE + Matter, with power metering; neutral required.",
+  "jobs": [
+    {
+      "job": "dim_light",
+      "role": "primary"
+    },
+    {
+      "job": "retrofit_wall_switch",
+      "role": "primary"
+    },
+    {
+      "job": "meter_circuit",
+      "role": "secondary"
+    },
+    {
+      "job": "ble_gateway_range",
+      "role": "secondary"
+    }
+  ],
+  "f": {
+    "form_factor": "in_wall",
+    "mains_powered": true,
+    "supply": "120VAC 60Hz",
+    "dc_supply": false,
+    "battery": null,
+    "neutral_required": true,
+    "channels": 1,
+    "output_type": "triac_dimmer",
+    "max_current_a": 1.7,
+    "max_power_w": 200,
+    "dc_switching": null,
+    "power_metering": "per_channel",
+    "metering_max_a": 3,
+    "dimming": "trailing",
+    "cover_control": false,
+    "color_light": null,
+    "inputs": "2 switch/button inputs (S1, S2)",
+    "input_count": 2,
+    "sensors": [
+      "internal_temp",
+      "voltage"
+    ],
+    "radios": [
+      "wifi",
+      "bluetooth",
+      "zigbee"
+    ],
+    "matter": true,
+    "ble_gateway": true,
+    "zwave_repeater": null,
+    "local_api": true,
+    "mqtt": true,
+    "scripting": true,
+    "ul_listed": true,
+    "protections": [
+      "overtemp",
+      "overpower",
+      "overvoltage",
+      "undervoltage",
+      "overcurrent"
+    ],
+    "temp_range_c": "-20..40",
+    "size_mm": "38.5x43.5x17",
+    "addon_port": false,
+    "requires": [],
+    "extra": {
+      "ul_source": "UL claim from product title only; KB specs don't list a UL file",
+      "output_type_note": "KB says trailing-edge; semiconductor type not stated (triac_dimmer used as generic phase-cut)",
+      "load_limits": "dimmable LED 150W; incandescent/halogen 200W; iron-core xfmr 200VA; electronic xfmr 200W",
+      "matter_vs_zigbee": "Matter is default profile; 5 presses switches to Zigbee profile",
+      "zigbee_repeater": true,
+      "wifi": "802.11b/g/n/ax 2.4GHz",
+      "external_protection": "15A B/C breaker",
+      "model": "S4DM-0A102US",
+      "metering_range": "80-160V, 0-3A, ±5%"
+    }
+  },
+  "gotchas": [
+    "200 W max (150 W for dimmable LED) — not for big chandeliers or many-can circuits",
+    "Neutral required — no no-neutral option in this model",
+    "Trailing-edge only; groups of lamps must be same model/wattage or flicker/uneven dimming results",
+    "Matter is default; Zigbee is a separate profile you switch to (5 button presses)",
+    "120V/60Hz US-only device",
+    "No add-on port; for DIN-rail 2-channel use Shelly Pro Dimmer 2PM"
+  ],
+  "best_for": [
+    "retrofitting a US dimmer box with neutral for ≤150W LED with Matter or Zigbee"
+  ],
+  "not_for": [
+    "boxes without neutral",
+    "LED loads >150W",
+    "0-10V drivers"
+  ],
+  "confidence": "high"
+}

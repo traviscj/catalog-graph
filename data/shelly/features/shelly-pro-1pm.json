@@ -1,0 +1,85 @@
+{
+  "id": "shelly-pro-1pm",
+  "name": "Shelly Pro 1PM",
+  "price": 89.99,
+  "line": "Pro",
+  "summary": "DIN-rail 1-channel 16A relay with power metering, 2 inputs, LAN, Wi-Fi and BLE.",
+  "jobs": [
+    {
+      "job": "switch_load",
+      "role": "primary"
+    },
+    {
+      "job": "meter_circuit",
+      "role": "primary"
+    },
+    {
+      "job": "switch_high_current",
+      "role": "secondary"
+    }
+  ],
+  "f": {
+    "form_factor": "din_rail",
+    "mains_powered": true,
+    "supply": "110-240VAC (90-264V)",
+    "dc_supply": false,
+    "battery": null,
+    "neutral_required": true,
+    "channels": 1,
+    "output_type": "dry_relay",
+    "max_current_a": 16,
+    "max_power_w": null,
+    "dc_switching": null,
+    "power_metering": "per_channel",
+    "metering_max_a": null,
+    "dimming": null,
+    "cover_control": false,
+    "color_light": null,
+    "inputs": "2 switch/button inputs (SW1, SW2)",
+    "input_count": 2,
+    "sensors": [
+      "internal_temp"
+    ],
+    "radios": [
+      "ethernet",
+      "wifi",
+      "bluetooth"
+    ],
+    "matter": null,
+    "ble_gateway": null,
+    "zwave_repeater": null,
+    "local_api": true,
+    "mqtt": true,
+    "scripting": true,
+    "ul_listed": null,
+    "protections": [
+      "overtemp",
+      "overvoltage",
+      "overcurrent",
+      "overpower"
+    ],
+    "temp_range_c": "-20..50",
+    "size_mm": "94x19x69",
+    "addon_port": true,
+    "requires": [],
+    "extra": {
+      "relay_terminals": "separate I/O relay terminals (I, O)",
+      "kb_model": "SPSW-201PE16EU (v1)",
+      "output_type_note": "separate relay input terminal I; treated as dry_relay (not explicitly stated as potential-free)"
+    }
+  },
+  "gotchas": [
+    "DIN-rail: needs a DIN enclosure — US panels have no rail",
+    "16A max (EU rating) — continuous US loads should stay ≤12.8A (80%); for bigger loads drive a contactor",
+    "No UL listing stated in KB",
+    "AC-only supply, no DC; inductive loads need an RC snubber"
+  ],
+  "best_for": [
+    "Panel/enclosure-mounted metered circuit control with wired Ethernet"
+  ],
+  "not_for": [
+    "in-wall retrofit",
+    "DC-powered installs"
+  ],
+  "confidence": "high"
+}

@@ -1,0 +1,81 @@
+{
+  "id": "shelly-3em-63t-gen3",
+  "name": "Shelly 3EM-63T Gen3",
+  "price": 114.99,
+  "line": "Gen3",
+  "summary": "Compact 3-phase (or 3x single-phase) 63A energy meter with integrated pass-through CTs, mounts on breakers.",
+  "jobs": [
+    {
+      "job": "meter_panel",
+      "role": "primary"
+    }
+  ],
+  "f": {
+    "form_factor": "din_rail",
+    "mains_powered": true,
+    "supply": "220-240VAC 50/60Hz (LA-N)",
+    "dc_supply": false,
+    "battery": null,
+    "neutral_required": true,
+    "channels": 3,
+    "output_type": "none",
+    "max_current_a": null,
+    "max_power_w": null,
+    "dc_switching": null,
+    "power_metering": "3ph_clamp",
+    "metering_max_a": 63,
+    "dimming": null,
+    "cover_control": false,
+    "color_light": null,
+    "inputs": "none",
+    "input_count": 0,
+    "sensors": [
+      "internal_temp",
+      "voltage"
+    ],
+    "radios": [
+      "wifi",
+      "bluetooth"
+    ],
+    "matter": null,
+    "ble_gateway": null,
+    "zwave_repeater": null,
+    "local_api": true,
+    "mqtt": true,
+    "scripting": true,
+    "ul_listed": null,
+    "protections": [
+      "overtemp"
+    ],
+    "temp_range_c": "-20..40",
+    "size_mm": "31x54x42",
+    "addon_port": false,
+    "requires": [],
+    "extra": {
+      "mounting": "clips above/below DIN-rail MCBs; conductor passes through Ø8mm integrated CT",
+      "ct_saturation_a": 130,
+      "accuracy": "±1% 2-63A, Class B active energy",
+      "four_quadrant": true,
+      "data_log": "7 days @1 min",
+      "variants": "63T = flat terminal model; 63W = wire model",
+      "pv_ready": true,
+      "kb_slug_note": "KB page covers both 3EM-63W and 3EM-63T"
+    }
+  },
+  "gotchas": [
+    "Powered from 220-240VAC between LA and N only — will not run on a US 120V leg; for US split-phase use Shelly Pro EM-50 or Pro 3EM",
+    "Integrated CTs only accept conductors ≤Ø8mm and ≤63A (saturates at 130A) — not for US 100-200A service mains",
+    "Designed to clip onto European DIN-rail breakers; US plug-on panels have no rail",
+    "Metering only — no relay/contactor output (see Shelly EM Gen3 or Pro EM-50)",
+    "No Ethernet; Wi-Fi in a steel panel may be weak (see Shelly Pro 3EM with LAN)"
+  ],
+  "best_for": [
+    "EU-style 230/400V 3-phase subpanels or three 230V branch circuits"
+  ],
+  "not_for": [
+    "US 120/240V split-phase homes",
+    "service mains >63A",
+    "load control"
+  ],
+  "confidence": "high"
+}

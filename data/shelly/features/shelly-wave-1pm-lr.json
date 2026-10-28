@@ -1,0 +1,95 @@
+{
+  "id": "shelly-wave-1pm-lr",
+  "name": "Shelly Wave 1PM LR",
+  "price": 42.99,
+  "line": "Wave",
+  "summary": "Z-Wave 800 in-wall 15A relay with power metering, AC or 24-30VDC powered; needs a Z-Wave hub.",
+  "jobs": [
+    {
+      "job": "zwave_mesh",
+      "role": "primary"
+    },
+    {
+      "job": "switch_load",
+      "role": "primary"
+    },
+    {
+      "job": "meter_circuit",
+      "role": "secondary"
+    },
+    {
+      "job": "retrofit_wall_switch",
+      "role": "secondary"
+    },
+    {
+      "job": "switch_low_voltage",
+      "role": "secondary"
+    }
+  ],
+  "f": {
+    "form_factor": "in_wall",
+    "mains_powered": true,
+    "supply": "110-240VAC or 24-30VDC",
+    "dc_supply": true,
+    "battery": null,
+    "neutral_required": true,
+    "channels": 1,
+    "output_type": null,
+    "max_current_a": 15,
+    "max_power_w": null,
+    "dc_switching": "10A/30V",
+    "power_metering": "per_channel",
+    "metering_max_a": null,
+    "dimming": null,
+    "cover_control": false,
+    "color_light": null,
+    "inputs": "1 switch/push-button input (SW)",
+    "input_count": 1,
+    "sensors": [],
+    "radios": [
+      "zwave"
+    ],
+    "matter": null,
+    "ble_gateway": false,
+    "zwave_repeater": true,
+    "local_api": false,
+    "mqtt": false,
+    "scripting": false,
+    "ul_listed": null,
+    "protections": [
+      "overtemp",
+      "overcurrent",
+      "overvoltage"
+    ],
+    "temp_range_c": "-20..40",
+    "size_mm": "37x42x16",
+    "addon_port": false,
+    "requires": [
+      "Z-Wave controller/gateway (S2 recommended)"
+    ],
+    "extra": {
+      "kb_mismatch": "kb_slug wave-1pm-us is the non-LR Wave 1PM US (QNSW-001P15US) page: radio spec lists only 908.4 MHz mesh, no Z-Wave LR band; electrical specs likely shared",
+      "metering": "AC only (W, kWh)",
+      "overcurrent_trip": "16A+10% for 5 s despite 15A rating",
+      "lr_inclusion": "S-button/switch inclusion not available for Long Range; LR via SmartStart",
+      "tags_ul": "store tags include 'UL' but KB lists no UL listing",
+      "zwave_chip": "S800",
+      "nc_mode": "relay configurable NO/NC (param 23)"
+    }
+  },
+  "gotchas": [
+    "No Wi-Fi/app — requires a Z-Wave controller (Home Assistant Z-Wave JS, Hubitat, etc.)",
+    "Power metering is AC-only",
+    "KB page is the non-LR Wave 1PM US; LR radio behaviour (no repeating in LR mode, SmartStart-only LR inclusion) not fully documented",
+    "Needs neutral for AC supply (or 24-30VDC)",
+    "Inductive loads need an RC snubber"
+  ],
+  "best_for": [
+    "Z-Wave homes adding a metered 15A switch behind a wall switch"
+  ],
+  "not_for": [
+    "non-Z-Wave households",
+    "DC load metering"
+  ],
+  "confidence": "low"
+}

@@ -1,0 +1,92 @@
+{
+  "id": "ogemray-smart-relay-25a",
+  "name": "Ogemray Smart relay 25A",
+  "price": 42.99,
+  "line": "3rd-party",
+  "summary": "Powered-by-Shelly 25A/6kW single-channel metering relay with Wi-Fi, Bluetooth, scripting and KNXnet/IP.",
+  "jobs": [
+    {
+      "job": "switch_high_current",
+      "role": "primary"
+    },
+    {
+      "job": "meter_circuit",
+      "role": "primary"
+    },
+    {
+      "job": "switch_load",
+      "role": "secondary"
+    },
+    {
+      "job": "ble_gateway_range",
+      "role": "secondary"
+    }
+  ],
+  "f": {
+    "form_factor": null,
+    "mains_powered": true,
+    "supply": "110-240VAC 50/60Hz",
+    "dc_supply": false,
+    "battery": null,
+    "neutral_required": true,
+    "channels": 1,
+    "output_type": null,
+    "max_current_a": 25,
+    "max_power_w": 6000,
+    "dc_switching": null,
+    "power_metering": "per_channel",
+    "metering_max_a": null,
+    "dimming": null,
+    "cover_control": false,
+    "color_light": null,
+    "inputs": "1 switch input (S1), configurable",
+    "input_count": 1,
+    "sensors": [
+      "voltage"
+    ],
+    "radios": [
+      "wifi",
+      "bluetooth"
+    ],
+    "matter": null,
+    "ble_gateway": true,
+    "zwave_repeater": null,
+    "local_api": true,
+    "mqtt": true,
+    "scripting": true,
+    "ul_listed": null,
+    "protections": [
+      "overvoltage",
+      "overpower"
+    ],
+    "temp_range_c": "-20..40",
+    "size_mm": "60x51.4x24",
+    "addon_port": false,
+    "requires": [],
+    "extra": {
+      "mounting": "compact enclosure with wall anchors + bracket (not a DIN or in-box Shelly form)",
+      "terminals": "2.5-6.0 mm² / 14-9 AWG",
+      "knx": "KNXnet/IP supported",
+      "wifi_range_extender": true,
+      "model": "Ogemray SW40 PbS",
+      "max_switching_voltage": "240V~",
+      "wiring_note": "wiring legend lists a COM terminal; dry vs wet contact not stated"
+    }
+  },
+  "gotchas": [
+    "Terminals take 14-9 AWG (2.5-6 mm²) only — thin 18/20 AWG switch-leg wire needs ferrules/pigtails",
+    "Needs neutral (L + N supply terminals)",
+    "Protection is overvoltage/overpower only — no overtemperature protection listed",
+    "No UL listing stated in specs; third-party (Ogemray) hardware on Shelly firmware",
+    "Not DIN-rail — for panel installs with LAN use Shelly Pro 1 (16A, no metering)"
+  ],
+  "best_for": [
+    "water heaters, EVSE-adjacent or other 20-25A resistive loads where you also want kWh"
+  ],
+  "not_for": [
+    "DIN-rail panels",
+    "multi-channel switching",
+    "installs requiring UL listing"
+  ],
+  "confidence": "medium"
+}

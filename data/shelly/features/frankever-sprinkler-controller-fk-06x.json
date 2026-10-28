@@ -1,0 +1,75 @@
+{
+  "id": "frankever-sprinkler-controller-fk-06x",
+  "name": "FrankEver Sprinkler Controller FK-06X",
+  "price": 129.99,
+  "line": "3rd-party",
+  "summary": "Third-party 6-zone 24VAC Wi-Fi/Bluetooth sprinkler controller with Shelly-style local API and MQTT.",
+  "jobs": [
+    {
+      "job": "irrigation",
+      "role": "primary"
+    }
+  ],
+  "f": {
+    "form_factor": "wall_device",
+    "mains_powered": true,
+    "supply": "120VAC 60Hz (US) / 230VAC 50Hz (EU) plug adapter -> 24VAC 2A",
+    "dc_supply": false,
+    "battery": null,
+    "neutral_required": null,
+    "channels": 6,
+    "output_type": null,
+    "max_current_a": null,
+    "max_power_w": null,
+    "dc_switching": null,
+    "power_metering": "none",
+    "metering_max_a": null,
+    "dimming": null,
+    "cover_control": false,
+    "color_light": null,
+    "inputs": "on-device buttons (select/up/down)",
+    "input_count": null,
+    "sensors": [],
+    "radios": [
+      "wifi",
+      "bluetooth"
+    ],
+    "matter": null,
+    "ble_gateway": null,
+    "zwave_repeater": null,
+    "local_api": true,
+    "mqtt": true,
+    "scripting": false,
+    "ul_listed": null,
+    "protections": [],
+    "temp_range_c": "-10..55",
+    "size_mm": "96x112x28",
+    "addon_port": false,
+    "requires": [],
+    "extra": {
+      "zones": 6,
+      "valve_output": "24VAC, 2000 mA total (controller rating)",
+      "weather": "historical weather data to skip overwatering",
+      "manufacturer": "Hangzhou Frankever (not Shelly-built)",
+      "webhooks": "20 with 5 URLs",
+      "schedules": 20,
+      "wifi": "2.4 GHz only"
+    }
+  },
+  "gotchas": [
+    "6 zones max, 24VAC valves only, 2 A total adapter budget — not for larger or DC-latching valve systems",
+    "Scripting: No (unlike native Shelly Gen2+ devices) — automation limited to schedules/webhooks/MQTT",
+    "Schedules go inactive if date/time isn't synced — needs Wi-Fi + internet for time",
+    "2.4 GHz Wi-Fi only",
+    "Third-party (Frankever) hardware; confirm the US 120V/60Hz adapter variant ships for US use"
+  ],
+  "best_for": [
+    "replacing a ≤6-zone 24VAC residential irrigation timer with local/MQTT control"
+  ],
+  "not_for": [
+    "more than 6 zones",
+    "DC-latching valves",
+    "Shelly scripting"
+  ],
+  "confidence": "medium"
+}

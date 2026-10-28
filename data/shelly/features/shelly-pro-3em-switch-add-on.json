@@ -1,0 +1,70 @@
+{
+  "id": "shelly-pro-3em-switch-add-on",
+  "name": "Shelly Pro 3EM Switch Add-on",
+  "price": 34.99,
+  "line": "Pro",
+  "summary": "DIN-rail isolated 2A relay add-on that clips to a Shelly Pro 3EM for contactor control.",
+  "jobs": [
+    {
+      "job": "accessory",
+      "role": "primary"
+    },
+    {
+      "job": "switch_low_voltage",
+      "role": "primary"
+    }
+  ],
+  "f": {
+    "form_factor": "addon",
+    "mains_powered": false,
+    "supply": "3.3V and 12V from Shelly Pro 3EM",
+    "dc_supply": true,
+    "battery": null,
+    "neutral_required": false,
+    "channels": 1,
+    "output_type": "dry_relay",
+    "max_current_a": 2,
+    "max_power_w": null,
+    "dc_switching": "2A/30V DC",
+    "power_metering": "none",
+    "metering_max_a": null,
+    "dimming": null,
+    "cover_control": false,
+    "color_light": null,
+    "inputs": null,
+    "input_count": 0,
+    "sensors": [
+      "internal_temp"
+    ],
+    "radios": [],
+    "matter": null,
+    "ble_gateway": null,
+    "zwave_repeater": null,
+    "local_api": null,
+    "mqtt": null,
+    "scripting": null,
+    "ul_listed": null,
+    "protections": [],
+    "temp_range_c": "-20..40",
+    "size_mm": "94x19x69",
+    "addon_port": false,
+    "requires": [
+      "Shelly Pro 3EM"
+    ],
+    "extra": {
+      "isolation": "galvanically isolated"
+    }
+  },
+  "gotchas": [
+    "Only works with Shelly Pro 3EM — no other host",
+    "2A contact: switch a contactor coil, not the load itself",
+    "DIN-rail, panel install alongside the Pro 3EM"
+  ],
+  "best_for": [
+    "Pro 3EM owners wanting export/peak-load control via a contactor"
+  ],
+  "not_for": [
+    "standalone switching"
+  ],
+  "confidence": "high"
+}

@@ -1,0 +1,88 @@
+{
+  "id": "shelly-pro-3em-3ct63",
+  "name": "Shelly Pro 3EM-3CT63",
+  "price": 150.99,
+  "line": "Pro",
+  "summary": "DIN-rail 1/3-phase energy meter with combined 63 A CT, Ethernet/Wi-Fi, Modbus, 60-day log.",
+  "jobs": [
+    {
+      "job": "meter_panel",
+      "role": "primary"
+    }
+  ],
+  "f": {
+    "form_factor": "din_rail",
+    "mains_powered": true,
+    "supply": "100-260VAC 50/60Hz",
+    "dc_supply": false,
+    "battery": null,
+    "neutral_required": true,
+    "channels": 3,
+    "output_type": "none",
+    "max_current_a": null,
+    "max_power_w": null,
+    "dc_switching": null,
+    "power_metering": "3ph_clamp",
+    "metering_max_a": 63,
+    "dimming": null,
+    "cover_control": false,
+    "color_light": null,
+    "inputs": "3 L + N voltage inputs, 3 CT inputs + optional neutral CT",
+    "input_count": 0,
+    "sensors": [
+      "internal_temp",
+      "voltage"
+    ],
+    "radios": [
+      "ethernet",
+      "wifi",
+      "bluetooth"
+    ],
+    "matter": null,
+    "ble_gateway": null,
+    "zwave_repeater": null,
+    "local_api": true,
+    "mqtt": true,
+    "scripting": true,
+    "ul_listed": null,
+    "protections": [],
+    "temp_range_c": "-20..40",
+    "size_mm": "94x19x69 (meter); 14x54x26 (3CT63)",
+    "addon_port": true,
+    "requires": [
+      "DIN rail in a panel or enclosure"
+    ],
+    "extra": {
+      "ct": "3CT63 combined 3-phase CT, Ø9 mm apertures, mounts over a breaker",
+      "neutral_ct": "optional, not included",
+      "accuracy": "±1% 2-63 A; class B",
+      "data_log": "60 days @ 1 min",
+      "protocols": [
+        "Modbus",
+        "MQTT",
+        "RPC",
+        "WebSocket"
+      ],
+      "calibration_min_load_w": 500,
+      "no_load_threshold_va": 30,
+      "relay": "none; contactor via Pro 3EM Switch Add-on",
+      "four_quadrant": true,
+      "pv_ready": true
+    }
+  },
+  "gotchas": [
+    "63 A CT with Ø9 mm apertures — branch/sub-feed only; can't clamp 100-200 A US service conductors (pick a larger-CT Pro 3EM variant)",
+    "Combined 3CT63 is designed to sit over a (DIN) breaker; awkward in US plug-on panels",
+    "No relay — load control needs the Pro 3EM Switch Add-on",
+    "Channel-to-channel calibration needs ≥500 W per channel; <30 VA loads not accumulated",
+    "DIN-rail meter needs a panel/enclosure"
+  ],
+  "best_for": [
+    "Sub-panel, PV inverter or 3-phase circuit monitoring ≤63 A with Modbus/Ethernet"
+  ],
+  "not_for": [
+    "whole-home 200 A service mains",
+    "load switching without add-on"
+  ],
+  "confidence": "high"
+}

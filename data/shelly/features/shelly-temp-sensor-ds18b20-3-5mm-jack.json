@@ -1,0 +1,78 @@
+{
+  "id": "shelly-temp-sensor-ds18b20-3-5mm-jack",
+  "name": "Shelly Temp. Sensor DS18B20 3.5mm jack",
+  "price": 3.4,
+  "line": "Accessory",
+  "summary": "DS18B20 stainless temperature probe on 1 m cable with 3.5 mm jack for The Pill.",
+  "jobs": [
+    {
+      "job": "sense_temp_humidity",
+      "role": "primary"
+    },
+    {
+      "job": "accessory",
+      "role": "secondary"
+    },
+    {
+      "job": "diy_maker",
+      "role": "secondary"
+    }
+  ],
+  "f": {
+    "form_factor": "accessory",
+    "mains_powered": false,
+    "supply": null,
+    "dc_supply": false,
+    "battery": null,
+    "neutral_required": false,
+    "channels": null,
+    "output_type": "none",
+    "max_current_a": null,
+    "max_power_w": null,
+    "dc_switching": null,
+    "power_metering": "none",
+    "metering_max_a": null,
+    "dimming": null,
+    "cover_control": false,
+    "color_light": null,
+    "inputs": null,
+    "input_count": 0,
+    "sensors": [
+      "temp"
+    ],
+    "radios": [],
+    "matter": false,
+    "ble_gateway": false,
+    "zwave_repeater": null,
+    "local_api": false,
+    "mqtt": false,
+    "scripting": false,
+    "ul_listed": null,
+    "protections": [],
+    "temp_range_c": null,
+    "size_mm": "probe 50x6 (LxØ), 1 m cable",
+    "addon_port": false,
+    "requires": [
+      "The Pill by Shelly (3.5 mm jack) or other DS18B20 host"
+    ],
+    "extra": {
+      "probe": "stainless steel, suitable for liquids per KB",
+      "pill_capacity": "up to 5 DS18B20 per Pill (1-to-5 splitter)",
+      "data_quality": "no accuracy or temperature range listed"
+    }
+  },
+  "gotchas": [
+    "Passive probe — needs The Pill (3.5 mm jack) to report anything",
+    "Fixed 1 m cable",
+    "No accuracy or operating-temperature range published",
+    "Multiple probes per Pill require the 1-to-5 jack splitter (sold separately)"
+  ],
+  "best_for": [
+    "Pool/aquarium/tank or pipe temperature via The Pill"
+  ],
+  "not_for": [
+    "standalone use",
+    "humidity"
+  ],
+  "confidence": "medium"
+}

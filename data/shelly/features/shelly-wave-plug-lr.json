@@ -1,0 +1,87 @@
+{
+  "id": "shelly-wave-plug-lr",
+  "name": "Shelly Wave Plug LR",
+  "price": 38.99,
+  "line": "Wave",
+  "summary": "US NEMA 5-15 Z-Wave LR/mesh smart plug, 15A, with W/kWh/V/A metering; needs a Z-Wave hub.",
+  "jobs": [
+    {
+      "job": "plug_in",
+      "role": "primary"
+    },
+    {
+      "job": "zwave_mesh",
+      "role": "primary"
+    },
+    {
+      "job": "meter_circuit",
+      "role": "secondary"
+    }
+  ],
+  "f": {
+    "form_factor": "plug",
+    "mains_powered": true,
+    "supply": "120VAC ±10% 60Hz",
+    "dc_supply": false,
+    "battery": null,
+    "neutral_required": false,
+    "channels": 1,
+    "output_type": null,
+    "max_current_a": 15,
+    "max_power_w": null,
+    "dc_switching": null,
+    "power_metering": "per_channel",
+    "metering_max_a": null,
+    "dimming": null,
+    "cover_control": false,
+    "color_light": null,
+    "inputs": "S button (also toggles output)",
+    "input_count": 0,
+    "sensors": [
+      "voltage"
+    ],
+    "radios": [
+      "zwave",
+      "zwave_lr"
+    ],
+    "matter": null,
+    "ble_gateway": false,
+    "zwave_repeater": true,
+    "local_api": false,
+    "mqtt": false,
+    "scripting": false,
+    "ul_listed": null,
+    "protections": [
+      "overtemp",
+      "overcurrent",
+      "overvoltage"
+    ],
+    "temp_range_c": "-20..40",
+    "size_mm": "38x84x52",
+    "addon_port": false,
+    "requires": [
+      "Z-Wave controller (LR-capable for Long Range mode)"
+    ],
+    "extra": {
+      "socket": "NEMA 5-15 (accepts 1-15/5-15 plugs)",
+      "repeater_note": "repeats in mesh mode only, not in LR mode",
+      "lr_range": "up to 80 m indoors / 1000 m outdoors",
+      "max_switching_voltage": "140V",
+      "compat_note": "Homey/SmartThings lack placeholders for V and A"
+    }
+  },
+  "gotchas": [
+    "Requires a Z-Wave controller — no Wi-Fi/app control",
+    "Acts as repeater only in classic mesh mode; in Long Range mode it does not extend the mesh",
+    "Some hubs (Homey, SmartThings) don't expose its V/A readings",
+    "120V/NEMA 5-15 US only; 15A plug-in max"
+  ],
+  "best_for": [
+    "Z-Wave users wanting a metered plug that can also strengthen the mesh"
+  ],
+  "not_for": [
+    "non-Z-Wave homes",
+    "240V appliances"
+  ],
+  "confidence": "high"
+}

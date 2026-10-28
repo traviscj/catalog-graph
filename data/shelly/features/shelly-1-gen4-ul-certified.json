@@ -1,0 +1,94 @@
+{
+  "id": "shelly-1-gen4-ul-certified",
+  "name": "Shelly 1 Gen4 UL-Certified",
+  "price": 27.99,
+  "line": "Gen4",
+  "summary": "UL-certified 1-channel 15/16A dry-contact in-wall relay with Wi-Fi, Zigbee, Matter and Bluetooth.",
+  "jobs": [
+    {
+      "job": "switch_load",
+      "role": "primary"
+    },
+    {
+      "job": "switch_low_voltage",
+      "role": "primary"
+    },
+    {
+      "job": "retrofit_wall_switch",
+      "role": "secondary"
+    },
+    {
+      "job": "switch_high_current",
+      "role": "secondary"
+    }
+  ],
+  "f": {
+    "form_factor": "in_wall",
+    "mains_powered": true,
+    "supply": "110-240VAC / 24-48VDC / 12VDC",
+    "dc_supply": true,
+    "battery": null,
+    "neutral_required": true,
+    "channels": 1,
+    "output_type": "dry_relay",
+    "max_current_a": 16,
+    "max_power_w": null,
+    "dc_switching": "10A/30V",
+    "power_metering": "none",
+    "metering_max_a": null,
+    "dimming": null,
+    "cover_control": false,
+    "color_light": null,
+    "inputs": "1 switch/button input (SW)",
+    "input_count": 1,
+    "sensors": [
+      "internal_temp"
+    ],
+    "radios": [
+      "wifi",
+      "bluetooth",
+      "zigbee",
+      "matter_over_wifi"
+    ],
+    "matter": true,
+    "ble_gateway": null,
+    "zwave_repeater": null,
+    "local_api": true,
+    "mqtt": true,
+    "scripting": true,
+    "ul_listed": true,
+    "protections": [
+      "overtemp"
+    ],
+    "temp_range_c": "-20..40",
+    "size_mm": "37x42x16",
+    "addon_port": null,
+    "requires": [],
+    "extra": {
+      "ul_rating_a": 15,
+      "spec_rating": "16A/240VAC (EU KB) vs 15A in UL blurb",
+      "zigbee_repeater": true,
+      "protocol_switch": "Matter default; 5 presses switches to Zigbee profile",
+      "conductor_awg": "20-11 AWG",
+      "kb_model": "S4SW-001X16EU",
+      "load_note": "inductive loads need RC snubber"
+    }
+  },
+  "gotchas": [
+    "No power metering — see Shelly 1PM Gen4 if you want energy data",
+    "Matter and Zigbee are alternative profiles (Matter default, 5 button presses to switch) — not both at once",
+    "Neutral required on AC supply (KB: 'Neutral not needed: No'); dry contact means you must jumper L to I for mains loads",
+    "UL rating is 15A (KB spec table says 16A/240V, EU figure) — size breaker/load to 15A in the US",
+    "Inductive loads (LED drivers, fans) need an RC snubber per KB"
+  ],
+  "best_for": [
+    "Garage door / gate / boiler dry-contact triggering",
+    "15A lighting or appliance circuit needing UL listing",
+    "12V/24-48V DC-powered installs"
+  ],
+  "not_for": [
+    "energy monitoring",
+    "no-neutral switch boxes"
+  ],
+  "confidence": "high"
+}

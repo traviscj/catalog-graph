@@ -1,0 +1,80 @@
+{
+  "id": "shelly-3em-63w-gen3",
+  "name": "Shelly 3EM-63W Gen3",
+  "price": 114.99,
+  "line": "Gen3",
+  "summary": "On-breaker 3-phase/3-circuit energy meter with integrated 63 A CTs, Wi-Fi/BLE, 7-day log.",
+  "jobs": [
+    {
+      "job": "meter_panel",
+      "role": "primary"
+    }
+  ],
+  "f": {
+    "form_factor": "clamp_ct",
+    "mains_powered": true,
+    "supply": "220-240VAC 50/60Hz (LA-N)",
+    "dc_supply": false,
+    "battery": null,
+    "neutral_required": true,
+    "channels": 3,
+    "output_type": "none",
+    "max_current_a": null,
+    "max_power_w": null,
+    "dc_switching": null,
+    "power_metering": "3ph_clamp",
+    "metering_max_a": 63,
+    "dimming": null,
+    "cover_control": false,
+    "color_light": null,
+    "inputs": null,
+    "input_count": 0,
+    "sensors": [
+      "internal_temp",
+      "voltage"
+    ],
+    "radios": [
+      "wifi",
+      "bluetooth"
+    ],
+    "matter": null,
+    "ble_gateway": null,
+    "zwave_repeater": null,
+    "local_api": true,
+    "mqtt": true,
+    "scripting": true,
+    "ul_listed": null,
+    "protections": [],
+    "temp_range_c": "-20..40",
+    "size_mm": "21x54x42",
+    "addon_port": false,
+    "requires": [],
+    "extra": {
+      "ct_aperture_mm": 8,
+      "ct_saturation_a": 130,
+      "accuracy": "±1% 2-63 A; class B active energy",
+      "data_log": "7 days @ 1 min",
+      "no_load_threshold_va": 30,
+      "four_quadrant": true,
+      "pv_ready": true,
+      "rtc": true,
+      "mounting": "above/below DIN-rail MCBs",
+      "blurb_conflict": "listing blurb describes the 3EM-63T (flat-terminal) variant; family/KB is 63W (wire)"
+    }
+  },
+  "gotchas": [
+    "Voltmeter/supply spec is 220-240 V per phase — US 120 V split-phase legs are outside spec; see Shelly Pro 3EM-3CT63 (100-260 V)",
+    "Integrated CTs are 63 A max with Ø8 mm aperture — branch circuits only, can't clamp 100-200 A service mains",
+    "Built to sit on European DIN-rail MCBs; US plug-on breaker panels won't take it as designed",
+    "No relay — monitoring only",
+    "Below 30 VA per channel, energy isn't accumulated (standby loads under-counted)"
+  ],
+  "best_for": [
+    "EU-style 3-phase sub-panel or three 230 V branch circuits ≤63 A"
+  ],
+  "not_for": [
+    "US 120/240 V service mains",
+    "load control"
+  ],
+  "confidence": "high"
+}

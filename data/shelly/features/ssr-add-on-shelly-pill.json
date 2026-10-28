@@ -1,0 +1,73 @@
+{
+  "id": "ssr-add-on-shelly-pill",
+  "name": "SSR Add-on (Shelly Pill)",
+  "price": 12.99,
+  "line": "Pill",
+  "summary": "Dual-channel isolated solid-state relay add-on for The Pill, switching DC loads up to 30V/300mA.",
+  "jobs": [
+    {
+      "job": "diy_maker",
+      "role": "primary"
+    },
+    {
+      "job": "switch_low_voltage",
+      "role": "primary"
+    }
+  ],
+  "f": {
+    "form_factor": "addon",
+    "mains_powered": false,
+    "supply": "5V from The Pill (via 5-Terminal Add-on)",
+    "dc_supply": true,
+    "battery": null,
+    "neutral_required": false,
+    "channels": 2,
+    "output_type": "ssr",
+    "max_current_a": null,
+    "max_power_w": null,
+    "dc_switching": "0.3A/30V DC per channel",
+    "power_metering": "none",
+    "metering_max_a": null,
+    "dimming": null,
+    "cover_control": false,
+    "color_light": null,
+    "inputs": "1 configurable 3.3V digital I/O (IO3)",
+    "input_count": 1,
+    "sensors": [],
+    "radios": [],
+    "matter": null,
+    "ble_gateway": null,
+    "zwave_repeater": null,
+    "local_api": null,
+    "mqtt": null,
+    "scripting": null,
+    "ul_listed": null,
+    "protections": [],
+    "temp_range_c": "0..40",
+    "size_mm": "36x31x11.5",
+    "addon_port": false,
+    "requires": [
+      "The Pill by Shelly",
+      "Shelly 5-Terminal Add-on"
+    ],
+    "extra": {
+      "isolation": "galvanically isolated SSR outputs",
+      "power_out": "5V terminal for peripherals"
+    }
+  },
+  "gotchas": [
+    "DC only, 30V / 300mA per channel — cannot switch mains or motors/solenoids drawing more",
+    "Not standalone: needs The Pill plus the 5-Terminal Add-on to connect",
+    "0–40 °C operating range — not for unheated outdoor enclosures in winter",
+    "No metering"
+  ],
+  "best_for": [
+    "isolated low-current DC switching (LED indicators, small relays, signal lines) from a Pill project"
+  ],
+  "not_for": [
+    "mains loads",
+    "DC loads above 300mA",
+    "standalone use"
+  ],
+  "confidence": "high"
+}

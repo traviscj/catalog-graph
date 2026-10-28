@@ -1,0 +1,85 @@
+{
+  "id": "shelly-1-channel-decoupler-120v",
+  "name": "Shelly 1-Channel Decoupler 120V",
+  "price": 5.99,
+  "line": "Accessory",
+  "summary": "Optocoupler that lets a 120VAC switch/sensor signal drive one DC digital input on Shelly Uni/Add-On/RGBW hosts.",
+  "jobs": [
+    {
+      "job": "accessory",
+      "role": "primary"
+    },
+    {
+      "job": "input_trigger",
+      "role": "secondary"
+    },
+    {
+      "job": "diy_maker",
+      "role": "secondary"
+    }
+  ],
+  "f": {
+    "form_factor": "accessory",
+    "mains_powered": true,
+    "supply": "120VAC 60Hz (signal input)",
+    "dc_supply": false,
+    "battery": null,
+    "neutral_required": true,
+    "channels": 1,
+    "output_type": "none",
+    "max_current_a": null,
+    "max_power_w": null,
+    "dc_switching": null,
+    "power_metering": "none",
+    "metering_max_a": null,
+    "dimming": null,
+    "cover_control": false,
+    "color_light": null,
+    "inputs": "1 AC input wire (L) + N",
+    "input_count": 1,
+    "sensors": [],
+    "radios": [],
+    "matter": null,
+    "ble_gateway": null,
+    "zwave_repeater": null,
+    "local_api": false,
+    "mqtt": false,
+    "scripting": false,
+    "ul_listed": null,
+    "protections": [],
+    "temp_range_c": "0..40",
+    "size_mm": "48x13x7",
+    "addon_port": false,
+    "requires": [
+      "Shelly Plus Uni / Plus Add-On / Plus RGBW PM / Pro RGBWW PM host"
+    ],
+    "extra": {
+      "compatible_hosts": [
+        "Shelly Plus RGBW PM",
+        "Shelly Plus Add-On",
+        "Shelly Plus Uni",
+        "Shelly Pro RGBWW PM"
+      ],
+      "isolation": "optocoupler AC->DC",
+      "cable_length_mm": 80,
+      "max_output_current": "2.4 mA DC",
+      "voltage_variant": "120V~ 60Hz (230V 50Hz sibling exists)",
+      "kb_shared_page": "1-ch and 4-ch share one KB page"
+    }
+  },
+  "gotchas": [
+    "Passive part — does nothing alone; needs a Plus Uni, Plus Add-On, Plus RGBW PM or Pro RGBWW PM host",
+    "Gen1 Shelly Uni is not on the supported-host list (Plus Uni is)",
+    "120V/60Hz version — the 230V/50Hz decoupler is a different SKU",
+    "Signal only (2.4 mA DC out) — cannot switch a load",
+    "One channel; for 4 AC signals use Shelly 4-Channel Decoupler 120V"
+  ],
+  "best_for": [
+    "feeding a 120V PIR/motion sensor or existing switch leg into a 12/24V Shelly input"
+  ],
+  "not_for": [
+    "switching loads",
+    "230V installs"
+  ],
+  "confidence": "high"
+}

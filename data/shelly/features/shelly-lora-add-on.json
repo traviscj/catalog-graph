@@ -1,0 +1,86 @@
+{
+  "id": "shelly-lora-add-on",
+  "name": "Shelly LoRa Add-on",
+  "price": 23.99,
+  "line": "Accessory",
+  "summary": "LoRa radio add-on (up to 5 km, SheLR protocol) for Shelly Gen3/Gen4 relays, meters and dimmers.",
+  "jobs": [
+    {
+      "job": "diy_maker",
+      "role": "primary"
+    },
+    {
+      "job": "new:long_range_link",
+      "role": "primary"
+    },
+    {
+      "job": "irrigation",
+      "role": "secondary"
+    }
+  ],
+  "f": {
+    "form_factor": "addon",
+    "mains_powered": false,
+    "supply": "3.3V from host Shelly device",
+    "dc_supply": null,
+    "battery": null,
+    "neutral_required": null,
+    "channels": 0,
+    "output_type": "none",
+    "max_current_a": null,
+    "max_power_w": null,
+    "dc_switching": null,
+    "power_metering": null,
+    "metering_max_a": null,
+    "dimming": null,
+    "cover_control": false,
+    "color_light": null,
+    "inputs": null,
+    "input_count": 0,
+    "sensors": [],
+    "radios": [
+      "lora"
+    ],
+    "matter": false,
+    "ble_gateway": null,
+    "zwave_repeater": null,
+    "local_api": null,
+    "mqtt": null,
+    "scripting": true,
+    "ul_listed": null,
+    "protections": [],
+    "temp_range_c": "-20..40",
+    "size_mm": "40x42x11",
+    "addon_port": false,
+    "requires": [
+      "Shelly Gen3/Gen4 host (1/1PM/2PM Gen3, DALI Dimmer Gen3, Dimmer 0/1-10V PM Gen3, EM Gen3, Shutter, 1/1PM/2PM Gen4, Dimmer 0/1-10V PM Gen4, EM Gen4, i4 Gen4) on fw ≥1.6"
+    ],
+    "extra": {
+      "bands": [
+        "US915",
+        "EU868",
+        "AU915-928",
+        "BR915-928"
+      ],
+      "range": "up to 5 km line-of-sight, external antenna",
+      "encryption": "AES-CCM",
+      "addressing": "unicast/multicast/broadcast",
+      "gateway_use": "host with add-on can relay data from other devices incl. BLU",
+      "host_note": "i4 Gen3 not in compatible list (i4 Gen4 is)"
+    }
+  },
+  "gotchas": [
+    "Not standalone — needs a compatible Gen3/Gen4 host and a second LoRa-equipped Shelly at the other end",
+    "Not LoRaWAN: uses Shelly's own SheLR protocol, so no TTN/LoRaWAN gateway interop",
+    "Pro (DIN) series and Plus/Gen2 devices aren't on the compatibility list",
+    "Practical use is script-driven; expect DIY setup"
+  ],
+  "best_for": [
+    "linking pumps/gates/lights at outbuildings or fields beyond Wi-Fi reach"
+  ],
+  "not_for": [
+    "LoRaWAN networks",
+    "plug-and-play users"
+  ],
+  "confidence": "high"
+}

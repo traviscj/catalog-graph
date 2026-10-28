@@ -1,0 +1,85 @@
+{
+  "id": "shelly-4-channel-decoupler-120v",
+  "name": "Shelly 4-Channel Decoupler 120V",
+  "price": 9.99,
+  "line": "Accessory",
+  "summary": "Four-channel optocoupler converting 120VAC switch/sensor signals into DC digital inputs for Shelly Uni/Add-On/RGBW hosts.",
+  "jobs": [
+    {
+      "job": "accessory",
+      "role": "primary"
+    },
+    {
+      "job": "input_trigger",
+      "role": "secondary"
+    },
+    {
+      "job": "diy_maker",
+      "role": "secondary"
+    }
+  ],
+  "f": {
+    "form_factor": "accessory",
+    "mains_powered": true,
+    "supply": "120VAC 60Hz (signal input)",
+    "dc_supply": false,
+    "battery": null,
+    "neutral_required": true,
+    "channels": 4,
+    "output_type": "none",
+    "max_current_a": null,
+    "max_power_w": null,
+    "dc_switching": null,
+    "power_metering": "none",
+    "metering_max_a": null,
+    "dimming": null,
+    "cover_control": false,
+    "color_light": null,
+    "inputs": "4 AC input wires (I1-I4) + N",
+    "input_count": 4,
+    "sensors": [],
+    "radios": [],
+    "matter": null,
+    "ble_gateway": null,
+    "zwave_repeater": null,
+    "local_api": false,
+    "mqtt": false,
+    "scripting": false,
+    "ul_listed": null,
+    "protections": [],
+    "temp_range_c": "0..40",
+    "size_mm": "44x34x7",
+    "addon_port": false,
+    "requires": [
+      "Shelly Plus Uni / Plus Add-On / Plus RGBW PM / Pro RGBWW PM host"
+    ],
+    "extra": {
+      "compatible_hosts": [
+        "Shelly Plus RGBW PM",
+        "Shelly Plus Add-On",
+        "Shelly Plus Uni",
+        "Shelly Pro RGBWW PM"
+      ],
+      "isolation": "optocoupler AC->DC",
+      "cable_length_mm": 80,
+      "max_output_current": "2.4 mA DC",
+      "voltage_variant": "120V~ 60Hz (230V 50Hz sibling exists)",
+      "kb_shared_page": "1-ch and 4-ch share one KB page"
+    }
+  },
+  "gotchas": [
+    "Passive part — needs a Plus Uni, Plus Add-On, Plus RGBW PM or Pro RGBWW PM host to be useful",
+    "Plus Uni has only 2 digital inputs — 4 channels only pay off on Plus RGBW PM (4 in) or Pro RGBWW PM (5 in)",
+    "Gen1 Shelly Uni is not on the supported-host list",
+    "120V/60Hz version; 230V/50Hz is a separate SKU",
+    "Signal only (2.4 mA DC out) — cannot switch a load"
+  ],
+  "best_for": [
+    "bringing up to four 120V wall-switch legs into an RGBW PM controller's inputs"
+  ],
+  "not_for": [
+    "switching loads",
+    "single-input hosts"
+  ],
+  "confidence": "high"
+}

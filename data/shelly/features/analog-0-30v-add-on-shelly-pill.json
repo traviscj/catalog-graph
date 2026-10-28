@@ -1,0 +1,81 @@
+{
+  "id": "analog-0-30v-add-on-shelly-pill",
+  "name": "Analog 0 - 30V Add-on (Shelly Pill)",
+  "price": 6.99,
+  "line": "Pill",
+  "summary": "Add-on for The Pill extending its analog voltmeter to 0-30 V DC for sensors and batteries.",
+  "jobs": [
+    {
+      "job": "sense_analog",
+      "role": "primary"
+    },
+    {
+      "job": "diy_maker",
+      "role": "secondary"
+    },
+    {
+      "job": "accessory",
+      "role": "secondary"
+    }
+  ],
+  "f": {
+    "form_factor": "addon",
+    "mains_powered": false,
+    "supply": "5V DC (from The Pill / 5V terminal)",
+    "dc_supply": false,
+    "battery": null,
+    "neutral_required": null,
+    "channels": null,
+    "output_type": "none",
+    "max_current_a": null,
+    "max_power_w": null,
+    "dc_switching": null,
+    "power_metering": "none",
+    "metering_max_a": null,
+    "dimming": null,
+    "cover_control": false,
+    "color_light": null,
+    "inputs": "1 analog input AN (0-30 V DC) + 2 configurable 3.3 V digital I/O (IO2, IO3)",
+    "input_count": 3,
+    "sensors": [
+      "voltage"
+    ],
+    "radios": [],
+    "matter": false,
+    "ble_gateway": false,
+    "zwave_repeater": null,
+    "local_api": null,
+    "mqtt": null,
+    "scripting": null,
+    "ul_listed": null,
+    "protections": [],
+    "temp_range_c": "0..40",
+    "size_mm": "36.5x26.5x11.5",
+    "addon_port": false,
+    "requires": [
+      "The Pill by Shelly",
+      "5-Terminal Add-on (Micro USB to 5 Terminal Add-on) for connection to The Pill"
+    ],
+    "extra": {
+      "voltmeter_accuracy": "±(2% + 5d)",
+      "digital_io": "3.3 V logic, 20 mA max",
+      "typical_use": "0-5 V analog sensors; 4.2/12/24 V battery monitoring"
+    }
+  },
+  "gotchas": [
+    "Not standalone: needs The Pill AND the 5-Terminal Add-on (~$28 total stack)",
+    "DC 0-30 V only — not for mains or AC voltage measurement",
+    "±(2% + 5d) accuracy is coarse for battery state-of-charge on flat Li/LiFePO4 curves",
+    "IO2/IO3 are 3.3 V / 20 mA logic — cannot drive loads; use the SSR Add-on for 30 V/300 mA",
+    "0-40 °C operating range: not for unheated outdoor/garage installs in winter"
+  ],
+  "best_for": [
+    "Monitoring a 12/24 V battery bank or a 0-5 V analog sensor from The Pill"
+  ],
+  "not_for": [
+    "mains voltage",
+    "switching loads",
+    "standalone use"
+  ],
+  "confidence": "high"
+}

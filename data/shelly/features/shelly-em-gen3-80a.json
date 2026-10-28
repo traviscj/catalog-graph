@@ -1,0 +1,84 @@
+{
+  "id": "shelly-em-gen3-80a",
+  "name": "Shelly EM Gen3 80А",
+  "price": 79.99,
+  "line": "Gen3",
+  "summary": "Compact 2-channel single-phase CT energy meter (50A CT incl., 80A option) with 2A contactor relay.",
+  "jobs": [
+    {
+      "job": "meter_panel",
+      "role": "primary"
+    },
+    {
+      "job": "switch_low_voltage",
+      "role": "secondary"
+    }
+  ],
+  "f": {
+    "form_factor": "in_wall",
+    "mains_powered": true,
+    "supply": "110-240VAC 50/60Hz",
+    "dc_supply": false,
+    "battery": null,
+    "neutral_required": true,
+    "channels": 2,
+    "output_type": "dry_relay",
+    "max_current_a": 2,
+    "max_power_w": null,
+    "dc_switching": null,
+    "power_metering": "2ch_clamp",
+    "metering_max_a": 80,
+    "dimming": null,
+    "cover_control": false,
+    "color_light": null,
+    "inputs": "2 CT inputs (IA, IB)",
+    "input_count": 0,
+    "sensors": [
+      "internal_temp",
+      "voltage"
+    ],
+    "radios": [
+      "wifi",
+      "bluetooth"
+    ],
+    "matter": null,
+    "ble_gateway": null,
+    "zwave_repeater": null,
+    "local_api": true,
+    "mqtt": true,
+    "scripting": true,
+    "ul_listed": null,
+    "protections": [
+      "overtemp"
+    ],
+    "temp_range_c": "-20..40",
+    "size_mm": "37x42x16",
+    "addon_port": null,
+    "requires": [],
+    "extra": {
+      "included_ct": "CT 50A (family name says 80A; 80A CT is a compatible option per KB)",
+      "accuracy": "±2%",
+      "data_log": "10 days @1 min",
+      "relay": "2A/240VAC dry contact for contactor coil",
+      "mounting": "wall console or electrical cabinet",
+      "kb_model": "S3EM-002CXCEU",
+      "family_name_note": "family contains Cyrillic 'А' in '80А'"
+    }
+  },
+  "gotchas": [
+    "Single voltage reference: measures two CTs on one phase — US split-phase 240V loads need care; see Shelly Pro EM-50 (has split-phase wiring diagram)",
+    "Built-in relay is 2A — only for a contactor coil, never the load directly",
+    "KB lists CT 50A as included; 80A needs the CT 80A — check what ships before metering >50A circuits",
+    "No Ethernet and not DIN-mount — see Shelly Pro EM-50 for panel install with LAN",
+    "No UL listing stated"
+  ],
+  "best_for": [
+    "Metering a couple of circuits (e.g., heat pump + solar) from inside a panel or junction box"
+  ],
+  "not_for": [
+    "3-phase",
+    "direct load switching",
+    "whole-home 200A US service mains"
+  ],
+  "confidence": "high"
+}

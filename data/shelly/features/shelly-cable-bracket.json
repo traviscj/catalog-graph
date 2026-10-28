@@ -1,0 +1,68 @@
+{
+  "id": "shelly-cable-bracket",
+  "name": "Shelly Cable Bracket",
+  "price": 2.99,
+  "line": "Accessory",
+  "summary": "10-pack adhesive brackets that hold the Shelly Leak Sensor Cable flat against surfaces.",
+  "jobs": [
+    {
+      "job": "accessory",
+      "role": "primary"
+    },
+    {
+      "job": "sense_leak",
+      "role": "secondary"
+    }
+  ],
+  "f": {
+    "form_factor": "accessory",
+    "mains_powered": false,
+    "supply": null,
+    "dc_supply": false,
+    "battery": null,
+    "neutral_required": false,
+    "channels": null,
+    "output_type": "none",
+    "max_current_a": null,
+    "max_power_w": null,
+    "dc_switching": null,
+    "power_metering": "none",
+    "metering_max_a": null,
+    "dimming": null,
+    "cover_control": false,
+    "color_light": null,
+    "inputs": null,
+    "input_count": 0,
+    "sensors": [],
+    "radios": [],
+    "matter": false,
+    "ble_gateway": false,
+    "zwave_repeater": null,
+    "local_api": false,
+    "mqtt": false,
+    "scripting": false,
+    "ul_listed": null,
+    "protections": [],
+    "temp_range_c": "-20..40",
+    "size_mm": "7x36x20 (each)",
+    "addon_port": false,
+    "requires": [
+      "Shelly Leak Sensor Cable"
+    ],
+    "extra": {
+      "pack_qty": 10,
+      "mounting": "pre-attached double-sided adhesive or screws (not included)"
+    }
+  },
+  "gotchas": [
+    "Only useful with the Shelly Leak Sensor Cable (sold separately)",
+    "Screws not included; adhesive needs clean, flat surfaces"
+  ],
+  "best_for": [
+    "Keeping a leak-sensing cable in floor contact along baseboards/under appliances"
+  ],
+  "not_for": [
+    "anything other than the Leak Sensor Cable"
+  ],
+  "confidence": "high"
+}

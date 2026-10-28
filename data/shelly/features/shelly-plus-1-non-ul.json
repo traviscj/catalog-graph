@@ -1,0 +1,89 @@
+{
+  "id": "shelly-plus-1-non-ul",
+  "name": "Shelly Plus 1 Non-UL",
+  "price": 17.49,
+  "line": "Plus(Gen2)",
+  "summary": "Gen2 in-wall 1-channel dry-contact relay, ~15-16A, AC or 12/24-48VDC powered, Wi-Fi + Bluetooth, no metering.",
+  "jobs": [
+    {
+      "job": "switch_load",
+      "role": "primary"
+    },
+    {
+      "job": "retrofit_wall_switch",
+      "role": "primary"
+    },
+    {
+      "job": "switch_low_voltage",
+      "role": "secondary"
+    },
+    {
+      "job": "diy_maker",
+      "role": "secondary"
+    }
+  ],
+  "f": {
+    "form_factor": "in_wall",
+    "mains_powered": true,
+    "supply": "110-240VAC 50/60Hz, 12VDC stabilized, or 24-48VDC",
+    "dc_supply": true,
+    "battery": null,
+    "neutral_required": true,
+    "channels": 1,
+    "output_type": "dry_relay",
+    "max_current_a": 15,
+    "max_power_w": null,
+    "dc_switching": "10A/30V",
+    "power_metering": "none",
+    "metering_max_a": null,
+    "dimming": null,
+    "cover_control": false,
+    "color_light": null,
+    "inputs": "1 switch/button input (SW)",
+    "input_count": 1,
+    "sensors": [
+      "internal_temp"
+    ],
+    "radios": [
+      "wifi",
+      "bluetooth"
+    ],
+    "matter": null,
+    "ble_gateway": null,
+    "zwave_repeater": null,
+    "local_api": true,
+    "mqtt": true,
+    "scripting": true,
+    "ul_listed": false,
+    "protections": [
+      "overtemp"
+    ],
+    "temp_range_c": "-20..40",
+    "size_mm": "37x42x16",
+    "addon_port": true,
+    "requires": [],
+    "extra": {
+      "kb_mismatch": "kb_slug shelly-plus-1-ul is the UL-certified variant (SNSW-001X15UL, 15A AC); family is the Non-UL Plus 1 — ratings (15A) and UL claims in KB belong to the UL sibling",
+      "neutral_note": "AC supply needs N; device can instead run from 12VDC or 24-48VDC",
+      "addon_warning": "high voltage on add-on interface when powered",
+      "inductive_loads": "require RC snubber",
+      "price_range": "17.49-29.20",
+      "available": false
+    }
+  },
+  "gotchas": [
+    "Not UL listed — US inspectors may require the Shelly Plus 1 UL variant",
+    "No power metering — use Shelly Plus 1PM if you need watts/kWh",
+    "Inductive loads (LED drivers, fans, motors) need an RC snubber per KB",
+    "Specs come from the Plus 1 UL KB page (15A); verify the non-UL rating",
+    "Listed as unavailable; Gen3/Gen4 Shelly 1 successors exist"
+  ],
+  "best_for": [
+    "dry-contact switching of garage door/boiler/gate inputs or 120V lights, incl. low-voltage DC-powered installs"
+  ],
+  "not_for": [
+    "metering",
+    "UL-required installs"
+  ],
+  "confidence": "low"
+}

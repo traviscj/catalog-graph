@@ -1,0 +1,82 @@
+{
+  "id": "shelly-wave-pro-1pm",
+  "name": "Shelly Wave Pro 1PM",
+  "price": 105.99,
+  "line": "Wave Pro",
+  "summary": "DIN-rail Z-Wave 1-channel 15A metered relay with protections.",
+  "jobs": [
+    {
+      "job": "zwave_mesh",
+      "role": "primary"
+    },
+    {
+      "job": "switch_load",
+      "role": "primary"
+    },
+    {
+      "job": "meter_circuit",
+      "role": "secondary"
+    }
+  ],
+  "f": {
+    "form_factor": "din_rail",
+    "mains_powered": true,
+    "supply": "110-240VAC 50/60Hz",
+    "dc_supply": false,
+    "battery": null,
+    "neutral_required": null,
+    "channels": 1,
+    "output_type": null,
+    "max_current_a": 15,
+    "max_power_w": null,
+    "dc_switching": null,
+    "power_metering": "per_channel",
+    "metering_max_a": null,
+    "dimming": null,
+    "cover_control": false,
+    "color_light": null,
+    "inputs": null,
+    "input_count": null,
+    "sensors": [],
+    "radios": [
+      "zwave"
+    ],
+    "matter": false,
+    "ble_gateway": false,
+    "zwave_repeater": true,
+    "local_api": false,
+    "mqtt": false,
+    "scripting": false,
+    "ul_listed": null,
+    "protections": [
+      "overtemp",
+      "overcurrent",
+      "overvoltage"
+    ],
+    "temp_range_c": "-20..40",
+    "size_mm": "94x19x69",
+    "addon_port": false,
+    "requires": [
+      "Z-Wave controller/hub (e.g. Home Assistant + Z-Wave stick, Hubitat, SmartThings)"
+    ],
+    "extra": {
+      "data_quality": "KB scrape only has spec table + inclusion text (no interfaces/load types)",
+      "kb_slug": "wave-pro-1pm-us (shared with Wave Pro 1PM LR US)",
+      "dc_switching": "N/A per KB"
+    }
+  },
+  "gotchas": [
+    "Z-Wave only — needs a Z-Wave hub; no Wi-Fi/LAN despite DIN 'Pro' form",
+    "DIN-rail: needs a DIN enclosure — US load centers have no rail",
+    "No DC switching (N/A) — for dry-contact/DC loads see Shelly Wave Pro 3",
+    "KB data thin: inputs, neutral requirement and UL status not documented"
+  ],
+  "best_for": [
+    "Z-Wave installs with DIN enclosures needing metered 15A circuit control"
+  ],
+  "not_for": [
+    "Wi-Fi/Ethernet users",
+    "in-wall retrofit"
+  ],
+  "confidence": "medium"
+}

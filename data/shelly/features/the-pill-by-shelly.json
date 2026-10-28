@@ -1,0 +1,99 @@
+{
+  "id": "the-pill-by-shelly",
+  "name": "The Pill by Shelly",
+  "price": 12.99,
+  "line": "Pill",
+  "summary": "USB-C 5 V Wi-Fi/BLE micro-module for DS18B20/DHT22 sensors, analog/digital I/O and BLE gateway.",
+  "jobs": [
+    {
+      "job": "diy_maker",
+      "role": "primary"
+    },
+    {
+      "job": "sense_temp_humidity",
+      "role": "primary"
+    },
+    {
+      "job": "sense_analog",
+      "role": "secondary"
+    },
+    {
+      "job": "input_trigger",
+      "role": "secondary"
+    },
+    {
+      "job": "ble_gateway_range",
+      "role": "secondary"
+    }
+  ],
+  "f": {
+    "form_factor": "wired_sensor",
+    "mains_powered": false,
+    "supply": "5V DC USB-C",
+    "dc_supply": false,
+    "battery": null,
+    "neutral_required": false,
+    "channels": null,
+    "output_type": "none",
+    "max_current_a": null,
+    "max_power_w": null,
+    "dc_switching": null,
+    "power_metering": "none",
+    "metering_max_a": null,
+    "dimming": null,
+    "cover_control": false,
+    "color_light": null,
+    "inputs": "3 configurable I/O: IO1 1-Wire/analog 0-2.5 V/digital; IO2-IO3 digital 3.3 V",
+    "input_count": 3,
+    "sensors": [
+      "temp",
+      "humidity",
+      "voltage"
+    ],
+    "radios": [
+      "wifi",
+      "bluetooth"
+    ],
+    "matter": null,
+    "ble_gateway": true,
+    "zwave_repeater": null,
+    "local_api": true,
+    "mqtt": true,
+    "scripting": true,
+    "ul_listed": null,
+    "protections": [],
+    "temp_range_c": "-20..40",
+    "size_mm": "26x19.95x8.5",
+    "addon_port": true,
+    "requires": [
+      "5 V USB-C supply",
+      "external sensors/add-ons for most functions"
+    ],
+    "extra": {
+      "sensors_note": "temp/humidity via external DS18B20 (up to 5) or one DHT22; no internal temp sensor",
+      "io": "3.3 V logic, 20 mA",
+      "addons": [
+        "5-Terminal Add-on",
+        "SSR Add-on (2ch 30 V/300 mA)",
+        "Analog 0-30V Add-on"
+      ],
+      "included": "3.5 mm jack cable adapter",
+      "form_note": "USB-C dev/sensor module"
+    }
+  },
+  "gotchas": [
+    "Does nothing alone: sensors (e.g. DS18B20 3.5 mm probe) and add-ons are separate purchases",
+    "Native analog input only 0-2.5 V — 0-30 V needs the Analog 0-30V Add-on",
+    "Outputs are 3.3 V/20 mA logic; switching even small DC loads needs the SSR Add-on (30 V/300 mA)",
+    "Needs constant USB-C 5 V power; no mains or battery operation"
+  ],
+  "best_for": [
+    "Multi-point water/pool/aquarium temperature (up to 5 DS18B20)",
+    "cheap Wi-Fi BLE gateway + reed/digital sensor bridge"
+  ],
+  "not_for": [
+    "mains switching",
+    "battery-only locations"
+  ],
+  "confidence": "high"
+}

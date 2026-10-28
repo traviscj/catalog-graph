@@ -1,0 +1,83 @@
+{
+  "id": "shelly-pro-1",
+  "name": "Shelly Pro 1",
+  "price": 69.99,
+  "line": "Pro",
+  "summary": "DIN-rail 1-channel 16A dry-contact relay with Ethernet, Wi-Fi and Bluetooth; no metering.",
+  "jobs": [
+    {
+      "job": "switch_load",
+      "role": "primary"
+    },
+    {
+      "job": "switch_low_voltage",
+      "role": "secondary"
+    },
+    {
+      "job": "switch_high_current",
+      "role": "secondary"
+    }
+  ],
+  "f": {
+    "form_factor": "din_rail",
+    "mains_powered": true,
+    "supply": "110-240VAC",
+    "dc_supply": false,
+    "battery": null,
+    "neutral_required": true,
+    "channels": 1,
+    "output_type": "dry_relay",
+    "max_current_a": 16,
+    "max_power_w": null,
+    "dc_switching": null,
+    "power_metering": "none",
+    "metering_max_a": null,
+    "dimming": null,
+    "cover_control": false,
+    "color_light": null,
+    "inputs": "2 switch/button inputs (SW1, SW2)",
+    "input_count": 2,
+    "sensors": [
+      "internal_temp"
+    ],
+    "radios": [
+      "ethernet",
+      "wifi",
+      "bluetooth"
+    ],
+    "matter": null,
+    "ble_gateway": null,
+    "zwave_repeater": null,
+    "local_api": true,
+    "mqtt": true,
+    "scripting": true,
+    "ul_listed": null,
+    "protections": [
+      "overtemp"
+    ],
+    "temp_range_c": "-20..40",
+    "size_mm": "94x19x69",
+    "addon_port": true,
+    "requires": [],
+    "extra": {
+      "model": "SPSW-201XE16EU (v1)",
+      "lan_warning": "plug/unplug LAN only when powered off",
+      "dc_switching": "N/A per spec"
+    }
+  },
+  "gotchas": [
+    "No power metering — Shelly Pro 1PM if you need it",
+    "DIN-rail: needs a panel or DIN enclosure",
+    "No DC supply and DC switching listed as N/A",
+    "Inductive loads need an RC snubber per wiring diagram",
+    "KB is the EU-coded v1 (SPSW-201XE16EU); no UL listing stated"
+  ],
+  "best_for": [
+    "panel-mounted switching of a 16A circuit or contactor coil with wired LAN"
+  ],
+  "not_for": [
+    "in-wall retrofit",
+    "metering"
+  ],
+  "confidence": "high"
+}

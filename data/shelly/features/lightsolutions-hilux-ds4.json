@@ -1,0 +1,93 @@
+{
+  "id": "lightsolutions-hilux-ds4",
+  "name": "LightSolutions Hilux DS4",
+  "price": 84.99,
+  "line": "3rd-party",
+  "summary": "4-inch recessed tunable-white LED downlight with integrated Shelly Wi-Fi/BLE smart driver.",
+  "jobs": [
+    {
+      "job": "color_light",
+      "role": "primary"
+    },
+    {
+      "job": "dim_light",
+      "role": "secondary"
+    }
+  ],
+  "f": {
+    "form_factor": "bulb",
+    "mains_powered": true,
+    "supply": "110-277VAC 50/60Hz",
+    "dc_supply": false,
+    "battery": null,
+    "neutral_required": true,
+    "channels": 1,
+    "output_type": "none",
+    "max_current_a": null,
+    "max_power_w": 8,
+    "dc_switching": null,
+    "power_metering": null,
+    "metering_max_a": null,
+    "dimming": null,
+    "cover_control": false,
+    "color_light": "cct",
+    "inputs": null,
+    "input_count": 0,
+    "sensors": [],
+    "radios": [
+      "wifi",
+      "bluetooth"
+    ],
+    "matter": null,
+    "ble_gateway": null,
+    "zwave_repeater": null,
+    "local_api": true,
+    "mqtt": null,
+    "scripting": null,
+    "ul_listed": true,
+    "protections": [],
+    "temp_range_c": "-20..40",
+    "size_mm": "trim Ø120, cut-out Ø106, depth 58",
+    "addon_port": false,
+    "requires": [],
+    "extra": {
+      "luminaire": "recessed downlight, 4in US can standard",
+      "light_output": "600 lm @6000K / 360 lm @2200K",
+      "cct_range": "2200-6000K",
+      "cri": 95,
+      "beam_deg": 40,
+      "ip": "IP44",
+      "dimming": "1-100% flicker-free via app/schedules/voice (method not specified)",
+      "driver": "Integrated Shelly smart LED driver 80-860-SH-170, 30-38VDC 170mA",
+      "listing": "ETL Listed to UL 1598 / CSA C22.2 No. 250.0 (ETL mark, not UL mark)",
+      "junction_box": "steel box included",
+      "integrations": [
+        "Shelly app",
+        "Alexa",
+        "Google Home",
+        "Home Assistant",
+        "Control4 (3rd-party driver)"
+      ],
+      "blu_remote_pairing": true,
+      "price_max": 89.99,
+      "available": false,
+      "kb_note": "KB page is combined DS8/DS4; DS4 column used"
+    }
+  },
+  "gotchas": [
+    "Only 8 W / 600 lm max — a task/accent light, not a high-output fixture",
+    "Tunable white (CCT) only — no RGB color",
+    "Needs a neutral at each fixture (line, neutral & ground daisy-chained)",
+    "Listed as currently unavailable on the store",
+    "Pairing a BLU remote requires powering only one fixture at a time or previously paired ones unpair"
+  ],
+  "best_for": [
+    "new-construction or remodel 4in can lighting that wants app-tunable white without a separate smart switch"
+  ],
+  "not_for": [
+    "color/RGB scenes",
+    "high-lumen ambient lighting",
+    "existing dimmer-switch control"
+  ],
+  "confidence": "high"
+}

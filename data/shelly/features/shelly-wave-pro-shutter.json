@@ -1,0 +1,83 @@
+{
+  "id": "shelly-wave-pro-shutter",
+  "name": "Shelly Wave Pro Shutter",
+  "price": 47.47,
+  "line": "Wave Pro",
+  "summary": "DIN-rail Z-Wave 800 shutter/blind controller, 120 V, 12.5 A per channel, with metering.",
+  "jobs": [
+    {
+      "job": "control_cover",
+      "role": "primary"
+    },
+    {
+      "job": "zwave_mesh",
+      "role": "primary"
+    }
+  ],
+  "f": {
+    "form_factor": "din_rail",
+    "mains_powered": true,
+    "supply": "120VAC 50/60Hz",
+    "dc_supply": false,
+    "battery": null,
+    "neutral_required": null,
+    "channels": 2,
+    "output_type": null,
+    "max_current_a": 12.5,
+    "max_power_w": null,
+    "dc_switching": null,
+    "power_metering": "per_channel",
+    "metering_max_a": null,
+    "dimming": null,
+    "cover_control": true,
+    "color_light": null,
+    "inputs": "SW1/SW2 switch inputs",
+    "input_count": 2,
+    "sensors": [],
+    "radios": [
+      "zwave"
+    ],
+    "matter": false,
+    "ble_gateway": false,
+    "zwave_repeater": true,
+    "local_api": false,
+    "mqtt": false,
+    "scripting": false,
+    "ul_listed": null,
+    "protections": [
+      "overtemp",
+      "overcurrent",
+      "overvoltage",
+      "overpower"
+    ],
+    "temp_range_c": "-20..40",
+    "size_mm": "94x19x69",
+    "addon_port": false,
+    "requires": [
+      "Z-Wave controller/hub (US 908.4 MHz)",
+      "DIN rail in a panel or enclosure"
+    ],
+    "extra": {
+      "overload_cutoff": ">1100 W for >5 s",
+      "venetian_mode": true,
+      "associations": "up to 9 nodes/group",
+      "tag_conflict": "tags list Bluetooth and LAN but specs show Z-Wave only",
+      "price_oddity": "$47.47 — unusually low for a Wave Pro DIN device",
+      "channels_note": "up/down outputs for one motor"
+    }
+  },
+  "gotchas": [
+    "120 V only (US)",
+    "Motor must have electronic/mechanical limit switches",
+    "Trips on >1100 W for 5 s despite 12.5 A channel rating",
+    "Needs Z-Wave hub and DIN rail/enclosure; tags claiming Bluetooth/LAN are not backed by specs"
+  ],
+  "best_for": [
+    "Z-Wave-controlled roller shutters/awnings wired back to a panel"
+  ],
+  "not_for": [
+    "240 V motors",
+    "wall-box installs"
+  ],
+  "confidence": "medium"
+}

@@ -1,0 +1,82 @@
+{
+  "id": "shelly-blu-h-t-display-zb",
+  "name": "Shelly BLU H&T Display ZB",
+  "price": 24.99,
+  "line": "BLU",
+  "summary": "Battery e-paper temperature/humidity/light sensor with clock; Bluetooth 5 and Zigbee 3.0.",
+  "jobs": [
+    {
+      "job": "sense_temp_humidity",
+      "role": "primary"
+    },
+    {
+      "job": "thermostat_hvac",
+      "role": "secondary"
+    }
+  ],
+  "f": {
+    "form_factor": "battery_sensor",
+    "mains_powered": false,
+    "supply": "2x CR2032",
+    "dc_supply": false,
+    "battery": "2x CR2032",
+    "neutral_required": false,
+    "channels": 0,
+    "output_type": "none",
+    "max_current_a": null,
+    "max_power_w": null,
+    "dc_switching": null,
+    "power_metering": null,
+    "metering_max_a": null,
+    "dimming": null,
+    "cover_control": false,
+    "color_light": null,
+    "inputs": "1 button",
+    "input_count": 1,
+    "sensors": [
+      "temp",
+      "humidity",
+      "lux",
+      "button"
+    ],
+    "radios": [
+      "bluetooth",
+      "zigbee"
+    ],
+    "matter": false,
+    "ble_gateway": false,
+    "zwave_repeater": null,
+    "local_api": false,
+    "mqtt": false,
+    "scripting": false,
+    "ul_listed": null,
+    "protections": [],
+    "temp_range_c": "-10..40",
+    "size_mm": "65x65x9",
+    "addon_port": false,
+    "requires": [
+      "Shelly BLE gateway or Zigbee coordinator/hub"
+    ],
+    "extra": {
+      "display": "e-paper with clock/date, color inversion",
+      "mounting": "tabletop stand, wall stand, rear magnets",
+      "battery_life": "~2 years",
+      "clock_sync": "via Shelly BLE gateway or Zigbee",
+      "product_type_odd": "store product_type 'Accessory'; tags list AU/DE/FR/UK/ROW feeds but no US feed"
+    }
+  },
+  "gotchas": [
+    "No Wi-Fi — needs a Shelly BLE gateway or a Zigbee hub to report anywhere",
+    "Bluetooth and Zigbee range ~10 m indoors",
+    "Indoor only, -10..40 °C — not for freezers/outdoors",
+    "Store tags suggest non-US feeds; confirm US availability"
+  ],
+  "best_for": [
+    "room comfort display + sensor feeding Zigbee or Shelly HVAC/dehumidifier automations"
+  ],
+  "not_for": [
+    "outdoor/freezer monitoring",
+    "Wi-Fi-only setups without a hub"
+  ],
+  "confidence": "high"
+}

@@ -1,0 +1,90 @@
+{
+  "id": "shelly-wave-1-mini-lr",
+  "name": "Shelly Wave 1 Mini LR",
+  "price": 35.99,
+  "line": "Wave",
+  "summary": "Mini Z-Wave 800 in-wall 8 A relay with DC-capable contacts; needs a Z-Wave controller.",
+  "jobs": [
+    {
+      "job": "zwave_mesh",
+      "role": "primary"
+    },
+    {
+      "job": "switch_load",
+      "role": "primary"
+    },
+    {
+      "job": "retrofit_wall_switch",
+      "role": "secondary"
+    },
+    {
+      "job": "switch_low_voltage",
+      "role": "secondary"
+    }
+  ],
+  "f": {
+    "form_factor": "in_wall_mini",
+    "mains_powered": true,
+    "supply": "110-240VAC 50/60Hz",
+    "dc_supply": false,
+    "battery": null,
+    "neutral_required": null,
+    "channels": 1,
+    "output_type": "dry_relay",
+    "max_current_a": 8,
+    "max_power_w": 2000,
+    "dc_switching": "5A/30V",
+    "power_metering": "none",
+    "metering_max_a": null,
+    "dimming": null,
+    "cover_control": false,
+    "color_light": null,
+    "inputs": "switch/button input (SW)",
+    "input_count": 1,
+    "sensors": [],
+    "radios": [
+      "zwave"
+    ],
+    "matter": false,
+    "ble_gateway": false,
+    "zwave_repeater": true,
+    "local_api": false,
+    "mqtt": false,
+    "scripting": false,
+    "ul_listed": null,
+    "protections": [
+      "overtemp"
+    ],
+    "temp_range_c": "-20..40",
+    "size_mm": "29x35x16",
+    "addon_port": false,
+    "requires": [
+      "Z-Wave controller/hub (US 908.4 MHz)"
+    ],
+    "extra": {
+      "zwave_chip": "S800",
+      "frequency": "908.4 MHz",
+      "mesh_range_m": 40,
+      "smartstart": true,
+      "s2": true,
+      "external_protection": "B/C breaker max 10 A",
+      "output_type_note": "inferred dry from DC switching rating (5 A/30 V)",
+      "lr_note": "name says LR but spec lists only 908.4 MHz mesh band (no 912 MHz LR band)"
+    }
+  },
+  "gotchas": [
+    "Z-Wave only: needs a Z-Wave hub (Home Assistant + stick, Hubitat, etc.); no Wi-Fi/app control",
+    "No power metering",
+    "8 A / 2000 W max; spec calls for ≤10 A breaker",
+    "Named 'LR' but spec lists only the 908.4 MHz mesh band — verify Long Range support",
+    "Keep the S2 DSK PIN label — required for secure inclusion"
+  ],
+  "best_for": [
+    "Z-Wave households retrofitting a ≤8 A light or dry-contact trigger"
+  ],
+  "not_for": [
+    "Wi-Fi/Matter-only homes",
+    "metering"
+  ],
+  "confidence": "medium"
+}

@@ -1,0 +1,85 @@
+{
+  "id": "shelly-wave-shutter-lr",
+  "name": "Shelly Wave Shutter LR",
+  "price": 38.0,
+  "line": "Wave",
+  "summary": "In-wall Z-Wave Long Range shutter/blind controller for 120V motors, 7A/ch, metering, slat tilt.",
+  "jobs": [
+    {
+      "job": "control_cover",
+      "role": "primary"
+    },
+    {
+      "job": "zwave_mesh",
+      "role": "primary"
+    }
+  ],
+  "f": {
+    "form_factor": "in_wall",
+    "mains_powered": true,
+    "supply": "120VAC 50/60Hz",
+    "dc_supply": false,
+    "battery": null,
+    "neutral_required": true,
+    "channels": 2,
+    "output_type": "wet_relay",
+    "max_current_a": 7,
+    "max_power_w": null,
+    "dc_switching": null,
+    "power_metering": "per_channel",
+    "metering_max_a": null,
+    "dimming": null,
+    "cover_control": true,
+    "color_light": null,
+    "inputs": "2 switch/push-button inputs (SW1 up, SW2 down)",
+    "input_count": 2,
+    "sensors": [],
+    "radios": [
+      "zwave",
+      "zwave_lr"
+    ],
+    "matter": false,
+    "ble_gateway": false,
+    "zwave_repeater": true,
+    "local_api": false,
+    "mqtt": false,
+    "scripting": false,
+    "ul_listed": null,
+    "protections": [
+      "overtemp",
+      "overcurrent",
+      "overvoltage"
+    ],
+    "temp_range_c": "-20..40",
+    "size_mm": "37x42x16",
+    "addon_port": false,
+    "requires": [
+      "Z-Wave controller (LR-capable for Long Range)"
+    ],
+    "extra": {
+      "max_motor": "1/3 hp per channel",
+      "overload_cutoff_w": 1100,
+      "venetian_slats": true,
+      "model": "QNSH-001P07US",
+      "zwave_freq": "908.4 MHz (US)",
+      "calibration": "requires motor with limit switches",
+      "lr_inclusion": "manual button inclusion not available for LR — SmartStart",
+      "gateway_compat": "slats unsupported on Homee/SmartThings; SmartThings position not reported"
+    }
+  },
+  "gotchas": [
+    "120V only, 7A / 1/3 hp per channel, cuts out above 1100W",
+    "Motor must have mechanical/electronic limit switches for calibration",
+    "Z-Wave hub required; slat control/position reporting spotty on some gateways (Homee, SmartThings)",
+    "LR mode = SmartStart QR inclusion only (no manual button inclusion)"
+  ],
+  "best_for": [
+    "in-wall 120V roller/venetian blind motors on a Z-Wave LR controller"
+  ],
+  "not_for": [
+    "DC motors",
+    "240V motors",
+    "Wi-Fi users"
+  ],
+  "confidence": "high"
+}

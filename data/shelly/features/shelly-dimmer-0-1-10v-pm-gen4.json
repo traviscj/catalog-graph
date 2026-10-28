@@ -1,0 +1,100 @@
+{
+  "id": "shelly-dimmer-0-1-10v-pm-gen4",
+  "name": "Shelly Dimmer 0/1-10V PM Gen4",
+  "price": 34.99,
+  "line": "Gen4",
+  "summary": "In-wall 0-10V/1-10V dimming controller with 13 A relay, power metering, Wi-Fi/Zigbee/Matter.",
+  "jobs": [
+    {
+      "job": "dim_lowvolt_driver",
+      "role": "primary"
+    },
+    {
+      "job": "meter_circuit",
+      "role": "secondary"
+    },
+    {
+      "job": "retrofit_wall_switch",
+      "role": "secondary"
+    },
+    {
+      "job": "ble_gateway_range",
+      "role": "secondary"
+    }
+  ],
+  "f": {
+    "form_factor": "in_wall",
+    "mains_powered": true,
+    "supply": "110-240VAC 50/60Hz",
+    "dc_supply": false,
+    "battery": null,
+    "neutral_required": true,
+    "channels": 1,
+    "output_type": "0-10v",
+    "max_current_a": 13,
+    "max_power_w": null,
+    "dc_switching": null,
+    "power_metering": "per_channel",
+    "metering_max_a": null,
+    "dimming": "0-10v",
+    "cover_control": false,
+    "color_light": null,
+    "inputs": "2 switch/button inputs (S1, S2)",
+    "input_count": 2,
+    "sensors": [
+      "internal_temp",
+      "voltage"
+    ],
+    "radios": [
+      "wifi",
+      "bluetooth",
+      "zigbee",
+      "matter_over_wifi"
+    ],
+    "matter": true,
+    "ble_gateway": true,
+    "zwave_repeater": null,
+    "local_api": true,
+    "mqtt": true,
+    "scripting": true,
+    "ul_listed": null,
+    "protections": [
+      "overtemp",
+      "overvoltage",
+      "overcurrent",
+      "overpower"
+    ],
+    "temp_range_c": "-20..40",
+    "size_mm": "38.5x43.5x17",
+    "addon_port": true,
+    "requires": [
+      "0-10V or 1-10V dimmable driver/ballast"
+    ],
+    "extra": {
+      "also_supports": "1-10V",
+      "control_current_ma": 35,
+      "relay": "13 A switched output for driver mains",
+      "metering_accuracy": "±10% V and A",
+      "ammeter_range": "50 mA-16 A",
+      "zigbee_repeater": true,
+      "control_type_conflict": "spec table: current sourcing AND sinking; short description: current sourcing only",
+      "external_protection": "B/C breaker max 16 A",
+      "terminals": "24-14 AWG"
+    }
+  },
+  "gotchas": [
+    "Drives 0-10V/1-10V drivers only — not for ordinary mains-dimmable bulbs (see Shelly Pro Dimmer 1PM / Plus Wall Dimmer)",
+    "35 mA control current caps how many drivers share one signal line",
+    "Spec says sourcing+sinking but description says sourcing — verify against your driver's 0-10V type",
+    "Metering is ±10% — coarse compared to the ±1% meters"
+  ],
+  "best_for": [
+    "Commercial LED troffers/fixtures with 0-10V drivers",
+    "retrofitting low-voltage-dimmed fixtures behind an existing switch"
+  ],
+  "not_for": [
+    "triac/phase-dimmable lamps",
+    "precision energy billing"
+  ],
+  "confidence": "high"
+}

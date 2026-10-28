@@ -1,0 +1,1256 @@
+{
+ "analog-0-30v-add-on-shelly-pill": [
+  {
+   "id": "the-pill-by-shelly",
+   "why": "Required host for the analog add-on"
+  },
+  {
+   "id": "micro-usb-to-5-terminal-add-shelly-pill",
+   "why": "Required adapter between analog add-on and The Pill"
+  }
+ ],
+ "frankever-sprinkler-controller-fk-06x": [],
+ "lightsolutions-hilux-ds4": [
+  {
+   "id": "shelly-i4-gen3",
+   "why": "Wall buttons trigger the Wi-Fi downlight on/dim"
+  },
+  {
+   "id": "shelly-presence-gen4",
+   "why": "Occupancy turns downlight on/off"
+  }
+ ],
+ "lightsolutions-hilux-ds8": [
+  {
+   "id": "shelly-i4-gen3",
+   "why": "Wall buttons trigger the Wi-Fi downlight on/dim"
+  },
+  {
+   "id": "shelly-presence-gen4",
+   "why": "Occupancy turns downlight on/off"
+  }
+ ],
+ "micro-usb-to-5-terminal-add-shelly-pill": [
+  {
+   "id": "ssr-add-on-shelly-pill",
+   "why": "SSR add-on connects through the 5-terminal adapter"
+  },
+  {
+   "id": "analog-0-30v-add-on-shelly-pill",
+   "why": "0-30 V add-on connects through the 5-terminal adapter"
+  },
+  {
+   "id": "the-pill-by-shelly",
+   "why": "Its only host; adds the MCU, Wi-Fi and BLE"
+  }
+ ],
+ "ogemray-smart-relay-25a": [
+  {
+   "id": "shelly-blu-h-t-zb",
+   "why": "BLU H&T + 25 A relay = water-heater/baseboard thermostat"
+  },
+  {
+   "id": "shelly-blu-distance",
+   "why": "BLE gateway; BLU Distance level switches a 25 A pump"
+  }
+ ],
+ "shelly-1-channel-decoupler-120v": [
+  {
+   "id": "shelly-plus-uni",
+   "why": "Supported host (Plus Uni)"
+  },
+  {
+   "id": "shelly-plus-rgbw-pm-us",
+   "why": "Supported host for 120 V switch input"
+  }
+ ],
+ "shelly-1-gen4-ul-certified": [
+  {
+   "id": "shelly-flood-gen4",
+   "why": "Flood alarm triggers this relay to shut the water valve"
+  },
+  {
+   "id": "shelly-flood-s-gen4",
+   "why": "Compact leak sensor triggers valve shutoff"
+  },
+  {
+   "id": "shelly-gas-cng",
+   "why": "Gas alarm triggers valve shutoff or exhaust fan"
+  },
+  {
+   "id": "shelly-h-t-gen3",
+   "why": "Wi-Fi H&T turns this relay into a thermostat"
+  }
+ ],
+ "shelly-1-mini-gen4": [
+  {
+   "id": "shelly-blu-h-t-zb",
+   "why": "BLE gateway relay \u2014 BLU H&T makes it a thermostat"
+  },
+  {
+   "id": "shelly-blu-door-window-zb",
+   "why": "BLE gateway relay; door contact switches the light"
+  },
+  {
+   "id": "shelly-blu-motion",
+   "why": "BLE gateway relay; BLU Motion turns its lights on"
+  },
+  {
+   "id": "shelly-blu-button-tough-1",
+   "why": "Gateway relay; rugged BLU button triggers it"
+  },
+  {
+   "id": "shelly-blu-rc-button-4",
+   "why": "Gateway relay; 4-button remote adds a virtual 3-way"
+  },
+  {
+   "id": "shelly-presence-gen4",
+   "why": "mmWave presence switches lights by occupancy"
+  }
+ ],
+ "shelly-1pm-gen4-ul-certified": [
+  {
+   "id": "shelly-lora-add-on",
+   "why": "Long-range SheLR link to a distant Shelly (buy two)"
+  }
+ ],
+ "shelly-1pm-mini-gen4": [
+  {
+   "id": "shelly-presence-gen4",
+   "why": "Occupancy switches the metered light circuit"
+  },
+  {
+   "id": "shelly-h-t-gen3",
+   "why": "H&T action switches metered fan/heater circuit"
+  },
+  {
+   "id": "shelly-i4-gen3",
+   "why": "Extra multi-way wall buttons for the relay"
+  }
+ ],
+ "shelly-2pm-gen4-ul-certified": [
+  {
+   "id": "shelly-blu-rc-button-4",
+   "why": "Wireless up/down/stop buttons; 2PM relays BLE"
+  },
+  {
+   "id": "shelly-blu-remote-control-zb",
+   "why": "Tilt remote positions covers via direct mapping"
+  },
+  {
+   "id": "shelly-wall-display-xl",
+   "why": "Touch-screen control for covers and circuits"
+  },
+  {
+   "id": "shelly-lora-add-on",
+   "why": "Long-range SheLR link for outbuildings (buy two)"
+  }
+ ],
+ "shelly-3em": [],
+ "shelly-3em-63-gen3": [],
+ "shelly-3em-63t-gen3": [],
+ "shelly-3em-63w-gen3": [],
+ "shelly-4-channel-decoupler-120v": [
+  {
+   "id": "shelly-plus-rgbw-pm-us",
+   "why": "Supported host with 4 inputs \u2014 uses all 4 channels"
+  },
+  {
+   "id": "shelly-plus-rgbw-pm",
+   "why": "Supported host with 4 inputs"
+  },
+  {
+   "id": "shelly-pro-rgbww-pm",
+   "why": "Supported DIN host for 120 V switch inputs"
+  }
+ ],
+ "shelly-blu-button-tough-1": [
+  {
+   "id": "shelly-1-mini-gen4",
+   "why": "Dry contact + gateway: button pulses a garage door opener"
+  },
+  {
+   "id": "shelly-plug-us-gen4",
+   "why": "Rugged button toggles a plug load; plug is the gateway"
+  },
+  {
+   "id": "shelly-dimmer-gen4-us-ul-certified",
+   "why": "Wet-area button toggles/dims lights via dimmer's BLE gateway"
+  }
+ ],
+ "shelly-blu-button-tough-1-zb": [
+  {
+   "id": "shelly-1-mini-gen4",
+   "why": "Button pulses dry contact (garage door); relay is BLE gateway"
+  },
+  {
+   "id": "shelly-plug-us-gen4",
+   "why": "Toggle a plug-in load; plug relays BLE to network"
+  }
+ ],
+ "shelly-blu-distance": [
+  {
+   "id": "shelly-plug-us-gen4",
+   "why": "Tank level drives a plug-in pump; plug is the BLE gateway"
+  },
+  {
+   "id": "shelly-1pm-gen4-ul-certified",
+   "why": "Level-controlled pump relay that also bridges BLE to Wi-Fi"
+  },
+  {
+   "id": "ogemray-smart-relay-25a",
+   "why": "25 A relay + BLE gateway for a big well/transfer pump"
+  }
+ ],
+ "shelly-blu-door-window-zb": [
+  {
+   "id": "shelly-1-mini-gen4",
+   "why": "Door opens -> closet/pantry light on; relay is the BLE gateway"
+  },
+  {
+   "id": "shelly-plug-us-gen4",
+   "why": "No-wiring BLE gateway; can switch a lamp on door open"
+  },
+  {
+   "id": "shelly-dimmer-gen4-us-ul-certified",
+   "why": "Door open -> dimmed light on; dimmer acts as BLE gateway"
+  },
+  {
+   "id": "shelly-blu-trv",
+   "why": "Window-open triggers TRV to stop heating"
+  }
+ ],
+ "shelly-blu-h-t-display-zb": [
+  {
+   "id": "shelly-plug-us-gen4",
+   "why": "Plug relays readings to cloud and switches heater/dehumidifier"
+  },
+  {
+   "id": "shelly-1-mini-gen4",
+   "why": "Gateway relay; display sensor drives it as a thermostat"
+  },
+  {
+   "id": "shelly-1-gen4-ul-certified",
+   "why": "Dry contact for heat call; needs a BLE gateway in range"
+  }
+ ],
+ "shelly-blu-h-t-zb": [
+  {
+   "id": "shelly-1-gen4-ul-certified",
+   "why": "H&T + dry-contact relay = boiler/furnace thermostat (needs BLE gateway nearby)"
+  },
+  {
+   "id": "shelly-plug-us-gen4",
+   "why": "Plug is BLE gateway and switches heater/dehumidifier on readings"
+  },
+  {
+   "id": "shelly-1-mini-gen4",
+   "why": "Relay doubles as BLE gateway; H&T reading drives it"
+  },
+  {
+   "id": "shelly-blu-trv",
+   "why": "TRV can regulate on an external BLU H&T room reading"
+  }
+ ],
+ "shelly-blu-motion": [
+  {
+   "id": "shelly-1-mini-gen4",
+   "why": "Motion -> lights on; relay also relays BLE to network"
+  },
+  {
+   "id": "shelly-dimmer-gen4-us-ul-certified",
+   "why": "Motion-triggered dimmed lighting; dimmer is the BLE gateway"
+  },
+  {
+   "id": "shelly-plug-us-gen4",
+   "why": "Motion switches a plug-in lamp; plug is the gateway"
+  }
+ ],
+ "shelly-blu-motion-zb": [
+  {
+   "id": "shelly-1-mini-gen4",
+   "why": "Motion -> lights on; relay also acts as BLE gateway"
+  },
+  {
+   "id": "shelly-dimmer-gen4-us-ul-certified",
+   "why": "Motion-triggered dimming; dimmer doubles as BLE gateway"
+  },
+  {
+   "id": "shelly-1pm-gen4-ul-certified",
+   "why": "Motion switches metered light circuit; relay is BLE gateway"
+  }
+ ],
+ "shelly-blu-rc-button-4": [
+  {
+   "id": "shelly-dimmer-gen4-us-ul-certified",
+   "why": "Four-button remote for on/off/dim; dimmer is the gateway"
+  },
+  {
+   "id": "shelly-2pm-gen4-ul-certified",
+   "why": "Open/close/stop a cover or two lights; 2PM is the gateway"
+  },
+  {
+   "id": "shelly-1-mini-gen4",
+   "why": "Stick-on 3-way switch for a relay that's also the gateway"
+  },
+  {
+   "id": "shelly-dimmer-0-1-10v-pm-gen4",
+   "why": "Gateway dimmer for 0-10 V drivers"
+  },
+  {
+   "id": "shelly-plus-rgbw-pm-us",
+   "why": "Gateway LED controller; buttons pick scenes"
+  }
+ ],
+ "shelly-blu-rc-button-4-zb": [
+  {
+   "id": "shelly-dimmer-gen4-us-ul-certified",
+   "why": "Wireless on/off/dim buttons; dimmer bridges BLE"
+  },
+  {
+   "id": "shelly-2pm-gen4-ul-certified",
+   "why": "Cover up/down/stop or two lights; 2PM acts as gateway"
+  },
+  {
+   "id": "shelly-1-mini-gen4",
+   "why": "Virtual 3-way switch; relay doubles as BLE gateway"
+  }
+ ],
+ "shelly-blu-remote-control-zb": [
+  {
+   "id": "shelly-dimmer-gen4-us-ul-certified",
+   "why": "Gen4 supports Default Command Mapping: scroll-to-dim, no setup"
+  },
+  {
+   "id": "shelly-2pm-gen4-ul-certified",
+   "why": "Direct cover mapping: tilt/scroll to position shades"
+  },
+  {
+   "id": "shelly-pro-dual-cover-shutter-pm",
+   "why": "Pro supports direct mapping: remote positions two covers"
+  },
+  {
+   "id": "shelly-pro-rgbww-pm",
+   "why": "Pro direct mapping: scroll to dim LED strips"
+  },
+  {
+   "id": "shelly-pro-dimmer-2pm",
+   "why": "Pro direct mapping: scroll-to-dim two DIN dimmer channels"
+  }
+ ],
+ "shelly-blu-trv": [
+  {
+   "id": "shelly-plug-us-gen4",
+   "why": "No-wiring BLE gateway for TRV app/cloud control"
+  },
+  {
+   "id": "shelly-blu-door-window-zb",
+   "why": "Window-open contact can drop the radiator setpoint"
+  },
+  {
+   "id": "shelly-1-mini-gen4",
+   "why": "Cheap in-wall BLE gateway for TRV cloud access"
+  },
+  {
+   "id": "shelly-blu-h-t-zb",
+   "why": "External room sensor for more accurate radiator control"
+  }
+ ],
+ "shelly-button": [
+  {
+   "id": "shelly-1-mini-gen4",
+   "why": "Wi-Fi button calls relay directly, no gateway needed"
+  },
+  {
+   "id": "shelly-plus-wall-dimmer",
+   "why": "Battery Wi-Fi button toggles the wall dimmer remotely"
+  }
+ ],
+ "shelly-button-1": [
+  {
+   "id": "shelly-1-mini-gen4",
+   "why": "Wi-Fi button triggers relay directly via action URL"
+  }
+ ],
+ "shelly-cable-bracket": [
+  {
+   "id": "shelly-leak-sensor-cable",
+   "why": "Only useful with the leak cable"
+  },
+  {
+   "id": "shelly-flood-gen4",
+   "why": "Cable host \u2014 bracket mounts its sensing cable"
+  }
+ ],
+ "shelly-camera": [
+  {
+   "id": "shelly-1-mini-gen4",
+   "why": "Camera motion webhook switches a porch/entry light"
+  }
+ ],
+ "shelly-dali-dimmer-gen3": [
+  {
+   "id": "shelly-presence-gen4",
+   "why": "Presence turns DALI group up/down"
+  },
+  {
+   "id": "shelly-i4-gen3",
+   "why": "Additional scene buttons for DALI group"
+  }
+ ],
+ "shelly-decoupler-120v": [
+  {
+   "id": "shelly-plus-uni",
+   "why": "Supported host (Plus Uni); Gen1 Uni is not"
+  },
+  {
+   "id": "shelly-plus-rgbw-pm-us",
+   "why": "Supported host for 120 V switch input"
+  }
+ ],
+ "shelly-dimmer-0-1-10v-pm-gen4": [
+  {
+   "id": "shelly-blu-rc-button-4",
+   "why": "Stick-on dim buttons; dimmer is the BLE gateway"
+  },
+  {
+   "id": "shelly-presence-gen4",
+   "why": "Presence-based dimming of 0-10 V drivers"
+  }
+ ],
+ "shelly-dimmer-gen4-us-ul-certified": [
+  {
+   "id": "shelly-blu-motion",
+   "why": "Gateway dimmer \u2014 BLU Motion triggers night-light levels"
+  },
+  {
+   "id": "shelly-blu-rc-button-4",
+   "why": "Gateway dimmer \u2014 4-button remote adds stick-on switches"
+  },
+  {
+   "id": "shelly-blu-remote-control-zb",
+   "why": "Scroll-to-dim remote via direct command mapping"
+  },
+  {
+   "id": "shelly-presence-gen4",
+   "why": "Presence keeps dimmed lights on while people sit still"
+  },
+  {
+   "id": "shelly-i4-gen3",
+   "why": "Multi-location buttons for dimming"
+  },
+  {
+   "id": "shelly-wall-display-xl",
+   "why": "Wall-mounted dashboard control for the dimmer"
+  }
+ ],
+ "shelly-em-gen3-50a": [
+  {
+   "id": "shelly-lora-add-on",
+   "why": "Report a detached building's energy over LoRa"
+  }
+ ],
+ "shelly-em-gen3-80a": [
+  {
+   "id": "shelly-lora-add-on",
+   "why": "EM Gen3 is a LoRa host: report remote meter data"
+  }
+ ],
+ "shelly-em-mini-gen4": [],
+ "shelly-flood": [
+  {
+   "id": "shelly-1-gen4-ul-certified",
+   "why": "Dry-contact relay drives a shutoff valve on leak alarm"
+  }
+ ],
+ "shelly-flood-gen4": [
+  {
+   "id": "shelly-leak-sensor-cable",
+   "why": "Extends spot detection along a run; cable only fits Flood Gen4"
+  },
+  {
+   "id": "shelly-cable-bracket",
+   "why": "Brackets keep the leak cable flat against the floor"
+  },
+  {
+   "id": "shelly-1-gen4-ul-certified",
+   "why": "Dry contact closes a motorized water shutoff valve on leak"
+  }
+ ],
+ "shelly-flood-s-gen4": [
+  {
+   "id": "shelly-1-gen4-ul-certified",
+   "why": "Dry contact drives a motorized shutoff valve when water hits"
+  },
+  {
+   "id": "shelly-plug-us-gen4",
+   "why": "Cut power to a plug-in pump/dehumidifier on overflow"
+  }
+ ],
+ "shelly-gas": [
+  {
+   "id": "shelly-1-gen4-ul-certified",
+   "why": "Relay drives gas shutoff valve or exhaust fan on alarm"
+  }
+ ],
+ "shelly-gas-cng": [
+  {
+   "id": "shelly-1-gen4-ul-certified",
+   "why": "Relay drives gas shutoff valve or exhaust fan on alarm"
+  }
+ ],
+ "shelly-gas-lpg": [
+  {
+   "id": "shelly-1-gen4-ul-certified",
+   "why": "Relay drives gas shutoff valve or exhaust fan on alarm"
+  }
+ ],
+ "shelly-h-t": [
+  {
+   "id": "shelly-plug-us-gen4",
+   "why": "Legacy H&T actions switch a heater/dehumidifier plug"
+  },
+  {
+   "id": "shelly-1-gen4-ul-certified",
+   "why": "Action URL calls relay for heat/humidifier control"
+  }
+ ],
+ "shelly-h-t-gen3": [
+  {
+   "id": "shelly-1-gen4-ul-certified",
+   "why": "H&T action switches dry-contact heat/humidifier call"
+  },
+  {
+   "id": "shelly-plug-us-gen4",
+   "why": "Readings switch a space heater or dehumidifier"
+  },
+  {
+   "id": "shelly-wall-display-xl",
+   "why": "Shows H&T readings XL can't measure itself"
+  }
+ ],
+ "shelly-i4-gen3": [
+  {
+   "id": "shelly-1-mini-gen4",
+   "why": "Four wall buttons trigger relays elsewhere over the network"
+  },
+  {
+   "id": "shelly-dimmer-gen4-us-ul-certified",
+   "why": "Hold-to-dim and scene buttons for a remote dimmer"
+  },
+  {
+   "id": "shelly-pro-dual-cover-shutter-pm",
+   "why": "Wall up/down buttons for panel-mounted cover controller"
+  },
+  {
+   "id": "shelly-dali-dimmer-gen3",
+   "why": "Extra wall buttons/scenes for a DALI group"
+  },
+  {
+   "id": "shelly-pro-4pm",
+   "why": "Wall buttons trigger panel relays over LAN"
+  }
+ ],
+ "shelly-leak-sensor-cable": [
+  {
+   "id": "shelly-cable-bracket",
+   "why": "Holds the cable flat for full surface contact"
+  },
+  {
+   "id": "shelly-flood-gen4",
+   "why": "The only host the cable works with"
+  }
+ ],
+ "shelly-lora-add-on": [
+  {
+   "id": "shelly-1pm-gen4-ul-certified",
+   "why": "Compatible Gen4 host; need two LoRa add-ons for a link"
+  },
+  {
+   "id": "shelly-2pm-gen4-ul-certified",
+   "why": "Compatible Gen4 host for long-range control"
+  },
+  {
+   "id": "shelly-dimmer-0-1-10v-pm-gen4",
+   "why": "Compatible Gen4 host"
+  },
+  {
+   "id": "shelly-dali-dimmer-gen3",
+   "why": "Compatible Gen3 host"
+  },
+  {
+   "id": "shelly-em-gen3-50a",
+   "why": "Compatible host: send remote meter data over LoRa"
+  }
+ ],
+ "shelly-plug-us-gen4": [
+  {
+   "id": "shelly-blu-motion",
+   "why": "Motion switches plug-in lamp; plug relays BLE"
+  },
+  {
+   "id": "shelly-blu-h-t-zb",
+   "why": "BLE gateway + switched outlet for a BLU H&T thermostat"
+  },
+  {
+   "id": "shelly-blu-trv",
+   "why": "BLE gateway for the TRV's cloud control"
+  },
+  {
+   "id": "shelly-blu-distance",
+   "why": "Gateway + pump outlet for BLU Distance tank level"
+  },
+  {
+   "id": "shelly-h-t-gen3",
+   "why": "Room H&T drives plug-in heater/dehumidifier"
+  }
+ ],
+ "shelly-plus-1-non-ul": [
+  {
+   "id": "shelly-h-t-gen3",
+   "why": "H&T action switches dry-contact heat call"
+  }
+ ],
+ "shelly-plus-1-ul-certified": [
+  {
+   "id": "shelly-h-t-gen3",
+   "why": "H&T action switches dry-contact heat call"
+  }
+ ],
+ "shelly-plus-1pm-ul": [
+  {
+   "id": "shelly-i4-gen3",
+   "why": "Extra multi-way buttons for the relay"
+  }
+ ],
+ "shelly-plus-2pm": [
+  {
+   "id": "shelly-blu-rc-button-4",
+   "why": "Cover up/down/stop remote; Plus 2PM is BLE gateway"
+  }
+ ],
+ "shelly-plus-i4": [
+  {
+   "id": "shelly-1-mini-gen4",
+   "why": "Cheapest i4: buttons trigger relays over network"
+  },
+  {
+   "id": "shelly-2pm-gen4-ul-certified",
+   "why": "Buttons drive two lights or a cover remotely"
+  }
+ ],
+ "shelly-plus-i4-dc": [
+  {
+   "id": "shelly-pro-4pm",
+   "why": "DC i4 reads panel/low-voltage buttons, drives 4 channels"
+  },
+  {
+   "id": "shelly-pro-dimmer-0-1-10v-pm",
+   "why": "Low-voltage keypad for a DIN 0-10 V dimmer"
+  }
+ ],
+ "shelly-plus-i4-ul": [
+  {
+   "id": "shelly-1-mini-gen4",
+   "why": "UL i4 buttons trigger relays over network"
+  },
+  {
+   "id": "shelly-dimmer-gen4-us-ul-certified",
+   "why": "UL scene/dim buttons for a remote dimmer"
+  }
+ ],
+ "shelly-plus-rgbw-pm": [
+  {
+   "id": "shelly-4-channel-decoupler-120v",
+   "why": "Lets 120 V wall switches drive the DC controller's inputs"
+  },
+  {
+   "id": "shelly-blu-remote-control-zb",
+   "why": "Remote via BLE gateway (Plus) for LED dimming"
+  }
+ ],
+ "shelly-plus-rgbw-pm-us": [
+  {
+   "id": "shelly-4-channel-decoupler-120v",
+   "why": "Four 120 V wall switches into the RGBW PM's four inputs"
+  },
+  {
+   "id": "shelly-decoupler-120v",
+   "why": "One 120 V wall switch into the LED controller input"
+  },
+  {
+   "id": "shelly-1-channel-decoupler-120v",
+   "why": "One 120 V wall switch into the LED controller input"
+  },
+  {
+   "id": "shelly-blu-rc-button-4",
+   "why": "Wireless color/scene buttons; controller is BLE gateway"
+  }
+ ],
+ "shelly-plus-uni": [
+  {
+   "id": "shelly-decoupler-120v",
+   "why": "Feeds a 120 V switch/sensor signal into Uni's low-voltage input"
+  },
+  {
+   "id": "shelly-1-channel-decoupler-120v",
+   "why": "Single 120 V signal into one of Uni's two inputs"
+  }
+ ],
+ "shelly-plus-wall-dimmer": [
+  {
+   "id": "shelly-presence-gen4",
+   "why": "Presence webhook turns wall dimmer on/off"
+  },
+  {
+   "id": "shelly-button",
+   "why": "Wi-Fi scene button adds a remote control point"
+  }
+ ],
+ "shelly-presence-gen4": [
+  {
+   "id": "shelly-dimmer-gen4-us-ul-certified",
+   "why": "mmWave holds lights on for seated occupants"
+  },
+  {
+   "id": "shelly-1-mini-gen4",
+   "why": "Occupancy-driven lighting/fan relay"
+  },
+  {
+   "id": "shelly-dimmer-0-1-10v-pm-gen4",
+   "why": "Occupancy dims commercial 0-10 V fixtures"
+  },
+  {
+   "id": "shelly-dali-dimmer-gen3",
+   "why": "Occupancy control of DALI fixture group"
+  }
+ ],
+ "shelly-pro-1": [
+  {
+   "id": "shelly-h-t-gen3",
+   "why": "H&T action drives boiler/furnace call"
+  }
+ ],
+ "shelly-pro-1-ul-certified": [
+  {
+   "id": "shelly-flood-gen4",
+   "why": "Panel dry contact drives main shutoff valve on leak"
+  },
+  {
+   "id": "shelly-h-t-gen3",
+   "why": "H&T action drives boiler/furnace call relay"
+  }
+ ],
+ "shelly-pro-1pm": [
+  {
+   "id": "shelly-i4-gen3",
+   "why": "Remote wall buttons for panel relay"
+  }
+ ],
+ "shelly-pro-1pm-ul-certified": [
+  {
+   "id": "shelly-blu-h-t-zb",
+   "why": "Water heater/boiler control off a BLU sensor; Pro is the gateway"
+  }
+ ],
+ "shelly-pro-2": [
+  {
+   "id": "shelly-i4-gen3",
+   "why": "Wall buttons trigger panel relays over LAN"
+  }
+ ],
+ "shelly-pro-2-ul-certified": [
+  {
+   "id": "shelly-i4-gen3",
+   "why": "Wall buttons trigger panel relays over LAN"
+  }
+ ],
+ "shelly-pro-2pm": [
+  {
+   "id": "shelly-i4-gen3",
+   "why": "Wall up/down buttons for panel cover/light channels"
+  },
+  {
+   "id": "shelly-blu-remote-control-zb",
+   "why": "Pro direct mapping for cover position"
+  }
+ ],
+ "shelly-pro-2pm-ul-certified": [
+  {
+   "id": "shelly-i4-gen3",
+   "why": "Wall up/down buttons for panel cover/light channels"
+  },
+  {
+   "id": "shelly-blu-remote-control-zb",
+   "why": "Pro direct mapping for cover position"
+  }
+ ],
+ "shelly-pro-3": [
+  {
+   "id": "shelly-i4-gen3",
+   "why": "In-wall buttons trigger three panel channels"
+  }
+ ],
+ "shelly-pro-3em-3ct63": [
+  {
+   "id": "shelly-pro-3em-switch-add-on",
+   "why": "Adds relay output for load shedding on a sub-feed"
+  }
+ ],
+ "shelly-pro-3em-400": [
+  {
+   "id": "shelly-pro-3em-switch-add-on",
+   "why": "Adds a 2 A relay for contactor control on 400 A service"
+  }
+ ],
+ "shelly-pro-3em-switch-add-on": [
+  {
+   "id": "shelly-pro-3em-v2",
+   "why": "Host meter; add-on only works with Pro 3EM"
+  },
+  {
+   "id": "shelly-pro-3em-400",
+   "why": "Host for whole-service US mains via 400 A CTs"
+  },
+  {
+   "id": "shelly-pro-3em-3ct63",
+   "why": "Host meter variant for 63 A branch/sub-feeds"
+  }
+ ],
+ "shelly-pro-3em-v2": [
+  {
+   "id": "shelly-pro-3em-switch-add-on",
+   "why": "Adds the relay the meter lacks, for contactor/load shedding"
+  }
+ ],
+ "shelly-pro-4pm": [
+  {
+   "id": "shelly-plus-i4-dc",
+   "why": "Low-voltage keypad triggers the four channels"
+  },
+  {
+   "id": "shelly-i4-gen3",
+   "why": "Remote wall buttons for the four DIN channels"
+  }
+ ],
+ "shelly-pro-dimmer-0-1-10v-pm": [
+  {
+   "id": "shelly-presence-gen4",
+   "why": "Occupancy dimming of 0-10 V fixtures"
+  },
+  {
+   "id": "shelly-i4-gen3",
+   "why": "In-wall buttons control panel 0-10 V dimmer"
+  }
+ ],
+ "shelly-pro-dimmer-1pm": [
+  {
+   "id": "shelly-i4-gen3",
+   "why": "Remote wall buttons for panel-mounted dimmer"
+  },
+  {
+   "id": "shelly-blu-remote-control-zb",
+   "why": "Pro direct mapping: handheld scroll-to-dim"
+  }
+ ],
+ "shelly-pro-dimmer-2pm": [
+  {
+   "id": "shelly-i4-gen3",
+   "why": "In-wall buttons for two panel dimmer channels"
+  },
+  {
+   "id": "shelly-blu-remote-control-zb",
+   "why": "Wireless scroll-to-dim for panel-mounted dimmers"
+  }
+ ],
+ "shelly-pro-dual-cover-shutter-pm": [
+  {
+   "id": "shelly-blu-remote-control-zb",
+   "why": "Wireless position control for both covers, no gateway needed"
+  },
+  {
+   "id": "shelly-i4-gen3",
+   "why": "In-wall up/down buttons; also BLE gateway nearby"
+  }
+ ],
+ "shelly-pro-em-50": [],
+ "shelly-pro-rgbww-pm": [
+  {
+   "id": "shelly-4-channel-decoupler-120v",
+   "why": "KB: 120 V wall switches need a decoupler on the inputs"
+  },
+  {
+   "id": "shelly-blu-remote-control-zb",
+   "why": "Handheld dimmer remote via Pro direct mapping"
+  }
+ ],
+ "shelly-temp-sensor-ds18b20-3-5mm-jack": [
+  {
+   "id": "the-pill-by-shelly",
+   "why": "Probe's host: reads it via the 3.5 mm jack"
+  },
+  {
+   "id": "splitter-1-to-5-3-5-mm-jack-shelly-pill",
+   "why": "Splitter lets five probes share one Pill jack"
+  }
+ ],
+ "shelly-uni": [],
+ "shelly-wall-display-xl": [
+  {
+   "id": "shelly-dimmer-gen4-us-ul-certified",
+   "why": "Display shows/controls dimmer; XL relay is 5 A only"
+  },
+  {
+   "id": "shelly-2pm-gen4-ul-certified",
+   "why": "Display tile controls covers/two circuits"
+  },
+  {
+   "id": "shelly-h-t-gen3",
+   "why": "XL has no T/H sensor; H&T supplies room readings"
+  },
+  {
+   "id": "shelly-pro-3em-v2",
+   "why": "Shows whole-home energy from the panel meter"
+  },
+  {
+   "id": "shelly-plug-us-gen4",
+   "why": "Control plug loads from the wall dashboard"
+  }
+ ],
+ "shelly-wave-1-lr": [
+  {
+   "id": "shelly-wave-h-t-lr",
+   "why": "Z-Wave H&T turns relay into thermostat"
+  }
+ ],
+ "shelly-wave-1-mini-lr": [
+  {
+   "id": "shelly-wave-h-t-lr",
+   "why": "Dry-contact heat call driven by Z-Wave H&T"
+  },
+  {
+   "id": "shelly-wave-i4-lr",
+   "why": "Multi-way buttons for the relay"
+  },
+  {
+   "id": "shelly-wave-door-window-lr",
+   "why": "Door contact switches the relay"
+  }
+ ],
+ "shelly-wave-1pm-lr": [
+  {
+   "id": "shelly-wave-i4-lr",
+   "why": "Multi-way buttons for the relay"
+  }
+ ],
+ "shelly-wave-1pm-mini-lr": [
+  {
+   "id": "shelly-wave-door-window-lr",
+   "why": "Door contact switches the Wave relay"
+  },
+  {
+   "id": "shelly-wave-i4-lr",
+   "why": "Scene/association buttons for this relay (Z-Wave hub)"
+  },
+  {
+   "id": "shelly-wave-motion-lr",
+   "why": "Z-Wave motion triggers lights"
+  }
+ ],
+ "shelly-wave-2pm-lr": [
+  {
+   "id": "shelly-wave-i4-lr",
+   "why": "Extra scene buttons for both channels"
+  }
+ ],
+ "shelly-wave-dimmer-lr": [
+  {
+   "id": "shelly-wave-i4-lr",
+   "why": "Multi-way scene buttons for the dimmer"
+  },
+  {
+   "id": "shelly-wave-motion-lr",
+   "why": "Z-Wave motion drives the dimmer"
+  }
+ ],
+ "shelly-wave-door-window-lr": [
+  {
+   "id": "shelly-wave-1-mini-lr",
+   "why": "Door open -> closet light via Z-Wave"
+  },
+  {
+   "id": "shelly-wave-plug-lr",
+   "why": "Door/window state switches a plug load"
+  },
+  {
+   "id": "shelly-wave-dimmer-lr",
+   "why": "Door open -> light on via Z-Wave"
+  },
+  {
+   "id": "shelly-wave-pro-shutter-lr-us",
+   "why": "Window-open blocks shade closing (hub automation)"
+  }
+ ],
+ "shelly-wave-h-t-lr": [
+  {
+   "id": "shelly-wave-plug-lr",
+   "why": "Z-Wave H&T + plug = heater/dehumidifier control"
+  },
+  {
+   "id": "shelly-wave-1-lr",
+   "why": "Dry-contact heat call driven by Z-Wave H&T"
+  },
+  {
+   "id": "shelly-wave-pro-1-lr-us",
+   "why": "Panel relay for boiler call off Z-Wave H&T"
+  },
+  {
+   "id": "shelly-wave-pro-1pm",
+   "why": "Metered boiler/heater relay off Z-Wave H&T"
+  }
+ ],
+ "shelly-wave-i4-dc-lr": [
+  {
+   "id": "shelly-wave-pro-3",
+   "why": "DC keypad drives panel Wave relays"
+  },
+  {
+   "id": "shelly-wave-pro-shutter",
+   "why": "DC keypad up/down for DIN Wave shutter"
+  },
+  {
+   "id": "shelly-wave-pro-dimmer-2pm-lr",
+   "why": "DC keypad dims panel Wave dimmers"
+  },
+  {
+   "id": "shelly-wave-pro-2pm-lr-us",
+   "why": "DC keypad triggers panel Wave relays"
+  },
+  {
+   "id": "shelly-wave-pro-1pm-lr-us",
+   "why": "DC keypad triggers panel Wave relay"
+  },
+  {
+   "id": "shelly-wave-pro-dimmer-1pm",
+   "why": "DC keypad dims panel Wave dimmer"
+  }
+ ],
+ "shelly-wave-i4-lr": [
+  {
+   "id": "shelly-wave-1pm-mini-lr",
+   "why": "Association: wall buttons switch Wave relay (Z-Wave hub required)"
+  },
+  {
+   "id": "shelly-wave-dimmer-lr",
+   "why": "Association buttons dim a Wave dimmer"
+  },
+  {
+   "id": "shelly-wave-shutter-lr",
+   "why": "Up/down buttons for a Wave shutter"
+  },
+  {
+   "id": "shelly-wave-2pm-lr",
+   "why": "Buttons drive two Wave circuits"
+  },
+  {
+   "id": "shelly-wave-1-mini-lr",
+   "why": "Association buttons switch the dry-contact relay"
+  },
+  {
+   "id": "shelly-wave-shutter-ul-certified",
+   "why": "Up/down wall buttons via Z-Wave association"
+  }
+ ],
+ "shelly-wave-motion-lr": [
+  {
+   "id": "shelly-wave-dimmer-lr",
+   "why": "Motion -> dimmed lighting over Z-Wave (hub required)"
+  },
+  {
+   "id": "shelly-wave-1pm-mini-lr",
+   "why": "Motion switches lights over Z-Wave"
+  },
+  {
+   "id": "shelly-wave-plug-lr",
+   "why": "Motion switches a plug-in lamp over Z-Wave"
+  },
+  {
+   "id": "shelly-wave-pro-dimmer-1pm-lr",
+   "why": "Motion drives panel Wave dimmer"
+  },
+  {
+   "id": "shelly-wave-2pm-lr",
+   "why": "Motion switches a Wave light circuit"
+  }
+ ],
+ "shelly-wave-plug-lr": [
+  {
+   "id": "shelly-wave-motion-lr",
+   "why": "Z-Wave motion switches the plug"
+  },
+  {
+   "id": "shelly-wave-door-window-lr",
+   "why": "Contact sensor switches the plug"
+  },
+  {
+   "id": "shelly-wave-h-t-lr",
+   "why": "Readings switch heater/dehumidifier"
+  }
+ ],
+ "shelly-wave-pm-mini-lr": [
+  {
+   "id": "shelly-wave-1-mini-lr",
+   "why": "Adds metering behind a non-PM Wave relay's circuit"
+  }
+ ],
+ "shelly-wave-pro-1-lr-us": [
+  {
+   "id": "shelly-wave-h-t-lr",
+   "why": "Z-Wave H&T drives boiler/heat call"
+  }
+ ],
+ "shelly-wave-pro-1pm": [
+  {
+   "id": "shelly-wave-i4-dc-lr",
+   "why": "DC keypad triggers the panel Wave relay"
+  },
+  {
+   "id": "shelly-wave-h-t-lr",
+   "why": "Z-Wave H&T drives the heater circuit"
+  }
+ ],
+ "shelly-wave-pro-1pm-lr-us": [
+  {
+   "id": "shelly-wave-i4-dc-lr",
+   "why": "Low-voltage buttons for the relay"
+  }
+ ],
+ "shelly-wave-pro-2-lr-us": [
+  {
+   "id": "shelly-wave-i4-dc-lr",
+   "why": "DC keypad triggers panel Wave relays"
+  },
+  {
+   "id": "shelly-wave-door-window-lr",
+   "why": "Contact sensor triggers panel relay (hub)"
+  }
+ ],
+ "shelly-wave-pro-2pm-lr-us": [
+  {
+   "id": "shelly-wave-i4-dc-lr",
+   "why": "Low-voltage buttons for both channels"
+  }
+ ],
+ "shelly-wave-pro-3": [
+  {
+   "id": "shelly-wave-i4-dc-lr",
+   "why": "Low-voltage keypad for panel Wave relays"
+  }
+ ],
+ "shelly-wave-pro-3-lr-us": [
+  {
+   "id": "shelly-wave-motion-lr",
+   "why": "Motion switches panel lighting circuit"
+  },
+  {
+   "id": "shelly-wave-i4-dc-lr",
+   "why": "Low-voltage keypad for three panel relays"
+  }
+ ],
+ "shelly-wave-pro-dimmer-1pm": [
+  {
+   "id": "shelly-wave-i4-dc-lr",
+   "why": "Low-voltage dim buttons"
+  },
+  {
+   "id": "shelly-wave-motion-lr",
+   "why": "Z-Wave motion triggers dimming"
+  }
+ ],
+ "shelly-wave-pro-dimmer-1pm-lr": [
+  {
+   "id": "shelly-wave-i4-dc-lr",
+   "why": "DC keypad dims the panel Wave dimmer"
+  },
+  {
+   "id": "shelly-wave-motion-lr",
+   "why": "Z-Wave motion triggers dimming"
+  }
+ ],
+ "shelly-wave-pro-dimmer-2pm-lr": [
+  {
+   "id": "shelly-wave-i4-dc-lr",
+   "why": "Low-voltage dim buttons"
+  }
+ ],
+ "shelly-wave-pro-shutter": [
+  {
+   "id": "shelly-wave-i4-dc-lr",
+   "why": "Low-voltage up/down buttons"
+  }
+ ],
+ "shelly-wave-pro-shutter-lr-us": [
+  {
+   "id": "shelly-wave-i4-dc-lr",
+   "why": "DC keypad up/down for the DIN Wave shutter"
+  },
+  {
+   "id": "shelly-wave-door-window-lr",
+   "why": "Window contact interlock for shade automation"
+  }
+ ],
+ "shelly-wave-shutter-lr": [
+  {
+   "id": "shelly-wave-i4-lr",
+   "why": "Wall up/down buttons via Z-Wave association"
+  }
+ ],
+ "shelly-wave-shutter-ul-certified": [
+  {
+   "id": "shelly-wave-i4-lr",
+   "why": "Wall up/down buttons via association"
+  }
+ ],
+ "splitter-1-to-5-3-5-mm-jack-shelly-pill": [
+  {
+   "id": "shelly-temp-sensor-ds18b20-3-5mm-jack",
+   "why": "Splitter is useless without DS18B20 3.5 mm probes to plug in"
+  },
+  {
+   "id": "the-pill-by-shelly",
+   "why": "Required host for the splitter's DS18B20 probes"
+  }
+ ],
+ "ssr-add-on-shelly-pill": [
+  {
+   "id": "the-pill-by-shelly",
+   "why": "Required host for the SSR add-on"
+  },
+  {
+   "id": "micro-usb-to-5-terminal-add-shelly-pill",
+   "why": "Required adapter between SSR add-on and The Pill"
+  }
+ ],
+ "the-pill-by-shelly": [
+  {
+   "id": "micro-usb-to-5-terminal-add-shelly-pill",
+   "why": "Breaks out Pill I/O to screw terminals; base for other add-ons"
+  },
+  {
+   "id": "shelly-temp-sensor-ds18b20-3-5mm-jack",
+   "why": "Plug-in 3.5 mm probe \u2014 the cheapest way to make the Pill measure"
+  },
+  {
+   "id": "splitter-1-to-5-3-5-mm-jack-shelly-pill",
+   "why": "Runs up to five DS18B20 probes from one Pill jack"
+  },
+  {
+   "id": "ssr-add-on-shelly-pill",
+   "why": "Lets the Pill switch small DC loads (30 V / 300 mA)"
+  },
+  {
+   "id": "analog-0-30v-add-on-shelly-pill",
+   "why": "Extends analog input from 2.5 V to 30 V for batteries"
+  }
+ ]
+}

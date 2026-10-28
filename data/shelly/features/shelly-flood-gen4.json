@@ -1,0 +1,78 @@
+{
+  "id": "shelly-flood-gen4",
+  "name": "Shelly Flood Gen4",
+  "price": 39.99,
+  "line": "Gen4",
+  "summary": "Battery leak/rain sensor with extendable sensing cable (to 150 m); Wi-Fi, Matter, Zigbee, BLE; buzzer.",
+  "jobs": [
+    {
+      "job": "sense_leak",
+      "role": "primary"
+    }
+  ],
+  "f": {
+    "form_factor": "battery_sensor",
+    "mains_powered": false,
+    "supply": "4x AA",
+    "dc_supply": false,
+    "battery": "4x AA",
+    "neutral_required": false,
+    "channels": 0,
+    "output_type": "none",
+    "max_current_a": null,
+    "max_power_w": null,
+    "dc_switching": null,
+    "power_metering": null,
+    "metering_max_a": null,
+    "dimming": null,
+    "cover_control": false,
+    "color_light": null,
+    "inputs": "1 button",
+    "input_count": 1,
+    "sensors": [
+      "flood"
+    ],
+    "radios": [
+      "wifi",
+      "bluetooth",
+      "zigbee",
+      "matter_over_wifi"
+    ],
+    "matter": true,
+    "ble_gateway": null,
+    "zwave_repeater": null,
+    "local_api": true,
+    "mqtt": true,
+    "scripting": false,
+    "ul_listed": null,
+    "protections": [],
+    "temp_range_c": "-20..40",
+    "size_mm": "97x76x25",
+    "addon_port": false,
+    "requires": [],
+    "extra": {
+      "cable": "2 m leak cable included, detects along length, chain to 150 m",
+      "modes": "Flood / Rain; Intense/Normal/Economic alarm",
+      "buzzer": true,
+      "ip": "IP44",
+      "poll": "checks every 5 s",
+      "battery_life": "~2 years",
+      "protocol_switch": "Matter default; Zigbee via 5 presses",
+      "webhooks": "10 x 2 URLs"
+    }
+  },
+  "gotchas": [
+    "Detection is polled every 5 s, not instantaneous",
+    "Cable touching metal pipes or condensation can false-alarm (state hold time mitigates)",
+    "Battery device (4x AA, ~2 yr) — no scripting/schedules on-device",
+    "Matter vs Zigbee is an either/or firmware profile",
+    "Shutting off water needs a separate valve/relay automation"
+  ],
+  "best_for": [
+    "long-run leak coverage under water heaters, sump areas, server rooms"
+  ],
+  "not_for": [
+    "gas or temperature monitoring"
+  ],
+  "confidence": "high"
+}

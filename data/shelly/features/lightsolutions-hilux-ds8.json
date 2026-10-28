@@ -1,0 +1,89 @@
+{
+  "id": "lightsolutions-hilux-ds8",
+  "name": "LightSolutions Hilux DS8",
+  "price": 84.99,
+  "line": "3rd-party",
+  "summary": "Recessed 8W tunable-white (2200-6000K) LED downlight with integrated Shelly Wi-Fi/BLE smart driver.",
+  "jobs": [
+    {
+      "job": "color_light",
+      "role": "primary"
+    },
+    {
+      "job": "dim_light",
+      "role": "primary"
+    },
+    {
+      "job": "switch_load",
+      "role": "secondary"
+    }
+  ],
+  "f": {
+    "form_factor": "bulb",
+    "mains_powered": true,
+    "supply": "110-277VAC 50/60Hz",
+    "dc_supply": false,
+    "battery": null,
+    "neutral_required": true,
+    "channels": 1,
+    "output_type": "none",
+    "max_current_a": null,
+    "max_power_w": 8,
+    "dc_switching": null,
+    "power_metering": "none",
+    "metering_max_a": null,
+    "dimming": null,
+    "cover_control": false,
+    "color_light": "cct",
+    "inputs": "none",
+    "input_count": 0,
+    "sensors": [],
+    "radios": [
+      "wifi",
+      "bluetooth"
+    ],
+    "matter": null,
+    "ble_gateway": null,
+    "zwave_repeater": null,
+    "local_api": true,
+    "mqtt": null,
+    "scripting": null,
+    "ul_listed": true,
+    "protections": [],
+    "temp_range_c": "-20..40",
+    "size_mm": "trim Ø90, recessed depth 41",
+    "addon_port": false,
+    "requires": [],
+    "extra": {
+      "light_output_lm": "600 @6000K / 360 @2200K",
+      "cri": 95,
+      "beam_angle_deg": 40,
+      "dimming_range": "1-100% flicker-free via integrated driver 80-860-SH-170",
+      "certification": "ETL Listed to UL 1598 / CSA C22.2 No. 250.0 (ETL, not UL mark)",
+      "ingress": "IP44",
+      "cutout_mm": "78-83 (3in hole saw)",
+      "junction_box": "steel box included",
+      "rated_life_h": 50000,
+      "ble_remote_pairing": "pairs directly with Shelly BLU remote",
+      "control4": "via third-party Shelly driver",
+      "available": false,
+      "kb_shared_with": "HiluX DS4 US (4-inch, Ø120 trim, 106mm cutout) - same KB page, specs given per model"
+    }
+  },
+  "gotchas": [
+    "Listed as unavailable/out of stock on us.shelly.com",
+    "Fixed 8W / 600 lm max — a small-aperture accent/detail light, not a main-room flood; DS4 variant is the 4-inch can size",
+    "Tunable white only (2200-6000K) — no RGB color",
+    "Certification is ETL to UL 1598, not a UL mark — fine for most inspectors but check if a spec requires UL",
+    "No power metering and no wired switch input; control via app, voice, or a paired Shelly BLU remote"
+  ],
+  "best_for": [
+    "Recessed ceiling lights where you want app-controlled tunable white without a separate smart switch"
+  ],
+  "not_for": [
+    "RGB color scenes",
+    "high-lumen general lighting",
+    "power metering"
+  ],
+  "confidence": "high"
+}

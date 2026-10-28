@@ -1,0 +1,93 @@
+{
+  "id": "shelly-pro-rgbww-pm",
+  "name": "Shelly Pro RGBWW PM",
+  "price": 84.99,
+  "line": "Pro",
+  "summary": "DIN-rail 12-24VDC 5-channel LED strip controller (RGB+CCT, 2xCCT, or 5 whites) with metering and LAN.",
+  "jobs": [
+    {
+      "job": "color_light",
+      "role": "primary"
+    },
+    {
+      "job": "dim_light",
+      "role": "secondary"
+    },
+    {
+      "job": "meter_circuit",
+      "role": "secondary"
+    }
+  ],
+  "f": {
+    "form_factor": "din_rail",
+    "mains_powered": false,
+    "supply": "12-24VDC",
+    "dc_supply": true,
+    "battery": null,
+    "neutral_required": false,
+    "channels": 5,
+    "output_type": "pwm_rgbw",
+    "max_current_a": null,
+    "max_power_w": null,
+    "dc_switching": "6A/ch, 16A total @24VDC",
+    "power_metering": "whole_circuit",
+    "metering_max_a": null,
+    "dimming": "pwm",
+    "cover_control": false,
+    "color_light": "rgbww",
+    "inputs": "5 switch/button/analog inputs (SW1-SW5)",
+    "input_count": 5,
+    "sensors": [
+      "internal_temp",
+      "voltage"
+    ],
+    "radios": [
+      "ethernet",
+      "wifi",
+      "bluetooth"
+    ],
+    "matter": null,
+    "ble_gateway": true,
+    "zwave_repeater": null,
+    "local_api": true,
+    "mqtt": true,
+    "scripting": true,
+    "ul_listed": null,
+    "protections": [
+      "overtemp",
+      "overvoltage",
+      "overcurrent",
+      "overpower"
+    ],
+    "temp_range_c": "-20..40",
+    "size_mm": "94x19x69",
+    "addon_port": true,
+    "requires": [],
+    "extra": {
+      "profiles": [
+        "RGB+CCT (default)",
+        "CCT x2",
+        "RGB + 2 lights",
+        "Lights x5"
+      ],
+      "cct_range": "2700-6500K default, configurable 1000-10000K",
+      "ammeter_range": "0-5A ±10% (conflicts with 6A/ch, 16A total output rating)",
+      "decoupler_compatible": "Shelly Decoupler for 120V switch inputs"
+    }
+  },
+  "gotchas": [
+    "Needs a separate 12-24VDC LED power supply; it can't run from mains",
+    "6A per channel / 16A total — long strips may need multiple controllers",
+    "DIN-rail: needs an enclosure; 120V wall switches need a Shelly Decoupler on the inputs",
+    "Metering is whole-device, and KB ammeter range (0-5A) is lower than the 16A output rating",
+    "No UL listing stated"
+  ],
+  "best_for": [
+    "Cabinet-mounted RGB+CCT or multi-zone white LED strip lighting with Ethernet"
+  ],
+  "not_for": [
+    "mains lighting",
+    "addressable (pixel) LED strips"
+  ],
+  "confidence": "high"
+}

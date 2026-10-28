@@ -1,0 +1,80 @@
+{
+  "id": "shelly-blu-motion",
+  "name": "Shelly BLU Motion",
+  "price": 25.99,
+  "line": "BLU",
+  "summary": "Coin-cell Bluetooth PIR motion sensor with lux sensing, 5-year battery, BTHome.",
+  "jobs": [
+    {
+      "job": "sense_motion_presence",
+      "role": "primary"
+    }
+  ],
+  "f": {
+    "form_factor": "battery_sensor",
+    "mains_powered": false,
+    "supply": null,
+    "dc_supply": false,
+    "battery": "1x CR2477 (included)",
+    "neutral_required": false,
+    "channels": null,
+    "output_type": "none",
+    "max_current_a": null,
+    "max_power_w": null,
+    "dc_switching": null,
+    "power_metering": "none",
+    "metering_max_a": null,
+    "dimming": null,
+    "cover_control": false,
+    "color_light": null,
+    "inputs": "1 push button",
+    "input_count": null,
+    "sensors": [
+      "motion",
+      "lux",
+      "button"
+    ],
+    "radios": [
+      "bluetooth"
+    ],
+    "matter": false,
+    "ble_gateway": false,
+    "zwave_repeater": null,
+    "local_api": null,
+    "mqtt": null,
+    "scripting": null,
+    "ul_listed": null,
+    "protections": [],
+    "temp_range_c": "-20..40",
+    "size_mm": "28x37x37",
+    "addon_port": false,
+    "requires": [
+      "Shelly BLE gateway (Plus/Gen3/Gen4/Pro) or BTHome receiver for automation beyond phone range"
+    ],
+    "extra": {
+      "battery_life": "5 years",
+      "bthome": true,
+      "beacon_mode": true,
+      "encryption": "AES-CCM",
+      "kb_mismatch": "kb_slug shelly-blu-motion-zb is the BLU Motion ZB (SBMO-103Z, Bluetooth+Zigbee, 3-level lux); listing handle/blurb is the Bluetooth-only BLU Motion. Zigbee radio and ZB-specific features may not apply.",
+      "zb_kb_radios": [
+        "bluetooth",
+        "zigbee"
+      ]
+    }
+  },
+  "gotchas": [
+    "Bluetooth-only: automations/remote alerts need a Shelly Plus/Gen3/Gen4/Pro BLE gateway in range (~10 m indoors)",
+    "KB data is for the ZB variant — don't assume Zigbee on this Bluetooth-only listing",
+    "PIR motion, not presence: still occupants time out — see Shelly Presence Gen4 (mmWave)",
+    "CR2477 is a less common coin cell than CR2032"
+  ],
+  "best_for": [
+    "Hallway/closet motion-triggered lighting with a nearby Shelly relay as gateway"
+  ],
+  "not_for": [
+    "seated/still occupancy detection",
+    "Zigbee-only setups (verify variant)"
+  ],
+  "confidence": "low"
+}

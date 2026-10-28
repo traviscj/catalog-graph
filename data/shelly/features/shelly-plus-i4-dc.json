@@ -1,0 +1,75 @@
+{
+  "id": "shelly-plus-i4-dc",
+  "name": "Shelly Plus i4 DC",
+  "price": 19.99,
+  "line": "Plus(Gen2)",
+  "summary": "4-input Wi-Fi/BLE scene controller (no relays) powered from 5-24VDC.",
+  "jobs": [
+    {
+      "job": "input_trigger",
+      "role": "primary"
+    },
+    {
+      "job": "diy_maker",
+      "role": "secondary"
+    }
+  ],
+  "f": {
+    "form_factor": "in_wall",
+    "mains_powered": false,
+    "supply": "5-24VDC",
+    "dc_supply": true,
+    "battery": null,
+    "neutral_required": false,
+    "channels": 0,
+    "output_type": "none",
+    "max_current_a": null,
+    "max_power_w": null,
+    "dc_switching": null,
+    "power_metering": "none",
+    "metering_max_a": null,
+    "dimming": null,
+    "cover_control": false,
+    "color_light": null,
+    "inputs": "4 switch/button inputs (SW1-SW4)",
+    "input_count": 4,
+    "sensors": [
+      "internal_temp"
+    ],
+    "radios": [
+      "wifi",
+      "bluetooth"
+    ],
+    "matter": null,
+    "ble_gateway": null,
+    "zwave_repeater": null,
+    "local_api": true,
+    "mqtt": true,
+    "scripting": true,
+    "ul_listed": null,
+    "protections": [
+      "overtemp"
+    ],
+    "temp_range_c": "-20..40",
+    "size_mm": "37x42x16",
+    "addon_port": true,
+    "requires": [],
+    "extra": {
+      "integrations": "Alexa only via virtual-device routine",
+      "schedules": "not listed"
+    }
+  },
+  "gotchas": [
+    "Input reader only — contains no relay, controls other devices over the network",
+    "Needs a 5-24VDC supply; for mains-powered boxes see Shelly i4 Gen3",
+    "Weak voice-assistant support (Alexa via routine only)"
+  ],
+  "best_for": [
+    "low-voltage keypads/buttons in panels, RVs, or 12/24V systems triggering scenes"
+  ],
+  "not_for": [
+    "switching loads",
+    "mains-only wall boxes"
+  ],
+  "confidence": "high"
+}

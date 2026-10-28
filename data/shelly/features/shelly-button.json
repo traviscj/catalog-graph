@@ -1,0 +1,80 @@
+{
+  "id": "shelly-button",
+  "name": "Shelly Button",
+  "price": 36.49,
+  "line": "Gen1",
+  "summary": "Gen1 rechargeable Wi-Fi scene button (micro-USB), multi-action, no hub required.",
+  "jobs": [
+    {
+      "job": "remote_button",
+      "role": "primary"
+    },
+    {
+      "job": "input_trigger",
+      "role": "secondary"
+    }
+  ],
+  "f": {
+    "form_factor": "battery_sensor",
+    "mains_powered": false,
+    "supply": "Internal rechargeable battery; Micro-USB 5V",
+    "dc_supply": true,
+    "battery": "rechargeable",
+    "neutral_required": false,
+    "channels": 0,
+    "output_type": "none",
+    "max_current_a": null,
+    "max_power_w": null,
+    "dc_switching": null,
+    "power_metering": "none",
+    "metering_max_a": null,
+    "dimming": null,
+    "cover_control": false,
+    "color_light": null,
+    "inputs": "1 button",
+    "input_count": 1,
+    "sensors": [
+      "button"
+    ],
+    "radios": [
+      "wifi"
+    ],
+    "matter": false,
+    "ble_gateway": false,
+    "zwave_repeater": null,
+    "local_api": true,
+    "mqtt": true,
+    "scripting": false,
+    "ul_listed": false,
+    "protections": [],
+    "temp_range_c": "-40..40",
+    "size_mm": "45x45x16",
+    "addon_port": false,
+    "requires": [],
+    "extra": {
+      "battery_life": "~3000 actions per charge",
+      "latency": "<2s on battery, ~100ms on USB",
+      "apis": [
+        "MQTT",
+        "CoAP",
+        "REST"
+      ],
+      "spec_odd": "spec lists Dimming=Yes (likely means can send dim commands)",
+      "schedules": "no weekly schedule / sunrise-sunset"
+    }
+  },
+  "gotchas": [
+    "Wi-Fi wake-up latency up to ~2 s on battery (100 ms only when USB-powered)",
+    "Rechargeable: ~3000 presses per charge via micro-USB",
+    "Gen1 platform — no scripting, no Bluetooth; for coin-cell BLE see Shelly BLU RC Button 4",
+    "Not UL listed"
+  ],
+  "best_for": [
+    "hub-free Wi-Fi scene button for existing Shelly/MQTT setups"
+  ],
+  "not_for": [
+    "instant-response switching",
+    "set-and-forget battery life"
+  ],
+  "confidence": "medium"
+}

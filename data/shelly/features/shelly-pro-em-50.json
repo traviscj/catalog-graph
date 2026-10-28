@@ -1,0 +1,84 @@
+{
+  "id": "shelly-pro-em-50",
+  "name": "Shelly PRO EM-50",
+  "price": 119.99,
+  "line": "Pro",
+  "summary": "DIN-rail 2-channel single/split-phase CT energy meter (2x50A CTs) with LAN and 2A contactor relay.",
+  "jobs": [
+    {
+      "job": "meter_panel",
+      "role": "primary"
+    },
+    {
+      "job": "switch_low_voltage",
+      "role": "secondary"
+    }
+  ],
+  "f": {
+    "form_factor": "din_rail",
+    "mains_powered": true,
+    "supply": "100-260VAC 50/60Hz",
+    "dc_supply": false,
+    "battery": null,
+    "neutral_required": true,
+    "channels": 2,
+    "output_type": "dry_relay",
+    "max_current_a": 2,
+    "max_power_w": null,
+    "dc_switching": null,
+    "power_metering": "2ch_clamp",
+    "metering_max_a": 50,
+    "dimming": null,
+    "cover_control": false,
+    "color_light": null,
+    "inputs": "2 CT inputs (IA, IB)",
+    "input_count": 0,
+    "sensors": [
+      "internal_temp",
+      "voltage"
+    ],
+    "radios": [
+      "ethernet",
+      "wifi",
+      "bluetooth"
+    ],
+    "matter": null,
+    "ble_gateway": null,
+    "zwave_repeater": null,
+    "local_api": true,
+    "mqtt": true,
+    "scripting": true,
+    "ul_listed": null,
+    "protections": [
+      "overtemp"
+    ],
+    "temp_range_c": "-20..40",
+    "size_mm": "94x19x69",
+    "addon_port": true,
+    "requires": [],
+    "extra": {
+      "included_ct": "2x 50A CT",
+      "accuracy": "±1% (5-50A)",
+      "data_log": "60 days @1 min",
+      "split_phase": "wiring diagram shows LA/LB 120V split-phase",
+      "four_quadrant": true,
+      "pv_ready": true,
+      "relay": "2A/240V dry contact for contactor"
+    }
+  },
+  "gotchas": [
+    "50A CTs — fine for branch circuits/subpanels, too small for 100-200A US service mains; see Shelly Pro 3EM (120A CTs)",
+    "DIN-rail: needs a DIN enclosure/rail — US load centers have none",
+    "Built-in relay is 2A, for a contactor coil only",
+    "Only 2 CT channels — whole-home split-phase uses both, leaving none for individual circuits"
+  ],
+  "best_for": [
+    "Split-phase subpanel, solar or EV-circuit metering with wired Ethernet"
+  ],
+  "not_for": [
+    "3-phase",
+    "service mains >50A",
+    "direct load switching"
+  ],
+  "confidence": "high"
+}

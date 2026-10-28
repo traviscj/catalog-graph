@@ -1,0 +1,87 @@
+{
+  "id": "shelly-camera",
+  "name": "Shelly Camera",
+  "price": 39.9,
+  "line": "Gen3",
+  "summary": "USB-C powered 1080p indoor Wi-Fi camera with two-way audio, RTSP/WebRTC, microSD and Shelly scripting.",
+  "jobs": [
+    {
+      "job": "camera",
+      "role": "primary"
+    }
+  ],
+  "f": {
+    "form_factor": "camera",
+    "mains_powered": false,
+    "supply": "5VDC 1A via USB-C",
+    "dc_supply": true,
+    "battery": null,
+    "neutral_required": false,
+    "channels": 0,
+    "output_type": "none",
+    "max_current_a": null,
+    "max_power_w": null,
+    "dc_switching": null,
+    "power_metering": "none",
+    "metering_max_a": null,
+    "dimming": null,
+    "cover_control": false,
+    "color_light": null,
+    "inputs": "side button (privacy/AP/reset), back power switch",
+    "input_count": 0,
+    "sensors": [
+      "camera_motion",
+      "microphone"
+    ],
+    "radios": [
+      "wifi",
+      "bluetooth"
+    ],
+    "matter": null,
+    "ble_gateway": null,
+    "zwave_repeater": null,
+    "local_api": true,
+    "mqtt": true,
+    "scripting": true,
+    "ul_listed": null,
+    "protections": [],
+    "temp_range_c": "-20..40",
+    "size_mm": "60x53x53",
+    "addon_port": false,
+    "requires": [],
+    "extra": {
+      "resolution": "1920x1080",
+      "fov": "110° H / 70° V",
+      "night_vision": "black-and-white",
+      "audio": "two-way",
+      "streams": [
+        "RTSP",
+        "WebRTC"
+      ],
+      "storage": "microSD up to 512 GB FAT32 (not included) + optional cloud",
+      "wifi_bands": "2.4 + 5 GHz",
+      "zones": "up to 10 motion/privacy zones",
+      "ai_detection": "cloud-based object recognition",
+      "pan_tilt": "manual only",
+      "integrations": "Alexa, Google, SmartThings, Home Assistant, Frigate",
+      "model": "S1CM-0DXW00",
+      "available": false
+    }
+  },
+  "gotchas": [
+    "Indoor-only environmental rating (-20..40 °C, 30-70% RH) — no weatherproofing stated",
+    "AI object recognition is cloud-based; local detection is pixel-motion only",
+    "Without a microSD card, clips are ~10-20 s and network-dependent — budget a card",
+    "Manual pan/tilt (no motorized PTZ); B/W night vision only",
+    "Needs a USB-C 5V/1A supply and cable run — no battery or PoE"
+  ],
+  "best_for": [
+    "cheap local RTSP indoor camera for Frigate/HA with Shelly automations"
+  ],
+  "not_for": [
+    "outdoor surveillance",
+    "PTZ coverage",
+    "PoE installs"
+  ],
+  "confidence": "high"
+}

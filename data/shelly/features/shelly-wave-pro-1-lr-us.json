@@ -1,0 +1,80 @@
+{
+  "id": "shelly-wave-pro-1-lr-us",
+  "name": "Shelly Wave Pro 1 LR US",
+  "price": 82.99,
+  "line": "Wave Pro",
+  "summary": "DIN-rail Z-Wave Long Range 1-channel 15A relay, no metering (US 908 MHz).",
+  "jobs": [
+    {
+      "job": "zwave_mesh",
+      "role": "primary"
+    },
+    {
+      "job": "switch_load",
+      "role": "primary"
+    },
+    {
+      "job": "switch_high_current",
+      "role": "secondary"
+    }
+  ],
+  "f": {
+    "form_factor": "din_rail",
+    "mains_powered": true,
+    "supply": "110-240VAC 50/60Hz",
+    "dc_supply": false,
+    "battery": null,
+    "neutral_required": null,
+    "channels": 1,
+    "output_type": null,
+    "max_current_a": 15,
+    "max_power_w": null,
+    "dc_switching": null,
+    "power_metering": "none",
+    "metering_max_a": null,
+    "dimming": null,
+    "cover_control": false,
+    "color_light": null,
+    "inputs": null,
+    "input_count": null,
+    "sensors": [],
+    "radios": [
+      "zwave",
+      "zwave_lr"
+    ],
+    "matter": false,
+    "ble_gateway": false,
+    "zwave_repeater": true,
+    "local_api": false,
+    "mqtt": false,
+    "scripting": false,
+    "ul_listed": null,
+    "protections": [
+      "overtemp"
+    ],
+    "temp_range_c": "-20..40",
+    "size_mm": "94x19x69",
+    "addon_port": false,
+    "requires": [
+      "Z-Wave controller (LR-capable for Long Range)"
+    ],
+    "extra": {
+      "zwave_freq": "908.4 MHz (US)",
+      "thin_data": "KB spec only; contact type (dry vs wet) and inputs not scraped"
+    }
+  },
+  "gotchas": [
+    "No power metering — see Shelly Wave Pro 2PM LR US",
+    "Z-Wave only — needs a hub; no Wi-Fi/Ethernet",
+    "DIN-rail: requires a panel or DIN enclosure",
+    "Only overtemp protection listed"
+  ],
+  "best_for": [
+    "panel-mounted 15A switching in a Z-Wave installation"
+  ],
+  "not_for": [
+    "metering",
+    "Wi-Fi users"
+  ],
+  "confidence": "medium"
+}

@@ -1,0 +1,81 @@
+{
+  "id": "shelly-em-mini-gen4",
+  "name": "Shelly EM Mini Gen4",
+  "price": 24.99,
+  "line": "Gen4",
+  "summary": "Tiny inline 16 A single-circuit energy meter (no relay) with Wi-Fi, Zigbee, Matter, BLE gateway.",
+  "jobs": [
+    {
+      "job": "meter_circuit",
+      "role": "primary"
+    },
+    {
+      "job": "ble_gateway_range",
+      "role": "secondary"
+    }
+  ],
+  "f": {
+    "form_factor": "in_wall_mini",
+    "mains_powered": true,
+    "supply": "110-240VAC",
+    "dc_supply": false,
+    "battery": null,
+    "neutral_required": true,
+    "channels": 1,
+    "output_type": "none",
+    "max_current_a": null,
+    "max_power_w": null,
+    "dc_switching": null,
+    "power_metering": "whole_circuit",
+    "metering_max_a": 16,
+    "dimming": null,
+    "cover_control": false,
+    "color_light": null,
+    "inputs": null,
+    "input_count": 0,
+    "sensors": [
+      "voltage"
+    ],
+    "radios": [
+      "wifi",
+      "bluetooth",
+      "zigbee",
+      "matter_over_wifi"
+    ],
+    "matter": true,
+    "ble_gateway": true,
+    "zwave_repeater": null,
+    "local_api": true,
+    "mqtt": true,
+    "scripting": true,
+    "ul_listed": null,
+    "protections": [],
+    "temp_range_c": "-20..40",
+    "size_mm": "29x34x16",
+    "addon_port": null,
+    "requires": [],
+    "extra": {
+      "model": "S4EM-001PXCEU16",
+      "max_measurement_power_w": 3840,
+      "accuracy": "±1% V and A",
+      "meters": "active power, active energy",
+      "data_log": "≥10 days @ 1 min",
+      "measurement": "inline (load current passes through device), not a CT",
+      "job_note": "meter_circuit used although it does not switch the load"
+    }
+  },
+  "gotchas": [
+    "No relay — measures only, can't switch; see Shelly 1PM Mini Gen4 for switch+meter",
+    "Inline 16 A / 3840 W through the module, not a clamp — not for panel/whole-home; see Shelly Pro 3EM-3CT63",
+    "Active power/energy only (no reactive/PF reporting listed)",
+    "KB spec is the EU model (S4EM-001PXCEU16); no UL listing stated"
+  ],
+  "best_for": [
+    "Metering a single appliance or branch circuit ≤16 A from inside a box"
+  ],
+  "not_for": [
+    "load switching",
+    "service-entrance monitoring"
+  ],
+  "confidence": "high"
+}

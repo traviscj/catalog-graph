@@ -1,0 +1,82 @@
+{
+  "id": "shelly-pro-dual-cover-shutter-pm",
+  "name": "Shelly Pro Dual Cover / Shutter PM",
+  "price": 129.99,
+  "line": "Pro",
+  "summary": "DIN-rail controller for two AC roller shutter/cover motors with power metering, display, Ethernet.",
+  "jobs": [
+    {
+      "job": "control_cover",
+      "role": "primary"
+    },
+    {
+      "job": "meter_circuit",
+      "role": "secondary"
+    }
+  ],
+  "f": {
+    "form_factor": "din_rail",
+    "mains_powered": true,
+    "supply": "110-240VAC",
+    "dc_supply": false,
+    "battery": null,
+    "neutral_required": true,
+    "channels": 2,
+    "output_type": "wet_relay",
+    "max_current_a": 16,
+    "max_power_w": null,
+    "dc_switching": null,
+    "power_metering": "per_channel",
+    "metering_max_a": null,
+    "dimming": null,
+    "cover_control": true,
+    "color_light": null,
+    "inputs": "4 switch/button inputs (S1/S2 cover 1, S3/S4 cover 2)",
+    "input_count": 4,
+    "sensors": [
+      "internal_temp",
+      "voltage"
+    ],
+    "radios": [
+      "ethernet",
+      "wifi",
+      "bluetooth"
+    ],
+    "matter": null,
+    "ble_gateway": null,
+    "zwave_repeater": null,
+    "local_api": true,
+    "mqtt": true,
+    "scripting": true,
+    "ul_listed": null,
+    "protections": [
+      "overtemp",
+      "overvoltage",
+      "overcurrent",
+      "overpower"
+    ],
+    "temp_range_c": "-20..40",
+    "size_mm": "96x53x59",
+    "addon_port": false,
+    "requires": [],
+    "extra": {
+      "outputs": "4 relays (up/down x2)",
+      "display": "color LCD",
+      "load": "bi-directional AC motors with RC snubbers",
+      "rating_note": "16A per output per spec"
+    }
+  },
+  "gotchas": [
+    "AC bidirectional motors only (with RC snubber) — no DC/12V motors",
+    "DIN-rail: motors must be wired back to a panel; for in-wall see Shelly Wave Shutter LR / Shelly 2PM",
+    "Two covers max per unit"
+  ],
+  "best_for": [
+    "centralized panel control of two motorized shades/shutters over Ethernet"
+  ],
+  "not_for": [
+    "DC motors",
+    "in-wall retrofit"
+  ],
+  "confidence": "high"
+}

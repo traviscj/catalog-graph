@@ -1,0 +1,83 @@
+{
+  "id": "shelly-wave-pro-dimmer-2pm-lr",
+  "name": "Shelly Wave Pro Dimmer 2PM LR",
+  "price": 129.99,
+  "line": "Wave Pro",
+  "summary": "DIN-rail Z-Wave Long Range 2-channel trailing-edge dimmer, 200W/ch, with metering.",
+  "jobs": [
+    {
+      "job": "zwave_mesh",
+      "role": "primary"
+    },
+    {
+      "job": "dim_light",
+      "role": "primary"
+    },
+    {
+      "job": "meter_circuit",
+      "role": "secondary"
+    }
+  ],
+  "f": {
+    "form_factor": "din_rail",
+    "mains_powered": true,
+    "supply": "110-240VAC 50/60Hz",
+    "dc_supply": false,
+    "battery": null,
+    "neutral_required": null,
+    "channels": 2,
+    "output_type": "mosfet_dimmer",
+    "max_current_a": null,
+    "max_power_w": 200,
+    "dc_switching": null,
+    "power_metering": "per_channel",
+    "metering_max_a": null,
+    "dimming": "trailing",
+    "cover_control": false,
+    "color_light": null,
+    "inputs": null,
+    "input_count": null,
+    "sensors": [],
+    "radios": [
+      "zwave",
+      "zwave_lr"
+    ],
+    "matter": false,
+    "ble_gateway": false,
+    "zwave_repeater": true,
+    "local_api": false,
+    "mqtt": false,
+    "scripting": false,
+    "ul_listed": null,
+    "protections": [
+      "overtemp",
+      "overcurrent",
+      "overvoltage"
+    ],
+    "temp_range_c": "-20..40",
+    "size_mm": "94x19x69",
+    "addon_port": false,
+    "requires": [
+      "Z-Wave controller/hub (e.g. Home Assistant + Z-Wave stick, Hubitat, SmartThings)"
+    ],
+    "extra": {
+      "max_power_note": "200W per channel (KB does not state 120V derating)",
+      "output_type_note": "trailing-edge implies MOSFET/IGBT; KB does not name the switching element",
+      "data_quality": "KB scrape only has spec table + inclusion text"
+    }
+  },
+  "gotchas": [
+    "Z-Wave only — requires a Z-Wave hub",
+    "200W per channel max — trailing-edge only; check LED compatibility and minimum-load flicker",
+    "DIN-rail: needs a DIN enclosure",
+    "KB data thin: input count, neutral requirement and 120V derating not documented (Wi-Fi Pro Dimmer 1PM is 100W @120V)"
+  ],
+  "best_for": [
+    "Z-Wave panel-based dimming of two LED/incandescent lighting zones"
+  ],
+  "not_for": [
+    "0-10V drivers (see Shelly Pro Dimmer 0/1-10V PM)",
+    "large lighting loads >200W"
+  ],
+  "confidence": "medium"
+}

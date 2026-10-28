@@ -1,0 +1,93 @@
+{
+  "id": "shelly-plus-rgbw-pm-us",
+  "name": "Shelly Plus RGBW PM US",
+  "price": 39.99,
+  "line": "Plus(Gen2)",
+  "summary": "12/24VDC 4-channel PWM LED strip controller (RGBW/RGB/4×mono) with power metering, Wi-Fi/BLE.",
+  "jobs": [
+    {
+      "job": "color_light",
+      "role": "primary"
+    },
+    {
+      "job": "dim_lowvolt_driver",
+      "role": "secondary"
+    },
+    {
+      "job": "meter_circuit",
+      "role": "secondary"
+    },
+    {
+      "job": "ble_gateway_range",
+      "role": "secondary"
+    }
+  ],
+  "f": {
+    "form_factor": "in_wall",
+    "mains_powered": false,
+    "supply": "12/24VDC",
+    "dc_supply": true,
+    "battery": null,
+    "neutral_required": false,
+    "channels": 4,
+    "output_type": "pwm_rgbw",
+    "max_current_a": null,
+    "max_power_w": null,
+    "dc_switching": "4A per channel, 10A total @≤24VDC",
+    "power_metering": "per_channel",
+    "metering_max_a": null,
+    "dimming": "pwm",
+    "cover_control": false,
+    "color_light": "rgbw",
+    "inputs": "4 switch/button/potentiometer inputs (I1-I4)",
+    "input_count": 4,
+    "sensors": [
+      "internal_temp",
+      "voltage"
+    ],
+    "radios": [
+      "wifi",
+      "bluetooth"
+    ],
+    "matter": null,
+    "ble_gateway": true,
+    "zwave_repeater": null,
+    "local_api": true,
+    "mqtt": true,
+    "scripting": true,
+    "ul_listed": null,
+    "protections": [
+      "overtemp",
+      "overcurrent"
+    ],
+    "temp_range_c": "-20..40",
+    "size_mm": "42x37x12",
+    "addon_port": true,
+    "requires": [],
+    "extra": {
+      "profiles": [
+        "rgbw",
+        "rgb",
+        "light (4 independent mono channels)"
+      ],
+      "pwm_hz": 833,
+      "meter_accuracy": "±10% current, ±5% voltage",
+      "wifi_range_extender": true,
+      "metering_note": "0.5VA/channel no-load threshold implies per-channel; KB just says 'power measurement'"
+    }
+  },
+  "gotchas": [
+    "Low-voltage DC only — needs a separate 12/24V LED power supply; cannot control mains lights",
+    "4A per channel / 10A total — long high-density strips may exceed it",
+    "RGBW, not RGBWW/CCT-plus-RGB (no 5th channel)",
+    "Metering is coarse (±10% current)"
+  ],
+  "best_for": [
+    "under-cabinet / cove 12-24V RGBW or mono strip zones with wall-switch inputs"
+  ],
+  "not_for": [
+    "mains LED dimming",
+    "addressable (pixel) strips"
+  ],
+  "confidence": "high"
+}

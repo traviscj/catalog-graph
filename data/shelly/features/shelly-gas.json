@@ -1,0 +1,74 @@
+{
+  "id": "shelly-gas",
+  "name": "Shelly Gas",
+  "price": 69.99,
+  "line": "Gen1",
+  "summary": "Gen1 mains-powered Wi-Fi gas leak detector (CNG or LPG variant) with siren and valve output.",
+  "jobs": [
+    {
+      "job": "sense_gas",
+      "role": "primary"
+    }
+  ],
+  "f": {
+    "form_factor": "wired_sensor",
+    "mains_powered": true,
+    "supply": "110-230VAC 50/60Hz",
+    "dc_supply": false,
+    "battery": null,
+    "neutral_required": null,
+    "channels": 0,
+    "output_type": "none",
+    "max_current_a": null,
+    "max_power_w": null,
+    "dc_switching": null,
+    "power_metering": null,
+    "metering_max_a": null,
+    "dimming": null,
+    "cover_control": false,
+    "color_light": null,
+    "inputs": null,
+    "input_count": 0,
+    "sensors": [
+      "gas"
+    ],
+    "radios": [
+      "wifi"
+    ],
+    "matter": false,
+    "ble_gateway": false,
+    "zwave_repeater": null,
+    "local_api": true,
+    "mqtt": null,
+    "scripting": false,
+    "ul_listed": null,
+    "protections": [],
+    "temp_range_c": "-10..50",
+    "size_mm": "89.5x89.5x38",
+    "addon_port": false,
+    "requires": [],
+    "extra": {
+      "gas_types": "separate CNG or LPG versions",
+      "sensitivity": "6% LEL",
+      "siren": "≥70dB + LED",
+      "valve_output": "11-13V 500mA jack for valve manipulator",
+      "shell": "flame-resistant",
+      "plug_not_included_in_size": true
+    }
+  },
+  "gotchas": [
+    "Comes as either CNG (natural gas) or LPG (propane) — pick the matching variant; one unit doesn't do both",
+    "Gen1 Wi-Fi platform — no Bluetooth, Matter or scripting",
+    "No life-safety listing shown in specs — supplement, not a code-required alarm",
+    "Automatic shutoff needs the separate valve actuator on its 12V jack",
+    "Detects combustible gas only — not a CO detector"
+  ],
+  "best_for": [
+    "supplemental kitchen/boiler-room gas leak alerting with app notifications"
+  ],
+  "not_for": [
+    "CO detection",
+    "code-compliant alarm systems"
+  ],
+  "confidence": "medium"
+}

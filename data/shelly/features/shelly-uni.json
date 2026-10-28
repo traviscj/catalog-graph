@@ -1,0 +1,94 @@
+{
+  "id": "shelly-uni",
+  "name": "Shelly Uni",
+  "price": 11.9,
+  "line": "Gen1",
+  "summary": "Gen1 tiny 12-36VDC/12-24VAC module: 2 inputs, 2 low-current outputs, ADC, DS18B20/DHT22 support.",
+  "jobs": [
+    {
+      "job": "sense_analog",
+      "role": "primary"
+    },
+    {
+      "job": "diy_maker",
+      "role": "primary"
+    },
+    {
+      "job": "switch_low_voltage",
+      "role": "secondary"
+    },
+    {
+      "job": "input_trigger",
+      "role": "secondary"
+    },
+    {
+      "job": "sense_temp_humidity",
+      "role": "secondary"
+    }
+  ],
+  "f": {
+    "form_factor": "addon",
+    "mains_powered": false,
+    "supply": "12-24VAC or 12-36VDC",
+    "dc_supply": true,
+    "battery": null,
+    "neutral_required": false,
+    "channels": 2,
+    "output_type": null,
+    "max_current_a": 0.1,
+    "max_power_w": 0.3,
+    "dc_switching": "100mA/36V (300 mW) per output",
+    "power_metering": "none",
+    "metering_max_a": null,
+    "dimming": null,
+    "cover_control": false,
+    "color_light": null,
+    "inputs": "2 isolated digital inputs (2.2-36VDC / 12-24VAC) + 1 ADC 0-12/0-30V",
+    "input_count": 2,
+    "sensors": [
+      "voltage",
+      "temp",
+      "humidity"
+    ],
+    "radios": [
+      "wifi"
+    ],
+    "matter": null,
+    "ble_gateway": false,
+    "zwave_repeater": null,
+    "local_api": true,
+    "mqtt": true,
+    "scripting": null,
+    "ul_listed": false,
+    "protections": [],
+    "temp_range_c": "0..40",
+    "size_mm": "20x33x13",
+    "addon_port": false,
+    "requires": [
+      "12-36VDC or 12-24VAC supply"
+    ],
+    "extra": {
+      "outputs": "2 potential-free outputs, max 24VAC/36VDC, 100 mA, 300 mW each",
+      "ext_sensors": "up to 3x DS18B20 or 1x DHT22",
+      "protocols": "MQTT, CoAP, REST",
+      "overload_protection": "No",
+      "output_type_note": "potential-free, mechanism not stated",
+      "available": false
+    }
+  },
+  "gotchas": [
+    "Outputs are 100 mA/300 mW — signal-level only; drive a relay/contactor for real loads",
+    "Needs a 12-36VDC or 12-24VAC supply — no mains input",
+    "Gen1: Wi-Fi only, no Bluetooth; superseded by Shelly Plus Uni",
+    "No overload protection; exposed board with only a transparent cover",
+    "Listed as unavailable"
+  ],
+  "best_for": [
+    "tank level/voltage via ADC, DS18B20 temps, or dry-contact triggering of gates/doorbells on 12/24V"
+  ],
+  "not_for": [
+    "mains switching",
+    "high-current outputs"
+  ],
+  "confidence": "medium"
+}

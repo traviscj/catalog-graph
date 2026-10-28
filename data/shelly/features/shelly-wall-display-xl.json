@@ -1,0 +1,90 @@
+{
+  "id": "shelly-wall-display-xl",
+  "name": "Shelly Wall Display XL",
+  "price": 349.99,
+  "line": null,
+  "summary": "10.1in Android wall-box touch control panel with 5A relay, speakers, mics, light and proximity sensing.",
+  "jobs": [
+    {
+      "job": "dashboard_hub",
+      "role": "primary"
+    },
+    {
+      "job": "switch_load",
+      "role": "secondary"
+    },
+    {
+      "job": "retrofit_wall_switch",
+      "role": "secondary"
+    }
+  ],
+  "f": {
+    "form_factor": "hub_display",
+    "mains_powered": true,
+    "supply": "100-240VAC 50/60Hz (or USB-C 5V/3A)",
+    "dc_supply": null,
+    "battery": null,
+    "neutral_required": true,
+    "channels": 1,
+    "output_type": "wet_relay",
+    "max_current_a": 5,
+    "max_power_w": null,
+    "dc_switching": null,
+    "power_metering": "none",
+    "metering_max_a": null,
+    "dimming": null,
+    "cover_control": false,
+    "color_light": null,
+    "inputs": "1 switch/button input (SW) + 4 customizable front buttons",
+    "input_count": 1,
+    "sensors": [
+      "lux",
+      "motion"
+    ],
+    "radios": [
+      "wifi",
+      "bluetooth"
+    ],
+    "matter": null,
+    "ble_gateway": null,
+    "zwave_repeater": null,
+    "local_api": true,
+    "mqtt": true,
+    "scripting": false,
+    "ul_listed": null,
+    "protections": [
+      "overtemp"
+    ],
+    "temp_range_c": "-20..40",
+    "size_mm": "155.8x272.5x38.3",
+    "addon_port": false,
+    "requires": [],
+    "extra": {
+      "display": "10.1in 1280x752 touch",
+      "os": "Android 11, RK3566, 2GB/32GB",
+      "audio": "2x2W speakers, 4-mic array",
+      "wifi": "Wi-Fi 6 dual-band",
+      "no_temp_humidity": "internal/ambient temp and humidity sensors = No",
+      "usb_c_out": "5V 0.5A",
+      "us_base": "US version has US drywall-box power base",
+      "kb_model": "SAWD-3A1XE10EU2 (EU model id)",
+      "assistants": "Alexa/Google/SmartThings N/A",
+      "line_note": "generation not stated in KB"
+    }
+  },
+  "gotchas": [
+    "Relay is only 5A — light loads only",
+    "No temperature/humidity sensor (unlike smaller Wall Display) — can't act as its own thermostat sensor",
+    "No Alexa/Google/SmartThings integration listed",
+    "Needs neutral at the wall box; ~920 g, large footprint",
+    "Expensive vs. tablet + relay"
+  ],
+  "best_for": [
+    "central room/whole-home Shelly control panel replacing a light switch"
+  ],
+  "not_for": [
+    "thermostat replacement",
+    "high-current loads"
+  ],
+  "confidence": "high"
+}

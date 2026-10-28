@@ -1,0 +1,82 @@
+{
+  "id": "micro-usb-to-5-terminal-add-shelly-pill",
+  "name": "Micro USB to 5 Terminal Add（Shelly Pill)",
+  "price": 7.99,
+  "line": "Pill",
+  "summary": "Screw-terminal breakout for The Pill exposing 3 configurable I/O plus 5 V/GND.",
+  "jobs": [
+    {
+      "job": "diy_maker",
+      "role": "primary"
+    },
+    {
+      "job": "accessory",
+      "role": "secondary"
+    },
+    {
+      "job": "sense_temp_humidity",
+      "role": "secondary"
+    }
+  ],
+  "f": {
+    "form_factor": "addon",
+    "mains_powered": false,
+    "supply": "5V DC (from The Pill, or feeds 5V to The Pill)",
+    "dc_supply": false,
+    "battery": null,
+    "neutral_required": null,
+    "channels": null,
+    "output_type": "none",
+    "max_current_a": null,
+    "max_power_w": null,
+    "dc_switching": null,
+    "power_metering": "none",
+    "metering_max_a": null,
+    "dimming": null,
+    "cover_control": false,
+    "color_light": null,
+    "inputs": "IO1 multi-purpose (DS18B20 / DHT22 / analog 0-2.5 V / digital) + IO2, IO3 digital 3.3 V I/O",
+    "input_count": 3,
+    "sensors": [
+      "temp",
+      "humidity",
+      "voltage"
+    ],
+    "radios": [],
+    "matter": false,
+    "ble_gateway": false,
+    "zwave_repeater": null,
+    "local_api": null,
+    "mqtt": null,
+    "scripting": null,
+    "ul_listed": null,
+    "protections": [],
+    "temp_range_c": "0..40",
+    "size_mm": "44x23x10",
+    "addon_port": false,
+    "requires": [
+      "The Pill by Shelly"
+    ],
+    "extra": {
+      "sensors_note": "temp/humidity only via external DS18B20 or DHT22 probes (not included)",
+      "cable_length_cm": 24,
+      "name_oddity": "Listing says 'Micro USB'; KB describes an add-on-interface connector for The Pill (which is USB-C powered)",
+      "io_rating_source": "IO ratings not in this KB page; The Pill specs: 3.3 V logic, 20 mA"
+    }
+  },
+  "gotchas": [
+    "Only works with The Pill by Shelly — no radio or MCU of its own",
+    "Analog input limited to 0-2.5 V — for 0-30 V add the Analog 0-30V Add-on",
+    "3.3 V logic I/O only; to switch small DC loads use the SSR Add-on",
+    "Sensors not included — DS18B20/DHT22 probes sold separately",
+    "Product name says 'Micro USB' but KB shows a Pill add-on-interface connector; confirm fit"
+  ],
+  "best_for": [
+    "Hard-wiring DHT22/DS18B20 or reed/digital sensors to The Pill via screw terminals"
+  ],
+  "not_for": [
+    "standalone use",
+    "analog >2.5 V without the 0-30V add-on"
+  ],
+  "confidence": "medium"
+}

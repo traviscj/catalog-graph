@@ -1,0 +1,83 @@
+{
+  "id": "shelly-wave-pro-dimmer-1pm",
+  "name": "Shelly Wave Pro Dimmer 1PM",
+  "price": 107.99,
+  "line": "Wave Pro",
+  "summary": "Z-Wave DIN-rail 1-channel trailing-edge dimmer, 200W, with power metering; needs a Z-Wave hub.",
+  "jobs": [
+    {
+      "job": "dim_light",
+      "role": "primary"
+    },
+    {
+      "job": "zwave_mesh",
+      "role": "primary"
+    },
+    {
+      "job": "meter_circuit",
+      "role": "secondary"
+    }
+  ],
+  "f": {
+    "form_factor": "din_rail",
+    "mains_powered": true,
+    "supply": "110-240VAC 50/60Hz",
+    "dc_supply": false,
+    "battery": null,
+    "neutral_required": null,
+    "channels": 1,
+    "output_type": "triac_dimmer",
+    "max_current_a": null,
+    "max_power_w": 200,
+    "dc_switching": null,
+    "power_metering": "per_channel",
+    "metering_max_a": null,
+    "dimming": "trailing",
+    "cover_control": false,
+    "color_light": null,
+    "inputs": "SW switch/push-button inputs (count not stated)",
+    "input_count": null,
+    "sensors": [],
+    "radios": [
+      "zwave"
+    ],
+    "matter": null,
+    "ble_gateway": false,
+    "zwave_repeater": true,
+    "local_api": false,
+    "mqtt": false,
+    "scripting": false,
+    "ul_listed": null,
+    "protections": [
+      "overtemp",
+      "overcurrent",
+      "overvoltage"
+    ],
+    "temp_range_c": "-20..40",
+    "size_mm": "94x19x69",
+    "addon_port": false,
+    "requires": [
+      "Z-Wave controller/gateway (not included)"
+    ],
+    "extra": {
+      "power_note": "200 W max output; voltage-dependent derating not stated (Wi-Fi Pro Dimmer is 100 W at 120V)",
+      "external_protection": "10A B/C breaker",
+      "output_type_note": "trailing-edge; semiconductor type not stated",
+      "kb": "US page; load-type table and input wiring not in scraped data"
+    }
+  },
+  "gotchas": [
+    "Requires a Z-Wave controller for setup and control (blurb: gateway not included)",
+    "200 W max; 120V derating not stated — the Wi-Fi Pro Dimmer drops to 100 W at 120V",
+    "Trailing-edge only; single channel",
+    "DIN-rail: needs panel/enclosure"
+  ],
+  "best_for": [
+    "Z-Wave installs centralizing LED dimming in a panel"
+  ],
+  "not_for": [
+    "non-Z-Wave homes",
+    "large lighting loads"
+  ],
+  "confidence": "medium"
+}

@@ -1,0 +1,73 @@
+{
+  "id": "shelly-leak-sensor-cable",
+  "name": "Shelly Leak Sensor Cable",
+  "price": 8.99,
+  "line": "Accessory",
+  "summary": "2 m rope-style water-sensing cable that extends Shelly Flood Gen4 coverage; chainable up to 150 m.",
+  "jobs": [
+    {
+      "job": "accessory",
+      "role": "primary"
+    },
+    {
+      "job": "sense_leak",
+      "role": "secondary"
+    }
+  ],
+  "f": {
+    "form_factor": "accessory",
+    "mains_powered": false,
+    "supply": null,
+    "dc_supply": false,
+    "battery": null,
+    "neutral_required": false,
+    "channels": 0,
+    "output_type": "none",
+    "max_current_a": null,
+    "max_power_w": null,
+    "dc_switching": null,
+    "power_metering": "none",
+    "metering_max_a": null,
+    "dimming": null,
+    "cover_control": false,
+    "color_light": null,
+    "inputs": null,
+    "input_count": 0,
+    "sensors": [
+      "flood"
+    ],
+    "radios": [],
+    "matter": null,
+    "ble_gateway": null,
+    "zwave_repeater": null,
+    "local_api": false,
+    "mqtt": false,
+    "scripting": false,
+    "ul_listed": null,
+    "protections": [],
+    "temp_range_c": "-20..40",
+    "size_mm": "2000x4 (cable) / 2000x12 (w/ connectors)",
+    "addon_port": false,
+    "requires": [
+      "Shelly Flood Gen4"
+    ],
+    "extra": {
+      "length_m": 2,
+      "max_chain_m": 150,
+      "reusable": "dry and reuse after alarm",
+      "detects": "tap, rain, AC condensate, fire-sprinkler water"
+    }
+  },
+  "gotchas": [
+    "Only works with Shelly Flood Gen4 — not the Gen1 Shelly Flood",
+    "Passive cable — buy a Flood Gen4 first",
+    "Needs full surface contact; brackets/clips to hold it flat are sold separately"
+  ],
+  "best_for": [
+    "running along a basement wall, behind a washer, or around a water heater footprint"
+  ],
+  "not_for": [
+    "Gen1 Shelly Flood owners"
+  ],
+  "confidence": "high"
+}

@@ -1,0 +1,94 @@
+{
+  "id": "shelly-plug-us-gen4",
+  "name": "Shelly Plug US Gen4",
+  "price": 24.99,
+  "line": "Gen4",
+  "summary": "US 15 A metering smart plug with Wi-Fi, Zigbee, Matter/HomeKit, BLE gateway and lux sensor.",
+  "jobs": [
+    {
+      "job": "plug_in",
+      "role": "primary"
+    },
+    {
+      "job": "meter_circuit",
+      "role": "primary"
+    },
+    {
+      "job": "ble_gateway_range",
+      "role": "secondary"
+    }
+  ],
+  "f": {
+    "form_factor": "plug",
+    "mains_powered": true,
+    "supply": "120VAC 60Hz",
+    "dc_supply": false,
+    "battery": null,
+    "neutral_required": false,
+    "channels": 1,
+    "output_type": "wet_relay",
+    "max_current_a": 15,
+    "max_power_w": 1800,
+    "dc_switching": null,
+    "power_metering": "per_channel",
+    "metering_max_a": null,
+    "dimming": null,
+    "cover_control": false,
+    "color_light": null,
+    "inputs": "1 push button",
+    "input_count": 0,
+    "sensors": [
+      "internal_temp",
+      "lux",
+      "voltage"
+    ],
+    "radios": [
+      "wifi",
+      "bluetooth",
+      "zigbee",
+      "matter_over_wifi"
+    ],
+    "matter": true,
+    "ble_gateway": true,
+    "zwave_repeater": null,
+    "local_api": true,
+    "mqtt": true,
+    "scripting": true,
+    "ul_listed": null,
+    "protections": [
+      "overtemp",
+      "overvoltage",
+      "overcurrent",
+      "overpower"
+    ],
+    "temp_range_c": "-20..40",
+    "size_mm": "38x64x51",
+    "addon_port": false,
+    "requires": [],
+    "extra": {
+      "plug_socket": "NEMA 5-15",
+      "homekit": true,
+      "matter_certified": true,
+      "zigbee_router": true,
+      "wifi_extender": true,
+      "switching_cycles": 10000,
+      "led": "multicolor power-level ring",
+      "power_note": "1800 W rating is resistive-only"
+    }
+  },
+  "gotchas": [
+    "1800 W rating is resistive only — derate for compressors/motors",
+    "Relay rated for 10,000 switching cycles — avoid rapid-cycling automations",
+    "120 V US only; 38x64x51 mm body",
+    "No UL listing stated in specs"
+  ],
+  "best_for": [
+    "Plug-in lamps, heaters ≤1500 W, appliance energy tracking",
+    "cheap BLE gateway/Zigbee router for a room"
+  ],
+  "not_for": [
+    "240 V loads",
+    "hard-wired circuits"
+  ],
+  "confidence": "high"
+}

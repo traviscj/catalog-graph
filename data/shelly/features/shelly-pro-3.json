@@ -1,0 +1,84 @@
+{
+  "id": "shelly-pro-3",
+  "name": "Shelly Pro 3",
+  "price": 109.99,
+  "line": "Pro",
+  "summary": "DIN-rail 3-channel dry-contact relay, 16A per channel/48A total incl. 3-phase loads, with Ethernet/Wi-Fi/Bluetooth.",
+  "jobs": [
+    {
+      "job": "switch_load",
+      "role": "primary"
+    },
+    {
+      "job": "switch_high_current",
+      "role": "secondary"
+    },
+    {
+      "job": "switch_low_voltage",
+      "role": "secondary"
+    }
+  ],
+  "f": {
+    "form_factor": "din_rail",
+    "mains_powered": true,
+    "supply": "110-240VAC",
+    "dc_supply": false,
+    "battery": null,
+    "neutral_required": true,
+    "channels": 3,
+    "output_type": "dry_relay",
+    "max_current_a": 16,
+    "max_power_w": null,
+    "dc_switching": "16A/30V per ch, 48A total",
+    "power_metering": "none",
+    "metering_max_a": null,
+    "dimming": null,
+    "cover_control": false,
+    "color_light": null,
+    "inputs": "3 switch/button inputs (S1-S3)",
+    "input_count": 3,
+    "sensors": [
+      "internal_temp"
+    ],
+    "radios": [
+      "ethernet",
+      "wifi",
+      "bluetooth"
+    ],
+    "matter": null,
+    "ble_gateway": null,
+    "zwave_repeater": null,
+    "local_api": true,
+    "mqtt": true,
+    "scripting": true,
+    "ul_listed": null,
+    "protections": [
+      "overtemp"
+    ],
+    "temp_range_c": "-20..40",
+    "size_mm": "96x53x59",
+    "addon_port": false,
+    "requires": [],
+    "extra": {
+      "total_current": "48A total",
+      "three_phase": "can switch 3 independent circuits incl. 3-phase",
+      "model": "SPSW-003XE16EU",
+      "addon_port_note": "no add-on interface listed in KB",
+      "lan_warning": "plug/unplug LAN only when powered off"
+    }
+  },
+  "gotchas": [
+    "No power metering on any channel",
+    "Wide module (96x53x59 mm, ~3 DIN units) — needs real panel space",
+    "No add-on interface listed (unlike Pro 1/Pro 2)",
+    "AC supply only, needs neutral; no UL listing stated"
+  ],
+  "best_for": [
+    "3-phase motor/heater contactor-free switching or 3 circuits from one panel module"
+  ],
+  "not_for": [
+    "metering",
+    "tight panels"
+  ],
+  "confidence": "high"
+}

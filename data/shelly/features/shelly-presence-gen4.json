@@ -1,0 +1,84 @@
+{
+  "id": "shelly-presence-gen4",
+  "name": "Shelly Presence Gen4",
+  "price": 84.99,
+  "line": "Gen4",
+  "summary": "USB-C mmWave (60 GHz) presence sensor with zones, multi-person tracking, lux; Wi-Fi/Zigbee/Matter.",
+  "jobs": [
+    {
+      "job": "sense_motion_presence",
+      "role": "primary"
+    }
+  ],
+  "f": {
+    "form_factor": "wired_sensor",
+    "mains_powered": false,
+    "supply": "5VDC USB-C, 1A",
+    "dc_supply": false,
+    "battery": null,
+    "neutral_required": false,
+    "channels": null,
+    "output_type": "none",
+    "max_current_a": null,
+    "max_power_w": null,
+    "dc_switching": null,
+    "power_metering": "none",
+    "metering_max_a": null,
+    "dimming": null,
+    "cover_control": false,
+    "color_light": null,
+    "inputs": "1 button",
+    "input_count": 0,
+    "sensors": [
+      "presence_mmwave",
+      "lux",
+      "button"
+    ],
+    "radios": [
+      "wifi",
+      "bluetooth",
+      "zigbee",
+      "matter_over_wifi"
+    ],
+    "matter": true,
+    "ble_gateway": null,
+    "zwave_repeater": null,
+    "local_api": true,
+    "mqtt": true,
+    "scripting": true,
+    "ul_listed": null,
+    "protections": [],
+    "temp_range_c": "-20..40",
+    "size_mm": "64x41x26",
+    "addon_port": false,
+    "requires": [
+      "dedicated stable 5 V USB-C adapter"
+    ],
+    "extra": {
+      "radar_ghz": "60-64",
+      "coverage": "wall 140°H/120°V 8x8 m; corner 90° 7x7 m; up to 42 m²",
+      "still_detection_m": 3,
+      "zones": 10,
+      "max_mount_height_m": 5,
+      "people_count_conflict": "spec table: up to 6 objects; main features: up to 10 people",
+      "matter_zones": "only 1 zone exposed by default; extra zones added as components",
+      "power_draw_w": "2.5 nominal / 3.5 max"
+    }
+  },
+  "gotchas": [
+    "Needs continuous USB-C power from a dedicated stable 5 V adapter — KB warns multi-port/fast chargers can damage it",
+    "Still (seated/sleeping) detection only out to 3 m; full 8x8 m coverage is for movement",
+    "Can't see behind itself or through walls/obstructions; placement and tilt matter",
+    "Spec says 6 tracked objects, marketing says 10 people — plan for 6",
+    "Matter exposes only one zone by default"
+  ],
+  "best_for": [
+    "Offices/bedrooms/living rooms where occupants sit still",
+    "zone-based lighting in open plans"
+  ],
+  "not_for": [
+    "battery-only locations",
+    "outdoor use"
+  ],
+  "confidence": "high"
+}

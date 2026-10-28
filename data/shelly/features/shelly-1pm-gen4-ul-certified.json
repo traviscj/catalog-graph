@@ -1,0 +1,97 @@
+{
+  "id": "shelly-1pm-gen4-ul-certified",
+  "name": "Shelly 1PM Gen4 UL-Certified",
+  "price": 32.99,
+  "line": "Gen4",
+  "summary": "In-wall single-channel relay with power metering; Wi-Fi, Matter, Zigbee and Bluetooth.",
+  "jobs": [
+    {
+      "job": "switch_load",
+      "role": "primary"
+    },
+    {
+      "job": "meter_circuit",
+      "role": "primary"
+    },
+    {
+      "job": "retrofit_wall_switch",
+      "role": "secondary"
+    },
+    {
+      "job": "ble_gateway_range",
+      "role": "secondary"
+    }
+  ],
+  "f": {
+    "form_factor": "in_wall",
+    "mains_powered": true,
+    "supply": "110-240VAC or 24-30VDC",
+    "dc_supply": true,
+    "battery": null,
+    "neutral_required": true,
+    "channels": 1,
+    "output_type": "wet_relay",
+    "max_current_a": 16,
+    "max_power_w": null,
+    "dc_switching": "10A/30V DC",
+    "power_metering": "per_channel",
+    "metering_max_a": null,
+    "dimming": null,
+    "cover_control": false,
+    "color_light": null,
+    "inputs": "1 switch/button input (SW)",
+    "input_count": 1,
+    "sensors": [
+      "internal_temp",
+      "voltage"
+    ],
+    "radios": [
+      "wifi",
+      "bluetooth",
+      "zigbee",
+      "matter_over_wifi"
+    ],
+    "matter": true,
+    "ble_gateway": true,
+    "zwave_repeater": null,
+    "local_api": true,
+    "mqtt": true,
+    "scripting": true,
+    "ul_listed": true,
+    "protections": [
+      "overtemp",
+      "overvoltage",
+      "overcurrent",
+      "overpower"
+    ],
+    "temp_range_c": "-20..40",
+    "size_mm": "37x42x16",
+    "addon_port": true,
+    "requires": [],
+    "extra": {
+      "zigbee_repeater": true,
+      "wifi": "802.11ax (Wi-Fi 6) 2.4GHz",
+      "protocol_switch": "Matter default; 5 presses to switch to Zigbee profile",
+      "ul_conflict": "KB shows EU model S4SW-001P16EU rated 16A/240V; family says UL-Certified (US UL variant rating may differ, often 15A)",
+      "blurb_rating": "blurb says 15A",
+      "external_protection": "max 16A breaker",
+      "wire": "20-11 AWG"
+    }
+  },
+  "gotchas": [
+    "Rating ambiguity: KB (EU model) says 16A, blurb says 15A — size for 15A on US circuits",
+    "Needs a neutral at the box",
+    "Matter vs Zigbee is a either/or profile (Matter default; Zigbee via 5-press switch)",
+    "Output is the line-powered relay (not dry contact) — for potential-free switching see Shelly Plus 1 UL-Certified",
+    "Larger 37x42 body than the Mini line — tight boxes may need the 1PM Mini Gen4"
+  ],
+  "best_for": [
+    "metered on/off of a 15A lighting/appliance circuit behind a US wall switch with Matter or Zigbee"
+  ],
+  "not_for": [
+    "dry-contact/low-voltage signaling",
+    "dimming",
+    "no-neutral boxes"
+  ],
+  "confidence": "medium"
+}

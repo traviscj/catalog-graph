@@ -1,0 +1,75 @@
+{
+  "id": "shelly-gas-lpg",
+  "name": "Shelly GAS (LPG)",
+  "price": 69.99,
+  "line": "Gen1",
+  "summary": "Mains-powered Wi-Fi LPG gas detector with 70dB siren, LED alarm and gas-valve actuator output.",
+  "jobs": [
+    {
+      "job": "sense_gas",
+      "role": "primary"
+    }
+  ],
+  "f": {
+    "form_factor": "wired_sensor",
+    "mains_powered": true,
+    "supply": "110-230VAC ±10% 50/60Hz",
+    "dc_supply": false,
+    "battery": null,
+    "neutral_required": null,
+    "channels": 0,
+    "output_type": "none",
+    "max_current_a": null,
+    "max_power_w": null,
+    "dc_switching": null,
+    "power_metering": "none",
+    "metering_max_a": null,
+    "dimming": null,
+    "cover_control": false,
+    "color_light": null,
+    "inputs": null,
+    "input_count": 0,
+    "sensors": [
+      "gas"
+    ],
+    "radios": [
+      "wifi"
+    ],
+    "matter": null,
+    "ble_gateway": null,
+    "zwave_repeater": null,
+    "local_api": true,
+    "mqtt": true,
+    "scripting": null,
+    "ul_listed": null,
+    "protections": [],
+    "temp_range_c": "-10..50",
+    "size_mm": "89.5x89.5x38 (plug excluded)",
+    "addon_port": false,
+    "requires": [],
+    "extra": {
+      "gas_type": "LPG variant (CNG variant is a separate SKU)",
+      "alarm_threshold": "6% LEL",
+      "siren": "≥70 dB",
+      "valve_output": "11-13V 500mA jack for valve manipulator",
+      "shell": "flame-resistant",
+      "protocols": "MQTT, CoAP, REST",
+      "power_draw": "<3 W"
+    }
+  },
+  "gotchas": [
+    "LPG (propane/butane) version — for natural gas (methane) you need the CNG version",
+    "Mains powered with no battery backup listed — no alarm during a power outage",
+    "No UL/listing info in specs; don't treat as a code-required life-safety alarm",
+    "Valve shut-off requires a separate valve manipulator on the 11-13V jack",
+    "Wi-Fi only (Gen1): no Bluetooth/scripting"
+  ],
+  "best_for": [
+    "propane appliances/RV/cabins where you want phone alerts plus local siren"
+  ],
+  "not_for": [
+    "natural-gas homes (buy CNG)",
+    "code-compliant listed alarms"
+  ],
+  "confidence": "medium"
+}

@@ -1,0 +1,98 @@
+{
+  "id": "shelly-pro-2pm-ul-certified",
+  "name": "Shelly Pro 2PM UL-Certified",
+  "price": 119.99,
+  "line": "Pro",
+  "summary": "UL-certified DIN-rail 2-channel 16 A metering relay with cover mode, Ethernet + Wi-Fi + BLE.",
+  "jobs": [
+    {
+      "job": "switch_load",
+      "role": "primary"
+    },
+    {
+      "job": "meter_circuit",
+      "role": "primary"
+    },
+    {
+      "job": "control_cover",
+      "role": "primary"
+    },
+    {
+      "job": "switch_high_current",
+      "role": "secondary"
+    },
+    {
+      "job": "ble_gateway_range",
+      "role": "secondary"
+    }
+  ],
+  "f": {
+    "form_factor": "din_rail",
+    "mains_powered": true,
+    "supply": "110-240VAC",
+    "dc_supply": false,
+    "battery": null,
+    "neutral_required": true,
+    "channels": 2,
+    "output_type": "dry_relay",
+    "max_current_a": 16,
+    "max_power_w": null,
+    "dc_switching": null,
+    "power_metering": "per_channel",
+    "metering_max_a": null,
+    "dimming": null,
+    "cover_control": true,
+    "color_light": null,
+    "inputs": "2 switch/button inputs (SW1, SW2)",
+    "input_count": 2,
+    "sensors": [
+      "internal_temp",
+      "voltage"
+    ],
+    "radios": [
+      "ethernet",
+      "wifi",
+      "bluetooth"
+    ],
+    "matter": null,
+    "ble_gateway": true,
+    "zwave_repeater": null,
+    "local_api": true,
+    "mqtt": true,
+    "scripting": true,
+    "ul_listed": true,
+    "protections": [
+      "overtemp",
+      "overvoltage",
+      "overcurrent",
+      "overpower"
+    ],
+    "temp_range_c": "-20..40",
+    "size_mm": "94x19x69",
+    "addon_port": true,
+    "requires": [
+      "DIN rail in a panel or enclosure"
+    ],
+    "extra": {
+      "total_current": "25 A total",
+      "model_in_kb": "SPSW-202PE16EU (v1)",
+      "relay_terminals": "separate I1/I2 inputs",
+      "cover_input_modes": 7,
+      "ble_gateway_source": "BLU device KBs list 'Shelly Plus / Gen3 / Gen4 / Pro series' as supported BLE gateways"
+    }
+  },
+  "gotchas": [
+    "16 A per channel but 25 A total",
+    "DIN-rail form: needs a panel or DIN enclosure",
+    "Inductive loads need an RC snubber; no DC switching rating",
+    "KB spec is the EU v1 model (SPSW-202PE16EU); no Zigbee/Matter listed"
+  ],
+  "best_for": [
+    "Panel-mounted shutter motors or two metered circuits with Ethernet backhaul"
+  ],
+  "not_for": [
+    "wall-box retrofits",
+    ">25 A combined loads"
+  ],
+  "confidence": "high"
+}

@@ -1,0 +1,81 @@
+{
+  "id": "shelly-wave-pro-shutter-lr-us",
+  "name": "Shelly Wave Pro Shutter LR US",
+  "price": 138.99,
+  "line": "Wave Pro",
+  "summary": "Z-Wave DIN-rail 120V shutter/venetian-blind controller with metering, 12.5A per channel; needs a Z-Wave hub.",
+  "jobs": [
+    {
+      "job": "control_cover",
+      "role": "primary"
+    },
+    {
+      "job": "zwave_mesh",
+      "role": "primary"
+    }
+  ],
+  "f": {
+    "form_factor": "din_rail",
+    "mains_powered": true,
+    "supply": "120VAC 50/60Hz",
+    "dc_supply": false,
+    "battery": null,
+    "neutral_required": null,
+    "channels": 1,
+    "output_type": null,
+    "max_current_a": 12.5,
+    "max_power_w": 1100,
+    "dc_switching": null,
+    "power_metering": "per_channel",
+    "metering_max_a": null,
+    "dimming": null,
+    "cover_control": true,
+    "color_light": null,
+    "inputs": "2 switch/push-button inputs (SW1, SW2)",
+    "input_count": 2,
+    "sensors": [],
+    "radios": [
+      "zwave"
+    ],
+    "matter": null,
+    "ble_gateway": false,
+    "zwave_repeater": true,
+    "local_api": false,
+    "mqtt": false,
+    "scripting": false,
+    "ul_listed": null,
+    "protections": [
+      "overtemp",
+      "overcurrent",
+      "overvoltage",
+      "overpower"
+    ],
+    "temp_range_c": "-20..40",
+    "size_mm": "94x19x69",
+    "addon_port": false,
+    "requires": [
+      "Z-Wave controller/gateway"
+    ],
+    "extra": {
+      "kb_mismatch": "kb_slug wave-pro-shutter-us is the non-LR Wave Pro Shutter US page: only 908.4 MHz listed, no LR band",
+      "overload": ">1100 W for 5 s trips output",
+      "modes": "shutter and venetian (slat) modes",
+      "tags_conflict": "store tags say Bluetooth/LAN; KB shows Z-Wave only",
+      "max_switching_voltage": "120V"
+    }
+  },
+  "gotchas": [
+    "Requires a Z-Wave controller — no Wi-Fi/LAN (store tags claiming Bluetooth/LAN conflict with KB)",
+    "120V-only motors; output trips above 1100 W",
+    "DIN-rail: motor leads must home-run to the panel",
+    "KB documents the non-LR US variant; LR radio not documented"
+  ],
+  "best_for": [
+    "Z-Wave homes centrally controlling 120V roller shutters or venetian blinds with tilt"
+  ],
+  "not_for": [
+    "240V motors",
+    "non-Z-Wave homes"
+  ],
+  "confidence": "low"
+}

@@ -1,0 +1,105 @@
+{
+  "id": "shelly-2pm-gen4-ul-certified",
+  "name": "Shelly 2PM Gen4 UL-Certified",
+  "price": 39.99,
+  "line": "Gen4",
+  "summary": "UL-certified 2-channel 10 A in-wall relay with per-channel metering, cover/tilt mode, Wi-Fi/Zigbee/Matter.",
+  "jobs": [
+    {
+      "job": "switch_load",
+      "role": "primary"
+    },
+    {
+      "job": "meter_circuit",
+      "role": "primary"
+    },
+    {
+      "job": "control_cover",
+      "role": "primary"
+    },
+    {
+      "job": "retrofit_wall_switch",
+      "role": "secondary"
+    },
+    {
+      "job": "ble_gateway_range",
+      "role": "secondary"
+    }
+  ],
+  "f": {
+    "form_factor": "in_wall",
+    "mains_powered": true,
+    "supply": "110-240VAC or 24VDC ±10%",
+    "dc_supply": true,
+    "battery": null,
+    "neutral_required": true,
+    "channels": 2,
+    "output_type": "wet_relay",
+    "max_current_a": 10,
+    "max_power_w": null,
+    "dc_switching": "10A/30V",
+    "power_metering": "per_channel",
+    "metering_max_a": null,
+    "dimming": null,
+    "cover_control": true,
+    "color_light": null,
+    "inputs": "2 switch/button inputs (S1, S2)",
+    "input_count": 2,
+    "sensors": [
+      "internal_temp",
+      "voltage"
+    ],
+    "radios": [
+      "wifi",
+      "bluetooth",
+      "zigbee",
+      "matter_over_wifi"
+    ],
+    "matter": true,
+    "ble_gateway": true,
+    "zwave_repeater": null,
+    "local_api": true,
+    "mqtt": true,
+    "scripting": true,
+    "ul_listed": true,
+    "protections": [
+      "overtemp",
+      "overvoltage",
+      "overcurrent",
+      "overpower"
+    ],
+    "temp_range_c": "-20..40",
+    "size_mm": "37x42x16",
+    "addon_port": true,
+    "requires": [],
+    "extra": {
+      "total_current": "16 A total, 18 A peak",
+      "model_in_kb": "S4SW-002P16EU",
+      "output_type_note": "inferred wet: no relay input terminal, outputs O1/O2 fed from L",
+      "venetian_tilt": true,
+      "cover_safety": [
+        "obstacle detection",
+        "safety switch"
+      ],
+      "external_protection": "B/C breaker max 16 A",
+      "addon_interface_warning": "mains potential on add-on port",
+      "ul_source": "family name 'UL-Certified'"
+    }
+  },
+  "gotchas": [
+    "10 A per channel but only 16 A total — two heavy loads can't both run at full rating",
+    "Inductive loads (LED drivers, fans, motors) need an RC snubber per KB",
+    "KB spec page is the EU model (S4SW-002P16EU); confirm US UL variant ratings on the label",
+    "Cover mode requires motors with electronic/mechanical limit switches set before connecting",
+    "37x42x16 mm — larger than Mini Gen4 modules; needs a reasonably deep box"
+  ],
+  "best_for": [
+    "Double-gang switch with two light circuits plus energy monitoring",
+    "Roller shade / venetian blind motor"
+  ],
+  "not_for": [
+    ">10 A single loads",
+    "dry-contact (potential-free) switching"
+  ],
+  "confidence": "high"
+}

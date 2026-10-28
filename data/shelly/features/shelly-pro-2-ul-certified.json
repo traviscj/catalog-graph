@@ -1,0 +1,82 @@
+{
+  "id": "shelly-pro-2-ul-certified",
+  "name": "Shelly Pro 2 UL-Certified",
+  "price": 84.99,
+  "line": "Pro",
+  "summary": "UL-certified DIN-rail 2-channel dry-contact relay (16A/ch, 25A total) with Ethernet, Wi-Fi, BLE.",
+  "jobs": [
+    {
+      "job": "switch_load",
+      "role": "primary"
+    },
+    {
+      "job": "switch_low_voltage",
+      "role": "primary"
+    },
+    {
+      "job": "switch_high_current",
+      "role": "secondary"
+    }
+  ],
+  "f": {
+    "form_factor": "din_rail",
+    "mains_powered": true,
+    "supply": "110-240VAC",
+    "dc_supply": false,
+    "battery": null,
+    "neutral_required": true,
+    "channels": 2,
+    "output_type": "dry_relay",
+    "max_current_a": 16,
+    "max_power_w": null,
+    "dc_switching": null,
+    "power_metering": "none",
+    "metering_max_a": null,
+    "dimming": null,
+    "cover_control": false,
+    "color_light": null,
+    "inputs": "2 switch/button inputs (SW1,SW2)",
+    "input_count": 2,
+    "sensors": [
+      "internal_temp"
+    ],
+    "radios": [
+      "ethernet",
+      "wifi",
+      "bluetooth"
+    ],
+    "matter": null,
+    "ble_gateway": null,
+    "zwave_repeater": null,
+    "local_api": true,
+    "mqtt": true,
+    "scripting": true,
+    "ul_listed": true,
+    "protections": [
+      "overtemp"
+    ],
+    "temp_range_c": "-20..40",
+    "size_mm": "94x19x69",
+    "addon_port": true,
+    "requires": [],
+    "extra": {
+      "total_current_a": 25,
+      "kb_model": "SPSW-202XE16EU (Pro 2 v.1, EU model)",
+      "ul_conflict": "KB is EU v1 page; UL-specific ratings not shown"
+    }
+  },
+  "gotchas": [
+    "25A combined limit — can't run both channels at 16A",
+    "No power metering — see Shelly Pro 2PM",
+    "DIN-rail: needs a panel/enclosure",
+    "Ethernet only hot-plug-safe when powered off"
+  ],
+  "best_for": [
+    "two panel-mounted dry-contact circuits over wired Ethernet"
+  ],
+  "not_for": [
+    "metering",
+    "cover/shutter motors (use Pro Dual Cover PM)"
+  ],
+  "confidence": "medium"
+}

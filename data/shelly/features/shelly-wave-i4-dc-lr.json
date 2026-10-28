@@ -1,0 +1,77 @@
+{
+  "id": "shelly-wave-i4-dc-lr",
+  "name": "Shelly Wave i4 DC LR",
+  "price": 33.99,
+  "line": "Wave",
+  "summary": "5-24 V DC Z-Wave 800 4-input scene controller for buttons/switches; no outputs.",
+  "jobs": [
+    {
+      "job": "input_trigger",
+      "role": "primary"
+    },
+    {
+      "job": "zwave_mesh",
+      "role": "primary"
+    }
+  ],
+  "f": {
+    "form_factor": "in_wall",
+    "mains_powered": false,
+    "supply": "5-24VDC",
+    "dc_supply": true,
+    "battery": null,
+    "neutral_required": false,
+    "channels": null,
+    "output_type": "none",
+    "max_current_a": null,
+    "max_power_w": null,
+    "dc_switching": null,
+    "power_metering": "none",
+    "metering_max_a": null,
+    "dimming": null,
+    "cover_control": false,
+    "color_light": null,
+    "inputs": "4 switch/button inputs",
+    "input_count": 4,
+    "sensors": [],
+    "radios": [
+      "zwave"
+    ],
+    "matter": false,
+    "ble_gateway": false,
+    "zwave_repeater": true,
+    "local_api": false,
+    "mqtt": false,
+    "scripting": false,
+    "ul_listed": null,
+    "protections": [],
+    "temp_range_c": "-20..40",
+    "size_mm": "37x42x16",
+    "addon_port": false,
+    "requires": [
+      "Z-Wave controller/hub (US 908.4 MHz)",
+      "5-24 V DC power supply"
+    ],
+    "extra": {
+      "zwave_chip": "S800",
+      "frequency": "908.4 MHz",
+      "overcurrent_protection": false,
+      "kb_boilerplate": "KB inclusion text mentions 'the blind connected to the Device' — copy-paste from Wave Shutter docs",
+      "input_voltage_spec": "not documented"
+    }
+  },
+  "gotchas": [
+    "DC-only (5-24 V) — mains installs need a separate low-voltage PSU",
+    "Inputs only — triggers scenes, switches nothing itself",
+    "Needs a Z-Wave hub",
+    "Input signal voltage/wiring details not in KB scrape (page has Shutter boilerplate)"
+  ],
+  "best_for": [
+    "Z-Wave scene keypads from low-voltage buttons or dry contacts"
+  ],
+  "not_for": [
+    "direct load control",
+    "mains-only boxes"
+  ],
+  "confidence": "medium"
+}

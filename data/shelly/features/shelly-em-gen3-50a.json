@@ -1,0 +1,81 @@
+{
+  "id": "shelly-em-gen3-50a",
+  "name": "Shelly EM Gen3 50A",
+  "price": 69.99,
+  "line": "Gen3",
+  "summary": "2-channel single-phase CT energy meter (50A CT included, 80A optional) with 2A dry contact for contactors.",
+  "jobs": [
+    {
+      "job": "meter_panel",
+      "role": "primary"
+    },
+    {
+      "job": "switch_low_voltage",
+      "role": "secondary"
+    }
+  ],
+  "f": {
+    "form_factor": "clamp_ct",
+    "mains_powered": true,
+    "supply": "110-240VAC 50/60Hz",
+    "dc_supply": false,
+    "battery": null,
+    "neutral_required": true,
+    "channels": 2,
+    "output_type": "dry_relay",
+    "max_current_a": 2,
+    "max_power_w": null,
+    "dc_switching": null,
+    "power_metering": "2ch_clamp",
+    "metering_max_a": 50,
+    "dimming": null,
+    "cover_control": false,
+    "color_light": null,
+    "inputs": null,
+    "input_count": 0,
+    "sensors": [
+      "internal_temp",
+      "voltage"
+    ],
+    "radios": [
+      "wifi",
+      "bluetooth"
+    ],
+    "matter": null,
+    "ble_gateway": null,
+    "zwave_repeater": null,
+    "local_api": true,
+    "mqtt": true,
+    "scripting": true,
+    "ul_listed": null,
+    "protections": [],
+    "temp_range_c": "-20..40",
+    "size_mm": "37x42x16",
+    "addon_port": null,
+    "requires": [],
+    "extra": {
+      "ct_options": "CT 50A included; CT 80A compatible (ammeter range 0-80A)",
+      "accuracy": "±2% 2-50A",
+      "data_log": "≥10 days @1-min",
+      "relay": "2A/240V dry contact for contactor control",
+      "channel_cal_min_load_w": 500,
+      "no_load_threshold": "30VA/ch",
+      "external_protection": "2A breaker",
+      "price_note": "family '50A' = CT bundled"
+    }
+  },
+  "gotchas": [
+    "Included CT tops out at 50A (80A with optional CT) — not enough for a 100-200A US service main; use per-circuit",
+    "Relay is only 2A — drives a contactor coil, not a load directly",
+    "Single voltage input: both channels referenced to one L–N measurement",
+    "Mounts in a panel/cabinet with CT leads — needs an enclosure and electrician"
+  ],
+  "best_for": [
+    "metering two branch circuits (EV, HVAC, solar) on a 110-240V panel with contactor control"
+  ],
+  "not_for": [
+    "whole-service mains >80A",
+    "direct load switching"
+  ],
+  "confidence": "high"
+}

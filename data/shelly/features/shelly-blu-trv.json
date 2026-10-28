@@ -1,0 +1,84 @@
+{
+  "id": "shelly-blu-trv",
+  "name": "Shelly BLU TRV",
+  "price": 64.99,
+  "line": "BLU",
+  "summary": "AA-battery Bluetooth/Zigbee thermostatic radiator valve head (M30x1.5) with display, boost and external-sensor support.",
+  "jobs": [
+    {
+      "job": "thermostat_hvac",
+      "role": "primary"
+    },
+    {
+      "job": "ble_gateway_range",
+      "role": "secondary"
+    }
+  ],
+  "f": {
+    "form_factor": "battery_sensor",
+    "mains_powered": false,
+    "supply": null,
+    "dc_supply": false,
+    "battery": "2xAA (included)",
+    "neutral_required": false,
+    "channels": 1,
+    "output_type": "none",
+    "max_current_a": null,
+    "max_power_w": null,
+    "dc_switching": null,
+    "power_metering": "none",
+    "metering_max_a": null,
+    "dimming": null,
+    "cover_control": false,
+    "color_light": null,
+    "inputs": "rotary knob + reset button",
+    "input_count": 0,
+    "sensors": [
+      "temp"
+    ],
+    "radios": [
+      "bluetooth",
+      "zigbee"
+    ],
+    "matter": null,
+    "ble_gateway": false,
+    "zwave_repeater": null,
+    "local_api": null,
+    "mqtt": null,
+    "scripting": false,
+    "ul_listed": null,
+    "protections": [],
+    "temp_range_c": "-20..60",
+    "size_mm": "78xØ54",
+    "addon_port": false,
+    "requires": [
+      "Shelly BLU Gateway Gen3 (local) or Shelly Wi-Fi device as BLE gateway (fw ≥2.2.0, cloud)",
+      "or Zigbee coordinator"
+    ],
+    "extra": {
+      "battery_life": "up to 2 years",
+      "valve_thread": "M30x1.5 native; adapters for Danfoss RA/RAV/RAVL, Caleffi, Giacomini, M28x1.5 etc.",
+      "model": "SBTR-001AEU",
+      "accuracy": "±0.1 °C setpoint resolution",
+      "display": "3-digit 7-segment LED",
+      "modes": "temperature TRV or manual valve %",
+      "external_sensors": "Shelly BLU H&T, BLU Door/Window",
+      "zigbee_reconnect": "retries stop after ~8.5 days offline until reboot"
+    }
+  },
+  "gotchas": [
+    "EU-model (SBTR-001AEU) radiator valve head — only for hydronic radiators with M30x1.5 or adapter-supported valves, not US forced-air/baseboard",
+    "No Wi-Fi: app control needs a Shelly BLE-gateway device (cloud) or BLU Gateway Gen3 for local control",
+    "If Zigbee coordinator is unreachable ~8.5 days, retries stop until you reboot the TRV",
+    "AA batteries ~2 years; failed OTA on weak batteries can drop it into bootloader (needs Android debug app)",
+    "Oventrop/Vaillant/Ista etc. need third-party adapters — check the valve compatibility PDF"
+  ],
+  "best_for": [
+    "room-by-room hydronic radiator control in a Shelly/Zigbee home"
+  ],
+  "not_for": [
+    "central HVAC thermostats",
+    "US steam/baseboard without compatible valves"
+  ],
+  "confidence": "high"
+}

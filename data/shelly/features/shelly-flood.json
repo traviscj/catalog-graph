@@ -1,0 +1,77 @@
+{
+  "id": "shelly-flood",
+  "name": "Shelly Flood",
+  "price": 24.99,
+  "line": "Gen1",
+  "summary": "Gen1 Wi-Fi battery spot water-leak sensor with temperature reading.",
+  "jobs": [
+    {
+      "job": "sense_leak",
+      "role": "primary"
+    },
+    {
+      "job": "sense_temp_humidity",
+      "role": "secondary"
+    }
+  ],
+  "f": {
+    "form_factor": "battery_sensor",
+    "mains_powered": false,
+    "supply": null,
+    "dc_supply": false,
+    "battery": "CR123A 3V lithium (not included; no rechargeables)",
+    "neutral_required": false,
+    "channels": 0,
+    "output_type": "none",
+    "max_current_a": null,
+    "max_power_w": null,
+    "dc_switching": null,
+    "power_metering": "none",
+    "metering_max_a": null,
+    "dimming": null,
+    "cover_control": false,
+    "color_light": null,
+    "inputs": null,
+    "input_count": 0,
+    "sensors": [
+      "flood",
+      "temp"
+    ],
+    "radios": [
+      "wifi"
+    ],
+    "matter": null,
+    "ble_gateway": false,
+    "zwave_repeater": null,
+    "local_api": true,
+    "mqtt": true,
+    "scripting": null,
+    "ul_listed": null,
+    "protections": [],
+    "temp_range_c": "-40..40",
+    "size_mm": "70x19 (Ø x H)",
+    "addon_port": false,
+    "requires": [],
+    "extra": {
+      "battery_life": "18 months",
+      "temp_range_measure": "-40..60 °C ±1 °C",
+      "protocols": "MQTT, CoAP, REST",
+      "available": false
+    }
+  },
+  "gotchas": [
+    "Battery not included (CR123A); rechargeable cells explicitly prohibited",
+    "Wi-Fi battery device: ~18-month battery life vs multi-year BLU/Zigbee sensors",
+    "Spot sensor only — the Shelly Leak Sensor Cable fits Flood Gen4, not this Gen1 model",
+    "Gen1: no Bluetooth, no scripting",
+    "Listed as unavailable"
+  ],
+  "best_for": [
+    "single-point leak alert under a water heater/sink without any hub"
+  ],
+  "not_for": [
+    "long leak runs (cable)",
+    "zero-maintenance multi-year battery"
+  ],
+  "confidence": "medium"
+}

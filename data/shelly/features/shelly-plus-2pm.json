@@ -1,0 +1,97 @@
+{
+  "id": "shelly-plus-2pm",
+  "name": "Shelly Plus 2PM",
+  "price": 104.49,
+  "line": "Plus(Gen2)",
+  "summary": "Gen2 2-channel 10 A in-wall relay with per-channel metering and cover mode, Wi-Fi/BLE.",
+  "jobs": [
+    {
+      "job": "switch_load",
+      "role": "primary"
+    },
+    {
+      "job": "meter_circuit",
+      "role": "primary"
+    },
+    {
+      "job": "control_cover",
+      "role": "primary"
+    },
+    {
+      "job": "retrofit_wall_switch",
+      "role": "secondary"
+    },
+    {
+      "job": "ble_gateway_range",
+      "role": "secondary"
+    }
+  ],
+  "f": {
+    "form_factor": "in_wall",
+    "mains_powered": true,
+    "supply": "110-240VAC or 24VDC ±10%",
+    "dc_supply": true,
+    "battery": null,
+    "neutral_required": true,
+    "channels": 2,
+    "output_type": "wet_relay",
+    "max_current_a": 10,
+    "max_power_w": null,
+    "dc_switching": "10A/30V",
+    "power_metering": "per_channel",
+    "metering_max_a": null,
+    "dimming": null,
+    "cover_control": true,
+    "color_light": null,
+    "inputs": "2 switch/button inputs (S1, S2)",
+    "input_count": 2,
+    "sensors": [
+      "internal_temp",
+      "voltage"
+    ],
+    "radios": [
+      "wifi",
+      "bluetooth"
+    ],
+    "matter": null,
+    "ble_gateway": true,
+    "zwave_repeater": null,
+    "local_api": true,
+    "mqtt": true,
+    "scripting": true,
+    "ul_listed": null,
+    "protections": [
+      "overtemp",
+      "overvoltage",
+      "overcurrent",
+      "overpower"
+    ],
+    "temp_range_c": "-20..40",
+    "size_mm": "37x42x16",
+    "addon_port": true,
+    "requires": [],
+    "extra": {
+      "total_current": "16 A total, 18 A peak",
+      "model_in_kb": "SNSW-002P16EU",
+      "terminals": "20-16 AWG",
+      "ble_gateway_source": "BLU device KBs list 'Shelly Plus / Gen3 / Gen4 / Pro series' as supported BLE gateways",
+      "available": false,
+      "price_oddity": "$104.49 on a '-us-list' handle vs $39.99 for 2PM Gen4 — likely a multi-pack/list price",
+      "output_type_note": "inferred wet: no relay input terminal"
+    }
+  },
+  "gotchas": [
+    "Superseded and pricier: $104.49 listing vs $39.99 — see Shelly 2PM Gen4 UL-Certified (adds Zigbee/Matter, UL)",
+    "Terminals take only 20-16 AWG — US 14/12 AWG branch wiring won't land directly",
+    "16 A total across both channels; inductive loads need an RC snubber",
+    "Listed out of stock"
+  ],
+  "best_for": [
+    "Existing Gen2 fleets needing a like-for-like replacement"
+  ],
+  "not_for": [
+    "new installs (Gen4 is cheaper)",
+    "Zigbee/Matter ecosystems"
+  ],
+  "confidence": "high"
+}

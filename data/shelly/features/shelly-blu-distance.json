@@ -1,0 +1,82 @@
+{
+  "id": "shelly-blu-distance",
+  "name": "Shelly BLU Distance",
+  "price": 42.99,
+  "line": "BLU",
+  "summary": "Battery Bluetooth ultrasonic distance/level sensor, 0.2-5 m, IP64, for tanks and parking spots.",
+  "jobs": [
+    {
+      "job": "sense_distance_level",
+      "role": "primary"
+    }
+  ],
+  "f": {
+    "form_factor": "battery_sensor",
+    "mains_powered": false,
+    "supply": null,
+    "dc_supply": false,
+    "battery": "1x 3.6V Li-SOCl2 14505 (2700 mAh)",
+    "neutral_required": false,
+    "channels": null,
+    "output_type": "none",
+    "max_current_a": null,
+    "max_power_w": null,
+    "dc_switching": null,
+    "power_metering": "none",
+    "metering_max_a": null,
+    "dimming": null,
+    "cover_control": false,
+    "color_light": null,
+    "inputs": "1 push button",
+    "input_count": null,
+    "sensors": [
+      "distance",
+      "vibration",
+      "button"
+    ],
+    "radios": [
+      "bluetooth"
+    ],
+    "matter": false,
+    "ble_gateway": false,
+    "zwave_repeater": null,
+    "local_api": null,
+    "mqtt": null,
+    "scripting": null,
+    "ul_listed": null,
+    "protections": [],
+    "temp_range_c": "-20..40",
+    "size_mm": "117.9x35.3 (LxD, with casing)",
+    "addon_port": false,
+    "requires": [
+      "Shelly BLE gateway (Plus/Gen3/Gen4/Pro device) or BTHome receiver within BLE range for cloud/automation"
+    ],
+    "extra": {
+      "ip_rating": "IP64",
+      "range_mm": "200-5000",
+      "accuracy": "±2 cm (0.2-2 m), ±1% above 2 m",
+      "battery_life": "up to 4 years",
+      "interval_s": "5-300 (default 30)",
+      "mount_hole_mm": 36,
+      "available": false,
+      "encryption": "AES-CCM",
+      "range_modes": 7
+    }
+  },
+  "gotchas": [
+    "Bluetooth-only: needs a Shelly BLE gateway within ~10 m indoors (e.g. Shelly 1 Mini Gen4, Plug US Gen4) to reach the network",
+    "200 mm blind zone — must be mounted ≥20 cm above max liquid level",
+    "±1% above 2 m (≈±5 cm at 5 m) — coarse for small tank-level deltas",
+    "Needs a ≥Ø36 mm mounting hole; Li-SOCl2 14505 battery is a specialty cell",
+    "Listed as out of stock"
+  ],
+  "best_for": [
+    "Water/fuel tank or cistern level",
+    "garage parking-spot occupancy"
+  ],
+  "not_for": [
+    "sub-20 cm ranges",
+    "sites with no Shelly gateway/BTHome hub nearby"
+  ],
+  "confidence": "high"
+}

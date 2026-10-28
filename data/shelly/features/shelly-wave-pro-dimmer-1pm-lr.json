@@ -1,0 +1,84 @@
+{
+  "id": "shelly-wave-pro-dimmer-1pm-lr",
+  "name": "Shelly Wave Pro Dimmer 1PM LR",
+  "price": 107.99,
+  "line": "Wave Pro",
+  "summary": "DIN-rail Z-Wave Long Range trailing-edge dimmer, 200W, with power metering.",
+  "jobs": [
+    {
+      "job": "zwave_mesh",
+      "role": "primary"
+    },
+    {
+      "job": "dim_light",
+      "role": "primary"
+    },
+    {
+      "job": "meter_circuit",
+      "role": "secondary"
+    }
+  ],
+  "f": {
+    "form_factor": "din_rail",
+    "mains_powered": true,
+    "supply": "110-240VAC 50/60Hz",
+    "dc_supply": false,
+    "battery": null,
+    "neutral_required": null,
+    "channels": 1,
+    "output_type": "mosfet_dimmer",
+    "max_current_a": null,
+    "max_power_w": 200,
+    "dc_switching": null,
+    "power_metering": "per_channel",
+    "metering_max_a": null,
+    "dimming": "trailing",
+    "cover_control": false,
+    "color_light": null,
+    "inputs": null,
+    "input_count": null,
+    "sensors": [],
+    "radios": [
+      "zwave",
+      "zwave_lr"
+    ],
+    "matter": false,
+    "ble_gateway": false,
+    "zwave_repeater": true,
+    "local_api": false,
+    "mqtt": false,
+    "scripting": false,
+    "ul_listed": null,
+    "protections": [
+      "overtemp",
+      "overcurrent",
+      "overvoltage"
+    ],
+    "temp_range_c": "-20..40",
+    "size_mm": "94x19x69",
+    "addon_port": false,
+    "requires": [
+      "Z-Wave controller (LR-capable for Long Range)"
+    ],
+    "extra": {
+      "zwave_freq": "908.4 MHz (US)",
+      "external_protection": "10A B/C",
+      "output_type_note": "trailing-edge implies MOSFET/IGBT; not stated",
+      "thin_data": "KB spec only; min load/LED compatibility not scraped"
+    }
+  },
+  "gotchas": [
+    "Only 200W max output — small LED/halogen groups only",
+    "Trailing-edge only — magnetic low-voltage transformers need leading-edge",
+    "Z-Wave only, needs a hub; DIN-rail needs a panel",
+    "Min-load/LED flicker data not published in scraped spec"
+  ],
+  "best_for": [
+    "panel-mounted dimming of a modest LED circuit in Z-Wave homes"
+  ],
+  "not_for": [
+    "large lighting loads",
+    "magnetic transformers"
+  ],
+  "confidence": "medium"
+}

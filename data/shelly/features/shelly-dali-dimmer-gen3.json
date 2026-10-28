@@ -1,0 +1,85 @@
+{
+  "id": "shelly-dali-dimmer-gen3",
+  "name": "Shelly DALI Dimmer Gen3",
+  "price": 49.99,
+  "line": "Gen3",
+  "summary": "In-wall Wi-Fi/BLE DALI single-master broadcast controller with built-in bus supply for up to 5 gear.",
+  "jobs": [
+    {
+      "job": "dim_lowvolt_driver",
+      "role": "primary"
+    },
+    {
+      "job": "dim_light",
+      "role": "secondary"
+    },
+    {
+      "job": "retrofit_wall_switch",
+      "role": "secondary"
+    }
+  ],
+  "f": {
+    "form_factor": "in_wall",
+    "mains_powered": true,
+    "supply": "110-240VAC 50/60Hz",
+    "dc_supply": false,
+    "battery": null,
+    "neutral_required": true,
+    "channels": 1,
+    "output_type": "dali",
+    "max_current_a": null,
+    "max_power_w": null,
+    "dc_switching": null,
+    "power_metering": "none",
+    "metering_max_a": null,
+    "dimming": "dali",
+    "cover_control": false,
+    "color_light": null,
+    "inputs": "2 switch/button inputs (S1,S2)",
+    "input_count": 2,
+    "sensors": [
+      "internal_temp"
+    ],
+    "radios": [
+      "wifi",
+      "bluetooth"
+    ],
+    "matter": null,
+    "ble_gateway": null,
+    "zwave_repeater": null,
+    "local_api": true,
+    "mqtt": true,
+    "scripting": true,
+    "ul_listed": null,
+    "protections": [
+      "overtemp"
+    ],
+    "temp_range_c": "-20..40",
+    "size_mm": "42x37x17",
+    "addon_port": true,
+    "requires": [],
+    "extra": {
+      "dali": "single-master application controller, DT6 (Part 207) LED gear, broadcast only (all gear as one group)",
+      "bus_supply": "16V, 10mA guaranteed (≤5 unpowered bus units), <35mA short-circuit",
+      "cct": "not supported",
+      "bus_fail": "gear goes 100% on bus failure",
+      "tls": "TLS 1.2"
+    }
+  },
+  "gotchas": [
+    "Broadcast only — all DALI gear dims together as one group, no per-fixture addressing",
+    "No tunable-white/color temperature control (DT6 intensity only)",
+    "Internal bus supply only guarantees ~5 bus units; more gear needs an external DALI PSU",
+    "Can't share the bus with other DALI controllers (single-master)",
+    "Needs neutral"
+  ],
+  "best_for": [
+    "bringing a small DALI LED driver group into Shelly/HA from a wall box"
+  ],
+  "not_for": [
+    "addressable DALI systems",
+    "DALI DT8 color/CCT",
+    "multi-master buses"
+  ],
+  "confidence": "high"
+}

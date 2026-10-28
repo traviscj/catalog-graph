@@ -1,0 +1,90 @@
+{
+  "id": "shelly-blu-remote-control-zb",
+  "name": "Shelly BLU Remote Control ZB",
+  "price": 35.99,
+  "line": "BLU",
+  "summary": "4-channel battery remote with scroll wheel and gesture control over Bluetooth and Zigbee.",
+  "jobs": [
+    {
+      "job": "remote_button",
+      "role": "primary"
+    },
+    {
+      "job": "dim_light",
+      "role": "secondary"
+    },
+    {
+      "job": "control_cover",
+      "role": "secondary"
+    }
+  ],
+  "f": {
+    "form_factor": "battery_sensor",
+    "mains_powered": false,
+    "supply": null,
+    "dc_supply": false,
+    "battery": "2x AAA",
+    "neutral_required": false,
+    "channels": 4,
+    "output_type": "none",
+    "max_current_a": null,
+    "max_power_w": null,
+    "dc_switching": null,
+    "power_metering": "none",
+    "metering_max_a": null,
+    "dimming": null,
+    "cover_control": false,
+    "color_light": null,
+    "inputs": "4 buttons (2 nav, 2 ring) + scroll wheel",
+    "input_count": null,
+    "sensors": [
+      "button",
+      "tilt"
+    ],
+    "radios": [
+      "bluetooth",
+      "zigbee"
+    ],
+    "matter": false,
+    "ble_gateway": false,
+    "zwave_repeater": null,
+    "local_api": null,
+    "mqtt": false,
+    "scripting": false,
+    "ul_listed": null,
+    "protections": [],
+    "temp_range_c": "-20..40",
+    "size_mm": "129x47x24",
+    "addon_port": false,
+    "requires": [
+      "Shelly Gen3/Gen4/Pro device (direct Default Command Mapping), a Plus device as BLE gateway, or a Zigbee coordinator"
+    ],
+    "extra": {
+      "battery_life": "~2 years",
+      "accelerometer": true,
+      "buzzer": true,
+      "beacon_mode": true,
+      "bthome": true,
+      "integrations": {
+        "alexa": "Doorbell EventSource only",
+        "google": false,
+        "smartthings": false
+      }
+    }
+  },
+  "gotchas": [
+    "No Wi-Fi: talks BLE/Zigbee only — needs Shelly Gen3/Gen4/Pro devices nearby (Plus works only as gateway) or a Zigbee hub",
+    "Default Command Mapping (scroll-to-dim/cover) only on specific Gen3/Gen4/Pro devices",
+    "~10 m indoor range on both radios",
+    "No Google Home or SmartThings support; Alexa sees it only as a doorbell event"
+  ],
+  "best_for": [
+    "Couch remote for Shelly dimmers/covers",
+    "Home Assistant BTHome remote"
+  ],
+  "not_for": [
+    "Google/SmartThings households",
+    "whole-house range without gateways"
+  ],
+  "confidence": "high"
+}

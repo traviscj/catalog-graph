@@ -1,0 +1,92 @@
+{
+  "id": "shelly-plus-rgbw-pm",
+  "name": "Shelly Plus RGBW PM",
+  "price": 39.99,
+  "line": "Plus(Gen2)",
+  "summary": "12/24VDC 4-channel PWM LED strip controller (RGBW/RGB/4x mono) with per-channel power metering.",
+  "jobs": [
+    {
+      "job": "color_light",
+      "role": "primary"
+    },
+    {
+      "job": "meter_circuit",
+      "role": "secondary"
+    },
+    {
+      "job": "input_trigger",
+      "role": "secondary"
+    },
+    {
+      "job": "ble_gateway_range",
+      "role": "secondary"
+    }
+  ],
+  "f": {
+    "form_factor": "in_wall",
+    "mains_powered": false,
+    "supply": "12/24VDC",
+    "dc_supply": true,
+    "battery": null,
+    "neutral_required": false,
+    "channels": 4,
+    "output_type": "pwm_rgbw",
+    "max_current_a": 4,
+    "max_power_w": null,
+    "dc_switching": "4A/24V per ch, 10A total",
+    "power_metering": "per_channel",
+    "metering_max_a": 10,
+    "dimming": "pwm",
+    "cover_control": false,
+    "color_light": "rgbw",
+    "inputs": "4 switch/button/analog (10kΩ pot) inputs",
+    "input_count": 4,
+    "sensors": [
+      "internal_temp",
+      "voltage"
+    ],
+    "radios": [
+      "wifi",
+      "bluetooth"
+    ],
+    "matter": null,
+    "ble_gateway": true,
+    "zwave_repeater": null,
+    "local_api": true,
+    "mqtt": true,
+    "scripting": true,
+    "ul_listed": null,
+    "protections": [
+      "overtemp",
+      "overcurrent"
+    ],
+    "temp_range_c": "-20..40",
+    "size_mm": "42x37x12",
+    "addon_port": true,
+    "requires": [
+      "12/24VDC LED power supply"
+    ],
+    "extra": {
+      "profiles": "rgbw, rgb, light (4 independent mono channels)",
+      "pwm": "833 Hz default; 22 kHz high-frequency mode",
+      "max_current_note": "max_current_a is DC per channel (no AC output)",
+      "model": "SNDC-0D4P10WW",
+      "price_range": "39.99-78.99"
+    }
+  },
+  "gotchas": [
+    "DC-only: needs a separate 12/24V LED driver; it does not run from mains",
+    "Single white channel — no tunable-white/CCT (RGBWW); for that see Shelly Pro RGBWW PM",
+    "4A per channel but 10A total across all outputs",
+    "833 Hz default PWM can whine; 22 kHz mode reduces noise but degrades low-brightness color accuracy",
+    "Mains wall switches need a Shelly 1/4-Channel Decoupler 120V to drive its DC inputs"
+  ],
+  "best_for": [
+    "12/24V RGBW or 4-zone mono LED strip installs with energy monitoring"
+  ],
+  "not_for": [
+    "mains LED dimming",
+    "tunable-white strips"
+  ],
+  "confidence": "high"
+}

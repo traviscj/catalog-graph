@@ -1,0 +1,97 @@
+{
+  "id": "shelly-pro-dimmer-1pm",
+  "name": "Shelly Pro Dimmer 1PM",
+  "price": 84.99,
+  "line": "Pro",
+  "summary": "DIN-rail trailing-edge mains dimmer with metering and Ethernet; 200 W @230 V, 100 W @120 V.",
+  "jobs": [
+    {
+      "job": "dim_light",
+      "role": "primary"
+    },
+    {
+      "job": "meter_circuit",
+      "role": "secondary"
+    },
+    {
+      "job": "ble_gateway_range",
+      "role": "secondary"
+    }
+  ],
+  "f": {
+    "form_factor": "din_rail",
+    "mains_powered": true,
+    "supply": "110-240VAC 50/60Hz",
+    "dc_supply": false,
+    "battery": null,
+    "neutral_required": true,
+    "channels": 1,
+    "output_type": "mosfet_dimmer",
+    "max_current_a": 0.85,
+    "max_power_w": 200,
+    "dc_switching": null,
+    "power_metering": "per_channel",
+    "metering_max_a": null,
+    "dimming": "trailing",
+    "cover_control": false,
+    "color_light": null,
+    "inputs": "2 switch/button inputs (SW1, SW2)",
+    "input_count": 2,
+    "sensors": [
+      "internal_temp",
+      "voltage"
+    ],
+    "radios": [
+      "ethernet",
+      "wifi",
+      "bluetooth"
+    ],
+    "matter": null,
+    "ble_gateway": true,
+    "zwave_repeater": null,
+    "local_api": true,
+    "mqtt": true,
+    "scripting": true,
+    "ul_listed": null,
+    "protections": [
+      "overtemp",
+      "overvoltage",
+      "overcurrent",
+      "overpower"
+    ],
+    "temp_range_c": "-20..40",
+    "size_mm": "94x19x69",
+    "addon_port": true,
+    "requires": [
+      "DIN rail in a panel or enclosure"
+    ],
+    "extra": {
+      "max_power_120v_w": 100,
+      "max_power_230v_w": 200,
+      "model": "SPDM-001PE01EU",
+      "output_type_note": "inferred from 'Trailing edge' dimming type",
+      "external_protection": "B/C breaker max 10 A",
+      "features": [
+        "auto calibration",
+        "warm-up pulse",
+        "gamma correction",
+        "min/max brightness",
+        "night mode"
+      ]
+    }
+  },
+  "gotchas": [
+    "Only 100 W at 120 V (200 W at 230 V) — one or two LED circuits at most on US mains",
+    "DIN-rail form: needs a panel/enclosure, not a wall box",
+    "Trailing-edge only; KB model is EU (SPDM-001PE01EU) with no UL listing stated",
+    "Spec calls for ≤10 A upstream breaker"
+  ],
+  "best_for": [
+    "Panel-centralized dimming of small LED/halogen loads with wired Ethernet"
+  ],
+  "not_for": [
+    ">100 W US lighting loads",
+    "0-10V drivers (see Shelly Dimmer 0/1-10V PM Gen4)"
+  ],
+  "confidence": "high"
+}

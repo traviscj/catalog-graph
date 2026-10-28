@@ -1,0 +1,87 @@
+{
+  "id": "shelly-pro-4pm",
+  "name": "Shelly Pro 4PM",
+  "price": 142.99,
+  "line": "Pro",
+  "summary": "DIN-rail 4-channel 16A metered relay (40A total) with color display, Ethernet, Wi-Fi, BLE.",
+  "jobs": [
+    {
+      "job": "switch_load",
+      "role": "primary"
+    },
+    {
+      "job": "meter_circuit",
+      "role": "primary"
+    },
+    {
+      "job": "switch_high_current",
+      "role": "secondary"
+    }
+  ],
+  "f": {
+    "form_factor": "din_rail",
+    "mains_powered": true,
+    "supply": "110-240VAC",
+    "dc_supply": false,
+    "battery": null,
+    "neutral_required": true,
+    "channels": 4,
+    "output_type": "wet_relay",
+    "max_current_a": 16,
+    "max_power_w": null,
+    "dc_switching": null,
+    "power_metering": "per_channel",
+    "metering_max_a": null,
+    "dimming": null,
+    "cover_control": false,
+    "color_light": null,
+    "inputs": "4 switch/button inputs (S1-S4)",
+    "input_count": 4,
+    "sensors": [
+      "internal_temp",
+      "voltage"
+    ],
+    "radios": [
+      "ethernet",
+      "wifi",
+      "bluetooth"
+    ],
+    "matter": null,
+    "ble_gateway": null,
+    "zwave_repeater": null,
+    "local_api": true,
+    "mqtt": true,
+    "scripting": true,
+    "ul_listed": null,
+    "protections": [
+      "overtemp",
+      "overvoltage",
+      "overcurrent",
+      "overpower"
+    ],
+    "temp_range_c": "-20..40",
+    "size_mm": "96x53x59",
+    "addon_port": false,
+    "requires": [],
+    "extra": {
+      "total_current_a": 40,
+      "display": "color LCD + 3 front buttons",
+      "kb_model": "SPSW-104PE16EU (Pro 4PM V2)",
+      "output_note": "relay outputs O1-O4; no separate I terminals, so treated as line-fed"
+    }
+  },
+  "gotchas": [
+    "40A combined cap across 4 channels",
+    "DIN-rail, 3 modules wide — needs panel/enclosure space",
+    "No dry-contact inputs per channel (relays share supply line) — for potential-free see Shelly Pro 2 UL-Certified",
+    "No add-on interface listed"
+  ],
+  "best_for": [
+    "panel-mounted metered control of four lighting/appliance circuits"
+  ],
+  "not_for": [
+    "low-voltage/dry-contact signalling",
+    "wall boxes"
+  ],
+  "confidence": "high"
+}

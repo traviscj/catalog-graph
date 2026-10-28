@@ -1,0 +1,81 @@
+{
+  "id": "shelly-plus-wall-dimmer",
+  "name": "Shelly Plus Wall Dimmer",
+  "price": 32.99,
+  "line": "Plus(Gen2)",
+  "summary": "UL-certified US decora-style touch-slider Wi-Fi dimmer replacing a wall switch, 150 W LED.",
+  "jobs": [
+    {
+      "job": "dim_light",
+      "role": "primary"
+    },
+    {
+      "job": "retrofit_wall_switch",
+      "role": "primary"
+    }
+  ],
+  "f": {
+    "form_factor": "wall_device",
+    "mains_powered": true,
+    "supply": "100-120VAC 50/60Hz",
+    "dc_supply": false,
+    "battery": null,
+    "neutral_required": true,
+    "channels": 1,
+    "output_type": null,
+    "max_current_a": null,
+    "max_power_w": 400,
+    "dc_switching": null,
+    "power_metering": null,
+    "metering_max_a": null,
+    "dimming": null,
+    "cover_control": false,
+    "color_light": null,
+    "inputs": "power button + touch slider",
+    "input_count": 0,
+    "sensors": [],
+    "radios": [
+      "wifi",
+      "bluetooth"
+    ],
+    "matter": null,
+    "ble_gateway": null,
+    "zwave_repeater": null,
+    "local_api": true,
+    "mqtt": true,
+    "scripting": true,
+    "ul_listed": true,
+    "protections": [],
+    "temp_range_c": "-20..40",
+    "size_mm": "104x44x39 (body), 120x70x39 with plate",
+    "addon_port": false,
+    "requires": [],
+    "extra": {
+      "max_load": "400 W incandescent / 150 W dimmable LED & CFL @120 V",
+      "model": "SNDM-0013US",
+      "loads": "incandescent, dimmable-only LED, dimmable-only CFL",
+      "features": [
+        "night mode",
+        "weekly schedules",
+        "auto on/off"
+      ],
+      "dimming_type": "not specified"
+    }
+  },
+  "gotchas": [
+    "150 W cap for dimmable LED/CFL (400 W incandescent)",
+    "Needs neutral (white N wire); 120 V US only",
+    "39 mm deep body — crowded/shallow boxes may not fit",
+    "No power metering or Zigbee/Matter listed; dimming type (leading/trailing) unspecified",
+    "No 3-way/multi-location wiring documented"
+  ],
+  "best_for": [
+    "Single-location US wall dimmer replacement with Wi-Fi control"
+  ],
+  "not_for": [
+    ">150 W LED loads",
+    "3-way circuits",
+    "no-neutral boxes"
+  ],
+  "confidence": "medium"
+}

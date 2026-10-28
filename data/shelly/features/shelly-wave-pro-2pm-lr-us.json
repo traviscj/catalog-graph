@@ -1,0 +1,88 @@
+{
+  "id": "shelly-wave-pro-2pm-lr-us",
+  "name": "Shelly Wave Pro 2PM LR US",
+  "price": 138.99,
+  "line": "Wave Pro",
+  "summary": "DIN-rail Z-Wave Long Range 2-channel metered relay, 12.5A/ch, 25A total (US 908 MHz).",
+  "jobs": [
+    {
+      "job": "zwave_mesh",
+      "role": "primary"
+    },
+    {
+      "job": "switch_load",
+      "role": "primary"
+    },
+    {
+      "job": "meter_circuit",
+      "role": "primary"
+    },
+    {
+      "job": "control_cover",
+      "role": "secondary"
+    }
+  ],
+  "f": {
+    "form_factor": "din_rail",
+    "mains_powered": true,
+    "supply": "110-240VAC 50/60Hz",
+    "dc_supply": false,
+    "battery": null,
+    "neutral_required": null,
+    "channels": 2,
+    "output_type": null,
+    "max_current_a": 12.5,
+    "max_power_w": null,
+    "dc_switching": null,
+    "power_metering": "per_channel",
+    "metering_max_a": null,
+    "dimming": null,
+    "cover_control": null,
+    "color_light": null,
+    "inputs": null,
+    "input_count": null,
+    "sensors": [],
+    "radios": [
+      "zwave",
+      "zwave_lr"
+    ],
+    "matter": false,
+    "ble_gateway": false,
+    "zwave_repeater": true,
+    "local_api": false,
+    "mqtt": false,
+    "scripting": false,
+    "ul_listed": null,
+    "protections": [
+      "overtemp",
+      "overcurrent",
+      "overvoltage"
+    ],
+    "temp_range_c": "-20..40",
+    "size_mm": "94x19x69",
+    "addon_port": false,
+    "requires": [
+      "Z-Wave controller (LR-capable for Long Range)"
+    ],
+    "extra": {
+      "total_current_a": 25,
+      "zwave_freq": "908.4 MHz (US)",
+      "tag_conflict": "store tags include Bluetooth/LAN, but specs list only Z-Wave",
+      "thin_data": "KB spec only; cover mode not confirmed in scraped data"
+    }
+  },
+  "gotchas": [
+    "Z-Wave only — needs a hub; store tags mention Bluetooth/LAN but specs show none",
+    "12.5A per channel (25A total), lower than Wi-Fi Pro relays' 16A",
+    "DIN-rail: requires a panel/enclosure",
+    "Long Range needs an LR-capable controller"
+  ],
+  "best_for": [
+    "two metered panel circuits in a Z-Wave installation"
+  ],
+  "not_for": [
+    "Wi-Fi/Ethernet users",
+    "loads >12.5A"
+  ],
+  "confidence": "medium"
+}

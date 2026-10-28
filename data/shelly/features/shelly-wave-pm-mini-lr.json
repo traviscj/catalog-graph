@@ -1,0 +1,81 @@
+{
+  "id": "shelly-wave-pm-mini-lr",
+  "name": "Shelly Wave PM Mini LR",
+  "price": 32.99,
+  "line": "Wave",
+  "summary": "Mini Z-Wave 800 inline 16 A power meter (no relay) for one circuit; needs a Z-Wave hub.",
+  "jobs": [
+    {
+      "job": "meter_circuit",
+      "role": "primary"
+    },
+    {
+      "job": "zwave_mesh",
+      "role": "primary"
+    }
+  ],
+  "f": {
+    "form_factor": "in_wall_mini",
+    "mains_powered": true,
+    "supply": "110-240VAC 50/60Hz",
+    "dc_supply": false,
+    "battery": null,
+    "neutral_required": null,
+    "channels": 1,
+    "output_type": "none",
+    "max_current_a": null,
+    "max_power_w": null,
+    "dc_switching": null,
+    "power_metering": "whole_circuit",
+    "metering_max_a": 16,
+    "dimming": null,
+    "cover_control": false,
+    "color_light": null,
+    "inputs": null,
+    "input_count": null,
+    "sensors": [],
+    "radios": [
+      "zwave"
+    ],
+    "matter": false,
+    "ble_gateway": false,
+    "zwave_repeater": true,
+    "local_api": false,
+    "mqtt": false,
+    "scripting": false,
+    "ul_listed": null,
+    "protections": [
+      "overtemp",
+      "overcurrent",
+      "overvoltage"
+    ],
+    "temp_range_c": "-20..40",
+    "size_mm": "29x35x16",
+    "addon_port": false,
+    "requires": [
+      "Z-Wave controller/hub (US 908.4 MHz)"
+    ],
+    "extra": {
+      "max_measurement_power_w": 3840,
+      "zwave_chip": "S800",
+      "frequency": "908.4 MHz",
+      "category_conflict": "product_type 'Relay Switches' and tag 'Relays & Plugs', but specs list only measurement ratings (no switching)",
+      "external_protection": "B/C breaker max 16 A",
+      "lr_note": "spec lists only 908.4 MHz mesh band"
+    }
+  },
+  "gotchas": [
+    "Meter only — no relay despite 'Relay Switches' category; can't switch the load",
+    "Needs a Z-Wave hub; no Wi-Fi",
+    "Inline 16 A / 3840 W through the module — not for panel mains",
+    "Named 'LR' but spec lists only 908.4 MHz"
+  ],
+  "best_for": [
+    "Z-Wave energy monitoring of one appliance/branch ≤16 A"
+  ],
+  "not_for": [
+    "switching",
+    "whole-home monitoring"
+  ],
+  "confidence": "medium"
+}

@@ -1,0 +1,86 @@
+{
+  "id": "shelly-pro-2pm",
+  "name": "Shelly Pro 2PM",
+  "price": 119.99,
+  "line": "Pro",
+  "summary": "DIN-rail 2-channel 16A metered relay with cover/shutter mode, LAN, Wi-Fi and BLE.",
+  "jobs": [
+    {
+      "job": "switch_load",
+      "role": "primary"
+    },
+    {
+      "job": "meter_circuit",
+      "role": "primary"
+    },
+    {
+      "job": "control_cover",
+      "role": "primary"
+    }
+  ],
+  "f": {
+    "form_factor": "din_rail",
+    "mains_powered": true,
+    "supply": "110-240VAC",
+    "dc_supply": false,
+    "battery": null,
+    "neutral_required": true,
+    "channels": 2,
+    "output_type": "dry_relay",
+    "max_current_a": 16,
+    "max_power_w": null,
+    "dc_switching": null,
+    "power_metering": "per_channel",
+    "metering_max_a": null,
+    "dimming": null,
+    "cover_control": true,
+    "color_light": null,
+    "inputs": "2 switch/button inputs (SW1, SW2)",
+    "input_count": 2,
+    "sensors": [
+      "internal_temp"
+    ],
+    "radios": [
+      "ethernet",
+      "wifi",
+      "bluetooth"
+    ],
+    "matter": null,
+    "ble_gateway": null,
+    "zwave_repeater": null,
+    "local_api": true,
+    "mqtt": true,
+    "scripting": true,
+    "ul_listed": null,
+    "protections": [
+      "overtemp",
+      "overvoltage",
+      "overcurrent",
+      "overpower"
+    ],
+    "temp_range_c": "-20..40",
+    "size_mm": "94x19x69",
+    "addon_port": true,
+    "requires": [],
+    "extra": {
+      "total_current_a": 25,
+      "relay_terminals": "separate inputs I1/I2",
+      "kb_model": "SPSW-202PE16EU (v1)",
+      "cover_modes": "detached, single/dual button/switch, safety switch"
+    }
+  },
+  "gotchas": [
+    "16A per channel but 25A total — both channels can't run at 16A simultaneously",
+    "DIN-rail: needs an enclosure with rail (not a US load center)",
+    "No UL listing stated in KB",
+    "AC-only supply; inductive loads need RC snubber"
+  ],
+  "best_for": [
+    "Roller shutter / awning motor or two metered circuits from a DIN enclosure with Ethernet"
+  ],
+  "not_for": [
+    "in-wall retrofit",
+    "two simultaneous 16A loads"
+  ],
+  "confidence": "high"
+}

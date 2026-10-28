@@ -1,0 +1,77 @@
+{
+  "id": "shelly-decoupler-120v",
+  "name": "Shelly Decoupler 120V",
+  "price": 5.99,
+  "line": "Accessory",
+  "summary": "Optocoupler that lets 120VAC switches/sensors drive low-voltage DC inputs on Plus Uni, Add-on and RGBW devices.",
+  "jobs": [
+    {
+      "job": "accessory",
+      "role": "primary"
+    },
+    {
+      "job": "diy_maker",
+      "role": "secondary"
+    },
+    {
+      "job": "input_trigger",
+      "role": "secondary"
+    }
+  ],
+  "f": {
+    "form_factor": "accessory",
+    "mains_powered": true,
+    "supply": "120VAC 60Hz (input side)",
+    "dc_supply": false,
+    "battery": null,
+    "neutral_required": true,
+    "channels": null,
+    "output_type": "none",
+    "max_current_a": null,
+    "max_power_w": null,
+    "dc_switching": null,
+    "power_metering": "none",
+    "metering_max_a": null,
+    "dimming": null,
+    "cover_control": false,
+    "color_light": null,
+    "inputs": "1 or 4 AC inputs (L) depending on variant",
+    "input_count": null,
+    "sensors": [],
+    "radios": [],
+    "matter": false,
+    "ble_gateway": false,
+    "zwave_repeater": null,
+    "local_api": false,
+    "mqtt": false,
+    "scripting": false,
+    "ul_listed": null,
+    "protections": [],
+    "temp_range_c": "0..40",
+    "size_mm": "48x13x7 (1-ch) / 44x34x7 (4-ch)",
+    "addon_port": false,
+    "requires": [
+      "Shelly Plus Uni, Plus Add-on, Plus RGBW PM or Pro RGBWW PM host"
+    ],
+    "extra": {
+      "variants": "1-Channel and 4-Channel 120V (price range $5.99-9.99)",
+      "max_output_current": "2.4mA DC (signal only)",
+      "isolation": "optocoupler",
+      "use": "connect AC-output PIR/microwave/hand-wave sensors or 120V wall switches to DC-input Shelly devices"
+    }
+  },
+  "gotchas": [
+    "Passive accessory — does nothing without a host (Plus Uni, Plus Add-on, Plus RGBW PM, Pro RGBWW PM)",
+    "Signal-level output only (2.4mA) — it cannot switch any load",
+    "120V/60Hz version; the 230V version is a different part",
+    "Operating range 0-40°C — not for unheated outdoor enclosures"
+  ],
+  "best_for": [
+    "Using existing 120V wall switches or AC motion sensors as inputs to a 12/24V LED controller"
+  ],
+  "not_for": [
+    "switching loads",
+    "use without a supported Shelly host"
+  ],
+  "confidence": "high"
+}

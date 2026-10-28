@@ -1,0 +1,74 @@
+{
+  "id": "splitter-1-to-5-3-5-mm-jack-shelly-pill",
+  "name": "Splitter 1 to 5-3.5 mm Jack（Shelly Pill)",
+  "price": 4.99,
+  "line": "Accessory",
+  "summary": "Passive 1-to-5 3.5mm splitter letting The Pill read up to five DS18B20 temperature probes.",
+  "jobs": [
+    {
+      "job": "accessory",
+      "role": "primary"
+    },
+    {
+      "job": "sense_temp_humidity",
+      "role": "secondary"
+    },
+    {
+      "job": "diy_maker",
+      "role": "secondary"
+    }
+  ],
+  "f": {
+    "form_factor": "accessory",
+    "mains_powered": false,
+    "supply": null,
+    "dc_supply": false,
+    "battery": null,
+    "neutral_required": false,
+    "channels": null,
+    "output_type": "none",
+    "max_current_a": null,
+    "max_power_w": null,
+    "dc_switching": null,
+    "power_metering": "none",
+    "metering_max_a": null,
+    "dimming": null,
+    "cover_control": false,
+    "color_light": null,
+    "inputs": "1x 3.5mm male to 5x 3.5mm receptacles",
+    "input_count": null,
+    "sensors": [],
+    "radios": [],
+    "matter": false,
+    "ble_gateway": false,
+    "zwave_repeater": null,
+    "local_api": false,
+    "mqtt": false,
+    "scripting": false,
+    "ul_listed": null,
+    "protections": [],
+    "temp_range_c": "0..40",
+    "size_mm": null,
+    "addon_port": false,
+    "requires": [
+      "The Pill by Shelly (with its 3.5mm cable adapter)",
+      "DS18B20 3.5mm jack probes"
+    ],
+    "extra": {
+      "cable_length_cm": 21,
+      "max_probes": 5
+    }
+  },
+  "gotchas": [
+    "Passive accessory — useless without The Pill by Shelly and DS18B20 3.5mm probes (sold separately)",
+    "Only for DS18B20 probes; not for DHT22 or other sensors",
+    "Rated 0-40°C — keep the splitter itself indoors even if probes go outside"
+  ],
+  "best_for": [
+    "Multi-point temperature (tank/pool/aquarium/HVAC supply-return) on one Pill"
+  ],
+  "not_for": [
+    "anything not using The Pill"
+  ],
+  "confidence": "high"
+}
